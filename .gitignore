@@ -16,3 +16,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Scraper recon scratch (HTML dumps, test downloads, cookies)
+.recon/
