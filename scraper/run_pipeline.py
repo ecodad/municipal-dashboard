@@ -45,6 +45,17 @@ from .google_download import (
     GoogleDownloadError,
     download_google_agenda,
 )
+from .parser import (
+    DEFAULT_OUTPUT_DIR as DEFAULT_MARKDOWN_DIR,
+    ParserError,
+    parse_directory,
+)
+from .synthesizer import (
+    DEFAULT_AGENDAS_JSON,
+    DEFAULT_ARCHIVE_DIR,
+    SynthesizerError,
+    synthesize_directory,
+)
 
 
 DEFAULT_DEST = Path("agendas")
@@ -357,6 +368,15 @@ def main(argv: list[str] | None = None) -> int:
             "Don't write .last_scraper_run.json into the destination directory."
         ),
     )
+    parser.add_argument(
+        "--process",
+        action="store_true",
+        help=(
+            "After downloading, run the Parser (Haiku) -> Synthesizer (Sonnet) "
+            "stages to update agendas.json and archive the PDFs. Requires "
+            "ANTHROPIC_API_KEY to be set."
+        ),
+    )
     args = parser.parse_args(argv)
 
     summary = run(
@@ -374,10 +394,52 @@ def main(argv: list[str] | None = None) -> int:
     else:
         _print_human(summary)
 
-    # Exit non-zero only if anything actually failed (not for MISSING/UNSUPPORTED,
-    # which are normal outcomes).
+    process_failed = 0
+    if args.process and not args.dry_run:
+        process_failed = _run_process_stage(
+            dest_dir=Path(args.dest), verbose=not args.json
+        )
+
+    # Exit non-zero if anything actually failed (not for MISSING/UNSUPPORTED,
+    # which are normal outcomes), or if Parser/Synthesizer hit an error.
     failed = summary.counts.get(Status.FAILED, 0)
-    return 1 if failed else 0
+    return 1 if (failed or process_failed) else 0
+
+
+def _run_process_stage(*, dest_dir: Path, verbose: bool = True) -> int:
+    """Run Parser -> Synthesizer over freshly-downloaded PDFs.
+
+    Returns 0 on success, non-zero if anything failed unrecoverably.
+    """
+    if verbose:
+        print("\n=== Stage: Parser (Haiku) ===", file=sys.stderr)
+    try:
+        parse_directory(
+            pdf_dir=dest_dir,
+            output_dir=dest_dir / "markdown",
+            skip_existing=True,
+            verbose=verbose,
+        )
+    except ParserError as err:
+        print(f"[run_pipeline] Parser stage halted: {err}", file=sys.stderr)
+        return 2
+
+    if verbose:
+        print("\n=== Stage: Synthesizer (Sonnet) ===", file=sys.stderr)
+    try:
+        synthesize_directory(
+            markdown_dir=dest_dir / "markdown",
+            pdf_dir=dest_dir,
+            archive_dir=dest_dir / "archived",
+            agendas_json=DEFAULT_AGENDAS_JSON,
+            dry_run=False,
+            verbose=verbose,
+        )
+    except SynthesizerError as err:
+        print(f"[run_pipeline] Synthesizer stage halted: {err}", file=sys.stderr)
+        return 2
+
+    return 0
 
 
 if __name__ == "__main__":

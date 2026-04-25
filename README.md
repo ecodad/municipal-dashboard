@@ -71,12 +71,23 @@ the dashboard fetches and renders in the browser.
 ### Agent team
 
 The pipeline uses two specialized Claude agents, deliberately split for cost
-and quality:
+and quality. Both are implemented as SDK-based Python modules so the pipeline
+can run unattended (cron, GitHub Actions, etc.) — they don't depend on a
+Claude Code session.
 
-- **Parser Agent** — Claude Haiku 4.5. Fast, faithful PDF→Markdown.
-  Skips legacy `.doc` files (Word 97-2003 binary) and logs them.
-- **Synthesizer Agent** — Claude Sonnet 4.6. Reads the Parser's Markdown,
-  classifies each item, and emits the canonical JSON. Then archives sources.
+- **Parser Agent** ([scraper/parser.py](scraper/parser.py)) — Claude Haiku 4.5.
+  Fast, faithful PDF→Markdown. Reads PDFs directly via the Anthropic SDK's
+  `document` content block (no third-party PDF library needed). Validates that
+  output is non-trivial; surfaces a clear error on extraction failure.
+- **Synthesizer Agent** ([scraper/synthesizer.py](scraper/synthesizer.py)) —
+  Claude Sonnet 4.6 with adaptive thinking. Reads the Parser's Markdown,
+  classifies each item, and emits the canonical JSON. Uses
+  `output_config.format` for guaranteed-valid JSON Schema output. Then
+  archives sources to `agendas/archived/`. Idempotent — meetings already
+  in `agendas.json` are skipped.
+
+**Prerequisite:** set `ANTHROPIC_API_KEY` in the environment before running
+the Parser or Synthesizer.
 
 ### Front-end
 
@@ -89,12 +100,29 @@ answers the dashboard's primary question: **"What's on the agenda this week?"**
 
 ## Running the pipeline
 
-1. Drop new `.pdf` files into `agendas/` (root, not subfolders).
-2. Run the Parser Agent (Claude Haiku) over `agendas/`.
-3. Run the Synthesizer Agent (Claude Sonnet) over `agendas/markdown/`.
-4. The Synthesizer writes a fresh `agendas.json` and moves originals +
-   Markdown into `agendas/archived/`.
-5. Commit `agendas.json` and push to `main`. GitHub Pages serves the update.
+```bash
+pip install -r requirements.txt
+export ANTHROPIC_API_KEY=sk-ant-...
+
+# End-to-end: scrape → parse → synthesize → archive
+python -m scraper.run_pipeline --process
+
+# Or each stage individually:
+python -m scraper.run_pipeline                  # Step 1+2: download new agenda PDFs
+python -m scraper.parser                        # Step 3a: PDFs → Markdown
+python -m scraper.synthesizer                   # Step 3b: Markdown → JSON, archive
+
+# Then commit and push:
+git add agendas.json agendas/archived/
+git commit -m "Update agendas $(date +%F)"
+git push origin main
+```
+
+The full pipeline produces a fresh `agendas.json` and moves the source PDFs
+plus their Markdown intermediates into `agendas/archived/`. Re-runs are
+idempotent: meetings already represented in `agendas.json` are skipped at
+the Synthesizer stage, and PDFs already in `archived/` are skipped at the
+Scraper stage.
 
 ## Known limitations
 
