@@ -22,3 +22,10 @@ venv/
 
 # Per-run scraper summary; transient, regenerated each run
 agendas/.last_scraper_run.json
+
+# Secrets — local API keys for the Parser / Synthesizer SDK calls.
+# NEVER commit a real ANTHROPIC_API_KEY. Each developer keeps their own
+# copy of .env locally; only .env.example (with placeholders) is tracked.
+.env
+.env.local
+.env.*.local

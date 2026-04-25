@@ -36,6 +36,17 @@ from typing import Optional
 
 import anthropic
 
+# Load secrets from a project-local .env file if one exists.
+# Same precedence rule as parser.py: a real OS env var wins; .env only
+# fills in when nothing useful is set. See parser.py for full rationale.
+try:
+    from dotenv import load_dotenv  # type: ignore[import-not-found]
+
+    _existing = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    load_dotenv(override=not _existing)
+except ImportError:
+    pass
+
 SYNTHESIZER_MODEL = "claude-sonnet-4-6"
 DEFAULT_AGENDAS_JSON = Path("agendas.json")
 DEFAULT_PDF_DIR = Path("agendas")
@@ -145,10 +156,12 @@ class RunSummary:
 
 
 def _client() -> anthropic.Anthropic:
-    if not os.environ.get("ANTHROPIC_API_KEY"):
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if not key or key.startswith("sk-ant-REPLACE_ME"):
         raise SynthesizerError(
-            "ANTHROPIC_API_KEY is not set. "
-            "Set it (e.g. `export ANTHROPIC_API_KEY=sk-ant-...`) before running the synthesizer."
+            "ANTHROPIC_API_KEY is not set (or still on the placeholder). "
+            "Edit .env and replace the placeholder with your real key from "
+            "https://console.anthropic.com/settings/keys"
         )
     return anthropic.Anthropic()
 
@@ -209,8 +222,14 @@ def synthesize_markdown(
             f"Synthesizer returned no text for {source_pdf_filename}; "
             "check stop_reason."
         )
+
+    # Use raw_decode rather than json.loads: even with output_config.format
+    # constraining the schema, Sonnet occasionally emits a complete JSON
+    # object and then keeps generating (commentary, a repeated block, or
+    # stray trailing tokens). raw_decode parses the FIRST valid JSON value
+    # and returns the position where it ended; we ignore everything after.
     try:
-        payload = json.loads(text)
+        payload, _end_pos = json.JSONDecoder().raw_decode(text)
     except json.JSONDecodeError as err:
         raise SynthesizerError(
             f"Synthesizer output for {source_pdf_filename} isn't valid JSON: {err}"

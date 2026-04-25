@@ -32,6 +32,25 @@ from typing import Optional
 
 import anthropic
 
+# Load secrets from a project-local .env file if one exists.
+#
+# Precedence rule: a real (non-empty) ANTHROPIC_API_KEY already set in the
+# OS environment wins; .env only fills in when nothing useful is there.
+# This handles both:
+#   (a) Users who set the key as a Windows / macOS user env var (preferred)
+#       — their OS value is respected; .env is ignored for that key.
+#   (b) Claude Code's sandboxed shells, which preset ANTHROPIC_API_KEY=""
+#       — the empty string is treated as "unset", so .env can fill it in.
+try:
+    from dotenv import load_dotenv  # type: ignore[import-not-found]
+
+    _existing = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    load_dotenv(override=not _existing)
+except ImportError:
+    # python-dotenv is optional; the SDK still works as long as
+    # ANTHROPIC_API_KEY is set some other way (shell, OS env var).
+    pass
+
 PARSER_MODEL = "claude-haiku-4-5"
 DEFAULT_PDF_DIR = Path("agendas")
 DEFAULT_OUTPUT_DIR = Path("agendas/markdown")
@@ -73,10 +92,12 @@ class ParseResult:
 
 
 def _client() -> anthropic.Anthropic:
-    if not os.environ.get("ANTHROPIC_API_KEY"):
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if not key or key.startswith("sk-ant-REPLACE_ME"):
         raise ParserError(
-            "ANTHROPIC_API_KEY is not set. "
-            "Set it (e.g. `export ANTHROPIC_API_KEY=sk-ant-...`) before running the parser."
+            "ANTHROPIC_API_KEY is not set (or still on the placeholder). "
+            "Edit .env and replace the placeholder with your real key from "
+            "https://console.anthropic.com/settings/keys"
         )
     return anthropic.Anthropic()
 

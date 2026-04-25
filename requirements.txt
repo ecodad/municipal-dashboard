@@ -1,3 +1,4 @@
 beautifulsoup4>=4.12
 requests>=2.31
 anthropic>=0.97
+python-dotenv>=1.0

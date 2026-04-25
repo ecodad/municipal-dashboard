@@ -1,13 +1,72 @@
 {
   "metadata": {
-    "processed_date": "2026-04-24",
+    "processed_date": "2026-04-25",
     "documents_processed": [
-      { "filename": "04.27.2026 MCHSBC Full Monthly.pdf", "status": "parsed", "item_count": 13 },
-      { "filename": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf", "status": "parsed", "item_count": 26 },
-      { "filename": "2026.04.28 - Committee of the Whole Meeting Agenda No Attachments.pdf", "status": "parsed", "item_count": 3 },
-      { "filename": "Agenda 04-28-2026.doc.pdf", "status": "parsed", "item_count": 6 },
-      { "filename": "April 2026 Board meeting agenda.pdf", "status": "parsed", "item_count": 23 },
-      { "filename": "Zoning Board Agenda 04 30 2026.doc.pdf", "status": "parsed", "item_count": 9 }
+      {
+        "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
+        "status": "parsed",
+        "item_count": 13
+      },
+      {
+        "filename": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf",
+        "status": "parsed",
+        "item_count": 26
+      },
+      {
+        "filename": "2026.04.28 - Committee of the Whole Meeting Agenda No Attachments.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "Agenda 04-28-2026.doc.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "April 2026 Board meeting agenda.pdf",
+        "status": "parsed",
+        "item_count": 23
+      },
+      {
+        "filename": "Zoning Board Agenda 04 30 2026.doc.pdf",
+        "status": "parsed",
+        "item_count": 9
+      },
+      {
+        "filename": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 12
+      },
+      {
+        "filename": "2026-04-28__23794__conservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-04-28__23804__city-council-committee-of-the-whole-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-04-28__23816__city-council-meeting.pdf",
+        "status": "parsed",
+        "item_count": 30
+      },
+      {
+        "filename": "2026-04-29__23817__city-council-committee-of-the-whole-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-04-30__23435__retirement-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 24
+      },
+      {
+        "filename": "2026-04-30__23793__zoning-board-of-appeals-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      }
     ]
   },
   "items": [
@@ -19,6 +78,26 @@
       "Item_Number": "1",
       "Item_Type": "Procedural",
       "Agenda_Topic": "Roll call",
+      "Source_File": "04.27.2026 MCHSBC Full Monthly.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in-person and remote via Zoom)",
+      "Item_Number": "10",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Other Upcoming Community Meetings",
+      "Source_File": "04.27.2026 MCHSBC Full Monthly.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in-person and remote via Zoom)",
+      "Item_Number": "11",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
       "Source_File": "04.27.2026 MCHSBC Full Monthly.pdf"
     },
     {
@@ -125,51 +204,511 @@
       "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
       "Meeting_Date": "2026-04-27",
       "Meeting_Time": "6:30 PM",
-      "Location": "Medford High School Library, 489 Winthrop Street (in-person and remote via Zoom)",
-      "Item_Number": "10",
-      "Item_Type": "Other",
-      "Agenda_Topic": "Other Upcoming Community Meetings",
-      "Source_File": "04.27.2026 MCHSBC Full Monthly.pdf"
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "I",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll call",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
     },
     {
       "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
       "Meeting_Date": "2026-04-27",
       "Meeting_Time": "6:30 PM",
-      "Location": "Medford High School Library, 489 Winthrop Street (in-person and remote via Zoom)",
-      "Item_Number": "11",
-      "Item_Type": "Procedural",
-      "Agenda_Topic": "Adjournment",
-      "Source_File": "04.27.2026 MCHSBC Full Monthly.pdf"
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "II",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of 4.15.26 MCHSBC Meeting Minutes",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
     },
     {
-      "Committee_Name": "Medford City Council - Committee of the Whole",
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "III",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review updates of the 6 design alternatives — Presented by SMMA",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "IV.A",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution offered by Jenny Graham and Dr. Suzanne Galusi: Be it resolved that the next round of cost estimating will provide cost estimates breakdown for parking, pool, auditorium, programs, and modular approaches",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "IV.B",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution offered by Jenny Graham: Be it resolved that the MCHSBC will adopt the following procedure to manage the more than 200 space change proposals",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "IV.C",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution offered by Mayor Breanna Lungo-Koehn, Jenny Graham, and Dr. Suzanne Galusi: Be it resolved that the MCHSBC will dedicate its 5/27 meeting to review revised cost estimates, capital needs, debt capacity, tax impact, and MSBA feedback",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "IX",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Upcoming Meetings: May 20, May 27, June 10, and June 18, 2026 MCHSBC meetings and other upcoming community meetings",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "V",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public Participation",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "VI",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Category A: Space Change Proposals Presented by the Educational Leadership Team",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "VII",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Category B: Space Change Proposals by other members of the committee that do not impede the educational plan",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "VIII",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Category C: Space Change Proposals by other members of the committee that would impede the educational plan",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-04-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street (in person and via remote participation)",
+      "Item_Number": "X",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-04-27__21238__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for a Certificate of Compliance - DEP File #215-0230 – 54 South Street – North Coast Contracting, LLC has requested a Certificate of Compliance for the redevelopment of an existing lot and single family dwelling at 54 South Street, with the construction of an addition attached to the existing single family dwelling within the 200-foot Riverfront Area (Mystic River).",
+      "Source_File": "2026-04-28__23794__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Future Projects",
+      "Source_File": "2026-04-28__23794__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Ongoing Projects",
+      "Source_File": "2026-04-28__23794__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "4",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-04-28__23794__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Proposed Regulations",
+      "Source_File": "2026-04-28__23794__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "I",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public Hearings",
+      "Source_File": "2026-04-28__23794__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
       "Meeting_Date": "2026-04-28",
       "Meeting_Time": "6:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
       "Item_Number": "1",
       "Item_Type": "Procedural",
       "Agenda_Topic": "Call to Order & Roll Call",
-      "Source_File": "2026.04.28 - Committee of the Whole Meeting Agenda No Attachments.pdf"
+      "Source_File": "2026-04-28__23804__city-council-committee-of-the-whole-meeting.pdf"
     },
     {
-      "Committee_Name": "Medford City Council - Committee of the Whole",
+      "Committee_Name": "Medford City Council",
       "Meeting_Date": "2026-04-28",
       "Meeting_Time": "6:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
       "Item_Number": "26-074",
       "Item_Type": "Discussion",
-      "Agenda_Topic": "Community Development Block Grant (CDBG) Action Plan for FY2027 (Submitted by Office of Planning, Development, and Sustainability)",
-      "Source_File": "2026.04.28 - Committee of the Whole Meeting Agenda No Attachments.pdf"
+      "Agenda_Topic": "Community Development Block Grant (CDBG) Action Plan for FY2027",
+      "Source_File": "2026-04-28__23804__city-council-committee-of-the-whole-meeting.pdf"
     },
     {
-      "Committee_Name": "Medford City Council - Committee of the Whole",
+      "Committee_Name": "Medford City Council",
       "Meeting_Date": "2026-04-28",
       "Meeting_Time": "6:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
       "Item_Number": "3",
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
-      "Source_File": "2026.04.28 - Committee of the Whole Meeting Agenda No Attachments.pdf"
+      "Source_File": "2026-04-28__23804__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "CALL TO ORDER & ROLL CALL",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "11",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "16-574",
+      "Item_Type": "Report",
+      "Agenda_Topic": "University Accountability Report (Next Report Due in November 2025)",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "SALUTE TO THE FLAG",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "22-026",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Quarterly Presentation on City's Financial Health by Chief Financial Officer/Auditor",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "22-027",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Monthly Copy of Warrant Articles from Chief Financial Officer/Auditor",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "24-031",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Request a Representative from BJ's Wholesale Club Meet to Discuss Construction and Neighborhood Concerns",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "24-033",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Planning and Permitting Committee, April 8, 2026, Report",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "24-033",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Planning and Permitting Committee, April 22, 2026, Report",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "24-354, 24-053 and 26-024",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Resident Services and Public Engagement Committee, April 14, 2026, Report",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "25-103",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Proposed Amendments to the Medford Zoning Ordinance - Other Corridors Districts (for referral to the CDB) - TABLED",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "25-189",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Committee of the Whole, April 14, 2026, Report",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "25-189",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Amendment to Chapter 2, Article V, Division 2 - Medford Standard Compensation Ordinance",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-003",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Appointment of a City Messenger for 2026 and 2027 - TABLED",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-023",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Proposed Amendments to the Medford Zoning Ordinance, Chapter 94 (Medford Square District)",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-061",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Committee of the Whole, April 21, 2026, Report",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-066",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Committee of the Whole, April 7, 2026, Report to Follow",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-075",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution to Commemorate the Life of Judy Kaplan",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-076",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution to Celebrate Medford Youth Volunteers for Mass Coalition for the Homeless \"A Bed for Every Child\" Program",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-077",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution to File a Public Records Request for Comprehensive Litigation Report Due to Administration's Failure to Respond to Resolution 26-043",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-078",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution to Update Council on 2026 Common Victualler License Process",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-079",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Capital Stabilization Fund Appropriation Request (Missituk and Brooks MSBA Accelerated Repair) and MSBA Projects Update",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-080",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Capital Stabilization Fund Appropriation Request - Medford Public Schools Capital Improvements Plan",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-081",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "FY25 Prior Year Unpaid Bills (Medford Public Schools)",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-082",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "FY27 Community Preservation Act Budget Reserve",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-083",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "FY26 CPA Appropriation Request - Tufts Park Garden Expansion",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-084",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Amendments to Personnel Ordinance - Director of Elections; Director of Diversity, Equity and Inclusion; Director of Veterans' Services",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-085",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Litigation Settlement - SubroIQ-Norfolk & Dedham a/s/o Jadine Bernadin for $2,500",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "The Tabled Records of the Meeting of March 24, 2026; Records of the Meeting of April 7, 2026; Records of the Special Meeting of April 14, 2026",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "8",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "PUBLIC PARTICIPATION",
+      "Source_File": "2026-04-28__23816__city-council-meeting.pdf"
     },
     {
       "Committee_Name": "Medford City Council Regular Meeting",
@@ -196,99 +735,9 @@
       "Meeting_Date": "2026-04-28",
       "Meeting_Time": "7:00 PM",
       "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
-      "Item_Number": "26-075",
-      "Item_Type": "Resolution",
-      "Agenda_Topic": "Resolution to Commemorate the Life of Judy Kaplan (Offered by Matt Leming, City Councilor, Isaac Bears, Council President)",
-      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
-    },
-    {
-      "Committee_Name": "Medford City Council Regular Meeting",
-      "Meeting_Date": "2026-04-28",
-      "Meeting_Time": "7:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
-      "Item_Number": "26-076",
-      "Item_Type": "Resolution",
-      "Agenda_Topic": "Resolution to Celebrate Medford Youth Volunteers for Mass Coalition for the Homeless \"A Bed for Every Child\" Program (Offered by Isaac Bears, Council President)",
-      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
-    },
-    {
-      "Committee_Name": "Medford City Council Regular Meeting",
-      "Meeting_Date": "2026-04-28",
-      "Meeting_Time": "7:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
-      "Item_Number": "3.3",
-      "Item_Type": "Approval/Minutes",
-      "Agenda_Topic": "Tabled Records of the Meeting of March 24, 2026 (passed to Vice President Lazzaro)",
-      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
-    },
-    {
-      "Committee_Name": "Medford City Council Regular Meeting",
-      "Meeting_Date": "2026-04-28",
-      "Meeting_Time": "7:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
-      "Item_Number": "3.4",
-      "Item_Type": "Approval/Minutes",
-      "Agenda_Topic": "Records of the Meeting of April 7, 2026 (passed to Councilor Leming)",
-      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
-    },
-    {
-      "Committee_Name": "Medford City Council Regular Meeting",
-      "Meeting_Date": "2026-04-28",
-      "Meeting_Time": "7:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
-      "Item_Number": "3.5",
-      "Item_Type": "Approval/Minutes",
-      "Agenda_Topic": "Records of the Special Meeting of April 14, 2026 (passed to Councilor Mullane)",
-      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
-    },
-    {
-      "Committee_Name": "Medford City Council Regular Meeting",
-      "Meeting_Date": "2026-04-28",
-      "Meeting_Time": "7:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
-      "Item_Number": "26-066",
-      "Item_Type": "Report",
-      "Agenda_Topic": "Committee of the Whole, April 7, 2026 (Offered by Isaac Bears, Council President)",
-      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
-    },
-    {
-      "Committee_Name": "Medford City Council Regular Meeting",
-      "Meeting_Date": "2026-04-28",
-      "Meeting_Time": "7:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
       "Item_Number": "24-033",
       "Item_Type": "Report",
       "Agenda_Topic": "Planning and Permitting Committee, April 8, 2026 (Offered by Matt Leming, City Councilor)",
-      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
-    },
-    {
-      "Committee_Name": "Medford City Council Regular Meeting",
-      "Meeting_Date": "2026-04-28",
-      "Meeting_Time": "7:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
-      "Item_Number": "25-189",
-      "Item_Type": "Report",
-      "Agenda_Topic": "Committee of the Whole, April 14, 2026 (Offered by Isaac Bears, Council President)",
-      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
-    },
-    {
-      "Committee_Name": "Medford City Council Regular Meeting",
-      "Meeting_Date": "2026-04-28",
-      "Meeting_Time": "7:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
-      "Item_Number": "24-354",
-      "Item_Type": "Report",
-      "Agenda_Topic": "Resident Services and Public Engagement Committee, April 14, 2026 (Offered by Liz Mullane, City Councilor)",
-      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
-    },
-    {
-      "Committee_Name": "Medford City Council Regular Meeting",
-      "Meeting_Date": "2026-04-28",
-      "Meeting_Time": "7:00 PM",
-      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
-      "Item_Number": "26-061",
-      "Item_Type": "Report",
-      "Agenda_Topic": "Committee of the Whole, April 21, 2026 (Offered by Isaac Bears, Council President)",
       "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
     },
     {
@@ -306,9 +755,19 @@
       "Meeting_Date": "2026-04-28",
       "Meeting_Time": "7:00 PM",
       "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
-      "Item_Number": "26-023",
-      "Item_Type": "Ordinance",
-      "Agenda_Topic": "Proposed Amendments to the Medford Zoning Ordinance, Chapter 94 (Medford Square District) (Offered by Matt Leming, City Councilor)",
+      "Item_Number": "24-354",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Resident Services and Public Engagement Committee, April 14, 2026 (Offered by Liz Mullane, City Councilor)",
+      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council Regular Meeting",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "25-189",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Committee of the Whole, April 14, 2026 (Offered by Isaac Bears, Council President)",
       "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
     },
     {
@@ -319,6 +778,56 @@
       "Item_Number": "25-189",
       "Item_Type": "Ordinance",
       "Agenda_Topic": "Amendment to Chapter 2, Article V, Division 2 - Medford Standard Compensation Ordinance (Offered by Isaac Bears, Council President)",
+      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council Regular Meeting",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "26-023",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Proposed Amendments to the Medford Zoning Ordinance, Chapter 94 (Medford Square District) (Offered by Matt Leming, City Councilor)",
+      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council Regular Meeting",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "26-061",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Committee of the Whole, April 21, 2026 (Offered by Isaac Bears, Council President)",
+      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council Regular Meeting",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "26-066",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Committee of the Whole, April 7, 2026 (Offered by Isaac Bears, Council President)",
+      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council Regular Meeting",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "26-075",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution to Commemorate the Life of Judy Kaplan (Offered by Matt Leming, City Councilor, Isaac Bears, Council President)",
+      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council Regular Meeting",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "26-076",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution to Celebrate Medford Youth Volunteers for Mass Coalition for the Homeless \"A Bed for Every Child\" Program (Offered by Isaac Bears, Council President)",
       "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
     },
     {
@@ -416,6 +925,36 @@
       "Meeting_Date": "2026-04-28",
       "Meeting_Time": "7:00 PM",
       "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "3.3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Tabled Records of the Meeting of March 24, 2026 (passed to Vice President Lazzaro)",
+      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council Regular Meeting",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "3.4",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Records of the Meeting of April 7, 2026 (passed to Councilor Leming)",
+      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council Regular Meeting",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "3.5",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Records of the Special Meeting of April 14, 2026 (passed to Councilor Mullane)",
+      "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council Regular Meeting",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
       "Item_Number": "7",
       "Item_Type": "Procedural",
       "Agenda_Topic": "Public Participation",
@@ -430,6 +969,36 @@
       "Item_Type": "Other",
       "Agenda_Topic": "Unfinished Business",
       "Source_File": "2026.04.28 - City Council Regular Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council - Committee of the Whole",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order & Roll Call",
+      "Source_File": "2026.04.28 - Committee of the Whole Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council - Committee of the Whole",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "26-074",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Community Development Block Grant (CDBG) Action Plan for FY2027 (Submitted by Office of Planning, Development, and Sustainability)",
+      "Source_File": "2026.04.28 - Committee of the Whole Meeting Agenda No Attachments.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council - Committee of the Whole",
+      "Meeting_Date": "2026-04-28",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA (in-person and via Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026.04.28 - Committee of the Whole Meeting Agenda No Attachments.pdf"
     },
     {
       "Committee_Name": "City of Medford - Conservation Commission",
@@ -492,6 +1061,36 @@
       "Source_File": "Agenda 04-28-2026.doc.pdf"
     },
     {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order & Roll Call",
+      "Source_File": "2026-04-29__23817__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-061",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Annual Budget Process for FY2027 - Preliminary Budget Meeting #2",
+      "Source_File": "2026-04-29__23817__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-04-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-04-29__23817__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford Retirement Board",
       "Meeting_Date": "2026-04-30",
       "Meeting_Time": "9:30 AM",
@@ -499,7 +1098,107 @@
       "Item_Number": "1",
       "Item_Type": "Vote",
       "Agenda_Topic": "Minutes from the meeting of 3/31/2026",
-      "Source_File": "April 2026 Board meeting agenda.pdf"
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "10",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Refunds to Members",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "11",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PERAC memos and correspondence",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "12",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Eligible Positions for Membership",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "13",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Applications for Membership",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "14",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Investment statements and fees",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "15",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Department requests and correspondence",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "16",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "NEPC Investment Performance Review and Investment Recommendations",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "17",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Monthly cash books",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "18",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Meeting with Members and Retirees",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "19",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Meeting with Vendors and Money Managers",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
     },
     {
       "Committee_Name": "Medford Retirement Board",
@@ -509,7 +1208,57 @@
       "Item_Number": "2",
       "Item_Type": "Vote",
       "Agenda_Topic": "Monthly Expense Warrants",
-      "Source_File": "April 2026 Board meeting agenda.pdf"
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "20",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Review of PERAC Memos",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "21",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public and Private Hearings as needed",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "21",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public and Private Hearings as needed",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "22",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Hearings as needed for Disability, Involuntary Retirements, Death Benefits, Forfeiture, 91A and 91B Excess Earning Hearings",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "23",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Review of RFP responses for International Money Manager",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
     },
     {
       "Committee_Name": "Medford Retirement Board",
@@ -519,7 +1268,7 @@
       "Item_Number": "3",
       "Item_Type": "Vote",
       "Agenda_Topic": "Superannuation Retirements",
-      "Source_File": "April 2026 Board meeting agenda.pdf"
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
     },
     {
       "Committee_Name": "Medford Retirement Board",
@@ -529,7 +1278,7 @@
       "Item_Number": "4",
       "Item_Type": "Vote",
       "Agenda_Topic": "Disability Retirements",
-      "Source_File": "April 2026 Board meeting agenda.pdf"
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
     },
     {
       "Committee_Name": "Medford Retirement Board",
@@ -539,7 +1288,7 @@
       "Item_Number": "5",
       "Item_Type": "Vote",
       "Agenda_Topic": "Cash transfers",
-      "Source_File": "April 2026 Board meeting agenda.pdf"
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
     },
     {
       "Committee_Name": "Medford Retirement Board",
@@ -549,7 +1298,7 @@
       "Item_Number": "6",
       "Item_Type": "Vote",
       "Agenda_Topic": "PRIT Fund Payment and Distribution Letters",
-      "Source_File": "April 2026 Board meeting agenda.pdf"
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
     },
     {
       "Committee_Name": "Medford Retirement Board",
@@ -559,7 +1308,7 @@
       "Item_Number": "7",
       "Item_Type": "Vote",
       "Agenda_Topic": "PRIT Fund Confirmation Letters",
-      "Source_File": "April 2026 Board meeting agenda.pdf"
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
     },
     {
       "Committee_Name": "Medford Retirement Board",
@@ -569,7 +1318,7 @@
       "Item_Number": "8",
       "Item_Type": "Vote",
       "Agenda_Topic": "Makeups, Buybacks, Redeposits, and Military Service Purchases",
-      "Source_File": "April 2026 Board meeting agenda.pdf"
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
     },
     {
       "Committee_Name": "Medford Retirement Board",
@@ -579,6 +1328,86 @@
       "Item_Number": "9",
       "Item_Type": "Vote",
       "Agenda_Topic": "Transfers to other Systems",
+      "Source_File": "2026-04-30__23435__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "D",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Items not reasonably Anticipated by the Chair 48 hours in advance of Meeting",
+      "Source_File": "2026-04-30__23793__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "E",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Administrative Updates including Approval of Meeting Minutes and Discussion of Rules",
+      "Source_File": "2026-04-30__23793__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "F",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-04-30__23793__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "ZON26-000004",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "91 Watervale Road, Case#(ZON26-000004). Applicants Patricia Wilder and Paulo Wilder for an Administrative Appeal of a Notice of Violation regarding the operation of business at 91 Watervale Road which is not allowed use in a Single Family Two Zoning District per the City of Medford Zoning Ordinance.",
+      "Source_File": "2026-04-30__23793__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "ZON26-000008",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "64 Boynton Road, Case#(ZON26-000008). Applicants Stuart Peloquin and Jessica Willhoft to build an addition at 64 Boynton Road within the Rear Yard Setback which is not allowed per the City of Medford Zoning Ordinance, Chapter 94, Table B – Table of Dimensional Requirements.",
+      "Source_File": "2026-04-30__23793__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "ZON26-000009&10",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "41 Yale Street, Case#(ZON26-000009&10). Applicants Rebecca Schrot and John Halpin to allow the recently constructed addition at 41 Yale Street which will require a Special Permit to alter and extend the pre-existing, nonconforming side yard setbacks, per the City of Medford Zoning Ordinance, Section 94-5.3.1.1 and require a Variance for adding creating a third story at 141 Walsh Street which is not allowed per the City of Medford Zoning Ordinance, Chapter 94, Table B - Table of Dimensional Requirements 1 (b).",
+      "Source_File": "2026-04-30__23793__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "ZON26-000012",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "9 Sturges Street, Case#(ZON26-000012). Applicant and Owner, Mary Lee to build an addition at 9 Sturges Street which will extend an existing non-conforming structure thus requiring a Special Permit per the City of Medford Zoning Ordinance, Chapter 94-5.3.1.1.",
+      "Source_File": "2026-04-30__23793__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Minutes from the meeting of 3/31/2026",
       "Source_File": "April 2026 Board meeting agenda.pdf"
     },
     {
@@ -686,6 +1515,16 @@
       "Meeting_Date": "2026-04-30",
       "Meeting_Time": "9:30 AM",
       "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Monthly Expense Warrants",
+      "Source_File": "April 2026 Board meeting agenda.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
       "Item_Number": "20",
       "Item_Type": "Report",
       "Agenda_Topic": "Review of PERAC Memos",
@@ -722,6 +1561,76 @@
       "Source_File": "April 2026 Board meeting agenda.pdf"
     },
     {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Superannuation Retirements",
+      "Source_File": "April 2026 Board meeting agenda.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Disability Retirements",
+      "Source_File": "April 2026 Board meeting agenda.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "5",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Cash transfers",
+      "Source_File": "April 2026 Board meeting agenda.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "6",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PRIT Fund Payment and Distribution Letters",
+      "Source_File": "April 2026 Board meeting agenda.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "7",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PRIT Fund Confirmation Letters",
+      "Source_File": "April 2026 Board meeting agenda.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "8",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Makeups, Buybacks, Redeposits, and Military Service Purchases",
+      "Source_File": "April 2026 Board meeting agenda.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "9",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Transfers to other Systems",
+      "Source_File": "April 2026 Board meeting agenda.pdf"
+    },
+    {
       "Committee_Name": "City of Medford - Zoning Board of Appeals",
       "Meeting_Date": "2026-04-30",
       "Meeting_Time": "6:30 PM",
@@ -729,46 +1638,6 @@
       "Item_Number": "1",
       "Item_Type": "Public Hearing",
       "Agenda_Topic": "Public Hearings",
-      "Source_File": "Zoning Board Agenda 04 30 2026.doc.pdf"
-    },
-    {
-      "Committee_Name": "City of Medford - Zoning Board of Appeals",
-      "Meeting_Date": "2026-04-30",
-      "Meeting_Time": "6:30 PM",
-      "Location": "Remote via Zoom",
-      "Item_Number": "Case #ZON26-000004",
-      "Item_Type": "Public Hearing",
-      "Agenda_Topic": "Case #ZON26-000004: 91 Watervale Road - Administrative Appeal of Notice of Violation regarding operation of business (not allowed use in Single Family Two Zoning District) (Applicants: Patricia Wilder and Paulo Wilder)",
-      "Source_File": "Zoning Board Agenda 04 30 2026.doc.pdf"
-    },
-    {
-      "Committee_Name": "City of Medford - Zoning Board of Appeals",
-      "Meeting_Date": "2026-04-30",
-      "Meeting_Time": "6:30 PM",
-      "Location": "Remote via Zoom",
-      "Item_Number": "Case #ZON26-000008",
-      "Item_Type": "Public Hearing",
-      "Agenda_Topic": "Case #ZON26-000008: 64 Boynton Road - Build addition within Rear Yard Setback (not allowed per Chapter 94, Table B) (Applicants: Stuart Peloquin and Jessica Willhoft)",
-      "Source_File": "Zoning Board Agenda 04 30 2026.doc.pdf"
-    },
-    {
-      "Committee_Name": "City of Medford - Zoning Board of Appeals",
-      "Meeting_Date": "2026-04-30",
-      "Meeting_Time": "6:30 PM",
-      "Location": "Remote via Zoom",
-      "Item_Number": "Case #ZON26-000009",
-      "Item_Type": "Public Hearing",
-      "Agenda_Topic": "Case #ZON26-000009 & ZON26-000010: 41 Yale Street - Special Permit to alter and extend pre-existing, nonconforming side yard setbacks; Variance for third story addition (not allowed per Chapter 94, Table B) (Applicants: Rebecca Schrot and John Halpin)",
-      "Source_File": "Zoning Board Agenda 04 30 2026.doc.pdf"
-    },
-    {
-      "Committee_Name": "City of Medford - Zoning Board of Appeals",
-      "Meeting_Date": "2026-04-30",
-      "Meeting_Time": "6:30 PM",
-      "Location": "Remote via Zoom",
-      "Item_Number": "Case #ZON26-000012",
-      "Item_Type": "Public Hearing",
-      "Agenda_Topic": "Case #ZON26-000012: 9 Sturges Street - Build addition extending existing non-conforming structure (requires Special Permit per Chapter 94-5.3.1.1) (Applicant and Owner: Mary Lee)",
       "Source_File": "Zoning Board Agenda 04 30 2026.doc.pdf"
     },
     {
@@ -809,6 +1678,46 @@
       "Item_Number": "5",
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
+      "Source_File": "Zoning Board Agenda 04 30 2026.doc.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford - Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "Case #ZON26-000004",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Case #ZON26-000004: 91 Watervale Road - Administrative Appeal of Notice of Violation regarding operation of business (not allowed use in Single Family Two Zoning District) (Applicants: Patricia Wilder and Paulo Wilder)",
+      "Source_File": "Zoning Board Agenda 04 30 2026.doc.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford - Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "Case #ZON26-000008",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Case #ZON26-000008: 64 Boynton Road - Build addition within Rear Yard Setback (not allowed per Chapter 94, Table B) (Applicants: Stuart Peloquin and Jessica Willhoft)",
+      "Source_File": "Zoning Board Agenda 04 30 2026.doc.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford - Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "Case #ZON26-000009",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Case #ZON26-000009 & ZON26-000010: 41 Yale Street - Special Permit to alter and extend pre-existing, nonconforming side yard setbacks; Variance for third story addition (not allowed per Chapter 94, Table B) (Applicants: Rebecca Schrot and John Halpin)",
+      "Source_File": "Zoning Board Agenda 04 30 2026.doc.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford - Zoning Board of Appeals",
+      "Meeting_Date": "2026-04-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "Case #ZON26-000012",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Case #ZON26-000012: 9 Sturges Street - Build addition extending existing non-conforming structure (requires Special Permit per Chapter 94-5.3.1.1) (Applicant and Owner: Mary Lee)",
       "Source_File": "Zoning Board Agenda 04 30 2026.doc.pdf"
     }
   ]
