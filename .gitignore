@@ -1,0 +1,12 @@
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local Claude harness state (not part of the project artifact)
+.claude/
+
+# Temp / scratch
+*.tmp
+*.bak
