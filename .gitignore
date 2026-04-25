@@ -10,3 +10,9 @@ Thumbs.db
 # Temp / scratch
 *.tmp
 *.bak
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
