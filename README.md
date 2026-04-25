@@ -119,6 +119,13 @@ answers the dashboard's primary question: **"What's on the agenda this week?"**
   without human intervention.
 - [ ] **`.docx` parsing path** — formalize support so authors can drop
   Word files alongside PDFs.
+- [ ] **Google Doc → Markdown direct export** — Google Docs can export
+  natively to Markdown via `?format=md` (or `?format=txt` for plain
+  text). For Google Doc agendas specifically this would skip the entire
+  "PDF → Markdown" parser step, save tokens, and likely produce cleaner
+  structured content. Currently the `google_download.py` module always
+  fetches `format=pdf` for parity with the existing Parser pipeline.
+  Worth exploring once the rest of the scraper is wired up end-to-end.
 - [ ] **Item de-duplication across meetings** — the same `26-074` item
   may appear in both a Committee of the Whole agenda and a Council
   Regular agenda; dedupe with a stable per-item key.

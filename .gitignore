@@ -19,3 +19,6 @@ venv/
 
 # Scraper recon scratch (HTML dumps, test downloads, cookies)
 .recon/
+
+# Per-run scraper summary; transient, regenerated each run
+agendas/.last_scraper_run.json
