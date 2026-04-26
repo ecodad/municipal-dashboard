@@ -50,6 +50,76 @@ fields per item).
 
 ## 📋 Pending features
 
+- **Multi-municipality support — make the scraper fork-friendly so other
+  cities can spin up their own dashboards.** The user wants any
+  contributor in a different municipality to fork the repo, drop in
+  their own config, add their API key, and get their own running
+  dashboard. Other cities likely use very similar civic-tech stacks
+  (Somerville, MA was specifically mentioned; many MA municipalities
+  run Finalsite + CivicClerk + Google Doc/Drive, the same combination
+  Medford does).
+
+  **What's currently Medford-specific** (would need to become
+  config-driven):
+  - `scraper/calendar_scrape.py` — `MEDFORD_CALENDAR_ELEMENT = 6730`,
+    `medfordma.org` host, AJAX URL template
+  - `scraper/event_detail_scrape.py` — `medfordma.org` detail URL
+    pattern (the `~occur-id/{N}` shape itself is Finalsite-generic)
+  - `scraper/civicclerk_download.py` — `medfordma.api.civicclerk.com`
+    and `medfordma.portal.civicclerk.com` subdomains
+  - `index.html` — City of Medford branding (navy `#25347a`, official
+    seal image URL, Merriweather + Lato, calendar-CTA link, page title)
+
+  **Suggested approach:**
+  1. Introduce a `MunicipalityConfig` dataclass (or `municipalities/{slug}.yaml`)
+     with fields like `name`, `slug`, `timezone`, `events_calendar_url`,
+     `finalsite_element_id` (nullable — not all cities use Finalsite),
+     `civicclerk_subdomain` (nullable), `title_filter`, and a
+     `branding` block (primary color, accent color, logo URL, font
+     stack, page title, calendar-link URL).
+  2. Refactor each scraper module to accept a config object instead of
+     reading module-level constants. Same for the dashboard's branding
+     variables.
+  3. Add a `municipalities/` directory with one config per city. Start
+     with `municipalities/medford-ma.yaml` extracted from the current
+     constants so the existing pipeline keeps producing identical
+     output.
+  4. Introduce a thin platform-adapter interface for the calendar
+     source. Today everything assumes Finalsite. Other cities might use
+     **Granicus**, **Legistar**, or **BoardDocs** — design the calendar
+     fetcher as an interface so a `GranicusAdapter` could slot in
+     without touching the rest of the pipeline.
+  5. Same adapter pattern for the agenda-host downloaders. CivicClerk
+     and Google Doc/Drive cover Medford; other tenants might use
+     Granicus PDFs, Legistar, etc. Keep dispatch keyed on the
+     `agenda_type` enum and add new enum values as needed.
+  6. Make the GitHub Actions workflow either auto-pick the config from
+     a single committed `MUNICIPALITY_SLUG` env var, or allow the
+     workflow to receive the slug as a `workflow_dispatch` input so a
+     single repo could in principle handle multiple cities (though the
+     simpler model is one fork per city).
+  7. Write a new `MUNICIPALITY_SETUP.md` walking a new contributor
+     through: identify which platforms the target city uses, derive
+     element IDs / URL patterns (recipes for the recon process —
+     similar shape to what's already in `TARGET_SITES.md` but
+     instructional), swap dashboard branding, set up GitHub Pages,
+     add the API key secret, run the first sync.
+
+  **Candidate target cities to consider while designing** (so the
+  abstraction is sized for real variation, not just a one-off):
+  - Somerville, MA — explicitly mentioned by user; likely Finalsite +
+    CivicClerk, similar to Medford
+  - Cambridge, MA — Granicus stack (would force the adapter pattern)
+  - Boston, MA — Granicus, much higher meeting volume
+  - Other Massachusetts municipalities running Finalsite (a large set)
+
+  **Out of scope for this item:** packaging as a `pip` CLI, hosting a
+  multi-tenant deployment ourselves, or any kind of billing. The
+  deliverable is *"a fork-friendly template that works for the next
+  contributor's city without forking the actual scraping logic."*
+
+
+
 - **Step 4 — Schedule the pipeline.** Wire the full
   `scrape → parse → synthesize → archive → commit → push` chain into
   a recurring job. Two viable hosts: GitHub Actions cron (free, simple,
