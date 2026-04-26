@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-04-25 (after first end-to-end production run + doc-system wired)
+**Last updated:** 2026-04-25 (after README reconciliation)
 
 ## What this project is
 
@@ -34,13 +34,13 @@ Claude Haiku, classifies items with Claude Sonnet, and writes a single
 
 ## Active workstream
 
-Nothing in flight right now. After committing the doc-system shipping
-work, the next item from the `TODO.md` priority queue is to reconcile
-`README.md` with the new companion docs (trim what's now duplicated,
-add a "Project documentation" index pointing at MEMORY/ARCHITECTURE/
-TARGET_SITES/AGENTS/TODO).
+Nothing in flight right now. The next item from the `TODO.md` priority
+queue is wiring the dashboard to render the new schema fields
+(`agenda_url`, `agenda_type`, `location`, `zoom_url`, `livestream_url`).
+That requires a schema decision first — see TODO.md "Pending features →
+Dashboard schema upgrade" for Option A vs B.
 
-## Resolved this session — first production run + doc system
+## Resolved this session — first production run + doc system + README
 
 - 7 meetings (4/27–4/30) scraped, parsed, synthesized, and archived.
   `agendas.json` grew 80 → 165 items.
@@ -54,10 +54,16 @@ TARGET_SITES/AGENTS/TODO).
   (no `.env` file on disk). Code now uses smart-override `load_dotenv`
   so an OS-provided non-empty key wins, and Claude Code's empty-string
   sandbox default is treated as "unset".
-- Persistent doc system shipped (this commit): hook script
+- Persistent doc system shipped (commit `05eb1c1`): hook script
   `.claude/hooks/doc-context-hook.sh` + `.claude/settings.json`
   (project-shared) inject doc-purpose definitions and continuous-update
   rules at SessionStart, plus a PreCompact reminder.
+- README reconciliation (this commit): README trimmed from 168 → 101
+  lines. Public-facing project overview only — what it is, the live
+  site, the operational run commands, and a "Project documentation"
+  index pointing at the five companion docs. Architectural detail,
+  agent contracts, target-site quirks, full data schema, and the
+  roadmap all delegated to their respective companion files.
 
 ## Recent key decisions
 
@@ -74,6 +80,7 @@ TARGET_SITES/AGENTS/TODO).
 
 ## Recent commits (most recent first)
 
+- `05eb1c1` — Make project doc system available to all contributors (promoted hooks + script from gitignored local config to committed project-shared config)
 - `bfcb6a2` — First production pipeline run + persistent docs + bug fixes (78 new items, 5 doc files, smart-override .env, raw_decode JSON, .env.example)
 - `a1e8e58` — Add Step 3: SDK-based Parser and Synthesizer modules
 - `a5f2c18` — Add scraper step 2e: end-to-end pipeline orchestrator

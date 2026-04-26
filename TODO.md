@@ -6,37 +6,43 @@
 
 ## 🔥 Priority queue (do these first, in order)
 
-### 1. Reconcile README.md with the new docs
-
-Now that the project context is split across `MEMORY.md`,
-`ARCHITECTURE.md`, `TARGET_SITES.md`, `AGENTS.md`, and `TODO.md`:
-
-- Review the current `README.md` end-to-end and identify content that
-  has been superseded or duplicated by the new files.
-- Trim the README to a public-facing project overview (what it is, how
-  to run it, where the live site lives).
-- Add a "Project documentation" section with a one-line description and
-  link for each of the five companion `.md` files.
-- Reference `ARCHITECTURE.md` from the README's architecture section
-  instead of duplicating the diagram and module table.
-
-### 2. Wire the dashboard to render the new schema fields
+### 1. Wire the dashboard to render the new schema fields
 
 The scraper now collects per-meeting `agenda_url`, `agenda_type`,
 `location`, `zoom_url`, and `livestream_url` — but they don't yet flow
 into `agendas.json` (the Synthesizer doesn't see them) and aren't shown
 in `index.html`. See "Pending features → Dashboard schema upgrade"
-below for the design choice.
+below for the design choice (Option A: meetings array; Option B: repeat
+fields per item).
+
+### 2. Schedule the pipeline
+
+Step 4 of the original plan. Wire the
+`scrape → parse → synthesize → archive → commit → push` chain into a
+recurring job. Two viable hosts:
+  - **GitHub Actions cron** — free, reliable, needs `ANTHROPIC_API_KEY`
+    as a repo secret.
+  - **Local Windows Task Scheduler** — no cloud secret, but only runs
+    when the machine is on.
+
+Recommend GitHub Actions for reliability.
 
 ## ✅ Recently done (kept here briefly so future sessions can see what shipped)
 
-- **Document the documentation system** (commit pending). The persistent
-  Markdown docs (`MEMORY.md` / `ARCHITECTURE.md` / `TARGET_SITES.md` /
-  `AGENTS.md` / `TODO.md`) are now reinforced by a SessionStart hook
-  (`.claude/hooks/doc-context-hook.sh`) wired in `.claude/settings.json`
-  (project-shared, committed). Hook injects file-purpose definitions and
-  continuous-update rules at every session start. PreCompact hook
-  reminds Claude to refresh `MEMORY.md` / `TODO.md` before compaction.
+- **Reconcile README.md with the new docs** (this commit). README trimmed
+  from 168 → 101 lines. Now public-facing only: project pitch, live
+  site, operational run commands, dashboard description, "Project
+  documentation" index linking to MEMORY/TODO/ARCHITECTURE/
+  TARGET_SITES/AGENTS, known limitations. Architectural diagram, full
+  data schema, agent team contract, and roadmap moved to their
+  respective companion files.
+- **Document the documentation system** (commit `05eb1c1`). The
+  persistent Markdown docs are now reinforced by a SessionStart hook
+  (`.claude/hooks/doc-context-hook.sh`) wired in
+  `.claude/settings.json` (project-shared, committed). Hook injects
+  file-purpose definitions and continuous-update rules at every session
+  start. PreCompact hook reminds Claude to refresh `MEMORY.md` /
+  `TODO.md` before compaction.
 - **Finish the API-key handoff** (commit `bfcb6a2`). New key set as
   Windows user env var; smart-override `.env` loader now respects
   existing OS env vars and only fills from `.env` when the OS value is
