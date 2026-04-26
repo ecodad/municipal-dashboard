@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-04-25 (mid-session; pipeline mid-deployment)
+**Last updated:** 2026-04-25 (after first end-to-end production run + doc-system wired)
 
 ## What this project is
 
@@ -27,45 +27,37 @@ Claude Haiku, classifies items with Claude Sonnet, and writes a single
 **Step 2e (orchestrator):** ✅ Shipped — `scraper/run_pipeline.py`. Idempotent via `__{occur_id}__` filename pattern.
 **Step 3a (Parser agent, SDK-based):** ✅ Shipped — `scraper/parser.py`. Claude Haiku 4.5 via Anthropic SDK; reads PDFs via `document` content block.
 **Step 3b (Synthesizer agent, SDK-based):** ✅ Shipped — `scraper/synthesizer.py`. Claude Sonnet 4.6, adaptive thinking, `output_config.format` JSON Schema.
-**API key management:** ⏳ In progress. See "Active workstream" below.
+**API key management:** ✅ Resolved — Windows user env var route, smart-override `.env` loader landed in `bfcb6a2`. User runs the pipeline from PowerShell outside Claude Code.
+**Persistent doc system:** ✅ Wired — `MEMORY.md`, `ARCHITECTURE.md`, `TARGET_SITES.md`, `AGENTS.md`, `TODO.md` shipped in `bfcb6a2`. SessionStart + PreCompact hooks in `.claude/settings.json` (project-shared) reinforce reading + updating these docs every session.
 **Step 4 (scheduling):** ⏳ Not started.
 **Dashboard refresh** (incorporate `agenda_url`/`agenda_type`/`location`/`zoom_url` from new schema): ⏳ Not started.
 
-## Active workstream — `.env` / API key handling
+## Active workstream
 
-User rotated their Anthropic API key after a key value leaked into the
-session transcript via Claude Code's file-watch system-reminder when
-`.env` was edited. We agreed to:
+Nothing in flight right now. After committing the doc-system shipping
+work, the next item from the `TODO.md` priority queue is to reconcile
+`README.md` with the new companion docs (trim what's now duplicated,
+add a "Project documentation" index pointing at MEMORY/ARCHITECTURE/
+TARGET_SITES/AGENTS/TODO).
 
-1. ✅ Move the real key to a **Windows user environment variable**
-   (Settings → Environment Variables) instead of `.env`. The user has
-   set the new key.
-2. ⏳ User to fully quit + relaunch Claude Desktop (from the system tray,
-   not just close the window) so the new env var is inherited by any
-   shells spawned from this session.
-3. ⏳ I need to make a small code change so OS env vars take precedence
-   over `.env`: switch `load_dotenv(override=True)` to a "smart override"
-   that only overrides when the existing value is empty/whitespace. This
-   is needed in **both** `scraper/parser.py` and `scraper/synthesizer.py`.
-4. ⏳ Verify the new key is visible (without printing it) via something
-   like `python -c "import os; print(bool(os.environ.get('ANTHROPIC_API_KEY')))"`.
-5. ⏳ Run `python -m scraper.synthesizer` to consume the 7 already-parsed
-   markdown files and update `agendas.json`.
-6. ⏳ Commit the updated `agendas.json` plus the archived PDFs/markdown,
-   push to main.
+## Resolved this session — first production run + doc system
 
-## Outstanding artifacts on disk (not yet committed)
-
-- **7 freshly-downloaded PDFs** in `agendas/` (root, not archived). These
-  were dropped there by `run_pipeline` step 2e during a verification run.
-  Filenames follow `{YYYY-MM-DD}__{occur_id}__{slug}.pdf`.
-- **7 markdown files** in `agendas/markdown/` produced by the Parser when
-  I accidentally triggered a real API call during `.env` setup. They
-  match the 7 PDFs above and are ready for the Synthesizer.
-- These artifacts represent meetings 2026-04-27 through 2026-04-30: MCHSBC,
-  Committee of the Whole (×2), Conservation Commission, City Council,
-  Climate Equity Council (MISSING agenda — surfaced as such), Retirement
-  Board, Zoning Board.
+- 7 meetings (4/27–4/30) scraped, parsed, synthesized, and archived.
+  `agendas.json` grew 80 → 165 items.
+- Synthesizer hit a `json.JSONDecodeError: Extra data` on the Zoning
+  Board agenda (Sonnet emitted valid JSON then kept generating).
+  Mitigated by switching from `json.loads()` to `raw_decode()`. Re-run
+  succeeded; that meeting added 7 items.
+- API key rotation: old key leaked into the transcript via Claude
+  Code's file-watch system-reminder when `.env` was edited. Rotated
+  in the Console; new key now lives only in a Windows user env var
+  (no `.env` file on disk). Code now uses smart-override `load_dotenv`
+  so an OS-provided non-empty key wins, and Claude Code's empty-string
+  sandbox default is treated as "unset".
+- Persistent doc system shipped (this commit): hook script
+  `.claude/hooks/doc-context-hook.sh` + `.claude/settings.json`
+  (project-shared) inject doc-purpose definitions and continuous-update
+  rules at SessionStart, plus a PreCompact reminder.
 
 ## Recent key decisions
 
@@ -82,6 +74,7 @@ session transcript via Claude Code's file-watch system-reminder when
 
 ## Recent commits (most recent first)
 
+- `bfcb6a2` — First production pipeline run + persistent docs + bug fixes (78 new items, 5 doc files, smart-override .env, raw_decode JSON, .env.example)
 - `a1e8e58` — Add Step 3: SDK-based Parser and Synthesizer modules
 - `a5f2c18` — Add scraper step 2e: end-to-end pipeline orchestrator
 - `e4b5003` — Add scraper steps 2c + 2d: Google Doc and Drive downloaders

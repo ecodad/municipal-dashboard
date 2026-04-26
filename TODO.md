@@ -6,22 +6,7 @@
 
 ## 🔥 Priority queue (do these first, in order)
 
-### 1. Document the documentation system
-
-**Edit `.claude/settings.local.json`** so that:
-
-- The settings file defines the **specific purpose** of every Markdown
-  documentation file in this repository (`README.md`, `MEMORY.md`,
-  `ARCHITECTURE.md`, `TARGET_SITES.md`, `AGENTS.md`, `TODO.md`).
-- The settings file establishes **strict rules** instructing the AI to
-  continuously **read** these files at the start of any work session and
-  **update** them as the project evolves — so they stay current rather
-  than rotting.
-
-This is the foundation for the long-term memory pattern; without it, the
-documentation files won't reliably get updated.
-
-### 2. Reconcile README.md with the new docs
+### 1. Reconcile README.md with the new docs
 
 Now that the project context is split across `MEMORY.md`,
 `ARCHITECTURE.md`, `TARGET_SITES.md`, `AGENTS.md`, and `TODO.md`:
@@ -35,47 +20,28 @@ Now that the project context is split across `MEMORY.md`,
 - Reference `ARCHITECTURE.md` from the README's architecture section
   instead of duplicating the diagram and module table.
 
-### 3. Finish the API-key handoff currently in flight
+### 2. Wire the dashboard to render the new schema fields
 
-(See `MEMORY.md` "Active workstream" for full context.)
+The scraper now collects per-meeting `agenda_url`, `agenda_type`,
+`location`, `zoom_url`, and `livestream_url` — but they don't yet flow
+into `agendas.json` (the Synthesizer doesn't see them) and aren't shown
+in `index.html`. See "Pending features → Dashboard schema upgrade"
+below for the design choice.
 
-a. Make `parser.py` and `synthesizer.py` use a "smart override" `.env`
-   loader: only override the existing `ANTHROPIC_API_KEY` env var when
-   it's empty or whitespace. Specifically replace:
+## ✅ Recently done (kept here briefly so future sessions can see what shipped)
 
-   ```python
-   load_dotenv(override=True)
-   ```
-
-   with:
-
-   ```python
-   if not os.environ.get("ANTHROPIC_API_KEY", "").strip():
-       load_dotenv(override=True)
-   else:
-       load_dotenv(override=False)
-   ```
-
-   Apply in both modules.
-
-b. Verify the new Windows user env var is visible in a Claude-Desktop-spawned
-   shell:
-
-   ```bash
-   python -c "import os; print(bool(os.environ.get('ANTHROPIC_API_KEY')))"
-   ```
-
-   (Should print `True`. Don't print the key value.)
-
-c. Run the Synthesizer to consume the 7 already-parsed Markdown files
-   sitting in `agendas/markdown/`:
-
-   ```bash
-   python -m scraper.synthesizer
-   ```
-
-d. Commit the regenerated `agendas.json` plus the freshly-archived PDFs
-   and Markdown.
+- **Document the documentation system** (commit pending). The persistent
+  Markdown docs (`MEMORY.md` / `ARCHITECTURE.md` / `TARGET_SITES.md` /
+  `AGENTS.md` / `TODO.md`) are now reinforced by a SessionStart hook
+  (`.claude/hooks/doc-context-hook.sh`) wired in `.claude/settings.json`
+  (project-shared, committed). Hook injects file-purpose definitions and
+  continuous-update rules at every session start. PreCompact hook
+  reminds Claude to refresh `MEMORY.md` / `TODO.md` before compaction.
+- **Finish the API-key handoff** (commit `bfcb6a2`). New key set as
+  Windows user env var; smart-override `.env` loader now respects
+  existing OS env vars and only fills from `.env` when the OS value is
+  empty/whitespace. Synthesizer re-ran successfully producing 78 new
+  items; `agendas.json` grew 80 → 165.
 
 ## 📋 Pending features
 
