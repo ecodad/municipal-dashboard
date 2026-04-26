@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-04-25 (after README reconciliation)
+**Last updated:** 2026-04-25 (after scheduling workflow added)
 
 ## What this project is
 
@@ -34,10 +34,23 @@ Claude Haiku, classifies items with Claude Sonnet, and writes a single
 
 ## Active workstream
 
-Nothing in flight right now. The next item from the `TODO.md` priority
-queue is wiring the dashboard to render the new schema fields
-(`agenda_url`, `agenda_type`, `location`, `zoom_url`, `livestream_url`).
-That requires a schema decision first — see TODO.md "Pending features →
+Scheduling work shipped (this commit). One manual setup step remains
+on the user's side:
+
+1. Go to GitHub → repo Settings → Secrets and variables → Actions →
+   New repository secret. Name: `ANTHROPIC_API_KEY`. Value: the
+   currently-active Anthropic key from the Console. Click "Add secret".
+2. Optionally do a dry first run: Actions tab → "Refresh Agendas" →
+   "Run workflow" → main → Run. Watch the run; verify it succeeds and
+   either commits new data or logs "No data changes".
+
+Once that's done, the workflow runs automatically every day at 10 UTC
+(≈6 AM ET).
+
+After scheduling is verified, the next item from `TODO.md` is wiring
+the dashboard to render the new schema fields (`agenda_url`,
+`agenda_type`, `location`, `zoom_url`, `livestream_url`). That has a
+schema-design choice up front — see TODO.md "Pending features →
 Dashboard schema upgrade" for Option A vs B.
 
 ## Resolved this session — first production run + doc system + README
@@ -80,6 +93,7 @@ Dashboard schema upgrade" for Option A vs B.
 
 ## Recent commits (most recent first)
 
+- `774eab0` — Reconcile README.md with the persistent doc system (-67 net lines; README now public-facing only, links to companion docs)
 - `05eb1c1` — Make project doc system available to all contributors (promoted hooks + script from gitignored local config to committed project-shared config)
 - `bfcb6a2` — First production pipeline run + persistent docs + bug fixes (78 new items, 5 doc files, smart-override .env, raw_decode JSON, .env.example)
 - `a1e8e58` — Add Step 3: SDK-based Parser and Synthesizer modules

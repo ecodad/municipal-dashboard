@@ -15,21 +15,20 @@ in `index.html`. See "Pending features → Dashboard schema upgrade"
 below for the design choice (Option A: meetings array; Option B: repeat
 fields per item).
 
-### 2. Schedule the pipeline
-
-Step 4 of the original plan. Wire the
-`scrape → parse → synthesize → archive → commit → push` chain into a
-recurring job. Two viable hosts:
-  - **GitHub Actions cron** — free, reliable, needs `ANTHROPIC_API_KEY`
-    as a repo secret.
-  - **Local Windows Task Scheduler** — no cloud secret, but only runs
-    when the machine is on.
-
-Recommend GitHub Actions for reliability.
-
 ## ✅ Recently done (kept here briefly so future sessions can see what shipped)
 
-- **Reconcile README.md with the new docs** (this commit). README trimmed
+- **Schedule the pipeline** (this commit). GitHub Actions workflow at
+  `.github/workflows/refresh-agendas.yml` runs the full pipeline daily
+  at 10 UTC (≈6 AM ET) plus on-demand via the Actions tab. Reads
+  `ANTHROPIC_API_KEY` from repo secrets. Auto-commits regenerated
+  `agendas.json` and newly-archived sources with a bot identity, only
+  if anything changed. Uploads `agendas/.last_scraper_run.json` as an
+  artifact every run for debugging. **One manual setup step is
+  required**: add `ANTHROPIC_API_KEY` to the repo's Actions secrets
+  (Settings → Secrets and variables → Actions → New repository
+  secret).
+- **Reconcile README.md with the new docs** (commit `774eab0`). README
+  trimmed
   from 168 → 101 lines. Now public-facing only: project pitch, live
   site, operational run commands, dashboard description, "Project
   documentation" index linking to MEMORY/TODO/ARCHITECTURE/

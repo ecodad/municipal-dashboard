@@ -1,0 +1,83 @@
+name: Refresh Agendas
+
+# Scheduled run of the full pipeline:
+#   scrape -> parse (Haiku) -> synthesize (Sonnet) -> archive ->
+#   commit & push.
+#
+# Defaults to a once-daily run at 10:00 UTC (6 AM ET in winter, 5 AM ET
+# during DST). Adjust the cron below if you want a different cadence.
+# Idle days (no new meetings) are essentially free: a few HTTP GETs to
+# the calendar plus a no-op Synthesizer step. LLM cost is bounded by
+# new-meeting count.
+
+on:
+  schedule:
+    - cron: "0 10 * * *"
+  workflow_dispatch: {}  # allow manual run from the Actions tab
+
+# One scheduled refresh at a time. If a run is in progress and a manual
+# dispatch fires, queue the new one rather than cancel the running one.
+concurrency:
+  group: refresh-agendas
+  cancel-in-progress: false
+
+# The default GITHUB_TOKEN needs write access to push the regenerated
+# agendas.json + archived sources back to main.
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline (scrape + parse + synthesize + archive)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m scraper.run_pipeline --process
+
+      - name: Upload run summary (always, for debugging)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-run-summary
+          path: agendas/.last_scraper_run.json
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Commit and push if anything changed
+        run: |
+          set -euo pipefail
+          git config user.name "medford-dashboard-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage only the artifacts the pipeline produces.
+          git add agendas.json agendas/archived/
+
+          if git diff --cached --quiet; then
+            echo "No data changes — nothing to commit."
+            exit 0
+          fi
+
+          # Summarize the diff for the commit message.
+          ITEM_COUNT=$(python -c "import json; print(len(json.load(open('agendas.json'))['items']))")
+          NEW_ARCHIVED=$(git diff --cached --name-only -- agendas/archived/ | wc -l)
+
+          git commit -m "chore(agendas): scheduled refresh $(date -u +%F)" \
+                     -m "Total items in agendas.json: ${ITEM_COUNT}" \
+                     -m "Newly archived files: ${NEW_ARCHIVED}"
+
+          git push origin HEAD:main
