@@ -6,18 +6,35 @@
 
 ## 🔥 Priority queue (do these first, in order)
 
-### 1. Wire the dashboard to render the new schema fields
+### 1. Multi-municipality refactor
 
-The scraper now collects per-meeting `agenda_url`, `agenda_type`,
-`location`, `zoom_url`, and `livestream_url` — but they don't yet flow
-into `agendas.json` (the Synthesizer doesn't see them) and aren't shown
-in `index.html`. See "Pending features → Dashboard schema upgrade"
-below for the design choice (Option A: meetings array; Option B: repeat
-fields per item).
+See "Pending features → Multi-municipality support" below. Substantial
+design work to decouple Medford-specific config from the generic
+pipeline. Deliberately not started until the current Medford pipeline
+has run on its own for a few cycles to surface any latent issues
+before generalizing.
 
 ## ✅ Recently done (kept here briefly so future sessions can see what shipped)
 
-- **Document scheduling for forkers** (this commit). New
+- **Wire the dashboard to render the new schema fields** (this
+  commit). `agendas.json` now has a top-level `meetings[]` array
+  alongside `items[]`, where each meeting record carries
+  `committee_name`, `meeting_date`, `meeting_time`, `location`,
+  `has_zoom`, `has_livestream`, `agenda_url`, `agenda_type`, and
+  `detail_url`. Per the user's UX call: surface presence-of-Zoom and
+  presence-of-livestream as boolean indicators only — never expose the
+  Zoom URL itself (avoids sending people to potentially-stale links).
+  The agenda link points to the live external URL when available
+  (CivicClerk / Google Doc / Drive) or to our archived copy at
+  `agendas/archived/{filename}` for legacy meetings; "Agenda not
+  posted" badge shown when truly missing. Each card also gets a
+  prominent "View on medfordma.org" link as the canonical fallback for
+  attendance details. Synthesizer now builds these records inline; a
+  one-time `--backfill-meetings` CLI flag was used to populate
+  meetings[] for the existing 13 source files (7 enriched via detail-
+  page re-fetch; 6 legacy got minimal records, marked
+  agenda_type=ARCHIVED).
+- **Document scheduling for forkers** (commit `905185a`). New
   [SCHEDULING.md](SCHEDULING.md) runbook covers where the code runs
   (ephemeral GitHub Actions Ubuntu runner), where files go (committed
   back to main → Pages rebuild), where to put the API key (repo

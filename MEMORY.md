@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-04-26 (after SCHEDULING.md runbook written)
+**Last updated:** 2026-04-26 (after dashboard schema upgrade — meetings[] surfaced)
 
 ## What this project is
 
@@ -34,24 +34,18 @@ Claude Haiku, classifies items with Claude Sonnet, and writes a single
 
 ## Active workstream
 
-Scheduling work shipped (this commit). One manual setup step remains
-on the user's side:
+Nothing in flight. Both scheduling and dashboard schema upgrade are
+shipped.
 
-1. Go to GitHub → repo Settings → Secrets and variables → Actions →
-   New repository secret. Name: `ANTHROPIC_API_KEY`. Value: the
-   currently-active Anthropic key from the Console. Click "Add secret".
-2. Optionally do a dry first run: Actions tab → "Refresh Agendas" →
-   "Run workflow" → main → Run. Watch the run; verify it succeeds and
-   either commits new data or logs "No data changes".
+Confirmed working: the cron ran successfully on 2026-04-26 morning at
+10 UTC (user reported: "the hook ran this morning at the prescribed
+time and executed to success").
 
-Once that's done, the workflow runs automatically every day at 10 UTC
-(≈6 AM ET).
-
-After scheduling is verified, the next item from `TODO.md` is wiring
-the dashboard to render the new schema fields (`agenda_url`,
-`agenda_type`, `location`, `zoom_url`, `livestream_url`). That has a
-schema-design choice up front — see TODO.md "Pending features →
-Dashboard schema upgrade" for Option A vs B.
+Next on the TODO priority queue is the multi-municipality refactor —
+making the scraper config-driven so other cities can fork. That's
+deliberately not started yet; it's substantial design work and the
+project should bake for a few more cron cycles before it gets pulled
+apart.
 
 ## Resolved this session — first production run + doc system + README
 
@@ -93,6 +87,7 @@ Dashboard schema upgrade" for Option A vs B.
 
 ## Recent commits (most recent first)
 
+- `905185a` — Add SCHEDULING.md runbook for the cron + workflow
 - `1cdbb5f` — TODO: capture multi-municipality fork-friendly refactor
 - `a2c5f28` — Add scheduled pipeline workflow (GitHub Actions, daily cron)
 - `774eab0` — Reconcile README.md with the persistent doc system (-67 net lines; README now public-facing only, links to companion docs)

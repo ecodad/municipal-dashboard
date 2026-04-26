@@ -27,6 +27,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 import sys
 from dataclasses import asdict, dataclass, field
@@ -35,6 +36,11 @@ from pathlib import Path
 from typing import Optional
 
 import anthropic
+
+from .event_detail_scrape import (
+    EventDetailScrapeError,
+    fetch_event_detail,
+)
 
 # Load secrets from a project-local .env file if one exists.
 # Same precedence rule as parser.py: a real OS env var wins; .env only
@@ -53,6 +59,20 @@ DEFAULT_PDF_DIR = Path("agendas")
 DEFAULT_MARKDOWN_DIR = Path("agendas/markdown")
 DEFAULT_ARCHIVE_DIR = Path("agendas/archived")
 MAX_OUTPUT_TOKENS = 16000
+
+# Source filenames produced by the cron-driven scraper follow the pattern
+# {YYYY-MM-DD}__{occur_id}__{slug}.pdf. The occur_id lets us re-derive
+# the original event detail URL on medfordma.org and re-fetch attendance
+# info (location, zoom presence, agenda URL, etc.) — captured here as
+# the meetings[] record. Manually-uploaded PDFs from the very first
+# project setup don't have this pattern, so they get a minimal record
+# built from the item fields alone.
+_OCCUR_ID_FROM_FILENAME = re.compile(r"__(\d+)__")
+_DETAIL_URL_TEMPLATE = (
+    "https://www.medfordma.org/about/events-calendar/event-details/"
+    "~occur-id/{occur_id}"
+)
+
 
 ALLOWED_ITEM_TYPES = [
     "Resolution",
@@ -175,11 +195,116 @@ def _load_agendas_json(path: Path) -> dict:
             raise SynthesizerError(f"{path} is not valid JSON: {err}") from err
         data.setdefault("metadata", {"processed_date": None, "documents_processed": []})
         data.setdefault("items", [])
+        data.setdefault("meetings", [])
         return data
     return {
         "metadata": {"processed_date": None, "documents_processed": []},
+        "meetings": [],
         "items": [],
     }
+
+
+def _occur_id_from_filename(name: str) -> Optional[str]:
+    """Extract the numeric occur_id from a filename built by run_pipeline.
+
+    Returns None for legacy filenames without the `__{N}__` pattern.
+    """
+    m = _OCCUR_ID_FROM_FILENAME.search(name)
+    return m.group(1) if m else None
+
+
+def _meeting_record_for_source(
+    source_file: str,
+    items: list[dict],
+    *,
+    verbose: bool = False,
+) -> Optional[dict]:
+    """Build the meetings[] record for one source file.
+
+    Uses the first item for committee/date/time/location, then enriches
+    with `event_detail_scrape.fetch_event_detail()` if the filename has
+    an occur_id (cron-generated files do; the very first manual PDFs
+    from project setup don't).
+
+    The resulting record is what the dashboard consumes — exposing
+    presence of Zoom and livestream as booleans rather than the URLs
+    themselves, and pointing back to the city event page as the canonical
+    "how to attend" anchor.
+
+    Returns None if items is empty (defensive — should not happen in
+    practice).
+    """
+    if not items:
+        return None
+
+    sample = items[0]
+    occur_id = _occur_id_from_filename(source_file)
+
+    record = {
+        "source_file": source_file,
+        "occur_id": occur_id,
+        "committee_name": sample.get("Committee_Name"),
+        "meeting_date": sample.get("Meeting_Date"),
+        "meeting_time": sample.get("Meeting_Time"),
+        "location": sample.get("Location"),
+        "has_zoom": False,
+        "has_livestream": False,
+        "agenda_url": None,
+        "agenda_type": "ARCHIVED",  # default — we have the archived PDF locally
+        "detail_url": None,
+    }
+
+    if occur_id is None:
+        # Legacy file — no detail-page link to enrich from.
+        return record
+
+    detail_url = _DETAIL_URL_TEMPLATE.format(occur_id=occur_id)
+    record["detail_url"] = detail_url
+
+    try:
+        detail = fetch_event_detail(detail_url)
+    except EventDetailScrapeError as err:
+        # Detail page unreachable (e.g., city purged a past event). Keep
+        # the minimal record + detail_url so the dashboard can still
+        # link out, but don't enrich.
+        if verbose:
+            print(
+                f"[synth] (warning) couldn't enrich {source_file}: {err}",
+                file=sys.stderr,
+            )
+        return record
+
+    # The detail page is the more authoritative source for attend-info
+    # (the city updates it when things change); prefer it over the
+    # agenda-extracted location.
+    record["location"] = detail.location or record["location"]
+    record["has_zoom"] = detail.zoom_url is not None
+    record["has_livestream"] = detail.livestream_url is not None
+    record["agenda_url"] = detail.agenda_url
+    record["agenda_type"] = detail.agenda_type.value
+    return record
+
+
+def _ensure_meeting_record(
+    data: dict,
+    source_file: str,
+    items_for_source: list[dict],
+    *,
+    verbose: bool = False,
+) -> bool:
+    """If `data['meetings']` doesn't yet have an entry for source_file,
+    build one and append. Returns True if a record was added.
+    """
+    existing = {m.get("source_file") for m in data.get("meetings", [])}
+    if source_file in existing:
+        return False
+    record = _meeting_record_for_source(
+        source_file, items_for_source, verbose=verbose
+    )
+    if record is None:
+        return False
+    data.setdefault("meetings", []).append(record)
+    return True
 
 
 def synthesize_markdown(
@@ -295,8 +420,18 @@ def synthesize_directory(
         if source_filename in already_processed_files:
             if verbose:
                 print(f"[synth] = {source_filename} (already in agendas.json)", file=sys.stderr)
-            if not dry_run and pdf_path is not None:
-                _move_to_archive(pdf_path, md_path, archive_dir)
+            # Even for already-processed items, ensure there's a
+            # meetings[] record (e.g. on the first run after schema
+            # migration) so the dashboard renders consistently.
+            if not dry_run:
+                items_for_src = [
+                    it for it in data["items"] if it.get("Source_File") == source_filename
+                ]
+                if _ensure_meeting_record(data, source_filename, items_for_src, verbose=verbose):
+                    if verbose:
+                        print(f"[synth]   + meetings[] record (backfill)", file=sys.stderr)
+                if pdf_path is not None:
+                    _move_to_archive(pdf_path, md_path, archive_dir)
             meeting_results.append(
                 MeetingResult(
                     source_file=source_filename,
@@ -334,6 +469,9 @@ def synthesize_directory(
                     "item_count": len(new_items),
                 }
             )
+            # Build the meetings[] record (re-fetches the detail page
+            # for occur_id-tagged files; minimal record for legacy).
+            _ensure_meeting_record(data, source_filename, new_items, verbose=verbose)
             if pdf_path is not None:
                 _move_to_archive(pdf_path, md_path, archive_dir)
         items_added += len(new_items)
@@ -355,6 +493,12 @@ def synthesize_directory(
                 i.get("Item_Number", ""),
             )
         )
+        data["meetings"].sort(
+            key=lambda m: (
+                m.get("meeting_date", ""),
+                m.get("committee_name", ""),
+            )
+        )
         agendas_json.write_text(
             json.dumps(data, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
@@ -366,6 +510,56 @@ def synthesize_directory(
         meetings_processed=[asdict(r) for r in meeting_results],
         new_total_items=len(data["items"]),
     )
+
+
+def backfill_meetings(
+    agendas_json: Path = DEFAULT_AGENDAS_JSON,
+    *,
+    verbose: bool = True,
+) -> int:
+    """One-shot backfill: populate `meetings[]` for items already in agendas.json.
+
+    Used after schema migration. For each unique `Source_File` in
+    `items[]` that doesn't yet have a meetings[] entry, build one — for
+    cron-generated files the EventDetail is re-fetched to enrich, for
+    legacy files a minimal record is built from item fields alone.
+
+    Returns the number of meeting records added.
+    """
+    data = _load_agendas_json(agendas_json)
+    existing = {m.get("source_file") for m in data.get("meetings", [])}
+    source_files = sorted({it.get("Source_File") for it in data.get("items", [])})
+
+    added = 0
+    for src in source_files:
+        if not src or src in existing:
+            continue
+        items_for_src = [it for it in data["items"] if it.get("Source_File") == src]
+        record = _meeting_record_for_source(src, items_for_src, verbose=verbose)
+        if record is None:
+            continue
+        data.setdefault("meetings", []).append(record)
+        existing.add(src)
+        added += 1
+        if verbose:
+            mark = "rich" if record.get("occur_id") else "minimal"
+            print(
+                f"[backfill] + {src}  ({mark}; agenda_type={record.get('agenda_type')})",
+                file=sys.stderr,
+            )
+
+    if added > 0:
+        data["meetings"].sort(
+            key=lambda m: (
+                m.get("meeting_date", ""),
+                m.get("committee_name", ""),
+            )
+        )
+        agendas_json.write_text(
+            json.dumps(data, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+    return added
 
 
 # ---- CLI -----------------------------------------------------------------
@@ -412,7 +606,26 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Emit run summary as JSON instead of human-readable text.",
     )
+    parser.add_argument(
+        "--backfill-meetings",
+        action="store_true",
+        help=(
+            "One-time pass: don't synthesize anything new. Just populate "
+            "the meetings[] array in agendas.json from existing items[] "
+            "(re-fetches event detail pages for occur_id-tagged files). "
+            "Safe to re-run; only adds missing meeting records."
+        ),
+    )
     args = parser.parse_args(argv)
+
+    if args.backfill_meetings:
+        added = backfill_meetings(args.json_path, verbose=not args.json)
+        if args.json:
+            json.dump({"meetings_added": added}, sys.stdout)
+            sys.stdout.write("\n")
+        else:
+            print(f"\nBackfill complete: {added} meeting record(s) added.")
+        return 0
 
     try:
         summary = synthesize_directory(

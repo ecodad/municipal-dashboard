@@ -459,6 +459,58 @@
     border-radius: 2px;
   }
 
+  /* ---------------- Meeting card: attendance + actions row ----- */
+  .attendance-row {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 10px;
+    align-items: center;
+  }
+  .attend-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: #eef0fb;
+    color: var(--medford-navy-ink);
+    border: 1px solid #d6daee;
+    padding: 3px 9px;
+    border-radius: var(--radius-pill);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  .attend-chip.zoom    { background: #e6f0fa; border-color: #c6dcf2; color: #1a4a7a; }
+  .attend-chip.live    { background: #fbecec; border-color: #f4cdcd; color: #883333; }
+  .attend-chip.missing { background: #f4eee6; border-color: #e6d8be; color: #7a5a1f; }
+  .attend-chip svg { flex-shrink: 0; }
+
+  .attend-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: var(--radius-pill);
+    font-size: 12.5px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    line-height: 1.3;
+  }
+  .attend-link.primary {
+    background: var(--medford-navy);
+    color: #fff;
+    border-color: var(--medford-navy);
+  }
+  .attend-link.primary:hover { background: var(--medford-navy-dark); }
+  .attend-link.ghost {
+    color: var(--medford-navy);
+    border-color: var(--rule-strong);
+  }
+  .attend-link.ghost:hover { border-color: var(--medford-navy); background: #f5f6fb; }
+  .attend-link svg { flex-shrink: 0; }
+
   /* ---------------- Footer ---------------- */
   footer.site-footer {
     max-width: 1180px;
@@ -577,6 +629,7 @@
     committees: new Set(),
     types: new Set(),
     search: '',
+    meetingBySourceFile: new Map(),  // populated on load from data.meetings
   };
 
   const TYPE_CLASS = {
@@ -649,12 +702,20 @@
     for (const it of items) {
       const key = it.Source_File + '|' + it.Meeting_Date;
       if (!map.has(key)) {
+        // Look up the meeting-level record (has_zoom, agenda_url,
+        // detail_url, etc.). When absent (legacy agendas.json with
+        // no `meetings[]`), fall back to per-item fields and a
+        // null-ish meeting record — the dashboard degrades to the
+        // pre-meeting-record render path.
+        const meta = state.meetingBySourceFile.get(it.Source_File) || null;
         map.set(key, {
           key,
-          committee: it.Committee_Name,
-          date: it.Meeting_Date,
-          time: it.Meeting_Time,
-          location: it.Location,
+          source_file: it.Source_File,
+          committee:   meta?.committee_name || it.Committee_Name,
+          date:        meta?.meeting_date  || it.Meeting_Date,
+          time:        meta?.meeting_time  || it.Meeting_Time,
+          location:    meta?.location      || it.Location,
+          meta,  // full meeting record (or null)
           items: [],
         });
       }
@@ -663,6 +724,44 @@
     const meetings = Array.from(map.values());
     meetings.sort((a, b) => a.date.localeCompare(b.date) || a.committee.localeCompare(b.committee));
     return meetings;
+  }
+
+  function agendaHref(meta, sourceFile) {
+    if (!meta) return null;
+    if (meta.agenda_url) return meta.agenda_url;
+    if (meta.agenda_type === 'ARCHIVED' && sourceFile) {
+      return 'agendas/archived/' + encodeURIComponent(sourceFile);
+    }
+    return null;  // MISSING — caller renders a "not posted" badge instead
+  }
+
+  // Tiny inline icons (better cache behavior than emoji + consistent rendering).
+  const ICON_VIDEO    = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2"></rect></svg>';
+  const ICON_BROADCAST = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="2.5"></circle><path d="M16.5 7.5a6 6 0 0 1 0 9"></path><path d="M7.5 7.5a6 6 0 0 0 0 9"></path><path d="M19.5 4.5a10 10 0 0 1 0 15"></path><path d="M4.5 4.5a10 10 0 0 0 0 15"></path></svg>';
+  const ICON_DOC      = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>';
+  const ICON_EXTERNAL = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>';
+  const ICON_WARN     = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>';
+
+  function renderAttendanceRow(meta, sourceFile) {
+    if (!meta) return '';
+    const parts = [];
+    if (meta.has_zoom) {
+      parts.push(`<span class="attend-chip zoom">${ICON_VIDEO} Zoom</span>`);
+    }
+    if (meta.has_livestream) {
+      parts.push(`<span class="attend-chip live">${ICON_BROADCAST} Livestreamed</span>`);
+    }
+    const href = agendaHref(meta, sourceFile);
+    if (href) {
+      parts.push(`<a class="attend-link primary" href="${escapeHtml(href)}" target="_blank" rel="noopener">${ICON_DOC} Agenda${ICON_EXTERNAL}</a>`);
+    } else if (meta.agenda_type === 'MISSING') {
+      parts.push(`<span class="attend-chip missing">${ICON_WARN} Agenda not posted</span>`);
+    }
+    if (meta.detail_url) {
+      parts.push(`<a class="attend-link ghost" href="${escapeHtml(meta.detail_url)}" target="_blank" rel="noopener">View on medfordma.org${ICON_EXTERNAL}</a>`);
+    }
+    if (!parts.length) return '';
+    return `<div class="attendance-row">${parts.join('')}</div>`;
   }
 
   function renderHeaderStatus() {
@@ -740,6 +839,7 @@
     if (mt.location) metaParts.push(escapeHtml(mt.location));
     const metaLine = metaParts.length
       ? `<div class="meta-line">${metaParts.join('<span class="sep">·</span>')}</div>` : '';
+    const attendanceRow = renderAttendanceRow(mt.meta, mt.source_file);
 
     return `
       <article class="meeting-card ${cardClass}${collapsedClass}">
@@ -747,6 +847,7 @@
           <div>
             <h2 class="committee">${escapeHtml(mt.committee)}<span class="toggle-icon">▾</span></h2>
             ${metaLine}
+            ${attendanceRow}
           </div>
           <div class="date-block">
             <div class="day">${d.day}</div>
@@ -816,6 +917,11 @@
       return;
     }
     state.today = todayIso();
+    // Build the source_file -> meeting record lookup. Defensive against
+    // older agendas.json files that pre-date the meetings[] schema.
+    state.meetingBySourceFile = new Map(
+      (state.data.meetings || []).map(m => [m.source_file, m])
+    );
     renderHeaderStatus();
     renderChips();
     bindFilterEvents();
