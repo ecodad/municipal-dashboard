@@ -17,9 +17,17 @@ fields per item).
 
 ## ✅ Recently done (kept here briefly so future sessions can see what shipped)
 
-- **Schedule the pipeline** (this commit). GitHub Actions workflow at
-  `.github/workflows/refresh-agendas.yml` runs the full pipeline daily
-  at 10 UTC (≈6 AM ET) plus on-demand via the Actions tab. Reads
+- **Document scheduling for forkers** (this commit). New
+  [SCHEDULING.md](SCHEDULING.md) runbook covers where the code runs
+  (ephemeral GitHub Actions Ubuntu runner), where files go (committed
+  back to main → Pages rebuild), where to put the API key (repo
+  secrets — never in the repo), the 5-step setup walkthrough for a
+  new fork, how to adjust cadence, and a troubleshooting section.
+  Wired into the SessionStart hook context, the README index, and
+  MEMORY.md.
+- **Schedule the pipeline** (commit `a2c5f28`). GitHub Actions workflow
+  at `.github/workflows/refresh-agendas.yml` runs the full pipeline
+  daily at 10 UTC (≈6 AM ET) plus on-demand via the Actions tab. Reads
   `ANTHROPIC_API_KEY` from repo secrets. Auto-commits regenerated
   `agendas.json` and newly-archived sources with a bot identity, only
   if anything changed. Uploads `agendas/.last_scraper_run.json` as an

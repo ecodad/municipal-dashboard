@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-04-25 (after scheduling workflow added)
+**Last updated:** 2026-04-26 (after SCHEDULING.md runbook written)
 
 ## What this project is
 
@@ -93,6 +93,8 @@ Dashboard schema upgrade" for Option A vs B.
 
 ## Recent commits (most recent first)
 
+- `1cdbb5f` — TODO: capture multi-municipality fork-friendly refactor
+- `a2c5f28` — Add scheduled pipeline workflow (GitHub Actions, daily cron)
 - `774eab0` — Reconcile README.md with the persistent doc system (-67 net lines; README now public-facing only, links to companion docs)
 - `05eb1c1` — Make project doc system available to all contributors (promoted hooks + script from gitignored local config to committed project-shared config)
 - `bfcb6a2` — First production pipeline run + persistent docs + bug fixes (78 new items, 5 doc files, smart-override .env, raw_decode JSON, .env.example)

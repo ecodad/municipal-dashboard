@@ -81,6 +81,7 @@ Claude Code SessionStart hook (see `.claude/settings.json` and
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Component-by-component design: module responsibilities, data flow, idempotency keys, data shapes, cost profile. |
 | [TARGET_SITES.md](TARGET_SITES.md) | Every external data source (events calendar, CivicClerk, Google Doc/Drive, Anthropic API, GitHub) with URL patterns, auth model, and known constraints. |
 | [AGENTS.md](AGENTS.md) | Roles, tool access, and permission matrix for every module (LLM agents and deterministic scrapers). |
+| [SCHEDULING.md](SCHEDULING.md) | Runbook for the GitHub Actions cron that auto-refreshes the dashboard. Where the code runs, where files go, how to set it up on your own fork (including the API key secret). |
 
 ## Known limitations
 

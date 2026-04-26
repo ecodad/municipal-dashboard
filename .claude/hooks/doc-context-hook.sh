@@ -54,6 +54,13 @@ meaningful work):
       agent prompt, model, structured-output schema, or permission
       changes.
 
+  SCHEDULING.md
+      Runbook for the GitHub Actions cron that auto-refreshes the
+      dashboard. Where the code runs, where files go, how the bot
+      commits back, where to put the API key. Update when the workflow
+      shape changes (cadence, runner, secrets, commit identity, etc.)
+      or when a forker would benefit from new troubleshooting notes.
+
   README.md
       Public-facing project overview. Update when the externally-visible
       shape of the project changes (run instructions, supported sources,
