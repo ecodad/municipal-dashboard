@@ -13,13 +13,20 @@
 
 | Role | Module | Type | Inputs | Outputs |
 |---|---|---|---|---|
-| Calendar Scraper | `scraper/calendar_scrape.py` | Deterministic | Today's date + lookahead window | `list[Meeting]` |
-| Detail Scraper | `scraper/event_detail_scrape.py` | Deterministic | Meeting `detail_url` | `EventDetail` (incl. `agenda_url`, `agenda_type`) |
-| CivicClerk Downloader | `scraper/civicclerk_download.py` | Deterministic | CivicClerk portal URL | PDF (or plain text) on disk |
-| Google Downloader | `scraper/google_download.py` | Deterministic | Google Doc / Drive share URL | PDF on disk |
+| **City Adapter (Protocol)** | `scraper/adapters/__init__.py` | Deterministic | Slug | `CityAdapter` instance |
+| Medford Adapter | `scraper/adapters/medford_ma.py` | Deterministic | `today`, `lookahead_days`; later `MeetingRecord` | `list[MeetingRecord]`; `AgendaDownloadResult` |
+| Calendar Scraper (Medford-specific) | `scraper/calendar_scrape.py` | Deterministic | Today's date + lookahead window | `list[Meeting]` |
+| Detail Scraper (Medford-specific) | `scraper/event_detail_scrape.py` | Deterministic | Meeting `detail_url` | `EventDetail` (incl. `agenda_url`, `agenda_type`) |
+| CivicClerk Downloader (host-level) | `scraper/civicclerk_download.py` | Deterministic | CivicClerk portal URL | PDF (or plain text) on disk |
+| Google Downloader (host-level) | `scraper/google_download.py` | Deterministic | Google Doc / Drive share URL | PDF on disk |
 | **Parser Agent** | `scraper/parser.py` | LLM (Claude Haiku 4.5) | PDF | Markdown on disk |
 | **Synthesizer Agent** | `scraper/synthesizer.py` | LLM (Claude Sonnet 4.6) | Markdown + existing `agendas.json` | Updated `agendas.json` + archived sources |
-| Pipeline Orchestrator | `scraper/run_pipeline.py` | Deterministic glue | All of the above | Run summary, exit code |
+| Pipeline Orchestrator | `scraper/run_pipeline.py` | Deterministic glue (city-agnostic) | Slug + adapter + all of the above | Run summary, exit code |
+
+The orchestrator only ever talks to a `CityAdapter`. Adapters compose
+the host-level downloaders and (where applicable) Medford-specific
+deterministic helpers. LLM agents are downstream of and independent
+from the adapter layer.
 
 ## LLM Agents — full contract
 

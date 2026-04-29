@@ -6,45 +6,51 @@
 
 ## High-level data flow
 
+The pipeline is structured around a **CityAdapter** protocol so each
+city's calendar/detail/agenda specifics are encapsulated in one place.
+Everything downstream of the adapter is city-agnostic.
+
 ```
-                   ┌─────────────────────────────────────────────────┐
-                   │  Medford events calendar (Finalsite, public)    │
-                   └────────────────────────┬────────────────────────┘
-                                            │ HTML (server-rendered)
-                                            ▼
-                          ┌─────────────────────────────┐
-                          │ Step 1: calendar_scrape.py  │
-                          │ (BeautifulSoup, no LLM)     │
-                          └────────────┬────────────────┘
-                                       │ list[Meeting] within window
-                                       ▼
-                          ┌─────────────────────────────┐
-                          │ Step 2b: event_detail_scrape│
-                          │ Per-meeting fetch + parse   │
-                          └────────────┬────────────────┘
-                                       │ EventDetail (agenda_url, type,
-                                       │              location, zoom)
-                                       ▼
-                       ┌──── dispatch on agenda_type ────┐
-                       ▼               ▼                 ▼
-   ┌─────────────────────┐ ┌──────────────────────┐ ┌─────────────────────┐
-   │ Step 2a:            │ │ Step 2c+2d:          │ │ MISSING / OTHER:    │
-   │ civicclerk_download │ │ google_download.py   │ │ surface as "no      │
-   │ OData fileId stream │ │ Doc export / Drive   │ │ agenda" in JSON;    │
-   │ (no auth)           │ │ uc?export=download   │ │ no file written     │
-   └──────────┬──────────┘ └──────────┬───────────┘ └─────────────────────┘
-              └──────────┬────────────┘
-                         │ PDFs in agendas/{date}__{occur_id}__{slug}.pdf
-                         ▼
+   ┌──────────────────────────────────────────────────────────────────┐
+   │ scraper/run_pipeline.py — orchestrator (city-agnostic)           │
+   │  --municipality SLUG  →  load_adapter(slug)  →  CityAdapter      │
+   └─────────────────────────────────┬────────────────────────────────┘
+                                     │
+                                     ▼
+                  ┌────────────────────────────────────┐
+                  │  CityAdapter (Protocol)            │
+                  │   list_meetings(today, lookahead)  │
+                  │     → list[MeetingRecord]          │
+                  │   download_agenda(record, dir,     │
+                  │                   stem)            │
+                  │     → AgendaDownloadResult         │
+                  └─────┬──────────────────────────┬───┘
+                        │ implements               │ implements
+       ┌────────────────▼─────────────┐ ┌──────────▼────────────────────┐
+       │ MedfordAdapter                │ │ SomervilleAdapter (Phase 2)   │
+       │  Finalsite calendar           │ │  Drupal /calendar list        │
+       │   + Finalsite detail extract  │ │   + Drupal detail (sparse)    │
+       │  Dispatches to host downloader│ │  Dispatches to:               │
+       │   based on agenda_type        │ │   legistar / granicus / etc.  │
+       └───────────────┬───────────────┘ └─────────────┬─────────────────┘
+                       │                               │
+                       ▼ composes                      ▼ composes
+       ┌──────────────────────────────────────────────────────────────────┐
+       │ Host-level downloaders (city-agnostic, reusable)                 │
+       │   civicclerk_download.py  · google_download.py                   │
+       │   legistar_download.py (Phase 2)  · granicus (later, on demand)  │
+       └──────────────────────────────────────────────────────────────────┘
+                       │
+                       │ PDFs in agendas/{date}__{occur_id}__{slug}.pdf
+                       ▼
             ┌──────────────────────────────┐
-            │ Step 3a: parser.py            │
-            │ Claude Haiku 4.5              │
+            │ parser.py — Claude Haiku 4.5  │
             │ PDF (base64 doc block) → MD   │
             └──────────────┬────────────────┘
                            │ markdown in agendas/markdown/{stem}.md
                            ▼
             ┌──────────────────────────────┐
-            │ Step 3b: synthesizer.py       │
+            │ synthesizer.py                │
             │ Claude Sonnet 4.6 (adaptive   │
             │ thinking, structured JSON)    │
             └──────────────┬────────────────┘
@@ -54,20 +60,52 @@
             ┌──────────────────────────────┐
             │ index.html (browser, vanilla  │
             │ HTML/CSS/JS) fetches          │
-            │ agendas.json                  │
+            │ agendas.json + branding.json  │
             └──────────────────────────────┘
 ```
 
+## City adapter layer
+
+Each city is a Python module under `scraper/adapters/` that exposes a
+class implementing the `CityAdapter` Protocol (defined in
+`scraper/adapters/__init__.py`).
+
+| Element | Purpose |
+|---|---|
+| `MeetingRecord` (dataclass) | Currency between adapter → orchestrator. Carries `occur_id`, `title`, `start`, `detail_url`, `agenda_url`, `agenda_type`, `location`, `zoom_url`, `livestream_url`, plus an opaque `adapter_payload: dict` the adapter can stash anything in (e.g. a Legistar GUID). |
+| `AgendaDownloadResult` (dataclass) | What `download_agenda` returns on success: `path`, `size_bytes`, `source_url`. |
+| `AdapterDownloadError` | Exception type adapters wrap host-specific exceptions in. Orchestrator catches it to record `status=failed` per meeting. |
+| `AGENDA_TYPE_MISSING` / `AGENDA_TYPE_UNSUPPORTED` (`"OTHER"`) | Sentinel strings on `MeetingRecord.agenda_type` that tell the orchestrator to skip the download step. Anything else is "downloadable" → handed back to `adapter.download_agenda()`. |
+| `_REGISTRY` (slug → "module:Class") | Lazy-imported lookup. Orchestrator calls `load_adapter(slug)`. To add a city: write the module, add a registry entry, add `branding/{slug}.json`. |
+
+The orchestrator never imports city-specific code. A new city is purely
+additive — no edits to `run_pipeline.py`, the LLM agents, or the
+dashboard.
+
 ## Module responsibilities
 
-### Deterministic scraper layer (zero LLM tokens)
+### Adapter layer
+
+| Module | Responsibility |
+|---|---|
+| `scraper/adapters/__init__.py` | Protocol + dataclasses + registry + `load_adapter(slug)`. |
+| `scraper/adapters/medford_ma.py` | `MedfordAdapter` — wraps Finalsite calendar + detail + dispatches to CivicClerk / Google host downloaders. |
+| `scraper/adapters/{slug}.py` | One per city. Phase 2 will add `somerville_ma.py`. |
+
+### Host-level downloaders (city-agnostic)
 
 | Module | Responsibility | Inputs | Outputs |
 |---|---|---|---|
-| `scraper/calendar_scrape.py` | List meetings in a lookahead window | `today: date`, `lookahead_days: int` | `list[Meeting]` with `occur_id`, `title`, `start` ISO datetime, `detail_url` |
-| `scraper/event_detail_scrape.py` | Pull agenda URL + attendance details from each meeting's detail page | `detail_url: str` | `EventDetail` with `agenda_url`, `agenda_type` enum, `location`, `zoom_url`, `livestream_url` |
-| `scraper/civicclerk_download.py` | Download agendas from CivicClerk's OData API | CivicClerk portal URL | PDF (default) or plain text |
+| `scraper/civicclerk_download.py` | Download agendas from any CivicClerk tenant's OData API | Portal URL | PDF (default) or plain text |
 | `scraper/google_download.py` | Download Google Doc / Drive agendas | Share URL | PDF |
+| `scraper/legistar_download.py` (Phase 2) | Download from any Legistar tenant via `View.ashx?M=A` | Legistar URL | PDF |
+
+### Medford-specific deterministic helpers (called by `MedfordAdapter`)
+
+| Module | Responsibility | Inputs | Outputs |
+|---|---|---|---|
+| `scraper/calendar_scrape.py` | List meetings from Medford's Finalsite calendar | `today`, `lookahead_days` | `list[Meeting]` with `occur_id`, `title`, `start` ISO datetime, `detail_url` |
+| `scraper/event_detail_scrape.py` | Parse Medford detail pages for agenda URL + attendance | `detail_url` | `EventDetail` with `agenda_url`, `agenda_type` enum, `location`, `zoom_url`, `livestream_url` |
 
 Each is also a CLI: `python -m scraper.<module> [args]`.
 
@@ -104,23 +142,31 @@ municipal_dashboard/
 ├── .env.example         ← committed template
 ├── .gitignore
 ├── README.md            ← public project overview
-├── MEMORY.md            ← session-state log (this directory)
+├── MEMORY.md            ← session-state log
 ├── ARCHITECTURE.md      ← this file
 ├── TARGET_SITES.md      ← external data sources
 ├── AGENTS.md            ← agent/module roles + permissions
 ├── TODO.md              ← pending work
-├── index.html           ← static dashboard (vanilla HTML/CSS/JS)
+├── SCHEDULING.md        ← runbook for the GH Actions cron
+├── index.html           ← static dashboard (project banner + city section)
+├── branding.json        ← active city branding (copied from branding/{slug}.json)
+├── branding/
+│   ├── medford-ma.json  ← per-city chrome (logo, colors, name, …)
+│   └── {slug}.json      ← one per city
 ├── agendas.json         ← canonical structured data
 ├── requirements.txt     ← Python deps: requests, bs4, anthropic, python-dotenv
 ├── scraper/
 │   ├── __init__.py
-│   ├── calendar_scrape.py
-│   ├── event_detail_scrape.py
-│   ├── civicclerk_download.py
-│   ├── google_download.py
-│   ├── parser.py
-│   ├── synthesizer.py
-│   └── run_pipeline.py
+│   ├── adapters/
+│   │   ├── __init__.py        ← CityAdapter Protocol + registry
+│   │   └── medford_ma.py      ← MedfordAdapter
+│   ├── calendar_scrape.py     ← Medford Finalsite calendar (used by MedfordAdapter)
+│   ├── event_detail_scrape.py ← Medford detail-page parser
+│   ├── civicclerk_download.py ← host-level (any CivicClerk tenant)
+│   ├── google_download.py     ← host-level (any Google Doc/Drive share)
+│   ├── parser.py              ← Claude Haiku PDF→MD
+│   ├── synthesizer.py         ← Claude Sonnet MD→agendas.json
+│   └── run_pipeline.py        ← city-agnostic orchestrator
 └── agendas/
     ├── *.pdf            ← freshly-downloaded, not yet processed
     ├── markdown/        ← Parser output, transient

@@ -6,15 +6,32 @@
 
 ## 🔥 Priority queue (do these first, in order)
 
-### 1. Multi-municipality refactor
+### 1. Multi-municipality refactor — Phase 2 (Somerville adapter)
 
-See "Pending features → Multi-municipality support" below. Substantial
-design work to decouple Medford-specific config from the generic
-pipeline. Deliberately not started until the current Medford pipeline
-has run on its own for a few cycles to surface any latent issues
-before generalizing.
+Phase 1 (adapter scaffolding + Medford parity + project banner)
+shipped this session. **Next:** write `SomervilleAdapter`. Recon
+already done — see "Pending features → Multi-municipality Phase 2"
+below for the concrete next steps.
+
+Blocked on user verifying Phase 1 looks/works right in the live
+Medford dashboard before we touch anything else.
 
 ## ✅ Recently done (kept here briefly so future sessions can see what shipped)
+
+- **Multi-municipality refactor — Phase 1** (this commit). Introduced
+  `scraper/adapters/` package with the `CityAdapter` Protocol,
+  `MeetingRecord` dataclass, registry, and `MedfordAdapter` wrapping
+  the existing Finalsite + CivicClerk + Google modules.
+  `run_pipeline.py` is now city-agnostic with a `--municipality SLUG`
+  flag (defaulting to `medford-ma`, also reads `MUNICIPALITY_SLUG`
+  env var). Branding extracted into `branding/{slug}.json` files,
+  loaded at runtime by the dashboard. `index.html` got a two-tier
+  header — project banner ("Municipal Dashboards", charcoal + copper
+  accent, system-sans) above a city-branded subject section, with
+  an explicit "independent project" disclaimer in the footer. GH
+  Actions workflow plumbs `MUNICIPALITY_SLUG` through to the
+  pipeline. No behavior change for Medford; new schema enables
+  Phase 2.
 
 - **Wire the dashboard to render the new schema fields** (this
   commit). `agendas.json` now has a top-level `meetings[]` array
@@ -75,14 +92,52 @@ before generalizing.
 
 ## 📋 Pending features
 
-- **Multi-municipality support — make the scraper fork-friendly so other
-  cities can spin up their own dashboards.** The user wants any
-  contributor in a different municipality to fork the repo, drop in
-  their own config, add their API key, and get their own running
-  dashboard. Other cities likely use very similar civic-tech stacks
-  (Somerville, MA was specifically mentioned; many MA municipalities
-  run Finalsite + CivicClerk + Google Doc/Drive, the same combination
-  Medford does).
+- **Multi-municipality Phase 2 — write `SomervilleAdapter`.**
+  Phase 1 (adapter scaffolding + Medford parity) is shipped. Phase 2
+  is the first non-Medford city. Recon already done (see
+  `TARGET_SITES.md` once it's updated — for now, captured in
+  conversation): Somerville is on Drupal for the calendar
+  (`https://www.somervillema.gov/calendar`, chronological list view,
+  detail pages at `/events/YYYY/MM/DD/{slug}`) and Legistar for the
+  actual agenda PDFs (`somervillema.legistar.com`, ASP.NET WebForms,
+  `View.ashx?M=A&ID={ID}&GUID={GUID}` for PDFs, `View.ashx?M=IC&ID=...`
+  for per-meeting iCal).
+
+  **Drupal calendar pages are sparse** — the detail page typically
+  contains just one paragraph with a Legistar `Gateway.aspx` URL, no
+  structured Zoom/location fields. Several non-City-Council bodies
+  (Climate Action Commission, Human Rights Commission, Retirement
+  Board) appear on the Drupal calendar without Legistar links, so
+  scraping Legistar alone misses them; the adapter needs to start
+  from the Drupal list and fall back to MISSING when no agenda
+  source is identified.
+
+  **Concrete next steps:**
+  1. Write `scraper/legistar_download.py` (a host-level downloader,
+     parallel to `civicclerk_download.py` / `google_download.py`).
+     Validates `%PDF` magic, no auth needed.
+  2. Write `scraper/adapters/somerville_ma.py` with a
+     `SomervilleAdapter` class:
+     - `list_meetings`: GET `/calendar`, filter titles containing
+       "meeting"/"committee"/"board"/"council"/"commission",
+       fetch each detail page, classify the embedded link
+       (Legistar / Granicus / Google / missing).
+     - `download_agenda`: dispatch on `agenda_type`. Stash the
+       Legistar `View.ashx` URL (or the Gateway URL we resolve from)
+       in `MeetingRecord.adapter_payload`.
+  3. Register `"somerville-ma"` in `scraper/adapters/__init__.py`'s
+     `_REGISTRY`.
+  4. Add `branding/somerville-ma.json` (Somerville green primary;
+     check the city's official seal URL).
+  5. Update `index.html`'s inline defaults guidance to call out the
+     fork pattern (already in code comment).
+  6. End-to-end smoke test: a real week of Somerville meetings.
+
+- **Multi-municipality refactor — original framing (now mostly
+  superseded by the Phase 1/2 split above).** The user wants any
+  contributor in a different municipality to fork the repo, swap
+  in a city adapter, add their API key, and get their own running
+  dashboard.
 
   **What's currently Medford-specific** (would need to become
   config-driven):

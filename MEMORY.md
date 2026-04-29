@@ -1,51 +1,68 @@
-# Working Memory — Medford Municipal Agendas Dashboard
+# Working Memory — Municipal Dashboards
 
 > Persistent session notes. Update at the end of every meaningful work session
 > so the next Claude can pick up without re-deriving context. Source of truth
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-04-26 (after dashboard schema upgrade — meetings[] surfaced)
+**Last updated:** 2026-04-29 (Phase 1 of multi-municipality refactor — adapter layer + project banner)
 
 ## What this project is
 
-A static dashboard for Medford, MA's municipal meeting agendas, hosted on
-GitHub Pages at https://ecodad.github.io/municipal-dashboard/. Repo:
-https://github.com/ecodad/municipal-dashboard. The data pipeline scrapes
-the city's events calendar, downloads agenda PDFs from three different
-hosting systems (CivicClerk, Google Docs, Google Drive), parses them with
-Claude Haiku, classifies items with Claude Sonnet, and writes a single
-`agendas.json` consumed by `index.html`.
+A renamed-and-refactored "Municipal Dashboards" project: a static dashboard
+for municipal meeting agendas, hosted on GitHub Pages at
+https://ecodad.github.io/municipal-dashboard/. Repo:
+https://github.com/ecodad/municipal-dashboard. Originally Medford-only;
+as of this session it's structured around a **CityAdapter** protocol so
+other cities can be added with their own adapter module. The pipeline
+fetches the active city's calendar, downloads agenda PDFs from whatever
+hosting systems that city uses (Medford: CivicClerk + Google Docs/Drive;
+future Somerville: Drupal + Legistar), parses them with Claude Haiku,
+classifies items with Claude Sonnet, and writes a single `agendas.json`
+consumed by `index.html`.
 
 ## Where we are right now
 
-**Phase 1–4 (initial setup):** ✅ Complete and shipped.
-**Step 1 (calendar scrape):** ✅ Shipped — `scraper/calendar_scrape.py`.
-**Step 2a (CivicClerk download):** ✅ Shipped — `scraper/civicclerk_download.py`. Discovered the `medfordma.api.civicclerk.com` API is fully public (no auth needed) — Playwright was unnecessary.
-**Step 2b (event detail extractor):** ✅ Shipped — `scraper/event_detail_scrape.py`. Surfaces `agenda_type` enum: `CIVICCLERK | GOOGLE_DOC | GOOGLE_DRIVE_FILE | OTHER | MISSING`.
-**Steps 2c + 2d (Google downloaders):** ✅ Shipped — `scraper/google_download.py`. Uses `docs.google.com/document/d/{id}/export?format=pdf` and `drive.google.com/uc?export=download&id={id}`.
-**Step 2e (orchestrator):** ✅ Shipped — `scraper/run_pipeline.py`. Idempotent via `__{occur_id}__` filename pattern.
-**Step 3a (Parser agent, SDK-based):** ✅ Shipped — `scraper/parser.py`. Claude Haiku 4.5 via Anthropic SDK; reads PDFs via `document` content block.
-**Step 3b (Synthesizer agent, SDK-based):** ✅ Shipped — `scraper/synthesizer.py`. Claude Sonnet 4.6, adaptive thinking, `output_config.format` JSON Schema.
-**API key management:** ✅ Resolved — Windows user env var route, smart-override `.env` loader landed in `bfcb6a2`. User runs the pipeline from PowerShell outside Claude Code.
-**Persistent doc system:** ✅ Wired — `MEMORY.md`, `ARCHITECTURE.md`, `TARGET_SITES.md`, `AGENTS.md`, `TODO.md` shipped in `bfcb6a2`. SessionStart + PreCompact hooks in `.claude/settings.json` (project-shared) reinforce reading + updating these docs every session.
-**Step 4 (scheduling):** ⏳ Not started.
-**Dashboard refresh** (incorporate `agenda_url`/`agenda_type`/`location`/`zoom_url` from new schema): ⏳ Not started.
+**Initial Medford pipeline (Steps 1–4):** ✅ All shipped (calendar scrape, CivicClerk + Google downloaders, orchestrator, Parser/Synthesizer LLM agents, scheduled GitHub Actions cron).
+
+**Multi-municipality refactor — Phase 1:** ✅ Shipped this session.
+- `scraper/adapters/` package with `CityAdapter` Protocol, `MeetingRecord` dataclass, `AgendaDownloadResult`, `AdapterDownloadError`, and a slug→class registry.
+- `scraper/adapters/medford_ma.py` — `MedfordAdapter` wrapping the existing Finalsite calendar + CivicClerk/Google downloaders behind the protocol.
+- `scraper/run_pipeline.py` — refactored to be city-agnostic: takes `--municipality SLUG` (or `MUNICIPALITY_SLUG` env var), defaults to `medford-ma`, loads the adapter via the registry, and never imports city-specific modules directly.
+- Branding split into project chrome (Municipal Dashboards banner, fixed across cities) vs city section (logo, colors, eyebrow, tagline) loaded at runtime from `branding.json`. Per-city files live in `branding/{slug}.json`; the orchestrator copies the right one into the active `branding.json` on each run.
+- `index.html` reorganized with two-tier header: project banner (charcoal + copper accent, system-sans, 2x2-square glyph) above a city-branded subject section. Footer now carries an explicit "independent project — for official documents follow the link to the Official City Calendar" disclaimer with a copper accent rule.
+- HTML inline defaults match `branding/medford-ma.json` so the page renders correctly even over `file://` (i.e. when `fetch('branding.json')` can't run); JS still overrides at runtime.
+- City title now reads "Medford Municipal Agendas" (city_name + tagline combined) rather than tagline alone.
+- GitHub Actions workflow plumbs `MUNICIPALITY_SLUG` repo variable through to the pipeline; bot identity renamed `municipal-dashboard-bot`; `branding.json` added to the auto-commit set so a forker switching their slug variable sees the chrome update.
+
+**Multi-municipality refactor — Phase 2 (Somerville):** ⏳ Not started. Awaiting Medford-side test confirmation from the user before building the SomervilleAdapter (Drupal `/calendar` + Legistar `View.ashx` agendas).
 
 ## Active workstream
 
-Nothing in flight. Both scheduling and dashboard schema upgrade are
-shipped.
+Phase 1 of the multi-municipality refactor was just pushed. The user is
+testing the Medford rendering in the live dashboard. Next steps once
+the test passes:
 
-Confirmed working: the cron ran successfully on 2026-04-26 morning at
-10 UTC (user reported: "the hook ran this morning at the prescribed
-time and executed to success").
+1. Verify the next scheduled cron run produces a Medford-identical
+   `agendas.json` and that the new project banner shows up correctly.
+2. Begin Phase 2 — write `SomervilleAdapter`. Recon is already in
+   `TARGET_SITES.md`: Drupal calendar at `https://www.somervillema.gov/calendar`,
+   detail pages at `/events/YYYY/MM/DD/{slug}`, agendas hosted in
+   Legistar (`somervillema.legistar.com`) with PDFs at
+   `View.ashx?M=A&ID=...&GUID=...`.
 
-Next on the TODO priority queue is the multi-municipality refactor —
-making the scraper config-driven so other cities can fork. That's
-deliberately not started yet; it's substantial design work and the
-project should bake for a few more cron cycles before it gets pulled
-apart.
+## Phase 1 design decisions (multi-municipality)
+
+| Decision | Rationale |
+|---|---|
+| Adapters are Python modules, not YAML config | Somerville's stack proved cities differ enough that config-only can't capture the variation; any forker who can't write Python can't add a new city anyway. |
+| One repo per city fork (one `MUNICIPALITY_SLUG` per repo) | Matches existing GH Pages + cron model; no multi-tenant URL routing. |
+| Two-tier header (project banner above city section) | User wanted clear visual signal that this is *not* an official city site; project banner uses charcoal + copper + system-sans to be clearly distinct from any city's serif-and-color identity. |
+| Copper `#b35a1f` as project accent | Chromatically far from both navy (Medford) and forest green (future Somerville); reads as civic/newspaper rather than tech-startup. |
+| Branding loaded at runtime from `branding.json` (no build step) | Forking is "edit JSON → rerun pipeline → push." Static HTML stays static. |
+| Inline HTML defaults match Medford branding | Page renders correctly over `file://` (where `fetch()` fails); a forker must edit four inline lines in `index.html` plus the JSON file. Documented inline. |
+| Defer adapter abstraction for non-existent stacks (Granicus, BoardDocs, etc.) | YAGNI; the Somerville adapter will validate the protocol shape, and we'll only generalize once a third stack appears. |
+| Title fronts city name ("Medford Municipal Agendas") | User feedback: makes the city the subject of the heading, not just an eyebrow above. |
 
 ## Resolved this session — first production run + doc system + README
 
@@ -87,6 +104,8 @@ apart.
 
 ## Recent commits (most recent first)
 
+- *(this commit)* — Multi-municipality refactor Phase 1: adapter layer, project banner, runtime branding
+- `0ca4ad7` — Surface meeting-level attendance info in the dashboard
 - `905185a` — Add SCHEDULING.md runbook for the cron + workflow
 - `1cdbb5f` — TODO: capture multi-municipality fork-friendly refactor
 - `a2c5f28` — Add scheduled pipeline workflow (GitHub Actions, daily cron)

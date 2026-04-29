@@ -47,6 +47,9 @@ jobs:
       - name: Run pipeline (scrape + parse + synthesize + archive)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Forks: override with a repo Variable named MUNICIPALITY_SLUG
+          # (Settings → Secrets and variables → Actions → Variables tab).
+          MUNICIPALITY_SLUG: ${{ vars.MUNICIPALITY_SLUG || 'medford-ma' }}
         run: python -m scraper.run_pipeline --process
 
       - name: Upload run summary (always, for debugging)
@@ -61,11 +64,14 @@ jobs:
       - name: Commit and push if anything changed
         run: |
           set -euo pipefail
-          git config user.name "medford-dashboard-bot"
+          git config user.name "municipal-dashboard-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # Stage only the artifacts the pipeline produces.
-          git add agendas.json agendas/archived/
+          # branding.json is staged too: the pipeline syncs it from
+          # branding/{slug}.json each run, and a fork that switches its
+          # MUNICIPALITY_SLUG variable should see the chrome update.
+          git add agendas.json branding.json agendas/archived/
 
           if git diff --cached --quiet; then
             echo "No data changes — nothing to commit."

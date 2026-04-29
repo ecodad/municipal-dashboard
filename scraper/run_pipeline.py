@@ -1,65 +1,64 @@
 """
-Step 2e: orchestrate the full scraper pipeline.
+Pipeline orchestrator — city-agnostic.
 
-For a given lookahead window, this:
+For a given municipality slug + lookahead window, this:
 
-  1. Calls Step 1 (calendar_scrape) to list upcoming meetings.
-  2. For each meeting, calls Step 2b (event_detail_scrape) to discover
-     the agenda URL, source type, location, and Zoom info.
-  3. Dispatches to Step 2a (civicclerk_download) or 2c/2d
-     (google_download) by source type and saves the agenda PDF into the
-     destination directory.
-  4. Skips meetings whose agenda is already present in `dest_dir/` or
-     `dest_dir/archived/` (idempotency).
-  5. Writes a JSON run summary at `dest_dir/.last_scraper_run.json`.
+  1. Loads the right `CityAdapter` (Finalsite for Medford, eventually
+     Drupal+Legistar for Somerville, etc.).
+  2. Asks it to `list_meetings(today, lookahead_days)` — returns a
+     list of `MeetingRecord` with agenda_url + agenda_type already
+     resolved.
+  3. For each meeting whose agenda is downloadable, calls
+     `adapter.download_agenda(...)` and saves the PDF.
+  4. Skips meetings whose agenda is already on disk in `dest_dir/` or
+     `dest_dir/archived/` (idempotency, keyed on occur_id substring).
+  5. Optionally (`--process`) runs the Parser (Haiku) → Synthesizer
+     (Sonnet) chain to update `agendas.json`.
+  6. Optionally syncs `branding/{slug}.json` -> `branding.json` so
+     the static dashboard picks up the right city chrome.
+  7. Writes a JSON run summary at `dest_dir/.last_scraper_run.json`.
 
-Designed so the existing Parser → Synthesizer pipeline can pick up the
-freshly-downloaded PDFs from `agendas/` on its next run without any
-code changes. The hidden `.last_scraper_run.json` file is ignored by
-the Parser (which only reads `*.pdf`/`*.docx`).
+The orchestrator never imports any city's modules directly — the
+adapter registry in `scraper.adapters` does the lookup. To add a city,
+write an adapter; this file does not change.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
+import shutil
 import sys
-import time
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Optional
 
-from .calendar_scrape import Meeting, fetch_meetings
-from .civicclerk_download import (
-    CivicClerkDownloadError,
-    download_agenda as download_civicclerk,
-)
-from .event_detail_scrape import (
-    AgendaType,
-    EventDetailScrapeError,
-    fetch_event_detail,
-)
-from .google_download import (
-    GoogleDownloadError,
-    download_google_agenda,
+from .adapters import (
+    AdapterDownloadError,
+    CityAdapter,
+    MeetingRecord,
+    load_adapter,
+    registered_slugs,
 )
 from .parser import (
-    DEFAULT_OUTPUT_DIR as DEFAULT_MARKDOWN_DIR,
     ParserError,
     parse_directory,
 )
 from .synthesizer import (
     DEFAULT_AGENDAS_JSON,
-    DEFAULT_ARCHIVE_DIR,
     SynthesizerError,
     synthesize_directory,
 )
 
 
 DEFAULT_DEST = Path("agendas")
+DEFAULT_MUNICIPALITY_SLUG = "medford-ma"
 RUN_SUMMARY_FILENAME = ".last_scraper_run.json"
+BRANDING_DIR = Path("branding")
+ACTIVE_BRANDING_PATH = Path("branding.json")
 SLUG_RE = re.compile(r"[^a-z0-9]+")
 
 
@@ -76,25 +75,39 @@ class Status:
 
 
 @dataclass
-class MeetingResult:
-    occur_id: str
-    title: str
-    start: str
-    detail_url: str
-    agenda_url: Optional[str]
-    agenda_type: str
-    location: Optional[str]
-    zoom_url: Optional[str]
-    livestream_url: Optional[str]
+class MeetingRunResult:
+    """Per-meeting outcome of one pipeline run.
+
+    Carries the full MeetingRecord forward so the run summary keeps
+    the same shape it had before the adapter refactor (existing
+    consumers — including the dashboard's earlier `legacy` fallback —
+    can read it without changes).
+    """
+
+    record: MeetingRecord
     status: str
     file_path: Optional[str] = None
     file_size: Optional[int] = None
     error: Optional[str] = None
 
+    def to_dict(self) -> dict:
+        d = asdict(self.record)
+        d.update(
+            {
+                "status": self.status,
+                "file_path": self.file_path,
+                "file_size": self.file_size,
+                "error": self.error,
+            }
+        )
+        return d
+
 
 @dataclass
 class RunSummary:
     run_at: str
+    municipality_slug: str
+    municipality_name: str
     as_of: str
     window_end: str
     lookahead_days: int
@@ -112,16 +125,16 @@ def _slugify(s: str, max_len: int = 60) -> str:
     return s[:max_len].rstrip("-") or "meeting"
 
 
-def _filename_stem_for(meeting: Meeting) -> str:
-    """Stable, sortable, human-readable name."""
+def _filename_stem_for(meeting: MeetingRecord) -> str:
+    """Stable, sortable, human-readable name; same shape as before."""
     date_part = meeting.start[:10]  # YYYY-MM-DD slice from ISO timestamp
     slug = _slugify(meeting.title)
     return f"{date_part}__{meeting.occur_id}__{slug}"
 
 
 def _already_have(occur_id: str, dest_dir: Path) -> Optional[Path]:
-    """Look for any file in dest_dir or dest_dir/archived whose name
-    contains this occur_id. Returns the first match, or None.
+    """Look in dest_dir + dest_dir/archived for any file containing
+    this occur_id. Returns the first match, or None.
     """
     needle = f"__{occur_id}__"
     for d in (dest_dir, dest_dir / "archived"):
@@ -133,105 +146,90 @@ def _already_have(occur_id: str, dest_dir: Path) -> Optional[Path]:
     return None
 
 
-def _empty_result(meeting: Meeting, status: str, *, error: str | None = None) -> MeetingResult:
-    return MeetingResult(
-        occur_id=meeting.occur_id,
-        title=meeting.title,
-        start=meeting.start,
-        detail_url=meeting.detail_url,
-        agenda_url=None,
-        agenda_type=AgendaType.MISSING.value,
-        location=None,
-        zoom_url=None,
-        livestream_url=None,
-        status=status,
-        error=error,
-    )
+def _sync_active_branding(slug: str, *, verbose: bool = True) -> None:
+    """Copy `branding/{slug}.json` to `branding.json` so the static
+    dashboard picks up the right city chrome on its next page load.
+
+    No-op if the per-slug file is missing — the live `branding.json`
+    is left as-is, which keeps the existing site rendering whatever
+    branding was last committed.
+    """
+    src = BRANDING_DIR / f"{slug}.json"
+    if not src.is_file():
+        if verbose:
+            print(
+                f"[run_pipeline] note: {src} not found; "
+                f"leaving {ACTIVE_BRANDING_PATH} unchanged.",
+                file=sys.stderr,
+            )
+        return
+    shutil.copyfile(src, ACTIVE_BRANDING_PATH)
+    if verbose:
+        print(
+            f"[run_pipeline] branding: {src} -> {ACTIVE_BRANDING_PATH}",
+            file=sys.stderr,
+        )
 
 
 # ---- Per-meeting processing ---------------------------------------------
 
 
 def process_meeting(
-    meeting: Meeting,
+    adapter: CityAdapter,
+    meeting: MeetingRecord,
     dest_dir: Path,
     *,
     dry_run: bool = False,
-) -> MeetingResult:
+) -> MeetingRunResult:
     """Resolve one meeting's agenda end-to-end.
 
-    Never raises for per-meeting issues; returns a MeetingResult whose
-    `status`/`error` fields describe what happened.
+    Never raises for per-meeting issues; returns a MeetingRunResult
+    whose `status`/`error` describe what happened.
     """
-    try:
-        detail = fetch_event_detail(meeting.detail_url)
-    except EventDetailScrapeError as err:
-        return _empty_result(meeting, Status.FAILED, error=str(err))
+    if meeting.agenda_type == "MISSING":
+        return MeetingRunResult(record=meeting, status=Status.MISSING)
 
-    base = MeetingResult(
-        occur_id=meeting.occur_id,
-        title=meeting.title,
-        start=meeting.start,
-        detail_url=meeting.detail_url,
-        agenda_url=detail.agenda_url,
-        agenda_type=detail.agenda_type.value,
-        location=detail.location,
-        zoom_url=detail.zoom_url,
-        livestream_url=detail.livestream_url,
-        status=Status.MISSING,
-    )
+    if not meeting.is_downloadable:
+        # OTHER / unrecognized — adapter said "won't fetch."
+        return MeetingRunResult(
+            record=meeting,
+            status=Status.UNSUPPORTED,
+            error=(
+                f"Adapter classified agenda_type={meeting.agenda_type!r} "
+                f"as non-downloadable (url={meeting.agenda_url!r})."
+            ),
+        )
 
-    if detail.agenda_type is AgendaType.MISSING:
-        return base
-
-    if detail.agenda_type is AgendaType.OTHER:
-        base.status = Status.UNSUPPORTED
-        base.error = f"Unrecognized agenda URL host: {detail.agenda_url}"
-        return base
-
-    # Idempotency: don't re-download already-captured agendas.
     existing = _already_have(meeting.occur_id, dest_dir)
     if existing is not None:
-        base.status = Status.SKIPPED_EXISTING
-        base.file_path = str(existing)
-        base.file_size = existing.stat().st_size
-        return base
+        return MeetingRunResult(
+            record=meeting,
+            status=Status.SKIPPED_EXISTING,
+            file_path=str(existing),
+            file_size=existing.stat().st_size,
+        )
 
     if dry_run:
-        base.status = Status.WOULD_DOWNLOAD
-        return base
+        return MeetingRunResult(record=meeting, status=Status.WOULD_DOWNLOAD)
 
     stem = _filename_stem_for(meeting)
     try:
-        if detail.agenda_type is AgendaType.CIVICCLERK:
-            res = download_civicclerk(
-                portal_url=detail.agenda_url,
-                dest_dir=dest_dir,
-                fmt="pdf",
-                filename_stem=stem,
-            )
-            base.file_path = str(res.path)
-            base.file_size = res.size_bytes
-            base.status = Status.DOWNLOADED
-        elif detail.agenda_type in (
-            AgendaType.GOOGLE_DOC,
-            AgendaType.GOOGLE_DRIVE_FILE,
-        ):
-            res = download_google_agenda(
-                url=detail.agenda_url,
-                dest_dir=dest_dir,
-                filename_stem=stem,
-            )
-            base.file_path = str(res.path)
-            base.file_size = res.size_bytes
-            base.status = Status.DOWNLOADED
-        else:
-            base.status = Status.UNSUPPORTED
-    except (CivicClerkDownloadError, GoogleDownloadError) as err:
-        base.status = Status.FAILED
-        base.error = str(err)
+        result = adapter.download_agenda(
+            meeting=meeting,
+            dest_dir=dest_dir,
+            filename_stem=stem,
+        )
+    except AdapterDownloadError as err:
+        return MeetingRunResult(
+            record=meeting, status=Status.FAILED, error=str(err)
+        )
 
-    return base
+    return MeetingRunResult(
+        record=meeting,
+        status=Status.DOWNLOADED,
+        file_path=str(result.path),
+        file_size=result.size_bytes,
+    )
 
 
 # ---- Pipeline driver -----------------------------------------------------
@@ -239,6 +237,7 @@ def process_meeting(
 
 def run(
     *,
+    adapter: CityAdapter,
     today: Optional[date] = None,
     lookahead_days: int = 14,
     dest_dir: Path = DEFAULT_DEST,
@@ -246,18 +245,23 @@ def run(
     write_summary: bool = True,
     verbose: bool = True,
 ) -> RunSummary:
-    """Run the full pipeline. Returns a RunSummary."""
     today = today or date.today()
     dest_dir = Path(dest_dir)
     dest_dir.mkdir(parents=True, exist_ok=True)
 
-    meetings = fetch_meetings(today=today, lookahead_days=lookahead_days)
+    if verbose:
+        print(
+            f"[run_pipeline] municipality: {adapter.slug} ({adapter.name})",
+            file=sys.stderr,
+        )
 
-    results: list[MeetingResult] = []
+    meetings = adapter.list_meetings(today=today, lookahead_days=lookahead_days)
+
+    results: list[MeetingRunResult] = []
     for m in meetings:
         if verbose:
             print(f"[scraper] {m.start[:16]}  {m.title}", file=sys.stderr)
-        results.append(process_meeting(m, dest_dir, dry_run=dry_run))
+        results.append(process_meeting(adapter, m, dest_dir, dry_run=dry_run))
 
     counts: dict[str, int] = {}
     for r in results:
@@ -267,13 +271,15 @@ def run(
 
     summary = RunSummary(
         run_at=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        municipality_slug=adapter.slug,
+        municipality_name=adapter.name,
         as_of=today.isoformat(),
         window_end=window_end.isoformat(),
         lookahead_days=lookahead_days,
         dest_dir=str(dest_dir),
         dry_run=dry_run,
         counts=counts,
-        meetings=[asdict(r) for r in results],
+        meetings=[r.to_dict() for r in results],
     )
 
     if write_summary:
@@ -288,7 +294,8 @@ def run(
 
 def _print_human(summary: RunSummary) -> None:
     print(
-        f"\nMedford agenda scraper — window {summary.as_of} -> {summary.window_end} "
+        f"\n{summary.municipality_name} agenda scraper — window "
+        f"{summary.as_of} -> {summary.window_end} "
         f"({summary.lookahead_days}d, dest={summary.dest_dir})"
     )
     label_order = [
@@ -327,12 +334,37 @@ def _print_human(summary: RunSummary) -> None:
             print(f"      {m['error']}")
 
 
+def _resolve_slug(cli_value: Optional[str]) -> str:
+    """Pick the municipality slug. Precedence:
+
+      1. --municipality on the command line
+      2. MUNICIPALITY_SLUG env var
+      3. DEFAULT_MUNICIPALITY_SLUG
+    """
+    if cli_value:
+        return cli_value
+    env_value = os.environ.get("MUNICIPALITY_SLUG", "").strip()
+    if env_value:
+        return env_value
+    return DEFAULT_MUNICIPALITY_SLUG
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description=(
-            "Run the full Medford agenda scraper pipeline: list upcoming "
-            "meetings, resolve each agenda URL, and download the PDFs."
+            "Run the Municipal Dashboards pipeline: list upcoming meetings, "
+            "resolve each agenda URL, and download the PDFs (and optionally "
+            "parse + synthesize them into agendas.json)."
         )
+    )
+    parser.add_argument(
+        "--municipality",
+        default=None,
+        help=(
+            f"Municipality slug. Defaults to MUNICIPALITY_SLUG env var, "
+            f"falling back to {DEFAULT_MUNICIPALITY_SLUG!r}. "
+            f"Registered: {', '.join(registered_slugs())}."
+        ),
     )
     parser.add_argument(
         "--as-of",
@@ -369,6 +401,14 @@ def main(argv: list[str] | None = None) -> int:
         ),
     )
     parser.add_argument(
+        "--no-branding-sync",
+        action="store_true",
+        help=(
+            "Don't copy branding/{slug}.json -> branding.json. Useful if "
+            "you're hand-editing the active branding."
+        ),
+    )
+    parser.add_argument(
         "--process",
         action="store_true",
         help=(
@@ -379,7 +419,18 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
 
+    slug = _resolve_slug(args.municipality)
+    try:
+        adapter = load_adapter(slug)
+    except KeyError as err:
+        print(f"ERROR: {err}", file=sys.stderr)
+        return 2
+
+    if not args.no_branding_sync and not args.dry_run:
+        _sync_active_branding(slug, verbose=not args.json)
+
     summary = run(
+        adapter=adapter,
         today=args.as_of,
         lookahead_days=args.lookahead_days,
         dest_dir=Path(args.dest),
@@ -400,8 +451,6 @@ def main(argv: list[str] | None = None) -> int:
             dest_dir=Path(args.dest), verbose=not args.json
         )
 
-    # Exit non-zero if anything actually failed (not for MISSING/UNSUPPORTED,
-    # which are normal outcomes), or if Parser/Synthesizer hit an error.
     failed = summary.counts.get(Status.FAILED, 0)
     return 1 if (failed or process_failed) else 0
 
@@ -409,7 +458,7 @@ def main(argv: list[str] | None = None) -> int:
 def _run_process_stage(*, dest_dir: Path, verbose: bool = True) -> int:
     """Run Parser -> Synthesizer over freshly-downloaded PDFs.
 
-    Returns 0 on success, non-zero if anything failed unrecoverably.
+    City-agnostic; the adapter has done its work by this point.
     """
     if verbose:
         print("\n=== Stage: Parser (Haiku) ===", file=sys.stderr)
