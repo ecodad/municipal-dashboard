@@ -99,8 +99,9 @@ class AdapterDownloadError(RuntimeError):
 class CityAdapter(Protocol):
     """Per-city scraper. The only city-specific surface in the pipeline."""
 
-    slug: str  # filesystem-safe identifier, e.g. "medford-ma"
-    name: str  # human-readable, e.g. "Medford, MA"
+    slug: str       # registry key, e.g. "medford-ma" — also used for branding/{slug}.json
+    name: str       # human-readable, e.g. "Medford, MA"
+    site_path: str  # URL/dir slug under repo root, e.g. "medford" → /medford/
 
     def list_meetings(
         self,

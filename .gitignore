@@ -21,8 +21,15 @@ venv/
 # Scraper recon scratch (HTML dumps, test downloads, cookies)
 .recon/
 
-# Per-run scraper summary; transient, regenerated each run
-agendas/.last_scraper_run.json
+# Per-city scraper working dir: in-flight PDFs, parser markdown, run
+# summary. Everything under agendas/{slug}/ is transient — regenerated
+# on each pipeline run, then archived (committed) into {site_path}/archived/.
+# The pipeline creates this directory at runtime (`mkdir -p`), so we
+# don't need a tracked placeholder.
+agendas/
+
+# Local scratch / personal files kept outside the published site
+maai_raw.json
 
 # Secrets — local API keys for the Parser / Synthesizer SDK calls.
 # NEVER commit a real ANTHROPIC_API_KEY. Each developer keeps their own

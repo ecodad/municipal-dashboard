@@ -136,46 +136,75 @@ Every stage is safe to re-run; each has its own dedup key:
 
 ## Filesystem layout
 
+The repo serves two roles: **published static site** (deployed to GH
+Pages) and **pipeline workspace**. Both share the same root, separated
+by which paths are committed vs gitignored.
+
 ```
 municipal_dashboard/
-├── .env                 ← gitignored, real ANTHROPIC_API_KEY
-├── .env.example         ← committed template
-├── .gitignore
-├── README.md            ← public project overview
-├── MEMORY.md            ← session-state log
-├── ARCHITECTURE.md      ← this file
-├── TARGET_SITES.md      ← external data sources
-├── AGENTS.md            ← agent/module roles + permissions
-├── TODO.md              ← pending work
-├── SCHEDULING.md        ← runbook for the GH Actions cron
-├── index.html           ← static dashboard (project banner + city section)
-├── branding.json        ← active city branding (copied from branding/{slug}.json)
+│
+│ ── PROJECT-LEVEL FILES (deployed to /) ──
+├── index.html                ← landing page; fetches cities.json
+├── cities.json               ← pipeline-generated registry (one entry per city)
+├── template/
+│   └── dashboard.html        ← canonical city dashboard; copied to {site_path}/index.html each run
 ├── branding/
-│   ├── medford-ma.json  ← per-city chrome (logo, colors, name, …)
-│   └── {slug}.json      ← one per city
-├── agendas.json         ← canonical structured data
-├── requirements.txt     ← Python deps: requests, bs4, anthropic, python-dotenv
+│   ├── medford-ma.json       ← per-city chrome source (logo, colors, name)
+│   └── {slug}.json           ← one per registered city
+│
+│ ── PER-CITY PUBLISHED DIRS (deployed to /{site_path}/) ──
+├── medford/                  ← Medford's dashboard
+│   ├── index.html            ← copy of template/dashboard.html (refreshed each run)
+│   ├── agendas.json          ← canonical structured data
+│   ├── branding.json         ← copy of branding/medford-ma.json (refreshed each run)
+│   └── archived/             ← post-Synthesizer audit trail; served as /medford/archived/{file}
+│       ├── *.pdf
+│       └── *.md
+├── somerville/               ← (Phase 2) same shape
+│
+│ ── PER-CITY WORKING DIRS (gitignored, transient) ──
+├── agendas/                  ← gitignored
+│   ├── medford-ma/
+│   │   ├── *.pdf             ← in-flight downloads
+│   │   ├── markdown/*.md     ← parser output
+│   │   └── .last_scraper_run.json
+│   └── somerville-ma/
+│       └── …
+│
+│ ── PIPELINE CODE ──
 ├── scraper/
-│   ├── __init__.py
 │   ├── adapters/
-│   │   ├── __init__.py        ← CityAdapter Protocol + registry
-│   │   └── medford_ma.py      ← MedfordAdapter
-│   ├── calendar_scrape.py     ← Medford Finalsite calendar (used by MedfordAdapter)
+│   │   ├── __init__.py       ← CityAdapter Protocol + registry
+│   │   └── medford_ma.py     ← MedfordAdapter
+│   ├── calendar_scrape.py    ← Medford Finalsite calendar (used by MedfordAdapter)
 │   ├── event_detail_scrape.py ← Medford detail-page parser
 │   ├── civicclerk_download.py ← host-level (any CivicClerk tenant)
-│   ├── google_download.py     ← host-level (any Google Doc/Drive share)
-│   ├── parser.py              ← Claude Haiku PDF→MD
-│   ├── synthesizer.py         ← Claude Sonnet MD→agendas.json
-│   └── run_pipeline.py        ← city-agnostic orchestrator
-└── agendas/
-    ├── *.pdf            ← freshly-downloaded, not yet processed
-    ├── markdown/        ← Parser output, transient
-    │   └── *.md
-    ├── archived/        ← post-Synthesizer audit trail
-    │   ├── *.pdf
-    │   └── *.md
-    └── .last_scraper_run.json  ← gitignored, regenerated each run
+│   ├── google_download.py    ← host-level (any Google Doc/Drive share)
+│   ├── parser.py             ← Claude Haiku PDF→MD
+│   ├── synthesizer.py        ← Claude Sonnet MD→agendas.json
+│   └── run_pipeline.py       ← city-agnostic orchestrator
+│
+│ ── DOCS / META ──
+├── README.md
+├── MEMORY.md, ARCHITECTURE.md (this file), TARGET_SITES.md, AGENTS.md, TODO.md, SCHEDULING.md
+├── .env                      ← gitignored, real ANTHROPIC_API_KEY
+├── .env.example              ← committed template
+├── .gitignore
+└── requirements.txt
 ```
+
+### Pipeline I/O paths per city
+
+For an adapter with `slug=foo-ma` and `site_path=foo`:
+
+| Stage | Reads from | Writes to |
+|---|---|---|
+| Calendar/detail scrape | network | (nothing on disk) |
+| Adapter download | network | `agendas/foo-ma/*.pdf` |
+| Parser (Haiku) | `agendas/foo-ma/*.pdf` | `agendas/foo-ma/markdown/*.md` |
+| Synthesizer (Sonnet) | `agendas/foo-ma/markdown/*.md`, existing `foo/agendas.json` | `foo/agendas.json`, archives consumed PDFs+MD into `foo/archived/` |
+| Chrome refresh | `template/dashboard.html`, `branding/foo-ma.json` | `foo/index.html`, `foo/branding.json` |
+| Cities-registry refresh | every `branding/{slug}.json` + `{site_path}/agendas.json` | root `cities.json` |
 
 ## Data shapes
 

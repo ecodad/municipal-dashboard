@@ -2,13 +2,17 @@ name: Refresh Agendas
 
 # Scheduled run of the full pipeline:
 #   scrape -> parse (Haiku) -> synthesize (Sonnet) -> archive ->
-#   commit & push.
+#   refresh dashboard chrome -> update cities.json -> commit & push.
+#
+# `--all` loops over every registered CityAdapter so adding a new city
+# is purely additive: register the adapter, drop in branding/{slug}.json,
+# and the next cron picks it up.
 #
 # Defaults to a once-daily run at 10:00 UTC (6 AM ET in winter, 5 AM ET
 # during DST). Adjust the cron below if you want a different cadence.
 # Idle days (no new meetings) are essentially free: a few HTTP GETs to
-# the calendar plus a no-op Synthesizer step. LLM cost is bounded by
-# new-meeting count.
+# each city's calendar plus a no-op Synthesizer step. LLM cost is
+# bounded by new-meeting count.
 
 on:
   schedule:
@@ -22,14 +26,14 @@ concurrency:
   cancel-in-progress: false
 
 # The default GITHUB_TOKEN needs write access to push the regenerated
-# agendas.json + archived sources back to main.
+# per-city agendas.json + archived sources + cities.json back to main.
 permissions:
   contents: write
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25  # higher ceiling now that we loop over cities
 
     steps:
       - name: Checkout main
@@ -44,20 +48,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run pipeline (scrape + parse + synthesize + archive)
+      - name: Run pipeline for every registered city
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Forks: override with a repo Variable named MUNICIPALITY_SLUG
-          # (Settings → Secrets and variables → Actions → Variables tab).
-          MUNICIPALITY_SLUG: ${{ vars.MUNICIPALITY_SLUG || 'medford-ma' }}
-        run: python -m scraper.run_pipeline --process
+        run: python -m scraper.run_pipeline --process --all
 
-      - name: Upload run summary (always, for debugging)
+      - name: Upload run summaries (always, for debugging)
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: scraper-run-summary
-          path: agendas/.last_scraper_run.json
+          name: scraper-run-summaries
+          # Each city writes its own summary at agendas/{slug}/.last_scraper_run.json
+          path: agendas/*/.last_scraper_run.json
           if-no-files-found: ignore
           retention-days: 30
 
@@ -67,11 +69,19 @@ jobs:
           git config user.name "municipal-dashboard-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Stage only the artifacts the pipeline produces.
-          # branding.json is staged too: the pipeline syncs it from
-          # branding/{slug}.json each run, and a fork that switches its
-          # MUNICIPALITY_SLUG variable should see the chrome update.
-          git add agendas.json branding.json agendas/archived/
+          # Stage everything the pipeline can produce or refresh:
+          #   - per-city directories (index.html, agendas.json, branding.json,
+          #     archived/), one per registered slug
+          #   - the root cities.json registry
+          # We use a glob-style add of every committed top-level dir that
+          # contains an agendas.json. That covers Medford today, Somerville
+          # next, etc., without having to enumerate slugs in this workflow.
+          for d in */; do
+            if [ -f "${d}agendas.json" ]; then
+              git add "$d"
+            fi
+          done
+          git add cities.json
 
           if git diff --cached --quiet; then
             echo "No data changes — nothing to commit."
@@ -79,11 +89,14 @@ jobs:
           fi
 
           # Summarize the diff for the commit message.
-          ITEM_COUNT=$(python -c "import json; print(len(json.load(open('agendas.json'))['items']))")
-          NEW_ARCHIVED=$(git diff --cached --name-only -- agendas/archived/ | wc -l)
+          CITIES_TOUCHED=$(git diff --cached --name-only \
+                           | awk -F/ '/^[^.]+\/agendas\.json$/{print $1}' \
+                           | sort -u | paste -sd, -)
+          NEW_ARCHIVED=$(git diff --cached --name-only \
+                         | grep -E '^[^/]+/archived/' | wc -l)
 
           git commit -m "chore(agendas): scheduled refresh $(date -u +%F)" \
-                     -m "Total items in agendas.json: ${ITEM_COUNT}" \
+                     -m "Cities touched: ${CITIES_TOUCHED:-(none)}" \
                      -m "Newly archived files: ${NEW_ARCHIVED}"
 
           git push origin HEAD:main

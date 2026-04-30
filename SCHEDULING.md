@@ -1,4 +1,3 @@
-# Scheduling — How the Pipeline Runs Itself
 
 > Runbook for the daily automatic refresh that keeps `agendas.json` and
 > the live dashboard up to date without anyone running anything locally.
@@ -29,15 +28,20 @@ The workflow file is [`.github/workflows/refresh-agendas.yml`](.github/workflows
 │                                                                  │
 │  1. Clone main                                                   │
 │  2. Install Python 3.13 + pip deps from requirements.txt         │
-│  3. Run pipeline (ANTHROPIC_API_KEY from repo secrets):          │
-│       a. Scrape Medford events calendar  →  list of meetings     │
-│       b. Fetch each meeting's detail page →  agenda URL + type   │
-│       c. Download PDFs (CivicClerk / Google Doc / Drive)         │
-│       d. Parse PDFs with Claude Haiku    →  Markdown intermediate│
-│       e. Synthesize Markdown with Sonnet →  agendas.json items   │
-│       f. Move sources to agendas/archived/                       │
+│  3. Run `python -m scraper.run_pipeline --process --all`         │
+│     (ANTHROPIC_API_KEY from repo secrets). For each registered   │
+│     adapter:                                                     │
+│       a. Scrape city calendar  →  list of meetings               │
+│       b. Resolve detail / agenda URL per meeting                 │
+│       c. Download PDFs into agendas/{slug}/                      │
+│       d. Parse PDFs with Claude Haiku  →  Markdown               │
+│       e. Synthesize Markdown with Sonnet → {site_path}/agendas.json│
+│       f. Move sources to {site_path}/archived/                   │
+│       g. Refresh {site_path}/index.html (from template) +        │
+│          {site_path}/branding.json (from branding/{slug}.json)   │
+│     Then once at the end: rewrite root cities.json registry.     │
 │  4. If anything changed, commit + push back to main (bot user)   │
-│  5. Upload run summary (.last_scraper_run.json) as artifact      │
+│  5. Upload per-city run summaries as artifact                    │
 │                                                                  │
 │  Runner is destroyed after the job finishes. Filesystem is gone. │
 │  The only persistent output is the commit back to main.          │
@@ -47,14 +51,19 @@ The workflow file is [`.github/workflows/refresh-agendas.yml`](.github/workflows
                                ▼
 ┌──────────────────────────────────────────────────────────────────┐
 │ Repository main branch — new commit                              │
-│   • agendas.json (regenerated)                                   │
-│   • agendas/archived/ (newly-archived PDFs + .md)                │
+│   • {site_path}/agendas.json   (regenerated, per city)           │
+│   • {site_path}/archived/      (newly-archived PDFs + .md)       │
+│   • {site_path}/index.html     (refreshed from template)         │
+│   • {site_path}/branding.json  (refreshed from branding/{slug}.json)│
+│   • cities.json                (root registry)                   │
 └──────────────────────────────┬───────────────────────────────────┘
                                │
                                │ Pages rebuild (~60s)
                                ▼
 ┌──────────────────────────────────────────────────────────────────┐
 │ Live dashboard updates automatically                             │
+│   /                       — landing page lists all cities        │
+│   /{site_path}/           — each city's dashboard                │
 └──────────────────────────────────────────────────────────────────┘
 ```
 

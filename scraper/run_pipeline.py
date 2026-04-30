@@ -5,22 +5,31 @@ For a given municipality slug + lookahead window, this:
 
   1. Loads the right `CityAdapter` (Finalsite for Medford, eventually
      Drupal+Legistar for Somerville, etc.).
-  2. Asks it to `list_meetings(today, lookahead_days)` — returns a
-     list of `MeetingRecord` with agenda_url + agenda_type already
-     resolved.
+  2. Asks it to `list_meetings(today, lookahead_days)` — returns
+     `MeetingRecord`s with agenda_url + agenda_type already resolved.
   3. For each meeting whose agenda is downloadable, calls
-     `adapter.download_agenda(...)` and saves the PDF.
-  4. Skips meetings whose agenda is already on disk in `dest_dir/` or
-     `dest_dir/archived/` (idempotency, keyed on occur_id substring).
+     `adapter.download_agenda(...)` and saves the PDF into the per-city
+     working directory `agendas/{slug}/`.
+  4. Skips meetings whose agenda is already on disk in the working
+     directory or in the published `{site_path}/archived/` directory.
   5. Optionally (`--process`) runs the Parser (Haiku) → Synthesizer
-     (Sonnet) chain to update `agendas.json`.
-  6. Optionally syncs `branding/{slug}.json` -> `branding.json` so
-     the static dashboard picks up the right city chrome.
-  7. Writes a JSON run summary at `dest_dir/.last_scraper_run.json`.
+     (Sonnet) chain. The Parser writes Markdown into
+     `agendas/{slug}/markdown/`; the Synthesizer reads from there,
+     writes structured items into `{site_path}/agendas.json`, and
+     moves the consumed PDFs + Markdown into `{site_path}/archived/`.
+  6. Refreshes `{site_path}/index.html` from `template/dashboard.html`
+     and `{site_path}/branding.json` from `branding/{slug}.json`, so a
+     fork that swaps slug or template gets its dashboard chrome
+     updated automatically.
+  7. Rewrites the root `cities.json` registry with the current set of
+     deployed cities (used by the landing page).
+
+In `--all` mode the steps above are run sequentially for every adapter
+registered in `scraper.adapters._REGISTRY`.
 
 The orchestrator never imports any city's modules directly — the
-adapter registry in `scraper.adapters` does the lookup. To add a city,
-write an adapter; this file does not change.
+adapter registry does the lookup. To add a city, write an adapter,
+register it, and add `branding/{slug}.json`. This file does not change.
 """
 
 from __future__ import annotations
@@ -48,17 +57,33 @@ from .parser import (
     parse_directory,
 )
 from .synthesizer import (
-    DEFAULT_AGENDAS_JSON,
     SynthesizerError,
     synthesize_directory,
 )
 
 
-DEFAULT_DEST = Path("agendas")
-DEFAULT_MUNICIPALITY_SLUG = "medford-ma"
-RUN_SUMMARY_FILENAME = ".last_scraper_run.json"
+# ---- Filesystem layout --------------------------------------------------
+#
+# Per-city working dir:    agendas/{slug}/         (gitignored)
+#                          agendas/{slug}/markdown/
+# Per-city published dir:  {site_path}/            (committed)
+#                          {site_path}/index.html  (refreshed from template)
+#                          {site_path}/agendas.json
+#                          {site_path}/branding.json (synced from branding/{slug}.json)
+#                          {site_path}/archived/   (post-synthesizer audit trail)
+# Per-city run summary:    agendas/{slug}/.last_scraper_run.json (gitignored)
+# Project-level files:     index.html              (landing page, hand-written)
+#                          cities.json             (pipeline-generated)
+#                          template/dashboard.html (canonical city dashboard)
+#                          branding/{slug}.json    (per-city chrome source)
+
+WORKING_DIR_ROOT = Path("agendas")
+TEMPLATE_DASHBOARD_PATH = Path("template") / "dashboard.html"
 BRANDING_DIR = Path("branding")
-ACTIVE_BRANDING_PATH = Path("branding.json")
+CITIES_JSON_PATH = Path("cities.json")
+RUN_SUMMARY_FILENAME = ".last_scraper_run.json"
+
+DEFAULT_MUNICIPALITY_SLUG = "medford-ma"
 SLUG_RE = re.compile(r"[^a-z0-9]+")
 
 
@@ -68,7 +93,7 @@ SLUG_RE = re.compile(r"[^a-z0-9]+")
 class Status:
     DOWNLOADED = "downloaded"
     SKIPPED_EXISTING = "skipped_existing"
-    WOULD_DOWNLOAD = "would_download"  # dry-run only
+    WOULD_DOWNLOAD = "would_download"
     MISSING = "missing"
     UNSUPPORTED = "unsupported"
     FAILED = "failed"
@@ -76,14 +101,6 @@ class Status:
 
 @dataclass
 class MeetingRunResult:
-    """Per-meeting outcome of one pipeline run.
-
-    Carries the full MeetingRecord forward so the run summary keeps
-    the same shape it had before the adapter refactor (existing
-    consumers — including the dashboard's earlier `legacy` fallback —
-    can read it without changes).
-    """
-
     record: MeetingRecord
     status: str
     file_path: Optional[str] = None
@@ -108,16 +125,39 @@ class RunSummary:
     run_at: str
     municipality_slug: str
     municipality_name: str
+    site_path: str
     as_of: str
     window_end: str
     lookahead_days: int
-    dest_dir: str
+    working_dir: str
+    site_dir: str
     dry_run: bool
     counts: dict = field(default_factory=dict)
     meetings: list[dict] = field(default_factory=list)
 
 
-# ---- Helpers -------------------------------------------------------------
+# ---- Path helpers --------------------------------------------------------
+
+
+def working_dir_for(adapter: CityAdapter) -> Path:
+    """In-flight downloads + parser markdown live here. Gitignored."""
+    return WORKING_DIR_ROOT / adapter.slug
+
+
+def site_dir_for(adapter: CityAdapter) -> Path:
+    """Published per-city directory served by GitHub Pages."""
+    return Path(adapter.site_path)
+
+
+def archive_dir_for(adapter: CityAdapter) -> Path:
+    return site_dir_for(adapter) / "archived"
+
+
+def agendas_json_for(adapter: CityAdapter) -> Path:
+    return site_dir_for(adapter) / "agendas.json"
+
+
+# ---- Slugify + dedup -----------------------------------------------------
 
 
 def _slugify(s: str, max_len: int = 60) -> str:
@@ -126,47 +166,165 @@ def _slugify(s: str, max_len: int = 60) -> str:
 
 
 def _filename_stem_for(meeting: MeetingRecord) -> str:
-    """Stable, sortable, human-readable name; same shape as before."""
     date_part = meeting.start[:10]  # YYYY-MM-DD slice from ISO timestamp
     slug = _slugify(meeting.title)
     return f"{date_part}__{meeting.occur_id}__{slug}"
 
 
-def _already_have(occur_id: str, dest_dir: Path) -> Optional[Path]:
-    """Look in dest_dir + dest_dir/archived for any file containing
-    this occur_id. Returns the first match, or None.
+def _already_have(occur_id: str, *search_dirs: Path) -> Optional[Path]:
+    """Look in each search dir (and its `archived/` subdir if present)
+    for a file containing `__{occur_id}__` in its name. Returns the
+    first match, or None.
     """
     needle = f"__{occur_id}__"
-    for d in (dest_dir, dest_dir / "archived"):
-        if not d.is_dir():
-            continue
-        for p in d.iterdir():
-            if p.is_file() and needle in p.name:
-                return p
+    seen: set[Path] = set()
+    for base in search_dirs:
+        for d in (base, base / "archived"):
+            if d in seen or not d.is_dir():
+                continue
+            seen.add(d)
+            for p in d.iterdir():
+                if p.is_file() and needle in p.name:
+                    return p
     return None
 
 
-def _sync_active_branding(slug: str, *, verbose: bool = True) -> None:
-    """Copy `branding/{slug}.json` to `branding.json` so the static
-    dashboard picks up the right city chrome on its next page load.
+# ---- Per-city site refresh ----------------------------------------------
 
-    No-op if the per-slug file is missing — the live `branding.json`
-    is left as-is, which keeps the existing site rendering whatever
-    branding was last committed.
+
+def _refresh_site_chrome(adapter: CityAdapter, *, verbose: bool = True) -> None:
+    """Sync `template/dashboard.html` → `{site_path}/index.html` and
+    `branding/{slug}.json` → `{site_path}/branding.json`.
+
+    Idempotent: a forker who edits the template or the branding file
+    sees those changes appear in the deployed dashboard on the next
+    pipeline run.
     """
-    src = BRANDING_DIR / f"{slug}.json"
-    if not src.is_file():
+    site_dir = site_dir_for(adapter)
+    site_dir.mkdir(parents=True, exist_ok=True)
+
+    if TEMPLATE_DASHBOARD_PATH.is_file():
+        dest_html = site_dir / "index.html"
+        shutil.copyfile(TEMPLATE_DASHBOARD_PATH, dest_html)
         if verbose:
             print(
-                f"[run_pipeline] note: {src} not found; "
-                f"leaving {ACTIVE_BRANDING_PATH} unchanged.",
+                f"[run_pipeline] {TEMPLATE_DASHBOARD_PATH} -> {dest_html}",
                 file=sys.stderr,
             )
-        return
-    shutil.copyfile(src, ACTIVE_BRANDING_PATH)
-    if verbose:
+    elif verbose:
         print(
-            f"[run_pipeline] branding: {src} -> {ACTIVE_BRANDING_PATH}",
+            f"[run_pipeline] note: {TEMPLATE_DASHBOARD_PATH} not found; "
+            f"leaving {site_dir / 'index.html'} unchanged.",
+            file=sys.stderr,
+        )
+
+    branding_src = BRANDING_DIR / f"{adapter.slug}.json"
+    if branding_src.is_file():
+        dest_branding = site_dir / "branding.json"
+        shutil.copyfile(branding_src, dest_branding)
+        if verbose:
+            print(
+                f"[run_pipeline] {branding_src} -> {dest_branding}",
+                file=sys.stderr,
+            )
+    elif verbose:
+        print(
+            f"[run_pipeline] note: {branding_src} not found; "
+            f"leaving {site_dir / 'branding.json'} unchanged.",
+            file=sys.stderr,
+        )
+
+
+def _update_cities_registry(verbose: bool = True) -> None:
+    """Rewrite the root `cities.json` based on the current set of
+    registered adapters. The landing page consumes this file.
+
+    Each entry pulls its display fields from the city's
+    `branding/{slug}.json` (logo, colors, eyebrow, tagline) and its
+    item/meeting counts from `{site_path}/agendas.json` if available.
+    """
+    entries: list[dict] = []
+    for slug in registered_slugs():
+        try:
+            adapter = load_adapter(slug)
+        except Exception as err:  # noqa: BLE001
+            if verbose:
+                print(
+                    f"[run_pipeline] cities.json: skipping {slug!r}: {err}",
+                    file=sys.stderr,
+                )
+            continue
+
+        entry: dict = {
+            "slug": adapter.slug,
+            "name": adapter.name.split(",")[0].strip(),
+            "path": adapter.site_path,
+        }
+
+        # Pull display chrome from branding/{slug}.json if present.
+        branding_path = BRANDING_DIR / f"{slug}.json"
+        if branding_path.is_file():
+            try:
+                b = json.loads(branding_path.read_text(encoding="utf-8"))
+                for k in (
+                    "city_name",
+                    "city_state",
+                    "eyebrow",
+                    "tagline",
+                    "logo_url",
+                    "logo_alt",
+                    "primary_color",
+                ):
+                    if k in b:
+                        # Map city_name → name only if branding sets one
+                        # explicitly; otherwise leave the adapter-derived
+                        # default.
+                        if k == "city_name":
+                            entry["name"] = b["city_name"]
+                        elif k == "city_state":
+                            entry["state"] = b["city_state"]
+                        else:
+                            entry[k] = b[k]
+            except (OSError, json.JSONDecodeError) as err:
+                if verbose:
+                    print(
+                        f"[run_pipeline] cities.json: bad branding "
+                        f"{branding_path}: {err}",
+                        file=sys.stderr,
+                    )
+
+        # Pull counts from the city's agendas.json if it exists.
+        agendas_path = agendas_json_for(adapter)
+        if agendas_path.is_file():
+            try:
+                data = json.loads(agendas_path.read_text(encoding="utf-8"))
+                items = data.get("items") or []
+                meetings = data.get("meetings") or []
+                metadata = data.get("metadata") or {}
+                entry["item_count"] = len(items)
+                entry["meeting_count"] = len(meetings)
+                if metadata.get("processed_date"):
+                    entry["last_updated"] = metadata["processed_date"]
+            except (OSError, json.JSONDecodeError) as err:
+                if verbose:
+                    print(
+                        f"[run_pipeline] cities.json: bad agendas "
+                        f"{agendas_path}: {err}",
+                        file=sys.stderr,
+                    )
+
+        entries.append(entry)
+
+    entries.sort(key=lambda e: e.get("name", ""))
+    CITIES_JSON_PATH.write_text(
+        json.dumps(entries, indent=2) + "\n", encoding="utf-8"
+    )
+    if verbose:
+        names = [e.get("name", e["slug"]) for e in entries]
+        print(
+            f"[run_pipeline] {CITIES_JSON_PATH} updated: "
+            f"{len(entries)} cit{'y' if len(entries) == 1 else 'ies'} "
+            f"({', '.join(names)})",
             file=sys.stderr,
         )
 
@@ -177,20 +335,22 @@ def _sync_active_branding(slug: str, *, verbose: bool = True) -> None:
 def process_meeting(
     adapter: CityAdapter,
     meeting: MeetingRecord,
-    dest_dir: Path,
+    working_dir: Path,
+    archive_dir: Path,
     *,
     dry_run: bool = False,
 ) -> MeetingRunResult:
     """Resolve one meeting's agenda end-to-end.
 
-    Never raises for per-meeting issues; returns a MeetingRunResult
-    whose `status`/`error` describe what happened.
+    Never raises for per-meeting issues; returns a MeetingRunResult.
+    Idempotency check looks in BOTH the per-city working dir AND the
+    published archive (a previous run may have already moved the file
+    into archived/).
     """
     if meeting.agenda_type == "MISSING":
         return MeetingRunResult(record=meeting, status=Status.MISSING)
 
     if not meeting.is_downloadable:
-        # OTHER / unrecognized — adapter said "won't fetch."
         return MeetingRunResult(
             record=meeting,
             status=Status.UNSUPPORTED,
@@ -200,7 +360,7 @@ def process_meeting(
             ),
         )
 
-    existing = _already_have(meeting.occur_id, dest_dir)
+    existing = _already_have(meeting.occur_id, working_dir, archive_dir.parent)
     if existing is not None:
         return MeetingRunResult(
             record=meeting,
@@ -216,7 +376,7 @@ def process_meeting(
     try:
         result = adapter.download_agenda(
             meeting=meeting,
-            dest_dir=dest_dir,
+            dest_dir=working_dir,
             filename_stem=stem,
         )
     except AdapterDownloadError as err:
@@ -232,26 +392,31 @@ def process_meeting(
     )
 
 
-# ---- Pipeline driver -----------------------------------------------------
+# ---- Per-city pipeline driver ------------------------------------------
 
 
-def run(
-    *,
+def run_for_adapter(
     adapter: CityAdapter,
+    *,
     today: Optional[date] = None,
     lookahead_days: int = 14,
-    dest_dir: Path = DEFAULT_DEST,
     dry_run: bool = False,
     write_summary: bool = True,
     verbose: bool = True,
 ) -> RunSummary:
+    """Run the scrape→download stage for a single city."""
     today = today or date.today()
-    dest_dir = Path(dest_dir)
-    dest_dir.mkdir(parents=True, exist_ok=True)
+    working_dir = working_dir_for(adapter)
+    site_dir = site_dir_for(adapter)
+    archive_dir = archive_dir_for(adapter)
+
+    working_dir.mkdir(parents=True, exist_ok=True)
+    site_dir.mkdir(parents=True, exist_ok=True)
 
     if verbose:
         print(
-            f"[run_pipeline] municipality: {adapter.slug} ({adapter.name})",
+            f"[run_pipeline] === {adapter.slug} ({adapter.name}) === "
+            f"working={working_dir}, site={site_dir}",
             file=sys.stderr,
         )
 
@@ -261,7 +426,11 @@ def run(
     for m in meetings:
         if verbose:
             print(f"[scraper] {m.start[:16]}  {m.title}", file=sys.stderr)
-        results.append(process_meeting(adapter, m, dest_dir, dry_run=dry_run))
+        results.append(
+            process_meeting(
+                adapter, m, working_dir, archive_dir, dry_run=dry_run
+            )
+        )
 
     counts: dict[str, int] = {}
     for r in results:
@@ -273,30 +442,85 @@ def run(
         run_at=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         municipality_slug=adapter.slug,
         municipality_name=adapter.name,
+        site_path=adapter.site_path,
         as_of=today.isoformat(),
         window_end=window_end.isoformat(),
         lookahead_days=lookahead_days,
-        dest_dir=str(dest_dir),
+        working_dir=str(working_dir),
+        site_dir=str(site_dir),
         dry_run=dry_run,
         counts=counts,
         meetings=[r.to_dict() for r in results],
     )
 
     if write_summary:
-        summary_path = dest_dir / RUN_SUMMARY_FILENAME
-        summary_path.write_text(json.dumps(asdict(summary), indent=2))
+        summary_path = working_dir / RUN_SUMMARY_FILENAME
+        summary_path.write_text(
+            json.dumps(asdict(summary), indent=2), encoding="utf-8"
+        )
 
     return summary
 
 
-# ---- CLI -----------------------------------------------------------------
+def run_process_stage(adapter: CityAdapter, *, verbose: bool = True) -> int:
+    """Run Parser → Synthesizer for a single city. Returns exit code."""
+    working_dir = working_dir_for(adapter)
+    markdown_dir = working_dir / "markdown"
+    site_dir = site_dir_for(adapter)
+    archive_dir = archive_dir_for(adapter)
+    agendas_json = agendas_json_for(adapter)
+
+    site_dir.mkdir(parents=True, exist_ok=True)
+
+    if verbose:
+        print(
+            f"\n=== Stage: Parser (Haiku) — {adapter.slug} ===",
+            file=sys.stderr,
+        )
+    try:
+        parse_directory(
+            pdf_dir=working_dir,
+            output_dir=markdown_dir,
+            skip_existing=True,
+            verbose=verbose,
+        )
+    except ParserError as err:
+        print(f"[run_pipeline] Parser stage halted: {err}", file=sys.stderr)
+        return 2
+
+    if verbose:
+        print(
+            f"\n=== Stage: Synthesizer (Sonnet) — {adapter.slug} ===",
+            file=sys.stderr,
+        )
+    try:
+        synthesize_directory(
+            markdown_dir=markdown_dir,
+            pdf_dir=working_dir,
+            archive_dir=archive_dir,
+            agendas_json=agendas_json,
+            dry_run=False,
+            verbose=verbose,
+        )
+    except SynthesizerError as err:
+        print(
+            f"[run_pipeline] Synthesizer stage halted: {err}",
+            file=sys.stderr,
+        )
+        return 2
+
+    return 0
+
+
+# ---- Human-readable summary printing ------------------------------------
 
 
 def _print_human(summary: RunSummary) -> None:
     print(
         f"\n{summary.municipality_name} agenda scraper — window "
         f"{summary.as_of} -> {summary.window_end} "
-        f"({summary.lookahead_days}d, dest={summary.dest_dir})"
+        f"({summary.lookahead_days}d, working={summary.working_dir}, "
+        f"site={summary.site_dir})"
     )
     label_order = [
         Status.DOWNLOADED,
@@ -334,13 +558,10 @@ def _print_human(summary: RunSummary) -> None:
             print(f"      {m['error']}")
 
 
-def _resolve_slug(cli_value: Optional[str]) -> str:
-    """Pick the municipality slug. Precedence:
+# ---- CLI -----------------------------------------------------------------
 
-      1. --municipality on the command line
-      2. MUNICIPALITY_SLUG env var
-      3. DEFAULT_MUNICIPALITY_SLUG
-    """
+
+def _resolve_slug(cli_value: Optional[str]) -> str:
     if cli_value:
         return cli_value
     env_value = os.environ.get("MUNICIPALITY_SLUG", "").strip()
@@ -352,18 +573,29 @@ def _resolve_slug(cli_value: Optional[str]) -> str:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description=(
-            "Run the Municipal Dashboards pipeline: list upcoming meetings, "
-            "resolve each agenda URL, and download the PDFs (and optionally "
-            "parse + synthesize them into agendas.json)."
+            "Run the Municipal Dashboards pipeline for one city or for all "
+            "registered cities. Lists upcoming meetings, downloads agenda "
+            "PDFs, optionally parses + synthesizes them into the city's "
+            "agendas.json, and refreshes the dashboard chrome from the "
+            "shared template."
         )
     )
-    parser.add_argument(
+    target = parser.add_mutually_exclusive_group()
+    target.add_argument(
         "--municipality",
         default=None,
         help=(
-            f"Municipality slug. Defaults to MUNICIPALITY_SLUG env var, "
-            f"falling back to {DEFAULT_MUNICIPALITY_SLUG!r}. "
+            f"Single municipality slug. Defaults to MUNICIPALITY_SLUG env "
+            f"var, falling back to {DEFAULT_MUNICIPALITY_SLUG!r}. "
             f"Registered: {', '.join(registered_slugs())}."
+        ),
+    )
+    target.add_argument(
+        "--all",
+        action="store_true",
+        help=(
+            "Run the pipeline for every registered city, sequentially. "
+            "Used by the GitHub Actions cron."
         ),
     )
     parser.add_argument(
@@ -379,11 +611,6 @@ def main(argv: list[str] | None = None) -> int:
         help="How many days past 'today' to include (default: 14).",
     )
     parser.add_argument(
-        "--dest",
-        default=str(DEFAULT_DEST),
-        help=f"Destination directory for downloaded PDFs (default: {DEFAULT_DEST}).",
-    )
-    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Resolve agendas and report what would happen, but don't download.",
@@ -397,98 +624,82 @@ def main(argv: list[str] | None = None) -> int:
         "--no-summary-file",
         action="store_true",
         help=(
-            "Don't write .last_scraper_run.json into the destination directory."
+            "Don't write .last_scraper_run.json into the working directory."
         ),
     )
     parser.add_argument(
-        "--no-branding-sync",
+        "--no-chrome-refresh",
         action="store_true",
         help=(
-            "Don't copy branding/{slug}.json -> branding.json. Useful if "
-            "you're hand-editing the active branding."
+            "Don't refresh {site_path}/index.html or branding.json from the "
+            "template/branding sources. Useful if you're hand-editing the "
+            "deployed files."
         ),
+    )
+    parser.add_argument(
+        "--no-cities-update",
+        action="store_true",
+        help="Don't rewrite the root cities.json registry.",
     )
     parser.add_argument(
         "--process",
         action="store_true",
         help=(
             "After downloading, run the Parser (Haiku) -> Synthesizer (Sonnet) "
-            "stages to update agendas.json and archive the PDFs. Requires "
-            "ANTHROPIC_API_KEY to be set."
+            "stages. Requires ANTHROPIC_API_KEY to be set."
         ),
     )
     args = parser.parse_args(argv)
 
-    slug = _resolve_slug(args.municipality)
-    try:
-        adapter = load_adapter(slug)
-    except KeyError as err:
-        print(f"ERROR: {err}", file=sys.stderr)
-        return 2
-
-    if not args.no_branding_sync and not args.dry_run:
-        _sync_active_branding(slug, verbose=not args.json)
-
-    summary = run(
-        adapter=adapter,
-        today=args.as_of,
-        lookahead_days=args.lookahead_days,
-        dest_dir=Path(args.dest),
-        dry_run=args.dry_run,
-        write_summary=not args.no_summary_file,
-        verbose=not args.json,
-    )
-
-    if args.json:
-        json.dump(asdict(summary), sys.stdout, indent=2)
-        sys.stdout.write("\n")
+    if args.all:
+        slugs = registered_slugs()
+        if not slugs:
+            print("ERROR: no adapters registered.", file=sys.stderr)
+            return 2
     else:
-        _print_human(summary)
+        slugs = [_resolve_slug(args.municipality)]
 
-    process_failed = 0
-    if args.process and not args.dry_run:
-        process_failed = _run_process_stage(
-            dest_dir=Path(args.dest), verbose=not args.json
+    overall_failed = 0
+    summaries: list[RunSummary] = []
+
+    for slug in slugs:
+        try:
+            adapter = load_adapter(slug)
+        except KeyError as err:
+            print(f"ERROR: {err}", file=sys.stderr)
+            return 2
+
+        summary = run_for_adapter(
+            adapter,
+            today=args.as_of,
+            lookahead_days=args.lookahead_days,
+            dry_run=args.dry_run,
+            write_summary=not args.no_summary_file,
+            verbose=not args.json,
         )
+        summaries.append(summary)
 
-    failed = summary.counts.get(Status.FAILED, 0)
-    return 1 if (failed or process_failed) else 0
+        if args.json:
+            json.dump(asdict(summary), sys.stdout, indent=2)
+            sys.stdout.write("\n")
+        else:
+            _print_human(summary)
 
+        if args.process and not args.dry_run:
+            stage_rc = run_process_stage(adapter, verbose=not args.json)
+            if stage_rc:
+                overall_failed += 1
 
-def _run_process_stage(*, dest_dir: Path, verbose: bool = True) -> int:
-    """Run Parser -> Synthesizer over freshly-downloaded PDFs.
+        if not args.no_chrome_refresh and not args.dry_run:
+            _refresh_site_chrome(adapter, verbose=not args.json)
 
-    City-agnostic; the adapter has done its work by this point.
-    """
-    if verbose:
-        print("\n=== Stage: Parser (Haiku) ===", file=sys.stderr)
-    try:
-        parse_directory(
-            pdf_dir=dest_dir,
-            output_dir=dest_dir / "markdown",
-            skip_existing=True,
-            verbose=verbose,
-        )
-    except ParserError as err:
-        print(f"[run_pipeline] Parser stage halted: {err}", file=sys.stderr)
-        return 2
+        if summary.counts.get(Status.FAILED, 0):
+            overall_failed += 1
 
-    if verbose:
-        print("\n=== Stage: Synthesizer (Sonnet) ===", file=sys.stderr)
-    try:
-        synthesize_directory(
-            markdown_dir=dest_dir / "markdown",
-            pdf_dir=dest_dir,
-            archive_dir=dest_dir / "archived",
-            agendas_json=DEFAULT_AGENDAS_JSON,
-            dry_run=False,
-            verbose=verbose,
-        )
-    except SynthesizerError as err:
-        print(f"[run_pipeline] Synthesizer stage halted: {err}", file=sys.stderr)
-        return 2
+    if not args.no_cities_update and not args.dry_run:
+        _update_cities_registry(verbose=not args.json)
 
-    return 0
+    return 1 if overall_failed else 0
 
 
 if __name__ == "__main__":

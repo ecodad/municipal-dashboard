@@ -18,7 +18,22 @@ Medford dashboard before we touch anything else.
 
 ## ✅ Recently done (kept here briefly so future sessions can see what shipped)
 
-- **Multi-municipality refactor — Phase 1** (this commit). Introduced
+- **Phase 1.5 — multi-city deploy layout** (this commit). Each city
+  now lives under `/{site_path}/` (e.g. `/medford/`) instead of
+  sharing the repo root. Root `index.html` is now a landing page
+  that reads a pipeline-generated `cities.json`. Canonical city
+  dashboard at `template/dashboard.html`; pipeline copies it to
+  `{site_path}/index.html` on every run. Adapter Protocol gained a
+  `site_path` attribute. `run_pipeline.py` reorganized: per-city
+  working dir at `agendas/{slug}/` (gitignored), per-city published
+  dir at `{site_path}/` (committed). New `--all` flag loops over
+  every registered slug; the GH Actions cron now uses `--all`.
+  Added helpers `_refresh_site_chrome()` and
+  `_update_cities_registry()`. Existing Medford archive moved with
+  `git mv` so history is preserved. Dashboard JS archived-link path
+  is now relative to the city folder.
+
+- **Multi-municipality refactor — Phase 1** (commit `3ee4461`). Introduced
   `scraper/adapters/` package with the `CityAdapter` Protocol,
   `MeetingRecord` dataclass, registry, and `MedfordAdapter` wrapping
   the existing Finalsite + CivicClerk + Google modules.

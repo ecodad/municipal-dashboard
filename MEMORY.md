@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-04-29 (Phase 1 of multi-municipality refactor — adapter layer + project banner)
+**Last updated:** 2026-04-29 (Phase 1.5 — multi-city deploy layout: `/medford/`, `/somerville/`, root landing)
 
 ## What this project is
 
@@ -35,21 +35,36 @@ consumed by `index.html`.
 - City title now reads "Medford Municipal Agendas" (city_name + tagline combined) rather than tagline alone.
 - GitHub Actions workflow plumbs `MUNICIPALITY_SLUG` repo variable through to the pipeline; bot identity renamed `municipal-dashboard-bot`; `branding.json` added to the auto-commit set so a forker switching their slug variable sees the chrome update.
 
-**Multi-municipality refactor — Phase 2 (Somerville):** ⏳ Not started. Awaiting Medford-side test confirmation from the user before building the SomervilleAdapter (Drupal `/calendar` + Legistar `View.ashx` agendas).
+**Multi-municipality refactor — Phase 1.5 (multi-city deploy layout):** ✅ Shipped this session.
+- Each city now lives under its own subdirectory: `/medford/index.html`, `/medford/agendas.json`, `/medford/branding.json`, `/medford/archived/`. Phase 2 will add `/somerville/`. Existing Medford archive (26 files) moved with `git mv` so history is preserved.
+- Root `/index.html` is now a **landing page** that fetches `/cities.json` (pipeline-generated) and renders one card per registered city.
+- Canonical city dashboard lives at `/template/dashboard.html`. The pipeline copies it to `{site_path}/index.html` on each run, so a forker who edits the template once gets it propagated to every city automatically.
+- `CityAdapter` Protocol gained a `site_path` field (e.g. `medford`) separate from `slug` (e.g. `medford-ma`) so directory names stay short.
+- `run_pipeline.py` reorganized: per-city working dir at `agendas/{slug}/` (gitignored), per-city published dir at `{site_path}/` (committed), per-city archive at `{site_path}/archived/`. Adds `--all` flag that loops over every registered slug; dropped the old `--municipality SLUG` requirement (still works) so cron just runs `--all`.
+- New helper `_update_cities_registry()` rewrites `cities.json` from each `branding/{slug}.json` + `{site_path}/agendas.json` after every run. Idempotent.
+- New helper `_refresh_site_chrome()` syncs `template/dashboard.html` → `{site_path}/index.html` and `branding/{slug}.json` → `{site_path}/branding.json` on every run.
+- Dashboard JS archived-link path changed from `agendas/archived/{file}` to `archived/{file}` (relative to the city's own folder).
+- Project banner "home" link now points at `..` (one level up to the landing page) instead of `.`.
+- GH Actions workflow uses `--all`; auto-commit step iterates every top-level dir that has an `agendas.json` plus the root `cities.json`. Bot identity unchanged from Phase 1.
+- `.gitignore` now ignores the entire `agendas/` working tree (was previously only `.last_scraper_run.json`); also adds `maai_raw.json` (local scratch).
+
+**Multi-municipality refactor — Phase 2 (Somerville):** ⏳ Not started. Awaiting Medford-side test confirmation under the new layout before building the SomervilleAdapter (Drupal `/calendar` + Legistar `View.ashx` agendas).
 
 ## Active workstream
 
-Phase 1 of the multi-municipality refactor was just pushed. The user is
-testing the Medford rendering in the live dashboard. Next steps once
-the test passes:
+Phase 1.5 was just pushed. Plan for the user's next interaction:
 
-1. Verify the next scheduled cron run produces a Medford-identical
-   `agendas.json` and that the new project banner shows up correctly.
-2. Begin Phase 2 — write `SomervilleAdapter`. Recon is already in
-   `TARGET_SITES.md`: Drupal calendar at `https://www.somervillema.gov/calendar`,
-   detail pages at `/events/YYYY/MM/DD/{slug}`, agendas hosted in
-   Legistar (`somervillema.legistar.com`) with PDFs at
-   `View.ashx?M=A&ID=...&GUID=...`.
+1. Verify https://ecodad.github.io/municipal-dashboard/ shows the new
+   landing page with one Medford tile.
+2. Verify https://ecodad.github.io/municipal-dashboard/medford/ shows
+   the unchanged Medford dashboard.
+3. Verify Pages serves `cities.json` and that the landing page's fetch
+   succeeds.
+4. Once green, begin Phase 2 — write `SomervilleAdapter`. Recon
+   already in TARGET_SITES.md: Drupal calendar at
+   `https://www.somervillema.gov/calendar`, detail pages at
+   `/events/YYYY/MM/DD/{slug}`, agendas hosted in Legistar
+   (`somervillema.legistar.com`) with PDFs at `View.ashx?M=A&ID=...&GUID=...`.
 
 ## Phase 1 design decisions (multi-municipality)
 
@@ -104,7 +119,8 @@ the test passes:
 
 ## Recent commits (most recent first)
 
-- *(this commit)* — Multi-municipality refactor Phase 1: adapter layer, project banner, runtime branding
+- *(this commit)* — Phase 1.5: per-city subdirectories + landing page + cities.json
+- `3ee4461` — Multi-municipality refactor Phase 1: adapter layer, project banner, runtime branding
 - `0ca4ad7` — Surface meeting-level attendance info in the dashboard
 - `905185a` — Add SCHEDULING.md runbook for the cron + workflow
 - `1cdbb5f` — TODO: capture multi-municipality fork-friendly refactor

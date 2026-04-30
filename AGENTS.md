@@ -13,7 +13,7 @@
 
 | Role | Module | Type | Inputs | Outputs |
 |---|---|---|---|---|
-| **City Adapter (Protocol)** | `scraper/adapters/__init__.py` | Deterministic | Slug | `CityAdapter` instance |
+| **City Adapter (Protocol)** | `scraper/adapters/__init__.py` | Deterministic | Slug | `CityAdapter` instance (with `slug`, `name`, `site_path`) |
 | Medford Adapter | `scraper/adapters/medford_ma.py` | Deterministic | `today`, `lookahead_days`; later `MeetingRecord` | `list[MeetingRecord]`; `AgendaDownloadResult` |
 | Calendar Scraper (Medford-specific) | `scraper/calendar_scrape.py` | Deterministic | Today's date + lookahead window | `list[Meeting]` |
 | Detail Scraper (Medford-specific) | `scraper/event_detail_scrape.py` | Deterministic | Meeting `detail_url` | `EventDetail` (incl. `agenda_url`, `agenda_type`) |

@@ -43,6 +43,7 @@ class MedfordAdapter:
 
     slug = "medford-ma"
     name = "Medford, MA"
+    site_path = "medford"
 
     def list_meetings(
         self,
