@@ -21,7 +21,41 @@
 - The page renders a **5-week month grid** (~35 days from the Sunday before the 1st to the Saturday after the last day of the current month). The default page already includes more than our 14-day lookahead, so **no pagination needed in the typical case**.
 - Query params `?cal_date=YYYY-MM-DD` and `?view=week` are **client-side only** — the server returns the same HTML regardless. Don't waste time on them.
 - The Finalsite calendar element on the page has `data-calendar-ids=351` (Medford's main calendar).
-- Underneath, the page makes an AJAX call to `/fs/elements/{element_id}?cal_date=...` which DOES honor `cal_date` server-side. We use this AJAX endpoint with `element_id=6730` for the calendar fetch — gives us a real way to look further ahead than the homepage's grid when we need to.
+- Underneath, the page makes an AJAX call to `/fs/elements/{element_id}?cal_date=...`. ⚠️ **As of 2026-04-30, `cal_date` is silently ignored** by the CDN cache key — see "CDN cache gotcha" below. We still send the parameter (it's still a valid URL) and we still send a "today + 30 days" probe in addition to "today" so we get cache-shard variance, but the real defense is the no-cache request header.
+
+### CDN cache gotcha (2026-04-30 incident)
+
+The endpoint is fronted by a CDN that returns:
+
+```
+Cache-Control: public, s-maxage=3600, max-age=300, stale-if-error=21600,
+               stale-while-revalidate=15
+```
+
+The cache key **strips the `cal_date` query parameter**. So
+`?cal_date=2026-03-15`, `?cal_date=2026-09-15`, `?cal_date=anything`
+all return the same cached response — whatever happened to be in the
+shard last. The server-side state of "what month to show" rolls
+forward through the day, and downstream consumers (us) get whichever
+month was cached most recently.
+
+**Symptom we saw:** the daily 10 UTC cron consistently missed early-May
+meetings on 2026-04-30. The cron's `cal_date=2026-04-30` and
+`cal_date=2026-05-30` probes returned an "April-flavored" cached
+response with only 2 events in the 14-day window. Hours later, the
+same URL began returning a "May-flavored" response with 16+ events.
+
+**Fix:** the calendar fetcher in `scraper/calendar_scrape.py` now
+sends `Cache-Control: no-cache` + `Pragma: no-cache` request headers,
+which forces the CDN to revalidate against origin. Confirmed locally
+that this restores per-call freshness even when other consumers are
+poisoning the cache shard with stale content.
+
+**Forensic capture:** the orchestrator now writes raw HTTP responses
+to `agendas/{slug}/.last_calendar_responses/probe_*.html` on every
+run, and the GitHub Actions workflow uploads that directory as an
+artifact. So the next time something silently breaks, we have actual
+evidence to debug from instead of guessing.
 
 ### Markup contract we depend on
 

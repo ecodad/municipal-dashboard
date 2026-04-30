@@ -20,10 +20,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 import sys
+import time
 from dataclasses import asdict, dataclass
 from datetime import date, datetime, timedelta
-from typing import Iterable
+from pathlib import Path
+from typing import Iterable, Optional
 
 import requests
 from bs4 import BeautifulSoup
@@ -59,21 +62,64 @@ class ScrapeError(RuntimeError):
 
 
 def _fetch_calendar_page(cal_date: date) -> str:
-    """GET the calendar element for the month containing `cal_date`."""
+    """GET the calendar element for the month containing `cal_date`.
+
+    IMPORTANT: must mimic the in-page XHR call exactly, otherwise the
+    CDN serves stale "current month" content regardless of cal_date.
+
+    Reverse-engineered from Medford's Finalsite calendar JS (the
+    `loadElementData` function in `/assets/application-*.js`):
+    when the user clicks the next/prev-month button, the JS does
+    `$.ajax({cache: false, ...})` which adds an `X-Requested-With:
+    XMLHttpRequest` header AND a unique `_=<timestamp>` query
+    parameter. The CDN cache key strips ``cal_date`` but does NOT
+    strip ``_``, so the timestamp param is what actually busts the
+    cache and makes ``cal_date`` honored end-to-end.
+
+    Without the cache-buster:
+      - 2026-04-30 cron, cal_date=2026-04-30 + cal_date=2026-05-30
+        both returned an "April-flavored" cached response with only
+        2 events in the 14-day window. Origin had served April; CDN
+        keyed cal_date out of the URL; so every probe got April.
+    With the cache-buster:
+      - cal_date=2026-05-30 now reliably returns the May grid
+        (9 April + 36 May + 3 June events).
+      - cal_date=2026-06-15 now reliably returns the June grid.
+
+    See TARGET_SITES.md for the full discovery.
+    """
     url = CALENDAR_AJAX_URL.format(
         element_id=MEDFORD_CALENDAR_ELEMENT,
         cal_date=cal_date.isoformat(),
     )
+    # jQuery's $.ajax({cache: false}) appends `_=<ms-timestamp>`. The
+    # value just needs to be unique per request; we don't care what
+    # it is.
+    cache_buster = int(time.time() * 1000)
+    url_with_bust = f"{url}&_={cache_buster}"
+
     resp = requests.get(
-        url,
-        headers={"User-Agent": USER_AGENT, "Accept": "text/html"},
+        url_with_bust,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html, */*; q=0.01",
+            # Mimic an in-page XHR; without this the CDN may classify
+            # us as a regular page-load and serve a different cache
+            # shard.
+            "X-Requested-With": "XMLHttpRequest",
+            "Referer": "https://www.medfordma.org/about/events-calendar",
+            # Defense in depth: also ask the CDN to revalidate.
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
+        },
         timeout=REQUEST_TIMEOUT_SECONDS,
     )
     resp.raise_for_status()
     if "fsCalendar" not in resp.text:
         raise ScrapeError(
-            f"Response from {url} doesn't contain expected fsCalendar markup. "
-            "The Finalsite element ID or markup may have changed."
+            f"Response from {url_with_bust} doesn't contain expected "
+            "fsCalendar markup. The Finalsite element ID or markup may "
+            "have changed."
         )
     return resp.text
 
@@ -159,12 +205,28 @@ def _within_window(start_iso: str, today: date, last_day: date) -> bool:
 def fetch_meetings(
     today: date | None = None,
     lookahead_days: int = 14,
+    *,
+    debug_dir: Optional[Path] = None,
+    verbose: bool = True,
 ) -> list[Meeting]:
     """Return deduped Meeting events in [today, today + lookahead_days].
 
     Uses two calendar fetches (this month and ~30 days out) to guarantee
     coverage of any 14-day window regardless of what day of the month we
-    run.
+    run. (Note: the cal_date param has been observed to be ignored by
+    Medford's CDN cache key — see _fetch_calendar_page docstring — but
+    the second probe still helps because of cache-shard variance and
+    forces revalidation.)
+
+    Args:
+        today: ISO date to treat as "today". Defaults to today.
+        lookahead_days: how far past today to include.
+        debug_dir: when given, the raw HTML of every probe is written
+            to ``{debug_dir}/probe_{N}_calDate-{YYYY-MM-DD}.html`` for
+            forensic debugging. Existing contents of debug_dir are
+            wiped first so each run reflects only its own probes.
+        verbose: when True (default), print filter-stage counts to
+            stderr so silent drops are visible in the run log.
     """
     if today is None:
         today = date.today()
@@ -173,37 +235,96 @@ def fetch_meetings(
 
     last_day = today + timedelta(days=lookahead_days)
 
-    # Two cal_date probes guarantee full grid coverage even if `today` lands
-    # near the end of a month and the second week of lookahead spills into
-    # the following month's grid.
-    probe_dates = sorted({today, today + timedelta(days=30)})
+    # Probe at today, +30 days, and the last day of the window. With the
+    # cache-buster fix in `_fetch_calendar_page` cal_date is honored
+    # end-to-end, so each probe reliably returns its target month's
+    # grid. Three probes cover every reasonable lookahead (default 14
+    # days, but also 30 / 45 / 60 with no extra effort) and dedup by
+    # occur_id makes the redundancy free.
+    probe_dates = sorted({
+        today,
+        today + timedelta(days=30),
+        last_day,
+    })
+
+    if debug_dir is not None:
+        debug_dir = Path(debug_dir)
+        if debug_dir.exists():
+            shutil.rmtree(debug_dir)
+        debug_dir.mkdir(parents=True, exist_ok=True)
 
     by_id: dict[str, Meeting] = {}
-    for probe_date in probe_dates:
+    per_probe_counts: list[tuple[str, int]] = []
+    for n, probe_date in enumerate(probe_dates, start=1):
         html = _fetch_calendar_page(probe_date)
-        for ev in _extract_events(html):
+        if debug_dir is not None:
+            out = debug_dir / f"probe_{n}_calDate-{probe_date.isoformat()}.html"
+            out.write_text(html, encoding="utf-8")
+        events = _extract_events(html)
+        per_probe_counts.append((probe_date.isoformat(), len(events)))
+        for ev in events:
             by_id.setdefault(ev.occur_id, ev)
 
-    meetings = [
-        m
-        for m in by_id.values()
-        if _is_meeting(m.title) and _within_window(m.start, today, last_day)
-    ]
+    extracted_total = len(by_id)
+
+    # Apply filters with explicit counters so we can report what got
+    # dropped at each stage.
+    filtered_title: list[Meeting] = []
+    filtered_window: list[Meeting] = []
+    passed: list[Meeting] = []
+    for m in by_id.values():
+        if not _is_meeting(m.title):
+            filtered_title.append(m)
+            continue
+        if not _within_window(m.start, today, last_day):
+            filtered_window.append(m)
+            continue
+        passed.append(m)
 
     # Stable sort: by start datetime, then title.
-    meetings.sort(key=lambda m: (m.start, m.title))
+    passed.sort(key=lambda m: (m.start, m.title))
+
+    if verbose:
+        probes_str = ", ".join(
+            f"cal_date={d}:{n}" for d, n in per_probe_counts
+        )
+        print(
+            f"[scraper] calendar probes: {probes_str}; "
+            f"{extracted_total} unique events after dedup",
+            file=sys.stderr,
+        )
+        print(
+            f"[scraper] filter outcomes: "
+            f"{len(filtered_title)} dropped (no 'meeting' in title), "
+            f"{len(filtered_window)} dropped (outside "
+            f"{today.isoformat()}..{last_day.isoformat()} window), "
+            f"{len(passed)} passed",
+            file=sys.stderr,
+        )
+        if filtered_window:
+            window_titles = sorted(
+                {(m.start[:10], m.title) for m in filtered_window}
+            )
+            preview = ", ".join(f"{d} {t}" for d, t in window_titles[:6])
+            more = f" (+{len(window_titles) - 6} more)" if len(window_titles) > 6 else ""
+            print(
+                f"[scraper]   window-filtered samples: {preview}{more}",
+                file=sys.stderr,
+            )
 
     # Sanity guardrail: if the lookahead is at least two weeks and we see
     # zero meetings, that's suspicious enough to surface (Medford rarely
     # has zero government meetings in a 14-day window).
-    if lookahead_days >= 14 and not meetings:
+    if lookahead_days >= 14 and not passed:
         print(
             "WARNING: 0 meetings extracted across a >=14-day window. "
-            "The calendar markup may have changed.",
+            "The calendar markup may have changed, or the upstream CDN "
+            "cache may be serving an unexpected month. See "
+            f"{debug_dir or '<debug_dir not set>'} for raw responses.",
             file=sys.stderr,
         )
 
-    return meetings
+    return passed
 
 
 # ---- CLI ------------------------------------------------------------------

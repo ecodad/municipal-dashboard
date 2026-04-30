@@ -16,6 +16,7 @@ from __future__ import annotations
 import sys
 from datetime import date
 from pathlib import Path
+from typing import Optional
 
 from . import (
     AdapterDownloadError,
@@ -49,8 +50,14 @@ class MedfordAdapter:
         self,
         today: date,
         lookahead_days: int,
+        *,
+        debug_dir: Optional[Path] = None,
     ) -> list[MeetingRecord]:
-        meetings = fetch_meetings(today=today, lookahead_days=lookahead_days)
+        meetings = fetch_meetings(
+            today=today,
+            lookahead_days=lookahead_days,
+            debug_dir=debug_dir,
+        )
         records: list[MeetingRecord] = []
         for m in meetings:
             try:

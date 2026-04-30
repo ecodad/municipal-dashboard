@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-04-29 (Phase 1.5 — multi-city deploy layout: `/medford/`, `/somerville/`, root landing)
+**Last updated:** 2026-04-30 (Calendar cache-buster fix — cron was missing 14 of 16 May meetings)
 
 ## What this project is
 
@@ -49,6 +49,38 @@ consumed by `index.html`.
 - `.gitignore` now ignores the entire `agendas/` working tree (was previously only `.last_scraper_run.json`); also adds `maai_raw.json` (local scratch).
 
 **Multi-municipality refactor — Phase 2 (Somerville):** ⏳ Not started. Awaiting Medford-side test confirmation under the new layout before building the SomervilleAdapter (Drupal `/calendar` + Legistar `View.ashx` agendas).
+
+## Calendar cache-buster fix (2026-04-30)
+
+User reported the cron was silently missing meetings — Energy &
+Environment Committee on 5/4, Oak Grove Cemetery Commission on 5/5,
+and (it turned out) ~14 other May meetings entirely. Investigation
+revealed:
+
+- Medford's Finalsite calendar AJAX at `/fs/elements/6730?cal_date=...`
+  is fronted by a CDN whose cache key strips the `cal_date` param.
+  Every probe was returning whatever was last cached — usually a
+  stale "April" view.
+- The fix was hidden in plain sight in Finalsite's own JS bundle:
+  `$.ajax({cache: false})` adds a unique `_=<ms-timestamp>` query
+  parameter (which the cache key DOES include) plus an
+  `X-Requested-With: XMLHttpRequest` header. Sending these makes
+  `cal_date` honored end-to-end.
+- Confirmed locally: `cal_date=2026-05-15` reliably returns the May
+  grid; `cal_date=2026-06-15` returns the June grid.
+- Patched `_fetch_calendar_page` accordingly. Added a third probe
+  (`last_day` of the lookahead window) for resilience.
+- Also added forensic capture (raw HTML responses written to
+  `agendas/{slug}/.last_calendar_responses/probe_*.html` per run,
+  uploaded as a workflow artifact) and verbose filter-stage logging
+  so silent drops are visible in the run log next time something
+  silently breaks.
+- Workflow artifact upload was previously broken: `actions/upload-artifact@v4`
+  defaults to `include-hidden-files: false`, so our dot-prefixed
+  summary file was excluded. Fixed by setting `include-hidden-files: true`.
+
+Local dry-run after the patch: 16 meetings in the 14-day window
+(was 2 before the fix), including the user-reported missing ones.
 
 ## Active workstream
 
@@ -119,7 +151,8 @@ Phase 1.5 was just pushed. Plan for the user's next interaction:
 
 ## Recent commits (most recent first)
 
-- *(this commit)* — Phase 1.5: per-city subdirectories + landing page + cities.json
+- *(this commit)* — Calendar cache-buster + forensic capture (fix for cron missing May meetings)
+- `b6bb302` — Phase 1.5: per-city subdirectories + landing page + cities.json
 - `3ee4461` — Multi-municipality refactor Phase 1: adapter layer, project banner, runtime branding
 - `0ca4ad7` — Surface meeting-level attendance info in the dashboard
 - `905185a` — Add SCHEDULING.md runbook for the cron + workflow

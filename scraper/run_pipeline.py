@@ -82,6 +82,7 @@ TEMPLATE_DASHBOARD_PATH = Path("template") / "dashboard.html"
 BRANDING_DIR = Path("branding")
 CITIES_JSON_PATH = Path("cities.json")
 RUN_SUMMARY_FILENAME = ".last_scraper_run.json"
+CALENDAR_DEBUG_DIRNAME = ".last_calendar_responses"
 
 DEFAULT_MUNICIPALITY_SLUG = "medford-ma"
 SLUG_RE = re.compile(r"[^a-z0-9]+")
@@ -420,7 +421,16 @@ def run_for_adapter(
             file=sys.stderr,
         )
 
-    meetings = adapter.list_meetings(today=today, lookahead_days=lookahead_days)
+    # Each run gets a fresh forensic capture of every HTTP response the
+    # adapter made — useful when something silently goes wrong (e.g. a
+    # CDN serves an unexpected month). Saved under the working dir, so
+    # they're gitignored AND uploaded as a workflow artifact.
+    debug_dir = working_dir / CALENDAR_DEBUG_DIRNAME
+    meetings = adapter.list_meetings(
+        today=today,
+        lookahead_days=lookahead_days,
+        debug_dir=debug_dir,
+    )
 
     results: list[MeetingRunResult] = []
     for m in meetings:

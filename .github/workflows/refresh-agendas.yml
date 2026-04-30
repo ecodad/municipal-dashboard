@@ -53,13 +53,20 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m scraper.run_pipeline --process --all
 
-      - name: Upload run summaries (always, for debugging)
+      - name: Upload run summaries + raw calendar responses (always, for debugging)
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: scraper-run-summaries
-          # Each city writes its own summary at agendas/{slug}/.last_scraper_run.json
-          path: agendas/*/.last_scraper_run.json
+          # Each city writes its own forensic outputs under agendas/{slug}/:
+          #   .last_scraper_run.json           (run summary)
+          #   .last_calendar_responses/*.html  (raw HTML per probe)
+          # All filenames begin with a dot, so include-hidden-files is
+          # essential — without it, upload-artifact silently drops them.
+          path: |
+            agendas/*/.last_scraper_run.json
+            agendas/*/.last_calendar_responses/**
+          include-hidden-files: true
           if-no-files-found: ignore
           retention-days: 30
 

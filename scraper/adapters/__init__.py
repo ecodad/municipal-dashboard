@@ -107,8 +107,17 @@ class CityAdapter(Protocol):
         self,
         today: date,
         lookahead_days: int,
+        *,
+        debug_dir: Optional[Path] = None,
     ) -> list[MeetingRecord]:
-        """Return meetings starting in [today, today + lookahead_days]."""
+        """Return meetings starting in [today, today + lookahead_days].
+
+        Adapters that hit external HTTP APIs SHOULD honor `debug_dir` by
+        writing raw responses to it for forensic debugging when given.
+        Adapters that don't need this can ignore the kwarg. The
+        orchestrator passes ``working_dir / ".last_calendar_responses"``;
+        the directory is wiped at the start of each run.
+        """
 
     def download_agenda(
         self,
