@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-05-01 (Somerville recon — S3 + Legistar split confirmed)
+**Last updated:** 2026-05-01 (Phase 2 implementation — SomervilleAdapter shipped end-to-end)
 
 ## What this project is
 
@@ -17,7 +17,7 @@ as of this session it's structured around a **CityAdapter** protocol so
 other cities can be added with their own adapter module. The pipeline
 fetches the active city's calendar, downloads agenda PDFs from whatever
 hosting systems that city uses (Medford: CivicClerk + Google Docs/Drive;
-future Somerville: Drupal + Legistar), parses them with Claude Haiku,
+Somerville: Drupal + Legistar + S3), parses them with Claude Haiku,
 classifies items with Claude Sonnet, and writes a single `agendas.json`
 consumed by `index.html`.
 
@@ -48,7 +48,7 @@ consumed by `index.html`.
 - GH Actions workflow uses `--all`; auto-commit step iterates every top-level dir that has an `agendas.json` plus the root `cities.json`. Bot identity unchanged from Phase 1.
 - `.gitignore` now ignores the entire `agendas/` working tree (was previously only `.last_scraper_run.json`); also adds `maai_raw.json` (local scratch).
 
-**Multi-municipality refactor — Phase 2 (Somerville):** ✅ Recon complete. Calendar hosting confirmed as a deterministic mix: City Council standing committees use Legistar (`View.ashx?M=A`), all other bodies use public S3 (`somervillema-live` bucket). Both are public PDFs with no auth. Ready for adapter implementation.
+**Multi-municipality refactor — Phase 2 (Somerville):** ✅ Adapter implementation complete and shipped to origin/main. Only branding JSON + full-pipeline smoke test remain.
 
 ## Calendar cache-buster fix (2026-04-30)
 
@@ -82,6 +82,24 @@ revealed:
 Local dry-run after the patch: 16 meetings in the 14-day window
 (was 2 before the fix), including the user-reported missing ones.
 
+## Somerville Phase 2 implementation (2026-05-01)
+
+Adapter implementation shipped end-to-end across three commits. The
+implementation delivers a deterministic split — City Council standing
+committees dispatch to Legistar; all other meetings to S3 — plus two
+new generic host-level downloaders for future cities.
+
+**New modules:**
+- `scraper/s3_download.py` (~150 lines) — generic public-S3 PDF downloader. Validates host is S3 (handles `s3.amazonaws.com`, bucket-scoped, region-scoped variants). Streams to disk + validates `%PDF` magic. City-agnostic. CLI: `python -m scraper.s3_download <url> --dest <dir>`.
+- `scraper/legistar_download.py` (~190 lines) — generic Legistar PDF downloader. Accepts either Gateway URL or View.ashx form; parses ID/GUID and derives the View.ashx PDF URL without a second fetch (IDs are stable across both forms). Streams + validates `%PDF` magic. Exports pure helper `build_view_ashx_url()`. CLI: `python -m scraper.legistar_download <url> --dest <dir>`.
+- `scraper/adapters/somerville_ma.py` (~330 lines) — `SomervilleAdapter`. Lists Drupal `/calendar?page=N` (zero-indexed, max 5 pages, dedup by stable URL-derived `occur_id`). Detail page extraction classifies agenda host: Legistar first (by Gateway URL pattern), else S3 (from `somervillema-live` bucket, filtered `"agenda"` substring), else MISSING. Time-zone conversion: Drupal serves UTC; adapter converts to `zoneinfo.ZoneInfo("America/New_York")` DST-aware offsets. `download_agenda` dispatches on `agenda_type`.
+
+**Dispatch rule:** City Council standing committees (Finance, Land Use, Legislative Matters, Confirmation of Appts, Public Health & Safety, City Council body, Licenses & Permits) → Legistar. All other boards/commissions → S3. Both hosts fully public, no auth.
+
+**Live smoke test (May 1–15, 2026):** 26 meetings extracted. Split: 14 S3 / 8 Legistar / 4 MISSING. Every Legistar-classified event was a Council standing committee. Every S3 event was a non-Council body. Deterministic split held perfectly. Both download paths exercised: 90 KB Council on Aging PDF (S3), 233 KB Confirmation of Appts PDF (Legistar). Both passed `%PDF` magic validation. Times correctly localized to `-04:00` EDT.
+
+**Still ahead:** (1) `branding/somerville-ma.json` — Somerville green primary color + official seal URL (same shape as Medford JSON). (2) Full-pipeline smoke test — `python -m scraper.run_pipeline --municipality somerville-ma` end-to-end, verify `somerville/agendas.json` produced, verify dashboard renders at `/somerville/`.
+
 ## Somerville recon (2026-05-01)
 
 User completed a full municipal calendar recon on Somerville, MA today, resolving the outstanding question about agenda hosting. The answer is **both S3 and Legistar, in a deterministic split**:
@@ -94,19 +112,13 @@ Both hosts are fully public (no credentials needed), serve valid PDFs, and are d
 
 ## Active workstream
 
-Phase 1.5 was just pushed. Plan for the user's next interaction:
+Phase 2 implementation just shipped. Plan for the user's next interaction:
 
-1. Verify https://ecodad.github.io/municipal-dashboard/ shows the new
-   landing page with one Medford tile.
-2. Verify https://ecodad.github.io/municipal-dashboard/medford/ shows
-   the unchanged Medford dashboard.
-3. Verify Pages serves `cities.json` and that the landing page's fetch
-   succeeds.
-4. Once green, begin Phase 2 — write `SomervilleAdapter`. Recon
-   already in TARGET_SITES.md: Drupal calendar at
-   `https://www.somervillema.gov/calendar`, detail pages at
-   `/events/YYYY/MM/DD/{slug}`, agendas hosted in Legistar
-   (`somervillema.legistar.com`) with PDFs at `View.ashx?M=A&ID=...&GUID=...`.
+1. Verify Phase 2 API/module contracts in the codebase match the AGENTS.md
+   scope.
+2. If starting a Phase 3 (third city), use the Somerville + s3/legistar
+   modules as reusable templates.
+3. Remaining Phase 2 items: branding JSON, full-pipeline smoke test.
 
 ## Phase 1 design decisions (multi-municipality)
 
@@ -161,7 +173,9 @@ Phase 1.5 was just pushed. Plan for the user's next interaction:
 
 ## Recent commits (most recent first)
 
-- *(this commit)* — Document Somerville recon: deterministic S3 + Legistar split confirmed (both public, no auth)
+- `4ee703c` — Phase 2: SomervilleAdapter (Drupal calendar + S3/Legistar dispatch)
+- `a50f763` — Phase 2: S3 and Legistar host downloaders
+- `855c714` — Phase 2 recon: Somerville agenda hosting confirmed (S3 + Legistar split)
 - `0eee098` — Calendar cache-buster + forensic capture (fix for cron missing May meetings)
 - `b6bb302` — Phase 1.5: per-city subdirectories + landing page + cities.json
 - `3ee4461` — Multi-municipality refactor Phase 1: adapter layer, project banner, runtime branding

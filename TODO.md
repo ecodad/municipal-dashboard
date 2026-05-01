@@ -9,16 +9,34 @@
 ### 1. Multi-municipality refactor — Phase 2 (Somerville adapter)
 
 Phase 1 (adapter scaffolding + Medford parity + project banner)
-shipped this session. **Next:** write `SomervilleAdapter`. Recon
-already done — see "Pending features → Multi-municipality Phase 2"
-below for the concrete next steps.
+shipped two sessions ago. Phase 2 implementation (adapter +
+downloaders) shipped this session. **Two items remain:**
 
-Blocked on user verifying Phase 1 looks/works right in the live
-Medford dashboard before we touch anything else.
+1. Add `branding/somerville-ma.json` (Somerville green primary color +
+   official seal URL — same shape as `branding/medford-ma.json`).
+2. Full-pipeline end-to-end smoke test: `python -m scraper.run_pipeline
+   --municipality somerville-ma`, verify `somerville/agendas.json` is
+   produced, verify the dashboard renders correctly at
+   `/somerville/`.
 
 ## ✅ Recently done (kept here briefly so future sessions can see what shipped)
 
-- **Phase 1.5 — multi-city deploy layout** (this commit). Each city
+- **Multi-municipality Phase 2 — SomervilleAdapter + host downloaders**
+  (commits `4ee703c`, `a50f763`, `855c714`). Implementation shipped
+  end-to-end: new modules `scraper/s3_download.py` (generic public-S3
+  downloader), `scraper/legistar_download.py` (generic Legistar PDF
+  downloader), and `scraper/adapters/somerville_ma.py` (SomervilleAdapter
+  implementing the CityAdapter Protocol). Adapter walks Drupal
+  `/calendar?page=N`, filters by "meeting" substring, fetches detail
+  pages, classifies agenda host (Legistar first, else S3, else MISSING),
+  handles time-zone conversion to America/New_York (DST-aware),
+  dispatches download based on `agenda_type`. Live smoke test (May 1–15):
+  26 meetings, split 14 S3 / 8 Legistar / 4 MISSING. Both download
+  paths exercised; both pass `%PDF` magic validation. Deterministic
+  split rule (City Council committees → Legistar; all others → S3) held
+  perfectly.
+
+- **Phase 1.5 — multi-city deploy layout** (prior session). Each city
   now lives under `/{site_path}/` (e.g. `/medford/`) instead of
   sharing the repo root. Root `index.html` is now a landing page
   that reads a pipeline-generated `cities.json`. Canonical city
@@ -48,8 +66,8 @@ Medford dashboard before we touch anything else.
   pipeline. No behavior change for Medford; new schema enables
   Phase 2.
 
-- **Wire the dashboard to render the new schema fields** (this
-  commit). `agendas.json` now has a top-level `meetings[]` array
+- **Wire the dashboard to render the new schema fields** (prior session).
+  `agendas.json` now has a top-level `meetings[]` array
   alongside `items[]`, where each meeting record carries
   `committee_name`, `meeting_date`, `meeting_time`, `location`,
   `has_zoom`, `has_livestream`, `agenda_url`, `agenda_type`, and
@@ -106,40 +124,6 @@ Medford dashboard before we touch anything else.
   items; `agendas.json` grew 80 → 165.
 
 ## 📋 Pending features
-
-- **Multi-municipality Phase 2 — write `SomervilleAdapter`.**
-  Phase 1 (adapter scaffolding + Medford parity) is shipped. Phase 2
-  is the first non-Medford city.
-
-  **Status (2026-05-01):** ✅ **Recon complete.** Full calendar and agenda
-  hosting survey completed today. Result: **deterministic split** — City
-  Council standing committees use **Legistar** (public PDF at
-  `View.ashx?M=A&ID=...&GUID=...`, URL derivable from Drupal-page Gateway
-  link without a second fetch); all other boards/commissions use **S3**
-  (`s3.amazonaws.com/somervillema-live/`, public, filenames unpredictable,
-  filter by `"agenda"` substring). Both hosts fully public, no auth. Full
-  details in TARGET_SITES.md sections 7–8, including concrete URL examples
-  and the deterministic classification rule.
-
-  **Concrete next steps:**
-  1. Write `scraper/s3_download.py` (host-level downloader; validate `%PDF`
-     magic, no auth, mirrors `google_download.py` shape).
-  2. Write `scraper/legistar_download.py` (host-level downloader; takes a
-     Drupal-page Gateway URL, parses `ID`/`GUID`, GETs
-     `View.ashx?M=A&ID=...&GUID=...`, validates `%PDF`).
-  3. Write `scraper/adapters/somerville_ma.py` with `SomervilleAdapter` —
-     `list_meetings` walks `/calendar` paginated up to 14 days, filters
-     titles by `"meeting"` substring, fetches each detail page, classifies
-     via detection order (Legistar first, else S3, else MISSING), returns
-     `MeetingRecord`s with appropriate `agenda_type` and `adapter_payload`
-     (Gateway URL or S3 URL respectively); `download_agenda` dispatches on
-     `agenda_type`.
-  4. Register `"somerville-ma"` in `scraper/adapters/__init__.py`'s
-     `_REGISTRY`.
-  5. Add `branding/somerville-ma.json` (Somerville green primary; check the
-     city's official seal URL).
-  6. End-to-end smoke test on the live calendar.
-
 
 - **Multi-municipality refactor — original framing (now mostly
   superseded by the Phase 1/2 split above).** The user wants any

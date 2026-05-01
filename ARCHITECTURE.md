@@ -24,21 +24,21 @@ Everything downstream of the adapter is city-agnostic.
                   │   download_agenda(record, dir,     │
                   │                   stem)            │
                   │     → AgendaDownloadResult         │
-                  └─────┬──────────────────────────┬───┘
+                  └─────┬──────────────────────┬───┘
                         │ implements               │ implements
        ┌────────────────▼─────────────┐ ┌──────────▼────────────────────┐
-       │ MedfordAdapter                │ │ SomervilleAdapter (Phase 2)   │
+       │ MedfordAdapter                │ │ SomervilleAdapter             │
        │  Finalsite calendar           │ │  Drupal /calendar list        │
        │   + Finalsite detail extract  │ │   + Drupal detail (sparse)    │
        │  Dispatches to host downloader│ │  Dispatches to:               │
-       │   based on agenda_type        │ │   legistar / granicus / etc.  │
+       │   based on agenda_type        │ │   legistar / s3 / other       │
        └───────────────┬───────────────┘ └─────────────┬─────────────────┘
                        │                               │
                        ▼ composes                      ▼ composes
        ┌──────────────────────────────────────────────────────────────────┐
        │ Host-level downloaders (city-agnostic, reusable)                 │
        │   civicclerk_download.py  · google_download.py                   │
-       │   legistar_download.py (Phase 2)  · granicus (later, on demand)  │
+       │   legistar_download.py  · s3_download.py  · granicus (later)     │
        └──────────────────────────────────────────────────────────────────┘
                        │
                        │ PDFs in agendas/{date}__{occur_id}__{slug}.pdf
@@ -90,7 +90,7 @@ dashboard.
 |---|---|
 | `scraper/adapters/__init__.py` | Protocol + dataclasses + registry + `load_adapter(slug)`. |
 | `scraper/adapters/medford_ma.py` | `MedfordAdapter` — wraps Finalsite calendar + detail + dispatches to CivicClerk / Google host downloaders. |
-| `scraper/adapters/{slug}.py` | One per city. Phase 2 will add `somerville_ma.py`. |
+| `scraper/adapters/somerville_ma.py` | `SomervilleAdapter` — wraps Drupal calendar + detail + dispatches to Legistar / S3 host downloaders. |
 
 ### Host-level downloaders (city-agnostic)
 
@@ -98,7 +98,8 @@ dashboard.
 |---|---|---|---|
 | `scraper/civicclerk_download.py` | Download agendas from any CivicClerk tenant's OData API | Portal URL | PDF (default) or plain text |
 | `scraper/google_download.py` | Download Google Doc / Drive agendas | Share URL | PDF |
-| `scraper/legistar_download.py` (Phase 2) | Download from any Legistar tenant via `View.ashx?M=A` | Legistar URL | PDF |
+| `scraper/legistar_download.py` | Download from any Legistar tenant via `View.ashx?M=A` | Legistar Gateway or View.ashx URL | PDF |
+| `scraper/s3_download.py` | Download public S3 PDFs (any tenant) | S3 object URL | PDF |
 
 ### Medford-specific deterministic helpers (called by `MedfordAdapter`)
 
@@ -175,11 +176,14 @@ municipal_dashboard/
 ├── scraper/
 │   ├── adapters/
 │   │   ├── __init__.py       ← CityAdapter Protocol + registry
-│   │   └── medford_ma.py     ← MedfordAdapter
+│   │   ├── medford_ma.py     ← MedfordAdapter
+│   │   └── somerville_ma.py  ← SomervilleAdapter
 │   ├── calendar_scrape.py    ← Medford Finalsite calendar (used by MedfordAdapter)
 │   ├── event_detail_scrape.py ← Medford detail-page parser
 │   ├── civicclerk_download.py ← host-level (any CivicClerk tenant)
 │   ├── google_download.py    ← host-level (any Google Doc/Drive share)
+│   ├── legistar_download.py  ← host-level (any Legistar tenant)
+│   ├── s3_download.py        ← host-level (any public S3 bucket)
 │   ├── parser.py             ← Claude Haiku PDF→MD
 │   ├── synthesizer.py        ← Claude Sonnet MD→agendas.json
 │   └── run_pipeline.py       ← city-agnostic orchestrator
@@ -267,7 +271,7 @@ class EventDetail:
 |---|---|---|
 | Calendar scrape | $0 | 1 HTTP GET, deterministic parse |
 | Detail scrape | $0 | N HTTP GETs (one per meeting), deterministic parse |
-| CivicClerk / Google download | $0 | Public APIs, no auth |
+| CivicClerk / Google / Legistar / S3 download | $0 | Public APIs, no auth |
 | Parser (Haiku 4.5) | ~$0.005–0.02 per run for 7-meeting week | ~10–40 KB input PDF per call, ~3–8 KB output Markdown |
 | Synthesizer (Sonnet 4.6) | ~$0.05–0.15 per run for 7-meeting week | ~3–8 KB input MD per call, structured JSON output, adaptive thinking |
 | **Total per run** | **~$0.10 typical** | Fully deterministic stages dominate; LLM stages are bounded by meeting count |
@@ -275,9 +279,11 @@ class EventDetail:
 ## Where the seams are (for future maintainers)
 
 - **Per-source downloaders are pluggable.** Add a new `agenda_type` enum
-  value, write a `download_<source>(url, dest_dir, ...)` function, wire
-  it into `run_pipeline.process_meeting()`. The rest of the pipeline
-  doesn't need to change.
+  value (e.g. `LEGISTAR`, `S3`, `GRANICUS`), write a corresponding
+  `download_<source>(url, dest_dir, ...)` function, wire it into
+  `run_pipeline.process_meeting()`. The rest of the pipeline doesn't
+  need to change. Adapters can emit any string; the orchestrator only
+  special-cases `MISSING` and `OTHER`.
 - **Parser/Synthesizer are independently swappable.** Either could be
   replaced with a different model or even a non-LLM approach (e.g.,
   pdfplumber + regex) without touching the orchestrator.
