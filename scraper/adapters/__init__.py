@@ -136,8 +136,7 @@ class CityAdapter(Protocol):
 
 _REGISTRY: dict[str, str] = {
     "medford-ma": "scraper.adapters.medford_ma:MedfordAdapter",
-    # "somerville-ma": "scraper.adapters.somerville_ma:SomervilleAdapter",
-    # ^^ Phase 2 — uncomment when the adapter is written.
+    "somerville-ma": "scraper.adapters.somerville_ma:SomervilleAdapter",
 }
 
 
