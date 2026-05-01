@@ -184,7 +184,135 @@ GET https://drive.google.com/uc?export=download&id={FILE_ID}
 
 ---
 
-## 5. Anthropic API (LLM agents)
+
+## 7. City of Somerville Events Calendar (Drupal)
+
+| | |
+|---|---|
+| **URL** | https://www.somervillema.gov/calendar |
+| **Owner** | City of Somerville, MA |
+| **Stack** | Drupal (body class `path-events`, Views output) |
+| **Used by** | `scraper/adapters/somerville_ma.py` (list_meetings) |
+| **Auth** | None (fully public) |
+| **Format** | HTML, server-rendered |
+| **Rate limit** | None observed; 1 HTTP GET per page per pipeline run |
+
+### Behavior and pagination
+
+- The page renders a chronological list under "All Upcoming Events, Starting on [today's date]", ~20 events per page.
+- Pagination is **zero-indexed**: `?page=0` is the default first page. `?page=1` is what the UI labels "Page 2", and so on.
+- Pager link selector for automated traversal: `a[title='Go to next page']`.
+- **Lookahead window:** cap at **14 days from today**. Under Massachusetts Open Meeting Law, agendas must be posted ≥48 hours before meetings; in practice Somerville posts agendas no more than ~1–2 weeks in advance, and older events start falling off the list. A 14-day window consistently captures the full meeting set visible to the public.
+
+### Event detail pages
+
+| | |
+|---|---|
+| **URL pattern** | `/events/YYYY/MM/DD/{slug}` (e.g., `/events/2026/05/04/city-council-meeting`) |
+| **Used by** | `scraper/adapters/somerville_ma.py` (detail_scrape) |
+| **Auth** | None |
+| **Rate limit** | ~1 HTTP GET per meeting per pipeline run; no observed throttling |
+
+### Detail page selectors (BeautifulSoup)
+
+```python
+title          # h1
+date_time      # span.date-display-start (e.g. "Mon, May 4, 2026 - 7:00pm")
+location       # div.field--name-field-location
+body           # div.field--name-body
+agenda_block   # span.field.field--name-field-event-agenda
+```
+
+The `agenda_block` is a wrapper containing zero or more `<a>` links to agenda/document PDFs.
+
+### Filter rule
+
+Empirically, every governmental meeting on the calendar has **"meeting"** in its title (case-insensitive substring match). Non-meeting community events do not. Filter on this.
+
+---
+
+## 8. Somerville agenda PDF hosts — S3 + Legistar
+
+Somerville hosts meeting agendas on **two different systems** with a deterministic split:
+
+**Rule:** City Council standing committees → **Legistar Gateway**. Every other board, commission, or authority → **S3**.
+
+Bodies observed routing to Legistar (City Council family):
+- City Council (regular meetings)
+- Finance Committee
+- Land Use Committee
+- Legislative Matters Committee
+- Confirmation of Appointments & Personnel Matters Committee
+- Public Health and Public Safety Committee
+
+Bodies observed routing to S3 (all other):
+- School Committee, School Building Committee
+- Planning Board
+- Historic Preservation Commission, Conservation Commission, Zoning Board of Appeals
+- Redevelopment Authority, Licensing Commission
+- Council on Aging
+- Human Rights Commission subcommittees
+- OSPCD civic advisory committees (e.g., "90 Washington Street Civic Advisory Committee")
+
+### S3 (non-City-Council bodies)
+
+| | |
+|---|---|
+| **Bucket** | `s3.amazonaws.com/somervillema-live/` |
+| **Prefix** | `s3fs-public/YYYY-MM/` |
+| **Used by** | `scraper/s3_download.py` |
+| **Auth** | None — fully public, no credentials required |
+| **Format** | PDF (multipart; `Content-Type: application/pdf` confirmed) |
+
+### S3 details
+
+- Filenames are **not predictable** — must be scraped from the detail page. Examples from recon: `Regular%20SC%20Agenda%20for%2005-4-26.pdf`, `90-washington-street-cac-20260505-agenda.pdf`, `council-on-aging-20260501-agenda.pdf`.
+- Some events post both a "Meeting Notice" and an "Agenda" PDF, or one instead of the other.
+- **Filter strategy:** only follow `<a>` href/text containing the substring **"agenda"** (case-insensitive) to exclude meeting-notice PDFs, flyers, and image assets. E.g., skip "Meeting-Notice.pdf" but accept "Agenda-2026-05-04.pdf".
+- Validate magic number: all response bytes must start with `%PDF`.
+
+### Legistar (City Council committees)
+
+| | |
+|---|---|
+| **Gateway URL pattern** | `https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID={ID}&GUID={GUID}` |
+| **PDF URL pattern** | `https://somervillema.legistar.com/View.ashx?M=A&ID={ID}&GUID={GUID}` |
+| **Used by** | `scraper/legistar_download.py` |
+| **Auth** | None — fully public, no credentials required |
+| **Format** | PDF (application/pdf; ~150–300 KB typical) |
+
+### Legistar URL synthesis trick
+
+The Drupal detail page contains an `<a href="...?M=MD&From=RSS&ID={ID}&GUID={GUID}">` link to the Gateway. **No second page fetch needed:**
+
+1. Extract `ID` and `GUID` from the Drupal-page Gateway URL.
+2. Build the PDF URL directly: replace `M=MD` with `M=A` in the same URL template, or construct from scratch as `https://somervillema.legistar.com/View.ashx?M=A&ID={ID}&GUID={GUID}`.
+3. GET that URL → PDF response.
+
+(For reference: `View.ashx?M=IC&ID=...&GUID=...` is the per-meeting iCal endpoint, not used for agendas.)
+
+### Detection order in the adapter
+
+1. **Legistar first:** Look for `a[href*='somervillema.legistar.com/Gateway.aspx']`. If found, set `agenda_type=LEGISTAR` and stash the Gateway URL (or derived PDF URL) in `adapter_payload`.
+2. **Else S3:** Look for `a[href^='https://s3.amazonaws.com/somervillema-live/']` **filtered by `"agenda"` in href or link text**. If found, set `agenda_type=S3` and stash the URL in `adapter_payload`.
+3. **Else MISSING:** No agenda found.
+
+### Concrete examples from recon (2026-05-01)
+
+**S3 example (Historic Preservation Commission, 2026-05-04):**
+```
+https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/Historic%20Preservation%20Commission%20Agenda%205-4-26.pdf
+```
+
+**Legistar example (City Council Finance Committee, 2026-05-06):**
+```
+Gateway (from Drupal detail page): https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=47618&GUID=12345678-abcd-ef01-2345-6789abcdef01
+PDF (derived, no second fetch): https://somervillema.legistar.com/View.ashx?M=A&ID=47618&GUID=12345678-abcd-ef01-2345-6789abcdef01
+```
+
+---
+
+## 9. Anthropic API (LLM agents)
 
 | | |
 |---|---|
@@ -232,7 +360,7 @@ The schema enforces the 10-value `Item_Type` enum.
 
 ---
 
-## 6. GitHub (hosting + Pages)
+## 10. GitHub (hosting + Pages)
 
 | | |
 |---|---|

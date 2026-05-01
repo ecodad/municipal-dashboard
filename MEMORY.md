@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-04-30 (Calendar cache-buster fix — cron was missing 14 of 16 May meetings)
+**Last updated:** 2026-05-01 (Somerville recon — S3 + Legistar split confirmed)
 
 ## What this project is
 
@@ -48,7 +48,7 @@ consumed by `index.html`.
 - GH Actions workflow uses `--all`; auto-commit step iterates every top-level dir that has an `agendas.json` plus the root `cities.json`. Bot identity unchanged from Phase 1.
 - `.gitignore` now ignores the entire `agendas/` working tree (was previously only `.last_scraper_run.json`); also adds `maai_raw.json` (local scratch).
 
-**Multi-municipality refactor — Phase 2 (Somerville):** ⏳ Not started. Awaiting Medford-side test confirmation under the new layout before building the SomervilleAdapter (Drupal `/calendar` + Legistar `View.ashx` agendas).
+**Multi-municipality refactor — Phase 2 (Somerville):** ✅ Recon complete. Calendar hosting confirmed as a deterministic mix: City Council standing committees use Legistar (`View.ashx?M=A`), all other bodies use public S3 (`somervillema-live` bucket). Both are public PDFs with no auth. Ready for adapter implementation.
 
 ## Calendar cache-buster fix (2026-04-30)
 
@@ -81,6 +81,16 @@ revealed:
 
 Local dry-run after the patch: 16 meetings in the 14-day window
 (was 2 before the fix), including the user-reported missing ones.
+
+## Somerville recon (2026-05-01)
+
+User completed a full municipal calendar recon on Somerville, MA today, resolving the outstanding question about agenda hosting. The answer is **both S3 and Legistar, in a deterministic split**:
+
+- City Council standing committees (Finance, Land Use, Legislative Matters, etc.) → **Legistar Gateway** (`somervillema.legistar.com/Gateway.aspx`, PDF at `/View.ashx?M=A&ID=...&GUID=...`). The PDF URL is derivable from the Drupal-page Gateway URL without a second fetch (just swap `M=MD` → `M=A`).
+- Every other board/commission/authority (School Committee, Planning Board, HPC, etc.) → **S3** (`s3.amazonaws.com/somervillema-live/`, public, no auth). Filenames unpredictable; must be scraped from detail page and filtered by `"agenda"` substring to exclude meeting-notice PDFs.
+
+Both hosts are fully public (no credentials needed), serve valid PDFs, and are documented in TARGET_SITES.md with concrete examples and the deterministic classification rule. Calendar recon also found: Drupal `/calendar` list view with zero-indexed pagination (`?page=0` is page 1), detail URLs at `/events/YYYY/MM/DD/{slug}`, 14-day lookahead cap justified by MA Open Meeting Law 48h posting requirement and empirical Somerville posting window of 1–2 weeks.
+
 
 ## Active workstream
 
@@ -151,7 +161,8 @@ Phase 1.5 was just pushed. Plan for the user's next interaction:
 
 ## Recent commits (most recent first)
 
-- *(this commit)* — Calendar cache-buster + forensic capture (fix for cron missing May meetings)
+- *(this commit)* — Document Somerville recon: deterministic S3 + Legistar split confirmed (both public, no auth)
+- `0eee098` — Calendar cache-buster + forensic capture (fix for cron missing May meetings)
 - `b6bb302` — Phase 1.5: per-city subdirectories + landing page + cities.json
 - `3ee4461` — Multi-municipality refactor Phase 1: adapter layer, project banner, runtime branding
 - `0ca4ad7` — Surface meeting-level attendance info in the dashboard

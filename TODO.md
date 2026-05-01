@@ -109,44 +109,37 @@ Medford dashboard before we touch anything else.
 
 - **Multi-municipality Phase 2 — write `SomervilleAdapter`.**
   Phase 1 (adapter scaffolding + Medford parity) is shipped. Phase 2
-  is the first non-Medford city. Recon already done (see
-  `TARGET_SITES.md` once it's updated — for now, captured in
-  conversation): Somerville is on Drupal for the calendar
-  (`https://www.somervillema.gov/calendar`, chronological list view,
-  detail pages at `/events/YYYY/MM/DD/{slug}`) and Legistar for the
-  actual agenda PDFs (`somervillema.legistar.com`, ASP.NET WebForms,
-  `View.ashx?M=A&ID={ID}&GUID={GUID}` for PDFs, `View.ashx?M=IC&ID=...`
-  for per-meeting iCal).
+  is the first non-Medford city.
 
-  **Drupal calendar pages are sparse** — the detail page typically
-  contains just one paragraph with a Legistar `Gateway.aspx` URL, no
-  structured Zoom/location fields. Several non-City-Council bodies
-  (Climate Action Commission, Human Rights Commission, Retirement
-  Board) appear on the Drupal calendar without Legistar links, so
-  scraping Legistar alone misses them; the adapter needs to start
-  from the Drupal list and fall back to MISSING when no agenda
-  source is identified.
+  **Status (2026-05-01):** ✅ **Recon complete.** Full calendar and agenda
+  hosting survey completed today. Result: **deterministic split** — City
+  Council standing committees use **Legistar** (public PDF at
+  `View.ashx?M=A&ID=...&GUID=...`, URL derivable from Drupal-page Gateway
+  link without a second fetch); all other boards/commissions use **S3**
+  (`s3.amazonaws.com/somervillema-live/`, public, filenames unpredictable,
+  filter by `"agenda"` substring). Both hosts fully public, no auth. Full
+  details in TARGET_SITES.md sections 7–8, including concrete URL examples
+  and the deterministic classification rule.
 
   **Concrete next steps:**
-  1. Write `scraper/legistar_download.py` (a host-level downloader,
-     parallel to `civicclerk_download.py` / `google_download.py`).
-     Validates `%PDF` magic, no auth needed.
-  2. Write `scraper/adapters/somerville_ma.py` with a
-     `SomervilleAdapter` class:
-     - `list_meetings`: GET `/calendar`, filter titles containing
-       "meeting"/"committee"/"board"/"council"/"commission",
-       fetch each detail page, classify the embedded link
-       (Legistar / Granicus / Google / missing).
-     - `download_agenda`: dispatch on `agenda_type`. Stash the
-       Legistar `View.ashx` URL (or the Gateway URL we resolve from)
-       in `MeetingRecord.adapter_payload`.
-  3. Register `"somerville-ma"` in `scraper/adapters/__init__.py`'s
+  1. Write `scraper/s3_download.py` (host-level downloader; validate `%PDF`
+     magic, no auth, mirrors `google_download.py` shape).
+  2. Write `scraper/legistar_download.py` (host-level downloader; takes a
+     Drupal-page Gateway URL, parses `ID`/`GUID`, GETs
+     `View.ashx?M=A&ID=...&GUID=...`, validates `%PDF`).
+  3. Write `scraper/adapters/somerville_ma.py` with `SomervilleAdapter` —
+     `list_meetings` walks `/calendar` paginated up to 14 days, filters
+     titles by `"meeting"` substring, fetches each detail page, classifies
+     via detection order (Legistar first, else S3, else MISSING), returns
+     `MeetingRecord`s with appropriate `agenda_type` and `adapter_payload`
+     (Gateway URL or S3 URL respectively); `download_agenda` dispatches on
+     `agenda_type`.
+  4. Register `"somerville-ma"` in `scraper/adapters/__init__.py`'s
      `_REGISTRY`.
-  4. Add `branding/somerville-ma.json` (Somerville green primary;
-     check the city's official seal URL).
-  5. Update `index.html`'s inline defaults guidance to call out the
-     fork pattern (already in code comment).
-  6. End-to-end smoke test: a real week of Somerville meetings.
+  5. Add `branding/somerville-ma.json` (Somerville green primary; check the
+     city's official seal URL).
+  6. End-to-end smoke test on the live calendar.
+
 
 - **Multi-municipality refactor — original framing (now mostly
   superseded by the Phase 1/2 split above).** The user wants any
