@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-05-01 (Phase 2 — Somerville smoke test + Bug 1 fix shipped; meetings_index threaded through Synthesizer)
+**Last updated:** 2026-05-01 (Phase 2 complete; two new bugs filed: Somerville logo + agenda sort order)
 
 ## What this project is
 
@@ -49,6 +49,8 @@ consumed by `index.html`.
 - `.gitignore` now ignores the entire `agendas/` working tree (was previously only `.last_scraper_run.json`); also adds `maai_raw.json` (local scratch).
 
 **Multi-municipality refactor — Phase 2 (Somerville):** ✅ Adapter, downloaders, branding JSON, and full-pipeline end-to-end smoke test all complete (this session). Doc-update commit `9a952f8` pushed to origin/main. Smoke-test artifacts (`branding/somerville-ma.json`, `somerville/*`, root `cities.json`) are still uncommitted locally — not pushed yet because the smoke test surfaced two real bugs we want to fix before locking in `somerville/agendas.json` as the published copy. See TODO.md priority queue items 1 + 2.
+
+**Newly filed bugs (2026-05-01):** Two issues emerged during Somerville smoke test and UX review. Priority queue item 2: replace the Wikimedia Commons city seal with a simpler user-provided green-house icon (saved asset + branding JSON update + re-run pipeline). Priority queue item 3: agenda items sort lexicographically ("1, 10, 11, 2, 3...") instead of naturally ("1, 2, 3...10, 11") — both server-side (Synthesizer) and client-side (dashboard JS) sort keys need a numeric-aware fix.
 
 ## Calendar cache-buster fix (2026-04-30)
 

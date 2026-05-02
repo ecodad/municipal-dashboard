@@ -30,7 +30,53 @@ atomically rename only after the magic-byte check passes; clean up
 the tempfile on any failure path. Same pattern is worth applying to
 `s3_download.py` and `civicclerk_download.py` for consistency.
 
-### 2. Multi-municipality Phase 2 — final wrap-up
+### 2. Replace Somerville logo with the user-provided green house icon
+
+The current `branding/somerville-ma.json` points `logo_url` at the
+Wikimedia Commons SVG of the official circular city seal. The user
+prefers a simpler green-house-silhouette icon (pasted in chat
+2026-05-01) — a stylized house outline rendered in the same forest
+green as the dashboard's primary color, on a transparent background.
+
+To-do:
+1. Save the pasted asset to `branding/assets/somerville-icon.png` (or
+   upload it to a stable CDN). The asset must be reachable from a
+   browser visiting the dashboard — local relative paths under
+   `branding/assets/` work because the file is committed and served
+   by GitHub Pages.
+2. Update `branding/somerville-ma.json#logo_url` to point at the new
+   location, and `logo_alt` to e.g. "Somerville municipal dashboard
+   icon" (the new asset is a stylized icon, not the heraldic seal).
+3. Re-run `python -m scraper.run_pipeline --municipality somerville-ma
+   --no-process` to refresh `cities.json` and `somerville/branding.json`
+   from the updated source. Commit + push.
+
+### 3. Agenda items sort lexicographically — should sort numerically
+
+On both Medford and Somerville dashboard pages, agenda items within
+a meeting display in the order "1, 10, 11, 12, 2, 3, 4, ..." instead
+of the natural "1, 2, 3, ..., 9, 10, 11". Classic lexicographic vs
+numeric sort.
+
+Root cause: [scraper/synthesizer.py](scraper/synthesizer.py) sorts
+`items[]` by `(Meeting_Date, Source_File, Item_Number)` as plain
+strings, so "10" < "2". The dashboard JS may also re-sort by
+`Item_Number` on render — both code paths need to be checked.
+
+Fix shape: introduce a numeric-aware sort key. `Item_Number` values
+in the wild include plain integers ("1", "2"), formal IDs ("26-074",
+"Case #ZON26-000004"), and dotted sub-items ("2.1", "2.2"). A safe
+key is: extract the leading integer with a regex (default to a high
+sentinel for non-numeric), then fall back to the original string for
+ties. Apply both server-side (`synthesizer.py`'s `data["items"].sort`)
+and client-side (the dashboard JS in `template/dashboard.html` if it
+re-sorts).
+
+Verify on both `/medford/` and `/somerville/` after the fix — test
+with a meeting that has ≥10 items (City Council Regular agendas
+typically have 20+).
+
+### 4. Multi-municipality Phase 2 — final wrap-up
 
 Phase 2 adapter, downloaders, branding JSON, and end-to-end smoke
 test all shipped 2026-05-01. Bug 1 (Synthesizer Medford-coupling)
