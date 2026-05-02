@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-01",
+    "processed_date": "2026-05-02",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -86,6 +86,11 @@
         "filename": "2026-05-14__2026_05_14_municipal-scholarship-committee-meeting__municipal-scholarship-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 3
+      },
+      {
+        "filename": "2026-05-06__2026_05_06_human-rights-commission-hrc-report-task-force-meeting__human-rights-commission-hrc-report-task-force-meeting.pdf",
+        "status": "parsed",
+        "item_count": 1
       }
     ]
   },
@@ -219,6 +224,19 @@
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1405864&GUID=785E65B7-5428-474C-AB40-6667A361E637",
       "agenda_type": "LEGISTAR",
       "detail_url": "https://www.somervillema.gov/events/2026/05/06/public-health-and-public-safety-committee-meeting"
+    },
+    {
+      "source_file": "2026-05-06__2026_05_06_human-rights-commission-hrc-report-task-force-meeting__human-rights-commission-hrc-report-task-force-meeting.pdf",
+      "occur_id": "2026_05_06_human-rights-commission-hrc-report-task-force-meeting",
+      "committee_name": "Somerville Human Rights Commission HRC Report Task Force",
+      "meeting_date": "2026-05-06",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual Meeting",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-04/human-rights-20260506-report-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/06/human-rights-commission-hrc-report-task-force-meeting"
     },
     {
       "source_file": "2026-05-06__2026_05_06_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf",
@@ -1192,6 +1210,16 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Meeting cancelled due to lack of business.",
       "Source_File": "2026-05-06__2026_05_06_canceled-zoning-board-appeals-meeting__canceled-zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission HRC Report Task Force",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review data & research findings",
+      "Source_File": "2026-05-06__2026_05_06_human-rights-commission-hrc-report-task-force-meeting__human-rights-commission-hrc-report-task-force-meeting.pdf"
     },
     {
       "Committee_Name": "Public Health and Public Safety Committee",

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-04-30",
+    "processed_date": "2026-05-02",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -86,6 +86,16 @@
         "filename": "2026-05-06__23803__school-committee-strategic-planning-subcommittee-meeting.pdf",
         "status": "parsed",
         "item_count": 4
+      },
+      {
+        "filename": "2026-05-05__23887__city-council-planning-and-permitting-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-05-06__23888__board-of-assessors-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -2111,6 +2121,36 @@
       "Source_File": "2026-05-05__23501__oak-grove-cemetery-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Planning and Permitting Committee",
+      "Meeting_Date": "2026-05-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order & Roll Call",
+      "Source_File": "2026-05-05__23887__city-council-planning-and-permitting-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning and Permitting Committee",
+      "Meeting_Date": "2026-05-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "24-033",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Zoning Ordinance Updates with Innes Associates Team (Boston Avenue Corridor and Tufts Institutional Zone Discussion)",
+      "Source_File": "2026-05-05__23887__city-council-planning-and-permitting-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning and Permitting Committee",
+      "Meeting_Date": "2026-05-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-05__23887__city-council-planning-and-permitting-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford School Committee",
       "Meeting_Date": "2026-05-06",
       "Meeting_Time": "4:30 PM",
@@ -2149,6 +2189,56 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-05-06__23803__school-committee-strategic-planning-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review of Minutes from meetings on April 8th, 2026",
+      "Source_File": "2026-05-06__23888__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Motor Vehicle Excise Review of Abatements",
+      "Source_File": "2026-05-06__23888__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Motor Vehicle Excise Commitment 2026-2",
+      "Source_File": "2026-05-06__23888__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Commercial Solar PV Facilities",
+      "Source_File": "2026-05-06__23888__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Executive Session for Review of FY26 RE Abatement applications and Appellate Tax Board Docket",
+      "Source_File": "2026-05-06__23888__board-of-assessors-meeting.pdf"
     }
   ],
   "meetings": [
@@ -2359,6 +2449,32 @@
       "agenda_url": "https://docs.google.com/document/d/1-9FooB1_5nSevBHY9a8f6KymABKTN2y5/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23501"
+    },
+    {
+      "source_file": "2026-05-05__23887__city-council-planning-and-permitting-committee-meeting.pdf",
+      "occur_id": "23887",
+      "committee_name": "Planning and Permitting Committee",
+      "meeting_date": "2026-05-05",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall Council Chambers",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://medfordma.portal.civicclerk.com/event/460/files/agenda/859",
+      "agenda_type": "CIVICCLERK",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23887"
+    },
+    {
+      "source_file": "2026-05-06__23888__board-of-assessors-meeting.pdf",
+      "occur_id": "23888",
+      "committee_name": "Medford Board of Assessors",
+      "meeting_date": "2026-05-06",
+      "meeting_time": "4:00 PM",
+      "location": "City Hall - Room 109",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1CuwrXa0rJICPu49JgQG-7GElYAPc94uq/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23888"
     },
     {
       "source_file": "2026-05-06__23803__school-committee-strategic-planning-subcommittee-meeting.pdf",
