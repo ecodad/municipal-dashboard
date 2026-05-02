@@ -53,12 +53,14 @@ import requests
 from bs4 import BeautifulSoup
 
 from . import (
+    AdapterAgendaNotPosted,
     AdapterDownloadError,
     AGENDA_TYPE_MISSING,
     AgendaDownloadResult,
     MeetingRecord,
 )
 from ..legistar_download import (
+    LegistarAgendaNotPosted,
     LegistarDownloadError,
     download_legistar_agenda,
 )
@@ -415,6 +417,8 @@ class SomervilleAdapter:
                     dest_dir=dest_dir,
                     filename_stem=filename_stem,
                 )
+            except LegistarAgendaNotPosted as err:
+                raise AdapterAgendaNotPosted(str(err)) from err
             except LegistarDownloadError as err:
                 raise AdapterDownloadError(str(err)) from err
             return AgendaDownloadResult(

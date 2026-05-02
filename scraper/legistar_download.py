@@ -45,6 +45,14 @@ class LegistarDownloadError(RuntimeError):
     pass
 
 
+class LegistarAgendaNotPosted(LegistarDownloadError):
+    """Legistar responded HTTP 200 with an empty body.
+
+    This is Legistar's way of saying the agenda PDF hasn't been uploaded
+    yet (rather than returning 404). Semantically MISSING, not a failure.
+    """
+
+
 @dataclass(frozen=True)
 class LegistarDownloadResult:
     path: Path
@@ -154,8 +162,10 @@ def download_legistar_agenda(
         raise LegistarDownloadError(f"Network error: {err}") from err
 
     if written == 0:
-        raise LegistarDownloadError(
-            f"Legistar download for ID={legistar_id} returned 0 bytes."
+        out_path.unlink(missing_ok=True)
+        raise LegistarAgendaNotPosted(
+            f"Legistar download for ID={legistar_id} returned 0 bytes "
+            f"(agenda not yet posted)."
         )
 
     with out_path.open("rb") as f:

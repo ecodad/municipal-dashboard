@@ -46,6 +46,7 @@ from pathlib import Path
 from typing import Optional
 
 from .adapters import (
+    AdapterAgendaNotPosted,
     AdapterDownloadError,
     CityAdapter,
     MeetingRecord,
@@ -380,6 +381,8 @@ def process_meeting(
             dest_dir=working_dir,
             filename_stem=stem,
         )
+    except AdapterAgendaNotPosted:
+        return MeetingRunResult(record=meeting, status=Status.MISSING)
     except AdapterDownloadError as err:
         return MeetingRunResult(
             record=meeting, status=Status.FAILED, error=str(err)

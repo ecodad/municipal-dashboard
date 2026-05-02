@@ -6,29 +6,15 @@
 
 ## 🔥 Priority queue (do these first, in order)
 
-### 1. Legistar `View.ashx` returns 200/0-bytes for unposted Council agendas
+### ~~1. Legistar `View.ashx` returns 200/0-bytes for unposted Council agendas~~ ✅ Fixed 2026-05-02
 
-Surfaced by the Somerville smoke test (2026-05-01). 4 of 8
-LEGISTAR-classified meetings failed with `Legistar download for
-ID=... returned 0 bytes` — all of them future Council/Committee
-meetings (5/11–5/14) where the calendar listing has a Gateway URL
-but no agenda PDF has been uploaded yet. Legistar returns HTTP 200
-with an empty body in this case, not a 404, so our downloader's
-"valid PDF or raise" check trips.
-
-Suggested fix: in [scraper/legistar_download.py](scraper/legistar_download.py),
-treat 200/0-bytes as a soft-miss equivalent to MISSING (raise a
-specific `LegistarNotYetPostedError`); the orchestrator then
-downgrades the meeting from LEGISTAR to MISSING in the run summary
-and the dashboard shows "Agenda not yet posted" instead of "failed."
-
-**Sub-bug:** the failed Legistar download still creates a 0-byte PDF
-on disk (`agendas/{slug}/{stem}.pdf`) before the magic-byte check
-raises, so subsequent runs see those stubs via `_already_have` and
-mark the meeting `SKIPPED_EXISTING`. Fix: write to a tempfile and
-atomically rename only after the magic-byte check passes; clean up
-the tempfile on any failure path. Same pattern is worth applying to
-`s3_download.py` and `civicclerk_download.py` for consistency.
+Legistar returns HTTP 200 + empty body when an agenda hasn't been uploaded
+yet. Fixed by adding `LegistarAgendaNotPosted(LegistarDownloadError)` in
+`legistar_download.py` (also deletes the 0-byte stub file before raising),
+`AdapterAgendaNotPosted(AdapterDownloadError)` in `adapters/__init__.py`,
+re-raise in `somerville_ma.py`, and `process_meeting` in `run_pipeline.py`
+now catches `AdapterAgendaNotPosted` and returns `Status.MISSING` rather
+than `Status.FAILED` — so the run exits 0 and the commit step proceeds.
 
 ### 2. Replace Somerville logo with the user-provided green house icon
 

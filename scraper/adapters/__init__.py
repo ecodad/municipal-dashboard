@@ -95,6 +95,17 @@ class AdapterDownloadError(RuntimeError):
     """
 
 
+class AdapterAgendaNotPosted(AdapterDownloadError):
+    """The meeting exists and has an agenda URL, but the PDF isn't up yet.
+
+    Adapters should raise this instead of `AdapterDownloadError` when a
+    host confirms the meeting is real but hasn't posted its agenda (e.g.
+    Legistar returning HTTP 200 with an empty body). The orchestrator
+    maps this to `status=missing` rather than `status=failed`, so it
+    does not count as an error and does not block the commit step.
+    """
+
+
 @runtime_checkable
 class CityAdapter(Protocol):
     """Per-city scraper. The only city-specific surface in the pipeline."""
@@ -167,6 +178,7 @@ __all__ = [
     "AGENDA_TYPE_MISSING",
     "AGENDA_TYPE_UNSUPPORTED",
     "NON_DOWNLOADABLE_AGENDA_TYPES",
+    "AdapterAgendaNotPosted",
     "AdapterDownloadError",
     "AgendaDownloadResult",
     "CityAdapter",
