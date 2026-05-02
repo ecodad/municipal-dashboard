@@ -12,5 +12,19 @@
     "item_count": 206,
     "meeting_count": 17,
     "last_updated": "2026-04-30"
+  },
+  {
+    "slug": "somerville-ma",
+    "name": "Somerville",
+    "path": "somerville",
+    "state": "MA",
+    "eyebrow": "City of Somerville",
+    "tagline": "Municipal Agendas",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Seal_of_Somerville%2C_Massachusetts.svg/512px-Seal_of_Somerville%2C_Massachusetts.svg.png",
+    "logo_alt": "City of Somerville seal",
+    "primary_color": "#2e7d3a",
+    "item_count": 139,
+    "meeting_count": 17,
+    "last_updated": "2026-05-01"
   }
 ]

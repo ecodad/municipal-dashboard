@@ -37,6 +37,7 @@ from typing import Optional
 
 import anthropic
 
+from .adapters import MeetingRecord
 from .event_detail_scrape import (
     EventDetailScrapeError,
     fetch_event_detail,
@@ -60,13 +61,17 @@ DEFAULT_MARKDOWN_DIR = Path("agendas/markdown")
 DEFAULT_ARCHIVE_DIR = Path("agendas/archived")
 MAX_OUTPUT_TOKENS = 16000
 
-# Source filenames produced by the cron-driven scraper follow the pattern
-# {YYYY-MM-DD}__{occur_id}__{slug}.pdf. The occur_id lets us re-derive
-# the original event detail URL on medfordma.org and re-fetch attendance
-# info (location, zoom presence, agenda URL, etc.) — captured here as
-# the meetings[] record. Manually-uploaded PDFs from the very first
-# project setup don't have this pattern, so they get a minimal record
-# built from the item fields alone.
+# meetings[] entries primarily come from the orchestrator's `meetings_index`
+# (keyed by source PDF filename → MeetingRecord), which is the adapter's
+# authoritative output: agenda_url, agenda_type, detail_url, location,
+# zoom_url, livestream_url all already resolved during list_meetings.
+#
+# The regex + URL template below are the legacy/Medford-only fallback
+# used when no live MeetingRecord is available — i.e. when the
+# `--backfill-meetings` flag rebuilds meetings[] for old `items[]`
+# entries with no companion run summary. The pattern matches Medford's
+# numeric Finalsite occur_id; non-numeric occur_ids (e.g. Somerville
+# slug-shaped IDs) fall through to a minimal ARCHIVED record.
 _OCCUR_ID_FROM_FILENAME = re.compile(r"__(\d+)__")
 _DETAIL_URL_TEMPLATE = (
     "https://www.medfordma.org/about/events-calendar/event-details/"
@@ -217,19 +222,27 @@ def _meeting_record_for_source(
     source_file: str,
     items: list[dict],
     *,
+    live_record: Optional[MeetingRecord] = None,
     verbose: bool = False,
 ) -> Optional[dict]:
     """Build the meetings[] record for one source file.
 
-    Uses the first item for committee/date/time/location, then enriches
-    with `event_detail_scrape.fetch_event_detail()` if the filename has
-    an occur_id (cron-generated files do; the very first manual PDFs
-    from project setup don't).
+    `live_record` is the adapter-resolved MeetingRecord for this file
+    (passed in by the orchestrator via `meetings_index`). When present
+    it supplies the authoritative agenda_url, agenda_type, detail_url,
+    location, zoom/livestream presence — none of these are
+    re-derivable from the filename alone for non-Medford cities.
 
-    The resulting record is what the dashboard consumes — exposing
-    presence of Zoom and livestream as booleans rather than the URLs
-    themselves, and pointing back to the city event page as the canonical
-    "how to attend" anchor.
+    When `live_record` is None we fall back to the legacy enrichment
+    path: re-derive the Medford detail URL from a numeric occur_id in
+    the filename and re-fetch the detail page. This path is reachable
+    only via `--backfill-meetings` for old `items[]` entries.
+    Non-Medford filenames (which don't match the numeric occur_id
+    regex) get a minimal ARCHIVED record.
+
+    Either way, committee/date/time still come from items[] — the
+    parsed agenda PDF is more authoritative for those than the
+    calendar listing.
 
     Returns None if items is empty (defensive — should not happen in
     practice).
@@ -238,6 +251,22 @@ def _meeting_record_for_source(
         return None
 
     sample = items[0]
+
+    if live_record is not None:
+        return {
+            "source_file": source_file,
+            "occur_id": live_record.occur_id,
+            "committee_name": sample.get("Committee_Name"),
+            "meeting_date": sample.get("Meeting_Date"),
+            "meeting_time": sample.get("Meeting_Time"),
+            "location": live_record.location or sample.get("Location"),
+            "has_zoom": live_record.zoom_url is not None,
+            "has_livestream": live_record.livestream_url is not None,
+            "agenda_url": live_record.agenda_url,
+            "agenda_type": live_record.agenda_type,
+            "detail_url": live_record.detail_url,
+        }
+
     occur_id = _occur_id_from_filename(source_file)
 
     record = {
@@ -255,7 +284,7 @@ def _meeting_record_for_source(
     }
 
     if occur_id is None:
-        # Legacy file — no detail-page link to enrich from.
+        # No Medford-shaped occur_id and no live record. Best we can do.
         return record
 
     detail_url = _DETAIL_URL_TEMPLATE.format(occur_id=occur_id)
@@ -274,9 +303,6 @@ def _meeting_record_for_source(
             )
         return record
 
-    # The detail page is the more authoritative source for attend-info
-    # (the city updates it when things change); prefer it over the
-    # agenda-extracted location.
     record["location"] = detail.location or record["location"]
     record["has_zoom"] = detail.zoom_url is not None
     record["has_livestream"] = detail.livestream_url is not None
@@ -290,6 +316,7 @@ def _ensure_meeting_record(
     source_file: str,
     items_for_source: list[dict],
     *,
+    live_record: Optional[MeetingRecord] = None,
     verbose: bool = False,
 ) -> bool:
     """If `data['meetings']` doesn't yet have an entry for source_file,
@@ -299,7 +326,7 @@ def _ensure_meeting_record(
     if source_file in existing:
         return False
     record = _meeting_record_for_source(
-        source_file, items_for_source, verbose=verbose
+        source_file, items_for_source, live_record=live_record, verbose=verbose
     )
     if record is None:
         return False
@@ -386,15 +413,24 @@ def synthesize_directory(
     pdf_dir: Path = DEFAULT_PDF_DIR,
     archive_dir: Path = DEFAULT_ARCHIVE_DIR,
     agendas_json: Path = DEFAULT_AGENDAS_JSON,
+    meetings_index: Optional[dict[str, MeetingRecord]] = None,
     dry_run: bool = False,
     verbose: bool = True,
 ) -> RunSummary:
     """Process every .md in markdown_dir, merge into agendas_json, archive sources.
+
+    `meetings_index` (when provided) maps a source PDF filename to the
+    adapter's MeetingRecord for that file. The orchestrator builds it
+    from the in-memory results of the download stage so the
+    Synthesizer can write authoritative agenda_url / agenda_type /
+    detail_url / location / zoom / livestream into each meetings[]
+    entry without re-deriving anything from the filename.
     """
     markdown_dir = Path(markdown_dir)
     pdf_dir = Path(pdf_dir)
     archive_dir = Path(archive_dir)
     agendas_json = Path(agendas_json)
+    meetings_index = meetings_index or {}
 
     md_files = sorted(p for p in markdown_dir.glob("*.md") if p.is_file())
     if not md_files:
@@ -416,6 +452,7 @@ def synthesize_directory(
         source_filename = (
             pdf_path.name if pdf_path else f"{md_path.stem}.pdf"
         )
+        live_record = meetings_index.get(source_filename)
 
         if source_filename in already_processed_files:
             if verbose:
@@ -427,7 +464,13 @@ def synthesize_directory(
                 items_for_src = [
                     it for it in data["items"] if it.get("Source_File") == source_filename
                 ]
-                if _ensure_meeting_record(data, source_filename, items_for_src, verbose=verbose):
+                if _ensure_meeting_record(
+                    data,
+                    source_filename,
+                    items_for_src,
+                    live_record=live_record,
+                    verbose=verbose,
+                ):
                     if verbose:
                         print(f"[synth]   + meetings[] record (backfill)", file=sys.stderr)
                 if pdf_path is not None:
@@ -469,9 +512,17 @@ def synthesize_directory(
                     "item_count": len(new_items),
                 }
             )
-            # Build the meetings[] record (re-fetches the detail page
-            # for occur_id-tagged files; minimal record for legacy).
-            _ensure_meeting_record(data, source_filename, new_items, verbose=verbose)
+            # Build the meetings[] record. When the orchestrator
+            # supplied a live_record we use the adapter's resolved
+            # data; otherwise we fall back to the legacy filename-
+            # based path.
+            _ensure_meeting_record(
+                data,
+                source_filename,
+                new_items,
+                live_record=live_record,
+                verbose=verbose,
+            )
             if pdf_path is not None:
                 _move_to_archive(pdf_path, md_path, archive_dir)
         items_added += len(new_items)
@@ -562,6 +613,101 @@ def backfill_meetings(
     return added
 
 
+def _meetings_index_from_summary(summary_path: Path) -> dict[str, MeetingRecord]:
+    """Reconstruct {source_pdf_filename: MeetingRecord} from a serialized
+    run summary on disk (`agendas/{slug}/.last_scraper_run.json`).
+    """
+    raw = json.loads(summary_path.read_text(encoding="utf-8"))
+    index: dict[str, MeetingRecord] = {}
+    for m in raw.get("meetings", []):
+        file_path = m.get("file_path")
+        if not file_path:
+            continue
+        record = MeetingRecord(
+            occur_id=m["occur_id"],
+            title=m["title"],
+            start=m["start"],
+            detail_url=m["detail_url"],
+            agenda_url=m.get("agenda_url"),
+            agenda_type=m["agenda_type"],
+            location=m.get("location"),
+            zoom_url=m.get("zoom_url"),
+            livestream_url=m.get("livestream_url"),
+            adapter_payload=m.get("adapter_payload") or {},
+        )
+        index[Path(file_path).name] = record
+    return index
+
+
+def rebuild_meetings_from_summary(
+    agendas_json: Path,
+    summary_path: Path,
+    *,
+    verbose: bool = True,
+) -> int:
+    """Rewrite `agendas_json`'s `meetings[]` array from `summary_path` +
+    existing `items[]`. Wipes the prior `meetings[]` first.
+
+    Used to retrofit a city's `agendas.json` after a Synthesizer run
+    that built incorrect meetings[] entries (e.g. the pre-Bug-1-fix
+    Somerville run that wrote agenda_type=ARCHIVED for every meeting).
+    Cheap — no LLM calls; just re-derives meetings[] from the items[]
+    we already have plus the live MeetingRecord data captured in the
+    run summary.
+
+    Returns the number of meetings[] entries written.
+    """
+    agendas_json = Path(agendas_json)
+    summary_path = Path(summary_path)
+    index = _meetings_index_from_summary(summary_path)
+    if verbose:
+        print(
+            f"[rebuild] loaded {len(index)} live MeetingRecord(s) from "
+            f"{summary_path}",
+            file=sys.stderr,
+        )
+
+    data = _load_agendas_json(agendas_json)
+    data["meetings"] = []
+
+    source_files = sorted(
+        {it.get("Source_File") for it in data.get("items", [])} - {None}
+    )
+    written = 0
+    for src in source_files:
+        items_for_src = [
+            it for it in data["items"] if it.get("Source_File") == src
+        ]
+        record = _meeting_record_for_source(
+            src,
+            items_for_src,
+            live_record=index.get(src),
+            verbose=verbose,
+        )
+        if record is None:
+            continue
+        data["meetings"].append(record)
+        written += 1
+        if verbose:
+            tag = "live" if src in index else "fallback"
+            print(
+                f"[rebuild] + {src}  ({tag}; agenda_type={record.get('agenda_type')})",
+                file=sys.stderr,
+            )
+
+    data["meetings"].sort(
+        key=lambda m: (
+            m.get("meeting_date", ""),
+            m.get("committee_name", ""),
+        )
+    )
+    agendas_json.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    return written
+
+
 # ---- CLI -----------------------------------------------------------------
 
 
@@ -616,6 +762,19 @@ def main(argv: list[str] | None = None) -> int:
             "Safe to re-run; only adds missing meeting records."
         ),
     )
+    parser.add_argument(
+        "--rebuild-meetings-from-summary",
+        type=Path,
+        default=None,
+        metavar="SUMMARY_JSON",
+        help=(
+            "One-shot: wipe agendas.json's meetings[] and rebuild it "
+            "from a `.last_scraper_run.json` produced by run_pipeline. "
+            "Cheap (no LLM calls); used to retrofit a city's agendas "
+            "JSON when a prior Synthesizer run wrote bad meeting "
+            "records (e.g. Somerville before the Bug 1 fix)."
+        ),
+    )
     args = parser.parse_args(argv)
 
     if args.backfill_meetings:
@@ -625,6 +784,19 @@ def main(argv: list[str] | None = None) -> int:
             sys.stdout.write("\n")
         else:
             print(f"\nBackfill complete: {added} meeting record(s) added.")
+        return 0
+
+    if args.rebuild_meetings_from_summary:
+        written = rebuild_meetings_from_summary(
+            args.json_path,
+            args.rebuild_meetings_from_summary,
+            verbose=not args.json,
+        )
+        if args.json:
+            json.dump({"meetings_written": written}, sys.stdout)
+            sys.stdout.write("\n")
+        else:
+            print(f"\nRebuild complete: {written} meeting record(s) written.")
         return 0
 
     try:

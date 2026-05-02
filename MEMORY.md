@@ -5,7 +5,7 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-05-01 (Phase 2 implementation — SomervilleAdapter shipped end-to-end)
+**Last updated:** 2026-05-01 (Phase 2 — Somerville smoke test + Bug 1 fix shipped; meetings_index threaded through Synthesizer)
 
 ## What this project is
 
@@ -48,7 +48,7 @@ consumed by `index.html`.
 - GH Actions workflow uses `--all`; auto-commit step iterates every top-level dir that has an `agendas.json` plus the root `cities.json`. Bot identity unchanged from Phase 1.
 - `.gitignore` now ignores the entire `agendas/` working tree (was previously only `.last_scraper_run.json`); also adds `maai_raw.json` (local scratch).
 
-**Multi-municipality refactor — Phase 2 (Somerville):** ✅ Adapter implementation complete and shipped to origin/main. Only branding JSON + full-pipeline smoke test remain.
+**Multi-municipality refactor — Phase 2 (Somerville):** ✅ Adapter, downloaders, branding JSON, and full-pipeline end-to-end smoke test all complete (this session). Doc-update commit `9a952f8` pushed to origin/main. Smoke-test artifacts (`branding/somerville-ma.json`, `somerville/*`, root `cities.json`) are still uncommitted locally — not pushed yet because the smoke test surfaced two real bugs we want to fix before locking in `somerville/agendas.json` as the published copy. See TODO.md priority queue items 1 + 2.
 
 ## Calendar cache-buster fix (2026-04-30)
 
@@ -98,7 +98,30 @@ new generic host-level downloaders for future cities.
 
 **Live smoke test (May 1–15, 2026):** 26 meetings extracted. Split: 14 S3 / 8 Legistar / 4 MISSING. Every Legistar-classified event was a Council standing committee. Every S3 event was a non-Council body. Deterministic split held perfectly. Both download paths exercised: 90 KB Council on Aging PDF (S3), 233 KB Confirmation of Appts PDF (Legistar). Both passed `%PDF` magic validation. Times correctly localized to `-04:00` EDT.
 
-**Still ahead:** (1) `branding/somerville-ma.json` — Somerville green primary color + official seal URL (same shape as Medford JSON). (2) Full-pipeline smoke test — `python -m scraper.run_pipeline --municipality somerville-ma` end-to-end, verify `somerville/agendas.json` produced, verify dashboard renders at `/somerville/`.
+**Still ahead:** (1) Fix the two bugs surfaced by the smoke test (see TODO.md priority queue items 1 + 2). (2) Commit + push the smoke-test artifacts.
+
+## Somerville Phase 2 — full-pipeline smoke test (2026-05-01)
+
+Ran `python -m scraper.run_pipeline --municipality somerville-ma --process` from PowerShell (so the User-scope `ANTHROPIC_API_KEY` env var was inherited natively — never read or echoed assistant-side; see `~/.claude/projects/.../memory/feedback_api_key_handling.md`).
+
+**Run summary:**
+- 17 downloaded ✅, 4 missing (no agenda link on detail page — expected), **4 failed** (all LEGISTAR, all future Council/Committee meetings 5/11–5/14, all `Legistar download for ID=... returned 0 bytes`).
+- Parser (Haiku) + Synthesizer (Sonnet) ran cleanly on all 17. `somerville/agendas.json` written with `meetings: 17, items: 139`.
+- `somerville/index.html` refreshed from `template/dashboard.html`. `somerville/branding.json` synced from `branding/somerville-ma.json`. Root `cities.json` updated to 2 cities (Medford 206 items / Somerville 139 items).
+- Local HTTP server: `/`, `/somerville/`, `/somerville/branding.json`, `/somerville/agendas.json` all return 200 with expected sizes.
+
+**Branding:** Somerville seal sourced from Wikimedia Commons (`upload.wikimedia.org/.../Seal_of_Somerville%2C_Massachusetts.svg`, 512px raster thumbnail). Wikimedia is more stable than the Drupal theme path, and the SVG is the actual circular seal not the wordmark logo. Primary color `#2e7d3a` (forest green) with `#1c5d27` dark and `#0d3815` ink.
+
+**Bug A — Synthesizer is Medford-coupled.** ✅ Fixed 2026-05-01 same session.
+- `synthesize_directory` now accepts `meetings_index: dict[str, MeetingRecord]` keyed by source PDF filename. When the orchestrator supplies a live record, `_meeting_record_for_source` writes the adapter's resolved fields directly (agenda_url, agenda_type, detail_url, location, has_zoom, has_livestream). When no live record is provided, the legacy Medford-detail-fetch fallback still runs (for `--backfill-meetings` flows on old `items[]`), and non-numeric occur_ids fall through to a minimal `ARCHIVED` record.
+- `run_for_adapter` now returns `(RunSummary, list[MeetingRunResult])`; `run_process_stage` consumes the results list, builds the index via `_build_meetings_index`, and passes it down.
+- New helper `rebuild_meetings_from_summary(agendas_json, summary_path)` retroactively rewrites a city's `meetings[]` from a saved `.last_scraper_run.json` + existing `items[]`, with no LLM calls. Used to clean up `somerville/agendas.json` in place.
+- Result on `somerville/agendas.json`: 17/17 meetings now have correct `agenda_type` (13 S3 / 4 LEGISTAR), `detail_url`, `agenda_url`, and `has_zoom` (11 of 17 meetings expose Zoom). Verified via direct read.
+- Files changed: [scraper/synthesizer.py](scraper/synthesizer.py), [scraper/run_pipeline.py](scraper/run_pipeline.py).
+
+**Bug B — Legistar 0-byte for unposted agendas.** Legistar's `View.ashx?M=A&ID=...` returns HTTP 200 with empty body when the agenda PDF hasn't been uploaded yet (rather than 404). `legistar_download.py` correctly raises on 0 bytes, but the orchestrator surfaces this as "failed" instead of "MISSING / not yet posted." Affected 4 of 8 LEGISTAR meetings in this run (all 5/11–5/14 City Council and standing-committee meetings). Filed as TODO priority 2.
+
+**Why the smoke-test artifacts aren't pushed yet:** committing `somerville/agendas.json` now would lock in 17 meetings with `agenda_type=ARCHIVED` and broken Zoom/livestream/detail-page indicators. Better to fix Bug A first, re-run the synthesizer, then commit clean records. The `branding/somerville-ma.json` source is fine on its own and could be committed independently if that helps unblock work.
 
 ## Somerville recon (2026-05-01)
 
@@ -173,6 +196,7 @@ Phase 2 implementation just shipped. Plan for the user's next interaction:
 
 ## Recent commits (most recent first)
 
+- `9a952f8` — Phase 2: document SomervilleAdapter implementation (downloaders + adapter shipped) — **pushed to origin/main 2026-05-01**
 - `4ee703c` — Phase 2: SomervilleAdapter (Drupal calendar + S3/Legistar dispatch)
 - `a50f763` — Phase 2: S3 and Legistar host downloaders
 - `855c714` — Phase 2 recon: Somerville agenda hosting confirmed (S3 + Legistar split)

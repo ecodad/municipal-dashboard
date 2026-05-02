@@ -1,0 +1,1123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" id="metaDescription" content="Independent civic-tech project — municipal meeting agendas in plain English.">
+<title id="pageTitle">Municipal Dashboards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@700;900&display=swap">
+<style>
+  :root {
+    /* ---- Project chrome (Municipal Dashboards) ----
+       Fixed across cities. Charcoal + warm paper + copper accent.
+       Deliberately neutral so it complements blue (Medford) and
+       green (future Somerville) without competing. */
+    --mdash-ink:        #1f2329;
+    --mdash-ink-soft:   #3a3f47;
+    --mdash-paper:      #fafaf7;
+    --mdash-rule-warm:  #d8d3c7;
+    --mdash-accent:     #b35a1f;   /* copper */
+    --mdash-accent-ink: #8a4416;   /* copper, darker */
+
+    /* ---- City brand ----
+       Set at runtime by branding.json. Defaults below match Medford
+       so the page renders sensibly even if branding.json fails. */
+    --brand-primary:      #25347a;
+    --brand-primary-dark: #163052;
+    --brand-primary-ink:  #0e1f44;
+
+    /* ---- Common neutrals ---- */
+    --ink: #242424;
+    --ink-muted: #636363;
+    --rule: #e5e5e5;
+    --rule-strong: #cfcfcf;
+    --bg-card: #ffffff;
+    --shadow-card: 0 1px 3px rgba(20, 30, 60, .07), 0 1px 2px rgba(20, 30, 60, .04);
+    --shadow-card-hover: 0 4px 12px rgba(20, 30, 60, .09), 0 2px 4px rgba(20, 30, 60, .05);
+    --radius-card: 10px;
+    --radius-pill: 999px;
+
+    /* ---- Item type accent palette ----
+       Semantic, not city-tied. AA contrast on white. */
+    --type-resolution: #2a3a7a;
+    --type-ordinance:  #1a2a55;
+    --type-hearing:    #a85a00;
+    --type-vote:       #1f6b3a;
+    --type-discussion: #4f5a72;
+    --type-comm:       #6e3a8a;
+    --type-report:     #0f6b87;
+    --type-approval:   #2f5840;
+    --type-procedural: #6b6b6b;
+    --type-other:      #4a4a4a;
+
+    /* Sans stack used for project chrome — system fonts so the
+       project banner reads visually distinct from the city's serif
+       wordmark without an extra Google Fonts request. */
+    --mdash-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                  "Helvetica Neue", Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--ink);
+    background: var(--mdash-paper);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: Merriweather, Georgia, serif;
+    font-weight: 700;
+    color: var(--brand-primary-ink);
+    margin: 0;
+  }
+  a { color: var(--brand-primary); }
+
+  /* ---------------- Project banner (Municipal Dashboards) ---------- */
+  .project-banner {
+    background: var(--mdash-ink);
+    color: #fff;
+    border-bottom: 1px solid #000;
+    font-family: var(--mdash-sans);
+  }
+  .project-banner .inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px 24px;
+  }
+  .project-mark {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .project-glyph {
+    width: 22px; height: 22px;
+    color: var(--mdash-accent);
+    flex-shrink: 0;
+  }
+  .project-text { line-height: 1.2; }
+  .project-name {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+  .project-name .accent { color: var(--mdash-accent); }
+  .project-tagline {
+    font-size: 12px;
+    color: rgba(255,255,255,.72);
+    margin-top: 1px;
+  }
+  .project-status {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,.08);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,.18);
+    padding: 5px 11px;
+    border-radius: var(--radius-pill);
+    font-size: 12px;
+    font-family: var(--mdash-sans);
+  }
+  .status-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--mdash-accent);
+    box-shadow: 0 0 0 3px rgba(179,90,31,.22);
+  }
+
+  /* ---------------- City banner (subject of this page) ------------- */
+  .city-banner {
+    background: var(--brand-primary);
+    color: #fff;
+    padding: 18px 24px;
+    border-bottom: 4px solid var(--brand-primary-dark);
+  }
+  .city-banner .inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .brand-mark {
+    width: 48px; height: 48px;
+    border-radius: 50%;
+    background: #fff;
+    display: grid; place-items: center;
+    flex: 0 0 48px;
+    padding: 4px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,.4);
+  }
+  .brand-mark img {
+    width: 100%; height: 100%;
+    display: block;
+    object-fit: contain;
+  }
+  .brand-text { line-height: 1.15; }
+  .brand-eyebrow {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    opacity: .9;
+    font-weight: 700;
+  }
+  .brand-title {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 1px;
+  }
+
+  /* ---------------- Hero ---------------- */
+  .hero {
+    max-width: 1180px;
+    margin: 24px auto 16px;
+    padding: 0 24px;
+  }
+  .hero h1 {
+    font-size: clamp(24px, 3vw, 34px);
+    line-height: 1.2;
+    margin-bottom: 6px;
+  }
+  .hero .lede {
+    color: var(--ink-muted);
+    font-size: 16px;
+    max-width: 760px;
+  }
+  .hero-actions {
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--brand-primary);
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid var(--brand-primary);
+    transition: background .15s, box-shadow .15s;
+  }
+  .btn-primary:hover {
+    background: var(--brand-primary-dark);
+    box-shadow: 0 2px 6px rgba(20, 30, 60, .15);
+  }
+  .btn-primary svg { flex-shrink: 0; }
+
+  /* ---------------- Filter bar ---------------- */
+  .filterbar {
+    max-width: 1180px;
+    margin: 0 auto 18px;
+    padding: 14px 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-card);
+    position: sticky;
+    top: 8px;
+    z-index: 10;
+  }
+  .filterbar .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    align-items: center;
+  }
+  .filterbar .row + .row { margin-top: 10px; }
+  .search {
+    flex: 1 1 280px;
+    position: relative;
+  }
+  .search input {
+    width: 100%;
+    padding: 10px 12px 10px 36px;
+    border: 1px solid var(--rule-strong);
+    border-radius: 8px;
+    font: inherit;
+    color: var(--ink);
+    background: #fff;
+  }
+  .search input:focus {
+    outline: 2px solid var(--brand-primary);
+    outline-offset: 1px;
+    border-color: var(--brand-primary);
+  }
+  .search svg {
+    position: absolute;
+    left: 11px; top: 50%;
+    transform: translateY(-50%);
+    color: var(--ink-muted);
+  }
+  .timetabs {
+    display: inline-flex;
+    background: var(--mdash-paper);
+    padding: 4px;
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+  }
+  .timetabs button {
+    background: transparent;
+    border: 0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font: inherit;
+    font-weight: 700;
+    color: var(--ink-muted);
+    cursor: pointer;
+  }
+  .timetabs button.active {
+    background: var(--brand-primary);
+    color: #fff;
+  }
+  .timetabs button:not(.active):hover {
+    background: #ececec;
+    color: var(--ink);
+  }
+  .chips-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ink-muted);
+    font-weight: 700;
+    margin-right: 4px;
+    flex: 0 0 auto;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    flex: 1 1 auto;
+  }
+  .chip {
+    background: #fff;
+    border: 1px solid var(--rule-strong);
+    color: var(--ink);
+    padding: 5px 10px;
+    border-radius: var(--radius-pill);
+    font-size: 13px;
+    cursor: pointer;
+    transition: background .15s, border-color .15s, color .15s;
+  }
+  .chip:hover { border-color: var(--brand-primary); }
+  .chip.active {
+    background: var(--brand-primary);
+    color: #fff;
+    border-color: var(--brand-primary);
+  }
+  .filter-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+  }
+  .result-count {
+    color: var(--ink-muted);
+    font-size: 14px;
+  }
+  .clear-btn {
+    background: transparent;
+    border: 1px solid var(--rule-strong);
+    color: var(--ink);
+    padding: 6px 12px;
+    border-radius: 8px;
+    font: inherit;
+    cursor: pointer;
+  }
+  .clear-btn:hover { border-color: var(--brand-primary); color: var(--brand-primary); }
+  .clear-btn[disabled] { opacity: .4; cursor: default; }
+
+  /* ---------------- Main grid ---------------- */
+  main { max-width: 1180px; margin: 0 auto 80px; padding: 0 24px; }
+
+  .empty, .loading, .error {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    padding: 48px 24px;
+    text-align: center;
+    color: var(--ink-muted);
+  }
+  .error { border-color: #d97a7a; color: #842121; }
+
+  .meeting-card {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-card);
+    margin-bottom: 18px;
+    overflow: hidden;
+    transition: box-shadow .15s;
+  }
+  .meeting-card:hover { box-shadow: var(--shadow-card-hover); }
+
+  .meeting-head {
+    padding: 18px 20px;
+    border-left: 4px solid var(--brand-primary);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
+    align-items: start;
+    cursor: pointer;
+    user-select: none;
+  }
+  .meeting-head:hover { background: #fafbfd; }
+
+  .meeting-card.past .meeting-head { border-left-color: #b8bccd; }
+  .meeting-card.this-week .meeting-head { border-left-color: #1f6b3a; }
+
+  .committee {
+    font-family: Merriweather, Georgia, serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: var(--brand-primary-ink);
+    line-height: 1.3;
+  }
+  .meta-line {
+    margin-top: 6px;
+    color: var(--ink-muted);
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+  }
+  .meta-line .sep { color: var(--rule-strong); }
+  .meta-line strong { color: var(--ink); font-weight: 700; }
+
+  .date-block {
+    text-align: right;
+    font-family: Merriweather, Georgia, serif;
+    color: var(--brand-primary-ink);
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .date-block .day {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: -1px;
+  }
+  .date-block .month {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 4px;
+    color: var(--brand-primary);
+    font-weight: 700;
+  }
+  .date-block .weekday {
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin-top: 2px;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .date-badge {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 2px 8px;
+    border-radius: var(--radius-pill);
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .date-badge.this-week { background: #e6f4ec; color: #1f6b3a; }
+  .date-badge.upcoming  { background: #eef0fb; color: var(--brand-primary); }
+  .date-badge.past      { background: #f0f1f5; color: #6b6b6b; }
+
+  /* ---------------- Item list ---------------- */
+  .items {
+    border-top: 1px solid var(--rule);
+    padding: 6px 0 10px;
+    list-style: none;
+    margin: 0;
+  }
+  .meeting-card.collapsed .items { display: none; }
+  .meeting-card.collapsed .meeting-head .toggle-icon { transform: rotate(-90deg); }
+  .toggle-icon {
+    display: inline-block;
+    transition: transform .15s;
+    color: var(--ink-muted);
+    margin-left: 8px;
+    font-size: 14px;
+  }
+
+  .item-row {
+    display: grid;
+    grid-template-columns: auto auto minmax(0, 1fr);
+    gap: 10px 14px;
+    align-items: baseline;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .items .item-row:last-child { border-bottom: 0; }
+  .item-row:hover { background: #fafbfd; }
+
+  .item-num {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12.5px;
+    color: var(--ink-muted);
+    font-weight: 700;
+    min-width: 60px;
+  }
+  .type-pill {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    padding: 3px 9px;
+    border-radius: var(--radius-pill);
+    white-space: nowrap;
+    color: #fff;
+    flex-shrink: 0;
+  }
+  .type-pill.t-resolution { background: var(--type-resolution); }
+  .type-pill.t-ordinance  { background: var(--type-ordinance); }
+  .type-pill.t-hearing    { background: var(--type-hearing); }
+  .type-pill.t-vote       { background: var(--type-vote); }
+  .type-pill.t-discussion { background: var(--type-discussion); }
+  .type-pill.t-comm       { background: var(--type-comm); }
+  .type-pill.t-report     { background: var(--type-report); }
+  .type-pill.t-approval   { background: var(--type-approval); }
+  .type-pill.t-procedural { background: var(--type-procedural); }
+  .type-pill.t-other      { background: var(--type-other); }
+
+  .item-topic {
+    color: var(--ink);
+    line-height: 1.45;
+  }
+  .item-topic mark {
+    background: #fff3b8;
+    color: inherit;
+    padding: 0 2px;
+    border-radius: 2px;
+  }
+
+  /* ---------------- Meeting card: attendance + actions row ----- */
+  .attendance-row {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 10px;
+    align-items: center;
+  }
+  .attend-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: #eef0fb;
+    color: var(--brand-primary-ink);
+    border: 1px solid #d6daee;
+    padding: 3px 9px;
+    border-radius: var(--radius-pill);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  .attend-chip.zoom    { background: #e6f0fa; border-color: #c6dcf2; color: #1a4a7a; }
+  .attend-chip.live    { background: #fbecec; border-color: #f4cdcd; color: #883333; }
+  .attend-chip.missing { background: #f4eee6; border-color: #e6d8be; color: #7a5a1f; }
+  .attend-chip svg { flex-shrink: 0; }
+
+  .attend-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: var(--radius-pill);
+    font-size: 12.5px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    line-height: 1.3;
+  }
+  .attend-link.primary {
+    background: var(--brand-primary);
+    color: #fff;
+    border-color: var(--brand-primary);
+  }
+  .attend-link.primary:hover { background: var(--brand-primary-dark); }
+  .attend-link.ghost {
+    color: var(--brand-primary);
+    border-color: var(--rule-strong);
+  }
+  .attend-link.ghost:hover { border-color: var(--brand-primary); background: #f5f6fb; }
+  .attend-link svg { flex-shrink: 0; }
+
+  /* ---------------- Footer ---------------- */
+  footer.site-footer {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 24px;
+    color: var(--ink-muted);
+    font-size: 13px;
+    border-top: 1px solid var(--rule);
+  }
+  footer.site-footer a { color: var(--brand-primary); }
+  footer.site-footer .disclaimer {
+    color: var(--mdash-ink-soft);
+    border-left: 3px solid var(--mdash-accent);
+    padding: 6px 12px;
+    margin-bottom: 14px;
+    background: rgba(179,90,31,.04);
+    font-size: 13px;
+  }
+  footer.site-footer .disclaimer strong {
+    color: var(--mdash-ink);
+    font-weight: 700;
+  }
+  footer.site-footer .meta-line-foot { margin-top: 10px; }
+
+  /* ---------------- Responsive ---------------- */
+  @media (max-width: 720px) {
+    .project-banner .inner { gap: 8px 16px; }
+    .project-status { width: 100%; margin-left: 0; }
+    .city-banner .inner { gap: 12px; }
+    .meeting-head { grid-template-columns: 1fr; }
+    .date-block { text-align: left; display: flex; align-items: baseline; gap: 10px; }
+    .date-block .day { font-size: 22px; }
+    .date-block .weekday { margin-top: 0; }
+    .date-badge { margin-top: 0; margin-left: 6px; }
+    .item-row { grid-template-columns: auto 1fr; }
+    .item-row .type-pill { grid-column: 1; }
+    .item-row .item-topic { grid-column: 1 / span 2; }
+    .filterbar { position: static; }
+  }
+</style>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J7JM4102Q0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J7JM4102Q0');
+</script>  
+<body>
+
+<header class="project-banner" role="banner">
+  <div class="inner">
+    <a class="project-mark" href=".." aria-label="Municipal Dashboards landing page">
+      <svg class="project-glyph" viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3"  y="3"  width="8" height="8" rx="1.5" fill="currentColor"/>
+        <rect x="13" y="3"  width="8" height="8" rx="1.5" fill="currentColor" opacity="0.55"/>
+        <rect x="3"  y="13" width="8" height="8" rx="1.5" fill="currentColor" opacity="0.4"/>
+        <rect x="13" y="13" width="8" height="8" rx="1.5" fill="currentColor"/>
+      </svg>
+      <div class="project-text">
+        <div class="project-name">Municipal <span class="accent">Dashboards</span></div>
+        <div class="project-tagline">Independent civic-tech project · Agendas in plain English</div>
+      </div>
+    </a>
+    <div class="project-status" id="headerStatus" aria-live="polite"></div>
+  </div>
+</header>
+
+<!--
+  City banner. The literal Medford values below are the page's
+  built-in defaults — they render correctly even if branding.json
+  fails to load (e.g. when viewing index.html via file://). The
+  inline JS replaces them at runtime to match whatever
+  branding.json says. A forker swapping to a different city should
+  edit both branding/{slug}.json (for the live render) and these
+  inline defaults (for the offline/file:// fallback).
+-->
+<section class="city-banner" id="cityBanner">
+  <div class="inner">
+    <div class="brand-mark" aria-hidden="true">
+      <img id="brandLogo"
+           src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_3/v1649178843/medfordmaorg/thr1k7o0oinkssqklte9/Transparent_High_Res_Blue_city-seal1.png"
+           alt="City of Medford seal">
+    </div>
+    <div class="brand-text">
+      <div class="brand-eyebrow" id="brandEyebrow">City of Medford</div>
+      <div class="brand-title" id="brandTitle">Medford Municipal Agendas</div>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <h1 id="heroTitle">What's on the agenda this week?</h1>
+  <p class="lede">Topics, votes, and hearings across local boards, commissions, and council. Filter by committee or type, or search across every agenda item.</p>
+  <div class="hero-actions">
+    <a class="btn-primary" id="officialCalendarLink" href="#" target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+      <span id="officialCalendarLabel">Official City Events Calendar</span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M7 17L17 7"></path><path d="M7 7h10v10"></path>
+      </svg>
+    </a>
+  </div>
+</section>
+
+<section class="filterbar" aria-label="Filters">
+  <div class="row">
+    <label class="search" aria-label="Search agenda topics">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input id="searchInput" type="search" placeholder="Search topics, item numbers, committees…" autocomplete="off">
+    </label>
+    <div class="timetabs" role="tablist" aria-label="Time range">
+      <button data-range="week" class="active" role="tab">Next 7 days</button>
+      <button data-range="month" role="tab">Next 30 days</button>
+      <button data-range="all" role="tab">All</button>
+      <button data-range="past" role="tab">Past</button>
+    </div>
+  </div>
+  <div class="row">
+    <span class="chips-label">Committee</span>
+    <div class="chips" id="committeeChips"></div>
+  </div>
+  <div class="row">
+    <span class="chips-label">Type</span>
+    <div class="chips" id="typeChips"></div>
+    <div class="filter-actions">
+      <span class="result-count" id="resultCount" aria-live="polite"></span>
+      <button class="clear-btn" id="clearBtn" disabled>Clear filters</button>
+    </div>
+  </div>
+</section>
+
+<main id="content">
+  <div class="loading">Loading agenda data…</div>
+</main>
+
+<footer class="site-footer">
+  <div class="disclaimer">
+    <strong>Municipal Dashboards is an independent project</strong> — it is not run by, or affiliated with, any city government. For official documents, follow the links to the
+    <a id="footerOfficialLink" href="#" target="_blank" rel="noopener">Official City Events Calendar</a>.
+  </div>
+  <div class="meta-line-foot">
+    Static dashboard generated by a Claude agent pipeline. Source data:
+    <a href="agendas.json"><code>agendas.json</code></a>.
+    Repo: <a href="https://github.com/ecodad/municipal-dashboard">ecodad/municipal-dashboard</a>.
+  </div>
+</footer>
+
+<script>
+(() => {
+  'use strict';
+
+  const state = {
+    branding: null,
+    data: null,
+    today: null,        // YYYY-MM-DD string for "today"
+    range: 'week',      // week | month | all | past
+    committees: new Set(),
+    types: new Set(),
+    search: '',
+    meetingBySourceFile: new Map(),
+  };
+
+  // Defaults used only if branding.json fails to fetch (e.g. when
+  // viewing index.html over file://). These mirror branding/medford-ma.json
+  // so the page renders correctly even with no JSON available. A forker
+  // swapping to a different city should also update these defaults, but
+  // any successful branding.json load overrides them at runtime.
+  const DEFAULT_BRANDING = {
+    city_name: 'Medford',
+    eyebrow: 'City of Medford',
+    tagline: 'Municipal Agendas',
+    page_title: 'Medford Agendas · Municipal Dashboards',
+    meta_description: "What's on the agenda in Medford, MA this week — boards, commissions, and council meetings at a glance. An independent civic-tech project.",
+    logo_url: 'https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_3/v1649178843/medfordmaorg/thr1k7o0oinkssqklte9/Transparent_High_Res_Blue_city-seal1.png',
+    logo_alt: 'City of Medford seal',
+    primary_color: '#25347a',
+    primary_dark:  '#163052',
+    primary_ink:   '#0e1f44',
+    official_calendar_url: 'https://www.medfordma.org/about/events-calendar',
+    official_calendar_label: 'Official City Events Calendar',
+    footer_credit_label: 'City of Medford Events Calendar',
+  };
+
+  const TYPE_CLASS = {
+    'Resolution': 't-resolution',
+    'Ordinance': 't-ordinance',
+    'Public Hearing': 't-hearing',
+    'Vote': 't-vote',
+    'Discussion': 't-discussion',
+    'Communication': 't-comm',
+    'Report': 't-report',
+    'Approval/Minutes': 't-approval',
+    'Procedural': 't-procedural',
+    'Other': 't-other',
+  };
+
+  const $ = sel => document.querySelector(sel);
+
+  function applyBranding(b) {
+    const root = document.documentElement;
+    if (b.primary_color) root.style.setProperty('--brand-primary',      b.primary_color);
+    if (b.primary_dark)  root.style.setProperty('--brand-primary-dark', b.primary_dark);
+    if (b.primary_ink)   root.style.setProperty('--brand-primary-ink',  b.primary_ink);
+
+    if (b.page_title) {
+      document.title = b.page_title;
+      $('#pageTitle').textContent = b.page_title;
+    }
+    if (b.meta_description) {
+      $('#metaDescription').setAttribute('content', b.meta_description);
+    }
+
+    const logo = $('#brandLogo');
+    if (b.logo_url) {
+      logo.src = b.logo_url;
+      logo.alt = b.logo_alt || '';
+      logo.style.display = '';
+    } else {
+      // No branding logo: hide the img but keep the white circle
+      // wrapper; that way the layout doesn't shift.
+      logo.removeAttribute('src');
+      logo.style.display = 'none';
+    }
+    if (b.eyebrow) {
+      $('#brandEyebrow').textContent = b.eyebrow;
+    }
+    // Title combines city name + tagline so the city is fronted in
+    // the visible heading: "Medford Municipal Agendas".
+    if (b.tagline) {
+      const title = b.city_name
+        ? `${b.city_name} ${b.tagline}`
+        : b.tagline;
+      $('#brandTitle').textContent = title;
+    }
+
+    const cta = $('#officialCalendarLink');
+    if (b.official_calendar_url) cta.href = b.official_calendar_url;
+    if (b.official_calendar_label) {
+      $('#officialCalendarLabel').textContent = b.official_calendar_label;
+    }
+
+    const footLink = $('#footerOfficialLink');
+    if (b.official_calendar_url) footLink.href = b.official_calendar_url;
+    if (b.footer_credit_label) {
+      footLink.textContent = b.footer_credit_label;
+    }
+  }
+
+  function fmtIsoDate(iso) {
+    const [y, m, d] = iso.split('-').map(Number);
+    const dt = new Date(Date.UTC(y, m - 1, d));
+    const day = String(d);
+    const month = dt.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' });
+    const weekday = dt.toLocaleString('en-US', { weekday: 'short', timeZone: 'UTC' });
+    return { day, month: month.toUpperCase(), weekday: weekday.toUpperCase() };
+  }
+  function todayIso() {
+    const n = new Date();
+    return [n.getFullYear(), String(n.getMonth() + 1).padStart(2, '0'), String(n.getDate()).padStart(2, '0')].join('-');
+  }
+  function addDaysIso(iso, days) {
+    const [y, m, d] = iso.split('-').map(Number);
+    const dt = new Date(Date.UTC(y, m - 1, d + days));
+    return dt.toISOString().slice(0, 10);
+  }
+
+  function inRange(iso) {
+    const t = state.today;
+    if (state.range === 'all') return true;
+    if (state.range === 'past') return iso < t;
+    if (state.range === 'week') return iso >= t && iso <= addDaysIso(t, 7);
+    if (state.range === 'month') return iso >= t && iso <= addDaysIso(t, 30);
+    return true;
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+  function highlight(text, q) {
+    const safe = escapeHtml(text);
+    if (!q) return safe;
+    const re = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'ig');
+    return safe.replace(re, m => '<mark>' + m + '</mark>');
+  }
+
+  function matchesFilters(item) {
+    if (!inRange(item.Meeting_Date)) return false;
+    if (state.committees.size && !state.committees.has(item.Committee_Name)) return false;
+    if (state.types.size && !state.types.has(item.Item_Type)) return false;
+    if (state.search) {
+      const q = state.search.toLowerCase();
+      const haystack = [item.Agenda_Topic, item.Item_Number, item.Committee_Name, item.Item_Type].join(' ').toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    return true;
+  }
+
+  function groupByMeeting(items) {
+    const map = new Map();
+    for (const it of items) {
+      const key = it.Source_File + '|' + it.Meeting_Date;
+      if (!map.has(key)) {
+        const meta = state.meetingBySourceFile.get(it.Source_File) || null;
+        map.set(key, {
+          key,
+          source_file: it.Source_File,
+          committee:   meta?.committee_name || it.Committee_Name,
+          date:        meta?.meeting_date  || it.Meeting_Date,
+          time:        meta?.meeting_time  || it.Meeting_Time,
+          location:    meta?.location      || it.Location,
+          meta,
+          items: [],
+        });
+      }
+      map.get(key).items.push(it);
+    }
+    const meetings = Array.from(map.values());
+    meetings.sort((a, b) => a.date.localeCompare(b.date) || a.committee.localeCompare(b.committee));
+    return meetings;
+  }
+
+  function agendaHref(meta, sourceFile) {
+    if (!meta) return null;
+    if (meta.agenda_url) return meta.agenda_url;
+    if (meta.agenda_type === 'ARCHIVED' && sourceFile) {
+      // Each city dashboard lives at /{site_path}/index.html, with
+      // its archive at /{site_path}/archived/. The link is therefore
+      // just "archived/{filename}" relative to the page.
+      return 'archived/' + encodeURIComponent(sourceFile);
+    }
+    return null;
+  }
+
+  const ICON_VIDEO    = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2"></rect></svg>';
+  const ICON_BROADCAST = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="2.5"></circle><path d="M16.5 7.5a6 6 0 0 1 0 9"></path><path d="M7.5 7.5a6 6 0 0 0 0 9"></path><path d="M19.5 4.5a10 10 0 0 1 0 15"></path><path d="M4.5 4.5a10 10 0 0 0 0 15"></path></svg>';
+  const ICON_DOC      = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>';
+  const ICON_EXTERNAL = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>';
+  const ICON_WARN     = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>';
+
+  function renderAttendanceRow(meta, sourceFile) {
+    if (!meta) return '';
+    const parts = [];
+    if (meta.has_zoom) {
+      parts.push(`<span class="attend-chip zoom">${ICON_VIDEO} Zoom</span>`);
+    }
+    if (meta.has_livestream) {
+      parts.push(`<span class="attend-chip live">${ICON_BROADCAST} Livestreamed</span>`);
+    }
+    const href = agendaHref(meta, sourceFile);
+    if (href) {
+      parts.push(`<a class="attend-link primary" href="${escapeHtml(href)}" target="_blank" rel="noopener">${ICON_DOC} Agenda${ICON_EXTERNAL}</a>`);
+    } else if (meta.agenda_type === 'MISSING') {
+      parts.push(`<span class="attend-chip missing">${ICON_WARN} Agenda not posted</span>`);
+    }
+    if (meta.detail_url) {
+      const cityName = state.branding?.city_name || 'official site';
+      const linkLabel = `View on ${cityName}'s site`;
+      parts.push(`<a class="attend-link ghost" href="${escapeHtml(meta.detail_url)}" target="_blank" rel="noopener">${escapeHtml(linkLabel)}${ICON_EXTERNAL}</a>`);
+    }
+    if (!parts.length) return '';
+    return `<div class="attendance-row">${parts.join('')}</div>`;
+  }
+
+  function renderHeaderStatus() {
+    const meta = state.data.metadata;
+    const totalItems = state.data.items.length;
+    const committees = new Set(state.data.items.map(i => i.Committee_Name)).size;
+    $('#headerStatus').innerHTML =
+      `<span class="status-pill"><span class="status-dot" aria-hidden="true"></span>Last updated <strong style="margin-left:4px;">${escapeHtml(meta.processed_date)}</strong></span>` +
+      `<span class="status-pill">${totalItems} items · ${committees} committees</span>`;
+  }
+
+  function renderChips() {
+    const items = state.data.items;
+    const committees = Array.from(new Set(items.map(i => i.Committee_Name))).sort();
+    const types = Array.from(new Set(items.map(i => i.Item_Type))).sort();
+
+    $('#committeeChips').innerHTML = committees.map(c =>
+      `<button class="chip" data-kind="committee" data-value="${escapeHtml(c)}">${escapeHtml(c)}</button>`).join('');
+    $('#typeChips').innerHTML = types.map(t =>
+      `<button class="chip" data-kind="type" data-value="${escapeHtml(t)}">${escapeHtml(t)}</button>`).join('');
+  }
+
+  function renderResults() {
+    const filtered = state.data.items.filter(matchesFilters);
+    const meetings = groupByMeeting(filtered);
+
+    const c = $('#content');
+    if (!filtered.length) {
+      c.innerHTML = `<div class="empty"><strong>No agenda items match these filters.</strong><br>Try widening the time range or clearing filters.</div>`;
+    } else {
+      c.innerHTML = meetings.map(renderMeetingCard).join('');
+      c.querySelectorAll('.meeting-head').forEach(el => {
+        el.addEventListener('click', () => {
+          el.parentElement.classList.toggle('collapsed');
+        });
+      });
+    }
+
+    $('#resultCount').textContent =
+      filtered.length + ' item' + (filtered.length === 1 ? '' : 's') +
+      ' across ' + meetings.length + ' meeting' + (meetings.length === 1 ? '' : 's');
+
+    const anyActive = state.committees.size || state.types.size || state.search || state.range !== 'week';
+    $('#clearBtn').disabled = !anyActive;
+  }
+
+  function renderMeetingCard(mt) {
+    const t = state.today;
+    const upcomingWindow = addDaysIso(t, 7);
+    const isPast = mt.date < t;
+    const isThisWeek = mt.date >= t && mt.date <= upcomingWindow;
+    const isUpcoming = mt.date > upcomingWindow;
+    let badgeClass = 'past', badgeText = 'Past';
+    if (isThisWeek) { badgeClass = 'this-week'; badgeText = 'This Week'; }
+    else if (isUpcoming) { badgeClass = 'upcoming'; badgeText = 'Upcoming'; }
+
+    const cardClass = isPast ? 'past' : (isThisWeek ? 'this-week' : '');
+    const collapsedClass = isPast ? ' collapsed' : '';
+
+    const d = fmtIsoDate(mt.date);
+    const items = mt.items.map(it => `
+      <li class="item-row">
+        <span class="item-num">${escapeHtml(it.Item_Number)}</span>
+        <span class="type-pill ${TYPE_CLASS[it.Item_Type] || 't-other'}">${escapeHtml(it.Item_Type)}</span>
+        <span class="item-topic">${highlight(it.Agenda_Topic, state.search)}</span>
+      </li>
+    `).join('');
+
+    const metaParts = [];
+    if (mt.time) metaParts.push(`<strong>${escapeHtml(mt.time)}</strong>`);
+    if (mt.location) metaParts.push(escapeHtml(mt.location));
+    const metaLine = metaParts.length
+      ? `<div class="meta-line">${metaParts.join('<span class="sep">·</span>')}</div>` : '';
+    const attendanceRow = renderAttendanceRow(mt.meta, mt.source_file);
+
+    return `
+      <article class="meeting-card ${cardClass}${collapsedClass}">
+        <header class="meeting-head" tabindex="0" role="button" aria-expanded="${!collapsedClass}">
+          <div>
+            <h2 class="committee">${escapeHtml(mt.committee)}<span class="toggle-icon">▾</span></h2>
+            ${metaLine}
+            ${attendanceRow}
+          </div>
+          <div class="date-block">
+            <div class="day">${d.day}</div>
+            <div class="month">${d.month}</div>
+            <div class="weekday">${d.weekday}</div>
+            <div class="date-badge ${badgeClass}">${badgeText}</div>
+          </div>
+        </header>
+        <ul class="items">${items}</ul>
+      </article>`;
+  }
+
+  function setRange(r) {
+    state.range = r;
+    document.querySelectorAll('.timetabs button').forEach(b => {
+      b.classList.toggle('active', b.dataset.range === r);
+    });
+    const titles = {
+      week: "What's on the agenda this week?",
+      month: "What's on the agenda this month?",
+      all: "Every agenda item we've parsed",
+      past: "Past meetings",
+    };
+    $('#heroTitle').textContent = titles[r];
+    renderResults();
+  }
+
+  function clearFilters() {
+    state.committees.clear();
+    state.types.clear();
+    state.search = '';
+    $('#searchInput').value = '';
+    document.querySelectorAll('.chip.active').forEach(c => c.classList.remove('active'));
+    setRange('week');
+  }
+
+  function bindFilterEvents() {
+    $('#searchInput').addEventListener('input', e => {
+      state.search = e.target.value.trim();
+      renderResults();
+    });
+    document.querySelectorAll('.timetabs button').forEach(btn => {
+      btn.addEventListener('click', () => setRange(btn.dataset.range));
+    });
+    document.querySelectorAll('.chips').forEach(container => {
+      container.addEventListener('click', e => {
+        const chip = e.target.closest('.chip');
+        if (!chip) return;
+        const set = chip.dataset.kind === 'committee' ? state.committees : state.types;
+        const val = chip.dataset.value;
+        if (set.has(val)) { set.delete(val); chip.classList.remove('active'); }
+        else { set.add(val); chip.classList.add('active'); }
+        renderResults();
+      });
+    });
+    $('#clearBtn').addEventListener('click', clearFilters);
+  }
+
+  async function loadBranding() {
+    try {
+      const res = await fetch('branding.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const b = await res.json();
+      state.branding = { ...DEFAULT_BRANDING, ...b };
+    } catch (err) {
+      console.warn('branding.json unavailable; using defaults:', err);
+      state.branding = DEFAULT_BRANDING;
+    }
+    applyBranding(state.branding);
+  }
+
+  async function init() {
+    await loadBranding();
+    try {
+      const res = await fetch('agendas.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      state.data = await res.json();
+    } catch (err) {
+      $('#content').innerHTML = `<div class="error"><strong>Couldn't load agendas.json.</strong><br>${escapeHtml(err.message)}</div>`;
+      return;
+    }
+    state.today = todayIso();
+    state.meetingBySourceFile = new Map(
+      (state.data.meetings || []).map(m => [m.source_file, m])
+    );
+    renderHeaderStatus();
+    renderChips();
+    bindFilterEvents();
+    renderResults();
+  }
+
+  document.addEventListener('DOMContentLoaded', init);
+})();
+</script>
+
+</body>
+</html>

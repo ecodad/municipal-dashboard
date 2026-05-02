@@ -6,18 +6,52 @@
 
 ## 🔥 Priority queue (do these first, in order)
 
-### 1. Multi-municipality refactor — Phase 2 (Somerville adapter)
+### 1. Legistar `View.ashx` returns 200/0-bytes for unposted Council agendas
 
-Phase 1 (adapter scaffolding + Medford parity + project banner)
-shipped two sessions ago. Phase 2 implementation (adapter +
-downloaders) shipped this session. **Two items remain:**
+Surfaced by the Somerville smoke test (2026-05-01). 4 of 8
+LEGISTAR-classified meetings failed with `Legistar download for
+ID=... returned 0 bytes` — all of them future Council/Committee
+meetings (5/11–5/14) where the calendar listing has a Gateway URL
+but no agenda PDF has been uploaded yet. Legistar returns HTTP 200
+with an empty body in this case, not a 404, so our downloader's
+"valid PDF or raise" check trips.
 
-1. Add `branding/somerville-ma.json` (Somerville green primary color +
-   official seal URL — same shape as `branding/medford-ma.json`).
-2. Full-pipeline end-to-end smoke test: `python -m scraper.run_pipeline
-   --municipality somerville-ma`, verify `somerville/agendas.json` is
-   produced, verify the dashboard renders correctly at
-   `/somerville/`.
+Suggested fix: in [scraper/legistar_download.py](scraper/legistar_download.py),
+treat 200/0-bytes as a soft-miss equivalent to MISSING (raise a
+specific `LegistarNotYetPostedError`); the orchestrator then
+downgrades the meeting from LEGISTAR to MISSING in the run summary
+and the dashboard shows "Agenda not yet posted" instead of "failed."
+
+**Sub-bug:** the failed Legistar download still creates a 0-byte PDF
+on disk (`agendas/{slug}/{stem}.pdf`) before the magic-byte check
+raises, so subsequent runs see those stubs via `_already_have` and
+mark the meeting `SKIPPED_EXISTING`. Fix: write to a tempfile and
+atomically rename only after the magic-byte check passes; clean up
+the tempfile on any failure path. Same pattern is worth applying to
+`s3_download.py` and `civicclerk_download.py` for consistency.
+
+### 2. Multi-municipality Phase 2 — final wrap-up
+
+Phase 2 adapter, downloaders, branding JSON, and end-to-end smoke
+test all shipped 2026-05-01. Bug 1 (Synthesizer Medford-coupling)
+fixed 2026-05-01 — the orchestrator now builds a `meetings_index`
+(source filename → MeetingRecord) and threads it into
+`synthesize_directory`, which uses the adapter-resolved fields
+verbatim. Existing `somerville/agendas.json` rebuilt via
+`scraper.synthesizer --rebuild-meetings-from-summary` (no LLM cost);
+17/17 meetings now have correct `agenda_type=S3|LEGISTAR`,
+`detail_url`, `agenda_url`, and `has_zoom` flags.
+
+Remaining bookkeeping:
+
+1. Commit + push the smoke-test artifacts: `branding/somerville-ma.json`,
+   `somerville/{index.html,branding.json,agendas.json,archived/*}`,
+   `cities.json`, plus the Bug 1 source-code changes
+   (`scraper/synthesizer.py`, `scraper/run_pipeline.py`) so GitHub
+   Pages serves `/somerville/`.
+2. Re-run the full pipeline (or just the rebuild flag) once Bug 1
+   above is also fixed, to clean up the four "failed" Council
+   meetings.
 
 ## ✅ Recently done (kept here briefly so future sessions can see what shipped)
 

@@ -404,8 +404,13 @@ def run_for_adapter(
     dry_run: bool = False,
     write_summary: bool = True,
     verbose: bool = True,
-) -> RunSummary:
-    """Run the scrape→download stage for a single city."""
+) -> tuple[RunSummary, list["MeetingRunResult"]]:
+    """Run the scrape→download stage for a single city.
+
+    Returns the serializable summary AND the in-memory per-meeting
+    results so the caller can build a `meetings_index` for the
+    Synthesizer (mapping source PDF filename → MeetingRecord).
+    """
     today = today or date.today()
     working_dir = working_dir_for(adapter)
     site_dir = site_dir_for(adapter)
@@ -469,11 +474,39 @@ def run_for_adapter(
             json.dumps(asdict(summary), indent=2), encoding="utf-8"
         )
 
-    return summary
+    return summary, results
 
 
-def run_process_stage(adapter: CityAdapter, *, verbose: bool = True) -> int:
-    """Run Parser → Synthesizer for a single city. Returns exit code."""
+def _build_meetings_index(
+    results: list["MeetingRunResult"],
+) -> dict[str, MeetingRecord]:
+    """Map source PDF filename → MeetingRecord for results that produced
+    a file on disk (downloaded fresh or skipped because already on disk).
+
+    The Synthesizer consumes this so it can write authoritative
+    agenda_url / agenda_type / detail_url / location / zoom flags into
+    the meetings[] entries instead of re-deriving them from the
+    filename (which only works for Medford-shaped numeric occur_ids).
+    """
+    index: dict[str, MeetingRecord] = {}
+    for r in results:
+        if r.file_path:
+            index[Path(r.file_path).name] = r.record
+    return index
+
+
+def run_process_stage(
+    adapter: CityAdapter,
+    results: list["MeetingRunResult"],
+    *,
+    verbose: bool = True,
+) -> int:
+    """Run Parser → Synthesizer for a single city. Returns exit code.
+
+    `results` is the per-meeting MeetingRunResult list from the
+    immediately-preceding download stage. Used to build the
+    Synthesizer's meetings_index.
+    """
     working_dir = working_dir_for(adapter)
     markdown_dir = working_dir / "markdown"
     site_dir = site_dir_for(adapter)
@@ -509,6 +542,7 @@ def run_process_stage(adapter: CityAdapter, *, verbose: bool = True) -> int:
             pdf_dir=working_dir,
             archive_dir=archive_dir,
             agendas_json=agendas_json,
+            meetings_index=_build_meetings_index(results),
             dry_run=False,
             verbose=verbose,
         )
@@ -679,7 +713,7 @@ def main(argv: list[str] | None = None) -> int:
             print(f"ERROR: {err}", file=sys.stderr)
             return 2
 
-        summary = run_for_adapter(
+        summary, results = run_for_adapter(
             adapter,
             today=args.as_of,
             lookahead_days=args.lookahead_days,
@@ -696,7 +730,9 @@ def main(argv: list[str] | None = None) -> int:
             _print_human(summary)
 
         if args.process and not args.dry_run:
-            stage_rc = run_process_stage(adapter, verbose=not args.json)
+            stage_rc = run_process_stage(
+                adapter, results, verbose=not args.json
+            )
             if stage_rc:
                 overall_failed += 1
 

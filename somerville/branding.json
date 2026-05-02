@@ -1,0 +1,17 @@
+{
+  "slug": "somerville-ma",
+  "city_name": "Somerville",
+  "city_state": "MA",
+  "eyebrow": "City of Somerville",
+  "tagline": "Municipal Agendas",
+  "page_title": "Somerville Agendas · Municipal Dashboards",
+  "meta_description": "What's on the agenda in Somerville, MA this week — boards, commissions, and council meetings at a glance. An independent civic-tech project.",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Seal_of_Somerville%2C_Massachusetts.svg/512px-Seal_of_Somerville%2C_Massachusetts.svg.png",
+  "logo_alt": "City of Somerville seal",
+  "primary_color": "#2e7d3a",
+  "primary_dark": "#1c5d27",
+  "primary_ink": "#0d3815",
+  "official_calendar_url": "https://www.somervillema.gov/calendar",
+  "official_calendar_label": "Official City Events Calendar",
+  "footer_credit_label": "City of Somerville Events Calendar"
+}
