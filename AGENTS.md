@@ -13,6 +13,8 @@
 
 | Role | Module | Type | Inputs | Outputs |
 |---|---|---|---|---|
+| **Scribe Agent** | `.claude/agents/scribe.md` | Sub-Agent (Haiku) | Task description | Doc updates + git commit/push |
+| **Web Investigator** | `.claude/agents/web-investigator.md` | Sub-Agent (Sonnet) | Task description | Selectors, API endpoints, data shapes |
 | **City Adapter (Protocol)** | `scraper/adapters/__init__.py` | Deterministic | Slug | `CityAdapter` instance (with `slug`, `name`, `site_path`) |
 | Medford Adapter | `scraper/adapters/medford_ma.py` | Deterministic | `today`, `lookahead_days`; later `MeetingRecord` | `list[MeetingRecord]`; `AgendaDownloadResult` |
 | Calendar Scraper (Medford-specific) | `scraper/calendar_scrape.py` | Deterministic | Today's date + lookahead window | `list[Meeting]` |

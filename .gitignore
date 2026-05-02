@@ -5,8 +5,14 @@ Thumbs.db
 .idea/
 
 # Personal Claude Code overrides (project-shared config lives in
-# .claude/settings.json and .claude/hooks/, both of which ARE committed).
+# .claude/settings.json, .claude/hooks/, and .claude/agents/, all of
+# which ARE committed).
 .claude/settings.local.json
+
+# Browser/MCP debug artifacts: per-page console logs and accessibility
+# snapshots that the Playwright MCP server writes during local dev.
+# Useful while a session is live; never wanted in the repo.
+.playwright-mcp/
 
 # Temp / scratch
 *.tmp
