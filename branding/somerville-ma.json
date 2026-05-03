@@ -6,7 +6,7 @@
   "tagline": "Municipal Agendas",
   "page_title": "Somerville Agendas · Municipal Dashboards",
   "meta_description": "What's on the agenda in Somerville, MA this week — boards, commissions, and council meetings at a glance. An independent civic-tech project.",
-  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Seal_of_Somerville%2C_Massachusetts.svg/512px-Seal_of_Somerville%2C_Massachusetts.svg.png",
+  "logo_url": "../branding/assets/somerville-seal.svg",
   "logo_alt": "City of Somerville seal",
   "primary_color": "#2e7d3a",
   "primary_dark": "#1c5d27",
