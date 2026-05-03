@@ -6,273 +6,23 @@
 
 ## 🔥 Priority queue (do these first, in order)
 
-### ~~1. Legistar `View.ashx` returns 200/0-bytes for unposted Council agendas~~ ✅ Fixed 2026-05-02
+### 1. Get feedback and feature requests
 
-Legistar returns HTTP 200 + empty body when an agenda hasn't been uploaded
-yet. Fixed by adding `LegistarAgendaNotPosted(LegistarDownloadError)` in
-`legistar_download.py` (also deletes the 0-byte stub file before raising),
-`AdapterAgendaNotPosted(AdapterDownloadError)` in `adapters/__init__.py`,
-re-raise in `somerville_ma.py`, and `process_meeting` in `run_pipeline.py`
-now catches `AdapterAgendaNotPosted` and returns `Status.MISSING` rather
-than `Status.FAILED` — so the run exits 0 and the commit step proceeds.
+Phase 2 is complete and both Medford and Somerville are live. Now is
+the time to share the dashboard with users, gather feedback, and
+identify the next highest-value features or cities to add.
 
-### ~~2. Replace Somerville logo with self-hosted asset~~ ✅ Fixed 2026-05-03
-
-Replaced the Wikimedia Commons raster thumbnail with the official SVG
-committed to `branding/assets/somerville-seal.svg`. `logo_url` updated
-to `../branding/assets/somerville-seal.svg` in both the source
-`branding/somerville-ma.json` and the deployed `somerville/branding.json`.
-Pushed as commit `9d1f7ae`.
-
-### 3. Agenda items sort lexicographically — should sort numerically
-
-On both Medford and Somerville dashboard pages, agenda items within
-a meeting display in the order "1, 10, 11, 12, 2, 3, 4, ..." instead
-of the natural "1, 2, 3, ..., 9, 10, 11". Classic lexicographic vs
-numeric sort.
-
-Root cause: [scraper/synthesizer.py](scraper/synthesizer.py) sorts
-`items[]` by `(Meeting_Date, Source_File, Item_Number)` as plain
-strings, so "10" < "2". The dashboard JS may also re-sort by
-`Item_Number` on render — both code paths need to be checked.
-
-Fix shape: introduce a numeric-aware sort key. `Item_Number` values
-in the wild include plain integers ("1", "2"), formal IDs ("26-074",
-"Case #ZON26-000004"), and dotted sub-items ("2.1", "2.2"). A safe
-key is: extract the leading integer with a regex (default to a high
-sentinel for non-numeric), then fall back to the original string for
-ties. Apply both server-side (`synthesizer.py`'s `data["items"].sort`)
-and client-side (the dashboard JS in `template/dashboard.html` if it
-re-sorts).
-
-Verify on both `/medford/` and `/somerville/` after the fix — test
-with a meeting that has ≥10 items (City Council Regular agendas
-typically have 20+).
-
-### 4. Multi-municipality Phase 2 — final wrap-up
-
-Phase 2 adapter, downloaders, branding JSON, and end-to-end smoke
-test all shipped 2026-05-01. Bug 1 (Synthesizer Medford-coupling)
-fixed 2026-05-01 — the orchestrator now builds a `meetings_index`
-(source filename → MeetingRecord) and threads it into
-`synthesize_directory`, which uses the adapter-resolved fields
-verbatim. Existing `somerville/agendas.json` rebuilt via
-`scraper.synthesizer --rebuild-meetings-from-summary` (no LLM cost);
-17/17 meetings now have correct `agenda_type=S3|LEGISTAR`,
-`detail_url`, `agenda_url`, and `has_zoom` flags.
-
-Remaining bookkeeping:
-
-1. Commit + push the smoke-test artifacts: `branding/somerville-ma.json`,
-   `somerville/{index.html,branding.json,agendas.json,archived/*}`,
-   `cities.json`, plus the Bug 1 source-code changes
-   (`scraper/synthesizer.py`, `scraper/run_pipeline.py`) so GitHub
-   Pages serves `/somerville/`.
-2. Re-run the full pipeline (or just the rebuild flag) once Bug 1
-   above is also fixed, to clean up the four "failed" Council
-   meetings.
-
-## ✅ Recently done (kept here briefly so future sessions can see what shipped)
-
-- **Multi-municipality Phase 2 — SomervilleAdapter + host downloaders**
-  (commits `4ee703c`, `a50f763`, `855c714`). Implementation shipped
-  end-to-end: new modules `scraper/s3_download.py` (generic public-S3
-  downloader), `scraper/legistar_download.py` (generic Legistar PDF
-  downloader), and `scraper/adapters/somerville_ma.py` (SomervilleAdapter
-  implementing the CityAdapter Protocol). Adapter walks Drupal
-  `/calendar?page=N`, filters by "meeting" substring, fetches detail
-  pages, classifies agenda host (Legistar first, else S3, else MISSING),
-  handles time-zone conversion to America/New_York (DST-aware),
-  dispatches download based on `agenda_type`. Live smoke test (May 1–15):
-  26 meetings, split 14 S3 / 8 Legistar / 4 MISSING. Both download
-  paths exercised; both pass `%PDF` magic validation. Deterministic
-  split rule (City Council committees → Legistar; all others → S3) held
-  perfectly.
-
-- **Phase 1.5 — multi-city deploy layout** (prior session). Each city
-  now lives under `/{site_path}/` (e.g. `/medford/`) instead of
-  sharing the repo root. Root `index.html` is now a landing page
-  that reads a pipeline-generated `cities.json`. Canonical city
-  dashboard at `template/dashboard.html`; pipeline copies it to
-  `{site_path}/index.html` on every run. Adapter Protocol gained a
-  `site_path` attribute. `run_pipeline.py` reorganized: per-city
-  working dir at `agendas/{slug}/` (gitignored), per-city published
-  dir at `{site_path}/` (committed). New `--all` flag loops over
-  every registered slug; the GH Actions cron now uses `--all`.
-  Added helpers `_refresh_site_chrome()` and
-  `_update_cities_registry()`. Existing Medford archive moved with
-  `git mv` so history is preserved. Dashboard JS archived-link path
-  is now relative to the city folder.
-
-- **Multi-municipality refactor — Phase 1** (commit `3ee4461`). Introduced
-  `scraper/adapters/` package with the `CityAdapter` Protocol,
-  `MeetingRecord` dataclass, registry, and `MedfordAdapter` wrapping
-  the existing Finalsite + CivicClerk + Google modules.
-  `run_pipeline.py` is now city-agnostic with a `--municipality SLUG`
-  flag (defaulting to `medford-ma`, also reads `MUNICIPALITY_SLUG`
-  env var). Branding extracted into `branding/{slug}.json` files,
-  loaded at runtime by the dashboard. `index.html` got a two-tier
-  header — project banner ("Municipal Dashboards", charcoal + copper
-  accent, system-sans) above a city-branded subject section, with
-  an explicit "independent project" disclaimer in the footer. GH
-  Actions workflow plumbs `MUNICIPALITY_SLUG` through to the
-  pipeline. No behavior change for Medford; new schema enables
-  Phase 2.
-
-- **Wire the dashboard to render the new schema fields** (prior session).
-  `agendas.json` now has a top-level `meetings[]` array
-  alongside `items[]`, where each meeting record carries
-  `committee_name`, `meeting_date`, `meeting_time`, `location`,
-  `has_zoom`, `has_livestream`, `agenda_url`, `agenda_type`, and
-  `detail_url`. Per the user's UX call: surface presence-of-Zoom and
-  presence-of-livestream as boolean indicators only — never expose the
-  Zoom URL itself (avoids sending people to potentially-stale links).
-  The agenda link points to the live external URL when available
-  (CivicClerk / Google Doc / Drive) or to our archived copy at
-  `agendas/archived/{filename}` for legacy meetings; "Agenda not
-  posted" badge shown when truly missing. Each card also gets a
-  prominent "View on medfordma.org" link as the canonical fallback for
-  attendance details. Synthesizer now builds these records inline; a
-  one-time `--backfill-meetings` CLI flag was used to populate
-  meetings[] for the existing 13 source files (7 enriched via detail-
-  page re-fetch; 6 legacy got minimal records, marked
-  agenda_type=ARCHIVED).
-- **Document scheduling for forkers** (commit `905185a`). New
-  [SCHEDULING.md](SCHEDULING.md) runbook covers where the code runs
-  (ephemeral GitHub Actions Ubuntu runner), where files go (committed
-  back to main → Pages rebuild), where to put the API key (repo
-  secrets — never in the repo), the 5-step setup walkthrough for a
-  new fork, how to adjust cadence, and a troubleshooting section.
-  Wired into the SessionStart hook context, the README index, and
-  MEMORY.md.
-- **Schedule the pipeline** (commit `a2c5f28`). GitHub Actions workflow
-  at `.github/workflows/refresh-agendas.yml` runs the full pipeline
-  daily at 10 UTC (≈6 AM ET) plus on-demand via the Actions tab. Reads
-  `ANTHROPIC_API_KEY` from repo secrets. Auto-commits regenerated
-  `agendas.json` and newly-archived sources with a bot identity, only
-  if anything changed. Uploads `agendas/.last_scraper_run.json` as an
-  artifact every run for debugging. **One manual setup step is
-  required**: add `ANTHROPIC_API_KEY` to the repo's Actions secrets
-  (Settings → Secrets and variables → Actions → New repository
-  secret).
-- **Reconcile README.md with the new docs** (commit `774eab0`). README
-  trimmed
-  from 168 → 101 lines. Now public-facing only: project pitch, live
-  site, operational run commands, dashboard description, "Project
-  documentation" index linking to MEMORY/TODO/ARCHITECTURE/
-  TARGET_SITES/AGENTS, known limitations. Architectural diagram, full
-  data schema, agent team contract, and roadmap moved to their
-  respective companion files.
-- **Document the documentation system** (commit `05eb1c1`). The
-  persistent Markdown docs are now reinforced by a SessionStart hook
-  (`.claude/hooks/doc-context-hook.sh`) wired in
-  `.claude/settings.json` (project-shared, committed). Hook injects
-  file-purpose definitions and continuous-update rules at every session
-  start. PreCompact hook reminds Claude to refresh `MEMORY.md` /
-  `TODO.md` before compaction.
-- **Finish the API-key handoff** (commit `bfcb6a2`). New key set as
-  Windows user env var; smart-override `.env` loader now respects
-  existing OS env vars and only fills from `.env` when the OS value is
-  empty/whitespace. Synthesizer re-ran successfully producing 78 new
-  items; `agendas.json` grew 80 → 165.
+Suggested channels: share the live URL with the people most likely
+to use it (neighbors, local civic groups, city staff, local press),
+and note any pain points or feature gaps that come up.
 
 ## 📋 Pending features
-
-- **Multi-municipality refactor — original framing (now mostly
-  superseded by the Phase 1/2 split above).** The user wants any
-  contributor in a different municipality to fork the repo, swap
-  in a city adapter, add their API key, and get their own running
-  dashboard.
-
-  **What's currently Medford-specific** (would need to become
-  config-driven):
-  - `scraper/calendar_scrape.py` — `MEDFORD_CALENDAR_ELEMENT = 6730`,
-    `medfordma.org` host, AJAX URL template
-  - `scraper/event_detail_scrape.py` — `medfordma.org` detail URL
-    pattern (the `~occur-id/{N}` shape itself is Finalsite-generic)
-  - `scraper/civicclerk_download.py` — `medfordma.api.civicclerk.com`
-    and `medfordma.portal.civicclerk.com` subdomains
-  - `index.html` — City of Medford branding (navy `#25347a`, official
-    seal image URL, Merriweather + Lato, calendar-CTA link, page title)
-
-  **Suggested approach:**
-  1. Introduce a `MunicipalityConfig` dataclass (or `municipalities/{slug}.yaml`)
-     with fields like `name`, `slug`, `timezone`, `events_calendar_url`,
-     `finalsite_element_id` (nullable — not all cities use Finalsite),
-     `civicclerk_subdomain` (nullable), `title_filter`, and a
-     `branding` block (primary color, accent color, logo URL, font
-     stack, page title, calendar-link URL).
-  2. Refactor each scraper module to accept a config object instead of
-     reading module-level constants. Same for the dashboard's branding
-     variables.
-  3. Add a `municipalities/` directory with one config per city. Start
-     with `municipalities/medford-ma.yaml` extracted from the current
-     constants so the existing pipeline keeps producing identical
-     output.
-  4. Introduce a thin platform-adapter interface for the calendar
-     source. Today everything assumes Finalsite. Other cities might use
-     **Granicus**, **Legistar**, or **BoardDocs** — design the calendar
-     fetcher as an interface so a `GranicusAdapter` could slot in
-     without touching the rest of the pipeline.
-  5. Same adapter pattern for the agenda-host downloaders. CivicClerk
-     and Google Doc/Drive cover Medford; other tenants might use
-     Granicus PDFs, Legistar, etc. Keep dispatch keyed on the
-     `agenda_type` enum and add new enum values as needed.
-  6. Make the GitHub Actions workflow either auto-pick the config from
-     a single committed `MUNICIPALITY_SLUG` env var, or allow the
-     workflow to receive the slug as a `workflow_dispatch` input so a
-     single repo could in principle handle multiple cities (though the
-     simpler model is one fork per city).
-  7. Write a new `MUNICIPALITY_SETUP.md` walking a new contributor
-     through: identify which platforms the target city uses, derive
-     element IDs / URL patterns (recipes for the recon process —
-     similar shape to what's already in `TARGET_SITES.md` but
-     instructional), swap dashboard branding, set up GitHub Pages,
-     add the API key secret, run the first sync.
-
-  **Candidate target cities to consider while designing** (so the
-  abstraction is sized for real variation, not just a one-off):
-  - Somerville, MA — explicitly mentioned by user; likely Finalsite +
-    CivicClerk, similar to Medford
-  - Cambridge, MA — Granicus stack (would force the adapter pattern)
-  - Boston, MA — Granicus, much higher meeting volume
-  - Other Massachusetts municipalities running Finalsite (a large set)
-
-  **Out of scope for this item:** packaging as a `pip` CLI, hosting a
-  multi-tenant deployment ourselves, or any kind of billing. The
-  deliverable is *"a fork-friendly template that works for the next
-  contributor's city without forking the actual scraping logic."*
-
-
-
-- **Step 4 — Schedule the pipeline.** Wire the full
-  `scrape → parse → synthesize → archive → commit → push` chain into
-  a recurring job. Two viable hosts: GitHub Actions cron (free, simple,
-  needs `ANTHROPIC_API_KEY` as a repo secret) or local Windows Task
-  Scheduler (no cloud secret, but only runs when machine is on).
-  Recommend GitHub Actions for reliability.
-
-- **Dashboard schema upgrade.** `index.html` currently renders only
-  `Committee_Name`, `Meeting_Date`, `Meeting_Time`, `Location`,
-  `Item_Number`, `Item_Type`, `Agenda_Topic`, `Source_File`. The
-  scraper now also collects `agenda_url`, `agenda_type`, `zoom_url`,
-  `livestream_url` per meeting — but they aren't yet flowing into
-  `agendas.json` (the Synthesizer doesn't see them) or shown in the
-  dashboard. Decide on schema:
-  - Option A: Add a `meetings` top-level array (one entry per meeting
-    with these fields), and let `items` reference meetings by key.
-  - Option B: Repeat the meeting-level fields on every item.
-
-  Then update `index.html` to render an "Agenda" link per meeting card,
-  show "Agenda not posted" when `agenda_type === "MISSING"`, and link
-  the Zoom URL.
 
 - **Google Doc → Markdown direct export.** Google Docs supports
   `?format=md` natively. For Google Doc agendas this would skip the
   PDF→Markdown Parser pass entirely — saving Haiku tokens and likely
   producing cleaner structured output (Google's own export preserves
-  heading levels, bullet hierarchy, etc.). Worth exploring once
-  scheduling is wired up.
+  heading levels, bullet hierarchy, etc.).
 
 - **Item de-duplication across meetings.** The same agenda item ID
   (e.g. `26-074`) can appear in both a Committee of the Whole agenda
@@ -292,6 +42,10 @@ Remaining bookkeeping:
   `.docx` → PDF conversion step, or (b) direct `.docx` reading via the
   Anthropic SDK's `document` content block, which supports it.
 
+- **Add a third city.** The adapter pattern is validated by Somerville.
+  Strong candidates: Cambridge, MA (Granicus stack — would force a new
+  calendar adapter) or another MA city on Finalsite (lowest lift).
+
 ## 🐛 Known bugs / edge cases
 
 - **Image-only PDFs** (scanned, no OCR) trigger
@@ -302,37 +56,22 @@ Remaining bookkeeping:
 - **`agenda_type=OTHER`** is currently a dead-end — the orchestrator
   marks the meeting as `unsupported` and skips download. No alerting.
   Today this never triggers because all observed agenda hosts are
-  CivicClerk / Google Doc / Google Drive, but if the city posts to
-  some new system we'd silently lose that meeting until someone reads
-  the run summary.
+  CivicClerk / Google Doc / Google Drive / S3 / Legistar, but if a city
+  posts to some new system we'd silently lose that meeting until someone
+  reads the run summary.
 
 - **Synthesizer "Extra data" JSON parse error (mitigated, not root-caused).**
-  On the first end-to-end Synthesizer run (2026-04-25), 6 of 7 meetings
-  succeeded but the Zoning Board agenda (`23793`) failed with
-  `json.JSONDecodeError: Extra data: line 1 column 2692 (char 2691)`.
-  Sonnet emitted a complete valid JSON object and then kept generating
-  trailing tokens past the schema's natural stop point — even with
-  `output_config.format` enforcing the JSON Schema. **Mitigated** by
-  switching from `json.loads()` to `json.JSONDecoder().raw_decode()`
-  in `synthesizer.py`, which parses the first valid JSON value and
-  ignores any trailing garbage. Follow-ups worth doing:
-    - Log when `raw_decode` silently drops trailing content so we can
-      tell if this is happening more than expected (might mask a real
-      schema-violation regression).
+  On the first end-to-end Synthesizer run (2026-04-25), Sonnet emitted a
+  complete valid JSON object and then kept generating trailing tokens past
+  the schema's natural stop point. **Mitigated** by switching from
+  `json.loads()` to `json.JSONDecoder().raw_decode()`. Follow-ups:
+    - Log when `raw_decode` silently drops trailing content.
     - Investigate whether this is a known issue with adaptive thinking
-      + structured outputs on Sonnet 4.6, or specific to our prompt
-      shape.
-    - Consider migrating to the SDK's `client.messages.parse()` with a
-      Pydantic model, which the `claude-api` skill flags as the
-      recommended structured-output API.
+      + structured outputs on Sonnet 4.6, or specific to our prompt shape.
 
 - **CivicClerk plain-text variant occasionally returns 0 bytes.** We
   catch this in the downloader and only raise on PDF format; text is
   treated as best-effort.
-
-- **System-reminder leak of `.env` contents.** Documented in
-  `MEMORY.md`. Workaround: use OS env vars instead of `.env` while a
-  Claude Code session is active in this directory.
 
 - **Small system prompts don't actually cache.** Both agents pass
   `cache_control: {"type": "ephemeral"}` on the system block, but the
@@ -357,10 +96,6 @@ Remaining bookkeeping:
   transient errors with exponential backoff by default — we rely on
   this. If we ever pin retry counts, document why.
 
-- **`run_pipeline.py` is getting large.** 400+ lines and growing. Split
-  out the per-meeting dispatch into a `process_meeting.py` if it grows
-  another 50%.
-
 - **No structured logs.** Currently we `print(...)` to stderr. For
   scheduled runs, this would be more useful as JSON lines.
 
@@ -368,5 +103,68 @@ Remaining bookkeeping:
   reproducible builds (especially on a scheduler), generate a
   `requirements.lock` and pin exact versions.
 
-- **The `__pycache__` was once accidentally committed and reverted.**
-  `.gitignore` now covers it; just a note in case it sneaks back.
+---
+
+## ✅ Completed
+
+### Phase 2 — Somerville live (completed 2026-05-03)
+
+Full multi-municipality Phase 2 shipped and live at
+`https://ecodad.github.io/municipal-dashboard/somerville/`.
+
+- **SomervilleAdapter + host downloaders** (commits `4ee703c`, `a50f763`,
+  `855c714`, `9a380d4`). New modules: `scraper/s3_download.py` (generic
+  public-S3 downloader), `scraper/legistar_download.py` (generic Legistar
+  PDF downloader), `scraper/adapters/somerville_ma.py` (SomervilleAdapter).
+  Walks Drupal `/calendar?page=N`, classifies agenda host (Legistar for
+  City Council committees; S3 for all other bodies), handles DST-aware
+  time-zone conversion. Live smoke test: 26 meetings, split 14 S3 /
+  8 Legistar / 4 MISSING. Deterministic split rule held perfectly.
+- **Synthesizer Medford-coupling bug fixed** (2026-05-01). Orchestrator
+  now builds a `meetings_index` (source filename → MeetingRecord) and
+  threads it into `synthesize_directory`; Somerville meetings get correct
+  `agenda_type`, `detail_url`, `agenda_url`, and `has_zoom` flags.
+- **Legistar 0-byte → MISSING** (commit `fdba7ce`, 2026-05-02). Legistar
+  returns HTTP 200 + empty body for unposted agendas; now caught as
+  `LegistarAgendaNotPosted` / `AdapterAgendaNotPosted` and mapped to
+  `Status.MISSING` so the run exits 0 and the commit step proceeds.
+- **Somerville logo self-hosted** (commit `9d1f7ae`, 2026-05-03). Official
+  city seal SVG committed to `branding/assets/somerville-seal.svg`;
+  replaces the Wikimedia Commons raster thumbnail.
+- **Landing page logo path fix** (commit `6b006a4`, 2026-05-03).
+  `_update_cities_registry` now resolves relative `logo_url` values
+  against the city's `site_path` so `cities.json` always contains
+  root-relative paths that work from the landing page.
+- **Agenda items numeric sort** (commit `3589c18`, 2026-05-03).
+  `_item_sort_key()` in `synthesizer.py` extracts digit runs as int
+  tuples; "1, 2, 3, 10, 11" instead of "1, 10, 11, 2, 3".
+
+### Phase 1.5 — per-city subdirectory layout (completed prior session)
+
+Each city lives under `/{site_path}/`. Root `index.html` is a landing
+page reading a pipeline-generated `cities.json`. Canonical city dashboard
+at `template/dashboard.html`; pipeline copies it on every run. Medford
+archive moved with `git mv` to preserve history. New `--all` flag; GH
+Actions cron uses `--all`.
+
+### Phase 1 — multi-municipality adapter layer (commit `3ee4461`)
+
+`scraper/adapters/` package with `CityAdapter` Protocol, `MeetingRecord`
+dataclass, registry, and `MedfordAdapter`. `run_pipeline.py` is now
+city-agnostic. Branding extracted into `branding/{slug}.json`. Two-tier
+header (project banner + city section) with "independent project"
+disclaimer in the footer.
+
+### Earlier milestones
+
+- Calendar cache-buster fix — CDN strips `cal_date` param; fixed by
+  sending `_=<timestamp>` + `X-Requested-With` header (commit `0eee098`).
+- Dashboard schema upgrade — `meetings[]` array alongside `items[]`;
+  dashboard renders Zoom indicator, livestream indicator, Agenda link,
+  and "View on official site" link per meeting card.
+- GitHub Actions cron — daily at 10 UTC; auto-commits changed files;
+  uploads run summary as artifact (commit `a2c5f28`).
+- SCHEDULING.md runbook for forkers (commit `905185a`).
+- Persistent doc system (SessionStart + PreCompact hooks, commit `05eb1c1`).
+- First production run — 78 new items, `agendas.json` grew 80 → 165
+  (commit `bfcb6a2`).
