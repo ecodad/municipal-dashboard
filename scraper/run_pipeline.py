@@ -37,6 +37,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import posixpath
 import re
 import shutil
 import sys
@@ -285,6 +286,21 @@ def _update_cities_registry(verbose: bool = True) -> None:
                             entry["name"] = b["city_name"]
                         elif k == "city_state":
                             entry["state"] = b["city_state"]
+                        elif k == "logo_url":
+                            url = b[k]
+                            # Relative logo_url values in branding JSONs are
+                            # written to work from the city's own subdirectory
+                            # (e.g. "../branding/assets/foo.svg" from
+                            # /somerville/index.html). cities.json is served
+                            # from the repo root, so resolve any relative URL
+                            # against the city's site_path first.
+                            if url and not url.startswith(
+                                ("http://", "https://", "/")
+                            ):
+                                url = posixpath.normpath(
+                                    posixpath.join(adapter.site_path, url)
+                                )
+                            entry[k] = url
                         else:
                             entry[k] = b[k]
             except (OSError, json.JSONDecodeError) as err:
