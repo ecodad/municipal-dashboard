@@ -16,26 +16,13 @@ re-raise in `somerville_ma.py`, and `process_meeting` in `run_pipeline.py`
 now catches `AdapterAgendaNotPosted` and returns `Status.MISSING` rather
 than `Status.FAILED` — so the run exits 0 and the commit step proceeds.
 
-### 2. Replace Somerville logo with the user-provided green house icon
+### ~~2. Replace Somerville logo with self-hosted asset~~ ✅ Fixed 2026-05-03
 
-The current `branding/somerville-ma.json` points `logo_url` at the
-Wikimedia Commons SVG of the official circular city seal. The user
-prefers a simpler green-house-silhouette icon (pasted in chat
-2026-05-01) — a stylized house outline rendered in the same forest
-green as the dashboard's primary color, on a transparent background.
-
-To-do:
-1. Save the pasted asset to `branding/assets/somerville-icon.png` (or
-   upload it to a stable CDN). The asset must be reachable from a
-   browser visiting the dashboard — local relative paths under
-   `branding/assets/` work because the file is committed and served
-   by GitHub Pages.
-2. Update `branding/somerville-ma.json#logo_url` to point at the new
-   location, and `logo_alt` to e.g. "Somerville municipal dashboard
-   icon" (the new asset is a stylized icon, not the heraldic seal).
-3. Re-run `python -m scraper.run_pipeline --municipality somerville-ma
-   --no-process` to refresh `cities.json` and `somerville/branding.json`
-   from the updated source. Commit + push.
+Replaced the Wikimedia Commons raster thumbnail with the official SVG
+committed to `branding/assets/somerville-seal.svg`. `logo_url` updated
+to `../branding/assets/somerville-seal.svg` in both the source
+`branding/somerville-ma.json` and the deployed `somerville/branding.json`.
+Pushed as commit `9d1f7ae`.
 
 ### 3. Agenda items sort lexicographically — should sort numerically
 

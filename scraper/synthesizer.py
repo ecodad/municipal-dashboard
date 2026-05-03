@@ -78,6 +78,21 @@ _DETAIL_URL_TEMPLATE = (
     "~occur-id/{occur_id}"
 )
 
+_ITEM_NUM_DIGITS = re.compile(r"\d+")
+
+
+def _item_sort_key(item_number: str) -> tuple:
+    """Numeric-aware sort key for Item_Number strings.
+
+    Extracts all digit runs and returns them as a tuple of ints so that
+    "1" < "2" < "10" instead of the lexicographic "1" < "10" < "2".
+    Handles plain integers ("1"), dotted sub-items ("2.1"), and formal
+    IDs ("26-074", "Case #ZON26-000004"). Items with no digits at all
+    sort after all numeric items via the (9999,) sentinel.
+    """
+    parts = _ITEM_NUM_DIGITS.findall(item_number)
+    return (tuple(int(p) for p in parts), item_number) if parts else ((9999,), item_number)
+
 
 ALLOWED_ITEM_TYPES = [
     "Resolution",
@@ -541,7 +556,7 @@ def synthesize_directory(
             key=lambda i: (
                 i.get("Meeting_Date", ""),
                 i.get("Source_File", ""),
-                i.get("Item_Number", ""),
+                _item_sort_key(i.get("Item_Number", "")),
             )
         )
         data["meetings"].sort(
