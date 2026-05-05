@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-02",
+    "processed_date": "2026-05-05",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -91,6 +91,16 @@
         "filename": "2026-05-06__2026_05_06_human-rights-commission-hrc-report-task-force-meeting__human-rights-commission-hrc-report-task-force-meeting.pdf",
         "status": "parsed",
         "item_count": 1
+      },
+      {
+        "filename": "2026-05-07__2026_05_07_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
       }
     ]
   },
@@ -302,6 +312,32 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-04/planning-20260507-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/07/planning-board-meeting"
+    },
+    {
+      "source_file": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf",
+      "occur_id": "2026_05_07_veterans-commission-meeting",
+      "committee_name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "meeting_date": "2026-05-07",
+      "meeting_time": "4:30 PM",
+      "location": "Remote Only",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/veterans-20260507-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/07/veterans-commission-meeting"
+    },
+    {
+      "source_file": "2026-05-07__2026_05_07_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf",
+      "occur_id": "2026_05_07_urban-forestry-committee-meeting",
+      "committee_name": "Urban Forestry Committee",
+      "meeting_date": "2026-05-07",
+      "meeting_time": "5:30 PM",
+      "location": "Remote (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/urban-forestry-20260507-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/07/urban-forestry-committee-meeting"
     },
     {
       "source_file": "2026-05-14__2026_05_14_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf",
@@ -1630,6 +1666,136 @@
       "Item_Type": "Ordinance",
       "Agenda_Topic": "Recommendation to City Council — 26 registered voters requesting a Zoning Text Amendment to amend the Zoning Ordinance sections 3.1.8c, 3.1.9c, 3.1.10c, 3.1.13k, 3.1.13l, 3.2.12l, and 3.2.12m. (File#26-0287)",
       "Source_File": "2026-05-07__2026_05_07_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Introductions / Housekeeping",
+      "Source_File": "2026-05-07__2026_05_07_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "90 Washington Street Memo Review",
+      "Source_File": "2026-05-07__2026_05_07_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "3a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Arbor Day 2026 – May 8th",
+      "Source_File": "2026-05-07__2026_05_07_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "3b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Somerville's Most Wanted Weeds",
+      "Source_File": "2026-05-07__2026_05_07_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-05-07__2026_05_07_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote Only",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call meeting to order",
+      "Source_File": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote Only",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote Only",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approve Prior Month's Minutes: 04/02/2026",
+      "Source_File": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote Only",
+      "Item_Number": "4a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Hero Square Dedications",
+      "Source_File": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote Only",
+      "Item_Number": "4b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Monuments & Memorials",
+      "Source_File": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote Only",
+      "Item_Number": "4c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Events",
+      "Source_File": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote Only",
+      "Item_Number": "4d",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion: Open to guests/public comments",
+      "Source_File": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-05-07",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote Only",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf"
     },
     {
       "Committee_Name": "Somerville Affordable Housing Trust Fund",

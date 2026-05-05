@@ -111,6 +111,11 @@
         "filename": "2026-05-06__23953__city-council-committee-of-the-whole-meeting.pdf",
         "status": "parsed",
         "item_count": 3
+      },
+      {
+        "filename": "2026-05-12__23954__special-meeting-of-the-medford-school-committee-public-budge.pdf",
+        "status": "parsed",
+        "item_count": 1
       }
     ]
   },
@@ -2514,6 +2519,16 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Annual Budget Process for FY2027 - Preliminary Budget Meeting #3",
       "Source_File": "2026-05-06__23953__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public hearing on the Superintendent's Recommendation of the Fiscal Year 2027 Operating Budget",
+      "Source_File": "2026-05-12__23954__special-meeting-of-the-medford-school-committee-public-budge.pdf"
     }
   ],
   "meetings": [
@@ -2802,6 +2817,19 @@
       "agenda_url": "https://drive.google.com/file/d/1UZGNpIdJAi-ig_ywkqcoXJVrPSSbu8mC/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23803"
+    },
+    {
+      "source_file": "2026-05-12__23954__special-meeting-of-the-medford-school-committee-public-budge.pdf",
+      "occur_id": "23954",
+      "committee_name": "Medford School Committee",
+      "meeting_date": "2026-05-12",
+      "meeting_time": "5:00 PM",
+      "location": "Remote Only",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1rF3RoDLOyDSEEpxHJAVY7LzNVo-UohAW/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23954"
     }
   ]
 }
