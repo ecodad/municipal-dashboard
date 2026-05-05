@@ -16,7 +16,7 @@ name: Refresh Agendas
 
 on:
   schedule:
-    - cron: "0 10 * * *"
+    - cron: "0 23 * * *"
   workflow_dispatch: {}  # allow manual run from the Actions tab
 
 # One scheduled refresh at a time. If a run is in progress and a manual
