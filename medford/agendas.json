@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-02",
+    "processed_date": "2026-05-05",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -96,6 +96,21 @@
         "filename": "2026-05-06__23888__board-of-assessors-meeting.pdf",
         "status": "parsed",
         "item_count": 5
+      },
+      {
+        "filename": "2026-05-06__23714__community-development-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
+      },
+      {
+        "filename": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 14
+      },
+      {
+        "filename": "2026-05-06__23953__city-council-committee-of-the-whole-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
       }
     ]
   },
@@ -2151,6 +2166,96 @@
       "Source_File": "2026-05-05__23887__city-council-planning-and-permitting-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting to Order",
+      "Source_File": "2026-05-06__23714__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Endorsement of an Approval Not Required (ANR) Plan: 73 Boston Avenue and 94 Monument Street",
+      "Source_File": "2026-05-06__23714__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "5.2",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Zoning Amendment-Inclusionary Zoning — Proposed amendment to the City of Medford Zoning Ordinance, section 94-8.1 (Inclusionary Housing) to include a new provision to allow for fractional payments to the Affordable Housing Trust.",
+      "Source_File": "2026-05-06__23714__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "6",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-05-06__23714__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Zoning Project and other Administrative Updates",
+      "Source_File": "2026-05-06__23714__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "8",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-06__23714__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "SPR-2026-2",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Site Plan Review: 85 Main Street (CDB File #SPR-2026-2) Continued from 4/15/2026 — Application to convert existing building currently used as a motor vehicle repair establishment into a Neighborhood Retail Sales use. Mystic Avenue Corridor District-MX-1.",
+      "Source_File": "2026-05-06__23714__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "SPR-2026-3",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Site Plan Review: 130 College Avenue (CDB File #SPR-2026-3) Continued from 4/15/2026 — Application for Site Plan Review for Dover Amendment Uses submitted by Trustees of Tufts College to construct a 45,800 square foot Tufts University Aquatics Center along with a tennis team room and restroom structure. General Residence (GR) Zone.",
+      "Source_File": "2026-05-06__23714__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "SPR-2026-4",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Site Plan Review: 161 Mystic Avenue (CDB File #SPR-2026-4) — Application submitted by Lechmere Rug to construct a new retail establishment by demolishing a portion of the existing building and constructing an approximately 4,700 s.f. addition. Mystic Avenue Corridor District-MX-2.",
+      "Source_File": "2026-05-06__23714__community-development-board-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford School Committee",
       "Meeting_Date": "2026-05-06",
       "Meeting_Time": "4:30 PM",
@@ -2239,6 +2344,176 @@
       "Item_Type": "Other",
       "Agenda_Topic": "Executive Session for Review of FY26 RE Abatement applications and Appellate Tax Board Docket",
       "Source_File": "2026-05-06__23888__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "2a",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes – April Board Meeting 4/01/2026",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "2b",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes – Fundraising Working Group 3/30/2026",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "2c",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes – Fundraising Working Group 4/15/2026",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "2d",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes – Fundraising Working Group 4/28/2026",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Medford Community Housing Update",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Planning, Development & Sustainability Open House Debrief",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Fundraising Working Group Update and Next Steps",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Equity Buy-Down Program Research Update",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Fractional Payment Presentation to City Council Update",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "8",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Financial Update",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "9",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Term Limit Update",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "10",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Regular Status Updates",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "11",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order & Roll Call",
+      "Source_File": "2026-05-06__23953__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-06__23953__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-061",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Annual Budget Process for FY2027 - Preliminary Budget Meeting #3",
+      "Source_File": "2026-05-06__23953__city-council-committee-of-the-whole-meeting.pdf"
     }
   ],
   "meetings": [
@@ -2464,6 +2739,32 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23887"
     },
     {
+      "source_file": "2026-05-06__23714__community-development-board-meeting.pdf",
+      "occur_id": "23714",
+      "committee_name": "Community Development Board",
+      "meeting_date": "2026-05-06",
+      "meeting_time": "6:30 PM",
+      "location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1-sZSJkpqaw3oFUCr1yHsfZR_Z-bWjQEJ/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23714"
+    },
+    {
+      "source_file": "2026-05-06__23951__affordable-housing-trust-board-meeting.pdf",
+      "occur_id": "23951",
+      "committee_name": "Medford Affordable Housing Trust",
+      "meeting_date": "2026-05-06",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall - Room 201",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1EIstaxE6OhMeD7ujuXqryySBksVOjNri/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23951"
+    },
+    {
       "source_file": "2026-05-06__23888__board-of-assessors-meeting.pdf",
       "occur_id": "23888",
       "committee_name": "Medford Board of Assessors",
@@ -2475,6 +2776,19 @@
       "agenda_url": "https://drive.google.com/file/d/1CuwrXa0rJICPu49JgQG-7GElYAPc94uq/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23888"
+    },
+    {
+      "source_file": "2026-05-06__23953__city-council-committee-of-the-whole-meeting.pdf",
+      "occur_id": "23953",
+      "committee_name": "Medford City Council",
+      "meeting_date": "2026-05-06",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall - Council Chambers",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://medfordma.portal.civicclerk.com/event/480/files/agenda/861",
+      "agenda_type": "CIVICCLERK",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23953"
     },
     {
       "source_file": "2026-05-06__23803__school-committee-strategic-planning-subcommittee-meeting.pdf",
