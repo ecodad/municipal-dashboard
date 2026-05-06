@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-05",
+    "processed_date": "2026-05-06",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -116,6 +116,11 @@
         "filename": "2026-05-12__23954__special-meeting-of-the-medford-school-committee-public-budge.pdf",
         "status": "parsed",
         "item_count": 1
+      },
+      {
+        "filename": "2026-05-11__24019__historical-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
       }
     ]
   },
@@ -2521,6 +2526,96 @@
       "Source_File": "2026-05-06__23953__city-council-committee-of-the-whole-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Zoning Discussion",
+      "Source_File": "2026-05-11__24019__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Vacant Seats – Update",
+      "Source_File": "2026-05-11__24019__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Medford High School – Section 106 Review",
+      "Source_File": "2026-05-11__24019__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Properties currently under Demo Delay",
+      "Source_File": "2026-05-11__24019__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Brooks Estate Archaeological Survey – Update",
+      "Source_File": "2026-05-11__24019__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "CPA Projects: Thomas Brooks' Park - General Update",
+      "Source_File": "2026-05-11__24019__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Cross Street Cemetery – General Update",
+      "Source_File": "2026-05-11__24019__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Survey Projects: Hastings Heights - General Update",
+      "Source_File": "2026-05-11__24019__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "8",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-05-11__24019__historical-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford School Committee",
       "Meeting_Date": "2026-05-12",
       "Meeting_Time": "5:00 PM",
@@ -2817,6 +2912,19 @@
       "agenda_url": "https://drive.google.com/file/d/1UZGNpIdJAi-ig_ywkqcoXJVrPSSbu8mC/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23803"
+    },
+    {
+      "source_file": "2026-05-11__24019__historical-commission-meeting.pdf",
+      "occur_id": "24019",
+      "committee_name": "Medford Historical Commission",
+      "meeting_date": "2026-05-11",
+      "meeting_time": "7:00 PM",
+      "location": "Remote via Zoom and livestream",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1-2B75eSMc_gGZI4RLdg4ke2VZnL4Oxb5/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24019"
     },
     {
       "source_file": "2026-05-12__23954__special-meeting-of-the-medford-school-committee-public-budge.pdf",

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-05",
+    "processed_date": "2026-05-06",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -101,6 +101,16 @@
         "filename": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 8
+      },
+      {
+        "filename": "2026-05-12__2026_05_12_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 1
+      },
+      {
+        "filename": "2026-05-14__2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -340,6 +350,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/05/07/urban-forestry-committee-meeting"
     },
     {
+      "source_file": "2026-05-12__2026_05_12_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf",
+      "occur_id": "2026_05_12_canceled-urban-design-commission-meeting",
+      "committee_name": "Urban Design Commission",
+      "meeting_date": "2026-05-12",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall 3rd Floor, 93 Highland Avenue, Somerville MA 02143",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/urban-design-20260506-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/12/canceled-urban-design-commission-meeting"
+    },
+    {
       "source_file": "2026-05-14__2026_05_14_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf",
       "occur_id": "2026_05_14_affordable-housing-trust-meeting",
       "committee_name": "Somerville Affordable Housing Trust Fund",
@@ -364,6 +387,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-04/municipal-scholarship-20260514-agenda_0.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/14/municipal-scholarship-committee-meeting"
+    },
+    {
+      "source_file": "2026-05-14__2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf",
+      "occur_id": "2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting",
+      "committee_name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "meeting_date": "2026-05-14",
+      "meeting_time": "11:00 AM",
+      "location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/somerville-cambridge-public-health-20260514-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/14/somerville-cambridge-public-health-collaborative-advisory-board-meeting"
     }
   ],
   "items": [
@@ -1798,6 +1834,16 @@
       "Source_File": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Urban Design Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall 3rd Floor, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "This meeting has been cancelled due to lack of business.",
+      "Source_File": "2026-05-12__2026_05_12_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Affordable Housing Trust Fund",
       "Meeting_Date": "2026-05-14",
       "Meeting_Time": "5:15 PM",
@@ -1896,6 +1942,66 @@
       "Item_Type": "Other",
       "Agenda_Topic": "Update policy documents",
       "Source_File": "2026-05-14__2026_05_14_municipal-scholarship-committee-meeting__municipal-scholarship-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Announce Quorum if present",
+      "Source_File": "2026-05-14__2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Previous Minutes",
+      "Source_File": "2026-05-14__2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "ITEM: Progress on hiring regional position",
+      "Source_File": "2026-05-14__2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "ITEM: Continuation of BME Contract",
+      "Source_File": "2026-05-14__2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "ITEM: New Workplan information",
+      "Source_File": "2026-05-14__2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-14__2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
     }
   ]
 }
