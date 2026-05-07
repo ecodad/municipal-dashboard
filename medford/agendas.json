@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-06",
+    "processed_date": "2026-05-07",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -121,6 +121,11 @@
         "filename": "2026-05-11__24019__historical-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 9
+      },
+      {
+        "filename": "2026-05-11__24087__community-garden-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -2616,6 +2621,66 @@
       "Source_File": "2026-05-11__24019__historical-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Room 3",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Introductions",
+      "Source_File": "2026-05-11__24087__community-garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Room 3",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Update on Barry Park Garden",
+      "Source_File": "2026-05-11__24087__community-garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Room 3",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Membership Coordinator update",
+      "Source_File": "2026-05-11__24087__community-garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Room 3",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "MCG Plans: future commissioners and logistics",
+      "Source_File": "2026-05-11__24087__community-garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Room 3",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Popup Garden",
+      "Source_File": "2026-05-11__24087__community-garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Room 3",
+      "Item_Number": "6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New business",
+      "Source_File": "2026-05-11__24087__community-garden-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford School Committee",
       "Meeting_Date": "2026-05-12",
       "Meeting_Time": "5:00 PM",
@@ -2912,6 +2977,19 @@
       "agenda_url": "https://drive.google.com/file/d/1UZGNpIdJAi-ig_ywkqcoXJVrPSSbu8mC/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23803"
+    },
+    {
+      "source_file": "2026-05-11__24087__community-garden-commission-meeting.pdf",
+      "occur_id": "24087",
+      "committee_name": "Medford Community Garden Commission",
+      "meeting_date": "2026-05-11",
+      "meeting_time": "7:00 PM",
+      "location": "Medford Public Library Room 3",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/11KzkDPUqErjy8Qb2YKatiQWhhqnAxpbo/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24087"
     },
     {
       "source_file": "2026-05-11__24019__historical-commission-meeting.pdf",

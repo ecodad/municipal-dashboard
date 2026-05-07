@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-06",
+    "processed_date": "2026-05-07",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -111,6 +111,21 @@
         "filename": "2026-05-14__2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-05-11__2026_05_11_city-council-meeting__city-council-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
+      },
+      {
+        "filename": "2026-05-14__2026_05_14_board-health-meeting__board-of-health-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-05-14__2026_05_14_traffic-commission-meeting__traffic-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -350,6 +365,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/05/07/urban-forestry-committee-meeting"
     },
     {
+      "source_file": "2026-05-11__2026_05_11_city-council-meeting__city-council-meeting.pdf",
+      "occur_id": "2026_05_11_city-council-meeting",
+      "committee_name": "City Council",
+      "meeting_date": "2026-05-11",
+      "meeting_time": "7:00 PM",
+      "location": "Remote Participation",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1408669&GUID=84F4EC3D-CC66-4650-8960-CADFD36CA909",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/11/city-council-meeting"
+    },
+    {
       "source_file": "2026-05-12__2026_05_12_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf",
       "occur_id": "2026_05_12_canceled-urban-design-commission-meeting",
       "committee_name": "Urban Design Commission",
@@ -361,6 +389,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/urban-design-20260506-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/12/canceled-urban-design-commission-meeting"
+    },
+    {
+      "source_file": "2026-05-14__2026_05_14_board-health-meeting__board-of-health-meeting.pdf",
+      "occur_id": "2026_05_14_board-health-meeting",
+      "committee_name": "Board of Health",
+      "meeting_date": "2026-05-14",
+      "meeting_time": "6:00 PM",
+      "location": "https://us02web.zoom.us/j/83393477967",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/board-of-health-20260514-%20agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/14/board-health-meeting"
     },
     {
       "source_file": "2026-05-14__2026_05_14_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf",
@@ -400,6 +441,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/somerville-cambridge-public-health-20260514-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/14/somerville-cambridge-public-health-collaborative-advisory-board-meeting"
+    },
+    {
+      "source_file": "2026-05-14__2026_05_14_traffic-commission-meeting__traffic-commission-meeting.pdf",
+      "occur_id": "2026_05_14_traffic-commission-meeting",
+      "committee_name": "Traffic Commission",
+      "meeting_date": "2026-05-14",
+      "meeting_time": "5:00 PM",
+      "location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/88540929061)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/traffic-commission-20260514-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/14/traffic-commission-meeting"
     }
   ],
   "items": [
@@ -1834,6 +1888,46 @@
       "Source_File": "2026-05-07__2026_05_07_veterans-commission-meeting__veterans-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Participation",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call (ID # 26-0747) - Call of the Roll.",
+      "Source_File": "2026-05-11__2026_05_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Participation",
+      "Item_Number": "11",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-11__2026_05_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Participation",
+      "Item_Number": "26-0736",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting that this Council convene in Executive Session to discuss 90 Washington Street.",
+      "Source_File": "2026-05-11__2026_05_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Participation",
+      "Item_Number": "26-0739",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting approval to endorse Wood Partners and North River Leerink Manager LLC as the two finalists in the 90 Washington Street Request for Proposals process.",
+      "Source_File": "2026-05-11__2026_05_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
       "Committee_Name": "Urban Design Commission",
       "Meeting_Date": "2026-05-12",
       "Meeting_Time": "6:00 PM",
@@ -1912,6 +2006,56 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-05-14__2026_05_14_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "https://us02web.zoom.us/j/83393477967",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting Call to Order",
+      "Source_File": "2026-05-14__2026_05_14_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "https://us02web.zoom.us/j/83393477967",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes – April 16, 2026",
+      "Source_File": "2026-05-14__2026_05_14_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "https://us02web.zoom.us/j/83393477967",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Inspectional Services – Food Inspections, Community, Complaints/Concerns, Questions from Board of Health – Colin Zeigler",
+      "Source_File": "2026-05-14__2026_05_14_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "https://us02web.zoom.us/j/83393477967",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Health and Human Services – Staffing, Department activity and events, budget and goals updates, questions from the Board of Health - Karin Carroll",
+      "Source_File": "2026-05-14__2026_05_14_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "https://us02web.zoom.us/j/83393477967",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-05-14__2026_05_14_board-health-meeting__board-of-health-meeting.pdf"
     },
     {
       "Committee_Name": "Somerville Municipal Scholarship Committee",
@@ -2002,6 +2146,56 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-05-14__2026_05_14_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/88540929061)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-05-14__2026_05_14_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/88540929061)",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes from the April 9th, 2026 Traffic Commission Meeting.",
+      "Source_File": "2026-05-14__2026_05_14_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/88540929061)",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for an accessible parking space at 5 Greenville St, for a resident of 434 McGrath Hwy (relocating an existing space from 44 Dana St).",
+      "Source_File": "2026-05-14__2026_05_14_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/88540929061)",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request to change parking regulations to allow the installation of four new Electric Vehicle (EV) Charging Stations at the Mt. Vernon St Parking Lot, Oliver St at Knowlton St, and the Foss Park Parking Lot.",
+      "Source_File": "2026-05-14__2026_05_14_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/88540929061)",
+      "Item_Number": "4",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "The Office of the Mayor respectfully submits this request to the Traffic Commission for consideration and approval of adjustments to current permit and meter fees (FY27 Proposed Parking Permit and Parking Meter Fee Increases).",
+      "Source_File": "2026-05-14__2026_05_14_traffic-commission-meeting__traffic-commission-meeting.pdf"
     }
   ]
 }
