@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-07",
+    "processed_date": "2026-05-08",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -126,6 +126,21 @@
         "filename": "2026-05-14__2026_05_14_traffic-commission-meeting__traffic-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 5
+      },
+      {
+        "filename": "2026-05-12__2026_05_12_climate-action-commission-meeting__climate-action-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
+      },
+      {
+        "filename": "2026-05-13__2026_05_13_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 2
       }
     ]
   },
@@ -378,6 +393,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/05/11/city-council-meeting"
     },
     {
+      "source_file": "2026-05-12__2026_05_12_climate-action-commission-meeting__climate-action-commission-meeting.pdf",
+      "occur_id": "2026_05_12_climate-action-commission-meeting",
+      "committee_name": "Somerville Interim Climate Action Commission (ICAC)",
+      "meeting_date": "2026-05-12",
+      "meeting_time": "7:30 PM",
+      "location": "Remote participation via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/climate-action-20260512-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/12/climate-action-commission-meeting"
+    },
+    {
       "source_file": "2026-05-12__2026_05_12_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf",
       "occur_id": "2026_05_12_canceled-urban-design-commission-meeting",
       "committee_name": "Urban Design Commission",
@@ -389,6 +417,32 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/urban-design-20260506-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/12/canceled-urban-design-commission-meeting"
+    },
+    {
+      "source_file": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf",
+      "occur_id": "2026_05_13_board-library-trustees-meeting",
+      "committee_name": "Board of Library Trustees",
+      "meeting_date": "2026-05-13",
+      "meeting_time": "6:00 PM",
+      "location": "Central Library 79 Highland Avenue Somerville , MA 02143 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/library-trustees-20260513-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/13/board-library-trustees-meeting"
+    },
+    {
+      "source_file": "2026-05-13__2026_05_13_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
+      "occur_id": "2026_05_13_licenses-and-permits-committee-meeting",
+      "committee_name": "Licenses and Permits Committee",
+      "meeting_date": "2026-05-13",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1405865&GUID=D4BB2EF5-36C8-4552-AE22-CC65DF8192AA",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/13/licenses-and-permits-committee-meeting"
     },
     {
       "source_file": "2026-05-14__2026_05_14_board-health-meeting__board-of-health-meeting.pdf",
@@ -1936,6 +1990,196 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "This meeting has been cancelled due to lack of business.",
       "Source_File": "2026-05-12__2026_05_12_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Interim Climate Action Commission (ICAC)",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Introductions of meeting attendees",
+      "Source_File": "2026-05-12__2026_05_12_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Interim Climate Action Commission (ICAC)",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of April meeting minutes",
+      "Source_File": "2026-05-12__2026_05_12_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Interim Climate Action Commission (ICAC)",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Sustainaville Week Discussion",
+      "Source_File": "2026-05-12__2026_05_12_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Interim Climate Action Commission (ICAC)",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Updates from the Office of Sustainability and Environment: Sustainable Purchasing Policy, food waste drop-off bins, Planning Board meeting presentation, Open Door Chats w/ Jake Wilson: Sustainaville",
+      "Source_File": "2026-05-12__2026_05_12_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Interim Climate Action Commission (ICAC)",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Update on CAC candidate review and selection process",
+      "Source_File": "2026-05-12__2026_05_12_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Interim Climate Action Commission (ICAC)",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Request for agenda items for next meeting",
+      "Source_File": "2026-05-12__2026_05_12_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the April minutes",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "3.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Strategic Goals, Objectives, and Timeline",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "3.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Personnel Update",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "3.3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY27 Budget Update",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "4.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Union Square Development Update",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "4.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Talking Points for June Meeting",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "4.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Trustees Calendar - June Meeting / Slice of the City Events",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "5.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Communications Committee Report",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "5.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Summer Newsletter",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Licenses and Permits Committee",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0525",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Eversource applying for a Grant of Location to install 318 feet of conduit in Kent Street and Somerville Avenue, from existing Manhole 14831 to point of pickup at 22 Kent Street, and additional conduit from Manhole 14831 to an existing Manhole 8634.",
+      "Source_File": "2026-05-13__2026_05_13_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Licenses and Permits Committee",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0641",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Licenses and Permits Committee Meeting of April 8, 2026.",
+      "Source_File": "2026-05-13__2026_05_13_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
     },
     {
       "Committee_Name": "Somerville Affordable Housing Trust Fund",

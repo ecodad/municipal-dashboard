@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-07",
+    "processed_date": "2026-05-08",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -126,6 +126,41 @@
         "filename": "2026-05-11__24087__community-garden-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-05-11__24152__medford-arts-council-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-05-12__24150__traffic-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 55
+      },
+      {
+        "filename": "2026-05-12__24279__community-preservation-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-05-12__24293__city-council-meeting.pdf",
+        "status": "parsed",
+        "item_count": 26
+      },
+      {
+        "filename": "2026-05-12__24294__city-council-committee-of-the-whole-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
+      },
+      {
+        "filename": "2026-05-14__24216__historic-district-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
       }
     ]
   },
@@ -2681,6 +2716,66 @@
       "Source_File": "2026-05-11__24087__community-garden-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Arts Council",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "HYBRID — Medford Public Library and Google Meet (Video call link: meet.google.com/cdf-fkca-zwc)",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Presenting to City Council on June 9th",
+      "Source_File": "2026-05-11__24152__medford-arts-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Arts Council",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "HYBRID — Medford Public Library and Google Meet (Video call link: meet.google.com/cdf-fkca-zwc)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Determine MAC interest in public art proposal by Medford community member",
+      "Source_File": "2026-05-11__24152__medford-arts-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Arts Council",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "HYBRID — Medford Public Library and Google Meet (Video call link: meet.google.com/cdf-fkca-zwc)",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Medforge discussion (tentative)",
+      "Source_File": "2026-05-11__24152__medford-arts-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Arts Council",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "HYBRID — Medford Public Library and Google Meet (Video call link: meet.google.com/cdf-fkca-zwc)",
+      "Item_Number": "4a",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Updates on artists/organizations to contact [Swabarna] — part of analyzing past applications for gaps we want to encourage applications in",
+      "Source_File": "2026-05-11__24152__medford-arts-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Arts Council",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "HYBRID — Medford Public Library and Google Meet (Video call link: meet.google.com/cdf-fkca-zwc)",
+      "Item_Number": "4b",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Recruiting new MAC members",
+      "Source_File": "2026-05-11__24152__medford-arts-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Arts Council",
+      "Meeting_Date": "2026-05-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "HYBRID — Medford Public Library and Google Meet (Video call link: meet.google.com/cdf-fkca-zwc)",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Upcoming meeting dates (June 22nd, July 13th, August 17, 2026)",
+      "Source_File": "2026-05-11__24152__medford-arts-council-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford School Committee",
       "Meeting_Date": "2026-05-12",
       "Meeting_Time": "5:00 PM",
@@ -2689,6 +2784,1036 @@
       "Item_Type": "Public Hearing",
       "Agenda_Topic": "Public hearing on the Superintendent's Recommendation of the Fiscal Year 2027 Operating Budget",
       "Source_File": "2026-05-12__23954__special-meeting-of-the-medford-school-committee-public-budge.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of April 14, 2026 Minutes",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2019-21",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Clarification of Permit Parking Rules & Regulations – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2019-59",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Marc Andrew Deley – Residential Commercial Night Parking – TABLED - Refer to Commission on Parking Policy & Enforcement",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2019-60",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Petition to change Curtis Street to one way South St. to Summer St. – TABLED TO COMPLETION OF EVERSOURCE PROJECT",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2019-63",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "North Medford Roadways Discussion – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2019-74",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit Parking 11PM-7AM on Park Street (301 to 315) from the Fellsway to Brogan Road – REFER TO COMM. ON PARKING POLICY & ENFORCEMENT",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2019-81",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Rules & Regulations (Updated & Amended) – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2020-02",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Alan Ward to discuss parking restrictions on Arlington Street between Boston Ave and Monument Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2020-25",
+      "Item_Type": "Other",
+      "Agenda_Topic": "On petition Permit Parking Oak Ridge Road between Coolidge Rd and Sagamore Ave – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2020-38",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for Do Not Block Driveway sign for 4 Greenleaf Ave. – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2021-13",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for visitor passes - Kevin Wilcox, S.Border Road for Mass.Ave. – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2021-14",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit parking variance for Charnwood Road from Sandy Cho, 9 Greenleaf Ave. – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2021-15",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit parking variance for Bower Street from Nicolas Minasian, 12 Harvard Ave. – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2021-17",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mr. & Mrs. Cahill, 25 Palmer Street – Commercial parking variance – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2021-57",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Intersection of Auburn, North, West and Cotting Streets – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2022-26",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Jennifer Sullivan, 27 Grant Ave. for stop signs on Lawrence St. (both directions) at Grant Ave. making this a 4-way stop – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2022-29",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Sachit Vaidya, 7 Elm Street Visitor Passes for Aquavia Rd. (previously approved in 2016) – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2022-30",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Chris Fahey, 35 Elm Street Visitor Passes for Aquavia Rd. (previously approved in 1993) – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2022-43",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit Parking variance for Brackett St. from Jacqueline Judith, 60 Elm Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2022-50",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Thomas Barry, 228 Grove Street for a speed table between 238-260 Grove Street – REFERRED TO ENGINEERING",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2022-51",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Joseph Camuso, Century St., Ext. to discuss speed of traffic on this street and possibility of a speed table – REFERRED TO LAW DEPARTMENT",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2023-05",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Bridget O'Donoghue, 6 Allston Ct for permit parking variance and visitor passes for Allston Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2023-29",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Alex Genovese, 4 Tamar Drive for all-way stop Fulton & Winslow – REFERRED TO TRAFFIC ENGINEER TODD BLAKE FOR REVIEW, RECOMMENDATIONS AND COMMENTS",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2023-33",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Sydney Goldberg to change permit parking from Strathmore Road to Bow Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2023-55",
+      "Item_Type": "Other",
+      "Agenda_Topic": "City Hall Mall Commuter Parking Lot – proposed changing from Pay-to-Park (meter/kiosk) to include Commuter Permit Parking spaces Mon – Fri – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2024-17",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Paula Noukas, 11 Wolcott Park Commercial vehicle / parking issue – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2024-23",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Clarification of Traffic Commission Agenda item 2022-21 visitor passes (2) for Yale Street for Lincoln Kennedy Condo residents (Alicia Hunt) – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2024-29",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Jowel Mijanur, Mystic Market, 199 Mystic Ave for loading zone on Bowen Ave – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2024-34",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Rick Caraviello, 74 Prescott Street for additional No Heavy Trucking signs in vicinity of Auburn and Prescott Streets – REFERRED TO ENGINEERING",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2024-48",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Pilot Program Ride Share pick-up/drop-off 6PM-1AM Clippership Drive along Citizens Bank parking lot, eastbound – TABLED / 6 MONTH REVIEW (April 2025 meeting)",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-07",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit Parking Variance for Comm'l vehicle to park overnight from Abdullahi J. Magan, 18 Holton Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-27",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Variance – Daniel Valeriani, 48 Sixth Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-28",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Variance – Robert Loiselle, 145 Burget Avenue – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-31",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Variance – Jack Letellier, 8 Second Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-64",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request to address permit parking issues on Porter Road from David Palermo, 12 Porter Road – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-80",
+      "Item_Type": "Other",
+      "Agenda_Topic": "HP Sign – Delores Ventresca, 35 Winter Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-85",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit Parking Variance – Patrick Clerkin, 14 Bennett Pl for Bennett or E.Albion Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-87",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Variance – Todd Lagrassa, 343 Main Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-88",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Variance – Terrance Pridmore, 21 Strathmore Road – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-95",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit Parking Variance-Visitor Pass only – Travis Gardner, 477 Bdwy – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-97",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Traffic Safety Concern-Kenway & Hancock Street intersection – TABLED to February 10, 2026 meeting",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2025-98",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Stearns Ave / Main Street parking (Todd Blake) – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-10",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for a Loading Zone from Arlmont Glass, 427 High Street – TABLED from February meeting",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-11",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit parking variance – Hugo Rodrigues Brasil, 191A Riverside Ave – TABLED from February meeting",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-17",
+      "Item_Type": "Other",
+      "Agenda_Topic": "HP Sign - Renato Alarcon, 219 Salem St., Apt.2 – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-18",
+      "Item_Type": "Other",
+      "Agenda_Topic": "HP Sign – Van Huynh (for his father Hiep Huynh) 149 Middlesex Ave – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-19",
+      "Item_Type": "Other",
+      "Agenda_Topic": "HP Sign – Marie Carmelle, Grandoit, 36 Evans Street – TABLED",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-23",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Amend Permit Parking Rules & Regulations re: lost/stolen visitor passes – Parking Director Sarah McDermod",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-24",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Replace visitor pass – Ryleigh McLaughlin, 57 Princeton Street",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-25",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Replace visitor pass – Alec Griswold, 121 Yale Street",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-26",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Replace visitor pass – Linda Schwartz, 157 Governors Avenue",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-27",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Replace visitor passes – Flaviano Grondim, 52 Bowdoin St., Apt. 2",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-28",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Classic Café, Juxhin Stefo, 174 Spring Street – Request to remove the newly posted no parking sign on Central Ave to opposite side of street and post 2 HR parking 7AM-3PM on Central Ave at his business (2-3 spaces) and on Spring Street (1-2 spaces)",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-29",
+      "Item_Type": "Other",
+      "Agenda_Topic": "On petition – Golden Avenue direction change",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom meeting",
+      "Item_Number": "2026-30",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit parking variance – Derya Deniz Basegmez, 80 Winthrop Street for Charnwood, Orchard or Greenleaf",
+      "Source_File": "2026-05-12__24150__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call meeting to order",
+      "Source_File": "2026-05-12__24279__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Off-Cycle Application: Shiloh Baptist Church – Additional Contingency",
+      "Source_File": "2026-05-12__24279__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "2a",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Alternative: consideration of pivoting previous FY26 award funding",
+      "Source_File": "2026-05-12__24279__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Project Updates: Riverside Plaza Shade Improvements and Logan Park Natural Play Area",
+      "Source_File": "2026-05-12__24279__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Review and approve draft Annual Plan",
+      "Source_File": "2026-05-12__24279__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Meeting Minutes from April 14, 2026 meeting",
+      "Source_File": "2026-05-12__24279__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-12__24279__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order & Roll Call",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Salute to the Flag",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "The Records of the Meeting of April 28, 2026 were passed to Councilor Mullane",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "9",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public Participation",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "12",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "16-574",
+      "Item_Type": "Report",
+      "Agenda_Topic": "University Accountability Report (Next Report Due in November 2025)",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "22-026",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Quarterly Presentation on City's Financial Health by Chief Financial Officer/Auditor",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "22-027",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Monthly Copy of Warrant Articles from Chief Financial Officer/Auditor",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "24-031",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request a Representative from BJ's Wholesale Club Meet to Discuss Construction and Neighborhood Concerns",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "24-033",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Planning and Permitting Committee, May 5, 2026, Report",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "25-054",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Chapter 10, Article VIII - Proposed Vacant Building Ordinance",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "25-103",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Proposed Amendments to the Medford Zoning Ordinance - Other Corridors Districts (for referral to the CDB) - Tabled",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "25-189",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Amendment to Chapter 2, Article V, Division 2 - Medford Standard Compensation Ordinance",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-003",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Appointment of a City Messenger for 2026 and 2027 - Tabled",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-061",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Committee of the Whole, April 29, 2026, Report",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-061",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Committee of the Whole, May 6, 2026, Report",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-074",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Committee of the Whole, April 28, 2026, Report",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-074",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Community Development Block Grant (CDBG) Action Plan for FY2027",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-084",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Amendments to Personnel Ordinance - Director of Elections; Director of Diversity, Equity and Inclusion; Director of Veterans' Services",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-086",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution to Commemorate the Life of Leonard \"Len\" Glionna",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-087",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Board and Commission Appointments",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-088",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Request for Food Truck Permits for \"All Belgium Waffles\" and \"Kona Ice\" - May 16, 2026",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-089",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Medford Square Redevelopment Project Grant",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-090",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Capital Stabilization Fund Appropriation Request - Fire Department Capital Improvements Plan",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-091",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Amendment to Personnel Ordinance - Assistant Network Administrator",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-092",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Amendment to Personnel Ordinance - Wage Adjustment for Non-Union Personnel",
+      "Source_File": "2026-05-12__24293__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order & Roll Call",
+      "Source_File": "2026-05-12__24294__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-12__24294__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-061",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Annual Budget Process for FY2027 - Preliminary Budget Meeting #4",
+      "Source_File": "2026-05-12__24294__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "City Hall Room 207 and Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application for use of Hormel Stadiums and fields – Kendall Wanders Men's Soccer (Sunday, May 17, 2026, 8:00 AM – 10:00 AM)",
+      "Source_File": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "City Hall Room 207 and Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application for use of Street Hockey Rink – NEFC Boston Azzurri (June 9, 2026 – October 27, 2026, every Tuesday, 5:00 PM – 6:30 PM)",
+      "Source_File": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "City Hall Room 207 and Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application for use of Hormel Stadiums and fields – Impact Church (iTeam Cookout Event, Saturday, June 27, 2026, 7:00 AM – 5:00 PM)",
+      "Source_File": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "City Hall Room 207 and Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Mr. Peter Collery from Boston Glory seeking permission to place a storage container at Hormel – will present ideas on locations and containers to the Commission",
+      "Source_File": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "City Hall Room 207 and Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "D1 Soccer seeking to discuss memorandum questions regarding parking lot and sound policies at Hormel Stadium",
+      "Source_File": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "City Hall Room 207 and Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes from April 8th meeting",
+      "Source_File": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "City Hall Room 207 and Zoom",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Finance reports (FY26)",
+      "Source_File": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "City Hall Room 207 and Zoom",
+      "Item_Number": "8",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting Adjourned",
+      "Source_File": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic District Commission",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201 at City Hall and via Zoom video conferencing",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Presentation from local insurance professional on challenges facing historic property owners",
+      "Source_File": "2026-05-14__24216__historic-district-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic District Commission",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201 at City Hall and via Zoom video conferencing",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes from April 9, 2026 meeting",
+      "Source_File": "2026-05-14__24216__historic-district-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic District Commission",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201 at City Hall and via Zoom video conferencing",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Other business",
+      "Source_File": "2026-05-14__24216__historic-district-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic District Commission",
+      "Meeting_Date": "2026-05-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201 at City Hall and via Zoom video conferencing",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-14__24216__historic-district-commission-meeting.pdf"
     }
   ],
   "meetings": [
@@ -2979,6 +4104,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23803"
     },
     {
+      "source_file": "2026-05-11__24152__medford-arts-council-meeting.pdf",
+      "occur_id": "24152",
+      "committee_name": "Medford Arts Council",
+      "meeting_date": "2026-05-11",
+      "meeting_time": "6:30 PM",
+      "location": "Medford Public Library, Room 5",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1FxZF73gmpSNil4ysdUwWJEgvDzFs9v_e/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24152"
+    },
+    {
       "source_file": "2026-05-11__24087__community-garden-commission-meeting.pdf",
       "occur_id": "24087",
       "committee_name": "Medford Community Garden Commission",
@@ -3005,6 +4143,45 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24019"
     },
     {
+      "source_file": "2026-05-12__24279__community-preservation-committee-meeting.pdf",
+      "occur_id": "24279",
+      "committee_name": "City of Medford Community Preservation Committee",
+      "meeting_date": "2026-05-12",
+      "meeting_time": "6:30 PM",
+      "location": "City Hall - Room 201",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1fSIQu7kUF_1J0_CgufTcpF10tmKW-ESD/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24279"
+    },
+    {
+      "source_file": "2026-05-12__24293__city-council-meeting.pdf",
+      "occur_id": "24293",
+      "committee_name": "Medford City Council",
+      "meeting_date": "2026-05-12",
+      "meeting_time": "7:00 PM",
+      "location": "City Hall Council Chambers",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://medfordma.portal.civicclerk.com/event/441/files/agenda/863",
+      "agenda_type": "CIVICCLERK",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24293"
+    },
+    {
+      "source_file": "2026-05-12__24294__city-council-committee-of-the-whole-meeting.pdf",
+      "occur_id": "24294",
+      "committee_name": "Medford City Council",
+      "meeting_date": "2026-05-12",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall Council Chambers",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://medfordma.portal.civicclerk.com/event/481/files/agenda/865",
+      "agenda_type": "CIVICCLERK",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24294"
+    },
+    {
       "source_file": "2026-05-12__23954__special-meeting-of-the-medford-school-committee-public-budge.pdf",
       "occur_id": "23954",
       "committee_name": "Medford School Committee",
@@ -3016,6 +4193,45 @@
       "agenda_url": "https://drive.google.com/file/d/1rF3RoDLOyDSEEpxHJAVY7LzNVo-UohAW/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23954"
+    },
+    {
+      "source_file": "2026-05-12__24150__traffic-commission-meeting.pdf",
+      "occur_id": "24150",
+      "committee_name": "Traffic Commission",
+      "meeting_date": "2026-05-12",
+      "meeting_time": "5:00 PM",
+      "location": "Zoom meeting",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1beF8mps2vTT2REudwDFrUIQsE-mPeBOW/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24150"
+    },
+    {
+      "source_file": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf",
+      "occur_id": "24151",
+      "committee_name": "City of Medford Hormel Stadium and Athletic Commission",
+      "meeting_date": "2026-05-13",
+      "meeting_time": "5:00 PM",
+      "location": "City Hall - Room 207",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1BoussANLe55RSkVkxj13P35d6OtZyega/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24151"
+    },
+    {
+      "source_file": "2026-05-14__24216__historic-district-commission-meeting.pdf",
+      "occur_id": "24216",
+      "committee_name": "Historic District Commission",
+      "meeting_date": "2026-05-14",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall - Room 201",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1KOuusRa_JjFCaOBNCKDJeuo_A0X3Ka_O/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24216"
     }
   ]
 }
