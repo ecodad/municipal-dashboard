@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-08",
+    "processed_date": "2026-05-11",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -141,6 +141,21 @@
         "filename": "2026-05-13__2026_05_13_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 2
+      },
+      {
+        "filename": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
+      },
+      {
+        "filename": "2026-05-13__2026_05_13_womens-commission-communications-events-subcommittee-meeting__women-s-commission-communications-events-subcommittee-meetin.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-05-18__2026_05_18_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -432,6 +447,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/05/13/board-library-trustees-meeting"
     },
     {
+      "source_file": "2026-05-13__2026_05_13_womens-commission-communications-events-subcommittee-meeting__women-s-commission-communications-events-subcommittee-meetin.pdf",
+      "occur_id": "2026_05_13_womens-commission-communications-events-subcommittee-meeting",
+      "committee_name": "Communications & Events Subcommittee",
+      "meeting_date": "2026-05-13",
+      "meeting_time": "5:00 PM",
+      "location": "Virtual",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/womens-20260513-commsevents-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/13/womens-commission-communications-events-subcommittee-meeting"
+    },
+    {
       "source_file": "2026-05-13__2026_05_13_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
       "occur_id": "2026_05_13_licenses-and-permits-committee-meeting",
       "committee_name": "Licenses and Permits Committee",
@@ -443,6 +471,19 @@
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1405865&GUID=D4BB2EF5-36C8-4552-AE22-CC65DF8192AA",
       "agenda_type": "LEGISTAR",
       "detail_url": "https://www.somervillema.gov/events/2026/05/13/licenses-and-permits-committee-meeting"
+    },
+    {
+      "source_file": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
+      "occur_id": "2026_05_13_commission-persons-disabilities-meeting",
+      "committee_name": "Somerville Commission for Persons with Disabilities",
+      "meeting_date": "2026-05-13",
+      "meeting_time": "6:00 PM",
+      "location": "Somerville Library West Branch 40 College Avenue Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/disabilities-20260513-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/13/commission-persons-disabilities-meeting"
     },
     {
       "source_file": "2026-05-14__2026_05_14_board-health-meeting__board-of-health-meeting.pdf",
@@ -508,6 +549,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/traffic-commission-20260514-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/14/traffic-commission-meeting"
+    },
+    {
+      "source_file": "2026-05-18__2026_05_18_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf",
+      "occur_id": "2026_05_18_traffic-and-parking-committee-meeting",
+      "committee_name": "Traffic and Parking Committee",
+      "meeting_date": "2026-05-18",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1405436&GUID=E16A5291-1640-4284-A071-8C65D27BFC6B",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/18/traffic-and-parking-committee-meeting"
     }
   ],
   "items": [
@@ -2162,6 +2216,106 @@
       "Source_File": "2026-05-13__2026_05_13_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call, Welcome, Read Agenda: Holly Simione",
+      "Source_File": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Reminder of Robert's Rules and recommendations for respectful and caring communication: Holly Simione",
+      "Source_File": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Mobility updates; Rishika Dhawan Mobility Team",
+      "Source_File": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Community path options for inclusion; signage, trikes, and modified bikes",
+      "Source_File": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Snow removal in city owned and privately owned public parking lots, UPDATE Holly",
+      "Source_File": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Resident concerns over Brown School accessibility letter discussion",
+      "Source_File": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Treasurer's report: Sheila",
+      "Source_File": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "SHSSF 2026 Scholarship presentation on May 28th at (TBC) 6pm Holly",
+      "Source_File": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "9",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Somerville Foundation partnering to provide work opportunities that support the SCPD and disability community Holly",
+      "Source_File": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "10",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Chairs Report: SCPD Membership updates, MAAB Variances, Disability Pride Events",
+      "Source_File": "2026-05-13__2026_05_13_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
       "Committee_Name": "Licenses and Permits Committee",
       "Meeting_Date": "2026-05-13",
       "Meeting_Time": "6:00 PM",
@@ -2180,6 +2334,66 @@
       "Item_Type": "Approval/Minutes",
       "Agenda_Topic": "Approval of the Minutes of the Licenses and Permits Committee Meeting of April 8, 2026.",
       "Source_File": "2026-05-13__2026_05_13_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Communications & Events Subcommittee",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to order",
+      "Source_File": "2026-05-13__2026_05_13_womens-commission-communications-events-subcommittee-meeting__women-s-commission-communications-events-subcommittee-meetin.pdf"
+    },
+    {
+      "Committee_Name": "Communications & Events Subcommittee",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Event schedule lookahead",
+      "Source_File": "2026-05-13__2026_05_13_womens-commission-communications-events-subcommittee-meeting__women-s-commission-communications-events-subcommittee-meetin.pdf"
+    },
+    {
+      "Committee_Name": "Communications & Events Subcommittee",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Social media account",
+      "Source_File": "2026-05-13__2026_05_13_womens-commission-communications-events-subcommittee-meeting__women-s-commission-communications-events-subcommittee-meetin.pdf"
+    },
+    {
+      "Committee_Name": "Communications & Events Subcommittee",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Open discussion",
+      "Source_File": "2026-05-13__2026_05_13_womens-commission-communications-events-subcommittee-meeting__women-s-commission-communications-events-subcommittee-meetin.pdf"
+    },
+    {
+      "Committee_Name": "Communications & Events Subcommittee",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "5",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes",
+      "Source_File": "2026-05-13__2026_05_13_womens-commission-communications-events-subcommittee-meeting__women-s-commission-communications-events-subcommittee-meetin.pdf"
+    },
+    {
+      "Committee_Name": "Communications & Events Subcommittee",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-05-13__2026_05_13_womens-commission-communications-events-subcommittee-meeting__women-s-commission-communications-events-subcommittee-meetin.pdf"
     },
     {
       "Committee_Name": "Somerville Affordable Housing Trust Fund",
@@ -2440,6 +2654,66 @@
       "Item_Type": "Communication",
       "Agenda_Topic": "The Office of the Mayor respectfully submits this request to the Traffic Commission for consideration and approval of adjustments to current permit and meter fees (FY27 Proposed Parking Permit and Parking Meter Fee Increases).",
       "Source_File": "2026-05-14__2026_05_14_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0121",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "That the Director of Mobility pilot the installation of dedicated bicycle YIELD signals to operate during the walk cycle at several intersections throughout the city, including Washington Street and Somerville Avenue, and Prospect Street and Somerville Avenue.",
+      "Source_File": "2026-05-18__2026_05_18_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0123",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "That the Director of Mobility update this Council on the intersection improvements at Webster Avenue and Prospect Street.",
+      "Source_File": "2026-05-18__2026_05_18_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0303",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Conveying the 2026 Safe Streets Ordinance Annual Report.",
+      "Source_File": "2026-05-18__2026_05_18_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0363",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "That Director of Mobility evaluate opportunities for improved pedestrian safety at the intersection of Broadway and Main Street.",
+      "Source_File": "2026-05-18__2026_05_18_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0373",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "That this Council review construction-related parking in the area of Oak Street and Bolton Street.",
+      "Source_File": "2026-05-18__2026_05_18_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0634",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "64 residents submitting comments re: parking on Oak, Houghton, Bolton, and Prospect Streets.",
+      "Source_File": "2026-05-18__2026_05_18_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
     }
   ]
 }

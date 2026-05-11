@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-08",
+    "processed_date": "2026-05-11",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -161,6 +161,21 @@
         "filename": "2026-05-14__24216__historic-district-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 4
+      },
+      {
+        "filename": "2026-05-13__23727__water-sewer-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-05-13__24153__joint-meeting-of-the-medford-city-council-and-community-deve.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 20
       }
     ]
   },
@@ -3696,6 +3711,76 @@
       "Source_File": "2026-05-12__24294__city-council-committee-of-the-whole-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works, 21 James Street",
+      "Item_Number": "1.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Abatement Request - Fellsway",
+      "Source_File": "2026-05-13__23727__water-sewer-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works, 21 James Street",
+      "Item_Number": "1.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Abatement Request - Holton Street",
+      "Source_File": "2026-05-13__23727__water-sewer-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works, 21 James Street",
+      "Item_Number": "1.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Abatement Request - Rural Avenue",
+      "Source_File": "2026-05-13__23727__water-sewer-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works, 21 James Street",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Water & Sewer Rates for FY2027",
+      "Source_File": "2026-05-13__23727__water-sewer-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works, 21 James Street",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Community Garden Meters",
+      "Source_File": "2026-05-13__23727__water-sewer-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works, 21 James Street",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Any pending commitments and abatements",
+      "Source_File": "2026-05-13__23727__water-sewer-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works, 21 James Street",
+      "Item_Number": "5",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes from 3-6-26 meeting",
+      "Source_File": "2026-05-13__23727__water-sewer-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
       "Meeting_Date": "2026-05-13",
       "Meeting_Time": "5:00 PM",
@@ -3774,6 +3859,256 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Meeting Adjourned",
       "Source_File": "2026-05-13__24151__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order & Roll Call",
+      "Source_File": "2026-05-13__24153__joint-meeting-of-the-medford-city-council-and-community-deve.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public Participation",
+      "Source_File": "2026-05-13__24153__joint-meeting-of-the-medford-city-council-and-community-deve.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-13__24153__joint-meeting-of-the-medford-city-council-and-community-deve.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "24-033",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Zoning Ordinance Updates with Innes Associates Team (Tufts Institutional Zone Discussion)",
+      "Source_File": "2026-05-13__24153__joint-meeting-of-the-medford-city-council-and-community-deve.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-093",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Proposed Amendments to the Medford Zoning Ordinance - Boston Avenue Neighborhood Corridor District (for referral to the CDB)",
+      "Source_File": "2026-05-13__24153__joint-meeting-of-the-medford-city-council-and-community-deve.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Len Glionna passing",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of April's minutes",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Projection booth, high-top seats, railing evaluation",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Generator diesel tank leak",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Fire alarm upgrade",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Balcony aisle lighting installation",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Spotlight bay electrical outlets installation",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Painting theater interior",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Marquee installation",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.7",
+      "Item_Type": "Other",
+      "Agenda_Topic": "MGC Community Mitigation Fund grant application",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Legal review: BBP contract extension",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.9",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Gym floor replacement",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.10",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Chevalier Economic Impact Project",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.11",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Wayfinding Study",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.12",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Light switch conversion",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "1.3.13",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Organ installation",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "2.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Plywood/rodents on north side of building",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "New box office door and air conditioning",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "2.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Donations to Y and Medford Rec",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Civic Auditoriums and Convention Center Commission",
+      "Meeting_Date": "2026-05-13",
+      "Meeting_Time": "6:30 PM",
+      "Location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "Item_Number": "2.4",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's reposes",
+      "Source_File": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf"
     },
     {
       "Committee_Name": "Historic District Commission",
@@ -4219,6 +4554,45 @@
       "agenda_url": "https://drive.google.com/file/d/1BoussANLe55RSkVkxj13P35d6OtZyega/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24151"
+    },
+    {
+      "source_file": "2026-05-13__24153__joint-meeting-of-the-medford-city-council-and-community-deve.pdf",
+      "occur_id": "24153",
+      "committee_name": "Medford City Council",
+      "meeting_date": "2026-05-13",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall Council Chambers",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://medfordma.portal.civicclerk.com/event/465/files/agenda/869",
+      "agenda_type": "CIVICCLERK",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24153"
+    },
+    {
+      "source_file": "2026-05-13__24295__civic-auditoriums-and-convention-center-commission-meeting.pdf",
+      "occur_id": "24295",
+      "committee_name": "Medford Civic Auditoriums and Convention Center Commission",
+      "meeting_date": "2026-05-13",
+      "meeting_time": "6:30 PM",
+      "location": "https://us02web.zoom.us/j/8704136458?pwd=n6UbAzs8FIfv1YyY1nWbrLr0PrGb9t.1",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1kVzJe-uFcg3C7-HWwz-_a7o2ilGkOFAa/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24295"
+    },
+    {
+      "source_file": "2026-05-13__23727__water-sewer-commission-meeting.pdf",
+      "occur_id": "23727",
+      "committee_name": "Medford Water and Sewer Commission",
+      "meeting_date": "2026-05-13",
+      "meeting_time": "5:30 PM",
+      "location": "Department of Public Works, 21 James St., Medford",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1jyR4UbX1PqFk7MV_AaUTLSpr-xQuYEdZ/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23727"
     },
     {
       "source_file": "2026-05-14__24216__historic-district-commission-meeting.pdf",
