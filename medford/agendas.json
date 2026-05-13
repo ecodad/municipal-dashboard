@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-12",
+    "processed_date": "2026-05-13",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -181,6 +181,21 @@
         "filename": "2026-05-13__24297__sepac-meeting-sepac-elections.pdf",
         "status": "parsed",
         "item_count": 1
+      },
+      {
+        "filename": "2026-05-18__24303__library-board-of-trustees-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
+      },
+      {
+        "filename": "2026-05-27__24022__retirement-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 24
+      },
+      {
+        "filename": "2026-05-27__24301__joint-meeting-of-the-medford-city-council-and-community-deve.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -4164,6 +4179,376 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-05-14__24216__historic-district-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-05-18__24303__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review and Approval of April Minutes",
+      "Source_File": "2026-05-18__24303__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Director's Report",
+      "Source_File": "2026-05-18__24303__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "4a",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion and Presentation to City Councillors",
+      "Source_File": "2026-05-18__24303__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "4b",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Coffee Cart Closure",
+      "Source_File": "2026-05-18__24303__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "4c",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Meeting Dates",
+      "Source_File": "2026-05-18__24303__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Old Business",
+      "Source_File": "2026-05-18__24303__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session",
+      "Source_File": "2026-05-18__24303__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Minutes from the meeting of 4/30/2026",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Monthly Expense Warrants",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Superannuation Retirements",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Disability Retirements",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "5",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Cash transfers",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "6",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PRIT Fund Payment and Distribution Letters",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "7",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PRIT Fund Confirmation Letters",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "8",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Makeups, Buybacks, Redeposits, and Military Service Purchases",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "9",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Transfers to other Systems",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "10",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Refunds to Members",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "11",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PERAC memos and correspondence",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "12",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Eligible Positions for Membership",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "13",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Applications for Membership",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "14",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Investment statements and fees",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "15",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Department requests and correspondence",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "16",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "NEPC Investment Performance Review and Investment Recommendations",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "17",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Monthly cash books",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "18",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Meeting with Members and Retirees",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "19",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Meeting with Vendors and Money Managers",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "20",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Review of PERAC Memos",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "21",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public and Private Hearings as needed",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "22",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Hearings as needed for Disability, Involuntary Retirements, Death Benefits, Forfeiture, 91A and 91B Excess Earning Hearings",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "23",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Review and discuss RFP responses for International Money Manager. Following companies attending for interviews: Massachusetts Financial Services, Wellington Management and PanAgora Asset Management",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "24",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Dan Sherman attending to review the results of the 1/1/2026 Actuarial valuation study",
+      "Source_File": "2026-05-27__24022__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Development Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Council Chamber, second floor of Medford City Hall, 85 George P. Hassett Drive, Medford, MA, and via Zoom Remote Videoconferencing",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Amend Section 94-2.1 (Division into Districts) and Section 94-9.0 (Special District Regulations) to add the Boston Avenue Neighborhood Corridor District (BANCD)",
+      "Source_File": "2026-05-27__24301__joint-meeting-of-the-medford-city-council-and-community-deve.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Development Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Council Chamber, second floor of Medford City Hall, 85 George P. Hassett Drive, Medford, MA, and via Zoom Remote Videoconferencing",
+      "Item_Number": "2",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Amend Section 94-3.2 Table of Use Regulations (Table A) by incorporating the BANCD and to designate the uses permitted therein.",
+      "Source_File": "2026-05-27__24301__joint-meeting-of-the-medford-city-council-and-community-deve.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Development Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Council Chamber, second floor of Medford City Hall, 85 George P. Hassett Drive, Medford, MA, and via Zoom Remote Videoconferencing",
+      "Item_Number": "3",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Amend Section 94-4.1 Table of Dimensional Requirements (Table B) by incorporating the BANCD and to state the dimensional requirements therein.",
+      "Source_File": "2026-05-27__24301__joint-meeting-of-the-medford-city-council-and-community-deve.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Development Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Council Chamber, second floor of Medford City Hall, 85 George P. Hassett Drive, Medford, MA, and via Zoom Remote Videoconferencing",
+      "Item_Number": "4",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Amend Section 94-12 (Definitions) to amend and add various definitions.",
+      "Source_File": "2026-05-27__24301__joint-meeting-of-the-medford-city-council-and-community-deve.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Development Board",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Council Chamber, second floor of Medford City Hall, 85 George P. Hassett Drive, Medford, MA, and via Zoom Remote Videoconferencing",
+      "Item_Number": "5",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Amending the Zoning Map to change the zoning district designation of various properties to the BANCD as shown on the maps entitled, \"Boston Avenue Corridor: Upper Hillside\" and \"Boston Avenue Corridor: South\" prepared by Innes Land Strategies Group and dated May 11, 2026.",
+      "Source_File": "2026-05-27__24301__joint-meeting-of-the-medford-city-council-and-community-deve.pdf"
     }
   ],
   "meetings": [
@@ -4634,6 +5019,45 @@
       "agenda_url": "https://drive.google.com/file/d/1KOuusRa_JjFCaOBNCKDJeuo_A0X3Ka_O/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24216"
+    },
+    {
+      "source_file": "2026-05-18__24303__library-board-of-trustees-meeting.pdf",
+      "occur_id": "24303",
+      "committee_name": "Library Board of Trustees",
+      "meeting_date": "2026-05-18",
+      "meeting_time": "9:30 AM",
+      "location": "Medford Public Library, Second Floor, Kigner & Qiu Family Study Room",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/110DiIefkFNAC2Yl1DqG9z7iaoABRTS6Q/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24303"
+    },
+    {
+      "source_file": "2026-05-27__24301__joint-meeting-of-the-medford-city-council-and-community-deve.pdf",
+      "occur_id": "24301",
+      "committee_name": "Medford Community Development Board",
+      "meeting_date": "2026-05-27",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall Council Chambers",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1JvPjeCJrYb0U-yNsD7xyT1vgIJtMXY7L/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24301"
+    },
+    {
+      "source_file": "2026-05-27__24022__retirement-board-meeting.pdf",
+      "occur_id": "24022",
+      "committee_name": "Medford Retirement Board",
+      "meeting_date": "2026-05-27",
+      "meeting_time": "9:30 AM",
+      "location": "City Hall - Room 201",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1QK2ci_0NZtl7Qdwla5jMIkCAIprLAp5p/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24022"
     }
   ]
 }

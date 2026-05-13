@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-12",
+    "processed_date": "2026-05-13",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -171,6 +171,11 @@
         "filename": "2026-05-26__2026_05_26_conservation-commission-meeting__conservation-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 8
+      },
+      {
+        "filename": "2026-05-20__2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness__metro-boston-homeland-security-region-planning-and-community.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -603,6 +608,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/licensing-20260519-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/19/licensing-commission-meeting"
+    },
+    {
+      "source_file": "2026-05-20__2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness__metro-boston-homeland-security-region-planning-and-community.pdf",
+      "occur_id": "2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness",
+      "committee_name": "Metro Boston Homeland Security Region Planning and Community Preparedness Subcommittee",
+      "meeting_date": "2026-05-20",
+      "meeting_time": "1:30 PM",
+      "location": "Remote participation only via Google Meet: meet.google.com/ozf-kmbw-cec; Phone: (US) +1 413-591-2558, PIN: 544 533 995#",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/mbhsr-planning-20260520-notice-2.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/20/metro-boston-homeland-security-region-planning-and-community-preparedness"
     },
     {
       "source_file": "2026-05-26__2026_05_26_conservation-commission-meeting__conservation-commission-meeting.pdf",
@@ -4098,6 +4116,56 @@
       "Item_Type": "Public Hearing",
       "Agenda_Topic": "New England Neapolitan Assembly Row LLC d/b/a Salt and Stone, 463 Assembly Row, requesting approval of adding entertainment by performers outdoors (private) (amending AL18-000001). Notice of Public Hearing.",
       "Source_File": "2026-05-19__2026_05_19_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Metro Boston Homeland Security Region Planning and Community Preparedness Subcommittee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "1:30 PM",
+      "Location": "Remote participation only via Google Meet: meet.google.com/ozf-kmbw-cec; Phone: (US) +1 413-591-2558, PIN: 544 533 995#",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Welcome and Opening Remarks",
+      "Source_File": "2026-05-20__2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness__metro-boston-homeland-security-region-planning-and-community.pdf"
+    },
+    {
+      "Committee_Name": "Metro Boston Homeland Security Region Planning and Community Preparedness Subcommittee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "1:30 PM",
+      "Location": "Remote participation only via Google Meet: meet.google.com/ozf-kmbw-cec; Phone: (US) +1 413-591-2558, PIN: 544 533 995#",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of 3/26/2026 minutes",
+      "Source_File": "2026-05-20__2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness__metro-boston-homeland-security-region-planning-and-community.pdf"
+    },
+    {
+      "Committee_Name": "Metro Boston Homeland Security Region Planning and Community Preparedness Subcommittee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "1:30 PM",
+      "Location": "Remote participation only via Google Meet: meet.google.com/ozf-kmbw-cec; Phone: (US) +1 413-591-2558, PIN: 544 533 995#",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY23/FY24 Budget Updates",
+      "Source_File": "2026-05-20__2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness__metro-boston-homeland-security-region-planning-and-community.pdf"
+    },
+    {
+      "Committee_Name": "Metro Boston Homeland Security Region Planning and Community Preparedness Subcommittee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "1:30 PM",
+      "Location": "Remote participation only via Google Meet: meet.google.com/ozf-kmbw-cec; Phone: (US) +1 413-591-2558, PIN: 544 533 995#",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "FY25/26 Discussion",
+      "Source_File": "2026-05-20__2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness__metro-boston-homeland-security-region-planning-and-community.pdf"
+    },
+    {
+      "Committee_Name": "Metro Boston Homeland Security Region Planning and Community Preparedness Subcommittee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "1:30 PM",
+      "Location": "Remote participation only via Google Meet: meet.google.com/ozf-kmbw-cec; Phone: (US) +1 413-591-2558, PIN: 544 533 995#",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Old/New Business",
+      "Source_File": "2026-05-20__2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness__metro-boston-homeland-security-region-planning-and-community.pdf"
     },
     {
       "Committee_Name": "City of Somerville Conservation Commission",
