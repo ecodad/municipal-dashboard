@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-13",
+    "processed_date": "2026-05-14",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -194,6 +194,16 @@
       },
       {
         "filename": "2026-05-27__24301__joint-meeting-of-the-medford-city-council-and-community-deve.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-05-19__24304__parks-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 25
+      },
+      {
+        "filename": "2026-05-20__24305__conservation-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 5
       }
@@ -4261,6 +4271,306 @@
       "Source_File": "2026-05-18__24303__library-board-of-trustees-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Secretary Bailey is requesting the Parks Commission gives authority to cancel dates or adjust times for approved permits from the commission (for large organizations such as BSSC, VOLO and Hub Sports).",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Roberts Elementary School- Request to use Hickey Park on 6/9 & 6/10 for Field Day.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bangladesh Sports Club is proposing the city create a cricket field to meet the growing demand in the Medford community.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "USTA New England- Request to use Dugger Park (1 court on Mondays and 3 courts on Tuesdays and Thursdays) beginning 5/29-8/26 on Monday-Wednesday from 6:00pm-8:30pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Secretary Bailey will update the commissioners on his meeting with Boston Ultimate Disk Alliance (BUDA) to help streamline the process for teams to request field space.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Kerry Laidlaw- Request to use Hickey Park on 6/18 all day until 7pm for a 6th grade moving on celebration.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of April Meeting Minutes",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Friends of Medford Family Network- Request to use Dugger Park Tennis Courts (pickleball lined courts) on 5/31 from 11am-1pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "CACHE in Medford, Inc- Request to use McNally Park (pavilion area) on 5/31 from 1pm-6pm for their annual meeting.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Michael Miller- Request to use Tufts Park, Field 4 on 5/18-8/4 from 6pm-8pm for ultimate frisbee.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-7.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Antioch Baptist Church- Request to use Playstead, lower field on 5/25 from 11am-5pm for a picnic and volleyball.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-7.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Antioch Baptist Church- Request to use Playstead, lower field on 5/31-6/14 from 4:30pm-8pm for volleyball.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-7.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Antioch Baptist Church- Request to use Playstead, lower field on 7/4 from 11:30am-5:30pm for picnic and volleyball.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Beverly Chaos Ultimate Frisbee- Request to use Victory Park on 6/30-8/6 from 6pm-8pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-9",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Cactus Joice Ultimate Frisbee- Request to use Tufts Park, Field 1 on 6/1-7/14 from 6pm-8pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-10",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Hyun Kim- Request to use Morrison Park on 6/2-6/30 from 6pm-8pm for ultimate frisbee, and Barry Park on 7/7-7/28 from 6pm-8pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-11.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Spam Ultimate Frisbee- Request to use Victory Park on 5/19-8/4 from 6:30pm-8:30pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-11.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Spam Ultimate Frisbee- Request to use Playstead Upper Park on 5/19-8/4 from 6:30pm-8:30pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-11.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Spam Ultimate Frisbee- Request to use Playstead Lower Park on 5/19-8/4 from 6:30pm-8:30pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-12.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "West Medford Community Center- Request to use Dugger Park Basketball Courts on 5/1-6/25 on Monday-Friday from 3:30pm-6pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-12.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "West Medford Community Center- Request to use Dugger Park Basketball Courts on 7/6-8/19 on Monday & Wednesdays from 6pm-8pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-12.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "West Medford Community Center- Request to use Dugger Park Basketball Courts on 8/22 (rain date 8/23) from 10am-2pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-12.4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "West Medford Community Center- Request to use Dugger Park Basketball Courts on 8/30 from 10am-6pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-13",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Agilent Technologies- Request to use Playstead Baseball Field on 6/24 from 7pm-9pm for a wiffleball game.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-14",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Missituk PTO- Request to use Columbus Park Baseball on 6/23 from 4:00pm-8:00pm.",
+      "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Notice of Intent - DEP File #215-0248 – Main Street Intersection Improvements – The Massachusetts Department of Transportation has filed a Notice of Intent regarding intersection improvements along the intersections of Main Street and (Mystic Valley Parkway Ramps, South Street and Mystic Avenue).",
+      "Source_File": "2026-05-20__24305__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Future Projects",
+      "Source_File": "2026-05-20__24305__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Ongoing Projects",
+      "Source_File": "2026-05-20__24305__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "4",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-05-20__24305__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Proposed Regulations",
+      "Source_File": "2026-05-20__24305__conservation-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford Retirement Board",
       "Meeting_Date": "2026-05-27",
       "Meeting_Time": "9:30 AM",
@@ -5032,6 +5342,32 @@
       "agenda_url": "https://docs.google.com/document/d/110DiIefkFNAC2Yl1DqG9z7iaoABRTS6Q/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24303"
+    },
+    {
+      "source_file": "2026-05-19__24304__parks-commission-meeting.pdf",
+      "occur_id": "24304",
+      "committee_name": "Medford Parks Commission",
+      "meeting_date": "2026-05-19",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall - Room 201",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1CfKzJ9HTeKzWRbWP3UG3fNTESOdNucEg/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24304"
+    },
+    {
+      "source_file": "2026-05-20__24305__conservation-commission-meeting.pdf",
+      "occur_id": "24305",
+      "committee_name": "City of Medford Conservation Commission",
+      "meeting_date": "2026-05-20",
+      "meeting_time": "6:30 PM",
+      "location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1q-GqVN44U6ig_pJQNI6XNR0j6V09kKy8/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24305"
     },
     {
       "source_file": "2026-05-27__24301__joint-meeting-of-the-medford-city-council-and-community-deve.pdf",

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-13",
+    "processed_date": "2026-05-14",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -176,6 +176,36 @@
         "filename": "2026-05-20__2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness__metro-boston-homeland-security-region-planning-and-community.pdf",
         "status": "parsed",
         "item_count": 5
+      },
+      {
+        "filename": "2026-05-18__2026_05_18_condominium-review-board-meeting__condominium-review-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-05-18__2026_05_18_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf",
+        "status": "parsed",
+        "item_count": 17
+      },
+      {
+        "filename": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 16
+      },
+      {
+        "filename": "2026-05-19__2026_05_19_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
+      },
+      {
+        "filename": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf",
+        "status": "parsed",
+        "item_count": 15
       }
     ]
   },
@@ -584,6 +614,71 @@
       "detail_url": "https://www.somervillema.gov/events/2026/05/14/traffic-commission-meeting"
     },
     {
+      "source_file": "2026-05-18__2026_05_18_condominium-review-board-meeting__condominium-review-board-meeting.pdf",
+      "occur_id": "2026_05_18_condominium-review-board-meeting",
+      "committee_name": "Condominium Review Board",
+      "meeting_date": "2026-05-18",
+      "meeting_time": "6:00 PM",
+      "location": "Remote participation via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/condo-review-20260518-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/18/condominium-review-board-meeting"
+    },
+    {
+      "source_file": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf",
+      "occur_id": "2026_05_18_school-committee-rules-management-subcommittee-meeting",
+      "committee_name": "Rules Management Subcommittee",
+      "meeting_date": "2026-05-18",
+      "meeting_time": "5:30 PM",
+      "location": "City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/Call%20for%20the%20Week%20of%2005-18-26.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/18/school-committee-rules-management-subcommittee-meeting"
+    },
+    {
+      "source_file": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf",
+      "occur_id": "2026_05_18_school-committee-regular-meeting",
+      "committee_name": "School Committee",
+      "meeting_date": "2026-05-18",
+      "meeting_time": "7:00 PM",
+      "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/Regular%20SC%20Agenda%20for%2005-18-26.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/18/school-committee-regular-meeting"
+    },
+    {
+      "source_file": "2026-05-18__2026_05_18_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf",
+      "occur_id": "2026_05_18_human-rights-commission-administration-subcommittee-meeting",
+      "committee_name": "Somerville Human Rights Commission Administration Subcommittee",
+      "meeting_date": "2026-05-18",
+      "meeting_time": "5:00 PM",
+      "location": "Virtual Meeting (Zoom) https://us02web.zoom.us/j/82026368136 | Webinar ID: 820 2636 8136",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/human-rights-20260518-admin-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/18/human-rights-commission-administration-subcommittee-meeting"
+    },
+    {
+      "source_file": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf",
+      "occur_id": "2026_05_20_school-committee-finance-and-facilities-meeting-whole",
+      "committee_name": "Somerville School Committee",
+      "meeting_date": "2026-05-18",
+      "meeting_time": "5:30 PM",
+      "location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/Call%20for%20the%20Week%20of%2005-18-26_2.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/20/school-committee-finance-and-facilities-meeting-whole"
+    },
+    {
       "source_file": "2026-05-18__2026_05_18_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf",
       "occur_id": "2026_05_18_traffic-and-parking-committee-meeting",
       "committee_name": "Traffic and Parking Committee",
@@ -608,6 +703,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/licensing-20260519-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/19/licensing-commission-meeting"
+    },
+    {
+      "source_file": "2026-05-19__2026_05_19_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf",
+      "occur_id": "2026_05_19_redevelopment-authority-meeting",
+      "committee_name": "Somerville Redevelopment Authority",
+      "meeting_date": "2026-05-19",
+      "meeting_time": "5:30 PM",
+      "location": "Remote participation via Zoom Webinar",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/redevelopment-20260519-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/19/redevelopment-authority-meeting"
     },
     {
       "source_file": "2026-05-20__2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness__metro-boston-homeland-security-region-planning-and-community.pdf",
@@ -3928,6 +4036,386 @@
       "Source_File": "2026-05-14__2026_05_14_traffic-commission-meeting__traffic-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "MEETING CALL TO ORDER",
+      "Source_File": "2026-05-18__2026_05_18_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.a.i",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "MEETING MINUTES - APRIL 2026",
+      "Source_File": "2026-05-18__2026_05_18_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.a.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of 160 Pearl Street Mortgage Trust, Jay P. Johnson, seeking a Final Conversion Permit for Unit #1, Unit #2, and Unit #3 at 160 Pearl Street.",
+      "Source_File": "2026-05-18__2026_05_18_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.a.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of Sarah Shapiro and Benjamin Bromberg Gaber seeking a Final Conversion Permit for Unit #1 and Unit #2 at 42 Belmont Street.",
+      "Source_File": "2026-05-18__2026_05_18_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.a.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of Ian Steckel, C. Theodore Steckel, and Maureen Steckel seeking a Final Conversion Permit for Unit #1, Unit #2, and Unit #3 at 16 Curtis Street.",
+      "Source_File": "2026-05-18__2026_05_18_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.a.4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of 131 Hudson St PJD, LLC, John Raposo, seeking a Final Conversion Permit for Unit #1, Unit #2, and Unit #3 at 131 Hudson Street.",
+      "Source_File": "2026-05-18__2026_05_18_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "ADJOURN",
+      "Source_File": "2026-05-18__2026_05_18_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom) https://us02web.zoom.us/j/82026368136 | Webinar ID: 820 2636 8136",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-05-18__2026_05_18_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom) https://us02web.zoom.us/j/82026368136 | Webinar ID: 820 2636 8136",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call and Confirm Quorum",
+      "Source_File": "2026-05-18__2026_05_18_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom) https://us02web.zoom.us/j/82026368136 | Webinar ID: 820 2636 8136",
+      "Item_Number": "1.2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes for March 16, 2026, and April 27, 2026",
+      "Source_File": "2026-05-18__2026_05_18_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom) https://us02web.zoom.us/j/82026368136 | Webinar ID: 820 2636 8136",
+      "Item_Number": "2A",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bylaw Development: Continue work on the draft",
+      "Source_File": "2026-05-18__2026_05_18_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom) https://us02web.zoom.us/j/82026368136 | Webinar ID: 820 2636 8136",
+      "Item_Number": "3A",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Human Rights Advisory Council formation discussion and next steps (Reference Sec. 2-245. Human rights commission advisory council)",
+      "Source_File": "2026-05-18__2026_05_18_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom) https://us02web.zoom.us/j/82026368136 | Webinar ID: 820 2636 8136",
+      "Item_Number": "4A",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Announcements, Updates, or Questions",
+      "Source_File": "2026-05-18__2026_05_18_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom) https://us02web.zoom.us/j/82026368136 | Webinar ID: 820 2636 8136",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Closing — Future Agenda Items",
+      "Source_File": "2026-05-18__2026_05_18_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "I",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to order with a moment of silence and a salute to the flag of the United States of America.",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "II.A",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Massachusetts Association of Schools Superintendent Award – Valedictorian Tommy Vandewege and Salutatorian Lucas Oliver",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "III",
+      "Item_Type": "Report",
+      "Agenda_Topic": "School Committee Student Advisory Committee Representatives – Asian American Pacific Islander (AAPI) Presentation",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IV",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Public Comment – In person (and remote via Zoom)",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IX.A",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Field Trips (Recommended action: approval) – SHS Auto Tech to New England Dragway (June 5, 2026) and East Somerville Community School eighth-graders to Canobie Lake Park (June 17, 2026)",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IX.B",
+      "Item_Type": "Other",
+      "Agenda_Topic": "FY26 SCALE Diploma Request (Recommended action: approval) – 13 candidates listed",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "V",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes – April 6, 2026",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VI.A",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of Superintendent – District Report: MTSS Presentation and Special Education Review",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VI.B",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of Superintendent – Personnel Report, April 2026",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.A",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of Educational Programs and Instruction Subcommittee Meeting: April 2, 2026 (Member Pitone)",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.B",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of Rules Management Subcommittee Meeting: April 27, 2026 (Member Biton)",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.C",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of Finance and Facilities Meeting of the Whole: April 29, 2026 (Member Green)",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VIII.A",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Unfinished Business – MSBA",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "X",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Upcoming Meeting Topics – June: OST Presentation, District Budget, MSBA Plans, Admin Retirements, SPS Strategic Plan Update",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "XI",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Community or Calendar Items from Committee Members",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "XII",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Condolence",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "XIII",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Rules Management Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers – Somerville City Hall – 93 Highland Ave",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the report from the April 27, 2026 meeting",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "City Council Chambers – Somerville City Hall – 93 Highland Ave",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Somerville Public Schools Interdistrict School Choice Public Hearing",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – Somerville City Hall – 93 Highland Ave",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Regular School Committee Meeting – For any and all business",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Rules Management Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers – Somerville City Hall – 93 Highland Ave",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "SHS Student Handbook",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Rules Management Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers – Somerville City Hall – 93 Highland Ave",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "District Cell Phone Policy",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Rules Management Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers – Somerville City Hall – 93 Highland Ave",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "MASC Policy Manual Review",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Rules Management Subcommittee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers – Somerville City Hall – 93 Highland Ave",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Harmful Artificial Intelligence",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Traffic and Parking Committee",
       "Meeting_Date": "2026-05-18",
       "Meeting_Time": "6:00 PM",
@@ -3986,6 +4474,66 @@
       "Item_Type": "Communication",
       "Agenda_Topic": "64 residents submitting comments re: parking on Oak, Houghton, Bolton, and Prospect Streets.",
       "Source_File": "2026-05-18__2026_05_18_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the report from the April 27, 2026 meeting",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Somerville Public Schools Interdistrict School Choice Public Hearing",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "SHS Student Handbook",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "District Cell Phone Policy",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "MASC Policy Manual Review",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Harmful Artificial Intelligence",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
     },
     {
       "Committee_Name": "Licensing Commission",
@@ -4118,6 +4666,86 @@
       "Source_File": "2026-05-19__2026_05_19_licensing-commission-meeting__licensing-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public comment period.",
+      "Source_File": "2026-05-19__2026_05_19_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "2a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "90 Washington Demonstration Project Plan - General Project Update.",
+      "Source_File": "2026-05-19__2026_05_19_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "2b",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session to discuss the value of real property at 90 Washington Street.",
+      "Source_File": "2026-05-19__2026_05_19_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting adjournment.",
+      "Source_File": "2026-05-19__2026_05_19_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance and Facilities Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the report from the April 29, 2026 meeting",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance and Facilities Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY26 Projections: Personnel & Non-personnel accounts",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance and Facilities Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "April Investment Roll Approval",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance and Facilities Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "FY27 Budget Deliberations",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Metro Boston Homeland Security Region Planning and Community Preparedness Subcommittee",
       "Meeting_Date": "2026-05-20",
       "Meeting_Time": "1:30 PM",
@@ -4166,6 +4794,146 @@
       "Item_Type": "Other",
       "Agenda_Topic": "Old/New Business",
       "Source_File": "2026-05-20__2026_05_20_metro-boston-homeland-security-region-planning-and-community-preparedness__metro-boston-homeland-security-region-planning-and-community.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the report from the April 29, 2026 meeting",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY26 Projections: Personnel & Non-personnel accounts",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "April Investment Roll Approval",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "FY27 Budget Deliberations",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes from March 23, 2026 and April 30, 2026",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Massachusetts School Building Authority (MSBA) updates",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Indoor air quality at the Kennedy School",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Building safety improvements at the Argenziano School",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Practical solutions for clearing snow from schoolyard play surfaces",
+      "Source_File": "2026-05-18__2026_05_18_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes from March 23, 2026 and April 30, 2026",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Massachusetts School Building Authority (MSBA) updates",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Indoor air quality at the Kennedy School",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Building safety improvements at the Argenziano School",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Practical solutions for clearing snow from schoolyard play surfaces",
+      "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
     },
     {
       "Committee_Name": "City of Somerville Conservation Commission",
