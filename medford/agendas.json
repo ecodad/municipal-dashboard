@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-14",
+    "processed_date": "2026-05-15",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -206,6 +206,36 @@
         "filename": "2026-05-20__24305__conservation-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 5
+      },
+      {
+        "filename": "2026-05-18__24308__school-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 24
+      },
+      {
+        "filename": "2026-05-19__24310__board-of-health-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-05-19__24311__city-council-committee-of-the-whole-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-05-20__22940__city-council-resident-services-and-public-engagement-committ.pdf",
+        "status": "parsed",
+        "item_count": 4
+      },
+      {
+        "filename": "2026-05-20__24309__election-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
+      },
+      {
+        "filename": "2026-05-20__24312__city-council-public-health-and-community-safety-committee-me.pdf",
+        "status": "parsed",
+        "item_count": 3
       }
     ]
   },
@@ -4271,6 +4301,246 @@
       "Source_File": "2026-05-18__24303__library-board-of-trustees-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "III.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of Bills and Payrolls",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "V.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Mustang Moment",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "III.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of FY 2026 Stabilization - Journal Entry 20871: $1,085,549.00",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "V.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Recommendation to Approve Medford Public Schools as a No School Choice District - Dr. Suzanne B. Galusi, Superintendent",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "III.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of Budget Transfers - Journal Entry 20850: $5,169.06; Journal Entry 20851: $275.00; Journal Entry 20852: $800.00",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "V.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Recommendation to Approve SY26-27 School Committee Meeting Schedule - Dr. Suzanne B. Galusi, Superintendent",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "V.4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Recommendation to Approve MPS Handbooks - Dr. Suzanne B. Galusi, Superintendent",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "III.4.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of Field Trip - Annual Auto Tech Trip to New England Dragway, NH - June 5, 2026",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "III.4.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of Field Trip - World Language Trip to France & Italy - April 2027",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "V.5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Recommendation to Approve Updated Language for MPS Restraint Policy and Bullying Prevention and Intervention Plan (BPIP) - Joan Bowen, Director of Student Services",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "III.5.1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes - Regular Meeting - May 4, 2026",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "III.5.2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes - Special Meeting of The School Committee-Public Budget Hearing (Remote Only) - May 12, 2026",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "V.6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "MSBA Update - Jenny Graham, Chair for the Medford Comprehensive High School Building (MCHSBC) Project",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "2026-11",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution offered by Member Graham and Member Olapade requesting a comprehensive assessment of the Project Transition Program for students ages 18-22 with disabilities and recommendations for improvement aligned with best practices in transition services",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "I",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call for Attendance of Members and Student Representatives",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "II",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Salute the Flag",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "IV",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of Subcommittees",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VI",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Presentations of the Student Advisory Council",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VII",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Presentations of the Public (not to begin before 7:00 pm)",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VIII",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Continued Business",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "X",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Reports Requested",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "XI",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Condolences",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "XII",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Next Regular Meeting - June 1, 2026 - Alden Memorial Chambers, Medford City Hall in addition to zoom",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-05-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "XIII",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-18__24308__school-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford Parks Commission",
       "Meeting_Date": "2026-05-19",
       "Meeting_Time": "6:00 PM",
@@ -4521,6 +4791,146 @@
       "Source_File": "2026-05-19__24304__parks-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Opening of Meeting",
+      "Source_File": "2026-05-19__24310__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review of Minutes of April 2026",
+      "Source_File": "2026-05-19__24310__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Designation of Leanne Chan as an Agent of the Board",
+      "Source_File": "2026-05-19__24310__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155",
+      "Item_Number": "4",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Hearing 57 Edward",
+      "Source_File": "2026-05-19__24310__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Monthly Reportable Disease Report Update",
+      "Source_File": "2026-05-19__24310__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155",
+      "Item_Number": "6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Other Business",
+      "Source_File": "2026-05-19__24310__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review and Discussion on Nicotine Free Generation Regulation — TABLED",
+      "Source_File": "2026-05-19__24310__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order & Roll Call",
+      "Source_File": "2026-05-19__24311__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-19__24311__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford City Council",
+      "Meeting_Date": "2026-05-19",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-061",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Annual Budget Process for FY2027 - Preliminary Budget Meeting #5",
+      "Source_File": "2026-05-19__24311__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Resident Services and Public Engagement Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order & Roll Call",
+      "Source_File": "2026-05-20__22940__city-council-resident-services-and-public-engagement-committ.pdf"
+    },
+    {
+      "Committee_Name": "Resident Services and Public Engagement Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-20__22940__city-council-resident-services-and-public-engagement-committ.pdf"
+    },
+    {
+      "Committee_Name": "Resident Services and Public Engagement Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "24-354",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution to Publish City Council Newsletter - Offered by Matt Leming, City Councilor, Isaac Bears, Council President",
+      "Source_File": "2026-05-20__22940__city-council-resident-services-and-public-engagement-committ.pdf"
+    },
+    {
+      "Committee_Name": "Resident Services and Public Engagement Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-024",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution to Schedule Neighborhood Ward Meetings Hosted by City Council - Offered by Isaac Bears, Council President",
+      "Source_File": "2026-05-20__22940__city-council-resident-services-and-public-engagement-committ.pdf"
+    },
+    {
       "Committee_Name": "City of Medford Conservation Commission",
       "Meeting_Date": "2026-05-20",
       "Meeting_Time": "6:30 PM",
@@ -4569,6 +4979,136 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Discussion of Proposed Regulations",
       "Source_File": "2026-05-20__24305__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Opening Remarks: Welcoming by the Chair Introducing of new and reappointed commissioners",
+      "Source_File": "2026-05-20__24309__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Previous Meeting Minutes: Review and approval of minutes from the third meeting of March 18, 2026.",
+      "Source_File": "2026-05-20__24309__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Commissioner Introductions: Brief introductions by each commissioner and sharing of backgrounds and expectations",
+      "Source_File": "2026-05-20__24309__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Updates and Reports: Manager's report on commission activities since last meeting",
+      "Source_File": "2026-05-20__24309__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Review of UOCAVA applications: Election Manager recommendations",
+      "Source_File": "2026-05-20__24309__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Current Initiatives: Discussion on ongoing projects and initiatives; input from new commissioners",
+      "Source_File": "2026-05-20__24309__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Goals and Objectives: Setting objectives for the upcoming term and brainstorming session for new ideas and priorities",
+      "Source_File": "2026-05-20__24309__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Open Forum: Opportunity for public comments",
+      "Source_File": "2026-05-20__24309__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "9",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Next Steps and Action Items: Review of action items, assign responsibilities, FY27 meetings",
+      "Source_File": "2026-05-20__24309__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "10",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Closing Remarks from the Chair and Adjournment, Next meeting June 17, 2026",
+      "Source_File": "2026-05-20__24309__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Public Health and Community Safety Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order & Roll Call",
+      "Source_File": "2026-05-20__24312__city-council-public-health-and-community-safety-committee-me.pdf"
+    },
+    {
+      "Committee_Name": "Public Health and Community Safety Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-20__24312__city-council-public-health-and-community-safety-committee-me.pdf"
+    },
+    {
+      "Committee_Name": "Public Health and Community Safety Committee",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA and via Zoom",
+      "Item_Number": "26-094",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Submitted by Police Department – 2025 Annual Surveillance Report Presentation",
+      "Source_File": "2026-05-20__24312__city-council-public-health-and-community-safety-committee-me.pdf"
     },
     {
       "Committee_Name": "Medford Retirement Board",
@@ -5344,6 +5884,45 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24303"
     },
     {
+      "source_file": "2026-05-18__24308__school-committee-meeting.pdf",
+      "occur_id": "24308",
+      "committee_name": "Medford School Committee",
+      "meeting_date": "2026-05-18",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall Council Chambers",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1omdmudaYEF1PgNXJkl5KercvxMBWKjZg/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24308"
+    },
+    {
+      "source_file": "2026-05-19__24310__board-of-health-meeting.pdf",
+      "occur_id": "24310",
+      "committee_name": "Medford Board of Health",
+      "meeting_date": "2026-05-19",
+      "meeting_time": "12:30 PM",
+      "location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1WrpMHiPEW4uXM5o29YEmrluNDw8F2XEA/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24310"
+    },
+    {
+      "source_file": "2026-05-19__24311__city-council-committee-of-the-whole-meeting.pdf",
+      "occur_id": "24311",
+      "committee_name": "Medford City Council",
+      "meeting_date": "2026-05-19",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall Council Chambers",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://medfordma.portal.civicclerk.com/event/482/files/agenda/878",
+      "agenda_type": "CIVICCLERK",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24311"
+    },
+    {
       "source_file": "2026-05-19__24304__parks-commission-meeting.pdf",
       "occur_id": "24304",
       "committee_name": "Medford Parks Commission",
@@ -5368,6 +5947,45 @@
       "agenda_url": "https://docs.google.com/document/d/1q-GqVN44U6ig_pJQNI6XNR0j6V09kKy8/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24305"
+    },
+    {
+      "source_file": "2026-05-20__24309__election-commission-meeting.pdf",
+      "occur_id": "24309",
+      "committee_name": "Medford Election Commission",
+      "meeting_date": "2026-05-20",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall - Room 207",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1nbVY8ZkEg5PiTgA8lvEaw7_mlITGAW6T/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24309"
+    },
+    {
+      "source_file": "2026-05-20__24312__city-council-public-health-and-community-safety-committee-me.pdf",
+      "occur_id": "24312",
+      "committee_name": "Public Health and Community Safety Committee",
+      "meeting_date": "2026-05-20",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall Council Chambers",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://medfordma.portal.civicclerk.com/event/457/files/agenda/875",
+      "agenda_type": "CIVICCLERK",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24312"
+    },
+    {
+      "source_file": "2026-05-20__22940__city-council-resident-services-and-public-engagement-committ.pdf",
+      "occur_id": "22940",
+      "committee_name": "Resident Services and Public Engagement Committee",
+      "meeting_date": "2026-05-20",
+      "meeting_time": "7:00 PM",
+      "location": "City Hall Council Chambers",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://medfordma.portal.civicclerk.com/event/453/files/agenda/877",
+      "agenda_type": "CIVICCLERK",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22940"
     },
     {
       "source_file": "2026-05-27__24301__joint-meeting-of-the-medford-city-council-and-community-deve.pdf",
