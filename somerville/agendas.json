@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-15",
+    "processed_date": "2026-05-16",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -231,6 +231,16 @@
         "filename": "2026-05-21__2026_05_21_planning-board-meeting__planning-board-meeting.pdf",
         "status": "parsed",
         "item_count": 17
+      },
+      {
+        "filename": "2026-05-20__2026_05_20_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-05-21__2026_05_21_land-use-committee-meeting__land-use-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -806,6 +816,32 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/arts-council-20260520-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/20/arts-council-board-meeting"
+    },
+    {
+      "source_file": "2026-05-20__2026_05_20_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
+      "occur_id": "2026_05_20_zoning-board-appeals-meeting",
+      "committee_name": "Zoning Board of Appeals",
+      "meeting_date": "2026-05-20",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/zoning-20260520-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/20/zoning-board-appeals-meeting"
+    },
+    {
+      "source_file": "2026-05-21__2026_05_21_land-use-committee-meeting__land-use-committee-meeting.pdf",
+      "occur_id": "2026_05_21_land-use-committee-meeting",
+      "committee_name": "Land Use Committee",
+      "meeting_date": "2026-05-21",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1405869&GUID=4BABA3C0-59F3-4DFE-A70B-03CD6133FB5D",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/21/land-use-committee-meeting"
     },
     {
       "source_file": "2026-05-21__2026_05_21_planning-board-meeting__planning-board-meeting.pdf",
@@ -5106,6 +5142,76 @@
       "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
     },
     {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of April 1, 2026",
+      "Source_File": "2026-05-20__2026_05_20_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of April 15, 2026",
+      "Source_File": "2026-05-20__2026_05_20_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP24-000078",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "92R Orchard Street (continued from April 15, 2026) – ZP24-000078: Bennie Ber, d/b/a NehKooDah seeks relief from SZO Section 10.2.2.d, regarding the number of cars permitted per carport, which requires a Hardship Variance.",
+      "Source_File": "2026-05-20__2026_05_20_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP25-000041",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "92R Orchard Street (continued from April 15, 2026) – ZP25-000041: Bennie Ber, d/b/a NehKooDah seeks relief from SZO Section 10.2.2.d.iii, carport height limitations, which requires a Hardship Variance.",
+      "Source_File": "2026-05-20__2026_05_20_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP25-000042",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "92R Orchard Street (continued from April 15, 2026) – ZP25-000042: Bennie Ber, d/b/a NehKooDah seeks relief from SZO Section 14.1.7.b.ii, regarding further reducing nonconforming landscape and permeable area, which requires a Hardship Variance.",
+      "Source_File": "2026-05-20__2026_05_20_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP26-000007",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "29a Windsor Road – ZP26-000007: Claire Grace & Sasha Krushnic seek relief from SZO 2.4.3.d.v in order to install a heat pump that is less than 2 ft from a side property line.",
+      "Source_File": "2026-05-20__2026_05_20_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-20",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP26-000037",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "24 Berkeley Street – ZP26-000037: Thomas Higdon seeks an Administrative Appeal of the Building Official's issuance of Building Permits B25-001643 and B25-001644.",
+      "Source_File": "2026-05-20__2026_05_20_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
       "Committee_Name": "School Building Facilities and Maintenance Committee",
       "Meeting_Date": "2026-05-21",
       "Meeting_Time": "6:00 PM",
@@ -5204,6 +5310,66 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Practical solutions for clearing snow from schoolyard play surfaces",
       "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Land Use Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0327",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "29 registered voters requesting a Zoning Text Amendment to amend Zoning Ordinance Section 15.7.2.d Zoning Board of Appeals Board Rules.",
+      "Source_File": "2026-05-21__2026_05_21_land-use-committee-meeting__land-use-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Land Use Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0328",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "14 registered voters requesting a Zoning Text Amendment to amend Zoning Ordinance Section 12.2.2 regarding affordable dwelling units.",
+      "Source_File": "2026-05-21__2026_05_21_land-use-committee-meeting__land-use-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Land Use Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0329",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "14 registered voters requesting a Zoning Text Amendment to amend the Zoning Ordinance Section 3.1.12 Backyard Cottage.",
+      "Source_File": "2026-05-21__2026_05_21_land-use-committee-meeting__land-use-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Land Use Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0330",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "29 registered voters requesting a Zoning Text Amendment to amend Zoning Ordinance Section 3.1.12 Backyard Cottage.",
+      "Source_File": "2026-05-21__2026_05_21_land-use-committee-meeting__land-use-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Land Use Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0746",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval of the Urban Center Housing Tax Increment Financing (UCH-TIF) Zone, Plan, and Form of Agreement for Assembly Square and East Somerville.",
+      "Source_File": "2026-05-21__2026_05_21_land-use-committee-meeting__land-use-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Land Use Committee",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0860",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Land Use Committee Meeting of May 7, 2026.",
+      "Source_File": "2026-05-21__2026_05_21_land-use-committee-meeting__land-use-committee-meeting.pdf"
     },
     {
       "Committee_Name": "Somerville Planning Board",
