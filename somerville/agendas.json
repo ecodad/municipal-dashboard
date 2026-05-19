@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-18",
+    "processed_date": "2026-05-19",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -276,6 +276,26 @@
         "filename": "2026-05-28__2026_05_28_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 9
+      },
+      {
+        "filename": "2026-05-21__2026_05_21_board-elections-commissioners-annual-meeting__board-of-elections-commissioners-annual-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-05-21__2026_05_21_somerville-housing-authority-capen-court-corporation-meeting__somerville-housing-authority-capen-court-corporation-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-05-26__2026_05_26_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 1
+      },
+      {
+        "filename": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 16
       }
     ]
   },
@@ -879,6 +899,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/05/20/zoning-board-appeals-meeting"
     },
     {
+      "source_file": "2026-05-21__2026_05_21_board-elections-commissioners-annual-meeting__board-of-elections-commissioners-annual-meeting.pdf",
+      "occur_id": "2026_05_21_board-elections-commissioners-annual-meeting",
+      "committee_name": "Board of Elections Commissioners",
+      "meeting_date": "2026-05-21",
+      "meeting_time": "2:00 PM",
+      "location": "City Hall Committee Room 93 Highland Ave. Somerville , MA 02143 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/elections-commission-20260521-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/21/board-elections-commissioners-annual-meeting"
+    },
+    {
       "source_file": "2026-05-21__2026_05_21_land-use-committee-meeting__land-use-committee-meeting.pdf",
       "occur_id": "2026_05_21_land-use-committee-meeting",
       "committee_name": "Land Use Committee",
@@ -916,6 +949,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/housing-authority-20260521-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/21/housing-authority-meeting"
+    },
+    {
+      "source_file": "2026-05-21__2026_05_21_somerville-housing-authority-capen-court-corporation-meeting__somerville-housing-authority-capen-court-corporation-meeting.pdf",
+      "occur_id": "2026_05_21_somerville-housing-authority-capen-court-corporation-meeting",
+      "committee_name": "Somerville Housing Authority (SHA) Capen Court Corporation",
+      "meeting_date": "2026-05-21",
+      "meeting_time": "5:00 PM",
+      "location": "Mystic Activity Center 530 Mystic Avenue Somerville , MA 02145 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/housing-authority-20260521-capen-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/21/somerville-housing-authority-capen-court-corporation-meeting"
     },
     {
       "source_file": "2026-05-21__2026_05_21_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
@@ -981,6 +1027,32 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/conservation-20260526-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/26/conservation-commission-meeting"
+    },
+    {
+      "source_file": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf",
+      "occur_id": "2026_05_26_finance-committee-meeting",
+      "committee_name": "Finance Committee",
+      "meeting_date": "2026-05-26",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1408843&GUID=44E18104-5E1C-417D-9C08-BD7783A2F7FF",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/26/finance-committee-meeting"
+    },
+    {
+      "source_file": "2026-05-26__2026_05_26_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf",
+      "occur_id": "2026_05_26_canceled-urban-design-commission-meeting",
+      "committee_name": "Urban Design Commission",
+      "meeting_date": "2026-05-26",
+      "meeting_time": "6:00 PM",
+      "location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/urban-design-20260526-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/26/canceled-urban-design-commission-meeting"
     },
     {
       "source_file": "2026-05-28__2026_05_28_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf",
@@ -5548,6 +5620,56 @@
       "Source_File": "2026-05-20__2026_05_20_school-committee-finance-and-facilities-meeting-whole__school-committee-finance-and-facilities-meeting-of-the-whole.pdf"
     },
     {
+      "Committee_Name": "Board of Elections Commissioners",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "2:00 PM",
+      "Location": "Committee Room, City Hall",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Discussion and Acceptance of the Meeting of November 20, 2025, Minutes",
+      "Source_File": "2026-05-21__2026_05_21_board-elections-commissioners-annual-meeting__board-of-elections-commissioners-annual-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Elections Commissioners",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "2:00 PM",
+      "Location": "Committee Room, City Hall",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Election of Officers - Chairman and Secretary",
+      "Source_File": "2026-05-21__2026_05_21_board-elections-commissioners-annual-meeting__board-of-elections-commissioners-annual-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Elections Commissioners",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "2:00 PM",
+      "Location": "Committee Room, City Hall",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Old Business",
+      "Source_File": "2026-05-21__2026_05_21_board-elections-commissioners-annual-meeting__board-of-elections-commissioners-annual-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Elections Commissioners",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "2:00 PM",
+      "Location": "Committee Room, City Hall",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "New Business",
+      "Source_File": "2026-05-21__2026_05_21_board-elections-commissioners-annual-meeting__board-of-elections-commissioners-annual-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Elections Commissioners",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "2:00 PM",
+      "Location": "Committee Room, City Hall",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Election Staff",
+      "Source_File": "2026-05-21__2026_05_21_board-elections-commissioners-annual-meeting__board-of-elections-commissioners-annual-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Housing Authority",
       "Meeting_Date": "2026-05-21",
       "Meeting_Time": "5:00 PM",
@@ -6278,6 +6400,36 @@
       "Source_File": "2026-05-21__2026_05_21_school-building-facilities-and-maintenance-committee-meeting__school-building-facilities-and-maintenance-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Housing Authority (SHA) Capen Court Corporation",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "1a",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Meeting of SHA Capen Court Corporation – April 16, 2026.",
+      "Source_File": "2026-05-21__2026_05_21_somerville-housing-authority-capen-court-corporation-meeting__somerville-housing-authority-capen-court-corporation-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority (SHA) Capen Court Corporation",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "2a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Promissory note payment to Somerville Housing Authority.",
+      "Source_File": "2026-05-21__2026_05_21_somerville-housing-authority-capen-court-corporation-meeting__somerville-housing-authority-capen-court-corporation-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority (SHA) Capen Court Corporation",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-21__2026_05_21_somerville-housing-authority-capen-court-corporation-meeting__somerville-housing-authority-capen-court-corporation-meeting.pdf"
+    },
+    {
       "Committee_Name": "Urban Forestry Committee",
       "Meeting_Date": "2026-05-21",
       "Meeting_Time": "4:30 PM",
@@ -6438,6 +6590,16 @@
       "Source_File": "2026-05-21__2026_05_21_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Urban Design Commission",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting cancelled due to lack of business.",
+      "Source_File": "2026-05-26__2026_05_26_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "City of Somerville Conservation Commission",
       "Meeting_Date": "2026-05-26",
       "Meeting_Time": "7:00 PM",
@@ -6516,6 +6678,166 @@
       "Item_Type": "Approval/Minutes",
       "Agenda_Topic": "Approval of Minutes",
       "Source_File": "2026-05-26__2026_05_26_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Finance Committee Meeting of April 21, 2026. (ID # 26-0724)",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0378",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to accept and expend a $231,635 grant with no new match required, from the Massachusetts Executive Office of Public Safety and Security to the Police Department for a body-worn camera program.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0707",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to pay prior year invoices totaling $6,660 using available funds in the Police Department Maintenance Software Account for fingerprinting machine software.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0732",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to accept and expend an $11,000 grant and a $4,200 grant with no new match required, from the Department of Fire Services to the Fire Department for fire safety education and supplies for school children and senior citizens.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0733",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval of a transfer of $4,000 from the Community Preservation Act (CPA) Undesignated Fund Balance to the CPA Historic Preservation Reserve.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0738",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to establish an Arts Council Furniture Account and to use $2,000 in available funds from the Arts Council Professional & Technical Services Account to purchase new desks and chairs for staff.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0740",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval of a time-only contract extension until 5/22/2027 for the contract with UELContractors Inc. for the completion of improvements at Junction Park.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0745",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval of an amendment to the Assembly Square District Improvement Financing District Map and Program to include the Assembly Square Fire Station, 45 Middlesex Avenue, and improvements to the intersection of Middlesex Avenue and Mystic Avenue.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0763",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to enter into a 60-month contract renewal term with Waste Management of Massachusetts Inc. for solid waste disposal.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0803",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to appropriate $182,469 from the Opioid Recovery and Remediation Stabilization fund for the Healthcare for the Homeless program.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0807",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to appropriate $999,000 from the Facility Construction and Renovation Stabilization Fund to the Building Improvements Bond Fund to pay down building renovation expenses.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0808",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to appropriate $2,381,625 from the Street Reconstruction and Resurfacing Stabilization Fund to the Somerville Avenue Streetscape Bond Fund to pay down capital expenses.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0810",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to appropriate $320,000 from the Street Reconstruction and Resurfacing Stabilization Fund to the Union Square Streetscape and Plaza Bond Fund to pay down streetscape improvement expenses.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0818",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to appropriate $3,940,905 from the Street Reconstruction and Resurfacing Stabilization Fund to the Street Resurfacing Bond Fund to pay down street reconstruction and resurfacing expenses.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0819",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to appropriate $545,985 from the Capital Projects Stabilization Fund to Fire Pumper Bond Fund 51855 for the purposes of funding a new fire pumper.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-05-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0820",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval to appropriate $532,449 from the Capital Projects Stabilization Fund to the Fire Pumper Bond Fund 5187 for the purpose of funding a new fire pumper.",
+      "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
     },
     {
       "Committee_Name": "Fair Housing Commission",
