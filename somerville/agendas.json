@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-19",
+    "processed_date": "2026-05-20",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -296,6 +296,11 @@
         "filename": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 16
+      },
+      {
+        "filename": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf",
+        "status": "parsed",
+        "item_count": 12
       }
     ]
   },
@@ -910,6 +915,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/elections-commission-20260521-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/21/board-elections-commissioners-annual-meeting"
+    },
+    {
+      "source_file": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf",
+      "occur_id": "2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting",
+      "committee_name": "City of Somerville Job Creation & Retention Trust",
+      "meeting_date": "2026-05-21",
+      "meeting_time": "6:30 PM",
+      "location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/job-creation-and-retention-20260521-agenda_6.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/21/cancelled-municipal-job-creation-and-retention-board-trustees-meeting"
     },
     {
       "source_file": "2026-05-21__2026_05_21_land-use-committee-meeting__land-use-committee-meeting.pdf",
@@ -5668,6 +5686,126 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Election Staff",
       "Source_File": "2026-05-21__2026_05_21_board-elections-commissioners-annual-meeting__board-of-elections-commissioners-annual-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review and approval of past meeting minutes",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "1a",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Vote to approve April 16th meeting minutes",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Multi-Member Bodies Review Committee update",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Updates on Active Programs and Upcoming Programs",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "3a",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Vote to approve a no-cost extension for Bunker Hill Community College's Somerville English Language Learner Program through September 30, 2026.",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "3b",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Vote to approve scope amendment allowing Somerville Arts Council to re-enroll a Somerville resident from a previous Nibble Entrepreneurship Program cohort to participate in the Chef-in-Residency program.",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "3c",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Vote to approve no-cost extension for Just A Start's Adult Career Training Programs through September 30, 2026.",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review Received and Estimated Linkage Fees for 2026",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Mayor Wilson Presentation on Workforce Development Priorities",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Labor Market Information Presentation reflections",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review draft schedule for upcoming meeting topics and next request for proposals (RFP)",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-05-21",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Suite #211, Conference Room 2, 167-169 Holland St, Somerville, MA 02144",
+      "Item_Number": "8",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf"
     },
     {
       "Committee_Name": "Somerville Housing Authority",
