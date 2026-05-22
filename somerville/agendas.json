@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-20",
+    "processed_date": "2026-05-22",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -301,6 +301,16 @@
         "filename": "2026-05-21__2026_05_21_cancelled-municipal-job-creation-and-retention-board-trustees-meeting__cancelled-municipal-job-creation-and-retention-board-of-trus.pdf",
         "status": "parsed",
         "item_count": 12
+      },
+      {
+        "filename": "2026-05-27__2026_05_27_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
       }
     ]
   },
@@ -1071,6 +1081,32 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/urban-design-20260526-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/26/canceled-urban-design-commission-meeting"
+    },
+    {
+      "source_file": "2026-05-27__2026_05_27_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf",
+      "occur_id": "2026_05_27_community-preservation-committee-meeting",
+      "committee_name": "Community Preservation Committee",
+      "meeting_date": "2026-05-27",
+      "meeting_time": "6:30 PM",
+      "location": "The meeting will be held remotely.",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/community-preservation-20260527-agenda_0.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/27/community-preservation-committee-meeting"
+    },
+    {
+      "source_file": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf",
+      "occur_id": "2026_05_27_review-multiple-member-bodies-committee-meeting",
+      "committee_name": "Review of Multiple-Member Bodies Committee",
+      "meeting_date": "2026-05-27",
+      "meeting_time": "6:00 PM",
+      "location": "Remote participation via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/multiple-member-bodies-20260527-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/05/27/review-multiple-member-bodies-committee-meeting"
     },
     {
       "source_file": "2026-05-28__2026_05_28_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf",
@@ -6976,6 +7012,166 @@
       "Item_Type": "Other",
       "Agenda_Topic": "Requesting approval to appropriate $532,449 from the Capital Projects Stabilization Fund to the Fire Pumper Bond Fund 5187 for the purpose of funding a new fire pumper.",
       "Source_File": "2026-05-26__2026_05_26_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely.",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes from 2/25/2026, 3/25/2026, and 4/22/2026",
+      "Source_File": "2026-05-27__2026_05_27_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely.",
+      "Item_Number": "2.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review financial report",
+      "Source_File": "2026-05-27__2026_05_27_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely.",
+      "Item_Number": "2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review Program Goals and Potential FY27 uses of Admin Budget",
+      "Source_File": "2026-05-27__2026_05_27_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely.",
+      "Item_Number": "2.3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Vote on annual CPA budget",
+      "Source_File": "2026-05-27__2026_05_27_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely.",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Review EDFs and Screening form submissions",
+      "Source_File": "2026-05-27__2026_05_27_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "CALL TO ORDER",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call of the Roll",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "ADMINISTRATIVE ITEMS",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: AIDS Commission",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Gang Advisory Board",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Multicultural Affairs Commission",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Municipal Athletics Facilities Commission",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Recreation and Youth Commission",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1.6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: PILOT Advisory Task Force",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Staff presentation on Group 1 bodies",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-05-27",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "ADJOURNMENT",
+      "Source_File": "2026-05-27__2026_05_27_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
     },
     {
       "Committee_Name": "Fair Housing Commission",
