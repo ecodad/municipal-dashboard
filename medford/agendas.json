@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-26",
+    "processed_date": "2026-05-27",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -256,6 +256,11 @@
         "filename": "2026-05-27__24455__city-council-committee-of-the-whole-meeting.pdf",
         "status": "parsed",
         "item_count": 3
+      },
+      {
+        "filename": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
       }
     ]
   },
@@ -5899,6 +5904,76 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Annual Budget Process for FY2027 - Preliminary Budget Meeting #6",
       "Source_File": "2026-05-27__24455__city-council-committee-of-the-whole-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-06-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "1A",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review and approval of prior meeting Minutes",
+      "Source_File": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-06-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "1B",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "WWI Monument",
+      "Source_File": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-06-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "1C",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Garage / Service Bldg.",
+      "Source_File": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-06-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "1D",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Office / Caretaker's Quarters",
+      "Source_File": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-06-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New Business",
+      "Source_File": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-06-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Superintendent's Report",
+      "Source_File": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-06-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Next Meeting Date",
+      "Source_File": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf"
     }
   ],
   "meetings": [
@@ -6564,6 +6639,19 @@
       "agenda_url": "https://drive.google.com/file/d/1QK2ci_0NZtl7Qdwla5jMIkCAIprLAp5p/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24022"
+    },
+    {
+      "source_file": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf",
+      "occur_id": "24020",
+      "committee_name": "Oak Grove Cemetery Board of Trustees",
+      "meeting_date": "2026-06-09",
+      "meeting_time": "7:00 PM",
+      "location": "Remote meeting (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/16QYA_4v74uIH2M2rRgpbIlnMbhqGDCSj/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24020"
     }
   ]
 }

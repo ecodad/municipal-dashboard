@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-26",
+    "processed_date": "2026-05-27",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -321,6 +321,11 @@
         "filename": "2026-06-03__2026_06_03_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 9
+      },
+      {
+        "filename": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
       }
     ]
   },
@@ -1143,6 +1148,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/fair-housing-20260528-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/28/fair-housing-commission-meeting"
+    },
+    {
+      "source_file": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf",
+      "occur_id": "2026_06_02_traffic-commission-meeting",
+      "committee_name": "Traffic Commission",
+      "meeting_date": "2026-06-02",
+      "meeting_time": "5:30 PM",
+      "location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/89464062142)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/traffic-commission-20260602-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/02/traffic-commission-meeting"
     },
     {
       "source_file": "2026-06-03__2026_06_03_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
@@ -7948,6 +7966,76 @@
       "Item_Type": "Communication",
       "Agenda_Topic": "Announcements – The next meeting is scheduled for June 25, 2026 at 3:00 PM",
       "Source_File": "2026-05-28__2026_05_28_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/89464062142)",
+      "Item_Number": "0",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/89464062142)",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes from the May 14th, 2026 Traffic Commission Meeting.",
+      "Source_File": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/89464062142)",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for an accessible parking space at 50 Hanson Street.",
+      "Source_File": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/89464062142)",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for a fire lane on the even side of Central St from Somerville Ave to 52 ft. north of Somerville Ave.",
+      "Source_File": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/89464062142)",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for changes to curb regulations at 278-280 Highland Ave, 146-150 Highland Ave, and 147-149 Highland Ave, as detailed within, as part of the Highland Ave Clear Corners Implementation.",
+      "Source_File": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/89464062142)",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request to make permanent the current curb regulations of the Central Hill curbside management pilot, originally approved at the November 18, 2021 Traffic Commission meeting, as detailed within.",
+      "Source_File": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom (https://us02web.zoom.us/j/89464062142)",
+      "Item_Number": "6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for changes to the language of the Traffic Regulations Article XV Section 15-2.1, as detailed within.",
+      "Source_File": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf"
     },
     {
       "Committee_Name": "Somerville Human Rights Commission",
