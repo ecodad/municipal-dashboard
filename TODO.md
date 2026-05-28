@@ -53,12 +53,15 @@ and note any pain points or feature gaps that come up.
   but there's no automatic fallback to a different parser or OCR step.
   If the city ever switches to scanned agendas, we'd need to add OCR.
 
-- **`agenda_type=OTHER`** is currently a dead-end — the orchestrator
-  marks the meeting as `unsupported` and skips download. No alerting.
-  Today this never triggers because all observed agenda hosts are
-  CivicClerk / Google Doc / Google Drive / S3 / Legistar, but if a city
-  posts to some new system we'd silently lose that meeting until someone
-  reads the run summary.
+- **`agenda_type=OTHER` / Finalsite resource manager PDFs** — the
+  orchestrator marks `OTHER` as non-downloadable and skips it. Medford's
+  Zoning Board agendas are increasingly posted at
+  `medfordmaorg.finalsite.com/fs/resource-manager/view/<uuid>` (a
+  Finalsite document viewer). These URLs *are* real PDFs; we just don't
+  know the download endpoint pattern yet. Fix: probe the view URL for a
+  `Content-Type: application/pdf` response (or a redirect/canonical link
+  to the raw file), add `FINALSITE_PDF` to the `AgendaType` enum, and
+  add a simple HTTP-download path in `MedfordAdapter.download_agenda`.
 
 - **Synthesizer "Extra data" JSON parse error (mitigated, not root-caused).**
   On the first end-to-end Synthesizer run (2026-04-25), Sonnet emitted a
@@ -68,6 +71,17 @@ and note any pain points or feature gaps that come up.
     - Log when `raw_decode` silently drops trailing content.
     - Investigate whether this is a known issue with adaptive thinking
       + structured outputs on Sonnet 4.6, or specific to our prompt shape.
+
+- **Numeric sort breaks for Roman-numeral item numbers with decimal
+  sub-items.** `_item_sort_key` in `synthesizer.py` extracts only Arabic
+  digit runs, so Roman numeral prefixes (I, II, III, IV…) are invisible
+  to the sort. For an item like `"I.2"` the key is `((2,), "I.2")` and
+  for `"II.1"` it is `((1,), "II.1")` — causing `"II.1"` to sort before
+  `"I.2"` even though section II follows section I. The fix needs a
+  Roman-numeral parser as a primary sort tier before the Arabic-digit
+  extraction (e.g. detect a leading `I+|IV|VI*|IX|XI*|…` token, convert
+  to an integer, then fall through to the existing digit-tuple logic for
+  the sub-item portion).
 
 - **CivicClerk plain-text variant occasionally returns 0 bytes.** We
   catch this in the downloader and only raise on PDF format; text is

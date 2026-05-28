@@ -160,6 +160,27 @@ def agendas_json_for(adapter: CityAdapter) -> Path:
     return site_dir_for(adapter) / "agendas.json"
 
 
+# ---- Time formatting helpers ---------------------------------------------
+
+
+def _format_meeting_time(start: str) -> Optional[str]:
+    """Format ISO timestamp '2026-06-09T19:00' → '7:00 PM'.
+
+    Handles both timezone-naive ('2026-06-09T19:00') and timezone-aware
+    ('2026-06-09T19:00:00-04:00') forms by slicing the HH:MM part.
+    """
+    try:
+        hhmm = start[11:16]  # '19:00' from 'YYYY-MM-DDTHH:MM...'
+        if len(hhmm) != 5 or hhmm[2] != ":":
+            return None
+        hour, minute = int(hhmm[:2]), int(hhmm[3:])
+        ampm = "AM" if hour < 12 else "PM"
+        hour12 = hour % 12 or 12
+        return f"{hour12}:{minute:02d} {ampm}"
+    except (ValueError, IndexError):
+        return None
+
+
 # ---- Slugify + dedup -----------------------------------------------------
 
 
@@ -236,6 +257,57 @@ def _refresh_site_chrome(adapter: CityAdapter, *, verbose: bool = True) -> None:
             f"leaving {site_dir / 'branding.json'} unchanged.",
             file=sys.stderr,
         )
+
+
+def _write_window_meetings(
+    adapter: CityAdapter,
+    results: list["MeetingRunResult"],
+    *,
+    verbose: bool = True,
+) -> None:
+    """Persist all meetings from the current pipeline window into agendas.json.
+
+    Writes (or overwrites) the ``window_meetings`` key so the dashboard
+    can render upcoming meeting cards even for meetings whose agendas
+    haven't been posted yet.  Replaced on every run — stale entries
+    never accumulate.
+
+    Creates a minimal agendas.json skeleton if the file doesn't exist
+    yet (i.e. when ``--process`` wasn't used this run).
+    """
+    agendas_json = agendas_json_for(adapter)
+    if agendas_json.is_file():
+        data = json.loads(agendas_json.read_text(encoding="utf-8"))
+    else:
+        data = {
+            "metadata": {"processed_date": None, "documents_processed": []},
+            "meetings": [],
+            "items": [],
+        }
+
+    data["window_meetings"] = [
+        {
+            "occur_id": r.record.occur_id,
+            "title": r.record.title,
+            "start": r.record.start,
+            "date": r.record.start[:10],
+            "time": _format_meeting_time(r.record.start),
+            "location": r.record.location,
+            "detail_url": r.record.detail_url,
+            "agenda_url": r.record.agenda_url,
+            "agenda_type": r.record.agenda_type,
+            "has_zoom": r.record.zoom_url is not None,
+            "zoom_url": r.record.zoom_url,
+            "has_livestream": r.record.livestream_url is not None,
+            "pipeline_status": r.status,
+        }
+        for r in results
+    ]
+
+    agendas_json.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
 
 
 def _update_cities_registry(verbose: bool = True) -> None:
@@ -754,6 +826,9 @@ def main(argv: list[str] | None = None) -> int:
             )
             if stage_rc:
                 overall_failed += 1
+
+        if not args.dry_run:
+            _write_window_meetings(adapter, results, verbose=not args.json)
 
         if not args.no_chrome_refresh and not args.dry_run:
             _refresh_site_chrome(adapter, verbose=not args.json)

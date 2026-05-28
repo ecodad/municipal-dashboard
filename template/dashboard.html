@@ -902,6 +902,19 @@
     return meetings;
   }
 
+  // Returns the set of occur_id strings already covered by processed items[].
+  // A window_meetings entry whose occur_id is in this set won't be rendered
+  // as a standalone card since the meeting already appears via items.
+  function getCoveredOccurIds() {
+    const covered = new Set();
+    for (const m of (state.data.meetings || [])) {
+      // source_file pattern: '2026-06-09__24020__oak-grove-...'
+      const parts = (m.source_file || '').split('__');
+      if (parts.length >= 3) covered.add(parts[1]);
+    }
+    return covered;
+  }
+
   function agendaHref(meta, sourceFile) {
     if (!meta) return null;
     if (meta.agenda_url) return meta.agenda_url;
@@ -966,13 +979,40 @@
 
   function renderResults() {
     const filtered = state.data.items.filter(matchesFilters);
-    const meetings = groupByMeeting(filtered);
+    const itemMeetings = groupByMeeting(filtered);
+
+    // Merge in pipeline-window meetings that don't have parsed items yet.
+    // Skipped when any committee/type chip is active (those filters target
+    // items, not meeting titles, so showing unfiltered windows would
+    // be misleading). Search is applied against the meeting title.
+    const coveredOccurIds = getCoveredOccurIds();
+    const windowCards = (state.committees.size || state.types.size) ? [] :
+      (state.data.window_meetings || [])
+        .filter(wm => {
+          if (!inRange(wm.date)) return false;
+          if (coveredOccurIds.has(String(wm.occur_id))) return false;
+          if (state.search && !wm.title.toLowerCase().includes(state.search.toLowerCase())) return false;
+          return true;
+        })
+        .map(wm => ({
+          key: 'wm|' + wm.occur_id,
+          source_file: null,
+          committee: wm.title,
+          date: wm.date,
+          time: wm.time || '',
+          location: wm.location || null,
+          meta: wm,
+          items: [],
+        }));
+
+    const allMeetings = [...itemMeetings, ...windowCards];
+    allMeetings.sort((a, b) => a.date.localeCompare(b.date) || a.committee.localeCompare(b.committee));
 
     const c = $('#content');
-    if (!filtered.length) {
+    if (!allMeetings.length) {
       c.innerHTML = `<div class="empty"><strong>No agenda items match these filters.</strong><br>Try widening the time range or clearing filters.</div>`;
     } else {
-      c.innerHTML = meetings.map(renderMeetingCard).join('');
+      c.innerHTML = allMeetings.map(renderMeetingCard).join('');
       c.querySelectorAll('.meeting-head').forEach(el => {
         el.addEventListener('click', () => {
           el.parentElement.classList.toggle('collapsed');
@@ -982,7 +1022,7 @@
 
     $('#resultCount').textContent =
       filtered.length + ' item' + (filtered.length === 1 ? '' : 's') +
-      ' across ' + meetings.length + ' meeting' + (meetings.length === 1 ? '' : 's');
+      ' across ' + allMeetings.length + ' meeting' + (allMeetings.length === 1 ? '' : 's');
 
     const anyActive = state.committees.size || state.types.size || state.search || state.range !== 'week';
     $('#clearBtn').disabled = !anyActive;
@@ -998,17 +1038,18 @@
     if (isThisWeek) { badgeClass = 'this-week'; badgeText = 'This Week'; }
     else if (isUpcoming) { badgeClass = 'upcoming'; badgeText = 'Upcoming'; }
 
+    const hasItems = mt.items.length > 0;
     const cardClass = isPast ? 'past' : (isThisWeek ? 'this-week' : '');
     const collapsedClass = isPast ? ' collapsed' : '';
 
     const d = fmtIsoDate(mt.date);
-    const items = mt.items.map(it => `
+    const itemsHtml = hasItems ? `<ul class="items">${mt.items.map(it => `
       <li class="item-row">
         <span class="item-num">${escapeHtml(it.Item_Number)}</span>
         <span class="type-pill ${TYPE_CLASS[it.Item_Type] || 't-other'}">${escapeHtml(it.Item_Type)}</span>
         <span class="item-topic">${highlight(it.Agenda_Topic, state.search)}</span>
       </li>
-    `).join('');
+    `).join('')}</ul>` : '';
 
     const metaParts = [];
     if (mt.time) metaParts.push(`<strong>${escapeHtml(mt.time)}</strong>`);
@@ -1017,11 +1058,17 @@
       ? `<div class="meta-line">${metaParts.join('<span class="sep">·</span>')}</div>` : '';
     const attendanceRow = renderAttendanceRow(mt.meta, mt.source_file);
 
+    // Only show the expand/collapse toggle when there are items to show.
+    const toggleIcon = hasItems ? '<span class="toggle-icon">▾</span>' : '';
+    const headAttrs = hasItems
+      ? 'tabindex="0" role="button" aria-expanded="true"'
+      : 'tabindex="0"';
+
     return `
       <article class="meeting-card ${cardClass}${collapsedClass}">
-        <header class="meeting-head" tabindex="0" role="button" aria-expanded="${!collapsedClass}">
+        <header class="meeting-head" ${headAttrs}>
           <div>
-            <h2 class="committee">${escapeHtml(mt.committee)}<span class="toggle-icon">▾</span></h2>
+            <h2 class="committee">${escapeHtml(mt.committee)}${toggleIcon}</h2>
             ${metaLine}
             ${attendanceRow}
           </div>
@@ -1032,7 +1079,7 @@
             <div class="date-badge ${badgeClass}">${badgeText}</div>
           </div>
         </header>
-        <ul class="items">${items}</ul>
+        ${itemsHtml}
       </article>`;
   }
 
