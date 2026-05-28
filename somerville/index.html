@@ -351,6 +351,38 @@
   .clear-btn:hover { border-color: var(--brand-primary); color: var(--brand-primary); }
   .clear-btn[disabled] { opacity: .4; cursor: default; }
 
+  /* Collapsible chip filters (Committee, Type) */
+  .chip-filter { margin-top: 10px; }
+  .chip-filter + .row, .chip-filter + .chip-filter { margin-top: 10px; }
+  .chip-filter > summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    padding: 2px 0;
+  }
+  .chip-filter > summary::-webkit-details-marker { display: none; }
+  .chip-filter > summary:focus-visible {
+    outline: 2px solid var(--brand-primary);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  .chip-filter-meta {
+    font-size: 13px;
+    color: var(--ink-muted);
+  }
+  .chip-filter-chevron {
+    margin-left: auto;
+    color: var(--ink-muted);
+    font-size: 12px;
+    display: inline-block;
+    transition: transform .15s;
+  }
+  .chip-filter[open] > summary .chip-filter-chevron { transform: rotate(90deg); }
+  .chip-filter[open] > .chips { margin-top: 10px; }
+
   /* ---------------- Main grid ---------------- */
   main { max-width: 1180px; margin: 0 auto 80px; padding: 0 24px; }
 
@@ -698,13 +730,23 @@
       <button data-range="past" role="tab">Past</button>
     </div>
   </div>
-  <div class="row">
-    <span class="chips-label">Committee</span>
+  <details class="chip-filter committee-filter">
+    <summary>
+      <span class="chips-label">Committee</span>
+      <span class="chip-filter-meta" id="committeeSummaryMeta"></span>
+      <span class="chip-filter-chevron" aria-hidden="true">▸</span>
+    </summary>
     <div class="chips" id="committeeChips"></div>
-  </div>
-  <div class="row">
-    <span class="chips-label">Type</span>
+  </details>
+  <details class="chip-filter type-filter" open>
+    <summary>
+      <span class="chips-label">Type</span>
+      <span class="chip-filter-meta" id="typeSummaryMeta"></span>
+      <span class="chip-filter-chevron" aria-hidden="true">▸</span>
+    </summary>
     <div class="chips" id="typeChips"></div>
+  </details>
+  <div class="row">
     <div class="filter-actions">
       <span class="result-count" id="resultCount" aria-live="polite"></span>
       <button class="clear-btn" id="clearBtn" disabled>Clear filters</button>
@@ -975,6 +1017,24 @@
       `<button class="chip" data-kind="committee" data-value="${escapeHtml(c)}">${escapeHtml(c)}</button>`).join('');
     $('#typeChips').innerHTML = types.map(t =>
       `<button class="chip" data-kind="type" data-value="${escapeHtml(t)}">${escapeHtml(t)}</button>`).join('');
+    state.committeeCount = committees.length;
+    state.typeCount = types.length;
+    updateFilterSummary('committee');
+    updateFilterSummary('type');
+  }
+
+  const FILTER_SUMMARY = {
+    committee: { el: '#committeeSummaryMeta', countKey: 'committeeCount', setKey: 'committees', noun: 'committee' },
+    type:      { el: '#typeSummaryMeta',      countKey: 'typeCount',      setKey: 'types',      noun: 'type' },
+  };
+
+  function updateFilterSummary(kind) {
+    const cfg = FILTER_SUMMARY[kind];
+    const selected = state[cfg.setKey].size;
+    const total = state[cfg.countKey] || 0;
+    $(cfg.el).textContent = selected
+      ? `${selected} selected`
+      : `${total} ${cfg.noun}${total === 1 ? '' : 's'}`;
   }
 
   function renderResults() {
@@ -1104,6 +1164,8 @@
     state.search = '';
     $('#searchInput').value = '';
     document.querySelectorAll('.chip.active').forEach(c => c.classList.remove('active'));
+    updateFilterSummary('committee');
+    updateFilterSummary('type');
     setRange('week');
   }
 
@@ -1123,6 +1185,7 @@
         const val = chip.dataset.value;
         if (set.has(val)) { set.delete(val); chip.classList.remove('active'); }
         else { set.add(val); chip.classList.add('active'); }
+        updateFilterSummary(chip.dataset.kind);
         renderResults();
       });
     });
