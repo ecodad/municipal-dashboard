@@ -50,6 +50,7 @@ class AgendaType(str, enum.Enum):
     CIVICCLERK = "CIVICCLERK"
     GOOGLE_DOC = "GOOGLE_DOC"
     GOOGLE_DRIVE_FILE = "GOOGLE_DRIVE_FILE"
+    FINALSITE = "FINALSITE"
     OTHER = "OTHER"
     MISSING = "MISSING"
 
@@ -79,6 +80,8 @@ def _classify_agenda_url(url: Optional[str]) -> AgendaType:
         return AgendaType.GOOGLE_DOC
     if "drive.google.com/file" in url or "docs.google.com/file" in url:
         return AgendaType.GOOGLE_DRIVE_FILE
+    if "finalsite.com/fs/resource-manager" in url or "finalsite.net" in url:
+        return AgendaType.FINALSITE
     return AgendaType.OTHER
 
 

@@ -38,7 +38,8 @@ Everything downstream of the adapter is city-agnostic.
        ┌──────────────────────────────────────────────────────────────────┐
        │ Host-level downloaders (city-agnostic, reusable)                 │
        │   civicclerk_download.py  · google_download.py                   │
-       │   legistar_download.py  · s3_download.py  · granicus (later)     │
+       │   finalsite_download.py  · legistar_download.py                  │
+       │   s3_download.py  · granicus (later)                             │
        └──────────────────────────────────────────────────────────────────┘
                        │
                        │ PDFs in agendas/{date}__{occur_id}__{slug}.pdf
@@ -89,7 +90,7 @@ dashboard.
 | Module | Responsibility |
 |---|---|
 | `scraper/adapters/__init__.py` | Protocol + dataclasses + registry + `load_adapter(slug)`. |
-| `scraper/adapters/medford_ma.py` | `MedfordAdapter` — wraps Finalsite calendar + detail + dispatches to CivicClerk / Google host downloaders. |
+| `scraper/adapters/medford_ma.py` | `MedfordAdapter` — wraps Finalsite calendar + detail + dispatches to CivicClerk / Google / Finalsite-Resource-Manager host downloaders. |
 | `scraper/adapters/somerville_ma.py` | `SomervilleAdapter` — wraps Drupal calendar + detail + dispatches to Legistar / S3 host downloaders. |
 
 ### Host-level downloaders (city-agnostic)
@@ -98,6 +99,7 @@ dashboard.
 |---|---|---|---|
 | `scraper/civicclerk_download.py` | Download agendas from any CivicClerk tenant's OData API | Portal URL | PDF (default) or plain text |
 | `scraper/google_download.py` | Download Google Doc / Drive agendas | Share URL | PDF |
+| `scraper/finalsite_download.py` | Download agendas from any Finalsite Resource Manager / asset CDN | resource-manager view URL | PDF |
 | `scraper/legistar_download.py` | Download from any Legistar tenant via `View.ashx?M=A` | Legistar Gateway or View.ashx URL | PDF |
 | `scraper/s3_download.py` | Download public S3 PDFs (any tenant) | S3 object URL | PDF |
 

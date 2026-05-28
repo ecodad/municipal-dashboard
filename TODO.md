@@ -53,15 +53,22 @@ and note any pain points or feature gaps that come up.
   but there's no automatic fallback to a different parser or OCR step.
   If the city ever switches to scanned agendas, we'd need to add OCR.
 
-- **`agenda_type=OTHER` / Finalsite resource manager PDFs** — the
-  orchestrator marks `OTHER` as non-downloadable and skips it. Medford's
-  Zoning Board agendas are increasingly posted at
-  `medfordmaorg.finalsite.com/fs/resource-manager/view/<uuid>` (a
-  Finalsite document viewer). These URLs *are* real PDFs; we just don't
-  know the download endpoint pattern yet. Fix: probe the view URL for a
-  `Content-Type: application/pdf` response (or a redirect/canonical link
-  to the raw file), add `FINALSITE_PDF` to the `AgendaType` enum, and
-  add a simple HTTP-download path in `MedfordAdapter.download_agenda`.
+- ✅ **RESOLVED 2026-05-28 — Finalsite resource manager PDFs.** Medford
+  migrated agendas to `medfordmaorg.finalsite.com/fs/resource-manager/view/{uuid}`,
+  which were classified `OTHER` and skipped. The view URL 302-redirects to
+  a direct `resources.finalsite.net` PDF. Added `AgendaType.FINALSITE` +
+  classification (`event_detail_scrape.py`), a city-agnostic
+  `scraper/finalsite_download.py`, and dispatch in
+  `MedfordAdapter.download_agenda`. Verified end-to-end.
+
+- **Detail/calendar fetches have no retry — transient TLS drops become
+  silent `MISSING`.** `www.medfordma.org` intermittently throws
+  `SSLEOFError: UNEXPECTED_EOF_WHILE_READING`. `fetch_event_detail` and
+  `_fetch_calendar_page` make a single attempt; a transient drop
+  downgrades a meeting to `MISSING` (error captured in the run summary's
+  `adapter_payload.detail_fetch_error`) or aborts the whole run. Seen from
+  the local sandbox, not yet on the GH Actions runner. Fix: add a small
+  retry with backoff (2–3 attempts) to both fetchers.
 
 - **Synthesizer "Extra data" JSON parse error (mitigated, not root-caused).**
   On the first end-to-end Synthesizer run (2026-04-25), Sonnet emitted a

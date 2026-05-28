@@ -5,7 +5,42 @@
 > for "where we are right now"; the README is the public-facing project
 > overview.
 
-**Last updated:** 2026-05-01 (Phase 2 complete; two new bugs filed: Somerville logo + agenda sort order)
+**Last updated:** 2026-05-28 (Fixed Medford Finalsite Resource Manager agenda regression)
+
+## Medford Finalsite agenda regression (2026-05-28)
+
+**Symptom:** Medford dashboard showed no agenda topics; the daily run
+classified the Zoning Board agenda as `OTHER` (non-downloadable) and the
+rest as `MISSING`.
+
+**Root cause:** Medford migrated agenda hosting to its own Finalsite CMS
+**Resource Manager** (`medfordmaorg.finalsite.com/fs/resource-manager/view/{uuid}`,
+302-redirects to a `resources.finalsite.net` PDF). The detail scraper had
+no classification for it, so it fell through to `OTHER` and was skipped.
+The other ~10 "MISSING" meetings were **genuinely unposted** (their detail
+pages carried only a time and/or Zoom line — agendas post ~48h out), so
+that part was correct behavior, not a bug. There is **no early-exit** in
+the orchestrator — each meeting is processed independently
+(`process_meeting`), so a single bad agenda never blocks the others. The
+prior session's commit `f1becd5` fixed dashboard *display* of unposted
+meetings but not the actual download path.
+
+**Fix (this session):**
+- New `AgendaType.FINALSITE` + classification in `event_detail_scrape.py`.
+- New host downloader `scraper/finalsite_download.py` (city-agnostic;
+  follows the 302, validates `%PDF`). Mirrors `s3_download.py` shape.
+- `MedfordAdapter.download_agenda` dispatches `FINALSITE` to it.
+- Verified directly: Zoning page classifies `FINALSITE`; downloader
+  pulled a 189 KB valid PDF.
+
+**Also observed (NOT fixed):** `www.medfordma.org` intermittently drops
+the TLS handshake (`SSLEOFError`). The detail scraper has no retry, so a
+transient drop silently downgrades a meeting to `MISSING` (recorded in the
+run summary's `adapter_payload.detail_fetch_error`). Seen from the local
+sandbox only; not on the GitHub Actions runner. Candidate hardening filed
+in TODO.
+
+## (historical) Last updated 2026-05-01 — Phase 2 complete; two bugs filed: Somerville logo + agenda sort order
 
 ## What this project is
 

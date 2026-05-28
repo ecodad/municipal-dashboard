@@ -33,6 +33,10 @@ from ..event_detail_scrape import (
     EventDetailScrapeError,
     fetch_event_detail,
 )
+from ..finalsite_download import (
+    FinalsiteDownloadError,
+    download_finalsite_agenda,
+)
 from ..google_download import (
     GoogleDownloadError,
     download_google_agenda,
@@ -144,6 +148,21 @@ class MedfordAdapter:
                 path=res.path,
                 size_bytes=res.size_bytes,
                 source_url=res.download_url,
+            )
+
+        if meeting.agenda_type == MedfordAgendaType.FINALSITE.value:
+            try:
+                res = download_finalsite_agenda(
+                    url=meeting.agenda_url,
+                    dest_dir=dest_dir,
+                    filename_stem=filename_stem,
+                )
+            except FinalsiteDownloadError as err:
+                raise AdapterDownloadError(str(err)) from err
+            return AgendaDownloadResult(
+                path=res.path,
+                size_bytes=res.size_bytes,
+                source_url=res.source_url,
             )
 
         raise AdapterDownloadError(

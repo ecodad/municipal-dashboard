@@ -112,8 +112,31 @@ The agenda link is always one of these (or absent):
 | `CIVICCLERK` | `https://medfordma.portal.civicclerk.com/event/{event_id}/files/agenda/{file_id}` | City Council, Committee of the Whole |
 | `GOOGLE_DOC` | `https://docs.google.com/document/d/{ID}/edit?...` | Conservation Commission, Zoning Board (some) |
 | `GOOGLE_DRIVE_FILE` | `https://drive.google.com/file/d/{ID}/view?...` | MCHSBC, Retirement Board |
+| `FINALSITE` | `https://medfordmaorg.finalsite.com/fs/resource-manager/view/{uuid}` | Zoning Board and a growing share of boards/commissions (migrated 2026; see §4.5) |
 | `OTHER` | Anything else | Rare; surfaced but not auto-downloaded |
-| `MISSING` | No agenda link in description block | ~5% of meetings |
+| `MISSING` | No agenda link in description block | Common early in the lookahead window — agendas post ~48h before the meeting (MA Open Meeting Law) |
+
+⚠️ **2026-05 migration:** Medford began posting agendas to its own
+Finalsite CMS Resource Manager (`...finalsite.com/fs/resource-manager/view/{uuid}`)
+instead of (or alongside) CivicClerk/Google. These were being classified
+`OTHER` and silently skipped until the `FINALSITE` type + downloader were
+added. The agenda link still lives in the same `<p>Agenda: <a>…</a></p>`
+pattern, so detection is unchanged; only classification + download are new.
+
+⚠️ **Detail-page markup variance:** Some occurrences render the
+description inside `div.fsDescription`; others put the same content under
+`.fsEventDetails` with no `fsDescription` block. When there's no agenda
+posted yet, the page carries only a time and/or Zoom line. The parser
+keys off `div.fsDescription`; meetings without it (and without an agenda)
+correctly surface as `MISSING`.
+
+⚠️ **Flaky TLS observed (2026-05-28):** `www.medfordma.org` intermittently
+drops the TLS handshake (`SSLEOFError: UNEXPECTED_EOF_WHILE_READING`).
+The detail scraper has no retry, so a transient drop silently downgrades
+a meeting to `MISSING` (the error is recorded in the run summary's
+`adapter_payload.detail_fetch_error`). Seen from the local sandbox; not
+observed on the GitHub Actions runner. Candidate hardening: add a small
+retry/backoff to `fetch_event_detail` and `_fetch_calendar_page`.
 
 ---
 
@@ -181,6 +204,31 @@ GET https://drive.google.com/uc?export=download&id={FILE_ID}
 - Only works for files the city has shared **publicly** ("Anyone with link"). Any link with `?usp=sharing` typically qualifies.
 - Drive shows a "virus scan warning" interstitial for files >100 MB; we never see this with agenda-sized PDFs but the module would fail-loud if we did (the response body wouldn't have `%PDF` magic).
 - Google Doc exports support multiple formats: `pdf`, `txt`, `md`, `html`, `docx`. We currently use `pdf` for parity with the Parser pipeline; `md` could be a future optimization (in roadmap).
+
+---
+
+## 4.5. Finalsite Resource Manager (Medford board/commission agendas)
+
+| | |
+|---|---|
+| **View URL pattern** | `https://medfordmaorg.finalsite.com/fs/resource-manager/view/{uuid}` |
+| **Asset CDN (post-redirect)** | `https://resources.finalsite.net/images/v{ver}/medfordmaorg/{hash}/{Name}.pdf` |
+| **Used by** | `scraper/finalsite_download.py` |
+| **Auth** | None — fully public |
+| **Format** | PDF (`Content-Type: application/pdf`; ~150–250 KB typical) |
+| **Rate limit** | None observed |
+
+### Behavior we discovered
+
+- The `/fs/resource-manager/view/{uuid}` URL returns **HTTP 302** redirecting
+  to a direct PDF on `resources.finalsite.net`. `requests` follows it
+  transparently with `allow_redirects=True`.
+- Response bytes start with `%PDF-1.7` — we validate the magic number.
+- The downloader derives its output filename from the **final** (post-redirect)
+  URL's basename when no stem is supplied; the orchestrator passes an
+  explicit `{date}__{occur_id}__{slug}` stem so files dedup normally.
+- This is Medford's own CMS, so it's likely the most stable agenda host of
+  the four — but as with the calendar markup, it's a CMS contract, not an API.
 
 ---
 
