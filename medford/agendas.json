@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-27",
+    "processed_date": "2026-05-28",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -259,6 +259,11 @@
       },
       {
         "filename": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf",
         "status": "parsed",
         "item_count": 7
       }
@@ -5906,6 +5911,76 @@
       "Source_File": "2026-05-27__24455__city-council-committee-of-the-whole-meeting.pdf"
     },
     {
+      "Committee_Name": "City of Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "remotely via Zoom",
+      "Item_Number": "ZON26-000004",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "91 Watervale Road, Case#(ZON26-000004) – Continued from April 30, 2026. Applicants Patricia Wilder and Paulo Wilder for an Administrative Appeal of a Notice of Violation regarding the operation of business at 91 Watervale Road which is not allowed use in a Single Family Two Zoning District per the City of Medford Zoning Ordinance.",
+      "Source_File": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "remotely via Zoom",
+      "Item_Number": "ZON26-000007",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "114 Mystic Avenue, Case#(ZON26-000007). Applicants New England Organic, dba Victory Gardens seeking zoning relief for a Special Permit for Medical Cannabis Sales, Product Manufacturing, and Delivery Services to an existing approved cannabis dispensary at 114 Mystic Avenue requiring a Special Permit.",
+      "Source_File": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "remotely via Zoom",
+      "Item_Number": "ZON26-000011",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "387 Main Street, Case#(ZON26-000011). Applicant Darguin Fortuna for a proposed addition to 387-389 Main Street which is in a Commercial One (C1) Zoning District, requiring variance for Side Yard Setback and Off-Street Parking and Special Permits for expansion of non-conforming structure and to operate a café and indoor recreation space.",
+      "Source_File": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "remotely via Zoom",
+      "Item_Number": "ZON26-000013",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "31 Boynton Road, Case#(ZON26-000013). Applicant Jennifer Percy and Jordan Sherwood for a proposed 1.5-story addition to 31 Boynton Road in a Single Family One (SF-1) Zoning District, requiring a variance for Height.",
+      "Source_File": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "remotely via Zoom",
+      "Item_Number": "D",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Items not reasonably Anticipated by the Chair 48 hours in advance of Meeting",
+      "Source_File": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "remotely via Zoom",
+      "Item_Number": "E",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Administrative Updates including Approval of Meeting Minutes and Discussion of Rules",
+      "Source_File": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-05-28",
+      "Meeting_Time": "6:30 PM",
+      "Location": "remotely via Zoom",
+      "Item_Number": "F",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
       "Committee_Name": "Oak Grove Cemetery Board of Trustees",
       "Meeting_Date": "2026-06-09",
       "Meeting_Time": "7:00 PM",
@@ -6641,6 +6716,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24022"
     },
     {
+      "source_file": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf",
+      "occur_id": "24452",
+      "committee_name": "City of Medford Zoning Board of Appeals",
+      "meeting_date": "2026-05-28",
+      "meeting_time": "6:30 PM",
+      "location": "remotely via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://medfordmaorg.finalsite.com/fs/resource-manager/view/26b39968-7361-4098-8d4e-5848d63e9c50",
+      "agenda_type": "FINALSITE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24452"
+    },
+    {
       "source_file": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf",
       "occur_id": "24020",
       "committee_name": "Oak Grove Cemetery Board of Trustees",
@@ -6652,6 +6740,188 @@
       "agenda_url": "https://docs.google.com/document/d/16QYA_4v74uIH2M2rRgpbIlnMbhqGDCSj/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24020"
+    }
+  ],
+  "window_meetings": [
+    {
+      "occur_id": "24452",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-05-28T18:30:00-04:00",
+      "date": "2026-05-28",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24452",
+      "agenda_url": "https://medfordmaorg.finalsite.com/fs/resource-manager/view/26b39968-7361-4098-8d4e-5848d63e9c50",
+      "agenda_type": "FINALSITE",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/91222064272",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "23796",
+      "title": "Energy & Environment Committee Meeting",
+      "start": "2026-06-01T18:30:00-04:00",
+      "date": "2026-06-01",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23796",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "18399",
+      "title": "Affordable Housing Trust Board Meeting",
+      "start": "2026-06-03T18:00:00-04:00",
+      "date": "2026-06-03",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18399",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "11285",
+      "title": "Historical Commission Meeting",
+      "start": "2026-06-08T19:00:00-04:00",
+      "date": "2026-06-08",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/11285",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/96236192680",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "7619",
+      "title": "Traffic Commission Meeting",
+      "start": "2026-06-09T17:00:00-04:00",
+      "date": "2026-06-09",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/7619",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "12011",
+      "title": "Community Preservation Committee Meeting",
+      "start": "2026-06-09T18:30:00-04:00",
+      "date": "2026-06-09",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/12011",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "22916",
+      "title": "City Council Meeting",
+      "start": "2026-06-09T19:00:00-04:00",
+      "date": "2026-06-09",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22916",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "19005",
+      "title": "Community Garden Commission Meeting",
+      "start": "2026-06-09T19:00:00-04:00",
+      "date": "2026-06-09",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/19005",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "24020",
+      "title": "Oak Grove Cemetery Commission Meeting",
+      "start": "2026-06-09T19:00:00-04:00",
+      "date": "2026-06-09",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24020",
+      "agenda_url": "https://docs.google.com/document/d/16QYA_4v74uIH2M2rRgpbIlnMbhqGDCSj/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82759527480?pwd=aq96haWV872Y67mtZwIDuHV56xMHPo.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "22943",
+      "title": "City Council Planning and Permitting Committee Meeting",
+      "start": "2026-06-10T18:00:00-04:00",
+      "date": "2026-06-10",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22943",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "21240",
+      "title": "Medford High School Building Committee Meeting",
+      "start": "2026-06-10T18:30:00-04:00",
+      "date": "2026-06-10",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/21240",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "17043",
+      "title": "Historic District Commission Meeting",
+      "start": "2026-06-11T18:00:00-04:00",
+      "date": "2026-06-11",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/17043",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
