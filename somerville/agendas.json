@@ -331,6 +331,11 @@
         "filename": "2026-06-03__2026_06_03_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
         "status": "parsed",
         "item_count": 2
+      },
+      {
+        "filename": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
       }
     ]
   },
@@ -1192,6 +1197,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/zoning-20260603-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/03/zoning-board-appeals-meeting"
+    },
+    {
+      "source_file": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf",
+      "occur_id": "2026_06_04_planning-board-meeting",
+      "committee_name": "Somerville Planning Board",
+      "meeting_date": "2026-06-04",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/planning-20260604-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/04/planning-board-meeting"
     }
   ],
   "items": [
@@ -8164,6 +8182,116 @@
       "Item_Type": "Public Hearing",
       "Agenda_Topic": "39 Bartlett Street – ZP26-000025: Raymond and Barbara Estrella seek relief from SZO Section 10.2.1.e. for a shed not meeting setback requirements in the Neighborhood Residence (NR) zoning district, which requires a Hardship Variance.",
       "Source_File": "2026-06-03__2026_06_03_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of May 7, 2026",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Arts & Innovation District – Urban Design Framework Discussion with UDC",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "29 Mystic LLC v. Stella Moon LLC Court Order Discussion",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000097",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "32 Webster Avenue – 32 Webster Holdings LLC/Kinvarra Capital proposes to develop an Apartment Building in the Mid-Rise 4 (MR4) zoning district, which requires Site Plan Approval. (ZP25-000097) (continued to June 4, 2026)",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000108",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "32 Webster Avenue – 32 Webster Holdings LLC/Kinvarra Capital proposes to establish residential housing in the Mid-Rise 4 (MR4) zoning district, which requires a Special Permit. (ZP25-000108) (continued to June 4, 2026)",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000113",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway – Somerbridge Hotel LLC proposes a Major Revision to the previously Site Plan Approval case # P&Z 21-028 in the High Rise (HR) zoning district. (ZP25-000113) (request to continue to June 18, 2026)",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000114",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway – Somerbridge Hotel LLC proposes to establish a Hotel Use in the High-Rise (HR) zoning district, which requires a Special Permit. (ZP25-000114) (request to continue to June 18, 2026)",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000115",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway – Somerbridge Hotel LLC proposes to establish a Formula Business in the High-Rise (HR) zoning district, which requires a Special Permit. (ZP25-000115) (request to continue to June 18, 2026)",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP26-000008",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "222 Broadway – Mission Hill Donuts, LLC proposes to expand the hours of an existing nonconforming business in the Mid-Rise 5 (MR5) zoning district, which requires a Special Permit. (ZP26-000008) (continued to July 16, 2026)",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP26-000038",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "120 Middlesex Avenue – DWCH Assembly Row, LLC proposes to develop a 19-story lab building in the Assembly Square Mixed-Use District (ASMD), which requires Site Plan Approval. (ZP26-000038) (continued to June 4, 2026)",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP26-000040",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "32 Webster Avenue – 32 Webster Holdings LLC/Kinvarra Capital seeks to construct a mechanical penthouse that exceeds the maximum height in the Mid-Rise 4 (MR4) District, which requires a Special Permit. (ZP26-000040) (continued to June 4, 2026)",
+      "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
     }
   ],
   "window_meetings": [
@@ -8300,7 +8428,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_3t0AmLhxTn69CkLXUXlwjw",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_03_human-rights-commission-meeting",
@@ -8340,12 +8468,12 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/06/04/planning-board-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/planning-20260604-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_Qwmr2TqCRbicIRqAC-NZUw",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_04_city-council-meeting",

@@ -266,6 +266,16 @@
         "filename": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf",
         "status": "parsed",
         "item_count": 7
+      },
+      {
+        "filename": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
+        "status": "parsed",
+        "item_count": 10
+      },
+      {
+        "filename": "2026-06-01__24529__school-committee-meeting-executive-session.pdf",
+        "status": "parsed",
+        "item_count": 7
       }
     ]
   },
@@ -5981,6 +5991,176 @@
       "Source_File": "2026-05-28__24452__zoning-board-of-appeals-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll call",
+      "Source_File": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Project Updates and Follow-Ups",
+      "Source_File": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Medford Update on Capital Projects and Preliminary Estimate of Project Cost Impact",
+      "Source_File": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review PSR Cost Estimates for C2.2A and C3.4A",
+      "Source_File": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Project Timeline June 2026 - June 2027",
+      "Source_File": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Updated Evaluation Criteria Matrix",
+      "Source_File": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "7.A",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Life Cycle Cost Analysis (LCCA) Presentation",
+      "Source_File": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "8",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote Only",
+      "Item_Number": "9",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Upcoming Meetings: June 3, 2026 - Community Forum #5 at 6:30 pm; June 10, 2026 - MCHSBC Committee Meeting at 6:30 pm - select a single preferred option; June 18, 2026 - MCHSBC Committee Meeting at 6:30 pm - approve the PSR for submission",
+      "Source_File": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Remote Only Meeting",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call for Attendance of Members and Student Representatives",
+      "Source_File": "2026-06-01__24529__school-committee-meeting-executive-session.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Remote Only Meeting",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Salute the Flag",
+      "Source_File": "2026-06-01__24529__school-committee-meeting-executive-session.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Remote Only Meeting",
+      "Item_Number": "3.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Motion to enter into executive session pursuant to M.G.L. c. 30A §21(a)",
+      "Source_File": "2026-06-01__24529__school-committee-meeting-executive-session.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Remote Only Meeting",
+      "Item_Number": "3.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive session pursuant to G.L. c. 30A (a)(3): discuss collective bargaining with MTA regarding a teacher grievance",
+      "Source_File": "2026-06-01__24529__school-committee-meeting-executive-session.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Remote Only Meeting",
+      "Item_Number": "3.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive session pursuant to Chapter 30A section 21(2): strategy in preparation for negotiations with nonunion personnel, specifically Elementary Principals (4), Middle School Principals (2), Medford High School Principal, Executive Director of CTE, Assistant Superintendent of Academics and Instruction, Chief Operations Officer, Director of Student Services, and Director of Human Resources",
+      "Source_File": "2026-06-01__24529__school-committee-meeting-executive-session.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Remote Only Meeting",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Next Regular Meeting - June 8, 2026 - Alden Memorial Chambers, Medford City Hall in addition to zoom",
+      "Source_File": "2026-06-01__24529__school-committee-meeting-executive-session.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-01",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Remote Only Meeting",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-01__24529__school-committee-meeting-executive-session.pdf"
+    },
+    {
       "Committee_Name": "Oak Grove Cemetery Board of Trustees",
       "Meeting_Date": "2026-06-09",
       "Meeting_Time": "7:00 PM",
@@ -6729,6 +6909,32 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24452"
     },
     {
+      "source_file": "2026-06-01__24528__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
+      "occur_id": "24528",
+      "committee_name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "meeting_date": "2026-06-01",
+      "meeting_time": "7:00 PM",
+      "location": "Remote Only",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1RRGHXNg87nbqidfA_7StVlp_Z8eMG-M9/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24528"
+    },
+    {
+      "source_file": "2026-06-01__24529__school-committee-meeting-executive-session.pdf",
+      "occur_id": "24529",
+      "committee_name": "Medford School Committee",
+      "meeting_date": "2026-06-01",
+      "meeting_time": "5:00 PM",
+      "location": "Remote Only Meeting",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1hI9md-6XdTCOttwwT6VGM_vAZ2bLP4ap/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24529"
+    },
+    {
       "source_file": "2026-06-09__24020__oak-grove-cemetery-commission-meeting.pdf",
       "occur_id": "24020",
       "committee_name": "Oak Grove Cemetery Board of Trustees",
@@ -6756,6 +6962,21 @@
       "has_zoom": true,
       "zoom_url": "https://zoom.us/j/91222064272",
       "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "24529",
+      "title": "School Committee Meeting (Executive Session)",
+      "start": "2026-06-01T17:00:00-04:00",
+      "date": "2026-06-01",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24529",
+      "agenda_url": "https://drive.google.com/file/d/1hI9md-6XdTCOttwwT6VGM_vAZ2bLP4ap/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/92326185567?pwd=IrIUomNZpJmCPFCyam88XGU9jBzgON.1#success",
+      "has_livestream": false,
       "pipeline_status": "downloaded"
     },
     {
@@ -6772,6 +6993,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "24528",
+      "title": "Medford Comprehensive High School Building Committee (MCHSBC) Meeting",
+      "start": "2026-06-01T19:00:00-04:00",
+      "date": "2026-06-01",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24528",
+      "agenda_url": "https://drive.google.com/file/d/1RRGHXNg87nbqidfA_7StVlp_Z8eMG-M9/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/95935621298?pwd=m0csrsiFILOeX1Pq5RX4o0Cq2ZtLCh.1#success",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "18399",
