@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-28",
+    "processed_date": "2026-05-29",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -336,6 +336,11 @@
         "filename": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf",
         "status": "parsed",
         "item_count": 11
+      },
+      {
+        "filename": "2026-06-02__2026_06_02_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
       }
     ]
   },
@@ -1158,6 +1163,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/fair-housing-20260528-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/05/28/fair-housing-commission-meeting"
+    },
+    {
+      "source_file": "2026-06-02__2026_06_02_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf",
+      "occur_id": "2026_06_02_historic-preservation-commission-meeting",
+      "committee_name": "Historic Preservation Commission",
+      "meeting_date": "2026-06-02",
+      "meeting_time": "6:45 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Remote via Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/historic-preservation-20260602-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/02/historic-preservation-commission-meeting"
     },
     {
       "source_file": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf",
@@ -8004,6 +8022,76 @@
       "Source_File": "2026-05-28__2026_05_28_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Remote via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "17 Monmouth Street – Applicant Sanjay Kansagra seeks a recommendation from the Historic Preservation Commission for a lot split on a National Registrar of Historic Places property, as required by SZO 10.1.1.d.i.a",
+      "Source_File": "2026-06-02__2026_06_02_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Remote via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "CPC Update",
+      "Source_File": "2026-06-02__2026_06_02_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Remote via Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes: 4/21",
+      "Source_File": "2026-06-02__2026_06_02_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Remote via Zoom)",
+      "Item_Number": "HP26-000015",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP26-000015 – 282-284 McGrath Highway – Determination of Historic Significance; Applicant seeks to demolish a building constructed a minimum of 75 years ago.",
+      "Source_File": "2026-06-02__2026_06_02_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Remote via Zoom)",
+      "Item_Number": "HP26-000019",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP26-000019 – 65 Meacham Road – Certificate of Appropriateness to alter an LHD property by replacing an existing rear deck with a smaller deck in the same location.",
+      "Source_File": "2026-06-02__2026_06_02_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Remote via Zoom)",
+      "Item_Number": "HP26-000024",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP26-000024 – 158 Central Street – Certificate of Appropriateness to alter an LHD property by adding a shed to the backyard of the property visible from the public street.",
+      "Source_File": "2026-06-02__2026_06_02_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-02",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Remote via Zoom)",
+      "Item_Number": "HP26-000026",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP26-000026 – 42 Spring Street – Certificate of Appropriateness to alter an LHD property by adding a basement canopy, rear dormer pediment, and install a new driveway.",
+      "Source_File": "2026-06-02__2026_06_02_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Traffic Commission",
       "Meeting_Date": "2026-06-02",
       "Meeting_Time": "5:30 PM",
@@ -8296,51 +8384,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_05_28_metro-boston-homeland-security-regions-jpoc-meeting",
-      "title": "Metro Boston Homeland Security Region's JPOC Meeting",
-      "start": "2026-05-28T10:30:00-04:00",
-      "date": "2026-05-28",
-      "time": "10:30 AM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/05/28/metro-boston-homeland-security-regions-jpoc-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_05_28_fair-housing-commission-meeting",
-      "title": "Fair Housing Commission Meeting",
-      "start": "2026-05-28T15:00:00-04:00",
-      "date": "2026-05-28",
-      "time": "3:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/05/28/fair-housing-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/fair-housing-20260528-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/88916044032?pwd=6lumffhLYmaTrbmmsEG42sEiybxEca.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_05_28_city-council-meeting",
-      "title": "City Council Meeting",
-      "start": "2026-05-28T19:00:00-04:00",
-      "date": "2026-05-28",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/05/28/city-council-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1370383&GUID=636B6A6C-DDB8-45A4-BC83-E3FDBB262F17",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_06_01_confirmation-appointments-and-personnel-matters-committee-meeting",
       "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
       "start": "2026-06-01T18:00:00-04:00",
@@ -8371,21 +8414,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_02_combined-sewer-overflow-cso-control-plan-public-meeting",
-      "title": "Combined Sewer Overflow (CSO) Control Plan Public Meeting",
-      "start": "2026-06-02T18:00:00-04:00",
-      "date": "2026-06-02",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/02/combined-sewer-overflow-cso-control-plan-public-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://cbi-org.zoom.us/webinar/register/WN_jwEuHd3VRYW6sWlceXllVw#/registration",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_02_legislative-matters-committee-meeting",
       "title": "Legislative Matters Committee Meeting",
       "start": "2026-06-02T18:00:00-04:00",
@@ -8401,6 +8429,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_06_02_combined-sewer-overflow-cso-control-plan-public-meeting",
+      "title": "Combined Sewer Overflow (CSO) Control Plan Public Meeting",
+      "start": "2026-06-02T18:00:00-04:00",
+      "date": "2026-06-02",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/02/combined-sewer-overflow-cso-control-plan-public-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://cbi-org.zoom.us/webinar/register/WN_jwEuHd3VRYW6sWlceXllVw#/registration",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_06_02_historic-preservation-commission-meeting",
       "title": "Historic Preservation Commission Meeting",
       "start": "2026-06-02T18:45:00-04:00",
@@ -8408,12 +8451,12 @@
       "time": "6:45 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/06/02/historic-preservation-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/historic-preservation-20260602-agenda.pdf",
+      "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_AAo0yA3VRDeu36fc8par8A",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_03_zoning-board-appeals-meeting",
@@ -8461,21 +8504,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_04_planning-board-meeting",
-      "title": "Planning Board Meeting",
-      "start": "2026-06-04T18:00:00-04:00",
-      "date": "2026-06-04",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/04/planning-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/planning-20260604-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_Qwmr2TqCRbicIRqAC-NZUw",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_06_04_city-council-meeting",
       "title": "City Council Meeting",
       "start": "2026-06-04T18:00:00-04:00",
@@ -8521,21 +8549,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_09_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-06-09T18:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/09/urban-design-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_09_finance-committee-meeting",
       "title": "Finance Committee Meeting",
       "start": "2026-06-09T18:00:00-04:00",
@@ -8545,6 +8558,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/09/finance-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413142&GUID=86D6B251-FF1C-4157-8F03-DB3DFBB57C8E",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_09_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-06-09T18:00:00-04:00",
+      "date": "2026-06-09",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/09/urban-design-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
