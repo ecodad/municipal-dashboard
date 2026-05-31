@@ -100,7 +100,7 @@ jobs:
                            | awk -F/ '/^[^.]+\/agendas\.json$/{print $1}' \
                            | sort -u | paste -sd, -)
           NEW_ARCHIVED=$(git diff --cached --name-only \
-                         | grep -E '^[^/]+/archived/' | wc -l)
+                         | grep -cE '^[^/]+/archived/' || true)
 
           git commit -m "chore(agendas): scheduled refresh $(date -u +%F)" \
                      -m "Cities touched: ${CITIES_TOUCHED:-(none)}" \
