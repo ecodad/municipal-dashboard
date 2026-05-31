@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-29",
+    "processed_date": "2026-05-31",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -341,6 +341,11 @@
         "filename": "2026-06-02__2026_06_02_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 7
+      },
+      {
+        "filename": "2026-06-03__2026_06_03_school-building-facilities-and-maintenance-committee-meeting__school-building-facilities-and-maintenance-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -1189,6 +1194,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/traffic-commission-20260602-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/02/traffic-commission-meeting"
+    },
+    {
+      "source_file": "2026-06-03__2026_06_03_school-building-facilities-and-maintenance-committee-meeting__school-building-facilities-and-maintenance-committee-meeting.pdf",
+      "occur_id": "2026_06_03_school-building-facilities-and-maintenance-committee-meeting",
+      "committee_name": "School Building Facilities and Maintenance Committee",
+      "meeting_date": "2026-06-03",
+      "meeting_time": "7:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417285&GUID=70856DA4-8F9E-4DB5-BDFE-784327F853FE",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/03/school-building-facilities-and-maintenance-committee-meeting"
     },
     {
       "source_file": "2026-06-03__2026_06_03_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
@@ -8252,6 +8270,66 @@
       "Source_File": "2026-06-03__2026_06_03_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-06-03",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the School Building Facilities and Maintenance Committee Meeting of May 21, 2026.",
+      "Source_File": "2026-06-03__2026_06_03_school-building-facilities-and-maintenance-committee-meeting__school-building-facilities-and-maintenance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-06-03",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0063",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "That the Commissioner of Public Works and the Director of Engineering explore the feasibility of establishing a teen center at the Cummings School, accessible via School Street, considering current building uses and provide this Council with an analysis on space availability, operational considerations, community impacts, and potential next steps.",
+      "Source_File": "2026-06-03__2026_06_03_school-building-facilities-and-maintenance-committee-meeting__school-building-facilities-and-maintenance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-06-03",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0135",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "That the Director of Infrastructure and Asset Management update this Council on when the school buildings maintenance project website will be available.",
+      "Source_File": "2026-06-03__2026_06_03_school-building-facilities-and-maintenance-committee-meeting__school-building-facilities-and-maintenance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-06-03",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0839",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "That the Commissioner of Public Works provide an update to this Council on improvements made to custodial staffing at the East Somerville Community School.",
+      "Source_File": "2026-06-03__2026_06_03_school-building-facilities-and-maintenance-committee-meeting__school-building-facilities-and-maintenance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-06-03",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0841",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "That the Commissioner of Public Works provide an update on the improvements made to the temperature in the Edgerly Education Center Cafetorium and kitchen following the installation of the air conditioning unit.",
+      "Source_File": "2026-06-03__2026_06_03_school-building-facilities-and-maintenance-committee-meeting__school-building-facilities-and-maintenance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Building Facilities and Maintenance Committee",
+      "Meeting_Date": "2026-06-03",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0842",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "That the Director of Public Space and Urban Forestry consider snow clearing requirements to maintain inclusive winter use when selecting turf materials for the new Kennedy School inclusive playground.",
+      "Source_File": "2026-06-03__2026_06_03_school-building-facilities-and-maintenance-committee-meeting__school-building-facilities-and-maintenance-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Zoning Board of Appeals",
       "Meeting_Date": "2026-06-03",
       "Meeting_Time": "6:00 PM",
@@ -8456,7 +8534,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_AAo0yA3VRDeu36fc8par8A",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_03_zoning-board-appeals-meeting",
@@ -8501,7 +8579,22 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_06_04_planning-board-meeting",
+      "title": "Planning Board Meeting",
+      "start": "2026-06-04T18:00:00-04:00",
+      "date": "2026-06-04",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/04/planning-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/planning-20260604-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_Qwmr2TqCRbicIRqAC-NZUw",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_04_city-council-meeting",
@@ -8549,21 +8642,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_09_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-09T18:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/09/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413142&GUID=86D6B251-FF1C-4157-8F03-DB3DFBB57C8E",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_09_urban-design-commission-meeting",
       "title": "Urban Design Commission Meeting",
       "start": "2026-06-09T18:00:00-04:00",
@@ -8573,6 +8651,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/09/urban-design-commission-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_09_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-09T18:00:00-04:00",
+      "date": "2026-06-09",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/09/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413142&GUID=86D6B251-FF1C-4157-8F03-DB3DFBB57C8E",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
