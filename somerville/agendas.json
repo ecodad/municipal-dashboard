@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-05-31",
+    "processed_date": "2026-06-01",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -346,6 +346,16 @@
         "filename": "2026-06-03__2026_06_03_school-building-facilities-and-maintenance-committee-meeting__school-building-facilities-and-maintenance-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-06-03__2026_06_03_housing-authority-special-board-meeting__housing-authority-special-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 14
       }
     ]
   },
@@ -1209,6 +1219,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/03/school-building-facilities-and-maintenance-committee-meeting"
     },
     {
+      "source_file": "2026-06-03__2026_06_03_housing-authority-special-board-meeting__housing-authority-special-board-meeting.pdf",
+      "occur_id": "2026_06_03_housing-authority-special-board-meeting",
+      "committee_name": "Somerville Housing Authority",
+      "meeting_date": "2026-06-03",
+      "meeting_time": "12:00 PM",
+      "location": "Virtual via GoToMeeting",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/housing-authority-20260603-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/03/housing-authority-special-board-meeting"
+    },
+    {
       "source_file": "2026-06-03__2026_06_03_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
       "occur_id": "2026_06_03_human-rights-commission-meeting",
       "committee_name": "Somerville Human Rights Commission",
@@ -1233,6 +1256,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/zoning-20260603-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/03/zoning-board-appeals-meeting"
+    },
+    {
+      "source_file": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
+      "occur_id": "2026_06_04_bicycle-advisory-committee-meeting",
+      "committee_name": "Somerville Bicycle Advisory Committee",
+      "meeting_date": "2026-06-04",
+      "meeting_time": "6:30 PM",
+      "location": "Tufts Administration Building Atrium Room 203M 167 Holland Street Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/bicycle-advisory-20260604-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/04/bicycle-advisory-committee-meeting"
     },
     {
       "source_file": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf",
@@ -8180,6 +8216,36 @@
       "Source_File": "2026-06-02__2026_06_02_traffic-commission-meeting__traffic-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-03",
+      "Meeting_Time": "12:00 PM",
+      "Location": "Virtual via GoToMeeting",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "MEETING CALLED TO ORDER",
+      "Source_File": "2026-06-03__2026_06_03_housing-authority-special-board-meeting__housing-authority-special-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-03",
+      "Meeting_Time": "12:00 PM",
+      "Location": "Virtual via GoToMeeting",
+      "Item_Number": "1a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Authorization to apply for the Executive Office of Housing and Livable Communities (EOHLC) Creative Place-Making Award (NOFA EOHLC2026-64) (ROLL CALL)",
+      "Source_File": "2026-06-03__2026_06_03_housing-authority-special-board-meeting__housing-authority-special-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-03",
+      "Meeting_Time": "12:00 PM",
+      "Location": "Virtual via GoToMeeting",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "ADJOURNMENT (ROLL CALL)",
+      "Source_File": "2026-06-03__2026_06_03_housing-authority-special-board-meeting__housing-authority-special-board-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Human Rights Commission",
       "Meeting_Date": "2026-06-03",
       "Meeting_Time": "6:30 PM",
@@ -8348,6 +8414,146 @@
       "Item_Type": "Public Hearing",
       "Agenda_Topic": "39 Bartlett Street – ZP26-000025: Raymond and Barbara Estrella seek relief from SZO Section 10.2.1.e. for a shed not meeting setback requirements in the Neighborhood Residence (NR) zoning district, which requires a Hardship Variance.",
       "Source_File": "2026-06-03__2026_06_03_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll call and meeting logistics",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "1.2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of April meeting minutes",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "1.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "New member recruitment",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "1.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Google Drive migration",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "2.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Broadway-Magoun Project",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Elm-Beacon Connector Project final design",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "2.3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public comment (Evaluation and Engineering)",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "3.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Debrief: Mass Senior Action Council and Spanish Mobility Workshop",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "3.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Safe Routes to School partnership",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "3.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Carnaval",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "3.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Other outreach events/updates",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "3.5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public comment (Outreach and Engagement)",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "4.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "City update",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144 (Hybrid meeting)",
+      "Item_Number": "4.2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public Comment (City Updates)",
+      "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
     },
     {
       "Committee_Name": "Somerville Planning Board",
@@ -8537,6 +8743,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_06_03_housing-authority-special-board-meeting",
+      "title": "Housing Authority Special Board Meeting",
+      "start": "2026-06-03T12:00:00-04:00",
+      "date": "2026-06-03",
+      "time": "12:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/03/housing-authority-special-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/housing-authority-20260603-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_06_03_zoning-board-appeals-meeting",
       "title": "Zoning Board of Appeals Meeting",
       "start": "2026-06-03T18:00:00-04:00",
@@ -8579,7 +8800,22 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_04_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-06-04T18:00:00-04:00",
+      "date": "2026-06-04",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/04/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1411113&GUID=DE6387F9-37F3-441E-AB83-153278959D23",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_06_04_planning-board-meeting",
@@ -8597,19 +8833,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_04_city-council-meeting",
-      "title": "City Council Meeting",
-      "start": "2026-06-04T18:00:00-04:00",
+      "occur_id": "2026_06_04_bicycle-advisory-committee-meeting",
+      "title": "Bicycle Advisory Committee Meeting",
+      "start": "2026-06-04T18:30:00-04:00",
       "date": "2026-06-04",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/04/city-council-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1411113&GUID=DE6387F9-37F3-441E-AB83-153278959D23",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
+      "time": "6:30 PM",
+      "location": "Tufts Administration Building Atrium Room 203M 167 Holland Street Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/04/bicycle-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/bicycle-advisory-20260604-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/86580969623?pwd=K6XTxt6n8w6x2JjwxArQ6fwzmebRnS.1",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_08_school-building-committee-special-meeting",
@@ -8681,8 +8917,8 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/10/finance-committee-meeting-fy27-public-budget-hearing",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413141&GUID=3D44C031-0A3F-4DF0-93A8-B81C240D2AE1",
       "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_hrfgBfsFTSWBHAhWmeQb0A",
       "has_livestream": false,
       "pipeline_status": "missing"
     },
@@ -8696,6 +8932,66 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/11/city-council-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1370384&GUID=CA7522C5-5C7E-4FCF-A25B-F0A3417D02B4",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_15_school-committee-rules-management-subcommittee-meeting",
+      "title": "School Committee Rules Management Subcommittee Meeting",
+      "start": "2026-06-15T17:30:00-04:00",
+      "date": "2026-06-15",
+      "time": "5:30 PM",
+      "location": "City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/school-committee-rules-management-subcommittee-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_15_confirmation-appointments-and-personnel-matters-committee-meeting",
+      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
+      "start": "2026-06-15T18:00:00-04:00",
+      "date": "2026-06-15",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/confirmation-appointments-and-personnel-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417984&GUID=5E2B9E1C-E9D1-49D8-9865-0CBD22EF1A59",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_15_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-15T18:00:00-04:00",
+      "date": "2026-06-15",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413147&GUID=166E5AE8-AA79-4CF8-9824-5250C2790165",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_15_school-committee-regular-meeting",
+      "title": "School Committee Regular Meeting",
+      "start": "2026-06-15T19:00:00-04:00",
+      "date": "2026-06-15",
+      "time": "7:00 PM",
+      "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/school-committee-regular-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
