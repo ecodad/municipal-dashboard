@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-01",
+    "processed_date": "2026-06-02",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -356,6 +356,16 @@
         "filename": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 14
+      },
+      {
+        "filename": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
+      },
+      {
+        "filename": "2026-06-04__2026_06_04_veterans-commission-meeting__veterans-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
       }
     ]
   },
@@ -1258,6 +1268,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/03/zoning-board-appeals-meeting"
     },
     {
+      "source_file": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf",
+      "occur_id": "2026_06_04_city-council-meeting",
+      "committee_name": "City Council",
+      "meeting_date": "2026-06-04",
+      "meeting_time": "6:00 PM",
+      "location": "City Council Chamber and Remote Participation",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1411113&GUID=DE6387F9-37F3-441E-AB83-153278959D23",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/04/city-council-meeting"
+    },
+    {
       "source_file": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
       "occur_id": "2026_06_04_bicycle-advisory-committee-meeting",
       "committee_name": "Somerville Bicycle Advisory Committee",
@@ -1282,6 +1305,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/planning-20260604-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/04/planning-board-meeting"
+    },
+    {
+      "source_file": "2026-06-04__2026_06_04_veterans-commission-meeting__veterans-commission-meeting.pdf",
+      "occur_id": "2026_06_04_veterans-commission-meeting",
+      "committee_name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "meeting_date": "2026-06-04",
+      "meeting_time": "4:30 PM",
+      "location": "Virtual",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/veterans-20260604-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/04/veterans-commission-meeting"
     }
   ],
   "items": [
@@ -8556,6 +8592,106 @@
       "Source_File": "2026-06-04__2026_06_04_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call (ID # 26-0976) - Call of the Roll.",
+      "Source_File": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0948",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request - Requesting the approval of the expenditure limitations for departmental Revolving Funds for Fiscal Year 2027.",
+      "Source_File": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0950",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request - Requesting the appropriation of $376,778,493 to fund the Fiscal Year 2027 General Fund Operating Budget.",
+      "Source_File": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0953",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request - Requesting the appropriation of $794,782 to fund the Fiscal Year 2027 Kennedy School Pool Enterprise Fund budget.",
+      "Source_File": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0954",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request - Requesting the appropriation of $237,500 to fund the Fiscal Year 2027 Dilboy Fields Enterprise Fund Budget.",
+      "Source_File": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0968",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request - Requesting the appropriation or reserve of $8,367,344 in estimated Fiscal Year 2027 Community Preservation Act (CPA) revenue for CPA projects and expenses.",
+      "Source_File": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0969",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request - Requesting the appropriation of $86,200 from the Dilboy Fields Enterprise Fund Retained Earnings Account to subsidize the Fiscal Year 2027 Dilboy Fields Enterprise Fund Budget.",
+      "Source_File": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0970",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request - Requesting the appropriation of $238,791 from the Kennedy School Pool Enterprise Fund Retained Earnings to support the Fiscal Year 2027 Kennedy School Pool Enterprise Fund Budget.",
+      "Source_File": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0974",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Officer's Communication - Superintendent of Schools conveying the School Department budget for Fiscal Year 2027.",
+      "Source_File": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0975",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Officer's Communication - School Committee Chair conveying the School Department budget for Fiscal Year 2027, approved by the School Committee Finance and Facilities Subcommittee on May 20, 2026.",
+      "Source_File": "2026-06-04__2026_06_04_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Planning Board",
       "Meeting_Date": "2026-06-04",
       "Meeting_Time": "6:00 PM",
@@ -8664,24 +8800,89 @@
       "Item_Type": "Public Hearing",
       "Agenda_Topic": "32 Webster Avenue – 32 Webster Holdings LLC/Kinvarra Capital seeks to construct a mechanical penthouse that exceeds the maximum height in the Mid-Rise 4 (MR4) District, which requires a Special Permit. (ZP26-000040) (continued to June 4, 2026)",
       "Source_File": "2026-06-04__2026_06_04_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call meeting to order",
+      "Source_File": "2026-06-04__2026_06_04_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-06-04__2026_06_04_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approve Prior Month's Minutes: 04/02/2026",
+      "Source_File": "2026-06-04__2026_06_04_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "4a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Hero Square Dedications",
+      "Source_File": "2026-06-04__2026_06_04_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "4b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Monuments & Memorials",
+      "Source_File": "2026-06-04__2026_06_04_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "4c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Events",
+      "Source_File": "2026-06-04__2026_06_04_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "4d",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion: Open to guests/public comments",
+      "Source_File": "2026-06-04__2026_06_04_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-06-04",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-04__2026_06_04_veterans-commission-meeting__veterans-commission-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_06_01_confirmation-appointments-and-personnel-matters-committee-meeting",
-      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
-      "start": "2026-06-01T18:00:00-04:00",
-      "date": "2026-06-01",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/01/confirmation-appointments-and-personnel-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1408844&GUID=AC2549DB-F07D-4E21-AB5A-5AF3B3633629",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
     {
       "occur_id": "2026_06_02_traffic-commission-meeting",
       "title": "Traffic Commission Meeting",
@@ -8755,7 +8956,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_03_zoning-board-appeals-meeting",
@@ -8803,19 +9004,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_04_city-council-meeting",
-      "title": "City Council Meeting",
-      "start": "2026-06-04T18:00:00-04:00",
+      "occur_id": "2026_06_04_veterans-commission-meeting",
+      "title": "Veterans’ Commission Meeting",
+      "start": "2026-06-04T16:30:00-04:00",
       "date": "2026-06-04",
-      "time": "6:00 PM",
+      "time": "4:30 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/04/city-council-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1411113&GUID=DE6387F9-37F3-441E-AB83-153278959D23",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/04/veterans-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/veterans-20260604-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_1zacyQiOQyGHNqHW8ESttw",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_04_planning-board-meeting",
@@ -8833,6 +9034,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_06_04_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-06-04T18:00:00-04:00",
+      "date": "2026-06-04",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/04/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1411113&GUID=DE6387F9-37F3-441E-AB83-153278959D23",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_06_04_bicycle-advisory-committee-meeting",
       "title": "Bicycle Advisory Committee Meeting",
       "start": "2026-06-04T18:30:00-04:00",
@@ -8845,7 +9061,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/86580969623?pwd=K6XTxt6n8w6x2JjwxArQ6fwzmebRnS.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_08_school-building-committee-special-meeting",
@@ -8878,21 +9094,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_09_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-06-09T18:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/09/urban-design-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_09_finance-committee-meeting",
       "title": "Finance Committee Meeting",
       "start": "2026-06-09T18:00:00-04:00",
@@ -8902,6 +9103,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/09/finance-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413142&GUID=86D6B251-FF1C-4157-8F03-DB3DFBB57C8E",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_09_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-06-09T18:00:00-04:00",
+      "date": "2026-06-09",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/09/urban-design-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -8953,21 +9169,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_15_confirmation-appointments-and-personnel-matters-committee-meeting",
-      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
-      "start": "2026-06-15T18:00:00-04:00",
-      "date": "2026-06-15",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/15/confirmation-appointments-and-personnel-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417984&GUID=5E2B9E1C-E9D1-49D8-9865-0CBD22EF1A59",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_15_finance-committee-meeting",
       "title": "Finance Committee Meeting",
       "start": "2026-06-15T18:00:00-04:00",
@@ -8976,6 +9177,21 @@
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/06/15/finance-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413147&GUID=166E5AE8-AA79-4CF8-9824-5250C2790165",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_15_confirmation-appointments-and-personnel-matters-committee-meeting",
+      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
+      "start": "2026-06-15T18:00:00-04:00",
+      "date": "2026-06-15",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/confirmation-appointments-and-personnel-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417984&GUID=5E2B9E1C-E9D1-49D8-9865-0CBD22EF1A59",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
@@ -8994,6 +9210,36 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_16_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-16T18:00:00-04:00",
+      "date": "2026-06-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/16/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416236&GUID=9F319FB7-3A46-41B6-A951-BFDE731F3BBC",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_16_historic-preservation-commission-meeting",
+      "title": "Historic Preservation Commission Meeting",
+      "start": "2026-06-16T18:45:00-04:00",
+      "date": "2026-06-16",
+      "time": "6:45 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/16/historic-preservation-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_z1TzsXgpQq-1xEPPFr6-mQ",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
