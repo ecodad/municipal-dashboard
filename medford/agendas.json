@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-03",
+    "processed_date": "2026-06-04",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -311,6 +311,21 @@
         "filename": "2026-06-09__24682__community-preservation-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 8
+      },
+      {
+        "filename": "2026-06-08__24749__school-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 24
+      },
+      {
+        "filename": "2026-06-08__24750__community-garden-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-06-10__24748__board-of-assessors-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -6746,6 +6761,296 @@
       "Source_File": "2026-06-08__24746__historical-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "IV.1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Consent Agenda - Approval of Bills and Payrolls",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VI.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Mustang Moment",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "IV.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Consent Agenda - Approval of Donation: $100.00 Impact Church Donation to McGlynn Library",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VI.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Recognition of SEPAC Retirements - Dr. Suzanne B. Galusi, Superintendent and Ms. Joan Bowen, Director of Student Services",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "IV.3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Consent Agenda - Approval of Meeting Minutes: Regular Meeting - May 18, 2026",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VI.3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Recognition of Medford Public Schools Retirements and Employee Anniversaries - Dr. Suzanne B. Galusi, Superintendent",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VI.4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Medford Public Schools and Tufts University Honor Marie Cassidy, founder of the Medford Family Network - Dr. Suzanne B. Galusi, Superintendent and Mr. Rocco DiRicio, Associate Vice President of Government & Community Relations, Tufts University",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VI.5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Recommendation to Approve Donation to the Medford Family Network by Tufts University on behalf of the Medford Public Schools",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VI.6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Recommendation to Approve Amended SY26-27 MPS District Calendar - Dr. Suzanne B. Galusi, Superintendent",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VI.7",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Recommendation to Approve Updated Medford Public Schools Handbooks - Dr. Suzanne B. Galusi, Superintendent",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "2026-12",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Update to Policy JJH Student Travel - Offered by Member Reinfeld & Member Ruseau (addition of 'out-of-state' to first sentence; addition of extenuating circumstances protocol)",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "2026-13",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution to Establish a Special Education Reserve Fund for Medford - Offered by Member Parks",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "I",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call for Attendance of Members and Student Representatives",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "II",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Salute the Flag",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "III",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session - Collective bargaining strategy with MTA regarding a teacher grievance (G.L. c. 30A §21(a)(3))",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "III",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session - Collective bargaining strategy with Teamsters Local 25 regarding an administrator grievance (G.L. c. 30A §21(a)(3))",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "III",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session - Strategy in preparation for contract negotiations with nonunion personnel including Assistant Superintendent of Academics and Instruction, Chief Operations Officer, Director of Student Services, and Director of Human Resources (Chapter 30A Section 21(2))",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "IX",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Continued Business",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "V",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of Subcommittees",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VII",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Presentations of the Student Advisory Council",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "VIII",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Presentations of the Public (not to begin before 7:00 pm)",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "XI",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Reports Requested",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "XII",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Condolences to the family of Maureen Hennigan, dedicated member of Medford Public Schools for 28 years",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "XIV",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-08__24749__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Study Room 4",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Introductions and Check Ins",
+      "Source_File": "2026-06-08__24750__community-garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Study Room 4",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Update on Barry Park Garden Build",
+      "Source_File": "2026-06-08__24750__community-garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Study Room 4",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Commission Membership: seeking new members and clarification on voting status of Garden Reps",
+      "Source_File": "2026-06-08__24750__community-garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Study Room 4",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Popup Garden",
+      "Source_File": "2026-06-08__24750__community-garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-06-08",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford Public Library Study Room 4",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New business",
+      "Source_File": "2026-06-08__24750__community-garden-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Oak Grove Cemetery Board of Trustees",
       "Meeting_Date": "2026-06-09",
       "Meeting_Time": "7:00 PM",
@@ -6894,6 +7199,56 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-06-09__24682__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "26-23",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review of Minutes from meetings on May 6th, 2026",
+      "Source_File": "2026-06-10__24748__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "26-24",
+      "Item_Type": "Other",
+      "Agenda_Topic": "FY2026 Preliminary Warrant and Commitment, Real Estate, CPA and Personal Property",
+      "Source_File": "2026-06-10__24748__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "26-25",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Motor Vehicle Excise Commitment 2026-3",
+      "Source_File": "2026-06-10__24748__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "26-26",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Motor Vehicle Excise Review of Abatements",
+      "Source_File": "2026-06-10__24748__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "26-27",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session for Review of FY26 RE Abatement applications and Appellate Tax Board Docket",
+      "Source_File": "2026-06-10__24748__board-of-assessors-meeting.pdf"
     }
   ],
   "meetings": [
@@ -7665,6 +8020,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24527"
     },
     {
+      "source_file": "2026-06-08__24750__community-garden-commission-meeting.pdf",
+      "occur_id": "24750",
+      "committee_name": "Medford Community Garden Commission",
+      "meeting_date": "2026-06-08",
+      "meeting_time": "7:00 PM",
+      "location": "Medford Public Library Study Room 4",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1OS9RGLxmm0E2H7lTeNejPxnVnnU3lmSM/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24750"
+    },
+    {
       "source_file": "2026-06-08__24746__historical-commission-meeting.pdf",
       "occur_id": "24746",
       "committee_name": "Medford Historical Commission",
@@ -7676,6 +8044,19 @@
       "agenda_url": "https://drive.google.com/file/d/1pUZMYM_SfNSxTnQuNQozAZc9qW4U5AO5/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24746"
+    },
+    {
+      "source_file": "2026-06-08__24749__school-committee-meeting.pdf",
+      "occur_id": "24749",
+      "committee_name": "Medford School Committee",
+      "meeting_date": "2026-06-08",
+      "meeting_time": "5:00 PM",
+      "location": "City Hall Council Chambers",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1ua4XeDztwdTM0FXP8W1voahqGuUjfEGv/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24749"
     },
     {
       "source_file": "2026-06-09__24682__community-preservation-committee-meeting.pdf",
@@ -7702,53 +8083,51 @@
       "agenda_url": "https://docs.google.com/document/d/16QYA_4v74uIH2M2rRgpbIlnMbhqGDCSj/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24020"
+    },
+    {
+      "source_file": "2026-06-10__24748__board-of-assessors-meeting.pdf",
+      "occur_id": "24748",
+      "committee_name": "Medford Board of Assessors",
+      "meeting_date": "2026-06-10",
+      "meeting_time": "4:00 PM",
+      "location": "City Hall - Room 109",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1KCnG82JYbTz0PLRPpa9nGcgSnJ3E3cUH/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24748"
     }
   ],
   "window_meetings": [
     {
-      "occur_id": "24527",
-      "title": "Joint Meeting of the Medford City Council and Community Development Board",
-      "start": "2026-06-03T18:00:00-04:00",
-      "date": "2026-06-03",
-      "time": "6:00 PM",
+      "occur_id": "24749",
+      "title": "School Committee Meeting",
+      "start": "2026-06-08T17:00:00-04:00",
+      "date": "2026-06-08",
+      "time": "5:00 PM",
       "location": "City Hall Council Chambers",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24527",
-      "agenda_url": "https://medfordma.portal.civicclerk.com/event/466/files/agenda/892",
-      "agenda_type": "CIVICCLERK",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/85064877467?pwd=Y7kudvqNbaSNa9M0IJExcRZp2ysUBd.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "24530",
-      "title": "Conservation Commission Meeting",
-      "start": "2026-06-03T18:30:00-04:00",
-      "date": "2026-06-03",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24530",
-      "agenda_url": "https://docs.google.com/document/d/1vfLBxwHelCdTv0cwjg9SOUi5zmnVPwGN/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/82928229310",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "24531",
-      "title": "Bicycle Advisory Commission Meeting",
-      "start": "2026-06-03T19:00:00-04:00",
-      "date": "2026-06-03",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24531",
-      "agenda_url": "https://drive.google.com/file/d/14jXtcUdV151TV1tY5SAIWHU5pJ_isb_v/view?usp=sharing",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24749",
+      "agenda_url": "https://drive.google.com/file/d/1ua4XeDztwdTM0FXP8W1voahqGuUjfEGv/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
-      "zoom_url": "https://us06.zoom.us/j/87538063188",
+      "zoom_url": "https://mps02155-org.zoom.us/j/91349440286?pwd=rcAwhZVNRxmX1PuxtVbrqW6rmVsy0t.1#success",
       "has_livestream": false,
-      "pipeline_status": "skipped_existing"
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "24750",
+      "title": "Community Garden Commission Meeting",
+      "start": "2026-06-08T19:00:00-04:00",
+      "date": "2026-06-08",
+      "time": "7:00 PM",
+      "location": "Medford Public Library Study Room 4",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24750",
+      "agenda_url": "https://docs.google.com/document/d/1OS9RGLxmm0E2H7lTeNejPxnVnnU3lmSM/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/86337844393",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "24746",
@@ -7763,7 +8142,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/82632918053",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "7619",
@@ -7793,7 +8172,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/85954896952",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "22916",
@@ -7841,6 +8220,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "24748",
+      "title": "Board of Assessors Meeting",
+      "start": "2026-06-10T16:00:00-04:00",
+      "date": "2026-06-10",
+      "time": "4:00 PM",
+      "location": "City Hall - Room 109",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24748",
+      "agenda_url": "https://drive.google.com/file/d/1KCnG82JYbTz0PLRPpa9nGcgSnJ3E3cUH/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/84738394119",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "22943",
       "title": "City Council Planning and Permitting Committee Meeting",
       "start": "2026-06-10T18:00:00-04:00",
@@ -7878,6 +8272,21 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/17043",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "24747",
+      "title": "Joint Meeting of the Medford City Council and Community Development Board",
+      "start": "2026-06-11T18:00:00-04:00",
+      "date": "2026-06-11",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24747",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
