@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-04",
+    "processed_date": "2026-06-05",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -411,6 +411,11 @@
         "filename": "2026-06-18__2026_06_18_land-use-committee-meeting__land-use-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 3
+      },
+      {
+        "filename": "2026-06-10__2026_06_10_finance-committee-meeting-fy27-public-budget-hearing__finance-committee-meeting-fy27-public-budget-hearing.pdf",
+        "status": "parsed",
+        "item_count": 2
       }
     ]
   },
@@ -1454,6 +1459,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/urban-design-20260609-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/09/canceled-urban-design-commission-meeting"
+    },
+    {
+      "source_file": "2026-06-10__2026_06_10_finance-committee-meeting-fy27-public-budget-hearing__finance-committee-meeting-fy27-public-budget-hearing.pdf",
+      "occur_id": "2026_06_10_finance-committee-meeting-fy27-public-budget-hearing",
+      "committee_name": "Finance Committee",
+      "meeting_date": "2026-06-10",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413141&GUID=3D44C031-0A3F-4DF0-93A8-B81C240D2AE1",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/10/finance-committee-meeting-fy27-public-budget-hearing"
     },
     {
       "source_file": "2026-06-11__2026_06_11_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf",
@@ -9634,6 +9652,26 @@
       "Source_File": "2026-06-09__2026_06_09_finance-committee-meeting__finance-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-06-10__2026_06_10_finance-committee-meeting-fy27-public-budget-hearing__finance-committee-meeting-fy27-public-budget-hearing.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1.1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0950) – Requesting the appropriation of $376,778,493 to fund the Fiscal Year 2027 General Fund Operating Budget.",
+      "Source_File": "2026-06-10__2026_06_10_finance-committee-meeting-fy27-public-budget-hearing__finance-committee-meeting-fy27-public-budget-hearing.pdf"
+    },
+    {
       "Committee_Name": "Somerville Affordable Housing Trust Fund",
       "Meeting_Date": "2026-06-11",
       "Meeting_Time": "5:15 PM",
@@ -9716,66 +9754,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_06_04_veterans-commission-meeting",
-      "title": "Veterans’ Commission Meeting",
-      "start": "2026-06-04T16:30:00-04:00",
-      "date": "2026-06-04",
-      "time": "4:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/04/veterans-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/veterans-20260604-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_1zacyQiOQyGHNqHW8ESttw",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_04_planning-board-meeting",
-      "title": "Planning Board Meeting",
-      "start": "2026-06-04T18:00:00-04:00",
-      "date": "2026-06-04",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/04/planning-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-05/planning-20260604-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_Qwmr2TqCRbicIRqAC-NZUw",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_04_city-council-meeting-fy27-budget-presentation",
-      "title": "City Council Meeting (FY27 Budget Presentation)",
-      "start": "2026-06-04T18:00:00-04:00",
-      "date": "2026-06-04",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/04/city-council-meeting-fy27-budget-presentation",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1411113&GUID=DE6387F9-37F3-441E-AB83-153278959D23",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_06_04_bicycle-advisory-committee-meeting",
-      "title": "Bicycle Advisory Committee Meeting",
-      "start": "2026-06-04T18:30:00-04:00",
-      "date": "2026-06-04",
-      "time": "6:30 PM",
-      "location": "Tufts Administration Building Atrium Room 203M 167 Holland Street Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/06/04/bicycle-advisory-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/bicycle-advisory-20260604-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/86580969623?pwd=K6XTxt6n8w6x2JjwxArQ6fwzmebRnS.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_06_08_school-building-committee-special-meeting",
       "title": "School Building Committee Special Meeting",
       "start": "2026-06-08T16:30:00-04:00",
@@ -9788,7 +9766,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/83644589557?pwd=wjLoWj5saJrTpbZeOkbVds0zcBGhS0.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_08_human-rights-commission-information-and-advocacy-subcommittee-meeting",
@@ -9803,7 +9781,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/87432872347?pwd=pQjrod7O5M5wf3Eb3o0dRvxDmMuDDG.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_08_school-committee-regular-meeting",
@@ -9818,7 +9796,7 @@
       "has_zoom": true,
       "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_u8Awy93fR6OhvC37Xib1zg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_09_finance-committee-meeting",
@@ -9833,7 +9811,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_09_canceled-urban-design-commission-meeting",
@@ -9863,7 +9841,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_EQxJGH9qTAa-MCTd2WQxkw",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_10_finance-committee-meeting-fy27-public-budget-hearing",
@@ -9878,7 +9856,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_hrfgBfsFTSWBHAhWmeQb0A",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_11_affordable-housing-trust-meeting",
@@ -10001,21 +9979,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_17_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting",
       "title": "School Committee Finance and Facilities Subcommittee Meeting",
       "start": "2026-06-17T18:00:00-04:00",
@@ -10057,6 +10020,21 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_aFuUgxMqTym3ntPRvg6fVA",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_17_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-17T18:00:00-04:00",
+      "date": "2026-06-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     },
@@ -10103,7 +10081,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     }
   ]
 }
