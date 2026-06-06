@@ -9167,7 +9167,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/83131897196?pwd=yQdyvjxLwbdclah61yjb6SbHKYfvTj.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "24752",
@@ -9182,7 +9182,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/85063113426?pwd=CgScQuVAZvWTxY25PZrI6fPMa8ZzUW.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "24682",
@@ -9212,7 +9212,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/85063113426?pwd=CgScQuVAZvWTxY25PZrI6fPMa8ZzUW.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "19005",
@@ -9272,7 +9272,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/6752348629?pwd=c0QPICRxCfKT8S9rXWMYejb9CGkiVu.1&omn=84883703271",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "21240",
@@ -9317,7 +9317,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/87089845662?pwd=pirzukYvFIwelhoSsXbV1FKwuFMuYw.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "22944",

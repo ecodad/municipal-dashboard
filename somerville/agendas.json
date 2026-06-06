@@ -9799,21 +9799,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_09_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-09T18:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/09/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413142&GUID=86D6B251-FF1C-4157-8F03-DB3DFBB57C8E",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_06_09_canceled-urban-design-commission-meeting",
       "title": "CANCELED: Urban Design Commission Meeting",
       "start": "2026-06-09T18:00:00-04:00",
@@ -9823,6 +9808,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/09/canceled-urban-design-commission-meeting",
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/urban-design-20260609-agenda.pdf",
       "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_09_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-09T18:00:00-04:00",
+      "date": "2026-06-09",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/09/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413142&GUID=86D6B251-FF1C-4157-8F03-DB3DFBB57C8E",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -9856,7 +9856,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_hrfgBfsFTSWBHAhWmeQb0A",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_11_affordable-housing-trust-meeting",
@@ -9904,21 +9904,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_15_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-15T18:00:00-04:00",
-      "date": "2026-06-15",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/15/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413147&GUID=166E5AE8-AA79-4CF8-9824-5250C2790165",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_15_confirmation-appointments-and-personnel-matters-committee-meeting",
       "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
       "start": "2026-06-15T18:00:00-04:00",
@@ -9927,6 +9912,21 @@
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/06/15/confirmation-appointments-and-personnel-matters-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417984&GUID=5E2B9E1C-E9D1-49D8-9865-0CBD22EF1A59",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_15_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-15T18:00:00-04:00",
+      "date": "2026-06-15",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413147&GUID=166E5AE8-AA79-4CF8-9824-5250C2790165",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
@@ -9979,6 +9979,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_06_17_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-17T18:00:00-04:00",
+      "date": "2026-06-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting",
       "title": "School Committee Finance and Facilities Subcommittee Meeting",
       "start": "2026-06-17T18:00:00-04:00",
@@ -10020,21 +10035,6 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_aFuUgxMqTym3ntPRvg6fVA",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_06_17_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     },
