@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-05",
+    "processed_date": "2026-06-08",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -351,6 +351,11 @@
         "filename": "2026-06-11__24747__joint-meeting-of-the-medford-city-council-and-community-deve.pdf",
         "status": "parsed",
         "item_count": 4
+      },
+      {
+        "filename": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
       }
     ]
   },
@@ -8026,6 +8031,106 @@
       "Source_File": "2026-06-09__24827__traffic-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll call",
+      "Source_File": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes for Jun 1, 2026",
+      "Source_File": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of April 2026 and May 2026 Invoices",
+      "Source_File": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Evaluation Matrix Review, Feedback, and Amendment",
+      "Source_File": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Summary of Community Feedback regarding preferred option",
+      "Source_File": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "5.A",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public Comment",
+      "Source_File": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "6",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PSR Preferred Option Review and Vote",
+      "Source_File": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "PSR Next Steps",
+      "Source_File": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Upcoming Meetings",
+      "Source_File": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-10",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "9",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford Board of Assessors",
       "Meeting_Date": "2026-06-10",
       "Meeting_Time": "4:00 PM",
@@ -9095,6 +9200,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24748"
     },
     {
+      "source_file": "2026-06-10__21240__medford-high-school-building-committee-meeting.pdf",
+      "occur_id": "21240",
+      "committee_name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "meeting_date": "2026-06-10",
+      "meeting_time": "6:30 PM",
+      "location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/119cFWV4K7K6kxjw7XP6RV0zz4V01sK9I/view",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/21240"
+    },
+    {
       "source_file": "2026-06-11__24747__joint-meeting-of-the-medford-city-council-and-community-deve.pdf",
       "occur_id": "24747",
       "committee_name": "Medford City Council",
@@ -9215,21 +9333,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "19005",
-      "title": "Community Garden Commission Meeting",
-      "start": "2026-06-09T19:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/19005",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "24020",
       "title": "Oak Grove Cemetery Commission Meeting",
       "start": "2026-06-09T19:00:00-04:00",
@@ -9282,12 +9385,12 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/21240",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://drive.google.com/file/d/119cFWV4K7K6kxjw7XP6RV0zz4V01sK9I/view",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/98163210823?pwd=rbb6UzeBJsKkMuaAobQZJ90dv9c4JQ.1#success",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "17043",
@@ -9357,6 +9460,21 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/20877",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "21241",
+      "title": "Medford High School Building Committee Meeting",
+      "start": "2026-06-22T18:30:00-04:00",
+      "date": "2026-06-22",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/21241",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
