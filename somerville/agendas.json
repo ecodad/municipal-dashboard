@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-08",
+    "processed_date": "2026-06-09",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -421,6 +421,16 @@
         "filename": "2026-06-10__2026_06_10_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
         "status": "parsed",
         "item_count": 10
+      },
+      {
+        "filename": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf",
+        "status": "parsed",
+        "item_count": 87
+      },
+      {
+        "filename": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
       }
     ]
   },
@@ -1492,6 +1502,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/10/commission-persons-disabilities-meeting"
     },
     {
+      "source_file": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf",
+      "occur_id": "2026_06_11_city-council-meeting",
+      "committee_name": "City Council",
+      "meeting_date": "2026-06-11",
+      "meeting_time": "7:00 PM",
+      "location": "City Council Chamber and Remote Participation",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1370384&GUID=CA7522C5-5C7E-4FCF-A25B-F0A3417D02B4",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/11/city-council-meeting"
+    },
+    {
       "source_file": "2026-06-11__2026_06_11_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf",
       "occur_id": "2026_06_11_affordable-housing-trust-meeting",
       "committee_name": "Somerville Affordable Housing Trust Fund",
@@ -1503,6 +1526,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/affordable-housing-20260611-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/11/affordable-housing-trust-meeting"
+    },
+    {
+      "source_file": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
+      "occur_id": "2026_06_17_zoning-board-appeals-meeting",
+      "committee_name": "Zoning Board of Appeals",
+      "meeting_date": "2026-06-17",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/zoning-20260617-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/zoning-board-appeals-meeting"
     },
     {
       "source_file": "2026-06-18__2026_06_18_land-use-committee-meeting__land-use-committee-meeting.pdf",
@@ -9840,6 +9876,966 @@
       "Source_File": "2026-06-11__2026_06_11_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
     },
     {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Reports of Committees.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "11",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0868",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval to pay prior year invoices totaling $2,500 using available funds in the Parks & Recreation Department Professional Services Account for removal and storage of floating docks at the Blessing of the Bay boathouse.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0877",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval to increase the Somertime Revolving Account Expenditure Limit for Fiscal Year 2026.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0878",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval of the Surveillance Technology Impact Report for the Smart Tree Inventory.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0915",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request for appropriation of $15,015 from the Salary Contingency Account to the Police Department Personal Services Salary Account to fund a Collective Bargaining Agreement with the Somerville Police Superior Officers Association.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0936",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Communication conveying the updated 2025 Surveillance Technology Annual Report.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0944",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor Scott that the Chief of Police provide documentation in writing regarding the circumstances surrounding cyclist traffic enforcement in Union Square on the morning of May 28.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0949",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval to increase the Special Event Revolving Fund Expenditure Limit for FY 2026.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0951",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $39,633,688 to fund the Fiscal Year 2027 Sewer Enterprise Fund budget.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0952",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $24,672,499 to fund the Fiscal Year 2027 Water Enterprise Fund budget.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0957",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $2,500,000 from the Facility Construction and Renovation Stabilization Fund for replacement of the Department of Public Works building roof at 1 Franey Road.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0958",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $2,000,000 from the Facility Construction and Renovation Stabilization Fund for replacement of the West Somerville Neighborhood School roof.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0959",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $900,000 from the Facility Renovation Stabilization Fund to convert existing space at the Healey School into five functional classrooms.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0960",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $500,000 from the Facility Construction and Renovation Stabilization Fund to replace the boilers at the Argenziano School.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0961",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval of a transfer of $1,676,728 from the Salary Contingency Account-Salaries to the Salary & Wage Stabilization Fund.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0962",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $16,000,000 from the Sewer Enterprise Retained Earnings Account to the Sewer Capital Stabilization Fund.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0963",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $2,000,000 from the Water Enterprise Retained Earnings Account to the Water Capital Stabilization Fund.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0964",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $6,600,000 from the Unreserved Fund Balance to the Facility Renovation and Reconstruction Stabilization Fund to support the 5-Year Capital Investment Plan.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0965",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $7,150,000 from the Unreserved Fund Balance to the Street Reconstruction and Renovation Stabilization Fund to support the 5-Year Capital Investment Plan.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0966",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $1,000,000 from the Unreserved Fund Balance to the Salary & Wage Stabilization Fund.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0967",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $1,200,000 from the Unreserved Fund Balance to the Other Post Employment Benefits (OPEB) Trust Fund.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0972",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor Sait that the Administration address the ongoing public health and safety concerns at the Broadway Salvation Army site.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0973",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Officer's Communication — Director of Communications & Community Engagement conveying the Web Content Accessibility Guidelines (WCAG) 2.1 Accessibility Compliance update for city website and digital assets.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0977",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval to execute the Fifth Amendment to the lease agreement with Dana Family Series, LLC, for the Grove Street parking lot, through June 30, 2027.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0978",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor McLaughlin recognizing Teen Empowerment for providing over 20 years of service to young people in Somerville.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0979",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Order by Councilor McLaughlin that the Director of Health and Human Services update this Council on recent changes for Requests For Proposals for youth programming grants, particularly grants that impact Teen Empowerment directly.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0980",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Grant of Location — Eversource applying for a Grant of Location to install 31 feet of conduit in Richardson Street, from Utility Pole 296/1 to a point of pickup at 0 Richardson Street.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0981",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Grant of Location — Eversource applying for a Grant of Location to install 641 feet of conduit in Somerville Avenue and Prospect Street, and one new Manhole 31333, from existing Manhole 27921 and from existing Manhole 25406 to a point of pickup at 51 Prospect Street.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0982",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Drainlayer's License, Galway Excavation LLC.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0983",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Drainlayer's License, Genesis Utilities Corporation.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0984",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Drainlayer's License, Mass Earthworks & Demolition.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0985",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Extended Operating Hours License, Dunkin, 504 Broadway.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0986",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Extended Operating Hours License, McDonalds, 14 McGrath Highway.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0987",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Flammables License, Pearl Street Auto Sales, 182 Pearl Street.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0988",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval of Fiscal Year 2027 Water & Sewer Rates.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0989",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Flammables License, Winter Hill Yacht Club, 500 Artisan Way.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0990",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Garage License, BRE-BMR Assembly Innovation I LLC, 122 Assembly Park Drive.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0991",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Garage License, John's Auto Sales, Inc., 181 Somerville Avenue.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0992",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Garage License, Pearl Street Auto Sales, 182 Pearl Street.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0993",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Outdoor Parking License, DM Collision Center LLC, 30 Joy Street.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0994",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Taxi Medallion License, V.I.N.L. Transportation, Inc., Med. #65.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0995",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Used Car Dealer Class 2 License, Pearl Street Auto Sales, 182 Pearl Street.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0996",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Horizons Trio applying for a Public Event License for Elation: An Exploration Through Music on July 21 from 6 PM to 7:30 PM (rain date July 27).",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0997",
+      "Item_Type": "Other",
+      "Agenda_Topic": "St. Benedict Parish applying for a Public Event License for A mile with Jesus on July 5 from 9:30 AM to 12 PM.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0998",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval to pay prior year invoices totaling $41,257.05 using available funds in various Department of Public Works accounts for various services.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-0999",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval of the Surveillance Technology Impact Report for Body Worn Cameras.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1000",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval of the Technology-Specific Surveillance Use Policy for Body Worn Cameras.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1001",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $144,235 from the Opioid Recovery and Remediation Stabilization Fund to support various projects related to opioid initiatives.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1002",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting confirmation of the appointment of Efecan Yigitpasa to the position of Police Officer.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1003",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting confirmation of the appointment of Joshua Nardelli to the position of Police Officer.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1004",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Citation by Councilor Hardt commending Mary Jeka on the auspicious occasion of her retirement.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1005",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Four residents submitting comments re: police presence in schools.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1006",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "89 registered voters submitting a petition requesting a public hearing regarding Police Body-Worn Cameras, pursuant to Section 2-11 of the City Charter.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1007",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Order by Councilor McLaughlin and Councilor Mbah that the Director of Veterans Services update this City Council on the status of any veterans memorials currently in storage, as well as the status of the Central Hill Memorial Plaza.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1008",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $200,000 from the Unreserved Fund Balance to the Compensated Absence Liability Fund.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1009",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $18,850 from the Unreserved Fund Balance to the Judgments & Settlements Account for closing costs relative to the purchase of the Assembly Square Fire Station Condominium Unit at 45 Middlesex Avenue.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1010",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $360,000 from the Unreserved Fund Balance to the Judgments & Settlements Account for settlement payments relative to the lease between BRE-BMR, Middlesex LLC and the City of Somerville for the Assembly Square Fire Station at 45 Middlesex Avenue.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1012",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor Hardt that the Chief of Police increase traffic enforcement in Teele Square, especially focusing on the lights and crosswalks between Broadway and Holland Street, and especially in the morning when students and families are walking to school.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1013",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Order by Councilor Davis that this City Council appoints Rodrigo Badaro, Bea Gomez-Mouakad, Marianne Walles, Martin Sanchez, Yesenia Alfaro, and Marcy Goldstein-Gelb to the Wage Theft Advisory Committee.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1014",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval to repurpose and appropriate $45,000 from the COVID-19 Stabilization fund to continue the Playworks Program at the Winter Hill Community School for the 2026-2027 School Year.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1015",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting approval to appropriate and transfer $1,000,000 from the Community Benefits Stabilization Fund to the Housing Assistance Stabilization Fund for housing assistance.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1016",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $549,399 from the Unreserved Fund Balance to the Traffic Safety Stabilization Fund for traffic safety improvements.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1017",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request requesting the appropriation of $196,086 from the Salary & Wage Stabilization Fund to various departmental Other Lump Sum Payment Accounts to fund a collective bargaining agreement with Somerville Municipal Employees Union, Unit D.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1018",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor Hardt and Councilor Mbah that the Chief of Police report to this Council on the response to the recent upsurge in drug use and other drug-related activity in public spaces in and around Davis Square, including in Hodgkins-Curtin park.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1019",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor Wheeler that the Director of Parking discuss with this Council the possibility of administering a parking permit type intended for vehicle owners with driveways, at a lower price than standard residential parking permits.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1020",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor Hardt that the Director of Mobility prioritize Curtis Street for pedestrian safety improvements, including traffic calming measures and an ADA accessible crosswalk in the vicinity of Sunset Road.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1021",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor Hardt that the Director of Mobility install additional signage and the Chief of Police increase enforcement to ensure compliance with the one-way traffic direction on Whitfield Road.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1022",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor Hardt recognizing and expressing appreciation to the Department of Public Works, the Department of Health and Human Services Division of Public Health, and the Inspectional Services Department for their work in addressing rodent issues at the West Somerville Neighborhood School.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1023",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Ordinance by Councilor Ewen-Campen and Councilor Wheeler that Chapter 2, Article VIII, Division 1 of the Code of Ordinances be amended as detailed within.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1024",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Order by Councilor Scott that this Council schedule a Public Hearing regarding construction parking permits and the impact of current enforcement policy on neighborhood residents.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1025",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Order by Councilor Scott that the City Attorney advise this Council on the Mayor's compliance with Section 6-4 of the Somerville Charter as it relates to the submission of the Fiscal Year 2027 budget.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1026",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Order by Councilor Scott that the City Clerk inform this Council as to the final status of item #25-0905, a unanimous vote in favor of adopting Chapter 329 of the Acts of 1987 on May 22, 2025.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1027",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Order by Councilor Scott that the City Clerk provide the procedure followed upon a Mayoral veto of any measure approved by this Council.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1028",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Communication by Councilor Scott conveying the Ward 2 Councilor's opposition to placing armed police officers in Somerville schools.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1029",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor Link and Councilor Ewen-Campen in support of House Bill 3587 and Senate Bill 2334, an Act to grow and maintain space in cities and towns for the creative economy.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1030",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Order by Councilor Link that the Commissioner of Public Works or Director of Mobility provide an update on policies ensuring pedestrian safety when closing sidewalks on both sides of a street, criteria for closures, and process for notifying residents.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1031",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution by Councilor Link and Councilor Scott that the Director of Mobility and Director of Engineering discuss changing Hawkins Street into a two-way street for bikes.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1032",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Order by Councilor Link and Councilor Wheeler that the Director of Procurement and Contracting Services provide a report of all artificial intelligence vendors and services for which the city currently has contracts or ongoing payment obligations.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1033",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Communication conveying an update regarding item #26-0825, a Resolution that the Administration submit a written report regarding the timeline and process for staffing the ADA Coordinator role and update this Council on the plan to process ADA complaints when this position is vacant.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1034",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Officer's Communication — Chief of Police conveying information regarding item #26-0378, a request of the Mayor for acceptance of a grant for a body-worn camera program.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1035",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Communication conveying information regarding changes in positions in the Fiscal Year 2027 budget.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1036",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Officer's Communication — City Clerk conveying Block Party Licenses issued.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1037",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1038",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Remembrances.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1039",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Regular Meeting of May 14, 2026.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-06-11",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1040",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Special Meeting of May 20, 2026.",
+      "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of May 20, 2026",
+      "Source_File": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Zoom)",
+      "Item_Number": "ZP24-000078",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "92R Orchard Street – ZP24-000078 (continued from April 15, 2026): Bennie Ber, d/b/a NehKooDah seeks relief from SZO Section 10.2.2.d, regarding the number of cars permitted per carport, which requires a Hardship Variance.",
+      "Source_File": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Zoom)",
+      "Item_Number": "ZP25-000041",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "92R Orchard Street – ZP25-000041 (continued from April 15, 2026): Bennie Ber, d/b/a NehKooDah seeks relief from SZO Section 10.2.2.d.iii, carport height limitations, which requires a Hardship Variance.",
+      "Source_File": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Zoom)",
+      "Item_Number": "ZP25-000042",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "92R Orchard Street – ZP25-000042 (continued from April 15, 2026): Bennie Ber, d/b/a NehKooDah seeks relief from SZO Section 14.1.7.b.ii, regarding further reducing nonconforming landscape and permeable area, which requires a Hardship Variance.",
+      "Source_File": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Zoom)",
+      "Item_Number": "ZP26-000024",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "47 Trull Street – ZP26-000024: Adam Dash on behalf of Maxwell D. Bridges & Stefanie J. Bridges seeks relief from SZO § 3.1.8, regarding the minimum front setback in the Neighborhood Residence (NR) zoning district, which requires a Hardship Variance.",
+      "Source_File": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Zoom)",
+      "Item_Number": "ZP26-000025",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "39 Bartlett Street – ZP26-000025 (continued from June 3, 2026): Raymond and Barbara Estrella seek relief from SZO Section 10.2.1.e. for a shed not meeting setback requirements in the Neighborhood Residence (NR) zoning district, which requires a Hardship Variance.",
+      "Source_File": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Zoom)",
+      "Item_Number": "ZP26-000034",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway – ZP26-000034: Somerbridge Hotel LLC seek relief from SZO 5.1.16.b.i parking types, to build a surface level parking in the High-Rise (HR) zoning district, which requires a Hardship Variance.",
+      "Source_File": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Zoom)",
+      "Item_Number": "ZP26-000037",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "24 Berkeley Street – ZP26-000037 (continued from May 20, 2026): Thomas Higdon seeks an Administrative Appeal of the Building Official's issuance of Building Permits B25-001643 and B25-001644.",
+      "Source_File": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (Zoom)",
+      "Item_Number": "ZP26-000052",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway – ZP26-000052: Somerbridge Hotel LLC seek relief from SZO 10.3.7 parking lot landscaping requirements in the High-Rise (HR) zoning district, which requires a Hardship Variance.",
+      "Source_File": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
       "Committee_Name": "Land Use Committee",
       "Meeting_Date": "2026-06-18",
       "Meeting_Time": "6:30 PM",
@@ -9872,51 +10868,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_06_08_school-building-committee-special-meeting",
-      "title": "School Building Committee Special Meeting",
-      "start": "2026-06-08T16:30:00-04:00",
-      "date": "2026-06-08",
-      "time": "4:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/08/school-building-committee-special-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/school-building-20260608-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/83644589557?pwd=wjLoWj5saJrTpbZeOkbVds0zcBGhS0.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_08_human-rights-commission-information-and-advocacy-subcommittee-meeting",
-      "title": "Human Rights Commission Information and Advocacy Subcommittee Meeting",
-      "start": "2026-06-08T18:00:00-04:00",
-      "date": "2026-06-08",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/08/human-rights-commission-information-and-advocacy-subcommittee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/human-rights-20260608-advocacy-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/87432872347?pwd=pQjrod7O5M5wf3Eb3o0dRvxDmMuDDG.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_08_school-committee-regular-meeting",
-      "title": "School Committee Regular Meeting",
-      "start": "2026-06-08T19:00:00-04:00",
-      "date": "2026-06-08",
-      "time": "7:00 PM",
-      "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/06/08/school-committee-regular-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Regular%20SC%20Agenda%20for%2006-8-26_0.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_u8Awy93fR6OhvC37Xib1zg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_06_09_canceled-urban-design-commission-meeting",
       "title": "CANCELED: Urban Design Commission Meeting",
       "start": "2026-06-09T18:00:00-04:00",
@@ -9926,6 +10877,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/09/canceled-urban-design-commission-meeting",
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/urban-design-20260609-agenda.pdf",
       "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_09_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-09T18:00:00-04:00",
+      "date": "2026-06-09",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/09/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413142&GUID=86D6B251-FF1C-4157-8F03-DB3DFBB57C8E",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -9972,9 +10938,9 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/disabilities-20260610-agenda-stamped.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/meetings/85411450370/invitations?signature=KavbuZWHJAYrqbH_eahydOUZNwkvRMUNuQyqXdqGkMw",
+      "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_11_affordable-housing-trust-meeting",
@@ -10004,7 +10970,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_15_school-committee-rules-management-subcommittee-meeting",
@@ -10097,6 +11063,36 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_06_17_east-washington-quick-build-safety-improvements-virtual-community-meeting",
+      "title": "East Washington Quick-Build Safety Improvements Virtual Community Meeting",
+      "start": "2026-06-17T18:00:00-04:00",
+      "date": "2026-06-17",
+      "time": "6:00 PM",
+      "location": "United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/east-washington-quick-build-safety-improvements-virtual-community-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7j44pKU1Sf24hNjAHbONsw",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_17_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-06-17T18:00:00-04:00",
+      "date": "2026-06-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/zoning-board-appeals-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/zoning-20260617-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_aFuUgxMqTym3ntPRvg6fVA",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_06_17_finance-committee-meeting",
       "title": "Finance Committee Meeting",
       "start": "2026-06-17T18:00:00-04:00",
@@ -10123,36 +11119,6 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_06_17_east-washington-quick-build-safety-improvements-virtual-community-meeting",
-      "title": "East Washington Quick-Build Safety Improvements Virtual Community Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": "United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/east-washington-quick-build-safety-improvements-virtual-community-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7j44pKU1Sf24hNjAHbONsw",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_06_17_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/zoning-board-appeals-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_aFuUgxMqTym3ntPRvg6fVA",
       "has_livestream": false,
       "pipeline_status": "missing"
     },
@@ -10202,21 +11168,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_22_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-22T18:00:00-04:00",
-      "date": "2026-06-22",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/22/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413149&GUID=8EF3D4AB-6AF3-468B-8197-C0A8621B2FF7",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_22_traffic-and-parking-committee-meeting",
       "title": "Traffic and Parking Committee Meeting",
       "start": "2026-06-22T18:00:00-04:00",
@@ -10239,6 +11190,51 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/06/22/condominium-review-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_22_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-22T18:00:00-04:00",
+      "date": "2026-06-22",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/22/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413149&GUID=8EF3D4AB-6AF3-468B-8197-C0A8621B2FF7",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_23_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-23T18:00:00-04:00",
+      "date": "2026-06-23",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/23/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413150&GUID=7070762B-B624-4084-B653-84AA2EEDE624",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_23_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-06-23T18:00:00-04:00",
+      "date": "2026-06-23",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/23/urban-design-commission-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
