@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-09",
+    "processed_date": "2026-06-10",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -431,6 +431,21 @@
         "filename": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
         "status": "parsed",
         "item_count": 9
+      },
+      {
+        "filename": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
+      },
+      {
+        "filename": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
       }
     ]
   },
@@ -1528,6 +1543,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/11/affordable-housing-trust-meeting"
     },
     {
+      "source_file": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf",
+      "occur_id": "2026_06_15_human-rights-commission-administration-subcommittee-meeting",
+      "committee_name": "Somerville Human Rights Commission Administration Subcommittee",
+      "meeting_date": "2026-06-15",
+      "meeting_time": "5:00 PM",
+      "location": "Virtual Meeting (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/human-rights-20260615-admin-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/human-rights-commission-administration-subcommittee-meeting"
+    },
+    {
       "source_file": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
       "occur_id": "2026_06_17_zoning-board-appeals-meeting",
       "committee_name": "Zoning Board of Appeals",
@@ -1552,6 +1580,32 @@
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416237&GUID=E7574A39-72C0-4F82-8F2B-FAEDAE715068",
       "agenda_type": "LEGISTAR",
       "detail_url": "https://www.somervillema.gov/events/2026/06/18/land-use-committee-meeting"
+    },
+    {
+      "source_file": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
+      "occur_id": "2026_06_18_pedestrian-and-transit-advisory-committee-meeting",
+      "committee_name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "meeting_date": "2026-06-18",
+      "meeting_time": "6:30 PM",
+      "location": "101 South Street Somerville , MA 02143 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/pedestrian-transit-advisory-committee-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/pedestrian-and-transit-advisory-committee-meeting"
+    },
+    {
+      "source_file": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
+      "occur_id": "2026_06_24_licenses-and-permits-committee-meeting",
+      "committee_name": "Licenses and Permits Committee",
+      "meeting_date": "2026-06-24",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417985&GUID=D9D88362-0A03-404B-BD65-7F1B8D7983A5",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/24/licenses-and-permits-committee-meeting"
     }
   ],
   "items": [
@@ -10746,6 +10800,86 @@
       "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom)",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call and Confirm Quorum",
+      "Source_File": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom)",
+      "Item_Number": "1.2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes for May 18, 2026",
+      "Source_File": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom)",
+      "Item_Number": "2.A",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bylaw Development: Continue work on the draft",
+      "Source_File": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom)",
+      "Item_Number": "2.B",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Human Rights Advisory Council formation discussion and next steps (Reference Sec. 2-245. Human rights commission advisory council)",
+      "Source_File": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom)",
+      "Item_Number": "3.A",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Public Comment Procedures and Open Meeting Access for the main HRC and HRC Subcommittees meetings",
+      "Source_File": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom)",
+      "Item_Number": "3.B",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Open Discussion",
+      "Source_File": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Meeting (Zoom)",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Zoning Board of Appeals",
       "Meeting_Date": "2026-06-17",
       "Meeting_Time": "6:00 PM",
@@ -10864,54 +10998,119 @@
       "Item_Type": "Public Hearing",
       "Agenda_Topic": "Zoning Ordinance (ID # 26-0835): Proposing an amendment to Section 2.1.1 of the Zoning Ordinance regarding Homeless Shelters.",
       "Source_File": "2026-06-18__2026_06_18_land-use-committee-meeting__land-use-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Procedural Business - Member roll call, Vote on May draft minutes, Announcements",
+      "Source_File": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "1.2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Vote on May draft minutes",
+      "Source_File": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "2",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public Comment",
+      "Source_File": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Subcommittee Updates - Community Events, Design Review, Special Projects",
+      "Source_File": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review Letter on Bus Network Redesign Proposed Amendments",
+      "Source_File": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Somerville Ave Quick Build Safety Improvements Project Concept Design Review",
+      "Source_File": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Union Square Transit Signal Priority (TSP) Project",
+      "Source_File": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Licenses and Permits Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0750",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Eversource applying for a Grant of Location to install 10 feet of conduit in Hudson Street, from Utility Pole 202/9 to a proposed new handhole next to 135 Hudson Street.",
+      "Source_File": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Licenses and Permits Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0861",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Licenses and Permits Committee Meeting of May 13, 2026.",
+      "Source_File": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Licenses and Permits Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0864",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "John Henderson submitting comments re: item #26-0750, a Grant of Location to install 10 feet of conduit next to 135 Hudson Street.",
+      "Source_File": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Licenses and Permits Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0910",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Diane Covino submitting comments re: item #26-0750, a Grant of Location to install 10 feet of conduit next to 135 Hudson Street.",
+      "Source_File": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_06_09_canceled-urban-design-commission-meeting",
-      "title": "CANCELED: Urban Design Commission Meeting",
-      "start": "2026-06-09T18:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/09/canceled-urban-design-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/urban-design-20260609-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_09_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-09T18:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/09/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413142&GUID=86D6B251-FF1C-4157-8F03-DB3DFBB57C8E",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_09_climate-action-commission-meeting",
-      "title": "Climate Action Commission Meeting",
-      "start": "2026-06-09T19:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/09/climate-action-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/climate-action-20260609-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_EQxJGH9qTAa-MCTd2WQxkw",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_06_10_finance-committee-meeting-fy27-public-budget-hearing",
       "title": "Finance Committee Meeting (FY27 Public Budget Hearing)",
@@ -10970,6 +11169,21 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_15_human-rights-commission-administration-subcommittee-meeting",
+      "title": "Human Rights Commission Administration Subcommittee Meeting",
+      "start": "2026-06-15T17:00:00-04:00",
+      "date": "2026-06-15",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/human-rights-commission-administration-subcommittee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/human-rights-20260615-admin-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89377448005?pwd=ouKfcEcal2NahtPEKtRmUD1PAgJaGz.1",
+      "has_livestream": false,
       "pipeline_status": "downloaded"
     },
     {
@@ -11001,6 +11215,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_15_human-rights-commission-hrc-report-task-force-meeting",
+      "title": "Human Rights Commission HRC Report Task Force Meeting",
+      "start": "2026-06-15T18:00:00-04:00",
+      "date": "2026-06-15",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/human-rights-commission-hrc-report-task-force-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/human-rights-20260615-report-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/86981057820?pwd=pZplclgzelKnAna7EssaKgWNhwa86N.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_15_finance-committee-meeting",
@@ -11063,6 +11292,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting",
+      "title": "School Committee Finance and Facilities Subcommittee Meeting",
+      "start": "2026-06-17T18:00:00-04:00",
+      "date": "2026-06-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/school-committee-finance-and-facilities-subcommittee-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_06_17_east-washington-quick-build-safety-improvements-virtual-community-meeting",
       "title": "East Washington Quick-Build Safety Improvements Virtual Community Meeting",
       "start": "2026-06-17T18:00:00-04:00",
@@ -11090,7 +11334,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_aFuUgxMqTym3ntPRvg6fVA",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_17_finance-committee-meeting",
@@ -11102,21 +11346,6 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
       "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting",
-      "title": "School Committee Finance and Facilities Subcommittee Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/school-committee-finance-and-facilities-subcommittee-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -11151,6 +11380,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_18_pedestrian-and-transit-advisory-committee-meeting",
+      "title": "Pedestrian and Transit Advisory Committee Meeting",
+      "start": "2026-06-18T18:30:00-04:00",
+      "date": "2026-06-18",
+      "time": "6:30 PM",
+      "location": "101 South Street Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/pedestrian-and-transit-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/pedestrian-transit-advisory-committee-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_18_land-use-committee-meeting",
@@ -11241,6 +11485,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_24_licenses-and-permits-committee-meeting",
+      "title": "Licenses and Permits Committee Meeting",
+      "start": "2026-06-24T18:00:00-04:00",
+      "date": "2026-06-24",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/24/licenses-and-permits-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417985&GUID=D9D88362-0A03-404B-BD65-7F1B8D7983A5",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }

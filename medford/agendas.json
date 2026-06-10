@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-09",
+    "processed_date": "2026-06-10",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -371,6 +371,16 @@
         "filename": "2026-06-12__24956__commissioners-of-trust-funds-meeting.pdf",
         "status": "parsed",
         "item_count": 13
+      },
+      {
+        "filename": "2026-06-15__24959__library-board-of-trustees-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-06-16__24957__parks-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
       }
     ]
   },
@@ -8554,6 +8564,176 @@
       "Item_Type": "Ordinance",
       "Agenda_Topic": "Ordinance for Value Investments",
       "Source_File": "2026-06-12__24956__commissioners-of-trust-funds-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-06-15__24959__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review and Approval of May Minutes",
+      "Source_File": "2026-06-15__24959__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Director's Report",
+      "Source_File": "2026-06-15__24959__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "4a",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Meeting Dates",
+      "Source_File": "2026-06-15__24959__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Old Business",
+      "Source_File": "2026-06-15__24959__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session",
+      "Source_File": "2026-06-15__24959__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Theo Haung is requesting to cancel his permit for Playstead Park that was approved at the May Commission meeting.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Flag Flag Football- Request to use Morrison Park on 5/25-9/30 Monday-Thursday from 5pm-9pm and Saturday & Sunday from 1pm-5pm.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mark Robarts from BSSC is requesting to cancel and add hours to his Spring permits at Tufts Park.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Redemption Hill Church- Request to use Morrison on 6/29-7/13 on Mondays from 5pm-9pm.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Kayla Harris from Seige accidentally double booked field space and is looking to cancel both Morrison and Victory permits on 6/13.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "PA-3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Medford Youth Softball- Request to use Tufts Park Field 1-3, McNally, Columbus and Hickey Park from 7/1-8/31 weeknights from 6pm-9pm and weekends from 12pm-3pm.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Dr Gandhi from United India Association is requesting to be allowed to rent children's bumper cars for their August permit at Columbus Park.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "James Foster would like to address the Parks Commission with a request for a Maintenance Plan and Improvement Timeline for Tom Heinz Soccer Field at Playstead.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Amanda Bowen and a group of Barry Park abutters would like to propose planting trees on the section of Barry Park on College Ave, near the tennis courts.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Kevin Bailey will present updates to opening Wright's Pond and Tufts Pool for the season.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "8",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of May Meeting Minutes.",
+      "Source_File": "2026-06-16__24957__parks-commission-meeting.pdf"
     }
   ],
   "meetings": [
@@ -9518,84 +9698,35 @@
       "agenda_url": "https://drive.google.com/file/d/1du2JIX3reTlgsX-3Nzk2gI2tCzCwE6DU/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24956"
+    },
+    {
+      "source_file": "2026-06-15__24959__library-board-of-trustees-meeting.pdf",
+      "occur_id": "24959",
+      "committee_name": "Library Board of Trustees",
+      "meeting_date": "2026-06-15",
+      "meeting_time": "9:30 AM",
+      "location": "Medford Public Library, 111 High Street, Second Floor, Kigner & Qiu Family Study Room",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1kViFAUlZe2eGm_78mur3MIs--P5nJknw/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24959"
+    },
+    {
+      "source_file": "2026-06-16__24957__parks-commission-meeting.pdf",
+      "occur_id": "24957",
+      "committee_name": "Medford Parks Commission",
+      "meeting_date": "2026-06-16",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall - Room 201",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1it-sm0k2yFggINWVOy4A0Aj2x9z0bj5Y/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24957"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "24827",
-      "title": "Traffic Commission Meeting",
-      "start": "2026-06-09T17:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "5:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24827",
-      "agenda_url": "https://docs.google.com/document/d/1bp6ZfeLc1UWYN28_lm514B9ymKl8fCS-/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/83131897196?pwd=yQdyvjxLwbdclah61yjb6SbHKYfvTj.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "24752",
-      "title": "City Council Committee of the Whole Meeting",
-      "start": "2026-06-09T18:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "6:00 PM",
-      "location": "City Hall Council Chambers",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24752",
-      "agenda_url": "https://medfordma.portal.civicclerk.com/event/495/files/agenda/911",
-      "agenda_type": "CIVICCLERK",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/85063113426?pwd=CgScQuVAZvWTxY25PZrI6fPMa8ZzUW.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "24682",
-      "title": "Community Preservation Committee Meeting",
-      "start": "2026-06-09T18:30:00-04:00",
-      "date": "2026-06-09",
-      "time": "6:30 PM",
-      "location": "City Hall - Room 201",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24682",
-      "agenda_url": "https://drive.google.com/file/d/1oJqYUak-hZ7q2L-w6DV1OydMaz1tkgnj/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/85954896952",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "24764",
-      "title": "City Council Meeting",
-      "start": "2026-06-09T19:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "7:00 PM",
-      "location": "City Hall Council Chambers",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24764",
-      "agenda_url": "https://medfordma.portal.civicclerk.com/event/443/files/agenda/907",
-      "agenda_type": "CIVICCLERK",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/85063113426?pwd=CgScQuVAZvWTxY25PZrI6fPMa8ZzUW.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "24020",
-      "title": "Oak Grove Cemetery Commission Meeting",
-      "start": "2026-06-09T19:00:00-04:00",
-      "date": "2026-06-09",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24020",
-      "agenda_url": "https://docs.google.com/document/d/16QYA_4v74uIH2M2rRgpbIlnMbhqGDCSj/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/82759527480?pwd=aq96haWV872Y67mtZwIDuHV56xMHPo.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "24748",
       "title": "Board of Assessors Meeting",
@@ -9627,6 +9758,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "24890",
+      "title": "Civic Auditoriums and Convention Center Commission Meeting",
+      "start": "2026-06-10T18:30:00-04:00",
+      "date": "2026-06-10",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24890",
+      "agenda_url": "https://www.medfordma.org/fs/resource-manager/view/40ceaba1-5755-43a6-809f-c37affa36118",
+      "agenda_type": "OTHER",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/88405093460?pwd=b94V0dkQSXeZGsWmi87sp3j8rUnMWk.1#success",
+      "has_livestream": false,
+      "pipeline_status": "unsupported"
+    },
+    {
       "occur_id": "21240",
       "title": "Medford High School Building Committee Meeting",
       "start": "2026-06-10T18:30:00-04:00",
@@ -9654,22 +9800,7 @@
       "has_zoom": true,
       "zoom_url": "https://mps02155-org.zoom.us/j/98833080541?pwd=lpGTmzRpgoEPb0jzICizpxiCqA6dVE.1#success",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "24955",
-      "title": "Historic District Commission Meeting",
-      "start": "2026-06-11T18:00:00-04:00",
-      "date": "2026-06-11",
-      "time": "6:00 PM",
-      "location": "City Hall - Room 201",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24955",
-      "agenda_url": "https://drive.google.com/file/d/1TH_BJA_qr3tCeMTd7SeQMa3GH7kUjqG6/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/89507419732",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "24747",
@@ -9699,6 +9830,21 @@
       "has_zoom": true,
       "zoom_url": "https://linkprotect.cudasvc.com/url?a=https%3a%2f%2fhightoweradvisors.zoom.us%2fj%2f93432619654%3fpwd%3dhjgCJ2ThgbZTOwEf3d2mcMoeFG4zvJ.1&c=E,1,w6xY4A2ewlu8A43G4ptmB0odu3ed0e6Q2CbO1ukyabnhm1WoN8C8MY69agkYeqqZixdgarkCy0jmCP_DJK5FoUrluEYWllfkYSTeILaf1UaYe-zp3A,,&typo=1",
       "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "24959",
+      "title": "Library Board of Trustees Meeting",
+      "start": "2026-06-15T09:30:00-04:00",
+      "date": "2026-06-15",
+      "time": "9:30 AM",
+      "location": "Medford Public Library, 111 High Street, Second Floor, Kigner & Qiu Family Study Room",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24959",
+      "agenda_url": "https://docs.google.com/document/d/1kViFAUlZe2eGm_78mur3MIs--P5nJknw/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/84223931227?pwd=Th9sriQDjxs0MptETZkkTS0rw89pPJ.1",
+      "has_livestream": false,
       "pipeline_status": "downloaded"
     },
     {
@@ -9715,6 +9861,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "24957",
+      "title": "Parks Commission Meeting",
+      "start": "2026-06-16T18:00:00-04:00",
+      "date": "2026-06-16",
+      "time": "6:00 PM",
+      "location": "City Hall - Room 201",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24957",
+      "agenda_url": "https://docs.google.com/document/d/1it-sm0k2yFggINWVOy4A0Aj2x9z0bj5Y/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/88697959121",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "22945",
@@ -9739,6 +9900,21 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/20877",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "24955",
+      "title": "Historic District Commission Meeting",
+      "start": "2026-06-18T18:00:00-04:00",
+      "date": "2026-06-18",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24955",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -9773,6 +9949,36 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "16866",
+      "title": "Climate Equity Council Meeting",
+      "start": "2026-06-24T18:30:00-04:00",
+      "date": "2026-06-24",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/16866",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "18141",
+      "title": "Bicycle Advisory Commission Meeting",
+      "start": "2026-06-24T19:00:00-04:00",
+      "date": "2026-06-24",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18141",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/87538063188",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
