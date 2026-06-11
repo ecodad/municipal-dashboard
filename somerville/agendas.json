@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-10",
+    "processed_date": "2026-06-11",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -446,6 +446,56 @@
         "filename": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 4
+      },
+      {
+        "filename": "2026-06-15__2026_06_15_finance-committee-meeting__finance-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-06-15__2026_06_15_human-rights-commission-hrc-report-task-force-meeting__human-rights-commission-hrc-report-task-force-meeting.pdf",
+        "status": "parsed",
+        "item_count": 1
+      },
+      {
+        "filename": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf",
+        "status": "parsed",
+        "item_count": 18
+      },
+      {
+        "filename": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 21
+      },
+      {
+        "filename": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 28
+      },
+      {
+        "filename": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 18
+      },
+      {
+        "filename": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 21
+      },
+      {
+        "filename": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf",
+        "status": "parsed",
+        "item_count": 21
+      },
+      {
+        "filename": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
+      },
+      {
+        "filename": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
       }
     ]
   },
@@ -1543,6 +1593,58 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/11/affordable-housing-trust-meeting"
     },
     {
+      "source_file": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf",
+      "occur_id": "2026_06_15_school-committee-regular-meeting",
+      "committee_name": "City of Somerville School Committee",
+      "meeting_date": "2026-06-15",
+      "meeting_time": "7:00 PM",
+      "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Regular%20SC%20Agenda%20for%2006-15-26_0.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/school-committee-regular-meeting"
+    },
+    {
+      "source_file": "2026-06-15__2026_06_15_finance-committee-meeting__finance-committee-meeting.pdf",
+      "occur_id": "2026_06_15_finance-committee-meeting",
+      "committee_name": "Finance Committee",
+      "meeting_date": "2026-06-15",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413147&GUID=166E5AE8-AA79-4CF8-9824-5250C2790165",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/finance-committee-meeting"
+    },
+    {
+      "source_file": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf",
+      "occur_id": "2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting",
+      "committee_name": "School Committee",
+      "meeting_date": "2026-06-15",
+      "meeting_time": "5:30 PM",
+      "location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Call%20for%20the%20Week%20of%2006-15-26.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/school-committee-finance-and-facilities-subcommittee-meeting"
+    },
+    {
+      "source_file": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf",
+      "occur_id": "2026_06_17_school-committee-special-meeting-whole",
+      "committee_name": "School Committee",
+      "meeting_date": "2026-06-15",
+      "meeting_time": "5:30 PM",
+      "location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Call%20for%20the%20Week%20of%2006-15-26_4.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/school-committee-special-meeting-whole"
+    },
+    {
       "source_file": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf",
       "occur_id": "2026_06_15_human-rights-commission-administration-subcommittee-meeting",
       "committee_name": "Somerville Human Rights Commission Administration Subcommittee",
@@ -1554,6 +1656,58 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/human-rights-20260615-admin-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/15/human-rights-commission-administration-subcommittee-meeting"
+    },
+    {
+      "source_file": "2026-06-15__2026_06_15_human-rights-commission-hrc-report-task-force-meeting__human-rights-commission-hrc-report-task-force-meeting.pdf",
+      "occur_id": "2026_06_15_human-rights-commission-hrc-report-task-force-meeting",
+      "committee_name": "Somerville Human Rights Commission HRC Report Task Force",
+      "meeting_date": "2026-06-15",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual Meeting",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/human-rights-20260615-report-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/human-rights-commission-hrc-report-task-force-meeting"
+    },
+    {
+      "source_file": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf",
+      "occur_id": "2026_06_15_school-committee-rules-management-subcommittee-meeting",
+      "committee_name": "Somerville School Committee",
+      "meeting_date": "2026-06-15",
+      "meeting_time": "5:30 PM",
+      "location": "City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Call%20for%20the%20Week%20of%2006-15-26_1.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/school-committee-rules-management-subcommittee-meeting"
+    },
+    {
+      "source_file": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf",
+      "occur_id": "2026_06_16_licensing-commission-meeting",
+      "committee_name": "City of Somerville Licensing Commission",
+      "meeting_date": "2026-06-16",
+      "meeting_time": "6:00 PM",
+      "location": "City Council Chamber 93 Highland Avenue Somerville , MA 02143 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/licensing-20260616-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/16/licensing-commission-meeting"
+    },
+    {
+      "source_file": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf",
+      "occur_id": "2026_06_16_finance-committee-meeting",
+      "committee_name": "Finance Committee",
+      "meeting_date": "2026-06-16",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416236&GUID=9F319FB7-3A46-41B6-A951-BFDE731F3BBC",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/16/finance-committee-meeting"
     },
     {
       "source_file": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
@@ -1582,6 +1736,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/18/land-use-committee-meeting"
     },
     {
+      "source_file": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf",
+      "occur_id": "2026_06_18_planning-board-meeting",
+      "committee_name": "Planning Board",
+      "meeting_date": "2026-06-18",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/planning-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/planning-board-meeting"
+    },
+    {
       "source_file": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
       "occur_id": "2026_06_18_pedestrian-and-transit-advisory-committee-meeting",
       "committee_name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
@@ -1606,6 +1773,19 @@
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417985&GUID=D9D88362-0A03-404B-BD65-7F1B8D7983A5",
       "agenda_type": "LEGISTAR",
       "detail_url": "https://www.somervillema.gov/events/2026/06/24/licenses-and-permits-committee-meeting"
+    },
+    {
+      "source_file": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf",
+      "occur_id": "2026_06_25_fair-housing-commission-meeting",
+      "committee_name": "Somerville Fair Housing Commission",
+      "meeting_date": "2026-06-25",
+      "meeting_time": "3:00 PM",
+      "location": "Virtual meeting",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/fair-housing-20260625-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/25/fair-housing-commission-meeting"
     }
   ],
   "items": [
@@ -10800,6 +10980,66 @@
       "Source_File": "2026-06-11__2026_06_11_city-council-meeting__city-council-meeting.pdf"
     },
     {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of the FY27 Budget – Culture and Community (Arts and Culture, Libraries, Parks & Recreation, Communications and Public Engagement, Engagement and Neighborhood Services)",
+      "Source_File": "2026-06-15__2026_06_15_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of the FY27 Budget – Health and Human Services (Administration, Public Health, Community Wellness, Council on Aging, Human Services, Immigrant Advancement)",
+      "Source_File": "2026-06-15__2026_06_15_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of the FY27 Budget – Public Safety (Parking, Emergency Management, Fire, Fire Alarm, COHR, E911, Animal Control, Police)",
+      "Source_File": "2026-06-15__2026_06_15_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "2.1",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution By Councilor Strezo 6/9/26: That the collective salaries of Licensing Commissioners be increased to $15,180 with the Chair receiving $5,180 and Licensing Commissioners 2 and 3 receiving $5,000 each annually.",
+      "Source_File": "2026-06-15__2026_06_15_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "2.2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0950): Requesting the appropriation of $376,778,493 to fund the Fiscal Year 2027 General Fund Operating Budget.",
+      "Source_File": "2026-06-15__2026_06_15_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "Roll Call",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-06-15__2026_06_15_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
       "Meeting_Date": "2026-06-15",
       "Meeting_Time": "5:00 PM",
@@ -10878,6 +11118,1286 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-06-15__2026_06_15_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission HRC Report Task Force",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review final report & approve",
+      "Source_File": "2026-06-15__2026_06_15_human-rights-commission-hrc-report-task-force-meeting__human-rights-commission-hrc-report-task-force-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "I",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to order with a moment of silence and a salute to the flag of the United States of America.",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "II",
+      "Item_Type": "Other",
+      "Agenda_Topic": "School Committee Student Advisory Committee Representatives",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "III.A",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Retirees Celebrations – Andrea Pease, Elizabeth Doncaster, Jacquelyn Lawrence, Jerri Fullerton, Kimberly Murphy Baker, Linda Walsh, Maura Goodwin, Nancy McWeeny, Roxane Scrima, Sharon Levesque, William Verbits, Cheryl McGovern, Isabella Justin, Jane Gardner, Joel Villegas, Kristi Savage, Marie Foreman, Maureen Corso, Regina Bertholdo, Sabrina Caprigno, Theresa Francis, Joanne Taddeo",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IV",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public Comment – In person",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IX.A",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Director of Special Education Contract Agreement (recommended action: approval) – Motion to authorize the chair and the Superintendent to sign the contract agreement with the Director of Special Education",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IX.B",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Somerville Public School Policy Manual – Second reading: File JICJ-A Interim District Cell Phone Policy; SHS Student Handbook",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IX.C",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Draft Revision of the Superintendent Goals",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IX.D",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Participation in National School Lunch and Breakfast Program (Recommended Action: Approval) – Vote to participate in the national School Lunch and Breakfast Program and the Commodity Food Distribution Program for the 2026-2027 school year",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IX.E",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Student Accident Insurance (Recommended Action: Receive and Place on file) – Contract for Student Accident Insurance for 2026-2027 renewed with Moran Insurance Agency",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IX.F",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Authorization for Summer Months (Recommended Action: Approval) – Authorize the Superintendent to act on the School Committee's behalf for payment of bills, salaries, grants, and revolving accounts during summer months",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "V",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes – May 18, 2026",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VI.A",
+      "Item_Type": "Report",
+      "Agenda_Topic": "District Report – SPS Strategic Plan Update; SEU Update-Partnership with the City to maintain safe and healthy facilities memo; Summer Project Report Memo",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.A",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of the Educational Programs and Instruction Subcommittee: May 29, 2026 (Member Pitone) – Motion to accept the report",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VIII.A",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Unfinished Business – MSBA",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "X",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Upcoming Meeting Topics – MSBA",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "XI",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Community or Calendar Items from Committee Members",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "XII",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Condolence",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "XIII",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers – Somerville City Hall – 93 Highland Ave",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers – Somerville City Hall – 93 Highland Ave",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Policy Manual Review",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Policy Manual Review",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-15",
+      "Meeting_Time": "5:30 PM",
+      "Location": "City Council Chambers, Somerville City Hall, 93 Highland Ave",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Policy Manual Review",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Ed Programs District Data Overview",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "School Handbooks",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Ed. Programs Topics and Scheduling",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0881): Requesting approval of a transfer of $4,966.16 from various Council on Aging Ordinary Maintenance Accounts and the Health and Human Services Salaries Account to various Council on Aging Personal Services Account to cover an expected year-end deficit.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0876): Requesting approval to accept and expend a $58,642 grant that requires a match, from Metro North Regional Employment Board to the Health and Human Services Department for the YouthWorks Summer Program.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "3",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0874): Requesting approval of a transfer of $127,358 from various Office of Housing Stability Ordinary Maintenance Accounts to the Housing Assistance Stabilization Fund for housing assistance programs.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "4",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0869): Requesting approval of a time-only contract extension until 9/5/2028 for the contract with Stantec Consulting Services Inc. for the Mystic River Outfall Sewer Separation design project.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "5",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0872): Requesting approval of a transfer of $100,000 from the Public Space and Urban Forestry Capital Account to the Street Tree Stabilization Fund for additional Fiscal Year 2027 tree planting and maintenance.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "6",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0871): Requesting approval of a transfer of $2,500 from the Planning, Preservation and Zoning Salaries Account to the Public Space and Urban Forestry Salaries Account to cover a year-end budget deficit.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "7",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0744): Requesting approval to accept and expend a $222,502 grant that requires a match, from the Boston Region Metropolitan Planning Organization to the Mobility Division for Blue Bikes State of Good Repair project.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "8",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0879): Requesting approval to accept and expend a $500,000 grant with no new match required, from the Massachusetts Department of Transportation to the Mobility Division for the Western Pearl Street construction project.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "9",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0875): Requesting approval of a transfer of $2,403.70 from the Planning, Preservation and Zoning Salaries Account to the Department of Public Works Highway Overtime Account for the Davis Square Activation project.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "10",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0968): Requesting the appropriation or reserve of $8,367,344 in estimated Fiscal Year 2027 Community Preservation Act (CPA) revenue for CPA projects and expenses.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "11",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0853): Requesting approval of a time-only contract extension until 12/31/2028 for the contract with Symmes Maini & McKee for Owners Project Manager Services for Heating, Ventilation, and Air Conditioning (HVAC) Capital Projects.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "12",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0903): Requesting approval of a transfer of $400,000 from the Department of Public Works Sanitation Rubbish Removal Account to the Snow Removal Account to cover expenses from the Fiscal Year 2026 winter weather season.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "13",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0899): Requesting approval of a transfer of $300,000 from the Department of Public Works Sanitation Recycling Account to the Snow Removal Account to cover expenses from the Fiscal Year 2026 winter weather season.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "14",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0898): Requesting approval of a transfer of $300,000 from the Department of Public Works Custodial Salaries Account to the Snow Removal Account to cover expenses from the Fiscal Year 2026 winter weather season.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "15",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0897): Requesting approval of a transfer of $150,000 from the Department of Public Works Grounds Wages Account to the Snow Removal Account to cover expenses from the Fiscal Year 2026 winter weather season.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "16",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0896): Requesting approval of a transfer of $110,000 from the Department of Public Works Buildings Wages Account to the Snow Removal Account to cover expenses from the Fiscal Year 2026 winter weather season.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "17",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0893): Requesting approval of a transfer of $455,000 from the Department of Public Works Highway Wages Account to the Snow Removal Account to cover expenses from the Fiscal Year 2026 winter weather season.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "18",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0885): Requesting approval of a transfer of $125,000 from the Department of Public Works Administration Salaries Account to the Snow Removal Account to cover expenses from the Fiscal Year 2026 winter weather season.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "19",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0922): Requesting the appropriation of $1,624,494 from the Unreserved Fund Balance (\"Free Cash\") to the Department of Public Works Snow Removal Account to reduce a year-end deficit.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "20",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0970): Requesting the appropriation of $238,791 from the Kennedy School Pool Enterprise Fund Retained Earnings to support the Fiscal Year 2027 Kennedy School Pool Enterprise Fund Budget.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "21",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0953): Requesting the appropriation of $794,782 to fund the Fiscal Year 2027 Kennedy School Pool Enterprise Fund budget.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "22",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0969): Requesting the appropriation of $86,200 from the Dilboy Fields Enterprise Fund Retained Earnings Account to subsidize the Fiscal Year 2027 Dilboy Fields Enterprise Fund Budget.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "23",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0954): Requesting the appropriation of $237,500 to fund the Fiscal Year 2027 Dilboy Fields Enterprise Fund Budget.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "24",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0948): Requesting the approval of the expenditure limitations for departmental Revolving Funds for Fiscal Year 2027.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "25",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0920): Requesting the appropriation of $250,000 from the Unreserved Fund Balance (\"Free Cash\") to the Unemployment Compensation Account to remediate a year-end deficit.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0378): Requesting approval to accept and expend a $231,635 grant with no new match required, from the Massachusetts Executive Office of Public Safety and Security to the Police Department for a body-worn camera program.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "27",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution By Councilor Strezo 6/9/26: That the collective salaries of Licensing Commissioners be increased to $15,180 with the Chair receiving $5,180 and Licensing Commissioners 2 and 3 receiving $5,000 each annually.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "28",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request (ID # 26-0950): Requesting the appropriation of $376,778,493 to fund the Fiscal Year 2027 General Fund Operating Budget.",
+      "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of the Licensing Commission Regular Meeting of 5/19/26.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Communication from the ABCC regarding the local licensing authority's option to temporarily allow its on premises licensees to sell alcoholic beverages for one additional hour not to exceed 3:00 a.m. as well as the ability for on-premises licensees located within public alcoholic beverage consumption areas to sell alcoholic beverages for off-premises consumption.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "3",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Commissioner Lynch, in his capacity as Chair, requests to temporarily extend the regular hours of operation for all alcoholic beverage and common victualer license holders to 9:00 a.m. to 2:00 a.m., Monday - Saturday, and Sunday from 10:00 a.m. to 2:00 a.m., pending application and approval from the City Clerk's office. This temporary extension of hours ends on July 31, 2026.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "4",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Commissioner Lynch, in his capacity as Chair, requests that duly licensed establishments may apply for a permit to operate until 3:00 a.m. during the period of June 16, 2026 through July 31, 2026.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "5",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Commissioner Lynch, in his capacity as Chair, requests to opt-out of designated public consumption areas as approved by House Bill H5482: 'Act Authorizing Municipalities to Opt-In to a Temporary Pilot to Extend the Hours of Liquor Licenses and to Allow for Public Consumption in Designated Districts in Summer 2026.'",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "6",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Commissioner Lynch, in his capacity as Chair, requests that license holder Bindaas Concepts Inc d/b/a Rosebud, 381 Summer Street, AL22-000034 appear at the July meeting for a license update. The establishment has been closed for more than 30 days with no notification to the Somerville Licensing Commission as required.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "AL25-000037",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Los Tacos Hermanos LLC d/b/a Los Tacos Hermanos, 253 Washington Street, requesting approval of adding all forms alcohol license (replacing AL24-000060). Notice of Public Hearing.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "AL26-000012",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Glasser Coffee LLC d/b/a Kima Café, 75 Bow Street, requesting approval of a common victualer and entertainment by devices license, Monday-Sunday 7:00 a.m. to 11:00 p.m., 8 indoor seats. Notice of Public Hearing.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000013",
+      "Item_Type": "Other",
+      "Agenda_Topic": "H and P Restaurant Group LLC d/b/a Gauchao Brazilian Cuisine, 102 Broadway, requesting approval of a change of hours and a 2AM license (amending AL24-000025). Continued from April 21, 2026 meeting, during which a public hearing took place.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000016",
+      "Item_Type": "Other",
+      "Agenda_Topic": "LLH LLC d/b/a Trader Joe's, 145 Middlesex Avenue, requesting approval of change of officers/directors and change of ownership interest (amending AL17-000298). Continued from May 19, 2026 meeting, during which a public hearing took place.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "AL26-000017",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Parlor Bird Inc d/b/a Parlor Bird, 151 Cedar Street, requesting approval of an all forms restaurant license, common victualer, entertainment by devices, patrons, and performers, and private outdoor dining. Notice of Public Hearing.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000018",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New England Neapolitan Assembly Row LLC d/b/a Salt and Stone, 463 Assembly Row, requesting approval of adding entertainment by performers outdoors (private) (amending AL18-000001). Continued from May 19, 2026 meeting, during which a public hearing took place.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000019",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Leone's Donut Shop Inc d/b/a Dunkin Donuts, 76 Middlesex Avenue, requesting approval of outdoor dining — 16 outdoor sidewalk seats (amending AL25-000022). Notice of Public Hearing.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "SAL26-000019",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Dormition of the Virgin Mary, 29 Central Street, requesting approval of a Special Alcohol License (All Forms) for Wedding Reception to be held indoors at 29 Central Street, on 7/18/2026 from 3:30 p.m. to 8:00 p.m.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000021",
+      "Item_Type": "Other",
+      "Agenda_Topic": "AMF Bowling Centers Inc d/b/a Lucky Strike, 325 Revolution Drive, requesting approval of change of officers/directors (amending AL23-000026).",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "SAL26-000021",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Somerville Museum, 1 Westwood Road, requesting approval of a Special Alcohol License (Wine and Malt) for Chamber After Hours, Opening Reception, and Holiday Party to be held indoors at 1 Westwood Road, on 7/15/2026, 9/17/2026, and 12/11/2026.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000022",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "MCKD LLC d/b/a Liars, 1153 Broadway, requesting approval of alteration of premises — current seats: 46, proposed seats: 60 (amending AL24-000014). Notice of Public Hearing.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "SAL26-000023",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Warehouse XI, 255 Washington Street, requesting approval of a Special Alcohol License (Wine and Malt) for Monthly Music Series to be held indoors at 255 Washington Street, on multiple dates from 6/20/2026 through 7/23/2026 from 5:00 p.m. to 11:00 p.m.",
+      "Source_File": "2026-06-16__2026_06_16_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Ed Programs District Data Overview",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "School Handbooks",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Ed. Programs Topics and Scheduling",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Ed Programs District Data Overview",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "School Handbooks",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Ed. Programs Topics and Scheduling",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for SMEU Unit C Nurses",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY26 Projections: Salary & Non-Personnel",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy pursuant to M.G.L. c.30A, §21(a)(3): SMEU Unit C Nurses",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy pursuant to M.G.L. c.30A, §21(a)(3): AFSCME Cafeteria Employees",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy pursuant to M.G.L. c.30A, §21(a)(3): AFSCME Clerical",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy pursuant to M.G.L. c.30A, §21(a)(3): SEU Unit A",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy pursuant to M.G.L. c.30A, §21(a)(3): SEU Unit D (SCALE)",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy pursuant to M.G.L. c.30A, §21(a)(3): Cafeteria Employees, AFSCME Council 93, Local 274",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for AFSCME Cafeteria Employees",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "May Investment Roll Approval",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Executive Session – Review, approval, and/or consideration for disclosure of executive session minutes from May 13, 2026 and May 27, 2026 pursuant to M.G.L. c.30A, §21(a)(7)",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for AFSCME Clerical",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY27 Budget Book Overview",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for SEU Unit A",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "FY27 Finance SubCom Priorities: Open discussion",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "5",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for SEU Unit D (SCALE)",
+      "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for SMEU Unit C Nurses",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY26 Projections: Salary & Non-Personnel",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy: SMEU Unit C Nurses",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy: AFSCME Cafeteria Employees",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy: AFSCME Clerical",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy: SEU Unit A",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy: SEU Unit D (SCALE)",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy: Cafeteria Employees, AFSCME Council 93, Local 274",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for AFSCME Cafeteria Employees",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "May Investment Roll Approval",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Executive Session – Review, approval, and/or consideration for disclosure of executive session minutes from May 13, 2026 and May 27, 2026",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for AFSCME Clerical",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY27 Budget Book Overview",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for SEU Unit A",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "FY27 Finance SubCom Priorities: Open discussion",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "5",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for SEU Unit D (SCALE)",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for SMEU Unit C Nurses",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY26 Projections: Salary & Non-Personnel",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy (Purpose 3): SMEU Unit C Nurses",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy (Purpose 3): AFSCME Cafeteria Employees",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy (Purpose 3): AFSCME Clerical",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy (Purpose 3): SEU Unit A",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session – Collective bargaining strategy (Purpose 3): SEU Unit D (SCALE)",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive session pursuant to M.G.L. c.30A, §21(a)(3) to discuss collective bargaining strategy: Cafeteria Employees, AFSCME Council 93, Local 274",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for AFSCME Cafeteria Employees",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "May Investment Roll Approval",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Executive session pursuant to M.G.L. c.30A, §21(a)(7) for review, approval, and/or consideration for disclosure of executive session minutes from May 13, 2026 and May 27, 2026",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for AFSCME Clerical",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY27 Budget Book Overview",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for SEU Unit A",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "FY27 Finance SubCom Priorities: Open discussion",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "5",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Ratification of the MOA for SEU Unit D (SCALE)",
+      "Source_File": "2026-06-17__2026_06_17_school-committee-special-meeting-whole__school-committee-special-meeting-of-the-whole.pdf"
     },
     {
       "Committee_Name": "Zoning Board of Appeals",
@@ -11070,6 +12590,116 @@
       "Source_File": "2026-06-18__2026_06_18_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of May 21, 2026",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "29 Mystic LLC v. Stella Moon LLC Court Order Discussion",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000097",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "32 Webster Avenue – 32 Webster Holdings LLC/Kinvarra Capital proposes to develop an Apartment Building in the Mid-Rise 4 (MR4) zoning district, which requires Site Plan Approval. (ZP25-000097)",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000108",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "32 Webster Avenue – 32 Webster Holdings LLC/Kinvarra Capital proposes to establish residential housing in the Mid-Rise 4 (MR4) zoning district, which requires a Special Permit. (ZP25-000108)",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000113",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway – Somerbridge Hotel LLC proposes a Major Revision to the previously Site Plan Approval case # P&Z 21-028 in the High Rise (HR) zoning district. (ZP25-000113)",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000114",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway – Somerbridge Hotel LLC proposes to establish a Hotel Use in the High-Rise (HR) zoning district, which requires a Special Permit. (ZP25-000114)",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000115",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway – Somerbridge Hotel LLC proposes to establish a Formula Business in the High-Rise (HR) zoning district, which requires a Special Permit. (ZP25-000115)",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP26-000008",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "222 Broadway – Mission Hill Donuts, LLC proposes to expand the hours of an existing nonconforming business in the Mid-Rise 5 (MR5) zoning district, which requires a Special Permit. (ZP26-000008)",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP26-000038",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "120 Middlesex Avenue – DWCH Assembly Row, LLC proposes to develop a 19-story lab building in the Assembly Square Mixed-Use District (ASMD), which requires Site Plan Approval. (ZP26-000038)",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP26-000040",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "32 Webster Avenue – 32 Webster Holdings LLC/Kinvarra Capital seeks to construct a mechanical penthouse that exceeds the maximum height in the Mid-Rise 4 (MR4) District, which requires a Special Permit. (ZP26-000040)",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "26-0835",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Joint Hearing with the Land Use Committee – Proposing an amendment to Section 2.1.1 of the Zoning Ordinance regarding Homeless Shelters (File# 26-0835)",
+      "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
       "Committee_Name": "Licenses and Permits Committee",
       "Meeting_Date": "2026-06-24",
       "Meeting_Time": "6:00 PM",
@@ -11108,39 +12738,109 @@
       "Item_Type": "Communication",
       "Agenda_Topic": "Diane Covino submitting comments re: item #26-0750, a Grant of Location to install 10 feet of conduit next to 135 Hudson Street.",
       "Source_File": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to order and review of draft minutes from the meeting on May 28, 2026.",
+      "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "2.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Facebook page update",
+      "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "2.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review of calls and complaints since the last meeting",
+      "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "3.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "June CAAS Movement Meeting - moved to June 27",
+      "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "3.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "MAPC Technical Assistance Program – review of final deliverables",
+      "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "3.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Relationships with other multi-member bodies and City government",
+      "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "3.4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Vacant seats – update",
+      "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "3.5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Tabling – review of Carnaval",
+      "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY25 Annual Report",
+      "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "5",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Announcements – The next meeting is scheduled for July 23, 2026 at 3:00 PM",
+      "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_06_10_finance-committee-meeting-fy27-public-budget-hearing",
-      "title": "Finance Committee Meeting (FY27 Public Budget Hearing)",
-      "start": "2026-06-10T18:00:00-04:00",
-      "date": "2026-06-10",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/10/finance-committee-meeting-fy27-public-budget-hearing",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413141&GUID=3D44C031-0A3F-4DF0-93A8-B81C240D2AE1",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_hrfgBfsFTSWBHAhWmeQb0A",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_10_commission-persons-disabilities-meeting",
-      "title": "Commission for Persons with Disabilities Meeting",
-      "start": "2026-06-10T18:00:00-04:00",
-      "date": "2026-06-10",
-      "time": "6:00 PM",
-      "location": "Somerville Library West Branch 40 College Avenue Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/06/10/commission-persons-disabilities-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/disabilities-20260610-agenda-stamped.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_06_11_affordable-housing-trust-meeting",
       "title": "Affordable Housing Trust Meeting",
@@ -11184,7 +12884,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89377448005?pwd=ouKfcEcal2NahtPEKtRmUD1PAgJaGz.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_15_school-committee-rules-management-subcommittee-meeting",
@@ -11194,12 +12894,27 @@
       "time": "5:30 PM",
       "location": "City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
       "detail_url": "https://www.somervillema.gov/events/2026/06/15/school-committee-rules-management-subcommittee-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Call%20for%20the%20Week%20of%2006-15-26_1.pdf",
+      "agenda_type": "S3",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_06_15_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-15T18:00:00-04:00",
+      "date": "2026-06-15",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413147&GUID=166E5AE8-AA79-4CF8-9824-5250C2790165",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_15_confirmation-appointments-and-personnel-matters-committee-meeting",
@@ -11232,21 +12947,6 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_06_15_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-15T18:00:00-04:00",
-      "date": "2026-06-15",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/15/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413147&GUID=166E5AE8-AA79-4CF8-9824-5250C2790165",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_15_school-committee-regular-meeting",
       "title": "School Committee Regular Meeting",
       "start": "2026-06-15T19:00:00-04:00",
@@ -11254,12 +12954,27 @@
       "time": "7:00 PM",
       "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
       "detail_url": "https://www.somervillema.gov/events/2026/06/15/school-committee-regular-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Regular%20SC%20Agenda%20for%2006-15-26_0.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_u8Awy93fR6OhvC37Xib1zg",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_06_16_licensing-commission-meeting",
+      "title": "Licensing Commission Meeting",
+      "start": "2026-06-16T18:00:00-04:00",
+      "date": "2026-06-16",
+      "time": "6:00 PM",
+      "location": "City Council Chamber 93 Highland Avenue Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/16/licensing-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/licensing-20260616-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_RuoC4D_wTZCrZzZ5_z6vGA",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_16_finance-committee-meeting",
@@ -11274,7 +12989,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_16_historic-preservation-commission-meeting",
@@ -11292,15 +13007,15 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting",
-      "title": "School Committee Finance and Facilities Subcommittee Meeting",
+      "occur_id": "2026_06_17_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
       "start": "2026-06-17T18:00:00-04:00",
       "date": "2026-06-17",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/school-committee-finance-and-facilities-subcommittee-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -11337,19 +13052,34 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_17_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
+      "occur_id": "2026_06_17_school-committee-special-meeting-whole",
+      "title": "School Committee Special Meeting of the Whole",
+      "start": "2026-06-17T18:30:00-04:00",
       "date": "2026-06-17",
-      "time": "6:00 PM",
+      "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/school-committee-special-meeting-whole",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Call%20for%20the%20Week%20of%2006-15-26_4.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_U_Wxg04yQNiMlDRwnLfcPg",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting",
+      "title": "School Committee Finance and Facilities Subcommittee Meeting",
+      "start": "2026-06-17T19:00:00-04:00",
+      "date": "2026-06-17",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/school-committee-finance-and-facilities-subcommittee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Call%20for%20the%20Week%20of%2006-15-26.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_hCyV96GbRc6yG_E7PzdvdA",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_18_urban-forestry-committee-meeting",
@@ -11374,12 +13104,12 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/06/18/planning-board-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/planning-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_NpQQ7FnmQzeUztjfd4xjrg",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_18_pedestrian-and-transit-advisory-committee-meeting",
@@ -11394,7 +13124,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_18_land-use-committee-meeting",
@@ -11410,6 +13140,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_22_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-22T18:00:00-04:00",
+      "date": "2026-06-22",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/22/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413149&GUID=8EF3D4AB-6AF3-468B-8197-C0A8621B2FF7",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_06_22_traffic-and-parking-committee-meeting",
@@ -11442,15 +13187,15 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_22_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-22T18:00:00-04:00",
-      "date": "2026-06-22",
+      "occur_id": "2026_06_23_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-06-23T18:00:00-04:00",
+      "date": "2026-06-23",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/22/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413149&GUID=8EF3D4AB-6AF3-468B-8197-C0A8621B2FF7",
-      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/23/urban-design-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -11472,21 +13217,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_23_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-06-23T18:00:00-04:00",
-      "date": "2026-06-23",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/23/urban-design-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_24_licenses-and-permits-committee-meeting",
       "title": "Licenses and Permits Committee Meeting",
       "start": "2026-06-24T18:00:00-04:00",
@@ -11499,7 +13229,37 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_25_fair-housing-commission-meeting",
+      "title": "Fair Housing Commission Meeting",
+      "start": "2026-06-25T15:00:00-04:00",
+      "date": "2026-06-25",
+      "time": "3:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/25/fair-housing-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/fair-housing-20260625-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/86143901559?pwd=PhEuwk1RrTm46LqexBMwSzMIW43782.1",
+      "has_livestream": false,
       "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_06_25_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-06-25T19:00:00-04:00",
+      "date": "2026-06-25",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/25/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1370385&GUID=1D23F23B-D06E-4FBE-9FD0-EEDE79482F13",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
