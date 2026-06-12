@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-11",
+    "processed_date": "2026-06-12",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -496,6 +496,16 @@
         "filename": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 10
+      },
+      {
+        "filename": "2026-06-16__2026_06_16_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-06-17__2026_06_17_finance-committee-meeting__finance-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -1708,6 +1718,32 @@
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416236&GUID=9F319FB7-3A46-41B6-A951-BFDE731F3BBC",
       "agenda_type": "LEGISTAR",
       "detail_url": "https://www.somervillema.gov/events/2026/06/16/finance-committee-meeting"
+    },
+    {
+      "source_file": "2026-06-16__2026_06_16_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf",
+      "occur_id": "2026_06_16_historic-preservation-commission-meeting",
+      "committee_name": "Historic Preservation Commission",
+      "meeting_date": "2026-06-16",
+      "meeting_time": "6:45 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/historic-preservation-20260616-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/16/historic-preservation-commission-meeting"
+    },
+    {
+      "source_file": "2026-06-17__2026_06_17_finance-committee-meeting__finance-committee-meeting.pdf",
+      "occur_id": "2026_06_17_finance-committee-meeting",
+      "committee_name": "Finance Committee",
+      "meeting_date": "2026-06-17",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting"
     },
     {
       "source_file": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
@@ -11680,6 +11716,76 @@
       "Source_File": "2026-06-16__2026_06_16_finance-committee-meeting__finance-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "CPC Update",
+      "Source_File": "2026-06-16__2026_06_16_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes: 5/5/2026",
+      "Source_File": "2026-06-16__2026_06_16_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP25-000080",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP25-000080 – 21 Avon Street (House) – Determination of Preferably Preserved (Step 2 in the Demolition Review Process) – Continued from January 20, 2026",
+      "Source_File": "2026-06-16__2026_06_16_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP25-000081",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP25-000081 – 21 Avon Street (Barn) – Determination of Preferably Preserved (Step 2 in the Demolition Review Process) – Continued from January 20, 2026",
+      "Source_File": "2026-06-16__2026_06_16_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000007",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP26-000007 – 17 Clyde Street – Determination of Preferably Preserved (Step 2 in the Demolition Review Process) – Continued to August 4, 2026",
+      "Source_File": "2026-06-16__2026_06_16_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000015",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP26-000015 – 54 Highland Ave – Determination of Preferably Preserved (Step 2 in the Demolition Review Process)",
+      "Source_File": "2026-06-16__2026_06_16_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000021",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP26-000021 – 5 Wilton Street – Determination of Historic Significance (Step 1 in the Demolition Review Process)",
+      "Source_File": "2026-06-16__2026_06_16_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "City of Somerville Licensing Commission",
       "Meeting_Date": "2026-06-16",
       "Meeting_Time": "6:00 PM",
@@ -12078,6 +12184,56 @@
       "Item_Type": "Vote",
       "Agenda_Topic": "Ratification of the MOA for SEU Unit D (SCALE)",
       "Source_File": "2026-06-15__2026_06_15_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-06-17__2026_06_17_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of the FY27 Budget – Strategy and Development (Administration, Mobility, Planning, Public Space and Urban Forestry, Housing, Housing Stability, Economic Development, Sustainability and Environment, Somerville Redevelopment Authority, Community Preservation Act/Committee)",
+      "Source_File": "2026-06-17__2026_06_17_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of the FY27 Budget – Public Works (Administration, Electrical, Facilities, Fleet, Grounds, Snow Removal, Streets and Sidewalks, School Custodians)",
+      "Source_File": "2026-06-17__2026_06_17_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of the FY27 Budget – Infrastructure (Administration, Capital Projects, Engineering, Inspectional Services, Water and Sewer)",
+      "Source_File": "2026-06-17__2026_06_17_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "2.1",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution By Councilor Strezo 6/9/26 – That the collective salaries of Licensing Commissioners be increased to $15,180 with the Chair receiving $5,180 and Licensing Commissioners 2 and 3 receiving $5,000 each annually.",
+      "Source_File": "2026-06-17__2026_06_17_finance-committee-meeting__finance-committee-meeting.pdf"
     },
     {
       "Committee_Name": "School Committee",
@@ -12842,36 +12998,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_06_11_affordable-housing-trust-meeting",
-      "title": "Affordable Housing Trust Meeting",
-      "start": "2026-06-11T17:15:00-04:00",
-      "date": "2026-06-11",
-      "time": "5:15 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/11/affordable-housing-trust-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/affordable-housing-20260611-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/83080024978",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_11_city-council-meeting",
-      "title": "City Council Meeting",
-      "start": "2026-06-11T19:00:00-04:00",
-      "date": "2026-06-11",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/11/city-council-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1370384&GUID=CA7522C5-5C7E-4FCF-A25B-F0A3417D02B4",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_06_15_human-rights-commission-administration-subcommittee-meeting",
       "title": "Human Rights Commission Administration Subcommittee Meeting",
       "start": "2026-06-15T17:00:00-04:00",
@@ -12899,7 +13025,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_15_finance-committee-meeting",
@@ -12914,22 +13040,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_06_15_confirmation-appointments-and-personnel-matters-committee-meeting",
-      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
-      "start": "2026-06-15T18:00:00-04:00",
-      "date": "2026-06-15",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/15/confirmation-appointments-and-personnel-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417984&GUID=5E2B9E1C-E9D1-49D8-9865-0CBD22EF1A59",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_15_human-rights-commission-hrc-report-task-force-meeting",
@@ -12944,7 +13055,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/86981057820?pwd=pZplclgzelKnAna7EssaKgWNhwa86N.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_15_school-committee-regular-meeting",
@@ -12959,22 +13070,22 @@
       "has_zoom": true,
       "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_u8Awy93fR6OhvC37Xib1zg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_16_licensing-commission-meeting",
-      "title": "Licensing Commission Meeting",
-      "start": "2026-06-16T18:00:00-04:00",
+      "occur_id": "2026_06_16_metro-boston-homeland-security-region-planning-and-community-preparedness",
+      "title": "Metro Boston Homeland Security Region Planning and Community Preparedness Subcommittee Meeting",
+      "start": "2026-06-16T14:00:00-04:00",
       "date": "2026-06-16",
-      "time": "6:00 PM",
-      "location": "City Council Chamber 93 Highland Avenue Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/06/16/licensing-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/licensing-20260616-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_RuoC4D_wTZCrZzZ5_z6vGA",
+      "time": "2:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/16/metro-boston-homeland-security-region-planning-and-community-preparedness",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_06_16_finance-committee-meeting",
@@ -12989,7 +13100,22 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_16_licensing-commission-meeting",
+      "title": "Licensing Commission Meeting",
+      "start": "2026-06-16T18:00:00-04:00",
+      "date": "2026-06-16",
+      "time": "6:00 PM",
+      "location": "City Council Chamber 93 Highland Avenue Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/16/licensing-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/licensing-20260616-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_RuoC4D_wTZCrZzZ5_z6vGA",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_16_historic-preservation-commission-meeting",
@@ -12999,12 +13125,12 @@
       "time": "6:45 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/06/16/historic-preservation-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/historic-preservation-20260616-agenda.pdf",
+      "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_z1TzsXgpQq-1xEPPFr6-mQ",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_17_finance-committee-meeting",
@@ -13019,7 +13145,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_17_east-washington-quick-build-safety-improvements-virtual-community-meeting",
@@ -13064,7 +13190,7 @@
       "has_zoom": true,
       "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_U_Wxg04yQNiMlDRwnLfcPg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting",
@@ -13079,7 +13205,7 @@
       "has_zoom": true,
       "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_hCyV96GbRc6yG_E7PzdvdA",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_18_urban-forestry-committee-meeting",
@@ -13109,21 +13235,6 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_NpQQ7FnmQzeUztjfd4xjrg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_06_18_pedestrian-and-transit-advisory-committee-meeting",
-      "title": "Pedestrian and Transit Advisory Committee Meeting",
-      "start": "2026-06-18T18:30:00-04:00",
-      "date": "2026-06-18",
-      "time": "6:30 PM",
-      "location": "101 South Street Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/06/18/pedestrian-and-transit-advisory-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/pedestrian-transit-advisory-committee-20260618-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
-      "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
     {
@@ -13138,6 +13249,21 @@
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_18_pedestrian-and-transit-advisory-committee-meeting",
+      "title": "Pedestrian and Transit Advisory Committee Meeting",
+      "start": "2026-06-18T18:30:00-04:00",
+      "date": "2026-06-18",
+      "time": "6:30 PM",
+      "location": "101 South Street Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/pedestrian-and-transit-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/pedestrian-transit-advisory-committee-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -13244,7 +13370,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/86143901559?pwd=PhEuwk1RrTm46LqexBMwSzMIW43782.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_25_city-council-meeting",
