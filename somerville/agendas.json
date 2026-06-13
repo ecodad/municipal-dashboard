@@ -13028,19 +13028,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_15_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
+      "occur_id": "2026_06_15_confirmation-appointments-and-personnel-matters-committee-meeting",
+      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
       "start": "2026-06-15T18:00:00-04:00",
       "date": "2026-06-15",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/15/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413147&GUID=166E5AE8-AA79-4CF8-9824-5250C2790165",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/confirmation-appointments-and-personnel-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417984&GUID=5E2B9E1C-E9D1-49D8-9865-0CBD22EF1A59",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "skipped_existing"
+      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_06_15_human-rights-commission-hrc-report-task-force-meeting",
@@ -13054,6 +13054,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/86981057820?pwd=pZplclgzelKnAna7EssaKgWNhwa86N.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_15_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-15T18:00:00-04:00",
+      "date": "2026-06-15",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/15/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413147&GUID=166E5AE8-AA79-4CF8-9824-5250C2790165",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -13130,22 +13145,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_z1TzsXgpQq-1xEPPFr6-mQ",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_06_17_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_17_east-washington-quick-build-safety-improvements-virtual-community-meeting",
@@ -13238,21 +13238,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_18_land-use-committee-meeting",
-      "title": "Land Use Committee Meeting",
-      "start": "2026-06-18T18:30:00-04:00",
-      "date": "2026-06-18",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/18/land-use-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416237&GUID=E7574A39-72C0-4F82-8F2B-FAEDAE715068",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_06_18_pedestrian-and-transit-advisory-committee-meeting",
       "title": "Pedestrian and Transit Advisory Committee Meeting",
       "start": "2026-06-18T18:30:00-04:00",
@@ -13264,6 +13249,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_18_land-use-committee-meeting",
+      "title": "Land Use Committee Meeting",
+      "start": "2026-06-18T18:30:00-04:00",
+      "date": "2026-06-18",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/land-use-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416237&GUID=E7574A39-72C0-4F82-8F2B-FAEDAE715068",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },

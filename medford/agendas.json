@@ -10190,21 +10190,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "24956",
-      "title": "Commissioners of Trust Funds Meeting",
-      "start": "2026-06-12T08:30:00-04:00",
-      "date": "2026-06-12",
-      "time": "8:30 AM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24956",
-      "agenda_url": "https://drive.google.com/file/d/1du2JIX3reTlgsX-3Nzk2gI2tCzCwE6DU/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://linkprotect.cudasvc.com/url?a=https%3a%2f%2fhightoweradvisors.zoom.us%2fj%2f93432619654%3fpwd%3dhjgCJ2ThgbZTOwEf3d2mcMoeFG4zvJ.1&c=E,1,w6xY4A2ewlu8A43G4ptmB0odu3ed0e6Q2CbO1ukyabnhm1WoN8C8MY69agkYeqqZixdgarkCy0jmCP_DJK5FoUrluEYWllfkYSTeILaf1UaYe-zp3A,,&typo=1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "24959",
       "title": "Library Board of Trustees Meeting",
       "start": "2026-06-15T09:30:00-04:00",
@@ -10247,7 +10232,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/87361332265?pwd=NmsZPtR1pF6gZnh0U7xSCpfaylzcsW.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "22945",
@@ -10262,7 +10247,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/83791158124?pwd=gBalGVcrStnI3aXaOJGV0GnSbbT64a.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "24957",
@@ -10292,7 +10277,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/83791158124?pwd=gBalGVcrStnI3aXaOJGV0GnSbbT64a.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "20877",
