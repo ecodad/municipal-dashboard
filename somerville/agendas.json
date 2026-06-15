@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-12",
+    "processed_date": "2026-06-15",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -504,6 +504,11 @@
       },
       {
         "filename": "2026-06-17__2026_06_17_finance-committee-meeting__finance-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-06-18__2026_06_18_board-health-meeting__board-of-health-meeting.pdf",
         "status": "parsed",
         "item_count": 5
       }
@@ -1757,6 +1762,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/zoning-20260617-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/17/zoning-board-appeals-meeting"
+    },
+    {
+      "source_file": "2026-06-18__2026_06_18_board-health-meeting__board-of-health-meeting.pdf",
+      "occur_id": "2026_06_18_board-health-meeting",
+      "committee_name": "Board of Health",
+      "meeting_date": "2026-06-18",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual meeting (https://us02web.zoom.us/j/85801051047)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/board-of-health-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/board-health-meeting"
     },
     {
       "source_file": "2026-06-18__2026_06_18_land-use-committee-meeting__land-use-committee-meeting.pdf",
@@ -12646,6 +12664,56 @@
       "Source_File": "2026-06-17__2026_06_17_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
     },
     {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual meeting (https://us02web.zoom.us/j/85801051047)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting Call to Order",
+      "Source_File": "2026-06-18__2026_06_18_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual meeting (https://us02web.zoom.us/j/85801051047)",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes – May 14, 2026",
+      "Source_File": "2026-06-18__2026_06_18_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual meeting (https://us02web.zoom.us/j/85801051047)",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Blue Moon Smoke Shop 1147 Broadway Transfer of permit for new ownership-Ajit Chwada.",
+      "Source_File": "2026-06-18__2026_06_18_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual meeting (https://us02web.zoom.us/j/85801051047)",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Inspectional Services – Food Inspections, Community, Complaints/Concerns, Questions from Board of Health – Colin Zeigler",
+      "Source_File": "2026-06-18__2026_06_18_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual meeting (https://us02web.zoom.us/j/85801051047)",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Health and Human Services – Staffing, Department activity and events, budget and goals updates, questions from the Board of Health - Karin Carroll",
+      "Source_File": "2026-06-18__2026_06_18_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
       "Committee_Name": "Land Use Committee",
       "Meeting_Date": "2026-06-18",
       "Meeting_Time": "6:30 PM",
@@ -13103,21 +13171,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_16_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-16T18:00:00-04:00",
-      "date": "2026-06-16",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/16/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416236&GUID=9F319FB7-3A46-41B6-A951-BFDE731F3BBC",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_06_16_licensing-commission-meeting",
       "title": "Licensing Commission Meeting",
       "start": "2026-06-16T18:00:00-04:00",
@@ -13133,6 +13186,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_06_16_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-16T18:00:00-04:00",
+      "date": "2026-06-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/16/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416236&GUID=9F319FB7-3A46-41B6-A951-BFDE731F3BBC",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
       "occur_id": "2026_06_16_historic-preservation-commission-meeting",
       "title": "Historic Preservation Commission Meeting",
       "start": "2026-06-16T18:45:00-04:00",
@@ -13144,21 +13212,6 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_z1TzsXgpQq-1xEPPFr6-mQ",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_17_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/zoning-board-appeals-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/zoning-20260617-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_aFuUgxMqTym3ntPRvg6fVA",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -13191,6 +13244,21 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7j44pKU1Sf24hNjAHbONsw",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_17_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-06-17T18:00:00-04:00",
+      "date": "2026-06-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/zoning-board-appeals-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/zoning-20260617-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_aFuUgxMqTym3ntPRvg6fVA",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_17_school-committee-special-meeting-whole",
@@ -13238,6 +13306,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_06_18_board-health-meeting",
+      "title": "Board of Health Meeting",
+      "start": "2026-06-18T18:00:00-04:00",
+      "date": "2026-06-18",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/board-health-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/board-of-health-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/85801051047",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_06_18_planning-board-meeting",
       "title": "Planning Board Meeting",
       "start": "2026-06-18T18:00:00-04:00",
@@ -13283,36 +13366,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_22_condominium-review-board-meeting",
-      "title": "Condominium Review Board Meeting",
-      "start": "2026-06-22T18:00:00-04:00",
-      "date": "2026-06-22",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/22/condominium-review-board-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_06_22_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-22T18:00:00-04:00",
-      "date": "2026-06-22",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/22/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413149&GUID=8EF3D4AB-6AF3-468B-8197-C0A8621B2FF7",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_22_traffic-and-parking-committee-meeting",
       "title": "Traffic and Parking Committee Meeting",
       "start": "2026-06-22T18:00:00-04:00",
@@ -13328,15 +13381,15 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_23_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-23T18:00:00-04:00",
-      "date": "2026-06-23",
+      "occur_id": "2026_06_22_condominium-review-board-meeting",
+      "title": "Condominium Review Board Meeting",
+      "start": "2026-06-22T18:00:00-04:00",
+      "date": "2026-06-22",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/23/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413150&GUID=7070762B-B624-4084-B653-84AA2EEDE624",
-      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/22/condominium-review-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -13352,6 +13405,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/23/urban-design-commission-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_23_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-06-23T18:00:00-04:00",
+      "date": "2026-06-23",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/23/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413150&GUID=7070762B-B624-4084-B653-84AA2EEDE624",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-12",
+    "processed_date": "2026-06-15",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -401,6 +401,21 @@
         "filename": "2026-06-16__24962__board-of-health-meeting.pdf",
         "status": "parsed",
         "item_count": 8
+      },
+      {
+        "filename": "2026-06-16__24965__sepac-meeting.pdf",
+        "status": "parsed",
+        "item_count": 1
+      },
+      {
+        "filename": "2026-06-18__24963__m-belt-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 20
+      },
+      {
+        "filename": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
+        "status": "parsed",
+        "item_count": 7
       }
     ]
   },
@@ -9144,6 +9159,286 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Review and Discussion on Nicotine Free Generation Regulation — TABLED",
       "Source_File": "2026-06-16__24962__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Special Education Parent Advisory Council",
+      "Meeting_Date": "2026-06-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "General Business Meeting — end of school year; opportunity for parents/guardians to find support, ask questions, and socialize",
+      "Source_File": "2026-06-16__24965__sepac-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review minutes from May Meeting",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "2a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Financial snapshot",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "2b",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Fundraising",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "2c",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Grant Opportunities and Priorities",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "3a",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Follow-up from Community Input (May Board Meeting)",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "3b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Caretaker Update",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "3c",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Board Seat Update",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "3d",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Manor Window Repair",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "3e.i",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Past events - recap (Honeysuckle Walk - May 31)",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "3e.ii",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Upcoming events (Archiving Day - Mid-July; Farmers Market??; Medford Brewing Company Pop-ups - Aug 29, Sep 26)",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "4a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Jen - Communications",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "4b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Zac - City Relations",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "4c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Mark - Kiosk",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "4d",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Audrey - Events",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "4e",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Doug - Parking Lot",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "5a",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Newsletter - Carly's Letter",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "5b",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Newsletter - Stepping Stones",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "5c",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Newsletter - Featured Volunteer Position",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "5d",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Newsletter - Did You Know?",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Held via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Next meeting - July 16",
+      "Source_File": "2026-06-18__24963__m-belt-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Bistro 489, 489 Winthrop Street and via remote participation",
+      "Item_Number": "I",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll call",
+      "Source_File": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Bistro 489, 489 Winthrop Street and via remote participation",
+      "Item_Number": "II",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes (6.10.2026)",
+      "Source_File": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Bistro 489, 489 Winthrop Street and via remote participation",
+      "Item_Number": "III",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Be it resolved that the MCSBC authorizes the following space efficiencies to be incorporated into the PSR submission, identified through conversations planning program adjacencies within CTE programs - Offered by Dr. Suzanne Galusi and Jenny Graham",
+      "Source_File": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Bistro 489, 489 Winthrop Street and via remote participation",
+      "Item_Number": "IV",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval to Authorize LeftField to Submit the PSR Submission to the MSBA",
+      "Source_File": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Bistro 489, 489 Winthrop Street and via remote participation",
+      "Item_Number": "V",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of the CM at Risk Request for Qualification (RFQ)",
+      "Source_File": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Bistro 489, 489 Winthrop Street and via remote participation",
+      "Item_Number": "VI",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Upcoming Meetings",
+      "Source_File": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Bistro 489, 489 Winthrop Street and via remote participation",
+      "Item_Number": "VII",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
     }
   ],
   "meetings": [
@@ -10162,6 +10457,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24957"
     },
     {
+      "source_file": "2026-06-16__24965__sepac-meeting.pdf",
+      "occur_id": "24965",
+      "committee_name": "Medford Special Education Parent Advisory Council",
+      "meeting_date": "2026-06-16",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1jSdtNmPcmgDZUeP9yNdlgZISPG0ai2qp/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24965"
+    },
+    {
       "source_file": "2026-06-16__22944__city-council-public-health-and-community-safety-committee-me.pdf",
       "occur_id": "22944",
       "committee_name": "Public Health and Community Safety Committee",
@@ -10186,6 +10494,32 @@
       "agenda_url": "https://medfordma.portal.civicclerk.com/event/454/files/agenda/913",
       "agenda_type": "CIVICCLERK",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22945"
+    },
+    {
+      "source_file": "2026-06-18__24963__m-belt-board-meeting.pdf",
+      "occur_id": "24963",
+      "committee_name": "Medford Brooks Estate Land Trust (M-BELT) Board Meeting",
+      "meeting_date": "2026-06-18",
+      "meeting_time": "7:00 PM",
+      "location": "Held via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1yF6SueK4riobIcaCHfsY6KkRs4nR_b7h/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24963"
+    },
+    {
+      "source_file": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
+      "occur_id": "24967",
+      "committee_name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "meeting_date": "2026-06-18",
+      "meeting_time": "6:30 PM",
+      "location": "Bistro 489, 489 Winthrop St.",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1P7YvlY9eHHB878bhcIbCbAwANDz7yd3c/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24967"
     }
   ],
   "window_meetings": [
@@ -10265,6 +10599,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "24965",
+      "title": "SEPAC Meeting",
+      "start": "2026-06-16T18:00:00-04:00",
+      "date": "2026-06-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24965",
+      "agenda_url": "https://drive.google.com/file/d/1jSdtNmPcmgDZUeP9yNdlgZISPG0ai2qp/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/82730942315",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "22944",
       "title": "City Council Public Health and Community Safety Committee Meeting",
       "start": "2026-06-16T18:30:00-04:00",
@@ -10308,6 +10657,36 @@
       "zoom_url": "https://us06web.zoom.us/j/89507419732",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "24967",
+      "title": "Medford Comprehensive High School Building Committee (MCHSBC) Meeting",
+      "start": "2026-06-18T18:30:00-04:00",
+      "date": "2026-06-18",
+      "time": "6:30 PM",
+      "location": "Bistro 489, 489 Winthrop St.",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24967",
+      "agenda_url": "https://drive.google.com/file/d/1P7YvlY9eHHB878bhcIbCbAwANDz7yd3c/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/99900399763?pwd=BjayCuDJbW1o5hAvwvyK1LiPAzQeUR.1#success",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "24963",
+      "title": "M-BELT Board Meeting",
+      "start": "2026-06-18T19:00:00-04:00",
+      "date": "2026-06-18",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24963",
+      "agenda_url": "https://docs.google.com/document/d/1yF6SueK4riobIcaCHfsY6KkRs4nR_b7h/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82579358014",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "21241",
