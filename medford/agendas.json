@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-15",
+    "processed_date": "2026-06-16",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -416,6 +416,36 @@
         "filename": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
         "status": "parsed",
         "item_count": 7
+      },
+      {
+        "filename": "2026-06-23__25036__community-development-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-06-24__25032__conservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-06-24__25034__liquor-license-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
+      },
+      {
+        "filename": "2026-06-25__25035__zoning-board-of-appeals-meeting-executive-session.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-06-30__24891__retirement-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 24
       }
     ]
   },
@@ -9439,6 +9469,566 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-06-18__24967__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting to Order",
+      "Source_File": "2026-06-23__25036__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Endorsement of ANR (Approval Not Required) Plan: 52 Magoun Avenue",
+      "Source_File": "2026-06-23__25036__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Public Board Working Session - Zoning Amendment-Boston Avenue Neighborhood Corridor District: Discussion of the proposed amendment draft language and map.",
+      "Source_File": "2026-06-23__25036__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Zoning Project Timeline and other Administrative Updates",
+      "Source_File": "2026-06-23__25036__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "5",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-06-23__25036__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-23__25036__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Notice of Intent - DEP File #215-0248 – Main Street Intersection Improvements – Continued from June 3, 2026 – Massachusetts Department of Transportation intersection improvements along Main Street and (Mystic Valley Parkway Ramps, South Street and Mystic Avenue)",
+      "Source_File": "2026-06-24__25032__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Notice of Intent - DEP File #215-0248 – 75 South Street – Kelly Morrissey has filed a Notice of Intent to raze an existing three-family dwelling and to construct a new three-family dwelling, porches, walkways, decks, stairs, permeable paver driveway, stone infiltration trench, grading and utilities",
+      "Source_File": "2026-06-24__25032__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Future Projects",
+      "Source_File": "2026-06-24__25032__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Ongoing Projects",
+      "Source_File": "2026-06-24__25032__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "5",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-06-24__25032__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Proposed Regulations",
+      "Source_File": "2026-06-24__25032__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "License Commission of the City of Medford",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "1:00 PM",
+      "Location": "Room 207, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155 and via zoom",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "The Commission will review & approve minutes for 4.15.26 & 5.20.26 meeting.",
+      "Source_File": "2026-06-24__25034__liquor-license-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "License Commission of the City of Medford",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "1:00 PM",
+      "Location": "Room 207, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155 and via zoom",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "A representative from Chandrika Corporation DBA Heritage Liquors & Market will present a transfer of license application for their establishment located at 440 High Street, Medford, MA.",
+      "Source_File": "2026-06-24__25034__liquor-license-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "License Commission of the City of Medford",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "1:00 PM",
+      "Location": "Room 207, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155 and via zoom",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "A representative from Raso's Food Medford, LLC DBA Raso's Grille will present a transfer of license application for their establishment located at 209 Mystic Avenue, Medford, MA.",
+      "Source_File": "2026-06-24__25034__liquor-license-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "License Commission of the City of Medford",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "1:00 PM",
+      "Location": "Room 207, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155 and via zoom",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "A representative from Snappy Patty's will present a transfer of license application and entertainment license application for their establishment located at 454 High Street, Medford, MA.",
+      "Source_File": "2026-06-24__25034__liquor-license-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "License Commission of the City of Medford",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "1:00 PM",
+      "Location": "Room 207, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155 and via zoom",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "The Commission will discuss the option to temporarily allow its on-premises licensees to sell alcoholic beverages for one additional hour, not to exceed 3AM.",
+      "Source_File": "2026-06-24__25034__liquor-license-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "License Commission of the City of Medford",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "1:00 PM",
+      "Location": "Room 207, 2nd Floor, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155 and via zoom",
+      "Item_Number": "6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Any and all other business that may arise.",
+      "Source_File": "2026-06-24__25034__liquor-license-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000002/ZON26-000014",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "70 Lincoln Road – Samuel and Beverly D'Agostino to construct a second single-family dwelling in a Single Family One (SF-1) Zoning District requiring a use variance",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000003/ZON26-000015",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "25 Mystic Street – Erik Johnson to construct a two-story deck on an existing non-conforming two-family home in a Single Family Two (SF-2) Zoning District requiring a special permit for side yard setback non-conformity",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000004/ZON26-000016",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "21 Water Street – Cyril Baidak to build a garage within the Front Yard Setback, not allowed per City of Medford Zoning Ordinance Chapter 94, Table B – Table of Dimensional Requirements",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000005/ZON26-000017",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "39 Ramshead Road – Derek Chan to add a driveway in a Single Family One (SF-1) Zoning District; proposed driveway not allowed per City of Medford Zoning Ordinances 94-6.1.5 Off-Street Parking Requirements",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000006/ZON26-000018",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "493 Main Street – Roselaine D. Monpremiere to convert an existing non-conforming single-family dwelling to a second single-family dwelling in a Single Family One (SF-1) Zoning District requiring a variance for Lot Width and Lot Area",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000010/ZON26-000019",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "121 Boston Avenue – Mohammad Almahmoud to change from one nonconforming use (real estate office) to another nonconforming use (community café) requiring a special permit",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "ZON26-000007",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "114 Mystic Avenue – New England Organic, dba Victory Gardens seeking a Special Permit for Medical Cannabis Sales, Product Manufacturing, and Delivery Services to an existing approved cannabis dispensary; relief sought from Section 94-7.6 Adult Use Marijuana Establishments and Article IX – Marijuana Establishments (Continued from May 28, 2026)",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "ZON26-000013",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "31 Boynton Road – Jennifer Percy and Jordan Sherwood for a proposed 1.5-story addition requiring a variance for Height in a Single Family One (SF-1) Zoning District (Continued from May 28, 2026)",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "D",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Items not reasonably Anticipated by the Chair 48 hours in advance of Meeting",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "E",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Administrative Updates including Approval of Meeting Minutes and Discussion of Rules",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "F",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Open Public Meeting",
+      "Source_File": "2026-06-25__25035__zoning-board-of-appeals-meeting-executive-session.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Executive Session pursuant to G.L. c. 30A, §21(a)(3) to discuss strategy relating to pending litigation known as, Refah v. Medford ZBA et al. Massachusetts Land Court, Case No. 23 MISC. 000657",
+      "Source_File": "2026-06-25__25035__zoning-board-of-appeals-meeting-executive-session.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-25__25035__zoning-board-of-appeals-meeting-executive-session.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Minutes from the meeting of 5/27/2026",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Monthly Expense Warrants",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Superannuation Retirements",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Disability Retirements",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "5",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Cash transfers",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "6",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PRIT Fund Payment and Distribution Letters",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "7",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PRIT Fund Confirmation Letters",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "8",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Makeups, Buybacks, Redeposits, and Military Service Purchases",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "9",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Transfers to other Systems",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "10",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Refunds to Members",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "11",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PERAC memos and correspondence",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "12",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Eligible Positions for Membership",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "13",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Applications for Membership",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "14",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Investment statements and fees",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "15",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Department requests and correspondence",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "16",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "NEPC Investment Performance Review and Investment Recommendations",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "17",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Monthly cash books",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "18",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Meeting with Members and Retirees",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "19",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Meeting with Vendors and Money Managers",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "20",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Review of PERAC Memos",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "21",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public and Private Hearings as needed",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "22",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Hearings as needed for Disability, Involuntary Retirements, Death Benefits, Forfeiture, 91A and 91B Excess Earning Hearings",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "23",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Review and discuss RFP responses for Actuarial Services",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "24",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Review the results of the 1/1/2026 Actuarial valuation study",
+      "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
     }
   ],
   "meetings": [
@@ -10520,39 +11110,87 @@
       "agenda_url": "https://drive.google.com/file/d/1P7YvlY9eHHB878bhcIbCbAwANDz7yd3c/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24967"
+    },
+    {
+      "source_file": "2026-06-23__25036__community-development-board-meeting.pdf",
+      "occur_id": "25036",
+      "committee_name": "Community Development Board",
+      "meeting_date": "2026-06-23",
+      "meeting_time": "6:30 PM",
+      "location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/18v0wreIf5XaYMpQETGimcYHO446GbqyA/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25036"
+    },
+    {
+      "source_file": "2026-06-24__25032__conservation-commission-meeting.pdf",
+      "occur_id": "25032",
+      "committee_name": "City of Medford Conservation Commission",
+      "meeting_date": "2026-06-24",
+      "meeting_time": "6:30 PM",
+      "location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1fwKN_AmJ3DcvzEldTNmBHK9iFzbQ0f4R/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25032"
+    },
+    {
+      "source_file": "2026-06-24__25034__liquor-license-commission-meeting.pdf",
+      "occur_id": "25034",
+      "committee_name": "License Commission of the City of Medford",
+      "meeting_date": "2026-06-24",
+      "meeting_time": "1:00 PM",
+      "location": "City Hall - Room 207",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1cMXxvHK05Px67Z_Yr2XSmCRi5SrCT3ha/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25034"
+    },
+    {
+      "source_file": "2026-06-25__25031__zoning-board-of-appeals-meeting.pdf",
+      "occur_id": "25031",
+      "committee_name": "Medford Zoning Board of Appeals",
+      "meeting_date": "2026-06-25",
+      "meeting_time": "6:30 PM",
+      "location": "Remote via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/17E6SvqijGbY3SYL2TBgxJ80J5sEMmynl/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25031"
+    },
+    {
+      "source_file": "2026-06-25__25035__zoning-board-of-appeals-meeting-executive-session.pdf",
+      "occur_id": "25035",
+      "committee_name": "Zoning Board of Appeals",
+      "meeting_date": "2026-06-25",
+      "meeting_time": "6:00 PM",
+      "location": "Remote via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1YfKKW1Egp2XvmAWPYgDS4Pfyr_9T74Zg/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25035"
+    },
+    {
+      "source_file": "2026-06-30__24891__retirement-board-meeting.pdf",
+      "occur_id": "24891",
+      "committee_name": "Medford Retirement Board",
+      "meeting_date": "2026-06-30",
+      "meeting_time": "9:30 AM",
+      "location": "City Hall - Room 201",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1g8pATV0hWSHVZ4V3-hkDIZzSqgr2wlqn/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24891"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "24959",
-      "title": "Library Board of Trustees Meeting",
-      "start": "2026-06-15T09:30:00-04:00",
-      "date": "2026-06-15",
-      "time": "9:30 AM",
-      "location": "Medford Public Library, 111 High Street, Second Floor, Kigner & Qiu Family Study Room",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24959",
-      "agenda_url": "https://docs.google.com/document/d/1kViFAUlZe2eGm_78mur3MIs--P5nJknw/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/84223931227?pwd=Th9sriQDjxs0MptETZkkTS0rw89pPJ.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "24961",
-      "title": "School Committee Meeting",
-      "start": "2026-06-15T17:00:00-04:00",
-      "date": "2026-06-15",
-      "time": "5:00 PM",
-      "location": "City Hall Council Chambers",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24961",
-      "agenda_url": "https://drive.google.com/file/d/1xC2TMmzaexxRkUCCbLJ7P7a9kzQJ0JZz/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://mps02155-org.zoom.us/j/95599913874?pwd=i3dk8oKH45GVcov2Gi5Kh5mI3FfXF0.1#success",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "24962",
       "title": "Board of Health Meeting",
@@ -10611,7 +11249,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/82730942315",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "22944",
@@ -10671,7 +11309,7 @@
       "has_zoom": true,
       "zoom_url": "https://mps02155-org.zoom.us/j/99900399763?pwd=BjayCuDJbW1o5hAvwvyK1LiPAzQeUR.1#success",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "24963",
@@ -10686,7 +11324,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/82579358014",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "21241",
@@ -10704,6 +11342,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "25036",
+      "title": "Community Development Board Meeting",
+      "start": "2026-06-23T18:30:00-04:00",
+      "date": "2026-06-23",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25036",
+      "agenda_url": "https://drive.google.com/file/d/18v0wreIf5XaYMpQETGimcYHO446GbqyA/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/95629298475",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "22917",
       "title": "City Council Meeting",
       "start": "2026-06-23T19:00:00-04:00",
@@ -10711,6 +11364,36 @@
       "time": "7:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22917",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "25034",
+      "title": "Liquor License Commission Meeting",
+      "start": "2026-06-24T13:00:00-04:00",
+      "date": "2026-06-24",
+      "time": "1:00 PM",
+      "location": "City Hall - Room 207",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25034",
+      "agenda_url": "https://drive.google.com/file/d/1cMXxvHK05Px67Z_Yr2XSmCRi5SrCT3ha/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82350883807",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "25033",
+      "title": "Joint Meeting of the Medford City Council and Community Development Board",
+      "start": "2026-06-24T18:00:00-04:00",
+      "date": "2026-06-24",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25033",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -10734,6 +11417,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "25032",
+      "title": "Conservation Commission Meeting",
+      "start": "2026-06-24T18:30:00-04:00",
+      "date": "2026-06-24",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25032",
+      "agenda_url": "https://docs.google.com/document/d/1fwKN_AmJ3DcvzEldTNmBHK9iFzbQ0f4R/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82928229310",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "18141",
       "title": "Bicycle Advisory Commission Meeting",
       "start": "2026-06-24T19:00:00-04:00",
@@ -10749,19 +11447,49 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "22850",
+      "occur_id": "25035",
+      "title": "Zoning Board of Appeals Meeting (Executive Session)",
+      "start": "2026-06-25T18:00:00-04:00",
+      "date": "2026-06-25",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25035",
+      "agenda_url": "https://docs.google.com/document/d/1YfKKW1Egp2XvmAWPYgDS4Pfyr_9T74Zg/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/91222064272",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "25031",
       "title": "Zoning Board of Appeals Meeting",
       "start": "2026-06-25T18:30:00-04:00",
       "date": "2026-06-25",
       "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22850",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25031",
+      "agenda_url": "https://docs.google.com/document/d/17E6SvqijGbY3SYL2TBgxJ80J5sEMmynl/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/91222064272",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "24891",
+      "title": "Retirement Board Meeting",
+      "start": "2026-06-30T09:30:00-04:00",
+      "date": "2026-06-30",
+      "time": "9:30 AM",
+      "location": "City Hall - Room 201",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24891",
+      "agenda_url": "https://drive.google.com/file/d/1g8pATV0hWSHVZ4V3-hkDIZzSqgr2wlqn/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     }
   ]
 }
