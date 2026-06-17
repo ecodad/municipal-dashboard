@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-15",
+    "processed_date": "2026-06-17",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -509,6 +509,36 @@
       },
       {
         "filename": "2026-06-18__2026_06_18_board-health-meeting__board-of-health-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf",
+        "status": "parsed",
+        "item_count": 12
+      },
+      {
+        "filename": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 14
+      },
+      {
+        "filename": "2026-06-22__2026_06_22_finance-committee-meeting__finance-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
+      },
+      {
+        "filename": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 19
+      },
+      {
+        "filename": "2026-06-25__2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf",
         "status": "parsed",
         "item_count": 5
       }
@@ -1777,6 +1807,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/18/board-health-meeting"
     },
     {
+      "source_file": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf",
+      "occur_id": "2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting",
+      "committee_name": "City of Somerville Job Creation & Retention Trust",
+      "meeting_date": "2026-06-18",
+      "meeting_time": "6:30 PM",
+      "location": "Atrium Conference Room #203M 167 Holland St Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/job-creation-and-retention-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/municipal-job-creation-and-retention-board-trustees-meeting"
+    },
+    {
       "source_file": "2026-06-18__2026_06_18_land-use-committee-meeting__land-use-committee-meeting.pdf",
       "occur_id": "2026_06_18_land-use-committee-meeting",
       "committee_name": "Land Use Committee",
@@ -1816,6 +1859,58 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/18/pedestrian-and-transit-advisory-committee-meeting"
     },
     {
+      "source_file": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf",
+      "occur_id": "2026_06_18_urban-forestry-committee-meeting",
+      "committee_name": "Urban Forestry Committee",
+      "meeting_date": "2026-06-18",
+      "meeting_time": "4:30 PM",
+      "location": "Remote meeting via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/urban-forestry-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/urban-forestry-committee-meeting"
+    },
+    {
+      "source_file": "2026-06-22__2026_06_22_finance-committee-meeting__finance-committee-meeting.pdf",
+      "occur_id": "2026_06_22_finance-committee-meeting",
+      "committee_name": "Finance Committee",
+      "meeting_date": "2026-06-22",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413149&GUID=8EF3D4AB-6AF3-468B-8197-C0A8621B2FF7",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/22/finance-committee-meeting"
+    },
+    {
+      "source_file": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf",
+      "occur_id": "2026_06_22_traffic-and-parking-committee-meeting",
+      "committee_name": "Traffic and Parking Committee",
+      "meeting_date": "2026-06-22",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415782&GUID=4A62A52D-F8AC-4ADB-9EBD-F6BAFE36FD13",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/22/traffic-and-parking-committee-meeting"
+    },
+    {
+      "source_file": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf",
+      "occur_id": "2026_06_23_retirement-board-meeting",
+      "committee_name": "Somerville Retirement Board",
+      "meeting_date": "2026-06-23",
+      "meeting_time": "1:30 PM",
+      "location": "Conference Room 323 Broadway Somerville , MA 02145 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/retirement-20260623-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/23/retirement-board-meeting"
+    },
+    {
       "source_file": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
       "occur_id": "2026_06_24_licenses-and-permits-committee-meeting",
       "committee_name": "Licenses and Permits Committee",
@@ -1840,6 +1935,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/fair-housing-20260625-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/25/fair-housing-commission-meeting"
+    },
+    {
+      "source_file": "2026-06-25__2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf",
+      "occur_id": "2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting",
+      "committee_name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "meeting_date": "2026-06-25",
+      "meeting_time": "1:00 PM",
+      "location": "50 Evergreen Avenue, Somerville, MA 02145",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/somerville-cambridge-public-health-20260625-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/25/somerville-cambridge-public-health-collaborative-advisory-board-meeting"
     }
   ],
   "items": [
@@ -12744,6 +12852,126 @@
       "Source_File": "2026-06-18__2026_06_18_land-use-committee-meeting__land-use-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "1a",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Vote to approve April 16th meeting minutes",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Announcing new Senior Workforce Development Planner",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "3a",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Vote to approve a no-cost extension for Bunker Hill Community College's Somerville English Language Learner Program through September 30, 2026",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "3b",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Vote to approve scope amendment allowing Somerville Arts Council to re-enroll a Somerville resident from a previous Nibble Entrepreneurship Program cohort to participate in the Chef-in-Residency program",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "3c",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Vote to approve no-cost extension for Just A Start's Adult Career Training Programs through September 30, 2026",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "3d",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Vote to obligate $128,289.00 to the Workforce Development Coordinator position to cover 100% from FY27-FY29",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Multi-Member Bodies Review Committee update",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review Received and Estimated Linkage Fees for 2026",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor Wilson Presentation on Workforce Development Priorities",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Labor Market Information Presentation reflections",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review draft schedule for upcoming meeting topics and next request for proposals (RFP)",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167 Holland St, Room # 203M Somerville, MA 02144 and Remote via Zoom",
+      "Item_Number": "9",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-18__2026_06_18_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
       "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
       "Meeting_Date": "2026-06-18",
       "Meeting_Time": "6:30 PM",
@@ -12924,6 +13152,466 @@
       "Source_File": "2026-06-18__2026_06_18_planning-board-meeting__planning-board-meeting.pdf"
     },
     {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Introductions / Housekeeping",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Resident Concerns",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Foss Park Pollinator Garden Installation",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "4a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "City Tree Removals",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "4b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Private Tree Removal Permit(s) and Exception(s)",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "4c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Spring 2026 Tree Planting",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "5a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "UFC Recommendations for Mayor Jake Wilson",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "5b",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Outreach",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "5c",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "UFC Overview and Startup question answering",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "5d",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Somerville's Most Wanted Weeds",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Urban Forestry Related Job Postings and RFPs",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "7a",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes from April 16th, 2026",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "7b",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes from May 21st, 2026",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-06-18",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "8",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-06-18__2026_06_18_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-06-22__2026_06_22_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of the FY27 Budget",
+      "Source_File": "2026-06-22__2026_06_22_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "1.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Follow up review of Departmental Budgets",
+      "Source_File": "2026-06-22__2026_06_22_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0124",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Ewen-Campen and Councilor Scott: That the Director of Mobility implement colored lane markings for bus and bike lanes on Prospect Street between Webster Avenue and Somerville Avenue.",
+      "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0614",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Link and Councilor Scott: That the Director of Mobility add the intersection of Durham and Hanson Street to the list of crosswalks that require daylighting improvements to enhance visibility and pedestrian safety.",
+      "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0806",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Sait: That the Director of Mobility install a speed bump on Vernon Street.",
+      "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0822",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Mbah and Councilor Hardt: That the Director of Mobility install speed bumps on Elmwood Street and assess whether closing the street to non-residents during rush hours would be possible and useful to reduce the cut-through traffic to and from Cameron Avenue.",
+      "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0837",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor McLaughlin: That the Director of Mobility use urban Neighborways art on Perkins Street, in front of the playground, to increase pedestrian safety.",
+      "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0840",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Link and Councilor Ewen-Campen: That the Director of Mobility evaluate the feasibility of implementing a raised intersection or crosswalk at the intersection of Columbus Avenue, Prospect Hill Parkway, and Stone Avenue, and report findings to the City Council.",
+      "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0854",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Traffic and Parking Committee Meeting of April 27, 2026.",
+      "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0939",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Traffic and Parking Committee Meeting of May 18, 2026.",
+      "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1012",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Hardt: That the Chief of Police increase traffic enforcement in Teele Square, especially focusing on the lights and crosswalks between Broadway and Holland Street, and especially in the morning when students and families are walking to school.",
+      "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic and Parking Committee",
+      "Meeting_Date": "2026-06-22",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1021",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Hardt: That the Director of Mobility install additional signage and the Chief of Police increase enforcement to ensure compliance with the one-way traffic direction on Whitfield Road.",
+      "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review, approve and sign the minutes of prior meeting(s).",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Review, approve issuing payment for Vendor Expense Warrant # 6-2026 and Retiree Payroll Warrant # 6-2026 for the month of June 2026.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Review, accept and process Applications for Withdrawal of Accumulated Total Deductions, account transfer requests and Buyback and Makeup requests.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Review, accept and process received Retirement Applications and beneficiary benefit requests.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Possible Executive Session pursuant to Purpose 1, M.G.L. c.30A, § 21(a)(1) – To review and discuss disability applications and updates: K. Popken, Todd Breen.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Possible Executive Session pursuant to Purpose 3, MGL c.30A, § 21(a)(3) – To conduct a strategy session with respect to pending case(s).",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.7",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Sign new Membership certificates; issue any new Member suspension letters.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.8",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Financial review: bank reconciliations, trial balance, receipts & disbursement journals.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.9",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "PERAC memos received.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.10",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Legal or legislative updates. Attorney M. Feeney.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.11",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Death notices; review any outstanding balances due to the Retirement Board.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.12",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Upcoming Conferences.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.13",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discuss and review any new Policies & Procedures, Supplemental Regulations & Employee Personnel Policies.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.14",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Investment Manager annual review & update: Loomis, Sayles.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.15",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Retiree Kathy Henkle Teixeira request to change retirement option; vote likely.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.16",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Member Coordinator/Administrative Assistant anniversary salary adjustment; vote likely.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.17",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Executive Director update.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.18",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Continuation of any old business.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "1:30 PM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1.19",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Any new business & other items not reasonably anticipated at the time of the meeting posting.",
+      "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
       "Committee_Name": "Licenses and Permits Committee",
       "Meeting_Date": "2026-06-24",
       "Meeting_Time": "6:00 PM",
@@ -13062,66 +13750,71 @@
       "Item_Type": "Communication",
       "Agenda_Topic": "Announcements – The next meeting is scheduled for July 23, 2026 at 3:00 PM",
       "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "1:00 PM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Announce Quorum if present",
+      "Source_File": "2026-06-25__2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "1:00 PM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public Comment: NONE",
+      "Source_File": "2026-06-25__2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "1:00 PM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Previous Minutes",
+      "Source_File": "2026-06-25__2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "1:00 PM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145",
+      "Item_Number": "4",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "New Workplan and Budget information - vote expected",
+      "Source_File": "2026-06-25__2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "1:00 PM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-06-25__2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
     }
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_06_16_metro-boston-homeland-security-region-planning-and-community-preparedness",
-      "title": "Metro Boston Homeland Security Region Planning and Community Preparedness Subcommittee Meeting",
-      "start": "2026-06-16T14:00:00-04:00",
-      "date": "2026-06-16",
-      "time": "2:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/16/metro-boston-homeland-security-region-planning-and-community-preparedness",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_06_16_finance-committee-meeting",
+      "occur_id": "2026_06_17_finance-committee-meeting",
       "title": "Finance Committee Meeting",
-      "start": "2026-06-16T18:00:00-04:00",
-      "date": "2026-06-16",
+      "start": "2026-06-17T18:00:00-04:00",
+      "date": "2026-06-17",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/16/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416236&GUID=9F319FB7-3A46-41B6-A951-BFDE731F3BBC",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_16_licensing-commission-meeting",
-      "title": "Licensing Commission Meeting",
-      "start": "2026-06-16T18:00:00-04:00",
-      "date": "2026-06-16",
-      "time": "6:00 PM",
-      "location": "City Council Chamber 93 Highland Avenue Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/06/16/licensing-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/licensing-20260616-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_RuoC4D_wTZCrZzZ5_z6vGA",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_16_historic-preservation-commission-meeting",
-      "title": "Historic Preservation Commission Meeting",
-      "start": "2026-06-16T18:45:00-04:00",
-      "date": "2026-06-16",
-      "time": "6:45 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/16/historic-preservation-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/historic-preservation-20260616-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_z1TzsXgpQq-1xEPPFr6-mQ",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -13152,21 +13845,6 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_aFuUgxMqTym3ntPRvg6fVA",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_17_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -13214,21 +13892,6 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_31ZyNDGzRmiu4jBM4zJt4w",
       "has_livestream": false,
       "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_06_18_board-health-meeting",
-      "title": "Board of Health Meeting",
-      "start": "2026-06-18T18:00:00-04:00",
-      "date": "2026-06-18",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/18/board-health-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/board-of-health-20260618-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/85801051047",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_18_planning-board-meeting",
@@ -13291,6 +13954,21 @@
       "pipeline_status": "downloaded"
     },
     {
+      "occur_id": "2026_06_22_traffic-and-parking-committee-meeting",
+      "title": "Traffic and Parking Committee Meeting",
+      "start": "2026-06-22T18:00:00-04:00",
+      "date": "2026-06-22",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/22/traffic-and-parking-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415782&GUID=4A62A52D-F8AC-4ADB-9EBD-F6BAFE36FD13",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_06_22_finance-committee-meeting",
       "title": "Finance Committee Meeting",
       "start": "2026-06-22T18:00:00-04:00",
@@ -13303,20 +13981,20 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_06_22_traffic-and-parking-committee-meeting",
-      "title": "Traffic and Parking Committee Meeting",
-      "start": "2026-06-22T18:00:00-04:00",
-      "date": "2026-06-22",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/22/traffic-and-parking-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415782&GUID=4A62A52D-F8AC-4ADB-9EBD-F6BAFE36FD13",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
+      "occur_id": "2026_06_23_retirement-board-meeting",
+      "title": "Retirement Board Meeting",
+      "start": "2026-06-23T13:30:00-04:00",
+      "date": "2026-06-23",
+      "time": "1:30 PM",
+      "location": "Conference Room 323 Broadway Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/23/retirement-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/retirement-20260623-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/91312174046",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -13411,6 +14089,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_06_29_sustainability-and-infrastructure-committee-meeting",
+      "title": "Sustainability and Infrastructure Committee Meeting",
+      "start": "2026-06-29T18:00:00-04:00",
+      "date": "2026-06-29",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/29/sustainability-and-infrastructure-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416238&GUID=8117A9EF-4410-4832-96D4-A97DF344F58C",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_06_29_condominium-review-board-meeting",
       "title": "Condominium Review Board Meeting",
       "start": "2026-06-29T18:00:00-04:00",
@@ -13426,14 +14119,44 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_29_sustainability-and-infrastructure-committee-meeting",
-      "title": "Sustainability and Infrastructure Committee Meeting",
-      "start": "2026-06-29T18:00:00-04:00",
-      "date": "2026-06-29",
+      "occur_id": "2026_06_30_legislative-matters-committee-meeting",
+      "title": "Legislative Matters Committee Meeting",
+      "start": "2026-06-30T18:00:00-04:00",
+      "date": "2026-06-30",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/29/sustainability-and-infrastructure-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416238&GUID=8117A9EF-4410-4832-96D4-A97DF344F58C",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/30/legislative-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417986&GUID=904AE069-15C9-4640-9474-CFF4EEF0B6E3",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_01_housing-community-development-and-equity-committee-meeting",
+      "title": "Housing, Community Development and Equity Committee Meeting",
+      "start": "2026-07-01T18:00:00-04:00",
+      "date": "2026-07-01",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/01/housing-community-development-and-equity-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416239&GUID=A6E082C8-E382-4177-B331-3480ED274A1C",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_01_public-health-and-public-safety-committee-meeting",
+      "title": "Public Health and Public Safety Committee Meeting",
+      "start": "2026-07-01T18:30:00-04:00",
+      "date": "2026-07-01",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/01/public-health-and-public-safety-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1423479&GUID=755C5D8A-F6C8-4BF0-99BF-8B18E18839E0",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
