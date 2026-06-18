@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-17",
+    "processed_date": "2026-06-18",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -541,6 +541,16 @@
         "filename": "2026-06-25__2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf",
         "status": "parsed",
         "item_count": 5
+      },
+      {
+        "filename": "2026-06-23__2026_06_23_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 1
+      },
+      {
+        "filename": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 18
       }
     ]
   },
@@ -1898,6 +1908,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/22/traffic-and-parking-committee-meeting"
     },
     {
+      "source_file": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf",
+      "occur_id": "2026_06_23_finance-committee-meeting",
+      "committee_name": "Finance Committee",
+      "meeting_date": "2026-06-23",
+      "meeting_time": "6:00 PM",
+      "location": "City Council Chamber",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413150&GUID=7070762B-B624-4084-B653-84AA2EEDE624",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/23/finance-committee-meeting"
+    },
+    {
       "source_file": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf",
       "occur_id": "2026_06_23_retirement-board-meeting",
       "committee_name": "Somerville Retirement Board",
@@ -1909,6 +1932,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/retirement-20260623-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/23/retirement-board-meeting"
+    },
+    {
+      "source_file": "2026-06-23__2026_06_23_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf",
+      "occur_id": "2026_06_23_canceled-urban-design-commission-meeting",
+      "committee_name": "Urban Design Commission",
+      "meeting_date": "2026-06-23",
+      "meeting_time": "6:00 PM",
+      "location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/urban-design-20260623-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/23/canceled-urban-design-commission-meeting"
     },
     {
       "source_file": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
@@ -13422,6 +13458,196 @@
       "Source_File": "2026-06-22__2026_06_22_traffic-and-parking-committee-meeting__traffic-and-parking-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Urban Design Commission",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting cancelled due to lack of business.",
+      "Source_File": "2026-06-23__2026_06_23_canceled-urban-design-commission-meeting__canceled-urban-design-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of the FY 2027 Budget",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "2.1",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution By Councilor Strezo 6/9/26: That the collective salaries of Licensing Commissioners be increased to $15,180 with the Chair receiving $5,180 and Licensing Commissioners 2 and 3 receiving $5,000 each annually.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "2.2",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "Resolution By Councilor Link 6/15/26: That the Administration add $400,000 in funding for Youth Development Services grants so that Teen Empowerment may have full funding.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0950",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $376,778,493 to fund the Fiscal Year 2027 General Fund Operating Budget.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0951",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $39,633,688 to fund the Fiscal Year 2027 Sewer Enterprise Fund budget.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0952",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $24,672,499 to fund the Fiscal Year 2027 Water Enterprise Fund budget.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0953",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $794,782 to fund the Fiscal Year 2027 Kennedy School Pool Enterprise Fund budget.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0954",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $237,500 to fund the Fiscal Year 2027 Dilboy Fields Enterprise Fund Budget.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0961",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting approval of a transfer of $1,676,728 from the Salary Contingency Account-Salaries to the Salary & Wage Stabilization Fund.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0962",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $16,000,000 from the Sewer Enterprise Retained Earnings Account to the Sewer Capital Stabilization Fund.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0963",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $2,000,000 from the Water Enterprise Retained Earnings Account to the Water Capital Stabilization Fund.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0965",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $7,150,000 from the Unreserved Fund Balance (\"Free Cash\") to the Street Reconstruction and Renovation Stabilization Fund to support the 5-Year Capital Investment Plan.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0966",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $1,000,000 from the Unreserved Fund Balance (\"Free Cash\") to the Salary & Wage Stabilization Fund.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0967",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $1,200,000 from the Unreserved Fund Balance (\"Free Cash\") to the Other Post Employment Benefits (OPEB) Trust Fund.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0969",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $86,200 from the Dilboy Fields Enterprise Fund Retained Earnings Account to subsidize the Fiscal Year 2027 Dilboy Fields Enterprise Fund Budget.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-0970",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $238,791 from the Kennedy School Pool Enterprise Fund Retained Earnings to support the Fiscal Year 2027 Kennedy School Pool Enterprise Fund Budget.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-1008",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $200,000 from the Unreserved Fund Balance (\"Free Cash\") to the Compensated Absence Liability Fund.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-06-23",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber",
+      "Item_Number": "26-1016",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Request: Requesting the appropriation of $549,399 from the Unreserved Fund Balance (\"Free Cash\") to the Traffic Safety Stabilization Fund for traffic safety improvements.",
+      "Source_File": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Retirement Board",
       "Meeting_Date": "2026-06-23",
       "Meeting_Time": "1:30 PM",
@@ -13804,81 +14030,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_06_17_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1413148&GUID=847D67EF-6C67-43EA-85F2-50AD878E2527",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_17_east-washington-quick-build-safety-improvements-virtual-community-meeting",
-      "title": "East Washington Quick-Build Safety Improvements Virtual Community Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": "United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/east-washington-quick-build-safety-improvements-virtual-community-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7j44pKU1Sf24hNjAHbONsw",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_06_17_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-06-17T18:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/zoning-board-appeals-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/zoning-20260617-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_aFuUgxMqTym3ntPRvg6fVA",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_17_school-committee-special-meeting-whole",
-      "title": "School Committee Special Meeting of the Whole",
-      "start": "2026-06-17T18:30:00-04:00",
-      "date": "2026-06-17",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/school-committee-special-meeting-whole",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Call%20for%20the%20Week%20of%2006-15-26_4.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_U_Wxg04yQNiMlDRwnLfcPg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_17_school-committee-finance-and-facilities-subcommittee-meeting",
-      "title": "School Committee Finance and Facilities Subcommittee Meeting",
-      "start": "2026-06-17T19:00:00-04:00",
-      "date": "2026-06-17",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/17/school-committee-finance-and-facilities-subcommittee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/Call%20for%20the%20Week%20of%2006-15-26.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_hCyV96GbRc6yG_E7PzdvdA",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_06_18_urban-forestry-committee-meeting",
       "title": "Urban Forestry Committee Meeting",
       "start": "2026-06-18T16:30:00-04:00",
@@ -13891,7 +14042,22 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_31ZyNDGzRmiu4jBM4zJt4w",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_18_board-health-meeting",
+      "title": "Board of Health Meeting",
+      "start": "2026-06-18T18:00:00-04:00",
+      "date": "2026-06-18",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/board-health-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/board-of-health-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/85801051047",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_18_planning-board-meeting",
@@ -13905,21 +14071,6 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_NpQQ7FnmQzeUztjfd4xjrg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_18_pedestrian-and-transit-advisory-committee-meeting",
-      "title": "Pedestrian and Transit Advisory Committee Meeting",
-      "start": "2026-06-18T18:30:00-04:00",
-      "date": "2026-06-18",
-      "time": "6:30 PM",
-      "location": "101 South Street Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/06/18/pedestrian-and-transit-advisory-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/pedestrian-transit-advisory-committee-20260618-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -13951,22 +14102,22 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/83505702790?pwd=xcqAckTkQWE6f3q1q7DRanpL74tEaz.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_22_traffic-and-parking-committee-meeting",
-      "title": "Traffic and Parking Committee Meeting",
-      "start": "2026-06-22T18:00:00-04:00",
-      "date": "2026-06-22",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/22/traffic-and-parking-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415782&GUID=4A62A52D-F8AC-4ADB-9EBD-F6BAFE36FD13",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
+      "occur_id": "2026_06_18_pedestrian-and-transit-advisory-committee-meeting",
+      "title": "Pedestrian and Transit Advisory Committee Meeting",
+      "start": "2026-06-18T18:30:00-04:00",
+      "date": "2026-06-18",
+      "time": "6:30 PM",
+      "location": "101 South Street Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/18/pedestrian-and-transit-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/pedestrian-transit-advisory-committee-20260618-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_22_finance-committee-meeting",
@@ -13981,7 +14132,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_23_retirement-board-meeting",
@@ -13996,22 +14147,22 @@
       "has_zoom": true,
       "zoom_url": "https://zoom.us/j/91312174046",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_23_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
+      "occur_id": "2026_06_23_canceled-urban-design-commission-meeting",
+      "title": "CANCELED: Urban Design Commission Meeting",
       "start": "2026-06-23T18:00:00-04:00",
       "date": "2026-06-23",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/23/urban-design-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/23/canceled-urban-design-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/urban-design-20260623-agenda.pdf",
+      "agenda_type": "S3",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_23_finance-committee-meeting",
@@ -14026,7 +14177,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_24_licenses-and-permits-committee-meeting",
@@ -14056,7 +14207,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/83664015642?pwd=CbKAqWsm1Vzbo2NEvaXvvCaFyYXeCD.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_25_fair-housing-commission-meeting",
@@ -14089,21 +14240,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_06_29_sustainability-and-infrastructure-committee-meeting",
-      "title": "Sustainability and Infrastructure Committee Meeting",
-      "start": "2026-06-29T18:00:00-04:00",
-      "date": "2026-06-29",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/29/sustainability-and-infrastructure-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416238&GUID=8117A9EF-4410-4832-96D4-A97DF344F58C",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_06_29_condominium-review-board-meeting",
       "title": "Condominium Review Board Meeting",
       "start": "2026-06-29T18:00:00-04:00",
@@ -14113,6 +14249,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/29/condominium-review-board-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_06_29_sustainability-and-infrastructure-committee-meeting",
+      "title": "Sustainability and Infrastructure Committee Meeting",
+      "start": "2026-06-29T18:00:00-04:00",
+      "date": "2026-06-29",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/29/sustainability-and-infrastructure-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416238&GUID=8117A9EF-4410-4832-96D4-A97DF344F58C",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
