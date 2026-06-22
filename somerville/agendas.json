@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-18",
+    "processed_date": "2026-06-22",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -549,6 +549,26 @@
       },
       {
         "filename": "2026-06-23__2026_06_23_finance-committee-meeting__finance-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 18
+      },
+      {
+        "filename": "2026-06-24__2026_06_24_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
+      },
+      {
+        "filename": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 15
+      },
+      {
+        "filename": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf",
         "status": "parsed",
         "item_count": 18
       }
@@ -1947,6 +1967,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/23/canceled-urban-design-commission-meeting"
     },
     {
+      "source_file": "2026-06-24__2026_06_24_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf",
+      "occur_id": "2026_06_24_community-preservation-committee-meeting",
+      "committee_name": "Community Preservation Committee",
+      "meeting_date": "2026-06-24",
+      "meeting_time": "6:30 PM",
+      "location": "The meeting will be held remotely.",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/community-preservation-20260624-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/24/community-preservation-committee-meeting"
+    },
+    {
       "source_file": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
       "occur_id": "2026_06_24_licenses-and-permits-committee-meeting",
       "committee_name": "Licenses and Permits Committee",
@@ -1960,6 +1993,32 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/24/licenses-and-permits-committee-meeting"
     },
     {
+      "source_file": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf",
+      "occur_id": "2026_06_24_review-multiple-member-bodies-committee-meeting",
+      "committee_name": "Review of Multiple-Member Bodies Committee",
+      "meeting_date": "2026-06-24",
+      "meeting_time": "6:00 PM",
+      "location": "Remote participation via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/multiple-member-bodies-20260624-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/24/review-multiple-member-bodies-committee-meeting"
+    },
+    {
+      "source_file": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
+      "occur_id": "2026_06_24_human-rights-commission-meeting",
+      "committee_name": "Somerville Human Rights Commission",
+      "meeting_date": "2026-06-24",
+      "meeting_time": "6:30 PM",
+      "location": "Virtual Meeting",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/human-rights-commission-20260624-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/24/human-rights-commission-meeting"
+    },
+    {
       "source_file": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf",
       "occur_id": "2026_06_25_fair-housing-commission-meeting",
       "committee_name": "Somerville Fair Housing Commission",
@@ -1971,6 +2030,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/fair-housing-20260625-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/06/25/fair-housing-commission-meeting"
+    },
+    {
+      "source_file": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf",
+      "occur_id": "2026_06_25_housing-authority-meeting",
+      "committee_name": "Somerville Housing Authority",
+      "meeting_date": "2026-06-25",
+      "meeting_time": "5:00 PM",
+      "location": "Mystic Activity Center 530 Mystic Avenue Somerville , MA 02145 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/housing-authority-20260625-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/25/housing-authority-meeting"
     },
     {
       "source_file": "2026-06-25__2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf",
@@ -13838,6 +13910,126 @@
       "Source_File": "2026-06-23__2026_06_23_retirement-board-meeting__retirement-board-meeting.pdf"
     },
     {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely.",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes from 5/27/2026",
+      "Source_File": "2026-06-24__2026_06_24_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely.",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Affordable Housing Trust presentation of Annual Report",
+      "Source_File": "2026-06-24__2026_06_24_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely.",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review administrative budget",
+      "Source_File": "2026-06-24__2026_06_24_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1a",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1b",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Attendance and Roll Call; Confirm quorum and note participants.",
+      "Source_File": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1c",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Confirm Notetaker",
+      "Source_File": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1d",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approve minutes",
+      "Source_File": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "2.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "HRC Report Update (Due June, 2026)",
+      "Source_File": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review updates from Subcommittees (Information & Advocacy, Compliance and Training, Promotion of City Diversity, Rights Violation Response, Administration Subcommittee)",
+      "Source_File": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Update on Public Records Request",
+      "Source_File": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of Draft Investigation Procedures",
+      "Source_File": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "4.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Agenda Items",
+      "Source_File": "2026-06-24__2026_06_24_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Licenses and Permits Committee",
       "Meeting_Date": "2026-06-24",
       "Meeting_Time": "6:00 PM",
@@ -13876,6 +14068,156 @@
       "Item_Type": "Communication",
       "Agenda_Topic": "Diane Covino submitting comments re: item #26-0750, a Grant of Location to install 10 feet of conduit next to 135 Hudson Street.",
       "Source_File": "2026-06-24__2026_06_24_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "CALL TO ORDER",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call of the Roll",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Committee logistics and standards",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of committee's duties and responsibilities",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Resident concerns",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: AIDS Commission",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Gang Advisory Board",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Multicultural Affairs Commission",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Municipal Athletics Facilities Commission",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Recreation and Youth Commission",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1.6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: PILOT Advisory Task Force",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1.7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Historic Preservation Commission",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1.8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Urban Design Commission",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion and preliminary recommendations",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "ADJOURNMENT",
+      "Source_File": "2026-06-24__2026_06_24_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
     },
     {
       "Committee_Name": "Somerville Fair Housing Commission",
@@ -13976,6 +14318,186 @@
       "Item_Type": "Communication",
       "Agenda_Topic": "Announcements – The next meeting is scheduled for July 23, 2026 at 3:00 PM",
       "Source_File": "2026-06-25__2026_06_25_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "MEETING CALLED TO ORDER",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "1a",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes – Regular Board Meeting – May 21, 2026",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "1b",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes – Meeting of SHA Capen Court Corporation – May 21, 2026",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "1c",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes – Special Meeting – June 3, 2026",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "COMMUNITY INPUT/RESIDENT COUNCILS",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "3a",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Commonwealth of Massachusetts Executive Office of Labor and Workforce Development, Department of Labor Standards Settlement Agreement.",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "3b",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Tenant Group's Petition, Written Comments, and Grievance Request Concerning SHA's Proposed Policy Dated May 12, 2026.",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "3c",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Written response to Tenant Group's Petition, Written Comments, and Grievance Request Concerning SHA's Proposed Policy Dated May 12, 2026 (Maintenance Work Orders and Charges).",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "EXECUTIVE DIRECTOR'S REPORT",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "DEVELOPMENT UPDATE (IF NECESSARY)",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "PUBLIC SAFETY UPDATE (IF NECESSARY)",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "7a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Contract with NENA Construction, Inc to complete Highland Garden Storm Door Replacement & Balcony Painting Project.",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "7b",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Contract with Dimitri's Painting & Masonry to complete Mystic River Masonry Repairs.",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "7c",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Bryant Manor U.S. Department of Housing and Urban Development (HUD) Section 223(f) financing proposal.",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "7d",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Capen Court HUD Section 223(f) financing proposal.",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "7e",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Proposed changes to SHA's Section 8 Administrative Plan effective June 25, 2026.",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "OPEN SESSION for topics not reasonably anticipated by the Chair 48 hours in advance of the meeting.",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-06-25",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "9",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "ADJOURNMENT",
+      "Source_File": "2026-06-25__2026_06_25_housing-authority-meeting__housing-authority-meeting.pdf"
     },
     {
       "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
@@ -14105,6 +14627,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_06_24_review-multiple-member-bodies-committee-meeting",
+      "title": "Review of Multiple-Member Bodies Committee Meeting",
+      "start": "2026-06-24T18:00:00-04:00",
+      "date": "2026-06-24",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/24/review-multiple-member-bodies-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/multiple-member-bodies-20260624-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_4W2viWpoSUyjVHR02qQ-og",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_06_24_licenses-and-permits-committee-meeting",
       "title": "Licenses and Permits Committee Meeting",
       "start": "2026-06-24T18:00:00-04:00",
@@ -14118,6 +14655,36 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_24_human-rights-commission-meeting",
+      "title": "Human Rights Commission Meeting",
+      "start": "2026-06-24T18:30:00-04:00",
+      "date": "2026-06-24",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/24/human-rights-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/human-rights-commission-20260624-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/86369249785?pwd=aRFFEXMxQ2Qy1kxnwOHs3z4sbSW5VS.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_06_24_community-preservation-committee-meeting",
+      "title": "Community Preservation Committee Meeting",
+      "start": "2026-06-24T18:30:00-04:00",
+      "date": "2026-06-24",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/06/24/community-preservation-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/community-preservation-20260624-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_OaZP0BBXQjWXWe056ZXDxA",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting",
@@ -14148,6 +14715,21 @@
       "zoom_url": "https://us02web.zoom.us/j/86143901559?pwd=PhEuwk1RrTm46LqexBMwSzMIW43782.1",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_06_25_housing-authority-meeting",
+      "title": "Housing Authority Meeting",
+      "start": "2026-06-25T17:00:00-04:00",
+      "date": "2026-06-25",
+      "time": "5:00 PM",
+      "location": "Mystic Activity Center 530 Mystic Avenue Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/25/housing-authority-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/housing-authority-20260625-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_25_city-council-meeting",
@@ -14233,6 +14815,36 @@
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/07/01/public-health-and-public-safety-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1423479&GUID=755C5D8A-F6C8-4BF0-99BF-8B18E18839E0",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_06_school-building-committee-meeting",
+      "title": "School Building Committee Meeting",
+      "start": "2026-07-06T16:30:00-04:00",
+      "date": "2026-07-06",
+      "time": "4:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/06/school-building-committee-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting",
+      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
+      "start": "2026-07-06T18:00:00-04:00",
+      "date": "2026-07-06",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/06/confirmation-appointments-and-personnel-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417987&GUID=51529EFA-E2C3-4523-9589-D31EEEC92027",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
