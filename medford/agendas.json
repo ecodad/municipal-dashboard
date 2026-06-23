@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-22",
+    "processed_date": "2026-06-23",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -471,6 +471,11 @@
         "filename": "2026-06-24__25238__commission-for-persons-with-disabilities-meeting.pdf",
         "status": "parsed",
         "item_count": 0
+      },
+      {
+        "filename": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 17
       }
     ]
   },
@@ -10106,6 +10111,176 @@
       "Source_File": "2026-06-24__25112__climate-equity-council-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Opening of meeting - Call to order, Roll call, Guest introductions",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Announcements",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes for May, 2026 meeting",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Events - Reminder: Farmers Market Bike Fest, July 30, 2026",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Bike to Work Day Recap (Bruce)",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "North-of-Boston Coalition Bike Ride Recap (Bruce)",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Medford Bike Bash Recap",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Proposed summer MBAC Ride - Northern Strand",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "9",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Budget Recap (Daniel) - Annual budget request",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "10",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Snow Removal Strategy [From April] (Emily, Daniel)",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "11",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Clippership Contraflow - Pothole question",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "12",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Medford Square Bike Lane Issue (Bruce) - Main at Riverside/Clippership",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "13",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Upcoming Road Work - Should we send a letter to the Mayor and DPW?",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "14",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Ebike Law Changes (Bruce, Chris) - New resolution submitted by the governor to regulate powered micromobility devices",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "15",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Lights and Helmets (Ernie)",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "16",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Website Updates (Chris)",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-06-24",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "17",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Close Meeting",
+      "Source_File": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford Zoning Board of Appeals",
       "Meeting_Date": "2026-06-25",
       "Meeting_Time": "6:30 PM",
@@ -11632,6 +11807,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25034"
     },
     {
+      "source_file": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf",
+      "occur_id": "25237",
+      "committee_name": "Medford Bicycle Advisory Commission",
+      "meeting_date": "2026-06-24",
+      "meeting_time": "7:00 PM",
+      "location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1zFo1opcjlWpNRKMi4jS1KhxQu8Myr-bW/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25237"
+    },
+    {
       "source_file": "2026-06-24__25033__joint-meeting-of-the-medford-city-council-and-community-deve.pdf",
       "occur_id": "25033",
       "committee_name": "Medford City Council",
@@ -11711,7 +11899,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/87165620335?pwd=ubVBKUAfokGKmEZdHWD00CWsVubSZR.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25036",
@@ -11741,7 +11929,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/87165620335?pwd=ubVBKUAfokGKmEZdHWD00CWsVubSZR.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25034",
@@ -11771,7 +11959,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/82265119444?pwd~l6WZ3P2SZSMpkzdo4exptsboYmly12.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25033",
@@ -11786,7 +11974,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/81098357207?pwd=YjbB8LMX5bCVYE7FYUlnIb10LCtaoJ.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25112",
@@ -11801,7 +11989,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/81731743583",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25032",
@@ -11826,12 +12014,12 @@
       "time": "7:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25237",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://drive.google.com/file/d/1zFo1opcjlWpNRKMi4jS1KhxQu8Myr-bW/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
       "zoom_url": "https://linkprotect.cudasvc.com/url?a=https%3a%2f%2fus06.zoom.us%2fj%2f87538063188&c=E,1,nekIlbu9evJ2jPYC8Q1Hclzx4oriAM6-1yTZuo5aHk3jYeI3p-AgoIuiWIQ80l342hpmPWE-m-Q3nUz8_8uhrZ78AQ1lDCkvXbbzc4kkKh-MdHI2nLHtBA,,&typo=1",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "25035",
