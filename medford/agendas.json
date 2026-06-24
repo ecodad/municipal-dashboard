@@ -11887,51 +11887,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "25037",
-      "title": "City Council Committee of the Whole Meeting",
-      "start": "2026-06-23T18:00:00-04:00",
-      "date": "2026-06-23",
-      "time": "6:00 PM",
-      "location": "City Hall Council Chambers",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25037",
-      "agenda_url": "https://medfordma.portal.civicclerk.com/event/497/files/agenda/917",
-      "agenda_type": "CIVICCLERK",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/87165620335?pwd=ubVBKUAfokGKmEZdHWD00CWsVubSZR.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "25036",
-      "title": "Community Development Board Meeting",
-      "start": "2026-06-23T18:30:00-04:00",
-      "date": "2026-06-23",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25036",
-      "agenda_url": "https://drive.google.com/file/d/18v0wreIf5XaYMpQETGimcYHO446GbqyA/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/95629298475",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "25049",
-      "title": "City Council Meeting",
-      "start": "2026-06-23T19:00:00-04:00",
-      "date": "2026-06-23",
-      "time": "7:00 PM",
-      "location": "City Hall Council Chambers",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25049",
-      "agenda_url": "https://medfordma.portal.civicclerk.com/event/444/files/agenda/919",
-      "agenda_type": "CIVICCLERK",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/87165620335?pwd=ubVBKUAfokGKmEZdHWD00CWsVubSZR.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "25034",
       "title": "Liquor License Commission Meeting",
       "start": "2026-06-24T13:00:00-04:00",
@@ -12019,7 +11974,7 @@
       "has_zoom": true,
       "zoom_url": "https://linkprotect.cudasvc.com/url?a=https%3a%2f%2fus06.zoom.us%2fj%2f87538063188&c=E,1,nekIlbu9evJ2jPYC8Q1Hclzx4oriAM6-1yTZuo5aHk3jYeI3p-AgoIuiWIQ80l342hpmPWE-m-Q3nUz8_8uhrZ78AQ1lDCkvXbbzc4kkKh-MdHI2nLHtBA,,&typo=1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25035",
