@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-24",
+    "processed_date": "2026-06-25",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -586,6 +586,21 @@
         "filename": "2026-07-01__2026_07_01_public-health-and-public-safety-committee-meeting__public-health-and-public-safety-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 22
+      },
+      {
+        "filename": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 15
+      },
+      {
+        "filename": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 14
+      },
+      {
+        "filename": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
       }
     ]
   },
@@ -2086,6 +2101,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/25/somerville-cambridge-public-health-collaborative-advisory-board-meeting"
     },
     {
+      "source_file": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf",
+      "occur_id": "2026_06_29_condominium-review-board-meeting",
+      "committee_name": "Condominium Review Board",
+      "meeting_date": "2026-06-29",
+      "meeting_time": "6:00 PM",
+      "location": "Remote participation via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/condo-review-20260629-agenda_0.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/29/condominium-review-board-meeting"
+    },
+    {
       "source_file": "2026-06-29__2026_06_29_sustainability-and-infrastructure-committee-meeting__sustainability-and-infrastructure-committee-meeting.pdf",
       "occur_id": "2026_06_29_sustainability-and-infrastructure-committee-meeting",
       "committee_name": "Sustainability and Infrastructure Committee",
@@ -2097,6 +2125,32 @@
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416238&GUID=8117A9EF-4410-4832-96D4-A97DF344F58C",
       "agenda_type": "LEGISTAR",
       "detail_url": "https://www.somervillema.gov/events/2026/06/29/sustainability-and-infrastructure-committee-meeting"
+    },
+    {
+      "source_file": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf",
+      "occur_id": "2026_06_30_legislative-matters-committee-meeting",
+      "committee_name": "Legislative Matters Committee",
+      "meeting_date": "2026-06-30",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417986&GUID=904AE069-15C9-4640-9474-CFF4EEF0B6E3",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/30/legislative-matters-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf",
+      "occur_id": "2026_07_01_housing-community-development-and-equity-committee-meeting",
+      "committee_name": "Housing, Community Development and Equity Committee",
+      "meeting_date": "2026-07-01",
+      "meeting_time": "6:00 PM",
+      "location": "Committee Room and Remote Participation",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416239&GUID=A6E082C8-E382-4177-B331-3480ED274A1C",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/01/housing-community-development-and-equity-committee-meeting"
     },
     {
       "source_file": "2026-07-01__2026_07_01_public-health-and-public-safety-committee-meeting__public-health-and-public-safety-committee-meeting.pdf",
@@ -15404,6 +15458,156 @@
       "Source_File": "2026-06-25__2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
     },
     {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "MEETING CALL TO ORDER",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.a.i",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "JULY MEETING CANCELLATION",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.a.ii",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "APPLICATION FEE INCREASES BEGINNING JULY 1, 2026",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.b.i",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Meeting Minutes – May 2026",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.a.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of SCLT Community Land LLC, Benjamin Baldwin, seeking a Final Conversion Permit for Unit #1, Unit #2, Unit #3, Unit #4, Unit #5 and Unit #6 at 12 Pleasant Avenue (Ward 3 Precinct 2)",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.b.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of Xiaomin Song & Xinsheng Chang seeking a Preliminary Non-Rental Conversion Permit for Unit #85 and a Preliminary Rental Conversion Permit for Unit #87 at 85-87 Gilman Street (Ward 1 Precinct 4A)",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.a.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of 17 MacArthur Street CBC, LLC seeking a Final Conversion Permit for Unit A, Unit B and Unit C and a Courtesy Permit for Unit R at 17 MacArthur Street (Ward 1 Precinct 4)",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.b.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of Hope and Prospect Development LLC, Brian Cheng, seeking a Preliminary Rental Conversion Permit for Unit #1 & Unit #2 at 15 Oak Street and Unit #1 & Unit #2 at 17 Oak Street (Ward 2 Precinct 1)",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.a.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of 37 Kingston St Somerville LLC, Jason Santana, seeking a Final Conversion Permit for Unit A and a Courtesy Permit for Unit B and Unit R at 37 Kingston Street (Ward 7 Precinct 1)",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.b.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of 57 Cherry Street Real Estate Trust, James P. Douglas Manager, seeking a Preliminary Rental Conversion Permit for Unit #1, Unit #2, and Unit #3 at 57A Cherry Street (Ward 5 Precinct 4)",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.a.4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of Yung Chang Chen seeking a Final Conversion Permit for Unit #1 and Unit #2 at 2 Cottage Circle (Ward 6 Precinct 4)",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.b.4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of 43 Boston LLC, James P. Douglas, Caitlin M. Merullo, and Lucas Mendes Garcia, seeking a Preliminary Non-Rental Conversion Permit for Unit #1 at 43 Boston Street (Ward 3 Precinct 1)",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.b.5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of 60-62 Line Street LLC, William Pino & John Hadley, seeking a Preliminary Rental Conversion Permit for Unit #1, Unit #2, and Unit #3 at 62 Line Street (Ward 2 Precinct 2)",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.b.6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Application of Tufted Titmouse Revocable Trust, Kirin Kachroo-Levine, seeking a Preliminary Rental Conversion Permit for Unit A, Unit B and Unit C and a Courtesy Permit for Unit R at 33 Preston Road (Ward 2 Precinct 1)",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Condominium Review Board",
+      "Meeting_Date": "2026-06-29",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "ADJOURN",
+      "Source_File": "2026-06-29__2026_06_29_condominium-review-board-meeting__condominium-review-board-meeting.pdf"
+    },
+    {
       "Committee_Name": "Sustainability and Infrastructure Committee",
       "Meeting_Date": "2026-06-29",
       "Meeting_Time": "6:00 PM",
@@ -15472,6 +15676,236 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Roll Call",
       "Source_File": "2026-06-29__2026_06_29_sustainability-and-infrastructure-committee-meeting__sustainability-and-infrastructure-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "25-1762",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "That the Code of Ordinances be amended to prohibit the use of tax-payer funds for self-promotion. By Councilor Davis and Mayor Wilson.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0302",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Conveying the 2025 Surveillance Technology Annual Report.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0522",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Proposing an amendment to Section 2-6 of the Code of Ordinances, the Welcoming Communities Ordinance, to further enhance civil rights protections in Somerville. By Councilor Ewen-Campen, Councilor Link, Councilor Hardt, Councilor Scott and Councilor Clingan.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0797",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval of a Home Rule Petition to authorize the City of Somerville to regulate leases and tenancy at will agreements.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0830",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval of the Surveillance Technology Impact Report for CrimeTracer.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0878",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval of the Surveillance Technology Impact Report for the Smart Tree Inventory.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0882",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Requesting ordainment of an amendment to Chapter 7 and Section 1-11(b) of the Code of Ordinances to require property owners provide a notice of building sale to tenants.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0936",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Conveying the updated 2025 Surveillance Technology Annual Report.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0940",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Legislative Matters Committee Meeting of May 19, 2026.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0999",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval of the Surveillance Technology Impact Report for Body Worn Cameras.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1000",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Requesting approval of the Technology-Specific Surveillance Use Policy for Body Worn Cameras.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1006",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "89 registered voters submitting a petition requesting a public hearing regarding Police Body-Worn Cameras, pursuant to Section 2-11 of the City Charter.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1023",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "That Chapter 2, Article VIII, Division 1 of the Code of Ordinances be amended as detailed within. By Councilor Ewen-Campen, Councilor Wheeler, Councilor Mbah and Councilor Link.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-06-30",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1034",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Chief of Police conveying information regarding item #26-0378, a request of the Mayor for acceptance of a grant for a body-worn camera program.",
+      "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Housing, Community Development and Equity Committee",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Committee Room and Remote Participation",
+      "Item_Number": "26-0051",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "That the Director of Parks and Recreation provide an update on upcoming inclusive playground accessibility plans and redesign projects.",
+      "Source_File": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Housing, Community Development and Equity Committee",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Committee Room and Remote Participation",
+      "Item_Number": "26-0052",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "That the Commissioner of Public Works and relevant departments discuss the future community use of Founders Rink for 2026 and beyond.",
+      "Source_File": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Housing, Community Development and Equity Committee",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Committee Room and Remote Participation",
+      "Item_Number": "26-0059",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "That the Director of Mobility provide an update on the Kensington Connector.",
+      "Source_File": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Housing, Community Development and Equity Committee",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Committee Room and Remote Participation",
+      "Item_Number": "26-0082",
+      "Item_Type": "Report",
+      "Agenda_Topic": "That the Director of Parks and Recreation report on the stock and condition of previously installed playground communication boards that assist nonverbal children in playtime.",
+      "Source_File": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Housing, Community Development and Equity Committee",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Committee Room and Remote Participation",
+      "Item_Number": "26-0722",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Housing, Community Development and Equity Committee Meeting of April 15, 2026.",
+      "Source_File": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Housing, Community Development and Equity Committee",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Committee Room and Remote Participation",
+      "Item_Number": "26-0973",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Director of Communications & Community Engagement conveying the Web Content Accessibility Guidelines (WCAG) 2.1 Accessibility Compliance update for city website and digital assets.",
+      "Source_File": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Housing, Community Development and Equity Committee",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Committee Room and Remote Participation",
+      "Item_Number": "26-1033",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Communication conveying an update regarding item #26-0825, a Resolution that the Administration submit a written report to this Council regarding the timeline and process for staffing the Americans with Disabilities (ADA) Coordinator role and update this Council on the plan to process ADA complaints and accessibility coordination when this position is vacant.",
+      "Source_File": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Housing, Community Development and Equity Committee",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Committee Room and Remote Participation",
+      "Item_Number": "26-1077",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "That the Administration discuss the City's volunteer policy and its consistency among various city departments.",
+      "Source_File": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Housing, Community Development and Equity Committee",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Committee Room and Remote Participation",
+      "Item_Number": "26-1078",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "That the Director of Parks and Recreation discuss the cost barriers and equity constraints that prevent low income residents and local youth from accessing Somerville programs, such as public skate time at Veterans Memorial Rink on early school dismissal days.",
+      "Source_File": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf"
     },
     {
       "Committee_Name": "Public Health and Public Safety Committee",
@@ -15696,66 +16130,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_06_24_licenses-and-permits-committee-meeting",
-      "title": "Licenses and Permits Committee Meeting",
-      "start": "2026-06-24T18:00:00-04:00",
-      "date": "2026-06-24",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/24/licenses-and-permits-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417985&GUID=D9D88362-0A03-404B-BD65-7F1B8D7983A5",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_24_review-multiple-member-bodies-committee-meeting",
-      "title": "Review of Multiple-Member Bodies Committee Meeting",
-      "start": "2026-06-24T18:00:00-04:00",
-      "date": "2026-06-24",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/24/review-multiple-member-bodies-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/multiple-member-bodies-20260624-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_4W2viWpoSUyjVHR02qQ-og",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_24_human-rights-commission-meeting",
-      "title": "Human Rights Commission Meeting",
-      "start": "2026-06-24T18:30:00-04:00",
-      "date": "2026-06-24",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/24/human-rights-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/human-rights-commission-20260624-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/86369249785?pwd=aRFFEXMxQ2Qy1kxnwOHs3z4sbSW5VS.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_24_community-preservation-committee-meeting",
-      "title": "Community Preservation Committee Meeting",
-      "start": "2026-06-24T18:30:00-04:00",
-      "date": "2026-06-24",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/24/community-preservation-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/community-preservation-20260624-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_OaZP0BBXQjWXWe056ZXDxA",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting",
       "title": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
       "start": "2026-06-25T13:00:00-04:00",
@@ -15828,7 +16202,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_06_29_condominium-review-board-meeting",
@@ -15838,12 +16212,12 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/06/29/condominium-review-board-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/condo-review-20260629-agenda_0.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_B8dHsl0ASk-BKp8Z5eUFLw",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_06_30_legislative-matters-committee-meeting",
@@ -15858,7 +16232,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_01_housing-community-development-and-equity-committee-meeting",
@@ -15873,7 +16247,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_01_public-health-and-public-safety-committee-meeting",
@@ -15888,7 +16262,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_06_school-building-committee-meeting",
@@ -15929,6 +16303,21 @@
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/07/07/finance-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1425071&GUID=179F80D4-89EF-4904-950B-1445B10CA81B",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_09_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-07-09T19:00:00-04:00",
+      "date": "2026-07-09",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/09/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415472&GUID=8C27E64D-5CF2-42F6-AA33-97C60BD9E632",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
