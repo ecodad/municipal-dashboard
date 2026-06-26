@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-25",
+    "processed_date": "2026-06-26",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -601,6 +601,11 @@
         "filename": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 9
+      },
+      {
+        "filename": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
       }
     ]
   },
@@ -2138,6 +2143,19 @@
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417986&GUID=904AE069-15C9-4640-9474-CFF4EEF0B6E3",
       "agenda_type": "LEGISTAR",
       "detail_url": "https://www.somervillema.gov/events/2026/06/30/legislative-matters-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf",
+      "occur_id": "2026_07_01_board-library-trustees-meeting",
+      "committee_name": "Board of Library Trustees",
+      "meeting_date": "2026-07-01",
+      "meeting_time": "6:00 PM",
+      "location": "Central Library 79 Highland Avenue Somerville , MA 02143 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/library-trustees-20260701-agenda_0.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/01/board-library-trustees-meeting"
     },
     {
       "source_file": "2026-07-01__2026_07_01_housing-community-development-and-equity-committee-meeting__housing-community-development-and-equity-committee-meeting.pdf",
@@ -15818,6 +15836,106 @@
       "Source_File": "2026-06-30__2026_06_30_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the May minutes",
+      "Source_File": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "3.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Directors Report - Strategic Plan",
+      "Source_File": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "3.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Directors Report - Personnel Update",
+      "Source_File": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "3.3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Directors Report - FY27 Budget Update",
+      "Source_File": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "4.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "President's Report - Staff Ice Cream Event",
+      "Source_File": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "4.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "President's Report - Trustees Calendar",
+      "Source_File": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "5.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Communications Committee Report",
+      "Source_File": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "5.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Summer Newsletter",
+      "Source_File": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library at 79 Highland Avenue",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
       "Committee_Name": "Housing, Community Development and Equity Committee",
       "Meeting_Date": "2026-07-01",
       "Meeting_Time": "6:00 PM",
@@ -16130,62 +16248,17 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_06_25_somerville-cambridge-public-health-collaborative-advisory-board-meeting",
-      "title": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
-      "start": "2026-06-25T13:00:00-04:00",
-      "date": "2026-06-25",
-      "time": "1:00 PM",
+      "occur_id": "2026_06_29_condominium-review-board-meeting",
+      "title": "Condominium Review Board Meeting",
+      "start": "2026-06-29T18:00:00-04:00",
+      "date": "2026-06-29",
+      "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/25/somerville-cambridge-public-health-collaborative-advisory-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/somerville-cambridge-public-health-20260625-agenda.pdf",
+      "detail_url": "https://www.somervillema.gov/events/2026/06/29/condominium-review-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/condo-review-20260629-agenda_0.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/83664015642?pwd=CbKAqWsm1Vzbo2NEvaXvvCaFyYXeCD.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_25_fair-housing-commission-meeting",
-      "title": "Fair Housing Commission Meeting",
-      "start": "2026-06-25T15:00:00-04:00",
-      "date": "2026-06-25",
-      "time": "3:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/25/fair-housing-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/fair-housing-20260625-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/86143901559?pwd=PhEuwk1RrTm46LqexBMwSzMIW43782.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_25_housing-authority-meeting",
-      "title": "Housing Authority Meeting",
-      "start": "2026-06-25T17:00:00-04:00",
-      "date": "2026-06-25",
-      "time": "5:00 PM",
-      "location": "Mystic Activity Center 530 Mystic Avenue Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/06/25/housing-authority-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/housing-authority-20260625-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_25_city-council-meeting",
-      "title": "City Council Meeting",
-      "start": "2026-06-25T19:00:00-04:00",
-      "date": "2026-06-25",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/25/city-council-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1370385&GUID=1D23F23B-D06E-4FBE-9FD0-EEDE79482F13",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_B8dHsl0ASk-BKp8Z5eUFLw",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -16205,21 +16278,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_06_29_condominium-review-board-meeting",
-      "title": "Condominium Review Board Meeting",
-      "start": "2026-06-29T18:00:00-04:00",
-      "date": "2026-06-29",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/29/condominium-review-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/condo-review-20260629-agenda_0.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_B8dHsl0ASk-BKp8Z5eUFLw",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_06_30_legislative-matters-committee-meeting",
       "title": "Legislative Matters Committee Meeting",
       "start": "2026-06-30T18:00:00-04:00",
@@ -16229,6 +16287,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/06/30/legislative-matters-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417986&GUID=904AE069-15C9-4640-9474-CFF4EEF0B6E3",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_07_01_board-library-trustees-meeting",
+      "title": "Board of Library Trustees Meeting",
+      "start": "2026-07-01T18:00:00-04:00",
+      "date": "2026-07-01",
+      "time": "6:00 PM",
+      "location": "Central Library 79 Highland Avenue Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/01/board-library-trustees-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/library-trustees-20260701-agenda_0.pdf",
+      "agenda_type": "S3",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -16247,7 +16320,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_01_public-health-and-public-safety-committee-meeting",
