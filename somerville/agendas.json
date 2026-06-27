@@ -16293,21 +16293,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_07_01_board-library-trustees-meeting",
-      "title": "Board of Library Trustees Meeting",
-      "start": "2026-07-01T18:00:00-04:00",
-      "date": "2026-07-01",
-      "time": "6:00 PM",
-      "location": "Central Library 79 Highland Avenue Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/01/board-library-trustees-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/library-trustees-20260701-agenda_0.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_07_01_housing-community-development-and-equity-committee-meeting",
       "title": "Housing, Community Development and Equity Committee Meeting",
       "start": "2026-07-01T18:00:00-04:00",
