@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-23",
+    "processed_date": "2026-06-29",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -476,6 +476,11 @@
         "filename": "2026-06-24__25237__bicycle-advisory-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 17
+      },
+      {
+        "filename": "2026-07-08__25260__election-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
       }
     ]
   },
@@ -10659,6 +10664,106 @@
       "Item_Type": "Vote",
       "Agenda_Topic": "Review the results of the 1/1/2026 Actuarial valuation study",
       "Source_File": "2026-06-30__24891__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order: Welcome and Introductions, Review of Attendance",
+      "Source_File": "2026-07-08__25260__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Previous Meeting Minutes: Review and approve minutes from meeting of May 20, 2026.",
+      "Source_File": "2026-07-08__25260__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Election Commission Updates: Overview of recent election commission activities and outcomes. Discussion on voter registration and outreach. Updates on any upcoming referendums. 2026 September Warrant and Call for Election",
+      "Source_File": "2026-07-08__25260__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "UOCAVA review: Director of Elections presenting current applications",
+      "Source_File": "2026-07-08__25260__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Election Security Measures: Review of current security protocols. Discussion on improvements or changes needed",
+      "Source_File": "2026-07-08__25260__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Voter Outreach Initiatives: Update on ongoing outreach programs. Planning for future voter education events",
+      "Source_File": "2026-07-08__25260__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Legislative Updates: Discussion on any relevant local, state, or federal legislation impacting elections",
+      "Source_File": "2026-07-08__25260__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "8",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Commission Member Reports: Updates from individual commissioner on specific projects or initiatives",
+      "Source_File": "2026-07-08__25260__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "9",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Agenda Items: Suggestions for topics to be discussed in the next meeting",
+      "Source_File": "2026-07-08__25260__election-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Election Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Dr, Medford, MA 02155, Room #207",
+      "Item_Number": "10",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-08__25260__election-commission-meeting.pdf"
     }
   ],
   "meetings": [
@@ -11883,6 +11988,19 @@
       "agenda_url": "https://drive.google.com/file/d/1g8pATV0hWSHVZ4V3-hkDIZzSqgr2wlqn/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24891"
+    },
+    {
+      "source_file": "2026-07-08__25260__election-commission-meeting.pdf",
+      "occur_id": "25260",
+      "committee_name": "Medford Election Commission",
+      "meeting_date": "2026-07-08",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall - Room 207",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1IHoQEzSc3ygf6txqgp1ntb5GGepkhJZ3/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25260"
     }
   ],
   "window_meetings": [
@@ -11902,6 +12020,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "25260",
+      "title": "Election Commission Meeting",
+      "start": "2026-07-08T18:00:00-04:00",
+      "date": "2026-07-08",
+      "time": "6:00 PM",
+      "location": "City Hall - Room 207",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25260",
+      "agenda_url": "https://drive.google.com/file/d/1IHoQEzSc3ygf6txqgp1ntb5GGepkhJZ3/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "17044",
       "title": "Historic District Commission Meeting",
       "start": "2026-07-09T18:00:00-04:00",
@@ -11913,6 +12046,21 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "11286",
+      "title": "Historical Commission Meeting",
+      "start": "2026-07-13T19:00:00-04:00",
+      "date": "2026-07-13",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/11286",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/96236192680",
       "has_livestream": false,
       "pipeline_status": "missing"
     }

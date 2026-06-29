@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-26",
+    "processed_date": "2026-06-29",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -606,6 +606,21 @@
         "filename": "2026-07-01__2026_07_01_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf",
         "status": "parsed",
         "item_count": 10
+      },
+      {
+        "filename": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
+      },
+      {
+        "filename": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf",
+        "status": "parsed",
+        "item_count": 19
+      },
+      {
+        "filename": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 14
       }
     ]
   },
@@ -2182,6 +2197,45 @@
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1423479&GUID=755C5D8A-F6C8-4BF0-99BF-8B18E18839E0",
       "agenda_type": "LEGISTAR",
       "detail_url": "https://www.somervillema.gov/events/2026/07/01/public-health-and-public-safety-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
+      "occur_id": "2026_07_02_bicycle-advisory-committee-meeting",
+      "committee_name": "Somerville Bicycle Advisory Committee",
+      "meeting_date": "2026-07-02",
+      "meeting_time": "6:30 PM",
+      "location": "Tufts Administration Building, Atrium Room 203M 167 Holland St. Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/bicycle-advisory-20260702-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/02/bicycle-advisory-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf",
+      "occur_id": "2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting",
+      "committee_name": "Confirmation of Appointments and Personnel Matters Committee",
+      "meeting_date": "2026-07-06",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417987&GUID=51529EFA-E2C3-4523-9589-D31EEEC92027",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/06/confirmation-appointments-and-personnel-matters-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf",
+      "occur_id": "2026_07_07_conservation-commission-meeting",
+      "committee_name": "City of Somerville Conservation Commission",
+      "meeting_date": "2026-07-07",
+      "meeting_time": "7:00 PM",
+      "location": "Remote meeting via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/conservation-20260707-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/07/conservation-commission-meeting"
     }
   ],
   "items": [
@@ -16244,6 +16298,436 @@
       "Item_Type": "Resolution",
       "Agenda_Topic": "That the Chief of Police report to this Council on the response to the recent upsurge in drug use and other drug-related activity in public spaces in and around Davis Square, including in Hodgkins-Curtin park.",
       "Source_File": "2026-07-01__2026_07_01_public-health-and-public-safety-committee-meeting__public-health-and-public-safety-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-07-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll call and meeting logistics",
+      "Source_File": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-07-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144",
+      "Item_Number": "1.2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of June meeting minutes",
+      "Source_File": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-07-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144",
+      "Item_Number": "2.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Somerville Ave quick-build project",
+      "Source_File": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-07-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144",
+      "Item_Number": "2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "East Washington St quick build project",
+      "Source_File": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-07-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144",
+      "Item_Number": "2.3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public comment (Evaluation and Engineering)",
+      "Source_File": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-07-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144",
+      "Item_Number": "3.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Safe Routes to School partnership",
+      "Source_File": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-07-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144",
+      "Item_Number": "3.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Other outreach events/updates",
+      "Source_File": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-07-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144",
+      "Item_Number": "3.3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public comment (Outreach and Engagement)",
+      "Source_File": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-07-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144",
+      "Item_Number": "4.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "City update",
+      "Source_File": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-07-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Atrium Room 203M, 167 Holland Street, Somerville, MA 02144",
+      "Item_Number": "4.2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public Comment (City Updates)",
+      "Source_File": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "25-1423",
+      "Item_Type": "Other",
+      "Agenda_Topic": "By Councilor Mbah: That the City Clerk implement the hiring practices detailed within for positions in the City Council and City Clerk Departments.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-0655",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Taylor Perkins to the Fair Housing Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-0858",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Confirmation of Appointments and Personnel Matters Committee Meeting of May 4, 2026.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1013",
+      "Item_Type": "Other",
+      "Agenda_Topic": "By Councilor Davis: That this City Council appoints Rodrigo Badaro, Bea Gomez-Mouakad, Marianne Walles, Martin Sanchez, Yesenia Alfaro, and Marcy Goldstein-Gelb to the Wage Theft Advisory Committee.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1083",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Jurett Mooltrey-Weathers to the Affordable Housing Trust.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1085",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Calli Masters to the Fair Housing Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1086",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Alexis Washburn to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1087",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Corey Donahue to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1088",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Courtney Koslow to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1089",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Kenzie Ballard to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1091",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Zahra Atti to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1092",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Lauren Gunther to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1093",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Ritika Philip to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1094",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Paxti Martinez to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1095",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Larry Yu to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1096",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Monte Allen to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1097",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Sierra Moll to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1098",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Bhavika Kalia to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "Confirmation of Appointments and Personnel Matters Committee",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual (https://us02web.zoom.us/webinar/register/WN_v9vfxQTNQJSGB7VIszI97g)",
+      "Item_Number": "26-1099",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting confirmation of the appointment of Rio Hunter Black to the Climate Action Commission.",
+      "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "0",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Remote Meeting Instructions / Introductions",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Amended Order of Conditions – Mystic Bicycle & Pedestrian Bridge (Applicant: Massachusetts DOT/DCR; Representative: Fort Point Associates, Inc – Richard Jabba)",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Notice of Intent – Mystic River Outfall Sewer Separation Project (Applicant: City of Somerville – Engineering – Gina Cortese; Representative: Dewberry – Miles Bateman)",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "3a",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Ongoing Project Review – Winter Hill Yacht Club Pilings",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "3b",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Ongoing Project Review – Shore Drive Greenway Project",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "3c",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Ongoing Project Review – Mystic River Geotechnical Survey",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "3d",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Ongoing Project Review – Draw 7 Renovation Project",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Conservation Commission Bylaws",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Conservation Agent Action Item Review",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Incoming Correspondence – Letters & Notifications",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Resident Comments / Concerns",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "New Items / Future Items",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "9",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Conservation Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "10",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
     }
   ],
   "window_meetings": [
@@ -16338,6 +16822,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_07_02_bicycle-advisory-committee-meeting",
+      "title": "Bicycle Advisory Committee Meeting",
+      "start": "2026-07-02T18:30:00-04:00",
+      "date": "2026-07-02",
+      "time": "6:30 PM",
+      "location": "Tufts Administration Building, Atrium Room 203M 167 Holland St. Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/02/bicycle-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/bicycle-advisory-20260702-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/83834164281?pwd=Tjsmt3aFvmvSztWGUdb3zLVVAD8pQQ.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_07_06_school-building-committee-meeting",
       "title": "School Building Committee Meeting",
       "start": "2026-07-06T16:30:00-04:00",
@@ -16365,7 +16864,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_07_finance-committee-meeting",
@@ -16381,6 +16880,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_07_conservation-commission-meeting",
+      "title": "Conservation Commission Meeting",
+      "start": "2026-07-07T19:00:00-04:00",
+      "date": "2026-07-07",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/07/conservation-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/conservation-20260707-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_CmHS5GZZQiixY8wyOqVqZA",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_09_city-council-meeting",
