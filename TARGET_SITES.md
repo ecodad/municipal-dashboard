@@ -367,7 +367,7 @@ PDF (derived, no second fetch): https://somervillema.legistar.com/View.ashx?M=A&
 | **URL** | https://api.anthropic.com/v1/messages (via official `anthropic` Python SDK) |
 | **Used by** | `scraper/parser.py`, `scraper/synthesizer.py` |
 | **Auth** | `ANTHROPIC_API_KEY` env var, loaded via `python-dotenv` from `.env` (gitignored) or inherited from OS env |
-| **Models** | `claude-haiku-4-5` (Parser), `claude-sonnet-4-6` (Synthesizer) |
+| **Models** | `claude-haiku-4-5` (Parser), `claude-sonnet-5` (Synthesizer) |
 | **Cost** | ~$0.10 per typical pipeline run (7 meetings) |
 
 ### Parser request shape
@@ -391,7 +391,7 @@ client.messages.create(
 
 ```python
 client.messages.create(
-    model="claude-sonnet-4-6",
+    model="claude-sonnet-5",
     max_tokens=16000,
     thinking={"type": "adaptive"},
     output_config={
