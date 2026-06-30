@@ -51,7 +51,7 @@ from the adapter layer.
 
 | | |
 |---|---|
-| **Model** | `claude-sonnet-4-6` |
+| **Model** | `claude-sonnet-5` |
 | **Why this model** | Per-item classification into a 10-value enum requires real reasoning; Haiku's accuracy on this task is materially lower in our testing. |
 | **Thinking** | `{"type": "adaptive"}` — Claude self-decides per request |
 | **Effort** | `medium` (sweet spot of cost vs quality for this task) |

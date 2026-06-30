@@ -54,7 +54,7 @@ try:
 except ImportError:
     pass
 
-SYNTHESIZER_MODEL = "claude-sonnet-4-6"
+SYNTHESIZER_MODEL = "claude-sonnet-5"
 DEFAULT_AGENDAS_JSON = Path("agendas.json")
 DEFAULT_PDF_DIR = Path("agendas")
 DEFAULT_MARKDOWN_DIR = Path("agendas/markdown")
