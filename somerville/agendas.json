@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-29",
+    "processed_date": "2026-06-30",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -621,6 +621,16 @@
         "filename": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 14
+      },
+      {
+        "filename": "2026-07-01__2026_07_01_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
+      },
+      {
+        "filename": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -2199,6 +2209,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/01/public-health-and-public-safety-committee-meeting"
     },
     {
+      "source_file": "2026-07-01__2026_07_01_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf",
+      "occur_id": "2026_07_01_redevelopment-authority-meeting",
+      "committee_name": "Somerville Redevelopment Authority",
+      "meeting_date": "2026-07-01",
+      "meeting_time": "5:30 PM",
+      "location": "Remote participation via Zoom Webinar",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/redevelopment-20260701-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/01/redevelopment-authority-meeting"
+    },
+    {
       "source_file": "2026-07-02__2026_07_02_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
       "occur_id": "2026_07_02_bicycle-advisory-committee-meeting",
       "committee_name": "Somerville Bicycle Advisory Committee",
@@ -2236,6 +2259,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/conservation-20260707-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/07/conservation-commission-meeting"
+    },
+    {
+      "source_file": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf",
+      "occur_id": "2026_07_07_traffic-commission-meeting",
+      "committee_name": "Traffic Commission",
+      "meeting_date": "2026-07-07",
+      "meeting_time": "5:30 PM",
+      "location": "Virtual meeting via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/traffic-commission-20260707-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/07/traffic-commission-meeting"
     }
   ],
   "items": [
@@ -16300,6 +16336,86 @@
       "Source_File": "2026-07-01__2026_07_01_public-health-and-public-safety-committee-meeting__public-health-and-public-safety-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes of the May 6th, 2026 general meeting and the May 19th, 2026 special meeting.",
+      "Source_File": "2026-07-01__2026_07_01_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public comment period.",
+      "Source_File": "2026-07-01__2026_07_01_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Introduction of new SRA member, Cory Mian.",
+      "Source_File": "2026-07-01__2026_07_01_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "4.a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Executive Session to discuss the value of real property at 90 Washington Street.",
+      "Source_File": "2026-07-01__2026_07_01_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "4.b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "90 Washington Demonstration Project Plan - General project update.",
+      "Source_File": "2026-07-01__2026_07_01_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "299 Broadway groundbreaking update.",
+      "Source_File": "2026-07-01__2026_07_01_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Union Square zoning update.",
+      "Source_File": "2026-07-01__2026_07_01_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-01",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "7",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting adjournment.",
+      "Source_File": "2026-07-01__2026_07_01_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Bicycle Advisory Committee",
       "Meeting_Date": "2026-07-02",
       "Meeting_Time": "6:30 PM",
@@ -16728,39 +16844,69 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjourn",
       "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes from the June 2nd, 2026 Traffic Commission Meeting.",
+      "Source_File": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Regarding the curb on the east side of Prospect St between Oak St and Webster Ave, request to convert 130 feet of residential permit parking only to no parking any time.",
+      "Source_File": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Regarding the curb on both sides of Somerville Ave between #689 and #691, in what is also known as the Wilson Square slip lane, request to convert 140 feet of 2 hour parking except by permit to metered parking.",
+      "Source_File": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Regarding the curb on the east side of Stone Ave, from approximately 50 ft north of Union Square to approximately 90 ft north of Union Square, request to convert two metered parking spaces to a 40 ft loading zone.",
+      "Source_File": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request to change parking regulations on Revolution Drive, as detailed within.",
+      "Source_File": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "Roll Call",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_06_29_condominium-review-board-meeting",
-      "title": "Condominium Review Board Meeting",
-      "start": "2026-06-29T18:00:00-04:00",
-      "date": "2026-06-29",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/29/condominium-review-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/condo-review-20260629-agenda_0.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_B8dHsl0ASk-BKp8Z5eUFLw",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_06_29_sustainability-and-infrastructure-committee-meeting",
-      "title": "Sustainability and Infrastructure Committee Meeting",
-      "start": "2026-06-29T18:00:00-04:00",
-      "date": "2026-06-29",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/29/sustainability-and-infrastructure-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416238&GUID=8117A9EF-4410-4832-96D4-A97DF344F58C",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_06_30_legislative-matters-committee-meeting",
       "title": "Legislative Matters Committee Meeting",
@@ -16775,6 +16921,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_07_01_redevelopment-authority-meeting",
+      "title": "Redevelopment Authority Meeting",
+      "start": "2026-07-01T17:30:00-04:00",
+      "date": "2026-07-01",
+      "time": "5:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/01/redevelopment-authority-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/redevelopment-20260701-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_E8mlEEYYTu2PVYmbDg9JOw",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_01_housing-community-development-and-equity-committee-meeting",
@@ -16834,7 +16995,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/83834164281?pwd=Tjsmt3aFvmvSztWGUdb3zLVVAD8pQQ.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_06_school-building-committee-meeting",
@@ -16863,6 +17024,21 @@
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_07_07_traffic-commission-meeting",
+      "title": "Traffic Commission Meeting",
+      "start": "2026-07-07T17:30:00-04:00",
+      "date": "2026-07-07",
+      "time": "5:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/07/traffic-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/traffic-commission-20260707-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_76YcPCJuSH2OQ3mUb0l_Pg",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -16894,7 +17070,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_CmHS5GZZQiixY8wyOqVqZA",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_09_city-council-meeting",
