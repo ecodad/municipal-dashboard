@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-06-30",
+    "processed_date": "2026-07-01",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -631,6 +631,16 @@
         "filename": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
+      },
+      {
+        "filename": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
       }
     ]
   },
@@ -2248,6 +2258,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/06/confirmation-appointments-and-personnel-matters-committee-meeting"
     },
     {
+      "source_file": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf",
+      "occur_id": "2026_07_06_school-building-committee-meeting",
+      "committee_name": "Somerville New School Building Project School Building Committee Meeting",
+      "meeting_date": "2026-07-06",
+      "meeting_time": "4:30 PM",
+      "location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/school-building-20260706-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/06/school-building-committee-meeting"
+    },
+    {
       "source_file": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf",
       "occur_id": "2026_07_07_conservation-commission-meeting",
       "committee_name": "City of Somerville Conservation Commission",
@@ -2272,6 +2295,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/traffic-commission-20260707-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/07/traffic-commission-meeting"
+    },
+    {
+      "source_file": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf",
+      "occur_id": "2026_07_08_arts-council-board-meeting",
+      "committee_name": "City of Somerville Arts Council",
+      "meeting_date": "2026-07-08",
+      "meeting_time": "6:30 PM",
+      "location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/arts-council-20260708-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/arts-council-board-meeting"
     }
   ],
   "items": [
@@ -16706,6 +16742,106 @@
       "Source_File": "2026-07-06__2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting__confirmation-of-appointments-and-personnel-matters-committee.pdf"
     },
     {
+      "Committee_Name": "Somerville New School Building Project School Building Committee Meeting",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call meeting to order",
+      "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee Meeting",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "Item_Number": "2.a",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Vote to Approve meeting minutes from the 06/08/2026 SBC meeting",
+      "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee Meeting",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review Project Schedule & Workplan",
+      "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee Meeting",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "Item_Number": "4.a",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Recap of Neurodiversity Workshop",
+      "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee Meeting",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "Item_Number": "4.b",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Community Questions Received",
+      "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee Meeting",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "Item_Number": "5.a",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Mechanical Systems: Life Cycle Cost Analysis",
+      "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee Meeting",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "Item_Number": "5.b",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Geotechnical Engineer Findings",
+      "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee Meeting",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "Item_Number": "5.c",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Development of Options",
+      "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee Meeting",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "Item_Number": "6",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Public Comment",
+      "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee Meeting",
+      "Meeting_Date": "2026-07-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1 (Passcode: 364387)",
+      "Item_Number": "7",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "City of Somerville Conservation Commission",
       "Meeting_Date": "2026-07-07",
       "Meeting_Time": "7:00 PM",
@@ -16904,24 +17040,109 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Roll Call",
       "Source_File": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Arts Council",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approve minutes.",
+      "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Arts Council",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Community Check-In",
+      "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Arts Council",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Status of Board Recruitment",
+      "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Arts Council",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "Item_Number": "4",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Share Mayor's Listening Tour past events and future plans",
+      "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Arts Council",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discuss Board-generated interview questions for SAC Director role",
+      "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Arts Council",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Recap of Art Forum and Perception of Somerville Arts Council",
+      "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Arts Council",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Update: Budget night Information",
+      "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Arts Council",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "Item_Number": "8",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Check-In: Art Beat Festival Status",
+      "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Arts Council",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "Item_Number": "9",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Update: Armory Request for Proposals",
+      "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Arts Council",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting: https://us02web.zoom.us/j/84111185926",
+      "Item_Number": "10",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Planning: Coverage for LCC panels & upcoming panel date selection in August",
+      "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_06_30_legislative-matters-committee-meeting",
-      "title": "Legislative Matters Committee Meeting",
-      "start": "2026-06-30T18:00:00-04:00",
-      "date": "2026-06-30",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/06/30/legislative-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417986&GUID=904AE069-15C9-4640-9474-CFF4EEF0B6E3",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_07_01_redevelopment-authority-meeting",
       "title": "Redevelopment Authority Meeting",
@@ -16935,7 +17156,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_E8mlEEYYTu2PVYmbDg9JOw",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_01_housing-community-development-and-equity-committee-meeting",
@@ -17005,12 +17226,12 @@
       "time": "4:30 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/07/06/school-building-committee-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/school-building-20260706-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting",
@@ -17040,7 +17261,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_76YcPCJuSH2OQ3mUb0l_Pg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_07_finance-committee-meeting",
@@ -17073,6 +17294,36 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_07_08_somerville-commission-persons-disabilities-monthly-public-meeting",
+      "title": "Somerville Commission for Persons with Disabilities Monthly Public Meeting",
+      "start": "2026-07-08T18:00:00-04:00",
+      "date": "2026-07-08",
+      "time": "6:00 PM",
+      "location": "Somerville Public Library West Branch 40 College Avenue Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/somerville-commission-persons-disabilities-monthly-public-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_08_arts-council-board-meeting",
+      "title": "Arts Council Board Meeting",
+      "start": "2026-07-08T18:30:00-04:00",
+      "date": "2026-07-08",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/arts-council-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/arts-council-20260708-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/84111185926",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_07_09_city-council-meeting",
       "title": "City Council Meeting",
       "start": "2026-07-09T19:00:00-04:00",
@@ -17082,6 +17333,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/09/city-council-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415472&GUID=8C27E64D-5CF2-42F6-AA33-97C60BD9E632",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_15_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-07-15T18:00:00-04:00",
+      "date": "2026-07-15",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/15/zoning-board-appeals-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
