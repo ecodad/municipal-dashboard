@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-01",
+    "processed_date": "2026-07-02",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -641,6 +641,16 @@
         "filename": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf",
         "status": "parsed",
         "item_count": 10
+      },
+      {
+        "filename": "2026-07-07__2026_07_07_90-washington-street-civic-advisory-committee-meeting__90-washington-street-civic-advisory-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
+      },
+      {
+        "filename": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
       }
     ]
   },
@@ -2297,6 +2307,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/07/traffic-commission-meeting"
     },
     {
+      "source_file": "2026-07-07__2026_07_07_90-washington-street-civic-advisory-committee-meeting__90-washington-street-civic-advisory-committee-meeting.pdf",
+      "occur_id": "2026_07_07_90-washington-street-civic-advisory-committee-meeting",
+      "committee_name": "Winter Hill Urban Renewal Plan Civic Advisory Committee (CAC)",
+      "meeting_date": "2026-07-07",
+      "meeting_time": "5:30 PM",
+      "location": "Remote participation via Zoom Webinar",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/90-washington-street-cac-20260707-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/07/90-washington-street-civic-advisory-committee-meeting"
+    },
+    {
       "source_file": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf",
       "occur_id": "2026_07_08_arts-council-board-meeting",
       "committee_name": "City of Somerville Arts Council",
@@ -2308,6 +2331,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/arts-council-20260708-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/08/arts-council-board-meeting"
+    },
+    {
+      "source_file": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
+      "occur_id": "2026_07_08_human-rights-commission-meeting",
+      "committee_name": "Somerville Human Rights Commission",
+      "meeting_date": "2026-07-08",
+      "meeting_time": "6:30 PM",
+      "location": "Virtual Meeting via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260708-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/human-rights-commission-meeting"
     }
   ],
   "items": [
@@ -16842,6 +16878,46 @@
       "Source_File": "2026-07-06__2026_07_06_school-building-committee-meeting__school-building-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Winter Hill Urban Renewal Plan Civic Advisory Committee (CAC)",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Roll call and approval of previous meeting summary.",
+      "Source_File": "2026-07-07__2026_07_07_90-washington-street-civic-advisory-committee-meeting__90-washington-street-civic-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Winter Hill Urban Renewal Plan Civic Advisory Committee (CAC)",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of updated proposals for the redevelopment of 90 Washington Street.",
+      "Source_File": "2026-07-07__2026_07_07_90-washington-street-civic-advisory-committee-meeting__90-washington-street-civic-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Winter Hill Urban Renewal Plan Civic Advisory Committee (CAC)",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Public comment period.",
+      "Source_File": "2026-07-07__2026_07_07_90-washington-street-civic-advisory-committee-meeting__90-washington-street-civic-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Winter Hill Urban Renewal Plan Civic Advisory Committee (CAC)",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting Adjournment.",
+      "Source_File": "2026-07-07__2026_07_07_90-washington-street-civic-advisory-committee-meeting__90-washington-street-civic-advisory-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "City of Somerville Conservation Commission",
       "Meeting_Date": "2026-07-07",
       "Meeting_Time": "7:00 PM",
@@ -17140,69 +17216,89 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Planning: Coverage for LCC panels & upcoming panel date selection in August",
       "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting via Zoom",
+      "Item_Number": "1a",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting via Zoom",
+      "Item_Number": "1b",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Attendance and Roll Call; Confirm quorum and note participants",
+      "Source_File": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting via Zoom",
+      "Item_Number": "1d",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approve minutes",
+      "Source_File": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting via Zoom",
+      "Item_Number": "2.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "HRC Report Update & Approval",
+      "Source_File": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting via Zoom",
+      "Item_Number": "3.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review updates from Subcommittees (Information & Advocacy, Compliance and Training, Promotion of City Diversity, Rights Violation Response, Administration Subcommittee, Advisory Council Draft)",
+      "Source_File": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting via Zoom",
+      "Item_Number": "3.2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Update on Public Records Request",
+      "Source_File": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting via Zoom",
+      "Item_Number": "3.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of Draft Investigation Procedures",
+      "Source_File": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting via Zoom",
+      "Item_Number": "4.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Agenda Items",
+      "Source_File": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_07_01_redevelopment-authority-meeting",
-      "title": "Redevelopment Authority Meeting",
-      "start": "2026-07-01T17:30:00-04:00",
-      "date": "2026-07-01",
-      "time": "5:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/01/redevelopment-authority-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/redevelopment-20260701-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_E8mlEEYYTu2PVYmbDg9JOw",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_01_housing-community-development-and-equity-committee-meeting",
-      "title": "Housing, Community Development and Equity Committee Meeting",
-      "start": "2026-07-01T18:00:00-04:00",
-      "date": "2026-07-01",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/01/housing-community-development-and-equity-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1416239&GUID=A6E082C8-E382-4177-B331-3480ED274A1C",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_01_board-library-trustees-meeting",
-      "title": "Board of Library Trustees Meeting",
-      "start": "2026-07-01T18:00:00-04:00",
-      "date": "2026-07-01",
-      "time": "6:00 PM",
-      "location": "Central Library 79 Highland Avenue Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/01/board-library-trustees-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/library-trustees-20260701-agenda_0.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_01_public-health-and-public-safety-committee-meeting",
-      "title": "Public Health and Public Safety Committee Meeting",
-      "start": "2026-07-01T18:30:00-04:00",
-      "date": "2026-07-01",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/01/public-health-and-public-safety-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1423479&GUID=755C5D8A-F6C8-4BF0-99BF-8B18E18839E0",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_07_02_bicycle-advisory-committee-meeting",
       "title": "Bicycle Advisory Committee Meeting",
@@ -17231,7 +17327,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting",
@@ -17262,6 +17358,21 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_76YcPCJuSH2OQ3mUb0l_Pg",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_07_07_90-washington-street-civic-advisory-committee-meeting",
+      "title": "90 Washington Street Civic Advisory Committee Meeting",
+      "start": "2026-07-07T17:30:00-04:00",
+      "date": "2026-07-07",
+      "time": "5:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/07/90-washington-street-civic-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/90-washington-street-cac-20260707-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_wCra-rLbT76mkKuGsO9mXg",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_07_finance-committee-meeting",
@@ -17309,6 +17420,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_07_08_human-rights-commission-meeting",
+      "title": "Human Rights Commission Meeting",
+      "start": "2026-07-08T18:30:00-04:00",
+      "date": "2026-07-08",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/human-rights-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260708-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81820952601?pwd=LdLkF0Sie0TeBeD636Qz9QdmscIqok.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_07_08_arts-council-board-meeting",
       "title": "Arts Council Board Meeting",
       "start": "2026-07-08T18:30:00-04:00",
@@ -17321,7 +17447,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/84111185926",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_09_city-council-meeting",
@@ -17348,8 +17474,38 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/15/zoning-board-appeals-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_KBXqh9qzTF2DPyF6bsVDKA",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_16_urban-forestry-committee-meeting",
+      "title": "Urban Forestry Committee Meeting",
+      "start": "2026-07-16T16:30:00-04:00",
+      "date": "2026-07-16",
+      "time": "4:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/urban-forestry-committee-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_16_planning-board-meeting",
+      "title": "Planning Board Meeting",
+      "start": "2026-07-16T18:00:00-04:00",
+      "date": "2026-07-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/planning-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7VGJiF-5SjSpMSgDtPL2KA",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
