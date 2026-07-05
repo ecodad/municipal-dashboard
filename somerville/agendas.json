@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-02",
+    "processed_date": "2026-07-05",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -651,6 +651,16 @@
         "filename": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 8
+      },
+      {
+        "filename": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
+      },
+      {
+        "filename": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -2294,6 +2304,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/07/conservation-commission-meeting"
     },
     {
+      "source_file": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf",
+      "occur_id": "2026_07_07_finance-committee-meeting",
+      "committee_name": "Finance Committee",
+      "meeting_date": "2026-07-07",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1425071&GUID=179F80D4-89EF-4904-950B-1445B10CA81B",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/07/finance-committee-meeting"
+    },
+    {
       "source_file": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf",
       "occur_id": "2026_07_07_traffic-commission-meeting",
       "committee_name": "Traffic Commission",
@@ -2344,6 +2367,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260708-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/08/human-rights-commission-meeting"
+    },
+    {
+      "source_file": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
+      "occur_id": "2026_07_16_pedestrian-and-transit-advisory-committee-meeting",
+      "committee_name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "meeting_date": "2026-07-16",
+      "meeting_time": "6:30 PM",
+      "location": "Tufts Administration Building Atrium Room 203M 167 Holland St Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/pedestrian-transit-advisory-committee-20260716-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/pedestrian-and-transit-advisory-committee-meeting"
     }
   ],
   "items": [
@@ -17058,6 +17094,86 @@
       "Source_File": "2026-07-07__2026_07_07_conservation-commission-meeting__conservation-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0378",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to accept and expend a $231,635 grant with no new match required, from the Massachusetts Executive Office of Public Safety and Security to the Police Department for a body-worn camera program.",
+      "Source_File": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0943",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Finance Committee Meeting of May 26, 2026.",
+      "Source_File": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1142",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Finance Committee Meeting of June 9, 2026.",
+      "Source_File": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1143",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Finance Committee Meeting of June 10, 2026.",
+      "Source_File": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1144",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Finance Committee Meeting of June 15, 2026.",
+      "Source_File": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1145",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Finance Committee Meeting of June 16, 2026.",
+      "Source_File": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1146",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Finance Committee Meeting of June 17, 2026.",
+      "Source_File": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Finance Committee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1149",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Finance Committee of the Whole Meeting of June 23, 2026.",
+      "Source_File": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Traffic Commission",
       "Meeting_Date": "2026-07-07",
       "Meeting_Time": "5:30 PM",
@@ -17296,24 +17412,69 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Future Agenda Items",
       "Source_File": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts University Administration Building, Atrium Room 203M, 167 Holland St, Somerville, MA 02144",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Procedural Business: Member roll call, Vote on June draft minutes, Announcements",
+      "Source_File": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts University Administration Building, Atrium Room 203M, 167 Holland St, Somerville, MA 02144",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Public Comment",
+      "Source_File": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts University Administration Building, Atrium Room 203M, 167 Holland St, Somerville, MA 02144",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Subcommittee Updates: Community Events, Design Review, Special Projects",
+      "Source_File": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts University Administration Building, Atrium Room 203M, 167 Holland St, Somerville, MA 02144",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review Draft Letter on the Ride Safe Act (S.3077)",
+      "Source_File": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts University Administration Building, Atrium Room 203M, 167 Holland St, Somerville, MA 02144",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Deeper Dive: Somerville Ave Quick Build Safety Improvements Project",
+      "Source_File": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts University Administration Building, Atrium Room 203M, 167 Holland St, Somerville, MA 02144",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "City Update: Squires Bridge & East Washington Quick Build Projects",
+      "Source_File": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_07_02_bicycle-advisory-committee-meeting",
-      "title": "Bicycle Advisory Committee Meeting",
-      "start": "2026-07-02T18:30:00-04:00",
-      "date": "2026-07-02",
-      "time": "6:30 PM",
-      "location": "Tufts Administration Building, Atrium Room 203M 167 Holland St. Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/02/bicycle-advisory-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/bicycle-advisory-20260702-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/83834164281?pwd=Tjsmt3aFvmvSztWGUdb3zLVVAD8pQQ.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_07_06_school-building-committee-meeting",
       "title": "School Building Committee Meeting",
@@ -17372,7 +17533,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_wCra-rLbT76mkKuGsO9mXg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_07_finance-committee-meeting",
@@ -17387,7 +17548,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_07_conservation-commission-meeting",
@@ -17420,21 +17581,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_07_08_human-rights-commission-meeting",
-      "title": "Human Rights Commission Meeting",
-      "start": "2026-07-08T18:30:00-04:00",
-      "date": "2026-07-08",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/08/human-rights-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260708-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/81820952601?pwd=LdLkF0Sie0TeBeD636Qz9QdmscIqok.1",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_07_08_arts-council-board-meeting",
       "title": "Arts Council Board Meeting",
       "start": "2026-07-08T18:30:00-04:00",
@@ -17446,6 +17592,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/84111185926",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_07_08_human-rights-commission-meeting",
+      "title": "Human Rights Commission Meeting",
+      "start": "2026-07-08T18:30:00-04:00",
+      "date": "2026-07-08",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/human-rights-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260708-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81820952601?pwd=LdLkF0Sie0TeBeD636Qz9QdmscIqok.1",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -17508,6 +17669,21 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7VGJiF-5SjSpMSgDtPL2KA",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_16_pedestrian-and-transit-advisory-committee-meeting",
+      "title": "Pedestrian and Transit Advisory Committee Meeting",
+      "start": "2026-07-16T18:30:00-04:00",
+      "date": "2026-07-16",
+      "time": "6:30 PM",
+      "location": "Tufts Administration Building Atrium Room 203M 167 Holland St Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/pedestrian-and-transit-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/pedestrian-transit-advisory-committee-20260716-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }
