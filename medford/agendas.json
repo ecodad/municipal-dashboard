@@ -12319,6 +12319,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "23797",
+      "title": "Energy & Environment Committee Meeting",
+      "start": "2026-07-20T18:30:00-04:00",
+      "date": "2026-07-20",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23797",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
