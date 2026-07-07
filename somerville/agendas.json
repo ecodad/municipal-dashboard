@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-05",
+    "processed_date": "2026-07-07",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -661,6 +661,31 @@
         "filename": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-07-07__2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting__human-rights-commission-compliance-and-training-subcommittee.pdf",
+        "status": "parsed",
+        "item_count": 8
+      },
+      {
+        "filename": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
+        "status": "parsed",
+        "item_count": 16
+      },
+      {
+        "filename": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
+      },
+      {
+        "filename": "2026-07-09__2026_07_09_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 13
       }
     ]
   },
@@ -2317,6 +2342,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/07/finance-committee-meeting"
     },
     {
+      "source_file": "2026-07-07__2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting__human-rights-commission-compliance-and-training-subcommittee.pdf",
+      "occur_id": "2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting",
+      "committee_name": "Somerville Human Rights Commission Compliance and Training Subcommittee",
+      "meeting_date": "2026-07-07",
+      "meeting_time": "4:00 PM",
+      "location": "Virtual Meeting",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260707-compliance-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/07/human-rights-commission-compliance-and-training-subcommittee-meeting"
+    },
+    {
       "source_file": "2026-07-07__2026_07_07_traffic-commission-meeting__traffic-commission-meeting.pdf",
       "occur_id": "2026_07_07_traffic-commission-meeting",
       "committee_name": "Traffic Commission",
@@ -2356,6 +2394,32 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/08/arts-council-board-meeting"
     },
     {
+      "source_file": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf",
+      "occur_id": "2026_07_08_review-multiple-member-bodies-committee-meeting",
+      "committee_name": "Review of Multiple-Member Bodies Committee",
+      "meeting_date": "2026-07-08",
+      "meeting_time": "6:00 PM",
+      "location": "Remote participation via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/multiple-member-bodies-20260708-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/review-multiple-member-bodies-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
+      "occur_id": "2026_07_08_commission-persons-disabilities-meeting",
+      "committee_name": "Somerville Commission for Persons with Disabilities",
+      "meeting_date": "2026-07-08",
+      "meeting_time": "6:00 PM",
+      "location": "Somerville Public Library West Branch 40 College Avenue Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/disabilities-20260708-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/commission-persons-disabilities-meeting"
+    },
+    {
       "source_file": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
       "occur_id": "2026_07_08_human-rights-commission-meeting",
       "committee_name": "Somerville Human Rights Commission",
@@ -2367,6 +2431,32 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260708-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/08/human-rights-commission-meeting"
+    },
+    {
+      "source_file": "2026-07-09__2026_07_09_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf",
+      "occur_id": "2026_07_09_school-committee-rules-management-subcommittee-meeting",
+      "committee_name": "School Committee - Rules Management Subcommittee",
+      "meeting_date": "2026-07-09",
+      "meeting_time": "5:30 PM",
+      "location": "Zoom Webinar",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/Call%20for%20the%20Week%20of%2007-6-26_0.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/09/school-committee-rules-management-subcommittee-meeting"
+    },
+    {
+      "source_file": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf",
+      "occur_id": "2026_07_09_urban-forestry-committee-meeting",
+      "committee_name": "Urban Forestry Committee",
+      "meeting_date": "2026-07-09",
+      "meeting_time": "4:30 PM",
+      "location": "Remote (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/urban-forestry-20260709-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/09/urban-forestry-committee-meeting"
     },
     {
       "source_file": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
@@ -17174,6 +17264,86 @@
       "Source_File": "2026-07-07__2026_07_07_finance-committee-meeting__finance-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Human Rights Commission Compliance and Training Subcommittee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order - Attendance and confirm quorum",
+      "Source_File": "2026-07-07__2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting__human-rights-commission-compliance-and-training-subcommittee.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Compliance and Training Subcommittee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes - Review Previous Minutes",
+      "Source_File": "2026-07-07__2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting__human-rights-commission-compliance-and-training-subcommittee.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Compliance and Training Subcommittee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.A",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Wage Theft Compliance Update",
+      "Source_File": "2026-07-07__2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting__human-rights-commission-compliance-and-training-subcommittee.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Compliance and Training Subcommittee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.B",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Food Access Support",
+      "Source_File": "2026-07-07__2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting__human-rights-commission-compliance-and-training-subcommittee.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Compliance and Training Subcommittee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.C",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Anti-bias/Anti-hate Training (Islamophobia, Antisemitism)",
+      "Source_File": "2026-07-07__2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting__human-rights-commission-compliance-and-training-subcommittee.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Compliance and Training Subcommittee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "4.A",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "New Business - Open Discussion",
+      "Source_File": "2026-07-07__2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting__human-rights-commission-compliance-and-training-subcommittee.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Compliance and Training Subcommittee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "5.A",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Agenda Items, questions, concerns, and suggestions - Open Discussion",
+      "Source_File": "2026-07-07__2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting__human-rights-commission-compliance-and-training-subcommittee.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Compliance and Training Subcommittee",
+      "Meeting_Date": "2026-07-07",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-07__2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting__human-rights-commission-compliance-and-training-subcommittee.pdf"
+    },
+    {
       "Committee_Name": "Traffic Commission",
       "Meeting_Date": "2026-07-07",
       "Meeting_Time": "5:30 PM",
@@ -17334,6 +17504,166 @@
       "Source_File": "2026-07-08__2026_07_08_arts-council-board-meeting__arts-council-board-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call, Welcome, Read Agenda: Holly Simione 6pm",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Reminder of Robert's Rules and recommendations for respectful and caring communication: Harriotte Hurie",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "HP Funds Discussion and Vote",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "3.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "iCan Bike Program funding discussion",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "3.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Council on Aging Technology Training funding discussion",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "3.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Veterans Association needs assessment for project funding",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "3.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "SHSSF Class of 2027 Scholarship Funding",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "3.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "SHSSF Mary Houghton Memorial Scholarship",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Disability Pride 2026 Events Discussion",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Community Art Project centered on inclusion and the perspective of PWD who live, learn, work, visit and thrive in Somerville MA, Nicole Cannon",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Inclusive Somerville, Holly Simione",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "7",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Draft Letter to Mayor, Elyse Best",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "8",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Letter in support of Inclusive Schools, Jess Adams",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "9",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Treasurer's report: Sheila Tracy",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "10",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Housing Strategy to Increasing the number and sizes of affordable and Accessible units in Somerville, Holly Simione",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "11",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Chairs Report: SCPD Membership, MAAB Variances, SHSSF Class of 2026",
+      "Source_File": "2026-07-08__2026_07_08_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Human Rights Commission",
       "Meeting_Date": "2026-07-08",
       "Meeting_Time": "6:30 PM",
@@ -17414,6 +17744,256 @@
       "Source_File": "2026-07-08__2026_07_08_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call of the Roll",
+      "Source_File": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Committee logistics and standards",
+      "Source_File": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Resident concerns",
+      "Source_File": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Urban Design Commission",
+      "Source_File": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Presentation by staff on Bicycle Advisory Committee",
+      "Source_File": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential consolidation of: Bicycle Advisory Committee and Pedestrian and Transit Advisory Committee",
+      "Source_File": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential consolidation of: Human Rights Commission, Commission for Persons with Disabilities, Women's Commission, Fair Housing Commission, Council for Aging Persons",
+      "Source_File": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential dissolution of: Ethics Commission",
+      "Source_File": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-07-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee - Rules Management Subcommittee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-07-09__2026_07_09_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee - Rules Management Subcommittee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Harmful Artificial Intelligence Policy",
+      "Source_File": "2026-07-09__2026_07_09_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee - Rules Management Subcommittee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Policy Manual Review- Section J and K",
+      "Source_File": "2026-07-09__2026_07_09_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Introductions / Housekeeping",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Resident Concerns",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "3a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "City Tree Removals",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "3b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Private Tree Removal Permit(s) and Exception(s)",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "3c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Spring 2026 Tree Planting",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "4a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "UFC Recommendations for Mayor Jake Wilson",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "4b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Outreach",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "4c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "UFC Overview and Startup question answering",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "4d",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Somerville's Most Wanted Weeds",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "5",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Urban Forestry Related Job Postings and RFPs",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "6a",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes from April 16th, 2026",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "6b",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes from June 18th, 2026",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote (Zoom)",
+      "Item_Number": "7",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
       "Meeting_Date": "2026-07-16",
       "Meeting_Time": "6:30 PM",
@@ -17476,34 +18056,19 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_07_06_school-building-committee-meeting",
-      "title": "School Building Committee Meeting",
-      "start": "2026-07-06T16:30:00-04:00",
-      "date": "2026-07-06",
-      "time": "4:30 PM",
+      "occur_id": "2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting",
+      "title": "Human Rights Commission Compliance and Training Subcommittee Meeting",
+      "start": "2026-07-07T16:00:00-04:00",
+      "date": "2026-07-07",
+      "time": "4:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/06/school-building-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/school-building-20260706-agenda.pdf",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/07/human-rights-commission-compliance-and-training-subcommittee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260707-compliance-agenda.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1",
+      "zoom_url": "https://us02web.zoom.us/j/89529648670?pwd=HRrPf09FLJeGPZnfWsdCcCJzqs8cYu.1",
       "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_06_confirmation-appointments-and-personnel-matters-committee-meeting",
-      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
-      "start": "2026-07-06T18:00:00-04:00",
-      "date": "2026-07-06",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/06/confirmation-appointments-and-personnel-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1417987&GUID=51529EFA-E2C3-4523-9589-D31EEEC92027",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_07_traffic-commission-meeting",
@@ -17566,34 +18131,34 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_07_08_somerville-commission-persons-disabilities-monthly-public-meeting",
-      "title": "Somerville Commission for Persons with Disabilities Monthly Public Meeting",
+      "occur_id": "2026_07_08_review-multiple-member-bodies-committee-meeting",
+      "title": "Review of Multiple-Member Bodies Committee Meeting",
+      "start": "2026-07-08T18:00:00-04:00",
+      "date": "2026-07-08",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/review-multiple-member-bodies-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/multiple-member-bodies-20260708-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/86549249209",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_07_08_commission-persons-disabilities-meeting",
+      "title": "Commission for Persons with Disabilities Meeting",
       "start": "2026-07-08T18:00:00-04:00",
       "date": "2026-07-08",
       "time": "6:00 PM",
       "location": "Somerville Public Library West Branch 40 College Avenue Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/08/somerville-commission-persons-disabilities-monthly-public-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_07_08_human-rights-commission-meeting",
-      "title": "Human Rights Commission Meeting",
-      "start": "2026-07-08T18:30:00-04:00",
-      "date": "2026-07-08",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/08/human-rights-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260708-agenda.pdf",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/commission-persons-disabilities-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/disabilities-20260708-agenda.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/81820952601?pwd=LdLkF0Sie0TeBeD636Qz9QdmscIqok.1",
+      "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
       "has_livestream": false,
-      "pipeline_status": "skipped_existing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_08_arts-council-board-meeting",
@@ -17611,6 +18176,51 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_07_08_human-rights-commission-meeting",
+      "title": "Human Rights Commission Meeting",
+      "start": "2026-07-08T18:30:00-04:00",
+      "date": "2026-07-08",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/08/human-rights-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260708-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81820952601?pwd=LdLkF0Sie0TeBeD636Qz9QdmscIqok.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_07_09_urban-forestry-committee-meeting",
+      "title": "Urban Forestry Committee Meeting",
+      "start": "2026-07-09T16:30:00-04:00",
+      "date": "2026-07-09",
+      "time": "4:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/09/urban-forestry-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/urban-forestry-20260709-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_AtclLY3cSvaKJNJYBBjIkQ",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_07_09_school-committee-rules-management-subcommittee-meeting",
+      "title": "School Committee Rules Management Subcommittee Meeting",
+      "start": "2026-07-09T17:30:00-04:00",
+      "date": "2026-07-09",
+      "time": "5:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/09/school-committee-rules-management-subcommittee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/Call%20for%20the%20Week%20of%2007-6-26_0.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_C71Lp-SJT4eId0FKaBNbwg",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_07_09_city-council-meeting",
       "title": "City Council Meeting",
       "start": "2026-07-09T19:00:00-04:00",
@@ -17620,6 +18230,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/09/city-council-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415472&GUID=8C27E64D-5CF2-42F6-AA33-97C60BD9E632",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_10_metro-boston-homeland-security-regions-jpoc-meeting",
+      "title": "Metro Boston Homeland Security Region's JPOC Meeting",
+      "start": "2026-07-10T10:30:00-04:00",
+      "date": "2026-07-10",
+      "time": "10:30 AM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/10/metro-boston-homeland-security-regions-jpoc-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -17637,21 +18262,6 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_KBXqh9qzTF2DPyF6bsVDKA",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_07_16_urban-forestry-committee-meeting",
-      "title": "Urban Forestry Committee Meeting",
-      "start": "2026-07-16T16:30:00-04:00",
-      "date": "2026-07-16",
-      "time": "4:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/16/urban-forestry-committee-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     },
@@ -17684,6 +18294,21 @@
       "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_07_21_historic-preservation-commission-meeting",
+      "title": "Historic Preservation Commission Meeting",
+      "start": "2026-07-21T18:45:00-04:00",
+      "date": "2026-07-21",
+      "time": "6:45 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/21/historic-preservation-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_WtKJyX1URy6pceVa9-iw_A",
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
