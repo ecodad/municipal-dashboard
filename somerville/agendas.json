@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-07",
+    "processed_date": "2026-07-08",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -686,6 +686,21 @@
         "filename": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 13
+      },
+      {
+        "filename": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
+      },
+      {
+        "filename": "2026-07-09__2026_07_09_city-council-meeting__city-council-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-07-13__2026_07_13_board-assessors-meeting__board-of-assessors-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
       }
     ]
   },
@@ -2433,6 +2448,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/08/human-rights-commission-meeting"
     },
     {
+      "source_file": "2026-07-09__2026_07_09_city-council-meeting__city-council-meeting.pdf",
+      "occur_id": "2026_07_09_city-council-meeting",
+      "committee_name": "City Council",
+      "meeting_date": "2026-07-09",
+      "meeting_time": "7:00 PM",
+      "location": "City Council Chamber and Remote Participation",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415472&GUID=8C27E64D-5CF2-42F6-AA33-97C60BD9E632",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/09/city-council-meeting"
+    },
+    {
       "source_file": "2026-07-09__2026_07_09_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf",
       "occur_id": "2026_07_09_school-committee-rules-management-subcommittee-meeting",
       "committee_name": "School Committee - Rules Management Subcommittee",
@@ -2446,6 +2474,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/09/school-committee-rules-management-subcommittee-meeting"
     },
     {
+      "source_file": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf",
+      "occur_id": "2026_07_09_affordable-housing-trust-meeting",
+      "committee_name": "Somerville Affordable Housing Trust Fund",
+      "meeting_date": "2026-07-09",
+      "meeting_time": "5:15 PM",
+      "location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/affordable-housing-20260706-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/09/affordable-housing-trust-meeting"
+    },
+    {
       "source_file": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf",
       "occur_id": "2026_07_09_urban-forestry-committee-meeting",
       "committee_name": "Urban Forestry Committee",
@@ -2457,6 +2498,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/urban-forestry-20260709-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/09/urban-forestry-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-13__2026_07_13_board-assessors-meeting__board-of-assessors-meeting.pdf",
+      "occur_id": "2026_07_13_board-assessors-meeting",
+      "committee_name": "Somerville Board of Assessors",
+      "meeting_date": "2026-07-13",
+      "meeting_time": "12:00 PM",
+      "location": "Assessor's Office 93 Highland Avenue Somerville , MA 02143 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/assessors-20260713-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/13/board-assessors-meeting"
     },
     {
       "source_file": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
@@ -17834,6 +17888,156 @@
       "Source_File": "2026-07-08__2026_07_08_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Meeting minutes review and approval - Draft June 11, 2026, meeting minutes",
+      "Source_File": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Finance Reports review and approval - Review of June 2026 CPA and non-CPA accounts",
+      "Source_File": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "3.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "29 Cross Street Project Update",
+      "Source_File": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "3.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "SAHT-CPA Annual Report Recap",
+      "Source_File": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "3.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Open Positions Update",
+      "Source_File": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "4.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Open Trust Officer Role – Assistant Managing Trustee",
+      "Source_File": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "4.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "FY25 FYSA – Staff Pay Adjustment",
+      "Source_File": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "4.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "SAHT Trustee Overview PPT",
+      "Source_File": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-09__2026_07_09_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1159",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "congand Was 22026 toking a bi-annual report, pursuant to Section 2-6(g) of the Code of Ordinances.",
+      "Source_File": "2026-07-09__2026_07_09_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1188",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "City Clerk conveying Block Party Licenses issued.",
+      "Source_File": "2026-07-09__2026_07_09_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1193",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commending Jenneen Pagliaro on the auspicious occasion of her retirement after over 38 years of dedicated service.",
+      "Source_File": "2026-07-09__2026_07_09_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1196",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call of the Roll.",
+      "Source_File": "2026-07-09__2026_07_09_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1197",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Remembrances.",
+      "Source_File": "2026-07-09__2026_07_09_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "26-1198",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Regular Meeting of June 11, 2026.",
+      "Source_File": "2026-07-09__2026_07_09_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
       "Committee_Name": "School Committee - Rules Management Subcommittee",
       "Meeting_Date": "2026-07-09",
       "Meeting_Time": "5:30 PM",
@@ -17994,6 +18198,46 @@
       "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Board of Assessors",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "12:00 PM",
+      "Location": "City Hall in the Assessor's Office, 93 Highland Avenue, Somerville MA",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review of the Board of Assessor's minutes from the last meeting for approval.",
+      "Source_File": "2026-07-13__2026_07_13_board-assessors-meeting__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Board of Assessors",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "12:00 PM",
+      "Location": "City Hall in the Assessor's Office, 93 Highland Avenue, Somerville MA",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Fiscal Year 2026 Abatement and Exemption Review.",
+      "Source_File": "2026-07-13__2026_07_13_board-assessors-meeting__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Board of Assessors",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "12:00 PM",
+      "Location": "City Hall in the Assessor's Office, 93 Highland Avenue, Somerville MA",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Fiscal Year 2023-2025 Appeal Settlement Review",
+      "Source_File": "2026-07-13__2026_07_13_board-assessors-meeting__board-of-assessors-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Board of Assessors",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "12:00 PM",
+      "Location": "City Hall in the Assessor's Office, 93 Highland Avenue, Somerville MA",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Signings and all other business.",
+      "Source_File": "2026-07-13__2026_07_13_board-assessors-meeting__board-of-assessors-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
       "Meeting_Date": "2026-07-16",
       "Meeting_Time": "6:30 PM",
@@ -18068,7 +18312,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89529648670?pwd=HRrPf09FLJeGPZnfWsdCcCJzqs8cYu.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_07_traffic-commission-meeting",
@@ -18143,7 +18387,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/86549249209",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_08_commission-persons-disabilities-meeting",
@@ -18158,7 +18402,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_08_arts-council-board-meeting",
@@ -18203,6 +18447,21 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_AtclLY3cSvaKJNJYBBjIkQ",
       "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_07_09_affordable-housing-trust-meeting",
+      "title": "Affordable Housing Trust Meeting",
+      "start": "2026-07-09T17:15:00-04:00",
+      "date": "2026-07-09",
+      "time": "5:15 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/09/affordable-housing-trust-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/affordable-housing-20260706-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/83080024978",
+      "has_livestream": false,
       "pipeline_status": "downloaded"
     },
     {
@@ -18218,7 +18477,7 @@
       "has_zoom": true,
       "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_C71Lp-SJT4eId0FKaBNbwg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_09_city-council-meeting",
@@ -18233,7 +18492,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_10_metro-boston-homeland-security-regions-jpoc-meeting",
@@ -18249,6 +18508,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_13_board-assessors-meeting",
+      "title": "Board of Assessors Meeting",
+      "start": "2026-07-13T12:00:00-04:00",
+      "date": "2026-07-13",
+      "time": "12:00 PM",
+      "location": "Assessor's Office 93 Highland Avenue Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/13/board-assessors-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/assessors-20260713-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_15_zoning-board-appeals-meeting",

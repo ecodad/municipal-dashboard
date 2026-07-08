@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-02",
+    "processed_date": "2026-07-07",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -491,6 +491,11 @@
         "filename": "2026-07-08__25262__hormel-stadium-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 4
+      },
+      {
+        "filename": "2026-07-09__25326__historic-district-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -10816,6 +10821,56 @@
       "Source_File": "2026-07-08__25262__hormel-stadium-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Historic District Commission",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201 at City Hall and via Zoom video conferencing",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Certificate of Appropriateness: 21 Touro Avenue",
+      "Source_File": "2026-07-09__25326__historic-district-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic District Commission",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201 at City Hall and via Zoom video conferencing",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Certificate of Appropriateness: 20 Hillside Avenue",
+      "Source_File": "2026-07-09__25326__historic-district-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic District Commission",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201 at City Hall and via Zoom video conferencing",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Meeting Minutes from June 18, 2026 meeting",
+      "Source_File": "2026-07-09__25326__historic-district-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic District Commission",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201 at City Hall and via Zoom video conferencing",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Administrative Updates",
+      "Source_File": "2026-07-09__25326__historic-district-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic District Commission",
+      "Meeting_Date": "2026-07-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201 at City Hall and via Zoom video conferencing",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-09__25326__historic-district-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Oak Grove Cemetery",
       "Meeting_Date": "2026-07-14",
       "Meeting_Time": "7:00 PM",
@@ -12126,6 +12181,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25260"
     },
     {
+      "source_file": "2026-07-09__25326__historic-district-commission-meeting.pdf",
+      "occur_id": "25326",
+      "committee_name": "Historic District Commission",
+      "meeting_date": "2026-07-09",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall - Room 201",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/150Q_XyQsgOuvspU9YRSne0EZ_-uMn9vz/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25326"
+    },
+    {
       "source_file": "2026-07-14__24958__oak-grove-cemetery-commission-meeting.pdf",
       "occur_id": "24958",
       "committee_name": "Oak Grove Cemetery",
@@ -12171,19 +12239,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "17044",
+      "occur_id": "25326",
       "title": "Historic District Commission Meeting",
       "start": "2026-07-09T18:00:00-04:00",
       "date": "2026-07-09",
       "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/17044",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "location": "City Hall - Room 201",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25326",
+      "agenda_url": "https://drive.google.com/file/d/150Q_XyQsgOuvspU9YRSne0EZ_-uMn9vz/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89507419732",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "11286",
@@ -12332,6 +12400,21 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "25328",
+      "title": "Bus Network Redesign Public Meeting",
+      "start": "2026-07-21T18:00:00-04:00",
+      "date": "2026-07-21",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25328",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/meeting/register/9iWfkB-gQby8Lvx0pCD1Cw#/registration",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
