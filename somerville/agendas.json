@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-08",
+    "processed_date": "2026-07-09",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -701,6 +701,11 @@
         "filename": "2026-07-13__2026_07_13_board-assessors-meeting__board-of-assessors-meeting.pdf",
         "status": "parsed",
         "item_count": 4
+      },
+      {
+        "filename": "2026-07-10__2026_07_10_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
       }
     ]
   },
@@ -2498,6 +2503,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/urban-forestry-20260709-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/09/urban-forestry-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-10__2026_07_10_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
+      "occur_id": "2026_07_10_council-aging-board-meeting",
+      "committee_name": "Council on Aging Board of Directors",
+      "meeting_date": "2026-07-10",
+      "meeting_time": "11:00 AM",
+      "location": "Holland Street Senior Center 167 Holland Street Somerville , MA 02145 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/council-on-aging-20260710-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/10/council-aging-board-meeting"
     },
     {
       "source_file": "2026-07-13__2026_07_13_board-assessors-meeting__board-of-assessors-meeting.pdf",
@@ -18198,6 +18216,76 @@
       "Source_File": "2026-07-09__2026_07_09_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-07-10",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, located at 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes from June.",
+      "Source_File": "2026-07-10__2026_07_10_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-07-10",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, located at 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "2.a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Final review of postcard and flyer.",
+      "Source_File": "2026-07-10__2026_07_10_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-07-10",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, located at 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "2.b",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Review of bylaws",
+      "Source_File": "2026-07-10__2026_07_10_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-07-10",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, located at 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "3.a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY '27 Budget",
+      "Source_File": "2026-07-10__2026_07_10_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-07-10",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, located at 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "3.b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Summer Jobs Interns",
+      "Source_File": "2026-07-10__2026_07_10_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-07-10",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, located at 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "3.c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Senior Picnic",
+      "Source_File": "2026-07-10__2026_07_10_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-07-10",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, located at 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn—Next meeting: August 7, 2026",
+      "Source_File": "2026-07-10__2026_07_10_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Board of Assessors",
       "Meeting_Date": "2026-07-13",
       "Meeting_Time": "12:00 PM",
@@ -18300,141 +18388,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_07_07_human-rights-commission-compliance-and-training-subcommittee-meeting",
-      "title": "Human Rights Commission Compliance and Training Subcommittee Meeting",
-      "start": "2026-07-07T16:00:00-04:00",
-      "date": "2026-07-07",
-      "time": "4:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/07/human-rights-commission-compliance-and-training-subcommittee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260707-compliance-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/89529648670?pwd=HRrPf09FLJeGPZnfWsdCcCJzqs8cYu.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_07_traffic-commission-meeting",
-      "title": "Traffic Commission Meeting",
-      "start": "2026-07-07T17:30:00-04:00",
-      "date": "2026-07-07",
-      "time": "5:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/07/traffic-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/traffic-commission-20260707-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_76YcPCJuSH2OQ3mUb0l_Pg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_07_90-washington-street-civic-advisory-committee-meeting",
-      "title": "90 Washington Street Civic Advisory Committee Meeting",
-      "start": "2026-07-07T17:30:00-04:00",
-      "date": "2026-07-07",
-      "time": "5:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/07/90-washington-street-civic-advisory-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/90-washington-street-cac-20260707-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_wCra-rLbT76mkKuGsO9mXg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_07_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-07-07T18:00:00-04:00",
-      "date": "2026-07-07",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/07/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1425071&GUID=179F80D4-89EF-4904-950B-1445B10CA81B",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_07_conservation-commission-meeting",
-      "title": "Conservation Commission Meeting",
-      "start": "2026-07-07T19:00:00-04:00",
-      "date": "2026-07-07",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/07/conservation-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/conservation-20260707-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_CmHS5GZZQiixY8wyOqVqZA",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_08_review-multiple-member-bodies-committee-meeting",
-      "title": "Review of Multiple-Member Bodies Committee Meeting",
-      "start": "2026-07-08T18:00:00-04:00",
-      "date": "2026-07-08",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/08/review-multiple-member-bodies-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/multiple-member-bodies-20260708-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/86549249209",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_08_commission-persons-disabilities-meeting",
-      "title": "Commission for Persons with Disabilities Meeting",
-      "start": "2026-07-08T18:00:00-04:00",
-      "date": "2026-07-08",
-      "time": "6:00 PM",
-      "location": "Somerville Public Library West Branch 40 College Avenue Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/08/commission-persons-disabilities-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/disabilities-20260708-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_08_arts-council-board-meeting",
-      "title": "Arts Council Board Meeting",
-      "start": "2026-07-08T18:30:00-04:00",
-      "date": "2026-07-08",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/08/arts-council-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/arts-council-20260708-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/84111185926",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_08_human-rights-commission-meeting",
-      "title": "Human Rights Commission Meeting",
-      "start": "2026-07-08T18:30:00-04:00",
-      "date": "2026-07-08",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/08/human-rights-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260708-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/81820952601?pwd=LdLkF0Sie0TeBeD636Qz9QdmscIqok.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_07_09_urban-forestry-committee-meeting",
       "title": "Urban Forestry Committee Meeting",
       "start": "2026-07-09T16:30:00-04:00",
@@ -18462,7 +18415,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/83080024978",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_09_school-committee-rules-management-subcommittee-meeting",
@@ -18492,7 +18445,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_10_metro-boston-homeland-security-regions-jpoc-meeting",
@@ -18510,6 +18463,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_07_10_council-aging-board-meeting",
+      "title": "Council on Aging Board Meeting",
+      "start": "2026-07-10T11:00:00-04:00",
+      "date": "2026-07-10",
+      "time": "11:00 AM",
+      "location": "Holland Street Senior Center 167 Holland Street Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/10/council-aging-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/council-on-aging-20260710-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_07_13_board-assessors-meeting",
       "title": "Board of Assessors Meeting",
       "start": "2026-07-13T12:00:00-04:00",
@@ -18522,7 +18490,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_15_zoning-board-appeals-meeting",
@@ -18581,6 +18549,21 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_WtKJyX1URy6pceVa9-iw_A",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_23_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-07-23T19:00:00-04:00",
+      "date": "2026-07-23",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/23/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415473&GUID=92B1F129-180A-416F-BCB7-CE6E00116F9E",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     }

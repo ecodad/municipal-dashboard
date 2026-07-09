@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-07",
+    "processed_date": "2026-07-09",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -496,6 +496,26 @@
         "filename": "2026-07-09__25326__historic-district-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 5
+      },
+      {
+        "filename": "2026-07-10__25393__school-committee-special-meeting-approval-of-updated-chapter.pdf",
+        "status": "parsed",
+        "item_count": 3
+      },
+      {
+        "filename": "2026-07-13__25392__historical-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 14
+      },
+      {
+        "filename": "2026-07-15__25456__conservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 14
       }
     ]
   },
@@ -10871,6 +10891,176 @@
       "Source_File": "2026-07-09__25326__historic-district-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-10",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Remote participation only (via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-07-10__25393__school-committee-special-meeting-approval-of-updated-chapter.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-10",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Remote participation only (via Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Recommendation to Approve the Updated Chapter 74 Viability Form for the New Medford High School Project",
+      "Source_File": "2026-07-10__25393__school-committee-special-meeting-approval-of-updated-chapter.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-10",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Remote participation only (via Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-10__25393__school-committee-special-meeting-approval-of-updated-chapter.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "NB-1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "South Medford Connector - discussion",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "OB-1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Vacant Seats – Update",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "NB-2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Section 106 Review - South Medford Connector to Harvard Avenue",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "OB-2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Medford High School – Section 106 Review",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "NB-3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Zoning Update from CDB",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "OB-3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Properties currently under Demo Delay",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "NB-4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Receive Demolition Application - Hegner Center (cont'd from June)",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "OB-4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Brooks Estate Archaeological Survey – Update",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "OB-5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "CPA Projects: Thomas Brooks' Park - General Update",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "OB-6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Cross Street Cemetery – General Update",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "OB-7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Survey Projects: Hastings Heights - General Update",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "OB-8",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "16 Manning Street",
+      "Item_Type": "Other",
+      "Agenda_Topic": "16 Manning Street - exp. 1/2027 (Demolition Delay)",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and livestream",
+      "Item_Number": "41 Mystic Avenue",
+      "Item_Type": "Other",
+      "Agenda_Topic": "41 Mystic Avenue – exp. 4/2027 (Demolition Delay)",
+      "Source_File": "2026-07-13__25392__historical-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Oak Grove Cemetery",
       "Meeting_Date": "2026-07-14",
       "Meeting_Time": "7:00 PM",
@@ -10929,6 +11119,206 @@
       "Item_Type": "Other",
       "Agenda_Topic": "Next Meeting Date",
       "Source_File": "2026-07-14__24958__oak-grove-cemetery-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public Hearings",
+      "Source_File": "2026-07-15__25456__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Future Projects",
+      "Source_File": "2026-07-15__25456__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Ongoing Projects",
+      "Source_File": "2026-07-15__25456__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.4",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-07-15__25456__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Proposed Regulations",
+      "Source_File": "2026-07-15__25456__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "DEP File #215-0248",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Notice of Intent - DEP File #215-0248 – 75 South Street – (Continued from June 24, 2026) Kelly Morrissey has filed a Notice of Intent to raze an existing three-family dwelling and to construct a new three-family dwelling, porches, walkways, decks, stairs, permeable paver driveway, stone infiltration trench, grading and utilities. The work will be conducted within the 200-foot Riverfront Area (Mystic River), Bordering Land Subject to Flooding and the 100-foot Buffer Zone to Bank.",
+      "Source_File": "2026-07-15__25456__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "2a",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "May Board Meeting 5/06/2026",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "2b",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Fundraising Working Group Minute 5/18/2026, 6/30/2026",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Medford Community Housing Update",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Fundraising Working Group Update",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Funding Requests",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Free Cash Request Update",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Affordable Housing Linkage Fee Nexus Study Update",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "8",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Fractional Payment Ordinance Update",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "9",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Financial Update",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "10",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Formalized Application Templates",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "11",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New Trustee Update",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "12",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Regular Status Updates",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "13",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf"
     }
   ],
   "meetings": [
@@ -12194,6 +12584,32 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25326"
     },
     {
+      "source_file": "2026-07-10__25393__school-committee-special-meeting-approval-of-updated-chapter.pdf",
+      "occur_id": "25393",
+      "committee_name": "Medford School Committee",
+      "meeting_date": "2026-07-10",
+      "meeting_time": "4:00 PM",
+      "location": "Remote participation only (via Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1UBUw1RshqJVc0AdhJ7UuJuNNFezV7u49/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25393"
+    },
+    {
+      "source_file": "2026-07-13__25392__historical-commission-meeting.pdf",
+      "occur_id": "25392",
+      "committee_name": "Medford Historical Commission",
+      "meeting_date": "2026-07-13",
+      "meeting_time": "7:00 PM",
+      "location": "Remote via Zoom and livestream",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1gz3B0nnoDNRzP6zLsvLVU_kzwqDgbMmM/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25392"
+    },
+    {
       "source_file": "2026-07-14__24958__oak-grove-cemetery-commission-meeting.pdf",
       "occur_id": "24958",
       "committee_name": "Oak Grove Cemetery",
@@ -12205,39 +12621,35 @@
       "agenda_url": "https://docs.google.com/document/d/1wN4vM3aP90XTED_7S-we4HepdGN8uOeX/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24958"
+    },
+    {
+      "source_file": "2026-07-15__25456__conservation-commission-meeting.pdf",
+      "occur_id": "25456",
+      "committee_name": "City of Medford Conservation Commission",
+      "meeting_date": "2026-07-15",
+      "meeting_time": "6:30 PM",
+      "location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1-1UvJALmZrFXOLnVPWGzaMgQ5t_bYV-I/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25456"
+    },
+    {
+      "source_file": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf",
+      "occur_id": "25520",
+      "committee_name": "Medford Affordable Housing Trust",
+      "meeting_date": "2026-07-15",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall - Room 201",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1BBaMOySnEFKno_8ZK0M4hIrSByHoEXwM/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25520"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "25262",
-      "title": "Hormel Stadium Commission Meeting",
-      "start": "2026-07-08T17:00:00-04:00",
-      "date": "2026-07-08",
-      "time": "5:00 PM",
-      "location": "City Hall - Room 207",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25262",
-      "agenda_url": "https://drive.google.com/file/d/1iuC6C9w_g-YCO1do9wFCkHpBfVcOBIZR/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/launch/jc/88570255641",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "25260",
-      "title": "Election Commission Meeting",
-      "start": "2026-07-08T18:00:00-04:00",
-      "date": "2026-07-08",
-      "time": "6:00 PM",
-      "location": "City Hall - Room 207",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25260",
-      "agenda_url": "https://drive.google.com/file/d/1IHoQEzSc3ygf6txqgp1ntb5GGepkhJZ3/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "25326",
       "title": "Historic District Commission Meeting",
@@ -12251,22 +12663,37 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/89507419732",
       "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "25393",
+      "title": "School Committee Special Meeting - Approval of Updated Chapter 74 Viability Form",
+      "start": "2026-07-10T16:00:00-04:00",
+      "date": "2026-07-10",
+      "time": "4:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25393",
+      "agenda_url": "https://drive.google.com/file/d/1UBUw1RshqJVc0AdhJ7UuJuNNFezV7u49/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/93412727100?pwd=cBl99RWf7G9kGJtD2gsXnQbONCTIPg.1#success",
+      "has_livestream": false,
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "11286",
+      "occur_id": "25392",
       "title": "Historical Commission Meeting",
       "start": "2026-07-13T19:00:00-04:00",
       "date": "2026-07-13",
       "time": "7:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/11286",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25392",
+      "agenda_url": "https://drive.google.com/file/d/1gz3B0nnoDNRzP6zLsvLVU_kzwqDgbMmM/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
-      "zoom_url": "https://zoom.us/j/96236192680",
+      "zoom_url": "https://us06web.zoom.us/j/82632918053",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "7620",
@@ -12314,13 +12741,13 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "19006",
+      "occur_id": "25455",
       "title": "Community Garden Commission Meeting",
       "start": "2026-07-14T19:00:00-04:00",
       "date": "2026-07-14",
       "time": "7:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/19006",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25455",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": true,
@@ -12359,19 +12786,19 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "18400",
+      "occur_id": "25520",
       "title": "Affordable Housing Trust Board Meeting",
       "start": "2026-07-15T18:00:00-04:00",
       "date": "2026-07-15",
       "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18400",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "location": "City Hall - Room 201",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25520",
+      "agenda_url": "https://drive.google.com/file/d/1BBaMOySnEFKno_8ZK0M4hIrSByHoEXwM/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/86069190688",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "25253",
@@ -12387,6 +12814,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "25456",
+      "title": "Conservation Commission Meeting",
+      "start": "2026-07-15T18:30:00-04:00",
+      "date": "2026-07-15",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25456",
+      "agenda_url": "https://docs.google.com/document/d/1-1UvJALmZrFXOLnVPWGzaMgQ5t_bYV-I/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82928229310",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "23797",
@@ -12415,6 +12857,21 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/meeting/register/9iWfkB-gQby8Lvx0pCD1Cw#/registration",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "18142",
+      "title": "Bicycle Advisory Commission Meeting",
+      "start": "2026-07-22T19:00:00-04:00",
+      "date": "2026-07-22",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18142",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/87538063188",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
