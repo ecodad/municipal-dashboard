@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-09",
+    "processed_date": "2026-07-10",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -706,6 +706,26 @@
         "filename": "2026-07-10__2026_07_10_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
         "status": "parsed",
         "item_count": 7
+      },
+      {
+        "filename": "2026-07-13__2026_07_13_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-07-15__2026_07_15_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
+        "status": "parsed",
+        "item_count": 20
+      },
+      {
+        "filename": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 12
       }
     ]
   },
@@ -2531,6 +2551,45 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/13/board-assessors-meeting"
     },
     {
+      "source_file": "2026-07-13__2026_07_13_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf",
+      "occur_id": "2026_07_13_redevelopment-authority-meeting",
+      "committee_name": "Somerville Redevelopment Authority",
+      "meeting_date": "2026-07-13",
+      "meeting_time": "5:30 PM",
+      "location": "Remote participation using Zoom Webinar",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/redevelopment-20260713-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/13/redevelopment-authority-meeting"
+    },
+    {
+      "source_file": "2026-07-15__2026_07_15_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
+      "occur_id": "2026_07_15_zoning-board-appeals-meeting",
+      "committee_name": "Zoning Board of Appeals",
+      "meeting_date": "2026-07-15",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/zoning-20260715-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/15/zoning-board-appeals-meeting"
+    },
+    {
+      "source_file": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
+      "occur_id": "2026_07_16_commission-persons-disabilities-meeting",
+      "committee_name": "Somerville Commission for Persons with Disabilities",
+      "meeting_date": "2026-07-16",
+      "meeting_time": "6:00 PM",
+      "location": "Fully Remote (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/disabilities-20260716-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/commission-persons-disabilities-meeting"
+    },
+    {
       "source_file": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
       "occur_id": "2026_07_16_pedestrian-and-transit-advisory-committee-meeting",
       "committee_name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
@@ -2542,6 +2601,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/pedestrian-transit-advisory-committee-20260716-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/16/pedestrian-and-transit-advisory-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf",
+      "occur_id": "2026_07_16_planning-board-meeting",
+      "committee_name": "Somerville Planning Board",
+      "meeting_date": "2026-07-16",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/planning-20260716-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/planning-board-meeting"
     }
   ],
   "items": [
@@ -18326,6 +18398,326 @@
       "Source_File": "2026-07-13__2026_07_13_board-assessors-meeting__board-of-assessors-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation using Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes of the July 1st, 2026 general meeting.",
+      "Source_File": "2026-07-13__2026_07_13_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation using Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Public comment period.",
+      "Source_File": "2026-07-13__2026_07_13_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation using Zoom Webinar",
+      "Item_Number": "3.a",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Update regarding final responses to the 90 Washington Street Request for Proposals.",
+      "Source_File": "2026-07-13__2026_07_13_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation using Zoom Webinar",
+      "Item_Number": "3.b",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Executive Session to discuss the value of real property at 90 Washington Street.",
+      "Source_File": "2026-07-13__2026_07_13_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation using Zoom Webinar",
+      "Item_Number": "3.c",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Request for a vote regarding the 90 Washington Street Request for Proposals developer designation.",
+      "Source_File": "2026-07-13__2026_07_13_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Redevelopment Authority",
+      "Meeting_Date": "2026-07-13",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation using Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting adjournment.",
+      "Source_File": "2026-07-13__2026_07_13_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of May 20 2026",
+      "Source_File": "2026-07-15__2026_07_15_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "None",
+      "Source_File": "2026-07-15__2026_07_15_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of June 03 2026",
+      "Source_File": "2026-07-15__2026_07_15_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP26-000013",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "75 Myrtle Street - Cellco Partnership d/b/a Verizon Wireless proposes the installation of a building-mounted wireless communication facility in the Urban Residence (UR) zoning district which requires a Special Permit.",
+      "Source_File": "2026-07-15__2026_07_15_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP26-000018",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "6 Wheatland Street - Adam Dash, Esq. on behalf of Nelson Group Construction Corp. seeks relief from SZO 4.1.7.c, to build a primary front facade of 74.7% where 80% is the minimum per SZO 4.1.7.c in the Mid-Rise 3 (MR3) zoning district, which requires a Hardship Variance.",
+      "Source_File": "2026-07-15__2026_07_15_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP26-000019",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "6 Wheatland Street - Adam Dash, Esq. on behalf of Nelson Group Construction Corp. seeks relief from SZO 10.3.6.a.i, to build a new three (3) story apartment building that does not meet the landscape buffer requirements in the Mid-Rise 3 (MR3) zoning district, which requires a Hardship Variance.",
+      "Source_File": "2026-07-15__2026_07_15_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call, Welcome, Read Agenda: Holly Simione 6pm",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Reminder of Robert's Rules and recommendations for respectful and caring communication: Harriotte Hurie",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "HP Funds Discussion and Vote",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "3.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "iCan Bike Program funding discussion",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "3.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Council on Aging Technology Training funding discussion",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "3.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Veterans Association needs assessment for project funding",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "3.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "SHSSF Class of 2027 Scholarship Funding",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "3.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "SHSSF Mary Houghton Memorial Scholarship",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Disability Pride 2026 Events Discussion",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "4.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Flag Raising July 9th 4pm",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "4.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Family Friendly Library Event July 11th 10:30am",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "4.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Art Beat application",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "4.4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Crip Camp movie showing at TAB Council on Aging (August date TBC)",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Community Art Project centered on inclusion and the perspective of PWD who live, learn, work, visit and thrive in Somerville MA, Nicole Cannon",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Inclusive Somerville, Holly Simione",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "7",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Draft Letter to Mayor, Elyse Best",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Letter in support of Inclusive Schools, Jess Adams",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "9",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Treasurer's report: Sheila Tracy",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "10",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Housing Strategy to Increasing the number and sizes of affordable and Accessible units in Somerville, Holly Simione",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully Remote (Zoom)",
+      "Item_Number": "11",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Chairs Report: SCPD Membership, MAAB Variances, SHSSF Class of 2026",
+      "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
       "Meeting_Date": "2026-07-16",
       "Meeting_Time": "6:30 PM",
@@ -18384,69 +18776,129 @@
       "Item_Type": "Report",
       "Agenda_Topic": "City Update: Squires Bridge & East Washington Quick Build Projects",
       "Source_File": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of June 4, 2026",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Housing stock discussion",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Board Administration Open Discussion",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000113",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway - Somerbridge Hotel LLC proposes a Major Revision to previously approved Site Plan case # P&Z 21-028 in the High Rise (HR) zoning district (continued from June 18, 2026)",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000114",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway - Somerbridge Hotel LLC proposes to establish a Hotel Use in the High-Rise (HR) zoning district, requiring a Special Permit (continued from June 18, 2026)",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000115",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1 McGrath Highway - Somerbridge Hotel LLC proposes to establish a Formula Business in the High-Rise (HR) zoning district, requiring a Special Permit (continued from June 18, 2026)",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000118",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "32-40 White Street - 32-40 White St LLC/Kinvarra Capital proposes to develop an Apartment Building in the Mid-Rise 4 (MR4) zoning district, requiring Site Plan Approval",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP25-000119",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "32-40 White Street - 32-40 White St LLC/Kinvarra Capital proposes to establish residential housing in the Mid-Rise 4 (MR4) zoning district, requiring a Special Permit",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP26-000008",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "222 Broadway - Mission Hill Donuts, LLC proposes to expand the hours of an existing nonconforming business in the Mid-Rise 5 (MR5) zoning district, requiring a Special Permit (request to continue to a date TBD)",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP26-000038",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "120 Middlesex Avenue - DWCH Assembly Row, LLC proposes to develop a 19-story lab building in the Assembly Square Mixed-Use District (ASMD), requiring Site Plan Approval (request to continue to August 6, 2026)",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP26-000041",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "32-40 White Street - 32-40 White St LLC/Kinvarra Capital seeks to construct a mechanical penthouse exceeding maximum height in the Mid-Rise 4 (MR4) zoning district, requiring a Special Permit",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Planning Board",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "26-0835",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Recommendation to City Council - Proposing an amendment to Section 2.1.1 of the Zoning Ordinance regarding Homeless Shelters",
+      "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_07_09_urban-forestry-committee-meeting",
-      "title": "Urban Forestry Committee Meeting",
-      "start": "2026-07-09T16:30:00-04:00",
-      "date": "2026-07-09",
-      "time": "4:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/09/urban-forestry-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/urban-forestry-20260709-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_AtclLY3cSvaKJNJYBBjIkQ",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_09_affordable-housing-trust-meeting",
-      "title": "Affordable Housing Trust Meeting",
-      "start": "2026-07-09T17:15:00-04:00",
-      "date": "2026-07-09",
-      "time": "5:15 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/09/affordable-housing-trust-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/affordable-housing-20260706-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/83080024978",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_09_school-committee-rules-management-subcommittee-meeting",
-      "title": "School Committee Rules Management Subcommittee Meeting",
-      "start": "2026-07-09T17:30:00-04:00",
-      "date": "2026-07-09",
-      "time": "5:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/09/school-committee-rules-management-subcommittee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/Call%20for%20the%20Week%20of%2007-6-26_0.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_C71Lp-SJT4eId0FKaBNbwg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_09_city-council-meeting",
-      "title": "City Council Meeting",
-      "start": "2026-07-09T19:00:00-04:00",
-      "date": "2026-07-09",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/09/city-council-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415472&GUID=8C27E64D-5CF2-42F6-AA33-97C60BD9E632",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_07_10_metro-boston-homeland-security-regions-jpoc-meeting",
       "title": "Metro Boston Homeland Security Region's JPOC Meeting",
@@ -18475,7 +18927,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_13_board-assessors-meeting",
@@ -18493,6 +18945,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_07_13_redevelopment-authority-meeting",
+      "title": "Redevelopment Authority Meeting",
+      "start": "2026-07-13T17:30:00-04:00",
+      "date": "2026-07-13",
+      "time": "5:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/13/redevelopment-authority-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/redevelopment-20260713-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_1Nu_Fa3qSKGECOszXXrtOQ",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_07_15_zoning-board-appeals-meeting",
       "title": "Zoning Board of Appeals Meeting",
       "start": "2026-07-15T18:00:00-04:00",
@@ -18500,12 +18967,27 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/07/15/zoning-board-appeals-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/zoning-20260715-agenda.pdf",
+      "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_KBXqh9qzTF2DPyF6bsVDKA",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_07_16_commission-persons-disabilities-meeting",
+      "title": "Commission for Persons with Disabilities Meeting",
+      "start": "2026-07-16T18:00:00-04:00",
+      "date": "2026-07-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/commission-persons-disabilities-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/disabilities-20260716-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_16_planning-board-meeting",
@@ -18515,12 +18997,12 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/07/16/planning-board-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/planning-20260716-agenda.pdf",
+      "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7VGJiF-5SjSpMSgDtPL2KA",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_16_pedestrian-and-transit-advisory-committee-meeting",
@@ -18549,21 +19031,6 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_WtKJyX1URy6pceVa9-iw_A",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_07_23_city-council-meeting",
-      "title": "City Council Meeting",
-      "start": "2026-07-23T19:00:00-04:00",
-      "date": "2026-07-23",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/23/city-council-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415473&GUID=92B1F129-180A-416F-BCB7-CE6E00116F9E",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     }
