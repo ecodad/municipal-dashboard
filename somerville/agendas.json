@@ -18988,36 +18988,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_07_10_metro-boston-homeland-security-regions-jpoc-meeting",
-      "title": "Metro Boston Homeland Security Region's JPOC Meeting",
-      "start": "2026-07-10T10:30:00-04:00",
-      "date": "2026-07-10",
-      "time": "10:30 AM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/10/metro-boston-homeland-security-regions-jpoc-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_07_10_council-aging-board-meeting",
-      "title": "Council on Aging Board Meeting",
-      "start": "2026-07-10T11:00:00-04:00",
-      "date": "2026-07-10",
-      "time": "11:00 AM",
-      "location": "Holland Street Senior Center 167 Holland Street Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/10/council-aging-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/council-on-aging-20260710-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_07_13_board-assessors-meeting",
       "title": "Board of Assessors Meeting",
       "start": "2026-07-13T12:00:00-04:00",
@@ -19063,21 +19033,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_07_16_commission-persons-disabilities-meeting",
-      "title": "Commission for Persons with Disabilities Meeting",
-      "start": "2026-07-16T18:00:00-04:00",
-      "date": "2026-07-16",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/16/commission-persons-disabilities-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/disabilities-20260716-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_07_16_planning-board-meeting",
       "title": "Planning Board Meeting",
       "start": "2026-07-16T18:00:00-04:00",
@@ -19093,19 +19048,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting",
-      "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
-      "start": "2026-07-16T18:30:00-04:00",
+      "occur_id": "2026_07_16_commission-persons-disabilities-meeting",
+      "title": "Commission for Persons with Disabilities Meeting",
+      "start": "2026-07-16T18:00:00-04:00",
       "date": "2026-07-16",
-      "time": "6:30 PM",
-      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/16/municipal-job-creation-and-retention-board-trustees-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/job-creation-and-retention-20260716-agenda.pdf",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/commission-persons-disabilities-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/disabilities-20260716-agenda.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/83658799841?pwd=Pm3PPRW7H7nYbUtG13dLL2rZj6HIab.1",
+      "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_16_pedestrian-and-transit-advisory-committee-meeting",
@@ -19119,6 +19074,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting",
+      "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
+      "start": "2026-07-16T18:30:00-04:00",
+      "date": "2026-07-16",
+      "time": "6:30 PM",
+      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/municipal-job-creation-and-retention-board-trustees-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/job-creation-and-retention-20260716-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/83658799841?pwd=Pm3PPRW7H7nYbUtG13dLL2rZj6HIab.1",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },

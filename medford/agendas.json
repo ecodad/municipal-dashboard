@@ -13131,21 +13131,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "25393",
-      "title": "School Committee Special Meeting - Approval of Updated Chapter 74 Viability Form",
-      "start": "2026-07-10T16:00:00-04:00",
-      "date": "2026-07-10",
-      "time": "4:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25393",
-      "agenda_url": "https://drive.google.com/file/d/1UBUw1RshqJVc0AdhJ7UuJuNNFezV7u49/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://mps02155-org.zoom.us/j/93412727100?pwd=cBl99RWf7G9kGJtD2gsXnQbONCTIPg.1#success",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "25392",
       "title": "Historical Commission Meeting",
       "start": "2026-07-13T19:00:00-04:00",
@@ -13173,7 +13158,7 @@
       "has_zoom": true,
       "zoom_url": "https://mps02155-org.zoom.us/j/92523807581?pwd=fWaPOQRrNt1HHQM2k6CT3rE4ufWiTQ.1#success",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25532",
