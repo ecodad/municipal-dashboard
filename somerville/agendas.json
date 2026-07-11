@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-10",
+    "processed_date": "2026-07-11",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -726,6 +726,11 @@
         "filename": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf",
         "status": "parsed",
         "item_count": 12
+      },
+      {
+        "filename": "2026-07-16__2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf",
+        "status": "parsed",
+        "item_count": 7
       }
     ]
   },
@@ -2575,6 +2580,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/zoning-20260715-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/15/zoning-board-appeals-meeting"
+    },
+    {
+      "source_file": "2026-07-16__2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf",
+      "occur_id": "2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting",
+      "committee_name": "City of Somerville Job Creation & Retention Trust",
+      "meeting_date": "2026-07-16",
+      "meeting_time": "6:30 PM",
+      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/job-creation-and-retention-20260716-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/municipal-job-creation-and-retention-board-trustees-meeting"
     },
     {
       "source_file": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
@@ -18718,6 +18736,76 @@
       "Source_File": "2026-07-16__2026_07_16_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
     },
     {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Vote to approve June 18th meeting minutes",
+      "Source_File": "2026-07-16__2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review Received and Estimated Linkage Fees for 2026",
+      "Source_File": "2026-07-16__2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Updates on Active Programs and Upcoming Programs",
+      "Source_File": "2026-07-16__2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review draft schedule for upcoming meeting topics and next request for proposals (RFP)",
+      "Source_File": "2026-07-16__2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Center for Career and Technical Education (CTE) Presentation",
+      "Source_File": "2026-07-16__2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "6",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Reflections on Mayor's Presentation with regards to upcoming RFP and ongoing grantmaking",
+      "Source_File": "2026-07-16__2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Atrium Conference Room, 167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "7",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-16__2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
       "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
       "Meeting_Date": "2026-07-16",
       "Meeting_Time": "6:30 PM",
@@ -18957,7 +19045,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_1Nu_Fa3qSKGECOszXXrtOQ",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_15_zoning-board-appeals-meeting",
@@ -18972,7 +19060,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_KBXqh9qzTF2DPyF6bsVDKA",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_16_commission-persons-disabilities-meeting",
@@ -18987,7 +19075,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_16_planning-board-meeting",
@@ -19001,6 +19089,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7VGJiF-5SjSpMSgDtPL2KA",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting",
+      "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
+      "start": "2026-07-16T18:30:00-04:00",
+      "date": "2026-07-16",
+      "time": "6:30 PM",
+      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/municipal-job-creation-and-retention-board-trustees-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/job-creation-and-retention-20260716-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/83658799841?pwd=Pm3PPRW7H7nYbUtG13dLL2rZj6HIab.1",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -19031,6 +19134,21 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_WtKJyX1URy6pceVa9-iw_A",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_23_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-07-23T19:00:00-04:00",
+      "date": "2026-07-23",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/23/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415473&GUID=92B1F129-180A-416F-BCB7-CE6E00116F9E",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     }

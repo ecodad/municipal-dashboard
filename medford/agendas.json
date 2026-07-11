@@ -536,6 +536,11 @@
         "filename": "2026-07-15__25534__city-council-public-health-and-community-safety-committee-me.pdf",
         "status": "parsed",
         "item_count": 3
+      },
+      {
+        "filename": "2026-07-14__25724__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -11441,6 +11446,66 @@
       "Source_File": "2026-07-14__25599__community-preservation-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Virtual Only",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll call",
+      "Source_File": "2026-07-14__25724__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Virtual Only",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes – June 11, 2026",
+      "Source_File": "2026-07-14__25724__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Virtual Only",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Update on CMR Request for Qualification Process",
+      "Source_File": "2026-07-14__25724__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Virtual Only",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review Request for Proposal Process",
+      "Source_File": "2026-07-14__25724__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Virtual Only",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Next Meetings",
+      "Source_File": "2026-07-14__25724__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-14",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Virtual Only",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-14__25724__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
       "Committee_Name": "City of Medford Conservation Commission",
       "Meeting_Date": "2026-07-15",
       "Meeting_Time": "6:30 PM",
@@ -12999,6 +13064,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25533"
     },
     {
+      "source_file": "2026-07-14__25724__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
+      "occur_id": "25724",
+      "committee_name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "meeting_date": "2026-07-14",
+      "meeting_time": "11:00 AM",
+      "location": "Virtual Only",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1Bk8cFgi_YnWEu3YflsI3yQ4miUZLZAlg/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25724"
+    },
+    {
       "source_file": "2026-07-14__24958__oak-grove-cemetery-commission-meeting.pdf",
       "occur_id": "24958",
       "committee_name": "Oak Grove Cemetery",
@@ -13083,19 +13161,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "7620",
-      "title": "Traffic Commission Meeting",
-      "start": "2026-07-14T17:00:00-04:00",
+      "occur_id": "25724",
+      "title": "Medford Comprehensive High School Building Committee (MCHSBC) Construction Manager at Risk Prequalification Subcommittee Meeting",
+      "start": "2026-07-14T11:00:00-04:00",
       "date": "2026-07-14",
-      "time": "5:00 PM",
+      "time": "11:00 AM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/7620",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25724",
+      "agenda_url": "https://drive.google.com/file/d/1Bk8cFgi_YnWEu3YflsI3yQ4miUZLZAlg/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/92523807581?pwd=fWaPOQRrNt1HHQM2k6CT3rE4ufWiTQ.1#success",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "25532",
@@ -13110,7 +13188,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/81065411078?pwd=uVZeNutyReGtOH4hBtDUq1XrVC9qR5.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25599",
@@ -13125,7 +13203,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/85954896952",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25533",
@@ -13140,22 +13218,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/81065411078?pwd=uVZeNutyReGtOH4hBtDUq1XrVC9qR5.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "25455",
-      "title": "Community Garden Commission Meeting",
-      "start": "2026-07-14T19:00:00-04:00",
-      "date": "2026-07-14",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25455",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
-      "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "24958",
@@ -13215,7 +13278,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/88041993380?pwd=tMpoQQZXpOVX8nMS4mShcIWQfpThtg.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25253",
