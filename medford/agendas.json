@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-10",
+    "processed_date": "2026-07-13",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -541,6 +541,21 @@
         "filename": "2026-07-14__25724__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-07-15__25239__water-sewer-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
+      },
+      {
+        "filename": "2026-07-15__25253__community-development-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-07-20__25728__school-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 23
       }
     ]
   },
@@ -11506,6 +11521,106 @@
       "Source_File": "2026-07-14__25724__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
     },
     {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works located at 21 James Street",
+      "Item_Number": "1.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Abatement Request: Magoun Avenue",
+      "Source_File": "2026-07-15__25239__water-sewer-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works located at 21 James Street",
+      "Item_Number": "1.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Abatement Request: Grace Road",
+      "Source_File": "2026-07-15__25239__water-sewer-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works located at 21 James Street",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Any pending commitments and abatements",
+      "Source_File": "2026-07-15__25239__water-sewer-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Water and Sewer Commission",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Department of Public Works located at 21 James Street",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes from 5-13-26 meeting",
+      "Source_File": "2026-07-15__25239__water-sewer-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting to Order",
+      "Source_File": "2026-07-15__25253__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "3",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Continued Public Hearing: Zoning Amendment-Inclusionary Housing Continued from 6/17/2026 - Proposed amendment to the City of Medford Zoning Ordinance, section 94-8.1 (Inclusionary Housing) to include a new provision to allow for fractional payments to the Affordable Housing Trust.",
+      "Source_File": "2026-07-15__25253__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Zoning Project Timeline and other Administrative Updates - No substantive discussion of proposed zoning amendments.",
+      "Source_File": "2026-07-15__25253__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "5",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-07-15__25253__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-15__25253__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-07-15",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "AA-2026-4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Endorsement of ANR (Approval Not Required) Plan: (145 Jerome St and 166 Arlington St)",
+      "Source_File": "2026-07-15__25253__community-development-board-meeting.pdf"
+    },
+    {
       "Committee_Name": "City of Medford Conservation Commission",
       "Meeting_Date": "2026-07-15",
       "Meeting_Time": "6:30 PM",
@@ -11734,6 +11849,236 @@
       "Item_Type": "Resolution",
       "Agenda_Topic": "Resolution to Require Law Enforcement Identification and Protect Fourth Amendment Rights",
       "Source_File": "2026-07-15__25534__city-council-public-health-and-community-safety-committee-me.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call for Attendance of Members and Student Representatives",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Salute the Flag",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "4:15 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session pursuant to G.L c. 30A Section 21(a) to discuss strategy for MTA litigation",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "4.1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Bills and Payrolls",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "4.2.1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes - Regular Meeting, June 15, 2026",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "4.2.2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes - Special Meeting, July 10, 2026",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of Subcommittees",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "6.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Introduction of New Districtwide Staff: Mr. Ryan Pike, Director of Facilities, and Ms. Kaytie Dowcett, Managing Director for Before/After School - Dr. Suzanne B. Galusi, Superintendent",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "6.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Grade Configuration Update - Dr. Suzanne B. Galusi, Superintendent",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "7",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Presentations of the Student Advisory Council",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "8",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Presentations of the Public (not to begin before 7:00 pm)",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "9.A",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review Current and Future Policy on Providing Storage Space to Large Community Partners",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "9.B",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discuss Current and Future Educational Partnership with Japanese Language School (JLS)",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "9.C",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discuss proposal for Teen Health Center at MHS, including rationale and benefits, operating plans and costs, and partnership requirements",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "9.D",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review sustainability goals for the MHS project",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "9.MSBA",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "MSBA Update - by Member Graham, Vice Chair of the Medford Comprehensive High School Building Committee (MCHSBC) and Dr. Suzanne B. Galusi, Superintendent",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "11",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Reports Requested",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "12.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Next Regular Meeting - August 24, 2026 at 5:00 pm - Virtual only",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "12.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Next Regular Meeting - September 14, 2026 at 6:30 pm - Alden Memorial Chambers, Medford City Hall in addition to zoom",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "13",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "2026-06",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "2026-06 Offered by Member Ruseau - Resolution regarding amendments to the Rules of the School Committee",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "2026-17",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "2026-17 Offered by Member Reinfeld - Resolution on alignment with K-12 Statewide Graduation Council's recommendations",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "2026-18",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "2026-18 Offered by Member Graham - A Resolution Thanking the Medford State Legislative Delegation for Securing Investments in Medford Public Schools through the Supplemental Budget and Fiscal Year 2027 State Budget",
+      "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
     }
   ],
   "meetings": [
@@ -13103,6 +13448,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25456"
     },
     {
+      "source_file": "2026-07-15__25253__community-development-board-meeting.pdf",
+      "occur_id": "25253",
+      "committee_name": "Community Development Board",
+      "meeting_date": "2026-07-15",
+      "meeting_time": "6:30 PM",
+      "location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1f-2H3E1KJT6Zg83bz64KyKxLpSL0_ivx/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25253"
+    },
+    {
       "source_file": "2026-07-15__25520__affordable-housing-trust-board-meeting.pdf",
       "occur_id": "25520",
       "committee_name": "Medford Affordable Housing Trust",
@@ -13116,6 +13474,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25520"
     },
     {
+      "source_file": "2026-07-15__25239__water-sewer-commission-meeting.pdf",
+      "occur_id": "25239",
+      "committee_name": "Medford Water and Sewer Commission",
+      "meeting_date": "2026-07-15",
+      "meeting_time": "5:30 PM",
+      "location": "Department of Public Works, 21 James Street, Medford, MA 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1GfZ8VgPNWyi5sx7PCQq-aWfOVb4iUKhw/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25239"
+    },
+    {
       "source_file": "2026-07-15__25534__city-council-public-health-and-community-safety-committee-me.pdf",
       "occur_id": "25534",
       "committee_name": "Public Health and Community Safety Committee",
@@ -13127,6 +13498,19 @@
       "agenda_url": "https://medfordma.portal.civicclerk.com/event/499/files/agenda/929",
       "agenda_type": "CIVICCLERK",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25534"
+    },
+    {
+      "source_file": "2026-07-20__25728__school-committee-meeting.pdf",
+      "occur_id": "25728",
+      "committee_name": "Medford School Committee",
+      "meeting_date": "2026-07-20",
+      "meeting_time": "5:00 PM",
+      "location": "Virtual Only",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1L_TOQ6xQazhJ5XOefFqog8VoZxloSEXv/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25728"
     }
   ],
   "window_meetings": [
@@ -13228,12 +13612,12 @@
       "time": "5:30 PM",
       "location": "Department of Public Works, 21 James Street, Medford, MA 02155",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25239",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://drive.google.com/file/d/1GfZ8VgPNWyi5sx7PCQq-aWfOVb4iUKhw/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/81343495906?pwd=eJrxKa58UWD4hxCZVV4SxGK44BmUcf.1",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "25520",
@@ -13273,12 +13657,12 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25253",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://drive.google.com/file/d/1f-2H3E1KJT6Zg83bz64KyKxLpSL0_ivx/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/95629298475",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "25456",
@@ -13294,6 +13678,21 @@
       "zoom_url": "https://us06web.zoom.us/j/82928229310",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "25728",
+      "title": "School Committee Meeting",
+      "start": "2026-07-20T17:00:00-04:00",
+      "date": "2026-07-20",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25728",
+      "agenda_url": "https://drive.google.com/file/d/1L_TOQ6xQazhJ5XOefFqog8VoZxloSEXv/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/97008462111?pwd=6vXh2zR2RJbTBJ7BGzCd2DgYftWBWv.1#success",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "23797",

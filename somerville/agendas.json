@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-11",
+    "processed_date": "2026-07-13",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -731,6 +731,11 @@
         "filename": "2026-07-16__2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf",
         "status": "parsed",
         "item_count": 7
+      },
+      {
+        "filename": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
       }
     ]
   },
@@ -2632,6 +2637,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/planning-20260716-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/16/planning-board-meeting"
+    },
+    {
+      "source_file": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf",
+      "occur_id": "2026_07_20_human-rights-commission-administration-subcommittee-meeting",
+      "committee_name": "Somerville Human Rights Commission Administration Subcommittee",
+      "meeting_date": "2026-07-20",
+      "meeting_time": "5:00 PM",
+      "location": "Virtual (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260720-admin-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/20/human-rights-commission-administration-subcommittee-meeting"
     }
   ],
   "items": [
@@ -18984,6 +19002,106 @@
       "Item_Type": "Ordinance",
       "Agenda_Topic": "Recommendation to City Council - Proposing an amendment to Section 2.1.1 of the Zoning Ordinance regarding Homeless Shelters",
       "Source_File": "2026-07-16__2026_07_16_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bylaw Development - Continue reviewing and refining the draft bylaws",
+      "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Human Rights Advisory Council - Continue development, discuss outstanding concerns, implementation and next steps",
+      "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the June 15, 2026 Meeting Minutes",
+      "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Public Comment Procedures and Open Meeting Access - Discuss public comment procedures, meeting accessibility, and social media/email account management",
+      "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Confirmation of Notetaker",
+      "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "New Business - Open discussion",
+      "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Agenda and Topics, concerns, questions - Open discussion",
+      "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission Administration Subcommittee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Virtual (Zoom)",
+      "Item_Number": "7",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
     }
   ],
   "window_meetings": [
@@ -19093,6 +19211,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_07_20_human-rights-commission-administration-subcommittee-meeting",
+      "title": "Human Rights Commission Administration Subcommittee Meeting",
+      "start": "2026-07-20T17:00:00-04:00",
+      "date": "2026-07-20",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/20/human-rights-commission-administration-subcommittee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260720-admin-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89950945201?pwd=Li9xQtyTsfEfMeFYuKrlsRjhBrjlPr.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_07_21_historic-preservation-commission-meeting",
       "title": "Historic Preservation Commission Meeting",
       "start": "2026-07-21T18:45:00-04:00",
@@ -19117,6 +19250,36 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/23/city-council-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415473&GUID=92B1F129-180A-416F-BCB7-CE6E00116F9E",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_27_community-outreach-meeting-licensed-original-llc",
+      "title": "Community Outreach Meeting - Licensed Original LLC",
+      "start": "2026-07-27T18:00:00-04:00",
+      "date": "2026-07-27",
+      "time": "6:00 PM",
+      "location": "Somerville Public Library Auditorium 79 Highland Ave Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/27/community-outreach-meeting-licensed-original-llc",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_27_canceled-condominium-review-board-meeting",
+      "title": "CANCELED: Condominium Review Board Meeting",
+      "start": "2026-07-27T18:00:00-04:00",
+      "date": "2026-07-27",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/27/canceled-condominium-review-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
