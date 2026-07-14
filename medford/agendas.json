@@ -13515,21 +13515,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "25392",
-      "title": "Historical Commission Meeting",
-      "start": "2026-07-13T19:00:00-04:00",
-      "date": "2026-07-13",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25392",
-      "agenda_url": "https://drive.google.com/file/d/1gz3B0nnoDNRzP6zLsvLVU_kzwqDgbMmM/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/82632918053",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "25724",
       "title": "Medford Comprehensive High School Building Committee (MCHSBC) Construction Manager at Risk Prequalification Subcommittee Meeting",
       "start": "2026-07-14T11:00:00-04:00",
@@ -13617,7 +13602,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/81343495906?pwd=eJrxKa58UWD4hxCZVV4SxGK44BmUcf.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25520",
@@ -13662,7 +13647,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/95629298475",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25456",
@@ -13692,7 +13677,7 @@
       "has_zoom": true,
       "zoom_url": "https://mps02155-org.zoom.us/j/97008462111?pwd=6vXh2zR2RJbTBJ7BGzCd2DgYftWBWv.1#success",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "23797",
