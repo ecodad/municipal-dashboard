@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-14",
+    "processed_date": "2026-07-16",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -741,6 +741,16 @@
         "filename": "2026-07-23__2026_07_23_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
+      },
+      {
+        "filename": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 13
       }
     ]
   },
@@ -2618,6 +2628,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/07/16/commission-persons-disabilities-meeting"
     },
     {
+      "source_file": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf",
+      "occur_id": "2026_07_16_canceled-commission-persons-disabilities-meeting",
+      "committee_name": "Somerville Commission for Persons with Disabilities",
+      "meeting_date": "2026-07-16",
+      "meeting_time": "6:00 PM",
+      "location": "Fully remote meeting (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/disabilities-20260716-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/canceled-commission-persons-disabilities-meeting"
+    },
+    {
       "source_file": "2026-07-16__2026_07_16_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
       "occur_id": "2026_07_16_pedestrian-and-transit-advisory-committee-meeting",
       "committee_name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
@@ -2668,6 +2691,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/pedestrian-transit-advisory-committee-20260723-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/23/pedestrian-and-transit-advisory-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf",
+      "occur_id": "2026_07_30_conservation-commission-meeting",
+      "committee_name": "Conservation Commission",
+      "meeting_date": "2026-07-30",
+      "meeting_time": "7:00 PM",
+      "location": "Remote meeting (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/conservation-20260730-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/30/conservation-commission-meeting"
     }
   ],
   "items": [
@@ -18575,6 +18611,116 @@
       "Committee_Name": "Somerville Commission for Persons with Disabilities",
       "Meeting_Date": "2026-07-16",
       "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call, Welcome, Read Agenda: Holly Simione 6pm",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Reminder of Robert's Rules and recommendations for respectful and caring communication: Harriotte Hurie",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "HP Funds Discussion and Vote",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Disability Pride 2026 Events Discussion",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Community Art Project centered on inclusion and the perspective of PWD who live, learn, work, visit and thrive in Somerville MA, Nicole Cannon",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Inclusive Somerville, Holly Simione",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "7",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Draft Letter to Mayor, Elyse Best",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "8",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Letter in support of Inclusive Schools, Jess Adams",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "9",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Treasurer's report: Sheila Tracy",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "10",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Housing Strategy to Increasing the number and sizes of affordable and Accessible units in Somerville, Holly Simione",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Fully remote meeting (Zoom)",
+      "Item_Number": "11",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Chairs Report: SCPD Membership, MAAB Variances, SHSSF Class of 2026",
+      "Source_File": "2026-07-16__2026_07_16_canceled-commission-persons-disabilities-meeting__canceled-commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-07-16",
+      "Meeting_Time": "6:00 PM",
       "Location": "Fully Remote (Zoom)",
       "Item_Number": "1",
       "Item_Type": "Procedural",
@@ -19180,24 +19326,139 @@
       "Item_Type": "Report",
       "Agenda_Topic": "City Update: Squires Bridge & East Washington Quick Build Projects",
       "Source_File": "2026-07-23__2026_07_23_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Notice of Intent – Mystic River Outfall Sewer Separation Project (Hearing continuance)",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Ongoing Project Reviews / Site Visits",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "2.a",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Winter Hill Yacht Club Pilings",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "2.b",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Shore Drive Greenway Project",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "2.c",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Mystic River Geotechnical Survey",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "New State Energy Siting Process - Energy Facilities Siting Board (EFSB)",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Conservation Commission Bylaws",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Conservation Agent Action Item Review",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "6",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Incoming Correspondence - Letters & Notifications",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Resident Comments / Concerns",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "New Items / Future Items",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "9",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Conservation Commission",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "10",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_07_15_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-07-15T18:00:00-04:00",
-      "date": "2026-07-15",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/15/zoning-board-appeals-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/zoning-20260715-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_KBXqh9qzTF2DPyF6bsVDKA",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_07_16_planning-board-meeting",
       "title": "Planning Board Meeting",
@@ -19214,19 +19475,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_07_16_commission-persons-disabilities-meeting",
-      "title": "Commission for Persons with Disabilities Meeting",
+      "occur_id": "2026_07_16_canceled-commission-persons-disabilities-meeting",
+      "title": "CANCELED: Commission for Persons with Disabilities Meeting",
       "start": "2026-07-16T18:00:00-04:00",
       "date": "2026-07-16",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/16/commission-persons-disabilities-meeting",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/16/canceled-commission-persons-disabilities-meeting",
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/disabilities-20260716-agenda.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
       "has_livestream": false,
-      "pipeline_status": "skipped_existing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting",
@@ -19286,7 +19547,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_23_city-council-meeting",
@@ -19334,6 +19595,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_07_27_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-07-27T18:30:00-04:00",
+      "date": "2026-07-27",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/27/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1428786&GUID=B25AA857-77BC-4FB1-9657-885B72A96BF2",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_07_28_urban-design-commission-meeting",
       "title": "Urban Design Commission Meeting",
       "start": "2026-07-28T18:00:00-04:00",
@@ -19347,6 +19623,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_30_conservation-commission-meeting",
+      "title": "Conservation Commission Meeting",
+      "start": "2026-07-30T19:00:00-04:00",
+      "date": "2026-07-30",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/30/conservation-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/conservation-20260730-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_P0dFzw5vQGuD0GlB7RfdTg",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }

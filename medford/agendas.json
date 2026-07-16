@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-13",
+    "processed_date": "2026-07-16",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -556,6 +556,11 @@
         "filename": "2026-07-20__25728__school-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 23
+      },
+      {
+        "filename": "2026-07-29__25327__retirement-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 24
       }
     ]
   },
@@ -12079,6 +12084,246 @@
       "Item_Type": "Resolution",
       "Agenda_Topic": "2026-18 Offered by Member Graham - A Resolution Thanking the Medford State Legislative Delegation for Securing Investments in Medford Public Schools through the Supplemental Budget and Fiscal Year 2027 State Budget",
       "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes from the meeting of 6/30/2026",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "2",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Monthly Expense Warrants",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Superannuation Retirements",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Disability Retirements",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "5",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Cash transfers",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "6",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PRIT Fund Payment and Distribution Letters",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "7",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "PRIT Fund Confirmation Letters",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "8",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Makeups, Buybacks, Redeposits, and Military Service Purchases",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "9",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Transfers to other Systems",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "10",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Refunds to Members",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "11",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "PERAC memos and correspondence",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "12",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Eligible Positions for Membership",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "13",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Applications for Membership",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "14",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Investment statements and fees",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "15",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Department requests and correspondence",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "16",
+      "Item_Type": "Report",
+      "Agenda_Topic": "NEPC Investment Performance Review and Investment Recommendations",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "17",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Monthly cash books",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "18",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Meeting with Members and Retirees",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "19",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Meeting with Vendors and Money Managers",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "20",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review of PERAC Memos",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "21",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public and Private Hearings as needed",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "22",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Hearings as needed for Disability, Involuntary Retirements, Death Benefits, Forfeiture, 91A and 91B Excess Earning Hearings",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "23",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review the results of the 1/1/2026 Actuarial valuation study",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Retirement Board",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "9:30 AM",
+      "Location": "Medford City Hall, Room 201, Medford MA 02155",
+      "Item_Number": "24",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Kayne Anderson and Loomis Sayles Manager Review",
+      "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
     }
   ],
   "meetings": [
@@ -13511,84 +13756,22 @@
       "agenda_url": "https://drive.google.com/file/d/1L_TOQ6xQazhJ5XOefFqog8VoZxloSEXv/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25728"
+    },
+    {
+      "source_file": "2026-07-29__25327__retirement-board-meeting.pdf",
+      "occur_id": "25327",
+      "committee_name": "Medford Retirement Board",
+      "meeting_date": "2026-07-29",
+      "meeting_time": "9:30 AM",
+      "location": "City Hall - Room 201",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/15zsMEFo5FJogDH2DSVF_FMwaoUtbH5rM/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25327"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "25724",
-      "title": "Medford Comprehensive High School Building Committee (MCHSBC) Construction Manager at Risk Prequalification Subcommittee Meeting",
-      "start": "2026-07-14T11:00:00-04:00",
-      "date": "2026-07-14",
-      "time": "11:00 AM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25724",
-      "agenda_url": "https://drive.google.com/file/d/1Bk8cFgi_YnWEu3YflsI3yQ4miUZLZAlg/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://mps02155-org.zoom.us/j/92523807581?pwd=fWaPOQRrNt1HHQM2k6CT3rE4ufWiTQ.1#success",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "25532",
-      "title": "City Council Committee of the Whole Meeting",
-      "start": "2026-07-14T18:00:00-04:00",
-      "date": "2026-07-14",
-      "time": "6:00 PM",
-      "location": "City Hall Council Chambers",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25532",
-      "agenda_url": "https://medfordma.portal.civicclerk.com/event/498/files/agenda/927",
-      "agenda_type": "CIVICCLERK",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/81065411078?pwd=uVZeNutyReGtOH4hBtDUq1XrVC9qR5.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "25599",
-      "title": "Community Preservation Committee Meeting",
-      "start": "2026-07-14T18:30:00-04:00",
-      "date": "2026-07-14",
-      "time": "6:30 PM",
-      "location": "City Hall - Room 201",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25599",
-      "agenda_url": "https://drive.google.com/file/d/1I86-SCCGhkCghUq-rS692VNdi5RpTkxd/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/85954896952",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "25533",
-      "title": "City Council Meeting",
-      "start": "2026-07-14T19:00:00-04:00",
-      "date": "2026-07-14",
-      "time": "7:00 PM",
-      "location": "City Hall Council Chambers",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25533",
-      "agenda_url": "https://medfordma.portal.civicclerk.com/event/445/files/agenda/925",
-      "agenda_type": "CIVICCLERK",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/81065411078?pwd=uVZeNutyReGtOH4hBtDUq1XrVC9qR5.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "24958",
-      "title": "Oak Grove Cemetery Commission Meeting",
-      "start": "2026-07-14T19:00:00-04:00",
-      "date": "2026-07-14",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24958",
-      "agenda_url": "https://docs.google.com/document/d/1wN4vM3aP90XTED_7S-we4HepdGN8uOeX/edit?usp=sharing&ouid=112845925912924832255&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/82759527480?pwd=aq96haWV872Y67mtZwIDuHV56xMHPo.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "25239",
       "title": "Water & Sewer Commission Meeting",
@@ -13695,6 +13878,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "25733",
+      "title": "Library Board of Trustees Meeting",
+      "start": "2026-07-21T09:30:00-04:00",
+      "date": "2026-07-21",
+      "time": "9:30 AM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25733",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/84058430148?pwd=55wbJiwyvrLcT0qdkba5vuO88bkUBf.1",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "25328",
       "title": "Bus Network Redesign Public Meeting",
       "start": "2026-07-21T18:00:00-04:00",
@@ -13723,6 +13921,21 @@
       "zoom_url": "https://us06web.zoom.us/j/87538063188",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "25327",
+      "title": "Retirement Board Meeting",
+      "start": "2026-07-29T09:30:00-04:00",
+      "date": "2026-07-29",
+      "time": "9:30 AM",
+      "location": "City Hall - Room 201",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25327",
+      "agenda_url": "https://drive.google.com/file/d/15zsMEFo5FJogDH2DSVF_FMwaoUtbH5rM/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }
