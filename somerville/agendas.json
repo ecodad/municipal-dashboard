@@ -766,6 +766,11 @@
         "filename": "2026-07-23__2026_07_23_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
       }
     ]
   },
@@ -2706,6 +2711,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/licensing-20260721-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/21/licensing-commission-meeting"
+    },
+    {
+      "source_file": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf",
+      "occur_id": "2026_07_21_historic-preservation-commission-meeting",
+      "committee_name": "Historic Preservation Commission",
+      "meeting_date": "2026-07-21",
+      "meeting_time": "6:45 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/historic-preservation-20260721-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/21/historic-preservation-commission-meeting"
     },
     {
       "source_file": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf",
@@ -19322,6 +19340,116 @@
       "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
     },
     {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "CPA Proposal Review: 277 Broadway (Elizabeth Peabody House)",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "17 Monmouth Street Recommendation Vote",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "CPC Update",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes: 4/21",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000011",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "46 Mount Vernon Street – Certificate of Appropriateness to alter rear addition and add backyard cottage",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000014",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "282-284 McGrath Highway – Determination of Preferably Preserved for demolition",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000030",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "9 Norwood Avenue – Determination of Historic Significance for demolition",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000032",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "9 Brastow Avenue – Certificate of Appropriateness to rebuild existing rear deck",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000034",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "25 Atherton Street – Reissuance of Certificate of Appropriateness for EV charging stations and transformer",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000037",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "60 Medford Street – Determination of Historic Significance for demolition",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000038",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "64 Medford Street – Determination of Historic Significance for demolition",
+      "Source_File": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "City of Somerville Licensing Commission",
       "Meeting_Date": "2026-07-21",
       "Meeting_Time": "6:00 PM",
@@ -19841,7 +19969,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_05J7Dx80SlmGc5t-smjWJw",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_21_historic-preservation-commission-meeting",
@@ -19851,12 +19979,12 @@
       "time": "6:45 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/07/21/historic-preservation-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/historic-preservation-20260721-agenda.pdf",
+      "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_WtKJyX1URy6pceVa9-iw_A",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_22_community-preservation-committee-meeting",
@@ -19871,7 +19999,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_-7FfxWtKTzieOdaD6mBSdQ",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_23_fair-housing-commission-meeting",
@@ -19886,7 +20014,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/86392012962?pwd=VVedoSDgTRaMbysEpdpSiHDEiadRIp.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_23_pedestrian-and-transit-advisory-committee-meeting",
@@ -19919,13 +20047,13 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_07_27_canceled-condominium-review-board-meeting",
-      "title": "CANCELED: Condominium Review Board Meeting",
+      "occur_id": "2026_07_27_community-outreach-meeting-licensed-original-llc",
+      "title": "Community Outreach Meeting - Licensed Original LLC",
       "start": "2026-07-27T18:00:00-04:00",
       "date": "2026-07-27",
       "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/27/canceled-condominium-review-board-meeting",
+      "location": "Somerville Public Library Auditorium 79 Highland Ave Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/27/community-outreach-meeting-licensed-original-llc",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -19934,13 +20062,13 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_07_27_community-outreach-meeting-licensed-original-llc",
-      "title": "Community Outreach Meeting - Licensed Original LLC",
+      "occur_id": "2026_07_27_canceled-condominium-review-board-meeting",
+      "title": "CANCELED: Condominium Review Board Meeting",
       "start": "2026-07-27T18:00:00-04:00",
       "date": "2026-07-27",
       "time": "6:00 PM",
-      "location": "Somerville Public Library Auditorium 79 Highland Ave Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/27/community-outreach-meeting-licensed-original-llc",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/27/canceled-condominium-review-board-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,

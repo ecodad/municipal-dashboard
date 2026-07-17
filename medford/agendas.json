@@ -571,6 +571,11 @@
         "filename": "2026-07-21__25733__library-board-of-trustees-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-07-21__25735__board-of-health-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
       }
     ]
   },
@@ -12226,6 +12231,96 @@
       "Source_File": "2026-07-21__25733__library-board-of-trustees-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155 (Zoom only)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Opening of Meeting",
+      "Source_File": "2026-07-21__25735__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155 (Zoom only)",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review of Minutes of June 2026",
+      "Source_File": "2026-07-21__25735__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155 (Zoom only)",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Variance Request: Sushi Rice Acidification - Ebisuya",
+      "Source_File": "2026-07-21__25735__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155 (Zoom only)",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Update on Youth Prevention Activities",
+      "Source_File": "2026-07-21__25735__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155 (Zoom only)",
+      "Item_Number": "5",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Hearing Brooks Park Apartments 208 Main Street",
+      "Source_File": "2026-07-21__25735__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155 (Zoom only)",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Monthly Reportable Disease Report Update",
+      "Source_File": "2026-07-21__25735__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155 (Zoom only)",
+      "Item_Number": "7",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Announcements",
+      "Source_File": "2026-07-21__25735__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155 (Zoom only)",
+      "Item_Number": "8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Other Business",
+      "Source_File": "2026-07-21__25735__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Health",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "12:30 PM",
+      "Location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155 (Zoom only)",
+      "Item_Number": "9",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review and Discussion on Nicotine Free Generation Regulation — TABLED",
+      "Source_File": "2026-07-21__25735__board-of-health-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford Retirement Board",
       "Meeting_Date": "2026-07-29",
       "Meeting_Time": "9:30 AM",
@@ -13924,6 +14019,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25728"
     },
     {
+      "source_file": "2026-07-21__25735__board-of-health-meeting.pdf",
+      "occur_id": "25735",
+      "committee_name": "Medford Board of Health",
+      "meeting_date": "2026-07-21",
+      "meeting_time": "12:30 PM",
+      "location": "City Hall - Room 311, 85 George P Hassett Drive, Medford, Massachusetts 02155 (Zoom only)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1Q7X2ltcAmaNSooiB3tY3sFKk5cn8HeAQ/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25735"
+    },
+    {
       "source_file": "2026-07-29__25327__retirement-board-meeting.pdf",
       "occur_id": "25327",
       "committee_name": "Medford Retirement Board",
@@ -13966,7 +14074,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/84450454952",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25733",
@@ -13980,6 +14088,21 @@
       "agenda_type": "GOOGLE_DOC",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/84058430148?pwd=55wbJiwyvrLcT0qdkba5vuO88bkUBf.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "25735",
+      "title": "Board of Health Meeting",
+      "start": "2026-07-21T12:30:00-04:00",
+      "date": "2026-07-21",
+      "time": "12:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25735",
+      "agenda_url": "https://docs.google.com/document/d/1Q7X2ltcAmaNSooiB3tY3sFKk5cn8HeAQ/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/85698818573?pwd=Uj0yZbXmozeRn418X7NevgCoPKB49F.1",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
