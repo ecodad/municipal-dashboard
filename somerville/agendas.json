@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-16",
+    "processed_date": "2026-07-17",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -751,6 +751,21 @@
         "filename": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 13
+      },
+      {
+        "filename": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 15
+      },
+      {
+        "filename": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
+      },
+      {
+        "filename": "2026-07-23__2026_07_23_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -2678,6 +2693,45 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260720-admin-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/20/human-rights-commission-administration-subcommittee-meeting"
+    },
+    {
+      "source_file": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf",
+      "occur_id": "2026_07_21_licensing-commission-meeting",
+      "committee_name": "City of Somerville Licensing Commission",
+      "meeting_date": "2026-07-21",
+      "meeting_time": "6:00 PM",
+      "location": "City Council Chamber 93 Highland Avenue Somerville , MA 02143 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/licensing-20260721-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/21/licensing-commission-meeting"
+    },
+    {
+      "source_file": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf",
+      "occur_id": "2026_07_22_community-preservation-committee-meeting",
+      "committee_name": "Community Preservation Committee",
+      "meeting_date": "2026-07-22",
+      "meeting_time": "6:30 PM",
+      "location": "The meeting will be held remotely",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/community-preservation-20260722-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/22/community-preservation-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-23__2026_07_23_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf",
+      "occur_id": "2026_07_23_fair-housing-commission-meeting",
+      "committee_name": "Somerville Fair Housing Commission",
+      "meeting_date": "2026-07-23",
+      "meeting_time": "3:00 PM",
+      "location": "Virtual meeting",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/fair-housing-20260723-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/23/fair-housing-commission-meeting"
     },
     {
       "source_file": "2026-07-23__2026_07_23_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
@@ -19268,6 +19322,306 @@
       "Source_File": "2026-07-20__2026_07_20_human-rights-commission-administration-subcommittee-meeting__human-rights-commission-administration-subcommittee-meeting.pdf"
     },
     {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of the Licensing Commission Regular Meeting of 6/16/26.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "AL22-000034",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Commissioner Lynch requests that Bindaas Concepts Inc d/b/a Rosebud, 381 Summer Street, appear for a license update due to closure over 30 days without notification.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "SFW26-000007",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Independent Fermentations Brewing, LLC requesting approval of a Special Farmer Winery License for Somerville Fermentation Festival at 191 Highland Avenue on 8/16/2026.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "AL26-000018",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "La Cosecha Corp d/b/a La Cosecha, 85 Broadway, requesting approval of wine and malt alcohol license and Sunday hours.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000020",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Whole Foods Market Inc, 45 Beacon Street, requesting approval of a change of corporation name to Whole Foods Market Group LLC.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "AL26-000023",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Wings Over Somerville LLC d/b/a Wings Over Somerville, 519 Somerville Avenue, requesting approval of a common victualer license.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000023",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Outback Steakhouse of Florida LLC d/b/a Outback Steakhouse, 120 Assembly Row, requesting change of officers.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000024",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Thai J&J LLC d/b/a Siam Ginger Thai Cuisine, 22 Bow Street, requesting change of outdoor dining seats from 16 to 18.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "SAL26-000024",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Marzae LLC requesting approval of a Special Alcohol License (Wine Only) for Somerville Fermentation Festival at 191 Highland Avenue on 8/16/2026.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "AL26-000025",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Rey Nutrition LLC d/b/a Rey Nutrition, 271 Broadway, requesting approval of a common victualer and entertainment by devices license.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000025",
+      "Item_Type": "Other",
+      "Agenda_Topic": "CRG Redbones Somerville LLC d/b/a Redbones, 55-57 Chester Street, requesting change of manager from Sasha Nisenbaum to Terry Scott Ward.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "SAL26-000025",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Dormition of the Virgin Mary requesting approval of a Special Alcohol License (All Forms) for GreekFest at 29 Central Street, 9/11-9/13/2026.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "ALM26-000026",
+      "Item_Type": "Other",
+      "Agenda_Topic": "LLH LLC d/b/a Trader Joe's, 145 Middlesex Avenue, requesting change of manager from Justine Rogers to Brian Foote.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "SAL26-000026",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Yardwork Productions requesting approval of a Special Alcohol License (Malt Only) for Ratchella at 321 Washington Street on 8/22/2026 and 8/23/2026.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Licensing Commission",
+      "Meeting_Date": "2026-07-21",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "SAL26-000027",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Warehouse XI requesting approval of a Special Alcohol License (Wine and Malt) for Music at Warehouse XI at 255 Washington Street on multiple August dates.",
+      "Source_File": "2026-07-21__2026_07_21_licensing-commission-meeting__licensing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting minutes from 6/24/26",
+      "Source_File": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Preliminary review of FY27 Full Applications",
+      "Source_File": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely",
+      "Item_Number": "3.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "West Somerville Neighborhood School Graphics",
+      "Source_File": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely",
+      "Item_Number": "3.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Kennedy Schoolyard Reconstruction",
+      "Source_File": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely",
+      "Item_Number": "3.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Artfarm",
+      "Source_File": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Administrative budget request – CPA Coalition membership",
+      "Source_File": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Somerville Museum FY25 project update",
+      "Source_File": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Update on historic preservation monitoring",
+      "Source_File": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Preservation Committee",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "The meeting will be held remotely",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Administrative updates",
+      "Source_File": "2026-07-22__2026_07_22_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Call to order and review of draft minutes from the meeting on June 25, 2026.",
+      "Source_File": "2026-07-23__2026_07_23_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Welcoming new Commissioners",
+      "Source_File": "2026-07-23__2026_07_23_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Standing Agenda Items: Facebook page update; Review of calls and complaints since the last meeting",
+      "Source_File": "2026-07-23__2026_07_23_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Updates on Specific Activities: CAAS Fair Housing Training (July 30), MAPC community connections, autumn tabling opportunities, Commission meeting scheduling",
+      "Source_File": "2026-07-23__2026_07_23_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Continued Business: FY25 Annual Report",
+      "Source_File": "2026-07-23__2026_07_23_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Fair Housing Commission",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Virtual meeting",
+      "Item_Number": "6",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Announcements: The next meeting is scheduled for August 27, 2026 at 3:00 PM",
+      "Source_File": "2026-07-23__2026_07_23_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
       "Meeting_Date": "2026-07-23",
       "Meeting_Time": "6:30 PM",
@@ -19460,51 +19814,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_07_16_planning-board-meeting",
-      "title": "Planning Board Meeting",
-      "start": "2026-07-16T18:00:00-04:00",
-      "date": "2026-07-16",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/16/planning-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/planning-20260716-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7VGJiF-5SjSpMSgDtPL2KA",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_16_canceled-commission-persons-disabilities-meeting",
-      "title": "CANCELED: Commission for Persons with Disabilities Meeting",
-      "start": "2026-07-16T18:00:00-04:00",
-      "date": "2026-07-16",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/16/canceled-commission-persons-disabilities-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/disabilities-20260716-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_07_16_municipal-job-creation-and-retention-board-trustees-meeting",
-      "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
-      "start": "2026-07-16T18:30:00-04:00",
-      "date": "2026-07-16",
-      "time": "6:30 PM",
-      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/16/municipal-job-creation-and-retention-board-trustees-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/job-creation-and-retention-20260716-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/83658799841?pwd=Pm3PPRW7H7nYbUtG13dLL2rZj6HIab.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_07_20_human-rights-commission-administration-subcommittee-meeting",
       "title": "Human Rights Commission Administration Subcommittee Meeting",
       "start": "2026-07-20T17:00:00-04:00",
@@ -19520,6 +19829,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_07_21_licensing-commission-meeting",
+      "title": "Licensing Commission Meeting",
+      "start": "2026-07-21T18:00:00-04:00",
+      "date": "2026-07-21",
+      "time": "6:00 PM",
+      "location": "City Council Chamber 93 Highland Avenue Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/21/licensing-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/licensing-20260721-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_05J7Dx80SlmGc5t-smjWJw",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_07_21_historic-preservation-commission-meeting",
       "title": "Historic Preservation Commission Meeting",
       "start": "2026-07-21T18:45:00-04:00",
@@ -19533,6 +19857,36 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_WtKJyX1URy6pceVa9-iw_A",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_22_community-preservation-committee-meeting",
+      "title": "Community Preservation Committee Meeting",
+      "start": "2026-07-22T18:30:00-04:00",
+      "date": "2026-07-22",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/22/community-preservation-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/community-preservation-20260722-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_-7FfxWtKTzieOdaD6mBSdQ",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_07_23_fair-housing-commission-meeting",
+      "title": "Fair Housing Commission Meeting",
+      "start": "2026-07-23T15:00:00-04:00",
+      "date": "2026-07-23",
+      "time": "3:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/23/fair-housing-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/fair-housing-20260723-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/86392012962?pwd=VVedoSDgTRaMbysEpdpSiHDEiadRIp.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_23_pedestrian-and-transit-advisory-committee-meeting",
@@ -19637,7 +19991,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_P0dFzw5vQGuD0GlB7RfdTg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     }
   ]
 }

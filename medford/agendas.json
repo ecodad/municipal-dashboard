@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-16",
+    "processed_date": "2026-07-17",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -561,6 +561,16 @@
         "filename": "2026-07-29__25327__retirement-board-meeting.pdf",
         "status": "parsed",
         "item_count": 24
+      },
+      {
+        "filename": "2026-07-20__23797__energy-environment-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-07-21__25733__library-board-of-trustees-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -11856,6 +11866,76 @@
       "Source_File": "2026-07-15__25534__city-council-public-health-and-community-safety-committee-me.pdf"
     },
     {
+      "Committee_Name": "Medford Energy & Environment Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "City Hall Room 308, Medford, MA 02155 / Via Zoom Virtual Meeting Connection (https://us06web.zoom.us/j/84450454952) or Phone (646-931-3860, meeting ID 84450454952)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Administration: Greetings, roll call, and introduction of guests",
+      "Source_File": "2026-07-20__23797__energy-environment-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Energy & Environment Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "City Hall Room 308, Medford, MA 02155 / Via Zoom Virtual Meeting Connection (https://us06web.zoom.us/j/84450454952) or Phone (646-931-3860, meeting ID 84450454952)",
+      "Item_Number": "1.1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review of minutes from June 1, 2026 meeting",
+      "Source_File": "2026-07-20__23797__energy-environment-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Energy & Environment Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "City Hall Room 308, Medford, MA 02155 / Via Zoom Virtual Meeting Connection (https://us06web.zoom.us/j/84450454952) or Phone (646-931-3860, meeting ID 84450454952)",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "City Updates (Brenda)",
+      "Source_File": "2026-07-20__23797__energy-environment-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Energy & Environment Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "City Hall Room 308, Medford, MA 02155 / Via Zoom Virtual Meeting Connection (https://us06web.zoom.us/j/84450454952) or Phone (646-931-3860, meeting ID 84450454952)",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Harvest Your Energy Festival Planning (Kyla)",
+      "Source_File": "2026-07-20__23797__energy-environment-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Energy & Environment Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "City Hall Room 308, Medford, MA 02155 / Via Zoom Virtual Meeting Connection (https://us06web.zoom.us/j/84450454952) or Phone (646-931-3860, meeting ID 84450454952)",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "MEEC Member Updates",
+      "Source_File": "2026-07-20__23797__energy-environment-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Energy & Environment Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "City Hall Room 308, Medford, MA 02155 / Via Zoom Virtual Meeting Connection (https://us06web.zoom.us/j/84450454952) or Phone (646-931-3860, meeting ID 84450454952)",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Brenda's Farewell Projects",
+      "Source_File": "2026-07-20__23797__energy-environment-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Energy & Environment Committee",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "6:30 PM",
+      "Location": "City Hall Room 308, Medford, MA 02155 / Via Zoom Virtual Meeting Connection (https://us06web.zoom.us/j/84450454952) or Phone (646-931-3860, meeting ID 84450454952)",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-07-20__23797__energy-environment-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford School Committee",
       "Meeting_Date": "2026-07-20",
       "Meeting_Time": "5:00 PM",
@@ -12084,6 +12164,66 @@
       "Item_Type": "Resolution",
       "Agenda_Topic": "2026-18 Offered by Member Graham - A Resolution Thanking the Medford State Legislative Delegation for Securing Investments in Medford Public Schools through the Supplemental Budget and Fiscal Year 2027 State Budget",
       "Source_File": "2026-07-20__25728__school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-07-21__25733__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review and Approval of June Minutes",
+      "Source_File": "2026-07-21__25733__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Director's Report",
+      "Source_File": "2026-07-21__25733__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New Business",
+      "Source_File": "2026-07-21__25733__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Old Business",
+      "Source_File": "2026-07-21__25733__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-07-20",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session",
+      "Source_File": "2026-07-21__25733__library-board-of-trustees-meeting.pdf"
     },
     {
       "Committee_Name": "Medford Retirement Board",
@@ -13745,6 +13885,32 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25534"
     },
     {
+      "source_file": "2026-07-21__25733__library-board-of-trustees-meeting.pdf",
+      "occur_id": "25733",
+      "committee_name": "Library Board of Trustees Meeting",
+      "meeting_date": "2026-07-20",
+      "meeting_time": "9:30 AM",
+      "location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/19VF3KNJpBNVbZWagGWTz9nmoUYbdTj23/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25733"
+    },
+    {
+      "source_file": "2026-07-20__23797__energy-environment-committee-meeting.pdf",
+      "occur_id": "23797",
+      "committee_name": "Medford Energy & Environment Committee",
+      "meeting_date": "2026-07-20",
+      "meeting_time": "6:30 PM",
+      "location": "City Hall Room 308, Medford, MA 02155 / Via Zoom Virtual Meeting Connection (https://us06web.zoom.us/j/84450454952) or Phone (646-931-3860, meeting ID 84450454952)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1gNK9JVokcDXrcCD2JA0VXgMqXmgOHtvp/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23797"
+    },
+    {
       "source_file": "2026-07-20__25728__school-committee-meeting.pdf",
       "occur_id": "25728",
       "committee_name": "Medford School Committee",
@@ -13773,81 +13939,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "25239",
-      "title": "Water & Sewer Commission Meeting",
-      "start": "2026-07-15T17:30:00-04:00",
-      "date": "2026-07-15",
-      "time": "5:30 PM",
-      "location": "Department of Public Works, 21 James Street, Medford, MA 02155",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25239",
-      "agenda_url": "https://drive.google.com/file/d/1GfZ8VgPNWyi5sx7PCQq-aWfOVb4iUKhw/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/81343495906?pwd=eJrxKa58UWD4hxCZVV4SxGK44BmUcf.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "25520",
-      "title": "Affordable Housing Trust Board Meeting",
-      "start": "2026-07-15T18:00:00-04:00",
-      "date": "2026-07-15",
-      "time": "6:00 PM",
-      "location": "City Hall - Room 201",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25520",
-      "agenda_url": "https://drive.google.com/file/d/1BBaMOySnEFKno_8ZK0M4hIrSByHoEXwM/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/86069190688",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "25534",
-      "title": "City Council Public Health and Community Safety Committee Meeting",
-      "start": "2026-07-15T18:00:00-04:00",
-      "date": "2026-07-15",
-      "time": "6:00 PM",
-      "location": "City Hall Council Chambers",
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25534",
-      "agenda_url": "https://medfordma.portal.civicclerk.com/event/499/files/agenda/929",
-      "agenda_type": "CIVICCLERK",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/88041993380?pwd=tMpoQQZXpOVX8nMS4mShcIWQfpThtg.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "25253",
-      "title": "Community Development Board Meeting",
-      "start": "2026-07-15T18:30:00-04:00",
-      "date": "2026-07-15",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25253",
-      "agenda_url": "https://drive.google.com/file/d/1f-2H3E1KJT6Zg83bz64KyKxLpSL0_ivx/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/95629298475",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "25456",
-      "title": "Conservation Commission Meeting",
-      "start": "2026-07-15T18:30:00-04:00",
-      "date": "2026-07-15",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25456",
-      "agenda_url": "https://docs.google.com/document/d/1-1UvJALmZrFXOLnVPWGzaMgQ5t_bYV-I/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/82928229310",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "25728",
       "title": "School Committee Meeting",
       "start": "2026-07-20T17:00:00-04:00",
@@ -13855,7 +13946,7 @@
       "time": "5:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25728",
-      "agenda_url": "https://drive.google.com/file/d/1L_TOQ6xQazhJ5XOefFqog8VoZxloSEXv/view?usp=sharing",
+      "agenda_url": "https://drive.google.com/file/d/1KYMeUlGJkSTahtQawjU_nu4wxzBhLJvR/view",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
       "zoom_url": "https://mps02155-org.zoom.us/j/97008462111?pwd=6vXh2zR2RJbTBJ7BGzCd2DgYftWBWv.1#success",
@@ -13870,12 +13961,12 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23797",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://drive.google.com/file/d/1gNK9JVokcDXrcCD2JA0VXgMqXmgOHtvp/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/84450454952",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "25733",
@@ -13885,12 +13976,12 @@
       "time": "9:30 AM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25733",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://docs.google.com/document/d/19VF3KNJpBNVbZWagGWTz9nmoUYbdTj23/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/84058430148?pwd=55wbJiwyvrLcT0qdkba5vuO88bkUBf.1",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "25328",
@@ -13935,7 +14026,22 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "22851",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-07-30T18:30:00-04:00",
+      "date": "2026-07-30",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22851",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
