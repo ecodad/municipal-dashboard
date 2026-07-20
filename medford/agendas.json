@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-17",
+    "processed_date": "2026-07-20",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -576,6 +576,16 @@
         "filename": "2026-07-21__25735__board-of-health-meeting.pdf",
         "status": "parsed",
         "item_count": 9
+      },
+      {
+        "filename": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
+      },
+      {
+        "filename": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 16
       }
     ]
   },
@@ -12321,6 +12331,266 @@
       "Source_File": "2026-07-21__25735__board-of-health-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll call",
+      "Source_File": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of June 2026 invoices (LeftField, SMMA - Total $155,375)",
+      "Source_File": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of SMMA Amendment #2 - Geothermal, PV Solar, Pool Design/Testing - Total Amendment $94,869.50",
+      "Source_File": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report on the MSBA FAS Meeting held 7/15/2026",
+      "Source_File": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Site Secondary Access",
+      "Source_File": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Teen Health Center",
+      "Source_File": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Project Adjacencies and Related Efficiencies for: Medical, Guidance, Custodial, and Maintenance",
+      "Source_File": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "9",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Upcoming Meetings schedule (7/22-12/14) covering project efficiencies, design updates, CM selection, and estimating package",
+      "Source_File": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Only",
+      "Item_Number": "10",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Opening of meeting: Call to order, Roll call, Guest introductions",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes for June, 2026 meeting",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Announcements",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Bicycle film at Regent Theatre, Arlington - A SIMPLE MACHINE, with Mark Hoffman, Producer",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Proposed summer MBAC Ride - Northern Strand, led by Jared from Farmer's Market to Bike Kitchen",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "6",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Election of new chair following Daniel's resignation; Chris Stivers nominated",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "7",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Review of Vice Chair and Secretary Positions - Emily O'Brien (Vice Chair) and Bruce Kulik (Secretary)",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Farmers Market Tabling - Farmers Market Bike Fest, July 30, 2026, seeking volunteers",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "9",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Events (Bruce): Tufts Community Day and Harvest Your Energy",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "10",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "South Medford Connector (Bike Path) (Bruce) - discussion of Historical Commission materials and feedback on letter",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "11",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Recent Fatality of Bike Advocate in Boston (Emily) - Luisa Gag killed in crash with truck on Tremont Street in Roxbury",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "12",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Medford Square Bike Lane Issue (Bruce) - Main at Riverside/Clippership",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "13",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Lights and Helmets (Ernie)",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "14",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Facebook and other social media (Adam)",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "15",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Website Updates (Chris)",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-07-22",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "16",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Close Meeting",
+      "Source_File": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford Retirement Board",
       "Meeting_Date": "2026-07-29",
       "Meeting_Time": "9:30 AM",
@@ -14032,6 +14302,32 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25735"
     },
     {
+      "source_file": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf",
+      "occur_id": "25803",
+      "committee_name": "Medford Bicycle Advisory Commission",
+      "meeting_date": "2026-07-22",
+      "meeting_time": "7:00 PM",
+      "location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1-GW0QnEPtV5EJYG5fBucBJqNLzFCkGiD/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25803"
+    },
+    {
+      "source_file": "2026-07-22__25740__medford-comprehensive-high-school-building-committee-meeting.pdf",
+      "occur_id": "25740",
+      "committee_name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "meeting_date": "2026-07-22",
+      "meeting_time": "6:30 PM",
+      "location": "Virtual Only",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1Rz_yLuK0nH0-7uMLN1jA-sPQWA2Ckdv9/view",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25740"
+    },
+    {
       "source_file": "2026-07-29__25327__retirement-board-meeting.pdf",
       "occur_id": "25327",
       "committee_name": "Medford Retirement Board",
@@ -14099,7 +14395,7 @@
       "time": "12:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25735",
-      "agenda_url": "https://docs.google.com/document/d/1Q7X2ltcAmaNSooiB3tY3sFKk5cn8HeAQ/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_url": "https://docs.google.com/document/d/1-f4dC_YULI1wERtW8Y3ET9hX_UHEh3XE/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/85698818573?pwd=Uj0yZbXmozeRn418X7NevgCoPKB49F.1",
@@ -14122,19 +14418,34 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "18142",
+      "occur_id": "25740",
+      "title": "Medford Comprehensive High School Building Committee Meeting",
+      "start": "2026-07-22T18:30:00-04:00",
+      "date": "2026-07-22",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25740",
+      "agenda_url": "https://drive.google.com/file/d/1Rz_yLuK0nH0-7uMLN1jA-sPQWA2Ckdv9/view",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/99558983187?pwd=OFPsRmpDePNISxHjhe2FUcQutnLXb7.1#success",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "25803",
       "title": "Bicycle Advisory Commission Meeting",
       "start": "2026-07-22T19:00:00-04:00",
       "date": "2026-07-22",
       "time": "7:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18142",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25803",
+      "agenda_url": "https://drive.google.com/file/d/1-GW0QnEPtV5EJYG5fBucBJqNLzFCkGiD/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/87538063188",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "25327",
@@ -14159,6 +14470,21 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22851",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "23798",
+      "title": "Energy & Environment Committee Meeting",
+      "start": "2026-08-03T18:30:00-04:00",
+      "date": "2026-08-03",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23798",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,

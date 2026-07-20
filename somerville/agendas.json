@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-17",
+    "processed_date": "2026-07-20",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -771,6 +771,11 @@
         "filename": "2026-07-21__2026_07_21_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 11
+      },
+      {
+        "filename": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf",
+        "status": "parsed",
+        "item_count": 14
       }
     ]
   },
@@ -2750,6 +2755,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/fair-housing-20260723-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/23/fair-housing-commission-meeting"
+    },
+    {
+      "source_file": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf",
+      "occur_id": "2026_07_23_housing-authority-meeting",
+      "committee_name": "Somerville Housing Authority",
+      "meeting_date": "2026-07-23",
+      "meeting_time": "4:00 PM",
+      "location": "Mystic Activity Center 530 Mystic Avenue Somerville , MA 02145 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/housing-authority-20260723-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/23/housing-authority-meeting"
     },
     {
       "source_file": "2026-07-23__2026_07_23_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
@@ -19750,6 +19768,146 @@
       "Source_File": "2026-07-23__2026_07_23_fair-housing-commission-meeting__fair-housing-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "0",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting Called to Order",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes: Regular Board Meeting – June 25, 2026",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Community Input/Resident Councils",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "3",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Communications",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Executive Director's Report",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Development Update (if necessary)",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Public Safety Update (if necessary)",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "7a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of SHA Maintenance Work Orders and Resident Charges.",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "7b",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval to terminate the current Executive Director Contract effective March 31, 2026, and authorize the execution of a new Contract effective April 1, 2026.",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "7c",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Acceptance of Executive Office of Housing and Livable Communities (EOHLC) Contract for Financial Assistance (CFA) Amendment #20 in the amount of $4,665,466.74 for the Clarendon Redevelopment Project.",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "7d",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of contract with P.C. Richard & Son for refrigerators, electric stoves, wall ovens, and stove tops.",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "7e",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of Leased Housing Department Proposed Regulatory Waiver Request.",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Open Session for topics not reasonably anticipated by the Chair 48 hours in advance of the meeting.",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Housing Authority",
+      "Meeting_Date": "2026-07-23",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Mystic Activity Center, 530 Mystic Avenue, Somerville, MA 02145",
+      "Item_Number": "9",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
       "Meeting_Date": "2026-07-23",
       "Meeting_Time": "6:30 PM",
@@ -20017,6 +20175,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_07_23_housing-authority-meeting",
+      "title": "Housing Authority Meeting",
+      "start": "2026-07-23T16:00:00-04:00",
+      "date": "2026-07-23",
+      "time": "4:00 PM",
+      "location": "Mystic Activity Center 530 Mystic Avenue Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/23/housing-authority-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/housing-authority-20260723-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_07_23_pedestrian-and-transit-advisory-committee-meeting",
       "title": "Pedestrian and Transit Advisory Committee Meeting",
       "start": "2026-07-23T18:30:00-04:00",
@@ -20047,13 +20220,13 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_07_27_canceled-condominium-review-board-meeting",
-      "title": "CANCELED: Condominium Review Board Meeting",
+      "occur_id": "2026_07_27_community-outreach-meeting-licensed-original-llc",
+      "title": "Community Outreach Meeting - Licensed Original LLC",
       "start": "2026-07-27T18:00:00-04:00",
       "date": "2026-07-27",
       "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/27/canceled-condominium-review-board-meeting",
+      "location": "Somerville Public Library Auditorium 79 Highland Ave Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/27/community-outreach-meeting-licensed-original-llc",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -20062,13 +20235,13 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_07_27_community-outreach-meeting-licensed-original-llc",
-      "title": "Community Outreach Meeting - Licensed Original LLC",
+      "occur_id": "2026_07_27_canceled-condominium-review-board-meeting",
+      "title": "CANCELED: Condominium Review Board Meeting",
       "start": "2026-07-27T18:00:00-04:00",
       "date": "2026-07-27",
       "time": "6:00 PM",
-      "location": "Somerville Public Library Auditorium 79 Highland Ave Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/27/community-outreach-meeting-licensed-original-llc",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/27/canceled-condominium-review-board-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -20120,6 +20293,21 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_P0dFzw5vQGuD0GlB7RfdTg",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_03_school-building-committee-meeting",
+      "title": "School Building Committee Meeting",
+      "start": "2026-08-03T16:30:00-04:00",
+      "date": "2026-08-03",
+      "time": "4:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/03/school-building-committee-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
