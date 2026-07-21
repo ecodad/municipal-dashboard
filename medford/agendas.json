@@ -14343,36 +14343,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "25728",
-      "title": "School Committee Meeting",
-      "start": "2026-07-20T17:00:00-04:00",
-      "date": "2026-07-20",
-      "time": "5:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25728",
-      "agenda_url": "https://drive.google.com/file/d/1KYMeUlGJkSTahtQawjU_nu4wxzBhLJvR/view",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://mps02155-org.zoom.us/j/97008462111?pwd=6vXh2zR2RJbTBJ7BGzCd2DgYftWBWv.1#success",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "23797",
-      "title": "Energy & Environment Committee Meeting",
-      "start": "2026-07-20T18:30:00-04:00",
-      "date": "2026-07-20",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23797",
-      "agenda_url": "https://drive.google.com/file/d/1gNK9JVokcDXrcCD2JA0VXgMqXmgOHtvp/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/84450454952",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "25733",
       "title": "Library Board of Trustees Meeting",
       "start": "2026-07-21T09:30:00-04:00",
@@ -14425,12 +14395,12 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25740",
-      "agenda_url": "https://drive.google.com/file/d/1Rz_yLuK0nH0-7uMLN1jA-sPQWA2Ckdv9/view",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "agenda_url": "https://medfordmaorg.finalsite.com/fs/resource-manager/view/fecdc5b4-6296-4f2b-bf8a-5be6c9fab730",
+      "agenda_type": "FINALSITE",
       "has_zoom": true,
       "zoom_url": "https://mps02155-org.zoom.us/j/99558983187?pwd=OFPsRmpDePNISxHjhe2FUcQutnLXb7.1#success",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25803",
@@ -14445,7 +14415,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/87538063188",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "25327",
@@ -14485,6 +14455,21 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23798",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "22958",
+      "title": "City Council Meeting",
+      "start": "2026-08-04T19:00:00-04:00",
+      "date": "2026-08-04",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22958",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,

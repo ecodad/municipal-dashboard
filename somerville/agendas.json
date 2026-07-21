@@ -20100,21 +20100,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_07_20_human-rights-commission-administration-subcommittee-meeting",
-      "title": "Human Rights Commission Administration Subcommittee Meeting",
-      "start": "2026-07-20T17:00:00-04:00",
-      "date": "2026-07-20",
-      "time": "5:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/20/human-rights-commission-administration-subcommittee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/human-rights-20260720-admin-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/89950945201?pwd=Li9xQtyTsfEfMeFYuKrlsRjhBrjlPr.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_07_21_licensing-commission-meeting",
       "title": "Licensing Commission Meeting",
       "start": "2026-07-21T18:00:00-04:00",
@@ -20187,7 +20172,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_23_pedestrian-and-transit-advisory-committee-meeting",
@@ -20306,6 +20291,21 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_04_historic-preservation-commission-meeting",
+      "title": "Historic Preservation Commission Meeting",
+      "start": "2026-08-04T18:45:00-04:00",
+      "date": "2026-08-04",
+      "time": "6:45 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/04/historic-preservation-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_V-Gx5xJbQgq5vyodKU77HQ",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
