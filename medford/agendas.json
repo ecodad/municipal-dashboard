@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-20",
+    "processed_date": "2026-07-24",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -586,6 +586,11 @@
         "filename": "2026-07-22__25803__bicycle-advisory-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 16
+      },
+      {
+        "filename": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
       }
     ]
   },
@@ -12829,6 +12834,96 @@
       "Item_Type": "Report",
       "Agenda_Topic": "Kayne Anderson and Loomis Sayles Manager Review",
       "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000005/ZON26-000017",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "39 Ramshead Road, Case#(NZN-000005/ZON26-000017) – Continued from June 25, 2026 - Applicant Derek Chan to add a driveway at 39 Ramshead Road which is in a Single Family One (SF-1) Zoning District.",
+      "Source_File": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000007&NZN-000008",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1-3 Vassar Street, Case#(NZN-000007&NZN-000008) - Applicant Christian Austin to construct two (2) shed dormers and expand the existing attic space to create a full third story for purposes of a protected ADU at 1-3 Vassar Street which is in a General Residence (GR) Zoning District requiring a Variance and/or Finding pursuant to M.G.L.c 40A§3.",
+      "Source_File": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000009",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "12 Wellesley Street, Case#(NZN-000009) - Applicant Christian Austin to construct two (2) shed dormers and expand the existing attic space to create a full third story at 12 Wellesley Street for purposes of a protected ADU which is in a General Residence (GR) Zoning District requiring a Variance and/or a Finding pursuant to M.G.L.c 40A§3.",
+      "Source_File": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000011",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "39 Roberts Road, Case#(NZN-000011) - Applicant Scott Carman and Ellen Whitle to construct a two (2) story addition to the rear of the home which will feature a new kitchen on the first floor and a separate bath for the primary bedroom and a laundry space on the second floor at 39 Roberts Road which is in a Single Family One (SF-1) Zoning District. This will extend an existing non-conformity thereby requiring a Special Permit.",
+      "Source_File": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000013",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "placeholder",
+      "Source_File": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "ZON26-000007",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "114 Mystic Avenue, Case#(ZON26-000007) – Continued from June 25, 2026 - Applicants New England Organic, dba Victory Gardens seeking zoning relief for a Special Permit for Medical Cannabis Sales, Product Manufacturing, and Delivery Services to an existing approved cannabis dispensary at 114 Mystic Avenue requiring a Special Permit.",
+      "Source_File": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "D",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Items not reasonably Anticipated by the Chair 48 hours in advance of Meeting",
+      "Source_File": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "E",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Administrative Updates including Approval of Meeting Minutes and Discussion of Rules",
+      "Source_File": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "F",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf"
     }
   ],
   "meetings": [
@@ -14339,6 +14434,19 @@
       "agenda_url": "https://drive.google.com/file/d/15zsMEFo5FJogDH2DSVF_FMwaoUtbH5rM/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25327"
+    },
+    {
+      "source_file": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf",
+      "occur_id": "25865",
+      "committee_name": "Zoning Board of Appeals",
+      "meeting_date": "2026-07-30",
+      "meeting_time": "6:30 PM",
+      "location": "Remote via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1tI794SHs-rr4y0dyJYQp3YvJGwbejSjC/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25865"
     }
   ],
   "window_meetings": [
@@ -14358,19 +14466,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "22851",
+      "occur_id": "25865",
       "title": "Zoning Board of Appeals Meeting",
       "start": "2026-07-30T18:30:00-04:00",
       "date": "2026-07-30",
       "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22851",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25865",
+      "agenda_url": "https://docs.google.com/document/d/1tI794SHs-rr4y0dyJYQp3YvJGwbejSjC/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/91222064272",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "23798",

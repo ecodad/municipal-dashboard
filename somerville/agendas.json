@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-20",
+    "processed_date": "2026-07-24",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -776,6 +776,11 @@
         "filename": "2026-07-23__2026_07_23_housing-authority-meeting__housing-authority-meeting.pdf",
         "status": "parsed",
         "item_count": 14
+      },
+      {
+        "filename": "2026-07-27__2026_07_27_city-council-meeting__city-council-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -2781,6 +2786,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/pedestrian-transit-advisory-committee-20260723-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/23/pedestrian-and-transit-advisory-committee-meeting"
+    },
+    {
+      "source_file": "2026-07-27__2026_07_27_city-council-meeting__city-council-meeting.pdf",
+      "occur_id": "2026_07_27_city-council-meeting",
+      "committee_name": "City Council",
+      "meeting_date": "2026-07-27",
+      "meeting_time": "6:30 PM",
+      "location": "Remote Participation",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1428786&GUID=B25AA857-77BC-4FB1-9657-885B72A96BF2",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/27/city-council-meeting"
     },
     {
       "source_file": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf",
@@ -19968,6 +19986,66 @@
       "Source_File": "2026-07-23__2026_07_23_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote Participation",
+      "Item_Number": "26-0378",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting approval to accept and expend a $231,635 grant with no new match required, from the Massachusetts Executive Office of Public Safety and Security to the Police Department for a body-worn camera program.",
+      "Source_File": "2026-07-27__2026_07_27_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote Participation",
+      "Item_Number": "26-1222",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting that this City Council hold a public hearing regarding the implementation and use of body worn cameras by the Somerville Police Department.",
+      "Source_File": "2026-07-27__2026_07_27_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote Participation",
+      "Item_Number": "26-1228",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting approval of the Technology-Specific Surveillance Use Policy for Body Worn Cameras.",
+      "Source_File": "2026-07-27__2026_07_27_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote Participation",
+      "Item_Number": "26-1229",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Mayor's Request: Requesting approval of the Surveillance Technology Impact Report for Body Worn Cameras.",
+      "Source_File": "2026-07-27__2026_07_27_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote Participation",
+      "Item_Number": "26-1231",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call - Call of the Roll.",
+      "Source_File": "2026-07-27__2026_07_27_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City Council",
+      "Meeting_Date": "2026-07-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote Participation",
+      "Item_Number": "26-1232",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Officer's Communication: Director of Intergovernmental Affairs conveying information on body-worn cameras.",
+      "Source_File": "2026-07-27__2026_07_27_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
       "Committee_Name": "Conservation Commission",
       "Meeting_Date": "2026-07-30",
       "Meeting_Time": "7:00 PM",
@@ -20100,66 +20178,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_07_23_fair-housing-commission-meeting",
-      "title": "Fair Housing Commission Meeting",
-      "start": "2026-07-23T15:00:00-04:00",
-      "date": "2026-07-23",
-      "time": "3:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/23/fair-housing-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/fair-housing-20260723-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/86392012962?pwd=VVedoSDgTRaMbysEpdpSiHDEiadRIp.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_23_housing-authority-meeting",
-      "title": "Housing Authority Meeting",
-      "start": "2026-07-23T16:00:00-04:00",
-      "date": "2026-07-23",
-      "time": "4:00 PM",
-      "location": "Mystic Activity Center 530 Mystic Avenue Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/23/housing-authority-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/housing-authority-20260723-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_23_pedestrian-and-transit-advisory-committee-meeting",
-      "title": "Pedestrian and Transit Advisory Committee Meeting",
-      "start": "2026-07-23T18:30:00-04:00",
-      "date": "2026-07-23",
-      "time": "6:30 PM",
-      "location": "Tufts University Administration Building, Suite 211, Conference Room 1 167 Holland St Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/23/pedestrian-and-transit-advisory-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/pedestrian-transit-advisory-committee-20260723-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_07_23_city-council-meeting",
-      "title": "City Council Meeting",
-      "start": "2026-07-23T19:00:00-04:00",
-      "date": "2026-07-23",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/23/city-council-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1415473&GUID=92B1F129-180A-416F-BCB7-CE6E00116F9E",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_07_27_community-outreach-meeting-licensed-original-llc",
       "title": "Community Outreach Meeting - Licensed Original LLC",
       "start": "2026-07-27T18:00:00-04:00",
@@ -20202,20 +20220,35 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_07_28_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
+      "occur_id": "2026_07_28_canceled-urban-design-commission-meeting",
+      "title": "CANCELED: Urban Design Commission Meeting",
       "start": "2026-07-28T18:00:00-04:00",
       "date": "2026-07-28",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/28/urban-design-commission-meeting",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/28/canceled-urban-design-commission-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_29_neighborhood-meeting-84-broadway",
+      "title": "Neighborhood Meeting: 84 Broadway",
+      "start": "2026-07-29T18:00:00-04:00",
+      "date": "2026-07-29",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/29/neighborhood-meeting-84-broadway",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://joethearchitect.zoom.us/j/94967207925?pwd=iOdUBJx8ez30NcPbQYL091bngGmeq5.1",
       "has_livestream": false,
       "pipeline_status": "missing"
     },
