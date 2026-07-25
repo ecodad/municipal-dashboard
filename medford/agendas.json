@@ -14478,7 +14478,7 @@
       "has_zoom": true,
       "zoom_url": "https://zoom.us/j/91222064272",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "23798",
