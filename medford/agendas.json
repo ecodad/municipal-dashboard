@@ -14524,6 +14524,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "11287",
+      "title": "Historical Commission Meeting",
+      "start": "2026-08-10T19:00:00-04:00",
+      "date": "2026-08-10",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/11287",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/96236192680",
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
