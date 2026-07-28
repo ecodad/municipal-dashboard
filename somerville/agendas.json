@@ -791,6 +791,16 @@
         "filename": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 8
+      },
+      {
+        "filename": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
+      },
+      {
+        "filename": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
       }
     ]
   },
@@ -2848,6 +2858,32 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/veterans-20260730-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/30/veterans-commission-meeting"
+    },
+    {
+      "source_file": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf",
+      "occur_id": "2026_08_03_school-building-committee-meeting",
+      "committee_name": "Somerville New School Building Project School Building Committee",
+      "meeting_date": "2026-08-03",
+      "meeting_time": "4:30 PM",
+      "location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/school-building-20260803-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/03/school-building-committee-meeting"
+    },
+    {
+      "source_file": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf",
+      "occur_id": "2026_08_04_traffic-commission-meeting",
+      "committee_name": "Traffic Commission",
+      "meeting_date": "2026-08-04",
+      "meeting_time": "5:30 PM",
+      "location": "Remote participation via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/traffic-commission-20260804-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/04/traffic-commission-meeting"
     }
   ],
   "items": [
@@ -20300,6 +20336,216 @@
       "Item_Type": "Other",
       "Agenda_Topic": "Next meeting Thursday, August 6th ~tentative",
       "Source_File": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee",
+      "Meeting_Date": "2026-08-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call meeting to order",
+      "Source_File": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee",
+      "Meeting_Date": "2026-08-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "Item_Number": "2.a",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Vote to Approve meeting minutes of the 07/06/2026 SBC meeting",
+      "Source_File": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee",
+      "Meeting_Date": "2026-08-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review Project Schedule & Workplan",
+      "Source_File": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee",
+      "Meeting_Date": "2026-08-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "Item_Number": "4.a",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Programming Updates",
+      "Source_File": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee",
+      "Meeting_Date": "2026-08-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "Item_Number": "4.b",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "PSR Cost Estimate Review",
+      "Source_File": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee",
+      "Meeting_Date": "2026-08-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "Item_Number": "4.c",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Add Alternate Review",
+      "Source_File": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee",
+      "Meeting_Date": "2026-08-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "Item_Number": "4.d",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "PSR Evaluation Matrix",
+      "Source_File": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee",
+      "Meeting_Date": "2026-08-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "Item_Number": "4.e",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Select Preferred Schematic Option",
+      "Source_File": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee",
+      "Meeting_Date": "2026-08-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Public Comment",
+      "Source_File": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville New School Building Project School Building Committee",
+      "Meeting_Date": "2026-08-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Zoom link https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1, Passcode: 364387",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-08-03__2026_08_03_school-building-committee-meeting__school-building-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes from the July 7th, 2026 Traffic Commission Meeting.",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for an accessible parking space at 27 Concord Ave",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.b",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for an accessible parking space at 30 Derby St",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request to convert two parking spaces at 500 Medford St, currently a loading zone from 8am-12pm and metered parking from 12pm-8pm, to a full time loading zone.",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request to regulate the curb on the west side of Grand Union Blvd, from approximately 140 ft south of Foley St to approximately 265 ft south of Foley St, as No Parking Any Time.",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.b",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request to regulate the curb on the east side of Grand Union Blvd, from approximately 150 ft south of Foley St to approximately 270 ft south of Foley St, as No Parking Any Time.",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "School bus parking area on Webster Ave for Prospect Hill Academy - Request to regulate the curb on the west side of Webster Ave, from approximately 40 ft south of Washington St to approximately 190 ft south of Washington St, as School Bus Parking Only 6:00am-4:00pm, Monday-Friday, Sept-June, 2 hour except by permit parking 4:00pm-2:30am, and permit parking only 2:30am-6:00am.",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "6.a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request to regulate the curb on the west side of Franklin St, from approximately 60 ft north of Perkins St to approximately 195 ft north of Perkins St, as School Bus Parking Only 6:00am-4:00pm, Mon-Fri, Sept-June, and permit parking all other times.",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "6.b",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request to regulate the curb on the west side of Franklin St, from approximately 195 ft north of Perkins St to approximately 270 ft north of Perkins St, as School Arrival Only 6:00am-9:00am and permit parking all other times.",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "7.a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for fire lane in a southerly direction on the odd side of Hooker Ave 29 ft from Endicott Ave to the dead end at the chain link fence.",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Traffic Commission",
+      "Meeting_Date": "2026-08-04",
+      "Meeting_Time": "5:30 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "7.b",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for fire lane covering the width of the dead end of Hooker Ave from curb to curb for a length of 26 ft.",
+      "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
     }
   ],
   "window_meetings": [
@@ -20346,7 +20592,7 @@
       "has_zoom": true,
       "zoom_url": "https://zoom.us/j/91312174046",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_30_veterans-commission-meeting",
@@ -20361,7 +20607,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_4db1NsNJSDCYKgS0bobb-g",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_07_30_conservation-commission-meeting",
@@ -20386,12 +20632,27 @@
       "time": "4:30 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/08/03/school-building-committee-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/school-building-20260803-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_08_04_traffic-commission-meeting",
+      "title": "Traffic Commission Meeting",
+      "start": "2026-08-04T17:30:00-04:00",
+      "date": "2026-08-04",
+      "time": "5:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/04/traffic-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/traffic-commission-20260804-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_tx8dpKIxSVq7w3Aj-Bt3Xg",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_08_04_historic-preservation-commission-meeting",
