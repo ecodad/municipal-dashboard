@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-24",
+    "processed_date": "2026-07-28",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -781,6 +781,16 @@
         "filename": "2026-07-27__2026_07_27_city-council-meeting__city-council-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-07-30__2026_07_30_retirement-board-meeting__retirement-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 1
+      },
+      {
+        "filename": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
       }
     ]
   },
@@ -2812,6 +2822,32 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/conservation-20260730-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/07/30/conservation-commission-meeting"
+    },
+    {
+      "source_file": "2026-07-30__2026_07_30_retirement-board-meeting__retirement-board-meeting.pdf",
+      "occur_id": "2026_07_30_retirement-board-meeting",
+      "committee_name": "Somerville Retirement Board",
+      "meeting_date": "2026-07-30",
+      "meeting_time": "10:00 AM",
+      "location": "Conference Room 323 Broadway Somerville , MA 02145 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/retirement-20260730-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/30/retirement-board-meeting"
+    },
+    {
+      "source_file": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf",
+      "occur_id": "2026_07_30_veterans-commission-meeting",
+      "committee_name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "meeting_date": "2026-07-30",
+      "meeting_time": "4:30 PM",
+      "location": "Virtual (Remote Only)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/veterans-20260730-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/30/veterans-commission-meeting"
     }
   ],
   "items": [
@@ -20174,54 +20210,99 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjourn",
       "Source_File": "2026-07-30__2026_07_30_conservation-commission-meeting__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "10:00 AM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Regular Meeting for the Contributory SRB Meeting",
+      "Source_File": "2026-07-30__2026_07_30_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call meeting to order",
+      "Source_File": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "3.a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Hero Square Dedications - Applicant/Family Presentations",
+      "Source_File": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "3.b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Monuments & Memorials",
+      "Source_File": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "3.c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Events",
+      "Source_File": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "3.d",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion: Open to guests/public comments",
+      "Source_File": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-07-30",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Next meeting Thursday, August 6th ~tentative",
+      "Source_File": "2026-07-30__2026_07_30_veterans-commission-meeting__veterans-commission-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_07_27_community-outreach-meeting-licensed-original-llc",
-      "title": "Community Outreach Meeting - Licensed Original LLC",
-      "start": "2026-07-27T18:00:00-04:00",
-      "date": "2026-07-27",
-      "time": "6:00 PM",
-      "location": "Somerville Public Library Auditorium 79 Highland Ave Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/07/27/community-outreach-meeting-licensed-original-llc",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_07_27_canceled-condominium-review-board-meeting",
-      "title": "CANCELED: Condominium Review Board Meeting",
-      "start": "2026-07-27T18:00:00-04:00",
-      "date": "2026-07-27",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/27/canceled-condominium-review-board-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_07_27_city-council-meeting",
-      "title": "City Council Meeting",
-      "start": "2026-07-27T18:30:00-04:00",
-      "date": "2026-07-27",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/27/city-council-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1428786&GUID=B25AA857-77BC-4FB1-9657-885B72A96BF2",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_07_28_canceled-urban-design-commission-meeting",
       "title": "CANCELED: Urban Design Commission Meeting",
@@ -20251,6 +20332,36 @@
       "zoom_url": "https://joethearchitect.zoom.us/j/94967207925?pwd=iOdUBJx8ez30NcPbQYL091bngGmeq5.1",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_07_30_retirement-board-meeting",
+      "title": "Retirement Board Meeting",
+      "start": "2026-07-30T10:00:00-04:00",
+      "date": "2026-07-30",
+      "time": "10:00 AM",
+      "location": "Conference Room 323 Broadway Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/07/30/retirement-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/retirement-20260730-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/91312174046",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_07_30_veterans-commission-meeting",
+      "title": "Veterans’ Commission Meeting",
+      "start": "2026-07-30T16:30:00-04:00",
+      "date": "2026-07-30",
+      "time": "4:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/07/30/veterans-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/veterans-20260730-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_4db1NsNJSDCYKgS0bobb-g",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_07_30_conservation-commission-meeting",
@@ -20335,6 +20446,21 @@
       "time": "7:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/08/10/school-committee-special-meeting-whole",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_11_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-08-11T18:00:00-04:00",
+      "date": "2026-08-11",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/11/urban-design-commission-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,

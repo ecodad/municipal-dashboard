@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-07-24",
+    "processed_date": "2026-07-28",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -591,6 +591,11 @@
         "filename": "2026-07-30__25865__zoning-board-of-appeals-meeting.pdf",
         "status": "parsed",
         "item_count": 9
+      },
+      {
+        "filename": "2026-07-29__25866__conservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -12836,6 +12841,66 @@
       "Source_File": "2026-07-29__25327__retirement-board-meeting.pdf"
     },
     {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public Hearings",
+      "Source_File": "2026-07-29__25866__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Future Projects",
+      "Source_File": "2026-07-29__25866__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Ongoing Projects",
+      "Source_File": "2026-07-29__25866__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-07-29__25866__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Proposed Regulations",
+      "Source_File": "2026-07-29__25866__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-07-29",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Regulation Discussion",
+      "Source_File": "2026-07-29__25866__conservation-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Zoning Board of Appeals",
       "Meeting_Date": "2026-07-30",
       "Meeting_Time": "6:30 PM",
@@ -14423,6 +14488,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25740"
     },
     {
+      "source_file": "2026-07-29__25866__conservation-commission-meeting.pdf",
+      "occur_id": "25866",
+      "committee_name": "City of Medford Conservation Commission",
+      "meeting_date": "2026-07-29",
+      "meeting_time": "6:30 PM",
+      "location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1NlGMVC5Fi-EsPHiZXC1jrUTx9MExCnav/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25866"
+    },
+    {
       "source_file": "2026-07-29__25327__retirement-board-meeting.pdf",
       "occur_id": "25327",
       "committee_name": "Medford Retirement Board",
@@ -14466,6 +14544,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "25866",
+      "title": "Conservation Commission Meeting",
+      "start": "2026-07-29T18:30:00-04:00",
+      "date": "2026-07-29",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25866",
+      "agenda_url": "https://docs.google.com/document/d/1NlGMVC5Fi-EsPHiZXC1jrUTx9MExCnav/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82928229310",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "25865",
       "title": "Zoning Board of Appeals Meeting",
       "start": "2026-07-30T18:30:00-04:00",
@@ -14479,21 +14572,6 @@
       "zoom_url": "https://zoom.us/j/91222064272",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "23798",
-      "title": "Energy & Environment Committee Meeting",
-      "start": "2026-08-03T18:30:00-04:00",
-      "date": "2026-08-03",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23798",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
     },
     {
       "occur_id": "22958",
@@ -14512,7 +14590,7 @@
     },
     {
       "occur_id": "18401",
-      "title": "Affordable Housing Trust Board Meeting",
+      "title": "Affordable Housing Trust Board Meeting CANCELLED",
       "start": "2026-08-05T18:00:00-04:00",
       "date": "2026-08-05",
       "time": "6:00 PM",
@@ -14537,6 +14615,36 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://zoom.us/j/96236192680",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "7621",
+      "title": "Traffic Commission Meeting",
+      "start": "2026-08-11T17:00:00-04:00",
+      "date": "2026-08-11",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/7621",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "19007",
+      "title": "Community Garden Commission Meeting",
+      "start": "2026-08-11T19:00:00-04:00",
+      "date": "2026-08-11",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/19007",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
