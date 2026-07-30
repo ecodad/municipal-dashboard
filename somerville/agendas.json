@@ -20550,36 +20550,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_07_28_canceled-urban-design-commission-meeting",
-      "title": "CANCELED: Urban Design Commission Meeting",
-      "start": "2026-07-28T18:00:00-04:00",
-      "date": "2026-07-28",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/28/canceled-urban-design-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_07_29_neighborhood-meeting-84-broadway",
-      "title": "Neighborhood Meeting: 84 Broadway",
-      "start": "2026-07-29T18:00:00-04:00",
-      "date": "2026-07-29",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/07/29/neighborhood-meeting-84-broadway",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://joethearchitect.zoom.us/j/94967207925?pwd=iOdUBJx8ez30NcPbQYL091bngGmeq5.1",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_07_30_retirement-board-meeting",
       "title": "Retirement Board Meeting",
       "start": "2026-07-30T10:00:00-04:00",
@@ -20637,7 +20607,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_04_traffic-commission-meeting",
@@ -20652,7 +20622,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_tx8dpKIxSVq7w3Aj-Bt3Xg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_04_historic-preservation-commission-meeting",
@@ -20724,6 +20694,36 @@
       "detail_url": "https://www.somervillema.gov/events/2026/08/11/urban-design-commission-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_12_neighborhood-meeting-220-222-broadway",
+      "title": "Neighborhood Meeting: 220-222 Broadway",
+      "start": "2026-08-12T18:00:00-04:00",
+      "date": "2026-08-12",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/12/neighborhood-meeting-220-222-broadway",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89343401093?pwd=blxKtOrwA3QW21KayqQRPrZw5z06a8.1",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_13_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-08-13T19:00:00-04:00",
+      "date": "2026-08-13",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/13/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1428266&GUID=BFCBB2E3-79A6-48DA-AF48-4BC90CED56C3",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
