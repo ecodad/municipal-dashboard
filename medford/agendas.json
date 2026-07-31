@@ -14529,21 +14529,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "25865",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-07-30T18:30:00-04:00",
-      "date": "2026-07-30",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25865",
-      "agenda_url": "https://docs.google.com/document/d/1tI794SHs-rr4y0dyJYQp3YvJGwbejSjC/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://zoom.us/j/91222064272",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "22958",
       "title": "City Council Meeting",
       "start": "2026-08-04T19:00:00-04:00",
