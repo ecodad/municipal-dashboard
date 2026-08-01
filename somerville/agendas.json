@@ -20886,7 +20886,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_V-Gx5xJbQgq5vyodKU77HQ",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_05_zoning-board-appeals-meeting",
@@ -20901,7 +20901,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_o6YJQe-sRCCKoj9E7TQEjg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_06_planning-board-meeting",
@@ -20916,7 +20916,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_s31OYqf2QbyXrPGrpFy8Cw",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_10_school-committee-special-meeting-whole",
