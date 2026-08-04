@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-01",
+    "processed_date": "2026-08-04",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -816,6 +816,16 @@
         "filename": "2026-08-06__2026_08_06_planning-board-meeting__planning-board-meeting.pdf",
         "status": "parsed",
         "item_count": 11
+      },
+      {
+        "filename": "2026-08-05__2026_08_05_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
+      },
+      {
+        "filename": "2026-08-06__2026_08_06_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -2914,6 +2924,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/08/04/traffic-commission-meeting"
     },
     {
+      "source_file": "2026-08-05__2026_08_05_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf",
+      "occur_id": "2026_08_05_review-multiple-member-bodies-committee-meeting",
+      "committee_name": "Review of Multiple-Member Bodies Committee",
+      "meeting_date": "2026-08-05",
+      "meeting_time": "6:00 PM",
+      "location": "Remote participation via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/multiple-member-bodies-20260805-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/05/review-multiple-member-bodies-committee-meeting"
+    },
+    {
       "source_file": "2026-08-05__2026_08_05_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
       "occur_id": "2026_08_05_zoning-board-appeals-meeting",
       "committee_name": "Zoning Board of Appeals",
@@ -2925,6 +2948,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/zoning-20260805-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/08/05/zoning-board-appeals-meeting"
+    },
+    {
+      "source_file": "2026-08-06__2026_08_06_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
+      "occur_id": "2026_08_06_bicycle-advisory-committee-meeting",
+      "committee_name": "Somerville Bicycle Advisory Committee",
+      "meeting_date": "2026-08-06",
+      "meeting_time": "6:30 PM",
+      "location": "Tufts Administration Building, Room 211N 167 Holland St. Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/bicycle-advisory-20260806-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/06/bicycle-advisory-committee-meeting"
     },
     {
       "source_file": "2026-08-06__2026_08_06_planning-board-meeting__planning-board-meeting.pdf",
@@ -20652,6 +20688,86 @@
       "Source_File": "2026-08-04__2026_08_04_traffic-commission-meeting__traffic-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call of the Roll",
+      "Source_File": "2026-08-05__2026_08_05_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Committee logistics and standards",
+      "Source_File": "2026-08-05__2026_08_05_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Resident concerns",
+      "Source_File": "2026-08-05__2026_08_05_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Public comment by Dennis Fischman",
+      "Source_File": "2026-08-05__2026_08_05_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.3",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Public comment by Rona Fischman",
+      "Source_File": "2026-08-05__2026_08_05_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies pending recommendation: Urban Design Commission, Human Rights Commission, Commission for Persons with Disabilities, Women's Commission, Fair Housing Commission, Council for Aging Persons",
+      "Source_File": "2026-08-05__2026_08_05_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential retention of: Affordable Housing Trust Board, Community Preservation Committee, Conservation Commission, Board of Election Commissioners, Condominium Review Board, Historic Preservation Commission, Memorialization Committee, Urban Forestry Committee",
+      "Source_File": "2026-08-05__2026_08_05_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-05",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-08-05__2026_08_05_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Zoning Board of Appeals",
       "Meeting_Date": "2026-08-05",
       "Meeting_Time": "6:00 PM",
@@ -20730,6 +20846,56 @@
       "Item_Type": "Public Hearing",
       "Agenda_Topic": "2 Carver Street – Athanasios Dousis seeks relief from SZO 2.4.4. regarding the roof rafter intersection height for a half story in the Neighborhood Residence (NR) zoning district, which requires a Hardship Variance.",
       "Source_File": "2026-08-05__2026_08_05_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Room 211N, 167 Holland Street, Somerville, MA 02144 (hybrid meeting)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Procedural, General Business & Updates - Roll call, acting secretary, approval of July meeting minutes, upcoming outreach/events",
+      "Source_File": "2026-08-06__2026_08_06_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Room 211N, 167 Holland Street, Somerville, MA 02144 (hybrid meeting)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Update: Safe Routes to School partnership - partnership details/requirements",
+      "Source_File": "2026-08-06__2026_08_06_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Room 211N, 167 Holland Street, Somerville, MA 02144 (hybrid meeting)",
+      "Item_Number": "3",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Focus: Letters to endorse/send - Multiple-Member Bodies Committee PTAC/SBAC letter and Winter Maintenance letter to DPW",
+      "Source_File": "2026-08-06__2026_08_06_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Room 211N, 167 Holland Street, Somerville, MA 02144 (hybrid meeting)",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Focus: Evaluation and Engineering - East Washington St quick build project",
+      "Source_File": "2026-08-06__2026_08_06_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Room 211N, 167 Holland Street, Somerville, MA 02144 (hybrid meeting)",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "City Updates",
+      "Source_File": "2026-08-06__2026_08_06_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
     },
     {
       "Committee_Name": "Somerville Planning Board",
@@ -20844,21 +21010,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_08_03_school-building-committee-meeting",
-      "title": "School Building Committee Meeting",
-      "start": "2026-08-03T16:30:00-04:00",
-      "date": "2026-08-03",
-      "time": "4:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/03/school-building-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/school-building-20260803-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/87559300013?pwd=K4Y2a4ghwulJYBcvbCzzW21AHDahqO.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_08_04_traffic-commission-meeting",
       "title": "Traffic Commission Meeting",
       "start": "2026-08-04T17:30:00-04:00",
@@ -20889,6 +21040,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_08_05_review-multiple-member-bodies-committee-meeting",
+      "title": "Review of Multiple-Member Bodies Committee Meeting",
+      "start": "2026-08-05T18:00:00-04:00",
+      "date": "2026-08-05",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/05/review-multiple-member-bodies-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/multiple-member-bodies-20260805-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_JDwXnffZQCOcB-d94rpRrQ",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_08_05_zoning-board-appeals-meeting",
       "title": "Zoning Board of Appeals Meeting",
       "start": "2026-08-05T18:00:00-04:00",
@@ -20917,6 +21083,21 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_s31OYqf2QbyXrPGrpFy8Cw",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_06_bicycle-advisory-committee-meeting",
+      "title": "Bicycle Advisory Committee Meeting",
+      "start": "2026-08-06T18:30:00-04:00",
+      "date": "2026-08-06",
+      "time": "6:30 PM",
+      "location": "Tufts Administration Building, Room 211N 167 Holland St. Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/06/bicycle-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/bicycle-advisory-20260806-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/84572090815?pwd=whDl8CPeCf8wZKQfCwHGu1ZCDdkqUc.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_08_10_school-committee-special-meeting-whole",
@@ -20975,6 +21156,66 @@
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_17_school-building-committee-special-meeting",
+      "title": "School Building Committee Special Meeting",
+      "start": "2026-08-17T16:30:00-04:00",
+      "date": "2026-08-17",
+      "time": "4:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/school-building-committee-special-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_17_condominium-review-board-meeting",
+      "title": "Condominium Review Board Meeting",
+      "start": "2026-08-17T18:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/condominium-review-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
+      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
+      "start": "2026-08-17T18:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_18_historic-preservation-commission-meeting",
+      "title": "Historic Preservation Commission Meeting",
+      "start": "2026-08-18T18:45:00-04:00",
+      "date": "2026-08-18",
+      "time": "6:45 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/18/historic-preservation-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_sEDM1_7nSEiIY30n4CEpBw",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
