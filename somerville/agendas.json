@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-04",
+    "processed_date": "2026-08-05",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -824,6 +824,16 @@
       },
       {
         "filename": "2026-08-06__2026_08_06_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-08-06__2026_08_06_veterans-commission-meeting__veterans-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-08-07__2026_08_07_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
         "status": "parsed",
         "item_count": 5
       }
@@ -2974,6 +2984,32 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/planning-20260806-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/08/06/planning-board-meeting"
+    },
+    {
+      "source_file": "2026-08-06__2026_08_06_veterans-commission-meeting__veterans-commission-meeting.pdf",
+      "occur_id": "2026_08_06_veterans-commission-meeting",
+      "committee_name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "meeting_date": "2026-08-06",
+      "meeting_time": "4:30 PM",
+      "location": "Remote/Virtual",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/veterans-20260806-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/06/veterans-commission-meeting"
+    },
+    {
+      "source_file": "2026-08-07__2026_08_07_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
+      "occur_id": "2026_08_07_council-aging-board-meeting",
+      "committee_name": "Council on Aging Board of Directors",
+      "meeting_date": "2026-08-07",
+      "meeting_time": "11:00 AM",
+      "location": "Holland Street Senior Center 167 Holland Street Somerville , MA 02145 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/council-on-aging-20260807-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/07/council-aging-board-meeting"
     }
   ],
   "items": [
@@ -21006,36 +21042,141 @@
       "Item_Type": "Public Hearing",
       "Agenda_Topic": "32-40 White Street - 32-40 White St LLC/Kinvarra Capital seeks to construct a mechanical penthouse that exceeds the maximum height in the Mid-Rise 4 (MR4) zoning district, which requires a Special Permit (continued from July 16, 2026)",
       "Source_File": "2026-08-06__2026_08_06_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote/Virtual",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call meeting to order",
+      "Source_File": "2026-08-06__2026_08_06_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote/Virtual",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-08-06__2026_08_06_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote/Virtual",
+      "Item_Number": "3.a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Hero Square Dedications - Applicant/Family Presentations",
+      "Source_File": "2026-08-06__2026_08_06_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote/Virtual",
+      "Item_Number": "3.b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Monuments & Memorials",
+      "Source_File": "2026-08-06__2026_08_06_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote/Virtual",
+      "Item_Number": "3.c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Events",
+      "Source_File": "2026-08-06__2026_08_06_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote/Virtual",
+      "Item_Number": "3.d",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion: Open to guests/public comments",
+      "Source_File": "2026-08-06__2026_08_06_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-08-06",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote/Virtual",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-08-06__2026_08_06_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-08-07",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes from July.",
+      "Source_File": "2026-08-07__2026_08_07_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-08-07",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "2.a",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Review of City Ordinance",
+      "Source_File": "2026-08-07__2026_08_07_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-08-07",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "3.a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "COA/MassSenior Action Listening Session update",
+      "Source_File": "2026-08-07__2026_08_07_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-08-07",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "3.b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Senior Picnic",
+      "Source_File": "2026-08-07__2026_08_07_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Council on Aging Board of Directors",
+      "Meeting_Date": "2026-08-07",
+      "Meeting_Time": "11:00 AM",
+      "Location": "Holland St. Senior Center, 167 Holland St, Somerville, MA 02145",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn—Next meeting: September 4, 2026",
+      "Source_File": "2026-08-07__2026_08_07_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
     }
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_08_04_traffic-commission-meeting",
-      "title": "Traffic Commission Meeting",
-      "start": "2026-08-04T17:30:00-04:00",
-      "date": "2026-08-04",
-      "time": "5:30 PM",
+      "occur_id": "2026_08_05_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-08-05T18:00:00-04:00",
+      "date": "2026-08-05",
+      "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/04/traffic-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/traffic-commission-20260804-agenda.pdf",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/05/zoning-board-appeals-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/zoning-20260805-agenda.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_tx8dpKIxSVq7w3Aj-Bt3Xg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_08_04_historic-preservation-commission-meeting",
-      "title": "Historic Preservation Commission Meeting",
-      "start": "2026-08-04T18:45:00-04:00",
-      "date": "2026-08-04",
-      "time": "6:45 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/04/historic-preservation-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/historic-preservation-20260804-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_V-Gx5xJbQgq5vyodKU77HQ",
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_o6YJQe-sRCCKoj9E7TQEjg",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -21052,22 +21193,22 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_JDwXnffZQCOcB-d94rpRrQ",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_08_05_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-08-05T18:00:00-04:00",
-      "date": "2026-08-05",
-      "time": "6:00 PM",
+      "occur_id": "2026_08_06_veterans-commission-meeting",
+      "title": "Veterans’ Commission Meeting",
+      "start": "2026-08-06T16:30:00-04:00",
+      "date": "2026-08-06",
+      "time": "4:30 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/05/zoning-board-appeals-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/zoning-20260805-agenda.pdf",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/06/veterans-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/veterans-20260806-agenda.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_o6YJQe-sRCCKoj9E7TQEjg",
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_qAEapiBZSqyH_TR3aQAr_A",
       "has_livestream": false,
-      "pipeline_status": "skipped_existing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_08_06_planning-board-meeting",
@@ -21096,6 +21237,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/84572090815?pwd=whDl8CPeCf8wZKQfCwHGu1ZCDdkqUc.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_07_council-aging-board-meeting",
+      "title": "Council on Aging Board Meeting",
+      "start": "2026-08-07T11:00:00-04:00",
+      "date": "2026-08-07",
+      "time": "11:00 AM",
+      "location": "Holland Street Senior Center 167 Holland Street Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/07/council-aging-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/council-on-aging-20260807-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -21175,21 +21331,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_08_17_condominium-review-board-meeting",
-      "title": "Condominium Review Board Meeting",
-      "start": "2026-08-17T18:00:00-04:00",
-      "date": "2026-08-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/17/condominium-review-board-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
       "title": "Neighborhood Meeting: 314-316 Somerville Ave",
       "start": "2026-08-17T18:00:00-04:00",
@@ -21205,6 +21346,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_08_17_condominium-review-board-meeting",
+      "title": "Condominium Review Board Meeting",
+      "start": "2026-08-17T18:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/condominium-review-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_08_18_historic-preservation-commission-meeting",
       "title": "Historic Preservation Commission Meeting",
       "start": "2026-08-18T18:45:00-04:00",
@@ -21216,6 +21372,21 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_sEDM1_7nSEiIY30n4CEpBw",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_19_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-08-19T18:00:00-04:00",
+      "date": "2026-08-19",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/19/zoning-board-appeals-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     }

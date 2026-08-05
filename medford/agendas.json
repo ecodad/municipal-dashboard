@@ -14943,36 +14943,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "25868",
-      "title": "Medford City Council Committee of the Whole Meeting",
-      "start": "2026-08-04T18:00:00-04:00",
-      "date": "2026-08-04",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25868",
-      "agenda_url": "https://medfordma.portal.civicclerk.com/event/500/files/agenda/942",
-      "agenda_type": "CIVICCLERK",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/84476971942?pwd=4GItyaPqGyo4paDUoErWYvx6CsujLL.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "22958",
-      "title": "City Council Meeting",
-      "start": "2026-08-04T19:00:00-04:00",
-      "date": "2026-08-04",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22958",
-      "agenda_url": "https://medfordma.portal.civicclerk.com/event/446/files/agenda/944",
-      "agenda_type": "CIVICCLERK",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/84476971942?pwd=4GItyaPqGyo4paDUoErWYvx6CsujLL.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "18401",
       "title": "Affordable Housing Trust Board Meeting CANCELLED",
       "start": "2026-08-05T18:00:00-04:00",
@@ -15000,7 +14970,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/82928229310",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "11287",
@@ -15063,13 +15033,13 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "17045",
-      "title": "Historic District Commission Meeting",
-      "start": "2026-08-13T18:00:00-04:00",
-      "date": "2026-08-13",
-      "time": "6:00 PM",
+      "occur_id": "16868",
+      "title": "Climate Equity Council Meeting",
+      "start": "2026-08-19T18:30:00-04:00",
+      "date": "2026-08-19",
+      "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/17045",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/16868",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
