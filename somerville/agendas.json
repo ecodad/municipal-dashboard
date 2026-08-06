@@ -21166,36 +21166,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_08_05_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-08-05T18:00:00-04:00",
-      "date": "2026-08-05",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/05/zoning-board-appeals-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-07/zoning-20260805-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_o6YJQe-sRCCKoj9E7TQEjg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_08_05_review-multiple-member-bodies-committee-meeting",
-      "title": "Review of Multiple-Member Bodies Committee Meeting",
-      "start": "2026-08-05T18:00:00-04:00",
-      "date": "2026-08-05",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/05/review-multiple-member-bodies-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/multiple-member-bodies-20260805-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_JDwXnffZQCOcB-d94rpRrQ",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_08_06_veterans-commission-meeting",
       "title": "Veterans’ Commission Meeting",
       "start": "2026-08-06T16:30:00-04:00",
@@ -21208,7 +21178,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_qAEapiBZSqyH_TR3aQAr_A",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_06_planning-board-meeting",
@@ -21253,7 +21223,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_10_school-committee-special-meeting-whole",
@@ -21331,21 +21301,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
-      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
-      "start": "2026-08-17T18:00:00-04:00",
-      "date": "2026-08-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_08_17_condominium-review-board-meeting",
       "title": "Condominium Review Board Meeting",
       "start": "2026-08-17T18:00:00-04:00",
@@ -21357,6 +21312,21 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
+      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
+      "start": "2026-08-17T18:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
       "has_livestream": false,
       "pipeline_status": "missing"
     },
@@ -21387,6 +21357,51 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_20_massdot-office-outdoor-advertising-public-meeting",
+      "title": "MassDOT Office of Outdoor Advertising Public Meeting",
+      "start": "2026-08-20T11:00:00-04:00",
+      "date": "2026-08-20",
+      "time": "11:00 AM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/20/massdot-office-outdoor-advertising-public-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/webinar/register/WN_qaPHszo4R5274cTf3ZEbfA",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_20_urban-forestry-committee-meeting",
+      "title": "Urban Forestry Committee Meeting",
+      "start": "2026-08-20T16:30:00-04:00",
+      "date": "2026-08-20",
+      "time": "4:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/20/urban-forestry-committee-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_20_planning-board-meeting",
+      "title": "Planning Board Meeting",
+      "start": "2026-08-20T18:00:00-04:00",
+      "date": "2026-08-20",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/20/planning-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_HKJUtfmCSzG7XQTELMU31g",
       "has_livestream": false,
       "pipeline_status": "missing"
     }

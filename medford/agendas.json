@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-04",
+    "processed_date": "2026-08-06",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -611,6 +611,11 @@
         "filename": "2026-08-05__25870__conservation-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 7
+      },
+      {
+        "filename": "2026-08-10__25935__garden-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -13364,6 +13369,56 @@
       "Item_Type": "Public Hearing",
       "Agenda_Topic": "Notice of Intent - DEP File #215-0250 – Middlesex Fells Reservation – The Friends of the Middlesex Fells has filed a Notice of Intent for the control and management of non-native and invasive plant species within portions of the Middlesex Fells Reservation (90mm Site and Whitmore Brook Path).",
       "Source_File": "2026-08-05__25870__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Winthrop Street Community Garden, 213 Winthrop Street, Medford",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Introductions/Check In",
+      "Source_File": "2026-08-10__25935__garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Winthrop Street Community Garden, 213 Winthrop Street, Medford",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Update on Barry Park Garden",
+      "Source_File": "2026-08-10__25935__garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Winthrop Street Community Garden, 213 Winthrop Street, Medford",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Other Garden Updates",
+      "Source_File": "2026-08-10__25935__garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Winthrop Street Community Garden, 213 Winthrop Street, Medford",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "MCGC Review and revision of rules and guidelines passed over the winter",
+      "Source_File": "2026-08-10__25935__garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Community Garden Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Winthrop Street Community Garden, 213 Winthrop Street, Medford",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New business",
+      "Source_File": "2026-08-10__25935__garden-commission-meeting.pdf"
     }
   ],
   "meetings": [
@@ -14939,47 +14994,60 @@
       "agenda_url": "https://docs.google.com/document/d/1l5FDsv88ucSkz0diX6iPKKGIEbAdgt9f/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25870"
+    },
+    {
+      "source_file": "2026-08-10__25935__garden-commission-meeting.pdf",
+      "occur_id": "25935",
+      "committee_name": "Medford Community Garden Commission",
+      "meeting_date": "2026-08-10",
+      "meeting_time": "7:00 PM",
+      "location": "Winthrop Street Community Garden, 213 Winthrop Street, Medford",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1NTRcuYbrULlkqTqye4K1zL_TQwnGBGdD/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25935"
     }
   ],
   "window_meetings": [
     {
-      "occur_id": "18401",
-      "title": "Affordable Housing Trust Board Meeting CANCELLED",
-      "start": "2026-08-05T18:00:00-04:00",
-      "date": "2026-08-05",
-      "time": "6:00 PM",
+      "occur_id": "25935",
+      "title": "Garden Commission Meeting",
+      "start": "2026-08-10T19:00:00-04:00",
+      "date": "2026-08-10",
+      "time": "7:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18401",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "25870",
-      "title": "Conservation Commission Meeting",
-      "start": "2026-08-05T18:30:00-04:00",
-      "date": "2026-08-05",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25870",
-      "agenda_url": "https://docs.google.com/document/d/1l5FDsv88ucSkz0diX6iPKKGIEbAdgt9f/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25935",
+      "agenda_url": "https://drive.google.com/file/d/1NTRcuYbrULlkqTqye4K1zL_TQwnGBGdD/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/82928229310",
+      "zoom_url": "https://us06web.zoom.us/j/86337844393",
       "has_livestream": false,
-      "pipeline_status": "skipped_existing"
+      "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "11287",
+      "occur_id": "26059",
       "title": "Historical Commission Meeting",
       "start": "2026-08-10T19:00:00-04:00",
       "date": "2026-08-10",
       "time": "7:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/11287",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26059",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/96236192680",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "26058",
+      "title": "Historical Commission Meeting",
+      "start": "2026-08-10T19:00:00-04:00",
+      "date": "2026-08-10",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26058",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": true,
