@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-06",
+    "processed_date": "2026-08-07",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -616,6 +616,21 @@
         "filename": "2026-08-10__25935__garden-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 5
+      },
+      {
+        "filename": "2026-08-11__26186__medford-comprehensive-high-school-building-committee-constru.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-08-12__26184__hormel-stadium-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-08-12__26185__board-of-assessor-s-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -13419,6 +13434,176 @@
       "Item_Type": "Other",
       "Agenda_Topic": "New business",
       "Source_File": "2026-08-10__25935__garden-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Medford High School",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll call",
+      "Source_File": "2026-08-11__26186__medford-comprehensive-high-school-building-committee-constru.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Medford High School",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes - July 14, 2026",
+      "Source_File": "2026-08-11__26186__medford-comprehensive-high-school-building-committee-constru.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Medford High School",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review and Score CMR Statements of Qualifications (SOQs)",
+      "Source_File": "2026-08-11__26186__medford-comprehensive-high-school-building-committee-constru.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Medford High School",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Next Meetings",
+      "Source_File": "2026-08-11__26186__medford-comprehensive-high-school-building-committee-constru.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "3:00 PM",
+      "Location": "Medford High School",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-08-11__26186__medford-comprehensive-high-school-building-committee-constru.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Applications for use of Hormel Stadiums and fields: N/A",
+      "Source_File": "2026-08-12__26184__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Welcome new board member, Mr. Ryan O'Keefe",
+      "Source_File": "2026-08-12__26184__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Mayor's Office sent over a SeeClickFix regarding the info boards behind Hormel; discussion of possible removal or replacement of info boards",
+      "Source_File": "2026-08-12__26184__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes from July 8, 2026, meeting",
+      "Source_File": "2026-08-12__26184__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Finance reports (FY27)",
+      "Source_File": "2026-08-12__26184__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting Adjourned",
+      "Source_File": "2026-08-12__26184__hormel-stadium-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review of minutes from meeting on June 10, 2026",
+      "Source_File": "2026-08-12__26185__board-of-assessor-s-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Motor Vehicle Review of Abatements",
+      "Source_File": "2026-08-12__26185__board-of-assessor-s-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Motor Vehicle Commitment 2026-4",
+      "Source_File": "2026-08-12__26185__board-of-assessor-s-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "FY27 Personal Exemption, CPA Exemption and deferral applications",
+      "Source_File": "2026-08-12__26185__board-of-assessor-s-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY27 Valuation update",
+      "Source_File": "2026-08-12__26185__board-of-assessor-s-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Board of Assessors",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "4:00 PM",
+      "Location": "Room 109, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session for Review of abatement applications and settlement agreements.",
+      "Source_File": "2026-08-12__26185__board-of-assessor-s-meeting.pdf"
     }
   ],
   "meetings": [
@@ -15007,6 +15192,45 @@
       "agenda_url": "https://drive.google.com/file/d/1NTRcuYbrULlkqTqye4K1zL_TQwnGBGdD/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25935"
+    },
+    {
+      "source_file": "2026-08-11__26186__medford-comprehensive-high-school-building-committee-constru.pdf",
+      "occur_id": "26186",
+      "committee_name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "meeting_date": "2026-08-11",
+      "meeting_time": "3:00 PM",
+      "location": "Medford High School",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://medfordmaorg.finalsite.com/fs/resource-manager/view/4b5c38d5-2dda-43e4-84f0-08607a66d9a8",
+      "agenda_type": "FINALSITE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26186"
+    },
+    {
+      "source_file": "2026-08-12__26184__hormel-stadium-commission-meeting.pdf",
+      "occur_id": "26184",
+      "committee_name": "City of Medford Hormel Stadium and Athletic Commission",
+      "meeting_date": "2026-08-12",
+      "meeting_time": "5:00 PM",
+      "location": "Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1hJZ0K4TCSqmff8hDF-qZJcKTjrIKUUEi/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26184"
+    },
+    {
+      "source_file": "2026-08-12__26185__board-of-assessor-s-meeting.pdf",
+      "occur_id": "26185",
+      "committee_name": "Medford Board of Assessors",
+      "meeting_date": "2026-08-12",
+      "meeting_time": "4:00 PM",
+      "location": "Room 109, Medford City Hall, 85 George P. Hassett Drive, Medford, MA 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/17-RHDbcKBsys0JqH-_Ik9xsgqZer6MEG/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26185"
     }
   ],
   "window_meetings": [
@@ -15023,7 +15247,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/86337844393",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "26059",
@@ -15056,6 +15280,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "26186",
+      "title": "Medford Comprehensive High School Building Committee Construction Manager at Risk Prequalification Subcommittee Meeting",
+      "start": "2026-08-11T15:00:00-04:00",
+      "date": "2026-08-11",
+      "time": "3:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26186",
+      "agenda_url": "https://medfordmaorg.finalsite.com/fs/resource-manager/view/4b5c38d5-2dda-43e4-84f0-08607a66d9a8",
+      "agenda_type": "FINALSITE",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "7621",
       "title": "Traffic Commission Meeting",
       "start": "2026-08-11T17:00:00-04:00",
@@ -15084,6 +15323,36 @@
       "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "26185",
+      "title": "Board of Assessor's Meeting",
+      "start": "2026-08-12T16:00:00-04:00",
+      "date": "2026-08-12",
+      "time": "4:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26185",
+      "agenda_url": "https://drive.google.com/file/d/17-RHDbcKBsys0JqH-_Ik9xsgqZer6MEG/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82966413886",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "26184",
+      "title": "Hormel Stadium Commission Meeting",
+      "start": "2026-08-12T17:00:00-04:00",
+      "date": "2026-08-12",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26184",
+      "agenda_url": "https://drive.google.com/file/d/1hJZ0K4TCSqmff8hDF-qZJcKTjrIKUUEi/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/launch/jc/83216803269#success",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "24614",
