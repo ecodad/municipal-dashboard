@@ -15292,7 +15292,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "7621",
@@ -15337,7 +15337,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/82966413886",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "26184",
@@ -15352,7 +15352,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/launch/jc/83216803269#success",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "24614",

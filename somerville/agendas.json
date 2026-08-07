@@ -861,6 +861,11 @@
         "filename": "2026-08-11__2026_08_11_urban-design-commission-meeting__urban-design-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 4
+      },
+      {
+        "filename": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
+        "status": "parsed",
+        "item_count": 14
       }
     ]
   },
@@ -3100,6 +3105,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/urban-design-20260811-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/08/11/urban-design-commission-meeting"
+    },
+    {
+      "source_file": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
+      "occur_id": "2026_08_12_commission-persons-disabilities-meeting",
+      "committee_name": "Somerville Commission for Persons with Disabilities",
+      "meeting_date": "2026-08-12",
+      "meeting_time": "6:00 PM",
+      "location": "Somerville Library West Branch 40 College Avenue Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/disabilities-20260812-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/12/commission-persons-disabilities-meeting"
     }
   ],
   "items": [
@@ -21532,6 +21550,146 @@
       "Item_Type": "Other",
       "Agenda_Topic": "Other Business - Check In",
       "Source_File": "2026-08-11__2026_08_11_urban-design-commission-meeting__urban-design-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call, Welcome, Read Agenda: Holly Simione 6pm",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Reminder of Robert's Rules and recommendations for respectful and caring communication: Harriotte Hurie",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Welcome new Members!",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "4",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "HP Funds Discussion and Vote",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Disability Pride 2026 Past Events Discussion: Flag Raising, Family Friendly Library Event, Art Beat",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Crip Camp movie showing at TAB in Council on Aging space (August date TBC), Food/Activity",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Community Art Project centered on inclusion and the perspective of PWD who live, learn, work, visit and thrive in Somerville MA, Nicole Cannon",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Inclusive Somerville, Holly Simione - City Council, Public Events",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "9",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Draft Letter to Mayor, Elyse Best",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "10",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Letter in support of Inclusive Schools, Jess Adams",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "11",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Treasurer's report: Sheila Tracy",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "12",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Housing Strategy to Increasing the number and sizes of affordable and Accessible units in Somerville, Holly Simione",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "13",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Chairs Report: SCPD Membership, MAAB Variances",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Commission for Persons with Disabilities",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Somerville Library West Branch, Davis Square, 40 College Avenue, Somerville MA, Community Room (lower level)",
+      "Item_Number": "14",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Annual Commission Training – a future Special Meeting to be scheduled",
+      "Source_File": "2026-08-12__2026_08_12_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf"
     }
   ],
   "window_meetings": [
@@ -21563,7 +21721,7 @@
       "has_zoom": true,
       "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_U_Wxg04yQNiMlDRwnLfcPg",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_11_armory-advisory-board-meeting",
@@ -21578,7 +21736,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_t0QeQ1dsQl69x9U9B-eJmw",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_11_urban-design-commission-meeting",
@@ -21593,7 +21751,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_3UDTKCIST_iFm_UdbFMkgQ",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_11_human-rights-commission-meeting",
@@ -21608,7 +21766,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/83973404558?pwd=t4tPU49GLm05hYpze0C12BkEY7iaAE.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_11_climate-action-commission-meeting",
@@ -21616,12 +21774,42 @@
       "start": "2026-08-11T19:00:00-04:00",
       "date": "2026-08-11",
       "time": "7:00 PM",
-      "location": null,
+      "location": "Somerville City Hall Annex 50 Evergreen Ave Somerville , MA 02145 United States",
       "detail_url": "https://www.somervillema.gov/events/2026/08/11/climate-action-commission-meeting",
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/climate-action-20260811-agenda.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_s1BGJDvxRrScpJ6JJLtFgg",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_12_neighborhood-meeting-220-222-broadway",
+      "title": "Neighborhood Meeting: 220-222 Broadway",
+      "start": "2026-08-12T18:00:00-04:00",
+      "date": "2026-08-12",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/12/neighborhood-meeting-220-222-broadway",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89343401093?pwd=blxKtOrwA3QW21KayqQRPrZw5z06a8.1",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_12_commission-persons-disabilities-meeting",
+      "title": "Commission for Persons with Disabilities Meeting",
+      "start": "2026-08-12T18:00:00-04:00",
+      "date": "2026-08-12",
+      "time": "6:00 PM",
+      "location": "Somerville Library West Branch 40 College Avenue Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/12/commission-persons-disabilities-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/disabilities-20260812-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -21635,6 +21823,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/08/13/city-council-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1428266&GUID=BFCBB2E3-79A6-48DA-AF48-4BC90CED56C3",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_17_school-committee-special-meeting-whole",
+      "title": "School Committee Special Meeting of the Whole",
+      "start": "2026-08-17T12:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "12:00 PM",
+      "location": "1 Bow Mkt Wy Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/school-committee-special-meeting-whole",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -21656,21 +21859,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_08_17_condominium-review-board-meeting",
-      "title": "Condominium Review Board Meeting",
-      "start": "2026-08-17T18:00:00-04:00",
-      "date": "2026-08-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/17/condominium-review-board-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
       "title": "Neighborhood Meeting: 314-316 Somerville Ave",
       "start": "2026-08-17T18:00:00-04:00",
@@ -21682,6 +21870,21 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_17_condominium-review-board-meeting",
+      "title": "Condominium Review Board Meeting",
+      "start": "2026-08-17T18:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/condominium-review-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     },
