@@ -21694,21 +21694,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_08_07_council-aging-board-meeting",
-      "title": "Council on Aging Board Meeting",
-      "start": "2026-08-07T11:00:00-04:00",
-      "date": "2026-08-07",
-      "time": "11:00 AM",
-      "location": "Holland Street Senior Center 167 Holland Street Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/08/07/council-aging-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/council-on-aging-20260807-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_08_10_school-committee-special-meeting-whole",
       "title": "School Committee Special Meeting of the Whole",
       "start": "2026-08-10T19:00:00-04:00",
@@ -21811,7 +21796,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_13_city-council-meeting",
@@ -21859,21 +21844,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
-      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
-      "start": "2026-08-17T18:00:00-04:00",
-      "date": "2026-08-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_08_17_condominium-review-board-meeting",
       "title": "Condominium Review Board Meeting",
       "start": "2026-08-17T18:00:00-04:00",
@@ -21885,6 +21855,21 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
+      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
+      "start": "2026-08-17T18:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
       "has_livestream": false,
       "pipeline_status": "missing"
     },
