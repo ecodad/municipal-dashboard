@@ -21769,21 +21769,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_08_12_neighborhood-meeting-220-222-broadway",
-      "title": "Neighborhood Meeting: 220-222 Broadway",
-      "start": "2026-08-12T18:00:00-04:00",
-      "date": "2026-08-12",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/12/neighborhood-meeting-220-222-broadway",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/89343401093?pwd=blxKtOrwA3QW21KayqQRPrZw5z06a8.1",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_08_12_commission-persons-disabilities-meeting",
       "title": "Commission for Persons with Disabilities Meeting",
       "start": "2026-08-12T18:00:00-04:00",
@@ -21797,6 +21782,21 @@
       "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_12_neighborhood-meeting-220-222-broadway",
+      "title": "Neighborhood Meeting: 220-222 Broadway",
+      "start": "2026-08-12T18:00:00-04:00",
+      "date": "2026-08-12",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/12/neighborhood-meeting-220-222-broadway",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89343401093?pwd=blxKtOrwA3QW21KayqQRPrZw5z06a8.1",
+      "has_livestream": false,
+      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_08_13_city-council-meeting",
