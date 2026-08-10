@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-07",
+    "processed_date": "2026-08-10",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -631,6 +631,16 @@
         "filename": "2026-08-12__26185__board-of-assessor-s-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-08-10__26121__historical-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 17
+      },
+      {
+        "filename": "2026-08-12__24614__community-development-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
       }
     ]
   },
@@ -13436,6 +13446,176 @@
       "Source_File": "2026-08-10__25935__garden-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "NB1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Receive Demolition Application - 15 Maple Park Avenue/Hegner Center",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "OB1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Zoning Update from CDB",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "NB2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Receive Demolition Application - 67 Mystic Avenue",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "OB2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Medford High School – Section 106 Review",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "NB3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Receive Demolition Application - 71 Mystic Avenue",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "OB3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Properties currently under Demo Delay",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "NB4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Receive Demolition Application - 73 Mystic Avenue",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "OB4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Brooks Estate Archaeological Survey – Update",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "NB5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Receive Demolition Application - 81 Mystic Avenue",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "OB5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "CPA Projects: Thomas Brooks' Park - General Update",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "NB6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Receive Demolition Application - 78 Circuit Road",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "OB6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Cross Street Cemetery – General Update",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "NB7",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Receive Demolition Application - 146 Spring Street",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "OB7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Survey Projects: Hastings Heights - General Update",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "NB8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Receive Demolition Application - 73 Surrey Street",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "OB8",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-08-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream",
+      "Item_Number": "NB9",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Vacant Seats – Update & visit from potential new member Marissa Zampino",
+      "Source_File": "2026-08-10__26121__historical-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
       "Meeting_Date": "2026-08-11",
       "Meeting_Time": "3:00 PM",
@@ -13484,6 +13664,76 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-08-11__26186__medford-comprehensive-high-school-building-committee-constru.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting to Order",
+      "Source_File": "2026-08-12__24614__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "2",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Continued Public Hearing: Zoning Amendment-Inclusionary Housing Continued from 7/15/2026 - Proposed amendment to section 94-8.1 (Inclusionary Housing) to allow fractional payments to the Affordable Housing Trust",
+      "Source_File": "2026-08-12__24614__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Board Working Session: Zoning Amendment(s): Development Incentive Bonuses for Affordable Housing - Discussion of modifying the DIB Table for BANCD, MACD, SSNCD, and MSD",
+      "Source_File": "2026-08-12__24614__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Board Rules and Regulations - Review and update of rules and regulations regarding administrative process and procedures",
+      "Source_File": "2026-08-12__24614__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Zoning Project Timeline and other Administrative Updates",
+      "Source_File": "2026-08-12__24614__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "6",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-08-12__24614__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-08-12",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "7",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-08-12__24614__community-development-board-meeting.pdf"
     },
     {
       "Committee_Name": "City of Medford Hormel Stadium and Athletic Commission",
@@ -15194,6 +15444,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25935"
     },
     {
+      "source_file": "2026-08-10__26121__historical-commission-meeting.pdf",
+      "occur_id": "26121",
+      "committee_name": "Medford Historical Commission",
+      "meeting_date": "2026-08-10",
+      "meeting_time": "7:00 PM",
+      "location": "Remote via Zoom and live stream",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1k62xcgK5nLtXdB3vawRlE-jwc_gUdgZ8/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26121"
+    },
+    {
       "source_file": "2026-08-11__26186__medford-comprehensive-high-school-building-committee-constru.pdf",
       "occur_id": "26186",
       "committee_name": "Medford Comprehensive High School Building Committee (MCHSBC)",
@@ -15218,6 +15481,19 @@
       "agenda_url": "https://drive.google.com/file/d/1hJZ0K4TCSqmff8hDF-qZJcKTjrIKUUEi/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26184"
+    },
+    {
+      "source_file": "2026-08-12__24614__community-development-board-meeting.pdf",
+      "occur_id": "24614",
+      "committee_name": "Community Development Board",
+      "meeting_date": "2026-08-12",
+      "meeting_time": "6:30 PM",
+      "location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1BbZRGOVAprm6OSgWDU-3TMI-9X2d7bq6/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24614"
     },
     {
       "source_file": "2026-08-12__26185__board-of-assessor-s-meeting.pdf",
@@ -15250,34 +15526,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "26059",
+      "occur_id": "26121",
       "title": "Historical Commission Meeting",
       "start": "2026-08-10T19:00:00-04:00",
       "date": "2026-08-10",
       "time": "7:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26059",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26121",
+      "agenda_url": "https://drive.google.com/file/d/1k62xcgK5nLtXdB3vawRlE-jwc_gUdgZ8/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
       "zoom_url": "https://zoom.us/j/96236192680",
       "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "26058",
-      "title": "Historical Commission Meeting",
-      "start": "2026-08-10T19:00:00-04:00",
-      "date": "2026-08-10",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26058",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://zoom.us/j/96236192680",
-      "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "26186",
@@ -15293,36 +15554,6 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "7621",
-      "title": "Traffic Commission Meeting",
-      "start": "2026-08-11T17:00:00-04:00",
-      "date": "2026-08-11",
-      "time": "5:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/7621",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "19007",
-      "title": "Community Garden Commission Meeting",
-      "start": "2026-08-11T19:00:00-04:00",
-      "date": "2026-08-11",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/19007",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
-      "has_livestream": false,
-      "pipeline_status": "missing"
     },
     {
       "occur_id": "26185",
@@ -15362,12 +15593,12 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24614",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://drive.google.com/file/d/1BbZRGOVAprm6OSgWDU-3TMI-9X2d7bq6/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/95629298475",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "16868",
