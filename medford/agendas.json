@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-10",
+    "processed_date": "2026-08-11",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -641,6 +641,11 @@
         "filename": "2026-08-12__24614__community-development-board-meeting.pdf",
         "status": "parsed",
         "item_count": 7
+      },
+      {
+        "filename": "2026-08-18__26313__parks-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
       }
     ]
   },
@@ -13854,6 +13859,116 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Executive Session for Review of abatement applications and settlement agreements.",
       "Source_File": "2026-08-12__26185__board-of-assessor-s-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Flaming Croissants to receive a refund (no credit or make-up) for a rain date.",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Lampshade Ultimate Frisbee- Request to use Tufts Park, Field 4 on Tuesday or Thursday from 6pm-9pm",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "United India Association- Request to have bumper cars at their event in August at Columbus Park.",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from neighbors for the city to designate a dog park at Barry Park.",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "USTA New England- Request to use 3 tennis courts at Dugger beginning 8/29-11/1 on Saturdays and Sundays from 9am-12pm.",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Kevin Bailey- Update Park Commissioners on the survey to install a dock at Wright's Pond.",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Boston Ski & Sports (BSSC)- Request to use Memorial Softball on 9/1-10/29 on Tuesdays from 6:30p-9pm. Second request to use Tufts Park, Field 1 on 9/1-10/29 on Tuesdays from 6:30pm-9pm and Thursdays from 7pm-9:30pm.",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of July Meeting Minutes.",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Missituk PTO- Request to use Columbus Park Baseball Field on 9/24 or 9/25 from 4pm-8pm for a back-to-school ice cream social.",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "St. Raphael School- Request to use Playstead Park for a cross country meet on 9/24 and 10/15 from 3pm-4:30pm. Second request is to use Playstead Park on 11/22 from 8am-10:30pm for their annual turkey trot.",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Parks Commission",
+      "Meeting_Date": "2026-08-18",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "Item_Number": "6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Medford Youth Softball- Fall softball field request.",
+      "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
     }
   ],
   "meetings": [
@@ -15507,39 +15622,22 @@
       "agenda_url": "https://drive.google.com/file/d/17-RHDbcKBsys0JqH-_Ik9xsgqZer6MEG/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26185"
+    },
+    {
+      "source_file": "2026-08-18__26313__parks-commission-meeting.pdf",
+      "occur_id": "26313",
+      "committee_name": "Medford Parks Commission",
+      "meeting_date": "2026-08-18",
+      "meeting_time": "6:00 PM",
+      "location": "Medford City Hall- Room 201, 85 George P. Hassett Drive, Medford, MA 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1u_UW5YeI0qVyWYwxUSCVDaKJUkR0DcjX/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26313"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "25935",
-      "title": "Garden Commission Meeting",
-      "start": "2026-08-10T19:00:00-04:00",
-      "date": "2026-08-10",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25935",
-      "agenda_url": "https://drive.google.com/file/d/1NTRcuYbrULlkqTqye4K1zL_TQwnGBGdD/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/86337844393",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "26121",
-      "title": "Historical Commission Meeting",
-      "start": "2026-08-10T19:00:00-04:00",
-      "date": "2026-08-10",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26121",
-      "agenda_url": "https://drive.google.com/file/d/1k62xcgK5nLtXdB3vawRlE-jwc_gUdgZ8/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://zoom.us/j/96236192680",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
     {
       "occur_id": "26186",
       "title": "Medford Comprehensive High School Building Committee Construction Manager at Risk Prequalification Subcommittee Meeting",
@@ -15597,6 +15695,21 @@
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/95629298475",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "26313",
+      "title": "Parks Commission Meeting",
+      "start": "2026-08-18T18:00:00-04:00",
+      "date": "2026-08-18",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26313",
+      "agenda_url": "https://docs.google.com/document/d/1u_UW5YeI0qVyWYwxUSCVDaKJUkR0DcjX/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/88061784207",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },

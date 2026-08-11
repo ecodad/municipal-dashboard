@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-10",
+    "processed_date": "2026-08-11",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -886,6 +886,11 @@
         "filename": "2026-08-20__2026_08_20_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 13
       }
     ]
   },
@@ -3112,6 +3117,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/human-rights-20260811-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/08/11/human-rights-commission-meeting"
+    },
+    {
+      "source_file": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf",
+      "occur_id": "2026_08_11_canceled-human-rights-commission-meeting",
+      "committee_name": "Somerville Human Rights Commission",
+      "meeting_date": "2026-08-11",
+      "meeting_time": "6:30 PM",
+      "location": "Virtual Meeting",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/human-rights-20260811-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/11/canceled-human-rights-commission-meeting"
     },
     {
       "source_file": "2026-08-11__2026_08_11_urban-design-commission-meeting__urban-design-commission-meeting.pdf",
@@ -21384,6 +21402,136 @@
       "Source_File": "2026-08-11__2026_08_11_armory-advisory-board-meeting__armory-advisory-board-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1a",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1b",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Attendance and Roll Call; Confirm quorum and note participants",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1c",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Confirm Notetaker",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "1d",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approve minutes",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "2.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "NDA Signatures & Remaining Complaints Data",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Annual Report Outreach Results",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Outreach to neighborhood councils",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Board and Commissions Review",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Statement on Complaints Data",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Form for future complaints",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review updates from Subcommittees: Information & Advocacy, Compliance and Training, Promotion of City Diversity, Rights Violation Response, Administration Subcommittee",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "3.7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "HRC City Page: Updates and Suggestions",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Human Rights Commission",
+      "Meeting_Date": "2026-08-11",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual Meeting",
+      "Item_Number": "4.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future Agenda Items - Commissioners may identify topics for future agendas with no discussion or deliberation",
+      "Source_File": "2026-08-11__2026_08_11_canceled-human-rights-commission-meeting__canceled-human-rights-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Climate Action Commission (CAC)",
       "Meeting_Date": "2026-08-11",
       "Meeting_Time": "7:00 PM",
@@ -22026,21 +22174,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_08_10_school-committee-special-meeting-whole",
-      "title": "School Committee Special Meeting of the Whole",
-      "start": "2026-08-10T19:00:00-04:00",
-      "date": "2026-08-10",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/10/school-committee-special-meeting-whole",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/Call%20for%20the%20Week%20of%2008-10-26_0.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_U_Wxg04yQNiMlDRwnLfcPg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_08_11_armory-advisory-board-meeting",
       "title": "Armory Advisory Board Meeting",
       "start": "2026-08-11T17:00:00-04:00",
@@ -22071,19 +22204,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_08_11_human-rights-commission-meeting",
-      "title": "Human Rights Commission Meeting",
+      "occur_id": "2026_08_11_canceled-human-rights-commission-meeting",
+      "title": "CANCELED: Human Rights Commission Meeting",
       "start": "2026-08-11T18:30:00-04:00",
       "date": "2026-08-11",
       "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/11/human-rights-commission-meeting",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/11/canceled-human-rights-commission-meeting",
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/human-rights-20260811-agenda.pdf",
       "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/83973404558?pwd=t4tPU49GLm05hYpze0C12BkEY7iaAE.1",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "skipped_existing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_08_11_climate-action-commission-meeting",
@@ -22116,6 +22249,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_08_12_commission-persons-disabilities-meeting",
+      "title": "Commission for Persons with Disabilities Meeting",
+      "start": "2026-08-12T18:00:00-04:00",
+      "date": "2026-08-12",
+      "time": "6:00 PM",
+      "location": "Somerville Library West Branch 40 College Avenue Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/12/commission-persons-disabilities-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/disabilities-20260812-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
       "occur_id": "2026_08_12_arts-council-board-meeting",
       "title": "Arts Council Board Meeting",
       "start": "2026-08-12T18:30:00-04:00",
@@ -22128,7 +22276,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_13_middlesex-canal-commission-meeting",
@@ -22143,7 +22291,7 @@
       "has_zoom": true,
       "zoom_url": "https://us04web.zoom.us/j/71966438120?pwd=KKL0ooIkPT9aKZqMIRCTzfkCDEuh79.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_13_city-council-meeting",
@@ -22203,22 +22351,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/83973404558?pwd=t4tPU49GLm05hYpze0C12BkEY7iaAE.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
-      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
-      "start": "2026-08-17T18:00:00-04:00",
-      "date": "2026-08-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
-      "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_17_condominium-review-board-meeting",
@@ -22232,6 +22365,21 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
+      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
+      "start": "2026-08-17T18:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
       "has_livestream": false,
       "pipeline_status": "missing"
     },
@@ -22323,7 +22471,22 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_25_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-08-25T18:00:00-04:00",
+      "date": "2026-08-25",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/25/urban-design-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
