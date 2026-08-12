@@ -15639,21 +15639,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "26186",
-      "title": "Medford Comprehensive High School Building Committee Construction Manager at Risk Prequalification Subcommittee Meeting",
-      "start": "2026-08-11T15:00:00-04:00",
-      "date": "2026-08-11",
-      "time": "3:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26186",
-      "agenda_url": "https://medfordmaorg.finalsite.com/fs/resource-manager/view/4b5c38d5-2dda-43e4-84f0-08607a66d9a8",
-      "agenda_type": "FINALSITE",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "26185",
       "title": "Board of Assessor's Meeting",
       "start": "2026-08-12T16:00:00-04:00",
@@ -15711,7 +15696,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/88061784207",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "16868",
@@ -15725,6 +15710,21 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "18143",
+      "title": "Bicycle Advisory Commission Meeting",
+      "start": "2026-08-26T19:00:00-04:00",
+      "date": "2026-08-26",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18143",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/87538063188",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
