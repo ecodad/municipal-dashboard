@@ -23174,21 +23174,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_08_17_condominium-review-board-meeting",
-      "title": "Condominium Review Board Meeting",
-      "start": "2026-08-17T18:00:00-04:00",
-      "date": "2026-08-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/17/condominium-review-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/condo-review-20260817-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_MlJY6iCGQWq5HmoiTI43xg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
       "title": "Neighborhood Meeting: 314-316 Somerville Ave",
       "start": "2026-08-17T18:00:00-04:00",
@@ -23215,6 +23200,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_2bSJmpQ2Qiq4nONvVMMl6A",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_17_condominium-review-board-meeting",
+      "title": "Condominium Review Board Meeting",
+      "start": "2026-08-17T18:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/condominium-review-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/condo-review-20260817-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_MlJY6iCGQWq5HmoiTI43xg",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -23261,7 +23261,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_mbud48SCSL2Zzknisvbxfw",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_20_massdot-office-outdoor-advertising-public-meeting",
@@ -23324,21 +23324,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_08_20_municipal-job-creation-and-retention-board-trustees-meeting",
-      "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
-      "start": "2026-08-20T18:30:00-04:00",
-      "date": "2026-08-20",
-      "time": "6:30 PM",
-      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/08/20/municipal-job-creation-and-retention-board-trustees-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/job-creation-and-retention-20260820-agenda_0.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/89134568091?pwd=DsWohhAQ3ta3deFZerA871A8oV7yC8.1",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_08_20_pedestrian-and-transit-advisory-committee-meeting",
       "title": "Pedestrian and Transit Advisory Committee Meeting",
       "start": "2026-08-20T18:30:00-04:00",
@@ -23350,6 +23335,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_20_municipal-job-creation-and-retention-board-trustees-meeting",
+      "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
+      "start": "2026-08-20T18:30:00-04:00",
+      "date": "2026-08-20",
+      "time": "6:30 PM",
+      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/20/municipal-job-creation-and-retention-board-trustees-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/job-creation-and-retention-20260820-agenda_0.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89134568091?pwd=DsWohhAQ3ta3deFZerA871A8oV7yC8.1",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
