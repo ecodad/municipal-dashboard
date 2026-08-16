@@ -23174,21 +23174,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
-      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
-      "start": "2026-08-17T18:00:00-04:00",
-      "date": "2026-08-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_08_17_school-committee-special-meeting-whole",
       "title": "School Committee Special Meeting of the Whole",
       "start": "2026-08-17T18:00:00-04:00",
@@ -23217,6 +23202,21 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_MlJY6iCGQWq5HmoiTI43xg",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
+      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
+      "start": "2026-08-17T18:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
+      "has_livestream": false,
+      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_08_18_licensing-commission-meeting",
@@ -23324,21 +23324,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_08_20_pedestrian-and-transit-advisory-committee-meeting",
-      "title": "Pedestrian and Transit Advisory Committee Meeting",
-      "start": "2026-08-20T18:30:00-04:00",
-      "date": "2026-08-20",
-      "time": "6:30 PM",
-      "location": "101 South Street Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/08/20/pedestrian-and-transit-advisory-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/pedestrian-transit-advisory-committee-20260820-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_08_20_municipal-job-creation-and-retention-board-trustees-meeting",
       "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
       "start": "2026-08-20T18:30:00-04:00",
@@ -23350,6 +23335,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89134568091?pwd=DsWohhAQ3ta3deFZerA871A8oV7yC8.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_20_pedestrian-and-transit-advisory-committee-meeting",
+      "title": "Pedestrian and Transit Advisory Committee Meeting",
+      "start": "2026-08-20T18:30:00-04:00",
+      "date": "2026-08-20",
+      "time": "6:30 PM",
+      "location": "101 South Street Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/20/pedestrian-and-transit-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/pedestrian-transit-advisory-committee-20260820-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
