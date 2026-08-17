@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-14",
+    "processed_date": "2026-08-17",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -941,6 +941,11 @@
         "filename": "2026-08-20__2026_08_20_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf",
         "status": "parsed",
         "item_count": 8
+      },
+      {
+        "filename": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 13
       }
     ]
   },
@@ -3375,6 +3380,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/pedestrian-transit-advisory-committee-20260820-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/08/20/pedestrian-and-transit-advisory-committee-meeting"
+    },
+    {
+      "source_file": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf",
+      "occur_id": "2026_08_20_urban-forestry-committee-meeting",
+      "committee_name": "Urban Forestry Committee",
+      "meeting_date": "2026-08-20",
+      "meeting_time": "4:30 PM",
+      "location": "Remote meeting via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/urban-forestry-20260820-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/20/urban-forestry-committee-meeting"
     },
     {
       "source_file": "2026-08-26__2026_08_26_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf",
@@ -23052,6 +23070,136 @@
       "Source_File": "2026-08-20__2026_08_20_school-committee-rules-management-subcommittee-meeting__school-committee-rules-management-subcommittee-meeting.pdf"
     },
     {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Introductions / Housekeeping",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Resident Concerns",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bioswale and Streetscape Planter Maintenance Discussion",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "4.a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "City Tree Removals",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "4.b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Private Tree Removal Permit(s) and Exception(s)",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "4.c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Public Tree Inventory",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "5.a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "UFC Recommendations for Mayor Jake Wilson",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "5.b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Outreach",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "5.c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "UFC Overview and Startup question answering",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "5.d",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Somerville's Most Wanted Weeds",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Urban Forestry Related Job Postings and RFPs",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "7.a",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes from Previous Meetings - July 9th, 2026",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Forestry Committee",
+      "Meeting_Date": "2026-08-20",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Remote meeting via Zoom",
+      "Item_Number": "8",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Community Preservation Committee",
       "Meeting_Date": "2026-08-26",
       "Meeting_Time": "6:30 PM",
@@ -23174,6 +23322,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
+      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
+      "start": "2026-08-17T18:00:00-04:00",
+      "date": "2026-08-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_08_17_school-committee-special-meeting-whole",
       "title": "School Committee Special Meeting of the Whole",
       "start": "2026-08-17T18:00:00-04:00",
@@ -23202,21 +23365,6 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_MlJY6iCGQWq5HmoiTI43xg",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_08_17_neighborhood-meeting-314-316-somerville-ave",
-      "title": "Neighborhood Meeting: 314-316 Somerville Ave",
-      "start": "2026-08-17T18:00:00-04:00",
-      "date": "2026-08-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/17/neighborhood-meeting-314-316-somerville-ave",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://joethearchitect.zoom.us/j/96382648310?pwd=7iKPfjqjXC8fCZVWnuz4AlRPGEb7W0.1&jst=3",
-      "has_livestream": false,
-      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_08_18_licensing-commission-meeting",
@@ -23286,12 +23434,12 @@
       "time": "4:30 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/08/20/urban-forestry-committee-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/urban-forestry-20260820-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_ffrBJSP7T6CBRp_AqJN5Bg",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_08_20_school-committee-rules-management-subcommittee-meeting",
@@ -23324,21 +23472,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_08_20_municipal-job-creation-and-retention-board-trustees-meeting",
-      "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
-      "start": "2026-08-20T18:30:00-04:00",
-      "date": "2026-08-20",
-      "time": "6:30 PM",
-      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/08/20/municipal-job-creation-and-retention-board-trustees-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/job-creation-and-retention-20260820-agenda_0.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/89134568091?pwd=DsWohhAQ3ta3deFZerA871A8oV7yC8.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_08_20_pedestrian-and-transit-advisory-committee-meeting",
       "title": "Pedestrian and Transit Advisory Committee Meeting",
       "start": "2026-08-20T18:30:00-04:00",
@@ -23350,6 +23483,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_20_municipal-job-creation-and-retention-board-trustees-meeting",
+      "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
+      "start": "2026-08-20T18:30:00-04:00",
+      "date": "2026-08-20",
+      "time": "6:30 PM",
+      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/20/municipal-job-creation-and-retention-board-trustees-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/job-creation-and-retention-20260820-agenda_0.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89134568091?pwd=DsWohhAQ3ta3deFZerA871A8oV7yC8.1",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -23393,6 +23541,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/08/27/city-council-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1428267&GUID=AA7E4F8B-E645-40BC-8095-EC1773B19AC8",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_08_31_school-committee-regular-meeting",
+      "title": "School Committee Regular Meeting",
+      "start": "2026-08-31T19:00:00-04:00",
+      "date": "2026-08-31",
+      "time": "7:00 PM",
+      "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/31/school-committee-regular-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,

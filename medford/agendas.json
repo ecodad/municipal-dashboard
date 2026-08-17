@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-11",
+    "processed_date": "2026-08-17",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -646,6 +646,11 @@
         "filename": "2026-08-18__26313__parks-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 11
+      },
+      {
+        "filename": "2026-08-19__26377__climate-equity-council-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -13969,6 +13974,56 @@
       "Item_Type": "Other",
       "Agenda_Topic": "Medford Youth Softball- Fall softball field request.",
       "Source_File": "2026-08-18__26313__parks-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Climate Equity Council",
+      "Meeting_Date": "2026-08-19",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, room 201, and via Zoom Remote Videoconferencing",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Administrative: Review of minutes from June meeting, Next meeting September 16?, Introducing Climate Planner, Samantha Riley",
+      "Source_File": "2026-08-19__26377__climate-equity-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Climate Equity Council",
+      "Meeting_Date": "2026-08-19",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, room 201, and via Zoom Remote Videoconferencing",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Planning, Development, and Sustainability Staff Projects: Housing Planner Katherine Buckingham (Home Rehabilitation Loan Program, Housing Trust), Open Space Planner Amanda Centrella",
+      "Source_File": "2026-08-19__26377__climate-equity-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Climate Equity Council",
+      "Meeting_Date": "2026-08-19",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, room 201, and via Zoom Remote Videoconferencing",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Events & Activities",
+      "Source_File": "2026-08-19__26377__climate-equity-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Climate Equity Council",
+      "Meeting_Date": "2026-08-19",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, room 201, and via Zoom Remote Videoconferencing",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Updates on City Actions (Samantha)",
+      "Source_File": "2026-08-19__26377__climate-equity-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Climate Equity Council",
+      "Meeting_Date": "2026-08-19",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, room 201, and via Zoom Remote Videoconferencing",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future meeting topics",
+      "Source_File": "2026-08-19__26377__climate-equity-council-meeting.pdf"
     }
   ],
   "meetings": [
@@ -15635,6 +15690,19 @@
       "agenda_url": "https://docs.google.com/document/d/1u_UW5YeI0qVyWYwxUSCVDaKJUkR0DcjX/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26313"
+    },
+    {
+      "source_file": "2026-08-19__26377__climate-equity-council-meeting.pdf",
+      "occur_id": "26377",
+      "committee_name": "Medford Climate Equity Council",
+      "meeting_date": "2026-08-19",
+      "meeting_time": "6:30 PM",
+      "location": "Medford City Hall, room 201, and via Zoom Remote Videoconferencing",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1-l71XkVR1bkMw00H-e2_QjQiyDVt2Wa5/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26377"
     }
   ],
   "window_meetings": [
@@ -15654,13 +15722,28 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "16868",
+      "occur_id": "26377",
       "title": "Climate Equity Council Meeting",
       "start": "2026-08-19T18:30:00-04:00",
       "date": "2026-08-19",
       "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/16868",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26377",
+      "agenda_url": "https://drive.google.com/file/d/1-l71XkVR1bkMw00H-e2_QjQiyDVt2Wa5/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/81731743583",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "26315",
+      "title": "Elections Comission Meeting",
+      "start": "2026-08-19T19:00:00-04:00",
+      "date": "2026-08-19",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26315",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
