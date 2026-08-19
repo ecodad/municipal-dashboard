@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-17",
+    "processed_date": "2026-08-19",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -651,6 +651,11 @@
         "filename": "2026-08-19__26377__climate-equity-council-meeting.pdf",
         "status": "parsed",
         "item_count": 5
+      },
+      {
+        "filename": "2026-08-26__26380__conservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -14024,6 +14029,66 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Future meeting topics",
       "Source_File": "2026-08-19__26377__climate-equity-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Public Hearings",
+      "Source_File": "2026-08-26__26380__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Future Projects",
+      "Source_File": "2026-08-26__26380__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Ongoing Projects",
+      "Source_File": "2026-08-26__26380__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-08-26__26380__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Proposed Regulations",
+      "Source_File": "2026-08-26__26380__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Regulation Discussion",
+      "Source_File": "2026-08-26__26380__conservation-commission-meeting.pdf"
     }
   ],
   "meetings": [
@@ -15703,24 +15768,22 @@
       "agenda_url": "https://drive.google.com/file/d/1-l71XkVR1bkMw00H-e2_QjQiyDVt2Wa5/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26377"
+    },
+    {
+      "source_file": "2026-08-26__26380__conservation-commission-meeting.pdf",
+      "occur_id": "26380",
+      "committee_name": "City of Medford Conservation Commission",
+      "meeting_date": "2026-08-26",
+      "meeting_time": "6:30 PM",
+      "location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1vyrAFjRZWod1oNpXdY7I_kgCLXOJAorJ/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26380"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "26313",
-      "title": "Parks Commission Meeting",
-      "start": "2026-08-18T18:00:00-04:00",
-      "date": "2026-08-18",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26313",
-      "agenda_url": "https://docs.google.com/document/d/1u_UW5YeI0qVyWYwxUSCVDaKJUkR0DcjX/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/88061784207",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "26377",
       "title": "Climate Equity Council Meeting",
@@ -15750,6 +15813,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "26380",
+      "title": "Conservation Commission Meeting",
+      "start": "2026-08-26T18:30:00-04:00",
+      "date": "2026-08-26",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26380",
+      "agenda_url": "https://docs.google.com/document/d/1vyrAFjRZWod1oNpXdY7I_kgCLXOJAorJ/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82928229310",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "18143",
@@ -15789,6 +15867,36 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22852",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "18402",
+      "title": "Affordable Housing Trust Board Meeting",
+      "start": "2026-09-02T18:00:00-04:00",
+      "date": "2026-09-02",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18402",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "24615",
+      "title": "Community Development Board Meeting",
+      "start": "2026-09-02T18:30:00-04:00",
+      "date": "2026-09-02",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24615",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,

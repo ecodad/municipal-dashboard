@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-18",
+    "processed_date": "2026-08-19",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -951,6 +951,11 @@
         "filename": "2026-08-20__2026_08_20_housing-authority-meeting__housing-authority-meeting.pdf",
         "status": "parsed",
         "item_count": 13
+      },
+      {
+        "filename": "2026-08-25__2026_08_25_urban-design-commission-meeting__urban-design-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 3
       }
     ]
   },
@@ -3411,6 +3416,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/urban-forestry-20260820-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/08/20/urban-forestry-committee-meeting"
+    },
+    {
+      "source_file": "2026-08-25__2026_08_25_urban-design-commission-meeting__urban-design-commission-meeting.pdf",
+      "occur_id": "2026_08_25_urban-design-commission-meeting",
+      "committee_name": "Urban Design Commission",
+      "meeting_date": "2026-08-25",
+      "meeting_time": "6:00 PM",
+      "location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/urban-design-20260825-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/25/urban-design-commission-meeting"
     },
     {
       "source_file": "2026-08-26__2026_08_26_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf",
@@ -23348,6 +23366,36 @@
       "Source_File": "2026-08-20__2026_08_20_urban-forestry-committee-meeting__urban-forestry-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Urban Design Commission",
+      "Meeting_Date": "2026-08-25",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Design Recommendations: 84 Washington St",
+      "Source_File": "2026-08-25__2026_08_25_urban-design-commission-meeting__urban-design-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Design Commission",
+      "Meeting_Date": "2026-08-25",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Design Reviews: 84 Broadway",
+      "Source_File": "2026-08-25__2026_08_25_urban-design-commission-meeting__urban-design-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Design Commission",
+      "Meeting_Date": "2026-08-25",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Other Business: September Meetings",
+      "Source_File": "2026-08-25__2026_08_25_urban-design-commission-meeting__urban-design-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Community Preservation Committee",
       "Meeting_Date": "2026-08-26",
       "Meeting_Time": "6:30 PM",
@@ -23440,36 +23488,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_08_18_licensing-commission-meeting",
-      "title": "Licensing Commission Meeting",
-      "start": "2026-08-18T18:00:00-04:00",
-      "date": "2026-08-18",
-      "time": "6:00 PM",
-      "location": "City Council Chamber 93 Highland Avenue Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/08/18/licensing-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/licensing-20260818-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_Px8XT9ZLST-CpY_yh-Dhxw",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_08_18_historic-preservation-commission-meeting",
-      "title": "Historic Preservation Commission Meeting",
-      "start": "2026-08-18T18:45:00-04:00",
-      "date": "2026-08-18",
-      "time": "6:45 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/18/historic-preservation-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/historic-preservation-20260818-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_sEDM1_7nSEiIY30n4CEpBw",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_08_19_zoning-board-appeals-meeting",
       "title": "Zoning Board of Appeals Meeting",
       "start": "2026-08-19T18:00:00-04:00",
@@ -23512,7 +23530,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_20_urban-forestry-committee-meeting",
@@ -23597,12 +23615,12 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/08/25/urban-design-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/urban-design-20260825-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_9PBOY-oxSHWODm3M7DgMCA",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_08_26_community-preservation-committee-meeting",
@@ -23618,6 +23636,21 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_p8a16nq7SQOsa-Dt5K4J8w",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_27_metro-boston-homeland-security-regions-jpoc-meeting",
+      "title": "Metro Boston Homeland Security Region's JPOC Meeting",
+      "start": "2026-08-27T10:30:00-04:00",
+      "date": "2026-08-27",
+      "time": "10:30 AM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/27/metro-boston-homeland-security-regions-jpoc-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_08_27_city-council-meeting",
@@ -23661,6 +23694,21 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_r5B0mGmVSJ-Ukrrwgtanvw",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_02_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-09-02T18:00:00-04:00",
+      "date": "2026-09-02",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/02/zoning-board-appeals-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_BKqmcmheRAaJ32VOrPXwfw",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
