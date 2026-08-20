@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-19",
+    "processed_date": "2026-08-20",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -956,6 +956,11 @@
         "filename": "2026-08-25__2026_08_25_urban-design-commission-meeting__urban-design-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 3
+      },
+      {
+        "filename": "2026-09-03__2026_09_03_land-use-committee-meeting__land-use-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
       }
     ]
   },
@@ -3442,6 +3447,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/community-preservation-20260826-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/08/26/community-preservation-committee-meeting"
+    },
+    {
+      "source_file": "2026-09-03__2026_09_03_land-use-committee-meeting__land-use-committee-meeting.pdf",
+      "occur_id": "2026_09_03_land-use-committee-meeting",
+      "committee_name": "Land Use Committee",
+      "meeting_date": "2026-09-03",
+      "meeting_time": "6:30 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436945&GUID=055339BF-96E8-4F58-B0F1-CACF3AA09E0D",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/03/land-use-committee-meeting"
     }
   ],
   "items": [
@@ -23484,24 +23502,49 @@
       "Item_Type": "Report",
       "Agenda_Topic": "Administrative Updates",
       "Source_File": "2026-08-26__2026_08_26_community-preservation-committee-meeting__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Land Use Committee",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0746",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval of the Urban Center Housing Tax Increment Financing (UCH-TIF) Zone, Plan, and Form of Agreement for Assembly Square and East Somerville.",
+      "Source_File": "2026-09-03__2026_09_03_land-use-committee-meeting__land-use-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Land Use Committee",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0835",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Proposing an amendment to Section 2.1.1 of the Zoning Ordinance regarding Homeless Shelters.",
+      "Source_File": "2026-09-03__2026_09_03_land-use-committee-meeting__land-use-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Land Use Committee",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0942",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Land Use Committee Meeting of May 21, 2026.",
+      "Source_File": "2026-09-03__2026_09_03_land-use-committee-meeting__land-use-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Land Use Committee",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1147",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Land Use Committee Meeting of June 18, 2026.",
+      "Source_File": "2026-09-03__2026_09_03_land-use-committee-meeting__land-use-committee-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_08_19_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-08-19T18:00:00-04:00",
-      "date": "2026-08-19",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/19/zoning-board-appeals-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/zoning-20260819-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_mbud48SCSL2Zzknisvbxfw",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_08_20_massdot-office-outdoor-advertising-public-meeting",
       "title": "MassDOT Office of Outdoor Advertising Public Meeting",
@@ -23620,7 +23663,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_9PBOY-oxSHWODm3M7DgMCA",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_26_community-preservation-committee-meeting",
@@ -23711,6 +23754,36 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_BKqmcmheRAaJ32VOrPXwfw",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_03_planning-board-meeting",
+      "title": "Planning Board Meeting",
+      "start": "2026-09-03T18:00:00-04:00",
+      "date": "2026-09-03",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/03/planning-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_F1z60LZbRO65RDKlAlDuow",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_03_land-use-committee-meeting",
+      "title": "Land Use Committee Meeting",
+      "start": "2026-09-03T18:30:00-04:00",
+      "date": "2026-09-03",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/03/land-use-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436945&GUID=055339BF-96E8-4F58-B0F1-CACF3AA09E0D",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }

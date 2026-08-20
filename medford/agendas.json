@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-19",
+    "processed_date": "2026-08-20",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -654,6 +654,11 @@
       },
       {
         "filename": "2026-08-26__26380__conservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-08-24__26381__library-board-of-trustees-meeting.pdf",
         "status": "parsed",
         "item_count": 6
       }
@@ -14031,6 +14036,66 @@
       "Source_File": "2026-08-19__26377__climate-equity-council-meeting.pdf"
     },
     {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-08-24",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-08-24__26381__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-08-24",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review and Approval of June and July Minutes",
+      "Source_File": "2026-08-24__26381__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-08-24",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Director's Report",
+      "Source_File": "2026-08-24__26381__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-08-24",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "4a",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Digitization Project Update",
+      "Source_File": "2026-08-24__26381__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-08-24",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Old Business",
+      "Source_File": "2026-08-24__26381__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees",
+      "Meeting_Date": "2026-08-24",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session",
+      "Source_File": "2026-08-24__26381__library-board-of-trustees-meeting.pdf"
+    },
+    {
       "Committee_Name": "City of Medford Conservation Commission",
       "Meeting_Date": "2026-08-26",
       "Meeting_Time": "6:30 PM",
@@ -15770,6 +15835,19 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26377"
     },
     {
+      "source_file": "2026-08-24__26381__library-board-of-trustees-meeting.pdf",
+      "occur_id": "26381",
+      "committee_name": "Library Board of Trustees",
+      "meeting_date": "2026-08-24",
+      "meeting_time": "9:30 AM",
+      "location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1pyBXxUl7mUb1coLq56Dzm9F7dV36IL-Q/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26381"
+    },
+    {
       "source_file": "2026-08-26__26380__conservation-commission-meeting.pdf",
       "occur_id": "26380",
       "committee_name": "City of Medford Conservation Commission",
@@ -15785,34 +15863,19 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "26377",
-      "title": "Climate Equity Council Meeting",
-      "start": "2026-08-19T18:30:00-04:00",
-      "date": "2026-08-19",
-      "time": "6:30 PM",
+      "occur_id": "26381",
+      "title": "Library Board of Trustees Meeting",
+      "start": "2026-08-24T09:30:00-04:00",
+      "date": "2026-08-24",
+      "time": "9:30 AM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26377",
-      "agenda_url": "https://drive.google.com/file/d/1-l71XkVR1bkMw00H-e2_QjQiyDVt2Wa5/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26381",
+      "agenda_url": "https://docs.google.com/document/d/1pyBXxUl7mUb1coLq56Dzm9F7dV36IL-Q/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
       "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/81731743583",
+      "zoom_url": "https://us02web.zoom.us/j/87311556125?pwd=QkEoYbpKIh3afZEsJlxcHCShUESrPa.1",
       "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "26315",
-      "title": "Elections Comission Meeting",
-      "start": "2026-08-19T19:00:00-04:00",
-      "date": "2026-08-19",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26315",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "26380",
@@ -15827,7 +15890,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/82928229310",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "18143",
