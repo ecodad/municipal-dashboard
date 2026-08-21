@@ -15875,7 +15875,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/87311556125?pwd=QkEoYbpKIh3afZEsJlxcHCShUESrPa.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "26380",
