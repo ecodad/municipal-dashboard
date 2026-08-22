@@ -23746,7 +23746,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/85260373195",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_27_metro-boston-homeland-security-regions-jpoc-meeting",
