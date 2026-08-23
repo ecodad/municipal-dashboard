@@ -23794,6 +23794,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_09_01_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-09-01T18:00:00-04:00",
+      "date": "2026-09-01",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/01/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1439444&GUID=7347A7DE-9851-4F77-A0B8-01D5D5CB757D",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_09_01_historic-preservation-commission-meeting",
       "title": "Historic Preservation Commission Meeting",
       "start": "2026-09-01T18:45:00-04:00",
