@@ -15878,6 +15878,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "26382",
+      "title": "School Committee Meeting",
+      "start": "2026-08-24T17:00:00-04:00",
+      "date": "2026-08-24",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26382",
+      "agenda_url": "/uploaded/2026.08.24_(1).REG_REV_MSC_MTG_FINAL_3pdf.pdf",
+      "agenda_type": "OTHER",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/98308033909?pwd=5G3mucyyIhdwuAQaqPQ3RByROrFFf0.1#success",
+      "has_livestream": false,
+      "pipeline_status": "unsupported"
+    },
+    {
       "occur_id": "26380",
       "title": "Conservation Commission Meeting",
       "start": "2026-08-26T18:30:00-04:00",

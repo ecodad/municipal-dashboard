@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-21",
+    "processed_date": "2026-08-24",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -966,6 +966,16 @@
         "filename": "2026-08-26__2026_08_26_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 14
+      },
+      {
+        "filename": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 18
+      },
+      {
+        "filename": "2026-08-27__2026_08_27_retirement-board-meeting__retirement-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 1
       }
     ]
   },
@@ -3454,6 +3464,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/08/26/community-preservation-committee-meeting"
     },
     {
+      "source_file": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf",
+      "occur_id": "2026_08_26_review-multiple-member-bodies-committee-meeting",
+      "committee_name": "Review of Multiple-Member Bodies Committee",
+      "meeting_date": "2026-08-26",
+      "meeting_time": "6:00 PM",
+      "location": "Remote participation via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/multiple-member-bodies-20260826-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/26/review-multiple-member-bodies-committee-meeting"
+    },
+    {
       "source_file": "2026-08-26__2026_08_26_human-rights-commission-meeting__human-rights-commission-meeting.pdf",
       "occur_id": "2026_08_26_human-rights-commission-meeting",
       "committee_name": "Somerville Human Rights Commission",
@@ -3465,6 +3488,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/human-rights-commission-20260826-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/08/26/human-rights-commission-meeting"
+    },
+    {
+      "source_file": "2026-08-27__2026_08_27_retirement-board-meeting__retirement-board-meeting.pdf",
+      "occur_id": "2026_08_27_retirement-board-meeting",
+      "committee_name": "Somerville Retirement Board",
+      "meeting_date": "2026-08-27",
+      "meeting_time": "10:00 AM",
+      "location": "Conference Room 323 Broadway Somerville , MA 02145 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/retirement-20260827-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/27/retirement-board-meeting"
     },
     {
       "source_file": "2026-09-03__2026_09_03_land-use-committee-meeting__land-use-committee-meeting.pdf",
@@ -23662,6 +23698,196 @@
       "Source_File": "2026-08-26__2026_08_26_human-rights-commission-meeting__human-rights-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call of the Roll",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Committee logistics and standards",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of committee approach and process",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Resident concerns",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Public comment by Harriotte Hurie Ranvig",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.3",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Public comment by Alessandra Seiter, in her capacity as chair of the Pedestrian and Transit Advisory Committee, and Lena Webb, in her capacity as chair of the Bicycle Advisory Committee",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "4.1.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential retention of: Conservation Commission",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.1.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential retention of: Arts Council Board",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.1.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential retention of: Climate Action Commission",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.1.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential retention of: Municipal Scholarship Committee",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.1.4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential retention of: Municipal Job Creation and Retention Fund Board",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.1.5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential retention of: Traffic Commission",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.1.6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential retention of: Veterans Commission",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.2.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential dissolution of: Emergency Management Advisory Council",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential dissolution of: PILOT Advisory Task Force",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.2.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential dissolution of: Young Somerville Advisory Group",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-08-26__2026_08_26_review-multiple-member-bodies-committee-meeting__review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Retirement Board",
+      "Meeting_Date": "2026-08-27",
+      "Meeting_Time": "10:00 AM",
+      "Location": "323 Broadway, Conference Room",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Regular Meeting for the Contributory SRB Meeting",
+      "Source_File": "2026-08-27__2026_08_27_retirement-board-meeting__retirement-board-meeting.pdf"
+    },
+    {
       "Committee_Name": "Land Use Committee",
       "Meeting_Date": "2026-09-03",
       "Meeting_Time": "6:30 PM",
@@ -23719,6 +23945,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_08_26_review-multiple-member-bodies-committee-meeting",
+      "title": "Review of Multiple-Member Bodies Committee Meeting",
+      "start": "2026-08-26T18:00:00-04:00",
+      "date": "2026-08-26",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/08/26/review-multiple-member-bodies-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/multiple-member-bodies-20260826-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_T_289MDURWKAL_3VsukFZg",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_08_26_community-preservation-committee-meeting",
       "title": "Community Preservation Committee Meeting",
       "start": "2026-08-26T18:30:00-04:00",
@@ -23747,6 +23988,21 @@
       "zoom_url": "https://us02web.zoom.us/j/85260373195",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_08_27_retirement-board-meeting",
+      "title": "Retirement Board Meeting",
+      "start": "2026-08-27T10:00:00-04:00",
+      "date": "2026-08-27",
+      "time": "10:00 AM",
+      "location": "Conference Room 323 Broadway Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/08/27/retirement-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/retirement-20260827-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/91312174046",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_08_27_metro-boston-homeland-security-regions-jpoc-meeting",
