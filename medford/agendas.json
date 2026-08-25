@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-20",
+    "processed_date": "2026-08-25",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -661,6 +661,16 @@
         "filename": "2026-08-24__26381__library-board-of-trustees-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 16
+      },
+      {
+        "filename": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
       }
     ]
   },
@@ -14154,6 +14164,236 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Regulation Discussion",
       "Source_File": "2026-08-26__26380__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Opening of meeting: Call to order, Roll call, Guest introductions",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes for July, 2026 meeting",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "3",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Announcements: film at Regent and 17th BlueBikes Station installed at Myrtle Street at Fellsway",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Farmers Market Tabling Recap (Bruce)",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of 2026 Goals (Chris)",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "DCR Construction on Riverfront Path Connection Near Wellington (Chris)",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Events: Evening ride to Northern Strand, Tufts Community Day, Harvest Your Energy, Medford Maker Fair and Craft Supply Swap",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Website Updates (Chris)",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "9",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Facebook and other social media (Adam)",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "10",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Future meeting day/times (Chris)",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "11",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "MBAC Google Drive access (Chris, Bruce)",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "12",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Lights and Helmets (Ernie)",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "13",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Updates on High Street/Mystic River rotary repainting",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "14",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "New Members: contact mayor's office and list of interested people",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "15",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "MBAC Roles & Responsibilities doc (Chris)",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Bicycle Advisory Commission",
+      "Meeting_Date": "2026-08-26",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "Item_Number": "16",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Close Meeting",
+      "Source_File": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-08-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000007/NZN-000008",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "1-3 Vassar Street, Case#(NZN-000007&NZN-000008) – Continued from July 30, 2026 - Applicant Christian Austin to construct two (2) shed dormers and expand the existing attic space to create a full third story for purposes of a protected ADU at 1-3 Vassar Street which is in a General Residence (GR) Zoning District requiring a Variance and/or Finding pursuant to M.G.L.c 40A§3.",
+      "Source_File": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-08-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000009",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "12 Wellesley Street, Case#(NZN-000009) – Continued from July 30, 2026 - Applicant Christian Austin to construct two (2) shed dormers and expand the existing attic space to create a full third story at 12 Wellesley Street for purposes of a protected ADU which is in a General Residence (GR) Zoning District requiring a Variance and/or a Finding pursuant to M.G.L.c 40A§3.",
+      "Source_File": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-08-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000015",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "501 High Street, Case #(NZN-000015) - Applicant Everett Bank to install an on-premises projecting sign at 501 High Street that is larger than that permitted by the Medford Zoning Ordinance Ch. 94-6.2.13(4).",
+      "Source_File": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-08-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000017",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "26 Second Street, Case#(NZN-000017) - Applicant R&N Properties LLC for a special permit in accordance with Chapter 94-5.4 of the Medford Zoning Ordinance to extend the existing dormer on the right side of the property at 26 Second Street from 5.5 feet to 13.3 feet for an increase of 7.8 feet.",
+      "Source_File": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-08-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "NZN-000018",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "73 Surrey Street, Case#(NZN-000018) - Applicant Claudio Goncalves to convert an existing non-conforming single-family dwelling at 73 Surrey Street to a two-family dwelling which is in a General Residence (GR) Zoning District and is an allowed use.",
+      "Source_File": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-08-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "E",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Administrative Updates including Approval of Meeting Minutes and Discussion of Rules",
+      "Source_File": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-08-27",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Remote via Zoom",
+      "Item_Number": "F",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf"
     }
   ],
   "meetings": [
@@ -15859,39 +16099,35 @@
       "agenda_url": "https://docs.google.com/document/d/1vyrAFjRZWod1oNpXdY7I_kgCLXOJAorJ/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26380"
+    },
+    {
+      "source_file": "2026-08-26__26451__bicycle-advisory-commission-meeting.pdf",
+      "occur_id": "26451",
+      "committee_name": "Medford Bicycle Advisory Commission",
+      "meeting_date": "2026-08-26",
+      "meeting_time": "7:00 PM",
+      "location": "Join Zoom Meeting https://us06.zoom.us/j/87538063188 (Meeting ID: 875 3806 3188)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/17URHV8LdMBviwTcHGQiWAq5uQpOySFQC/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26451"
+    },
+    {
+      "source_file": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf",
+      "occur_id": "26513",
+      "committee_name": "Zoning Board of Appeals",
+      "meeting_date": "2026-08-27",
+      "meeting_time": "6:30 PM",
+      "location": "Remote via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1zN2BigG1sxdYTatyISgAv8aVaF6FKDPJ/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26513"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "26381",
-      "title": "Library Board of Trustees Meeting",
-      "start": "2026-08-24T09:30:00-04:00",
-      "date": "2026-08-24",
-      "time": "9:30 AM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26381",
-      "agenda_url": "https://docs.google.com/document/d/1pyBXxUl7mUb1coLq56Dzm9F7dV36IL-Q/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/87311556125?pwd=QkEoYbpKIh3afZEsJlxcHCShUESrPa.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "26382",
-      "title": "School Committee Meeting",
-      "start": "2026-08-24T17:00:00-04:00",
-      "date": "2026-08-24",
-      "time": "5:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26382",
-      "agenda_url": "/uploaded/2026.08.24_(1).REG_REV_MSC_MTG_FINAL_3pdf.pdf",
-      "agenda_type": "OTHER",
-      "has_zoom": true,
-      "zoom_url": "https://mps02155-org.zoom.us/j/98308033909?pwd=5G3mucyyIhdwuAQaqPQ3RByROrFFf0.1#success",
-      "has_livestream": false,
-      "pipeline_status": "unsupported"
-    },
     {
       "occur_id": "26380",
       "title": "Conservation Commission Meeting",
@@ -15908,19 +16144,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "18143",
+      "occur_id": "26451",
       "title": "Bicycle Advisory Commission Meeting",
       "start": "2026-08-26T19:00:00-04:00",
       "date": "2026-08-26",
       "time": "7:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18143",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26451",
+      "agenda_url": "https://drive.google.com/file/d/17URHV8LdMBviwTcHGQiWAq5uQpOySFQC/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/87538063188",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "25933",
@@ -15938,19 +16174,19 @@
       "pipeline_status": "unsupported"
     },
     {
-      "occur_id": "22852",
+      "occur_id": "26513",
       "title": "Zoning Board of Appeals Meeting",
       "start": "2026-08-27T18:30:00-04:00",
       "date": "2026-08-27",
       "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22852",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26513",
+      "agenda_url": "https://drive.google.com/file/d/1zN2BigG1sxdYTatyISgAv8aVaF6FKDPJ/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/91222064272",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "18402",
@@ -15979,6 +16215,51 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "7622",
+      "title": "Traffic Commission Meeting",
+      "start": "2026-09-08T17:00:00-04:00",
+      "date": "2026-09-08",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/7622",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "12014",
+      "title": "Community Preservation Committee Meeting",
+      "start": "2026-09-08T18:30:00-04:00",
+      "date": "2026-09-08",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/12014",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "19008",
+      "title": "Community Garden Commission Meeting",
+      "start": "2026-09-08T19:00:00-04:00",
+      "date": "2026-09-08",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/19008",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
       "has_livestream": false,
       "pipeline_status": "missing"
     }
