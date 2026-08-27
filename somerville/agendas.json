@@ -25190,66 +25190,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_08_25_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-08-25T18:00:00-04:00",
-      "date": "2026-08-25",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/25/urban-design-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/urban-design-20260825-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_9PBOY-oxSHWODm3M7DgMCA",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_08_26_review-multiple-member-bodies-committee-meeting",
-      "title": "Review of Multiple-Member Bodies Committee Meeting",
-      "start": "2026-08-26T18:00:00-04:00",
-      "date": "2026-08-26",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/26/review-multiple-member-bodies-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/multiple-member-bodies-20260826-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_T_289MDURWKAL_3VsukFZg",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_08_26_community-preservation-committee-meeting",
-      "title": "Community Preservation Committee Meeting",
-      "start": "2026-08-26T18:30:00-04:00",
-      "date": "2026-08-26",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/26/community-preservation-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/community-preservation-20260826-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_p8a16nq7SQOsa-Dt5K4J8w",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_08_26_human-rights-commission-meeting",
-      "title": "Human Rights Commission Meeting",
-      "start": "2026-08-26T18:30:00-04:00",
-      "date": "2026-08-26",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/08/26/human-rights-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/human-rights-commission-20260826-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/85260373195",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_08_27_retirement-board-meeting",
       "title": "Retirement Board Meeting",
       "start": "2026-08-27T10:00:00-04:00",
@@ -25292,7 +25232,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/89898311438?pwd=Us5OvWbtRX0XgvLjNJAtN8TrDVQUj4.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_27_veterans-commission-special-meeting",
@@ -25307,7 +25247,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_HdjbJf1dTQmdTlyEIW7F4g",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_27_city-council-meeting",
@@ -25322,7 +25262,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_08_31_school-committee-regular-meeting",
@@ -25352,7 +25292,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_YouHtsVBR_6mcY1ZPg_r_Q",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_01_finance-committee-meeting",
@@ -25430,6 +25370,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
+      "title": "School Building Facilities and Maintenance Committee Meeting",
+      "start": "2026-09-08T18:00:00-04:00",
+      "date": "2026-09-08",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/school-building-facilities-and-maintenance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436944&GUID=0FD8A6AC-54AB-49C3-95BC-9D54D228F4EF",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_09_08_urban-design-commission-meeting",
       "title": "Urban Design Commission Meeting",
       "start": "2026-09-08T18:00:00-04:00",
@@ -25457,17 +25412,17 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
-      "title": "School Building Facilities and Maintenance Committee Meeting",
-      "start": "2026-09-08T18:00:00-04:00",
-      "date": "2026-09-08",
-      "time": "6:00 PM",
+      "occur_id": "2026_09_10_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-09-10T19:00:00-04:00",
+      "date": "2026-09-10",
+      "time": "7:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/school-building-facilities-and-maintenance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436944&GUID=0FD8A6AC-54AB-49C3-95BC-9D54D228F4EF",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/10/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1428400&GUID=F7F38A04-553B-48D5-A4ED-DE843BE77F26",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,

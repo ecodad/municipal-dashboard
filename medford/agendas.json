@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-25",
+    "processed_date": "2026-08-27",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -671,6 +671,16 @@
         "filename": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf",
         "status": "parsed",
         "item_count": 7
+      },
+      {
+        "filename": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
+      },
+      {
+        "filename": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 11
       }
     ]
   },
@@ -14394,6 +14404,206 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-08-27__26513__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-09-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New Business",
+      "Source_File": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-09-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Superintendent's Report",
+      "Source_File": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-09-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Next Meeting Date",
+      "Source_File": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-09-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "A",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review and approval of prior meeting Minutes",
+      "Source_File": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-09-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "B",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "WWI Monument",
+      "Source_File": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-09-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "C",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Garage / Service Bldg. / Office / Caretaker's Quarters",
+      "Source_File": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-09-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "D",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "7 Acre Parcel New Lawns Project",
+      "Source_File": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-09-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "E",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Road Improvements Project",
+      "Source_File": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Oak Grove Cemetery Board of Trustees",
+      "Meeting_Date": "2026-09-01",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote meeting (Zoom)",
+      "Item_Number": "F",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Lawn 13 Soil Pile Removal Project",
+      "Source_File": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Resource Fair Update and Logistics Discussion",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Future Funding Requests",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Affordable Housing Linkage Fee Nexus Study Update",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "6",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Fractional Payment Ordinance Update",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "7",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Affordable Housing Incentive Bonus in Zoning Ordinance Overview",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Formalized Application Templates",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "9",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New Trustee Update",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "10",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Regular Status Updates",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Affordable Housing Trust",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "Item_Number": "11",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
     }
   ],
   "meetings": [
@@ -16125,39 +16335,35 @@
       "agenda_url": "https://drive.google.com/file/d/1zN2BigG1sxdYTatyISgAv8aVaF6FKDPJ/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26513"
+    },
+    {
+      "source_file": "2026-09-01__26586__oak-grove-cemetery-board-of-trustees-monthly-meeting.pdf",
+      "occur_id": "26586",
+      "committee_name": "Oak Grove Cemetery Board of Trustees",
+      "meeting_date": "2026-09-01",
+      "meeting_time": "7:00 PM",
+      "location": "Remote meeting (Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/19jVvJS81v7v1Vyean6w4ejznAHsyyh8S/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26586"
+    },
+    {
+      "source_file": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf",
+      "occur_id": "26585",
+      "committee_name": "Medford Affordable Housing Trust",
+      "meeting_date": "2026-09-02",
+      "meeting_time": "6:00 PM",
+      "location": "Room 201, 2nd Floor, Medford City Hall, 85 George P Hassett Dr, Medford, MA 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1AKyQpm8viS2lvrRs2itp9tGEHNBDc28v/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26585"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "26380",
-      "title": "Conservation Commission Meeting",
-      "start": "2026-08-26T18:30:00-04:00",
-      "date": "2026-08-26",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26380",
-      "agenda_url": "https://docs.google.com/document/d/1vyrAFjRZWod1oNpXdY7I_kgCLXOJAorJ/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/82928229310",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "26451",
-      "title": "Bicycle Advisory Commission Meeting",
-      "start": "2026-08-26T19:00:00-04:00",
-      "date": "2026-08-26",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26451",
-      "agenda_url": "https://drive.google.com/file/d/17URHV8LdMBviwTcHGQiWAq5uQpOySFQC/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/87538063188",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
     {
       "occur_id": "25933",
       "title": "Retirement Board Meeting",
@@ -16186,22 +16392,37 @@
       "has_zoom": true,
       "zoom_url": "https://zoom.us/j/91222064272",
       "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "26586",
+      "title": "Oak Grove Cemetery Board of Trustees Monthly Meeting",
+      "start": "2026-09-01T19:00:00-04:00",
+      "date": "2026-09-01",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26586",
+      "agenda_url": "https://drive.google.com/file/d/19jVvJS81v7v1Vyean6w4ejznAHsyyh8S/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82759527480?pwd=aq96haWV872Y67mtZwIDuHV56xMHPo.1",
+      "has_livestream": false,
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "18402",
+      "occur_id": "26585",
       "title": "Affordable Housing Trust Board Meeting",
       "start": "2026-09-02T18:00:00-04:00",
       "date": "2026-09-02",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18402",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26585",
+      "agenda_url": "https://drive.google.com/file/d/1AKyQpm8viS2lvrRs2itp9tGEHNBDc28v/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/86069190688",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "24615",
@@ -16260,6 +16481,21 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "17046",
+      "title": "Historic District Commission Meeting",
+      "start": "2026-09-10T18:00:00-04:00",
+      "date": "2026-09-10",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/17046",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     }
