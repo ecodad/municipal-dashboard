@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-08-27",
+    "processed_date": "2026-09-01",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -681,6 +681,16 @@
         "filename": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf",
         "status": "parsed",
         "item_count": 11
+      },
+      {
+        "filename": "2026-09-02__26595__community-development-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-09-02__26596__conservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
       }
     ]
   },
@@ -14604,6 +14614,136 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting to Order",
+      "Source_File": "2026-09-02__26595__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "2",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "Continued Public Hearing (Board Deliberation): Zoning Amendment: Boston Avenue Neighborhood Corridor District",
+      "Source_File": "2026-09-02__26595__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "3",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "New Public Hearing: 70 Lincoln Road- Special Permit - Application by Sameul and Beverly D'Agostino for a Special Permit to construct a second single family structure on the same lot in the SF-1 zoning district.",
+      "Source_File": "2026-09-02__26595__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "4",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "New Public Hearing: Zoning Amendment-Deletion of Section 94-7.5 (Vacant and Foreclosing Properties)",
+      "Source_File": "2026-09-02__26595__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Zoning Project Timeline and other Administrative Updates",
+      "Source_File": "2026-09-02__26595__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "6",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes",
+      "Source_File": "2026-09-02__26595__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Community Development Board",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "Item_Number": "7",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-02__26595__community-development-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for Determination of Applicability – Condon Shell Lights – targeted pavement repairs, removal/installation of stage lights and pedestrian lights within 200-foot Riverfront Area, Bordering Land Subject to Flooding and 100-foot Buffer Zone to Bank",
+      "Source_File": "2026-09-02__26596__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Future Projects",
+      "Source_File": "2026-09-02__26596__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Conservation Restriction Discussion – Friends of Fellsmere Heights",
+      "Source_File": "2026-09-02__26596__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Ongoing Projects",
+      "Source_File": "2026-09-02__26596__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "5",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-09-02__26596__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Conservation Commission",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of Proposed Regulations",
+      "Source_File": "2026-09-02__26596__conservation-commission-meeting.pdf"
     }
   ],
   "meetings": [
@@ -16350,6 +16490,32 @@
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26586"
     },
     {
+      "source_file": "2026-09-02__26596__conservation-commission-meeting.pdf",
+      "occur_id": "26596",
+      "committee_name": "City of Medford Conservation Commission",
+      "meeting_date": "2026-09-02",
+      "meeting_time": "6:30 PM",
+      "location": "Medford City Hall, 85 George P. Hassett Drive, Room 205, Medford, Massachusetts 02155",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1VCCqWPTUGsynSu8MvZhzr8TdlvmniDIf/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26596"
+    },
+    {
+      "source_file": "2026-09-02__26595__community-development-board-meeting.pdf",
+      "occur_id": "26595",
+      "committee_name": "Community Development Board",
+      "meeting_date": "2026-09-02",
+      "meeting_time": "6:30 PM",
+      "location": "REMOTE Via Zoom: https://us06web.zoom.us/j/95629298475",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1EdsSGs1ArSOVQ5psq99VAXmpzFuez6b7/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26595"
+    },
+    {
       "source_file": "2026-09-02__26585__affordable-housing-trust-board-meeting.pdf",
       "occur_id": "26585",
       "committee_name": "Medford Affordable Housing Trust",
@@ -16365,36 +16531,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "25933",
-      "title": "Retirement Board Meeting",
-      "start": "2026-08-27T09:30:00-04:00",
-      "date": "2026-08-27",
-      "time": "9:30 AM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25933",
-      "agenda_url": "https://drive.google.com/drive/folders/1KuYuX_vDmO0bkZh5EHy-auJQ792PplpI",
-      "agenda_type": "OTHER",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "unsupported"
-    },
-    {
-      "occur_id": "26513",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-08-27T18:30:00-04:00",
-      "date": "2026-08-27",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26513",
-      "agenda_url": "https://drive.google.com/file/d/1zN2BigG1sxdYTatyISgAv8aVaF6FKDPJ/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://zoom.us/j/91222064272",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "26586",
       "title": "Oak Grove Cemetery Board of Trustees Monthly Meeting",
       "start": "2026-09-01T19:00:00-04:00",
@@ -16407,7 +16543,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/82759527480?pwd=aq96haWV872Y67mtZwIDuHV56xMHPo.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "26585",
@@ -16422,22 +16558,37 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/86069190688",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "24615",
+      "occur_id": "26595",
       "title": "Community Development Board Meeting",
       "start": "2026-09-02T18:30:00-04:00",
       "date": "2026-09-02",
       "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24615",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26595",
+      "agenda_url": "https://drive.google.com/file/d/1EdsSGs1ArSOVQ5psq99VAXmpzFuez6b7/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/95629298475",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "26596",
+      "title": "Conservation Commission Meeting",
+      "start": "2026-09-02T18:30:00-04:00",
+      "date": "2026-09-02",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26596",
+      "agenda_url": "https://docs.google.com/document/d/1VCCqWPTUGsynSu8MvZhzr8TdlvmniDIf/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82928229310",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "7622",
@@ -16492,6 +16643,51 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/17046",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "23799",
+      "title": "Energy & Environment Committee Meeting",
+      "start": "2026-09-14T18:30:00-04:00",
+      "date": "2026-09-14",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23799",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "11288",
+      "title": "Historical Commission Meeting",
+      "start": "2026-09-14T19:00:00-04:00",
+      "date": "2026-09-14",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/11288",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/96236192680",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "26587",
+      "title": "City Council Meeting",
+      "start": "2026-09-15T19:00:00-04:00",
+      "date": "2026-09-15",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26587",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
