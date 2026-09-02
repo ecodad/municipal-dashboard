@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-09-01",
+    "processed_date": "2026-09-02",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -1031,6 +1031,21 @@
         "filename": "2026-09-09__2026_09_09_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 2
+      },
+      {
+        "filename": "2026-09-02__2026_09_02_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
+      },
+      {
+        "filename": "2026-09-03__2026_09_03_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 9
       }
     ]
   },
@@ -3636,6 +3651,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/02/redevelopment-authority-meeting"
     },
     {
+      "source_file": "2026-09-02__2026_09_02_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf",
+      "occur_id": "2026_09_02_zoning-board-appeals-meeting",
+      "committee_name": "Zoning Board of Appeals",
+      "meeting_date": "2026-09-02",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/zoning-20260902-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/02/zoning-board-appeals-meeting"
+    },
+    {
       "source_file": "2026-09-03__2026_09_03_finance-committee-meeting__finance-committee-meeting.pdf",
       "occur_id": "2026_09_03_finance-committee-meeting",
       "committee_name": "Finance Committee",
@@ -3673,6 +3701,32 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/planning-20260903-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/09/03/planning-board-meeting"
+    },
+    {
+      "source_file": "2026-09-03__2026_09_03_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf",
+      "occur_id": "2026_09_03_bicycle-advisory-committee-meeting",
+      "committee_name": "Somerville Bicycle Advisory Committee",
+      "meeting_date": "2026-09-03",
+      "meeting_time": "6:30 PM",
+      "location": "Tufts Administration Building, Room 211N 167 Holland St. Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/bicycle-advisory-20260903-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/03/bicycle-advisory-committee-meeting"
+    },
+    {
+      "source_file": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf",
+      "occur_id": "2026_09_03_veterans-commission-meeting",
+      "committee_name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "meeting_date": "2026-09-03",
+      "meeting_time": "4:30 PM",
+      "location": "Virtual (Remote Only)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/veterans-20260903-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/03/veterans-commission-meeting"
     },
     {
       "source_file": "2026-09-04__2026_09_04_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -25286,6 +25340,96 @@
       "Source_File": "2026-09-02__2026_09_02_redevelopment-authority-meeting__redevelopment-authority-meeting.pdf"
     },
     {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes of August 5, 2026",
+      "Source_File": "2026-09-02__2026_09_02_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "MGL 40A Changes to Variance Criteria",
+      "Source_File": "2026-09-02__2026_09_02_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "3",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Board Jurisdiction Zoning Amendment",
+      "Source_File": "2026-09-02__2026_09_02_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-09-02",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "ZP26-000057",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "180 Somerville Ave - ZP26-000057: Seth Anderson seeks to expand the existing formula business into the neighboring vacant storefront, requiring a Special Permit for the expansion of a pre-existing nonconforming formula business.",
+      "Source_File": "2026-09-02__2026_09_02_zoning-board-appeals-meeting__zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Room 211N, 167 Holland Street, Somerville, MA 02144 (hybrid meeting)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Procedural, General Business & Updates (15 minutes)",
+      "Source_File": "2026-09-03__2026_09_03_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Room 211N, 167 Holland Street, Somerville, MA 02144 (hybrid meeting)",
+      "Item_Number": "1.1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of August meeting minutes",
+      "Source_File": "2026-09-03__2026_09_03_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Room 211N, 167 Holland Street, Somerville, MA 02144 (hybrid meeting)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Update: Safe Routes to School partnership (10 minutes)",
+      "Source_File": "2026-09-03__2026_09_03_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Room 211N, 167 Holland Street, Somerville, MA 02144 (hybrid meeting)",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Focus: Highland Ave - Discussion of SBAC priorities for a future redesign (20 minutes)",
+      "Source_File": "2026-09-03__2026_09_03_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Bicycle Advisory Committee",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Tufts Administration Building, Room 211N, 167 Holland Street, Somerville, MA 02144 (hybrid meeting)",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "City Updates (15 minutes)",
+      "Source_File": "2026-09-03__2026_09_03_bicycle-advisory-committee-meeting__bicycle-advisory-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Finance Committee",
       "Meeting_Date": "2026-09-03",
       "Meeting_Time": "6:00 PM",
@@ -25616,6 +25760,96 @@
       "Source_File": "2026-09-03__2026_09_03_planning-board-meeting__planning-board-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call meeting to order",
+      "Source_File": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approve Prior Months' Minutes",
+      "Source_File": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "4a",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Hero Square Dedications",
+      "Source_File": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "4b",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Monuments & Memorials",
+      "Source_File": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "4c",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Events",
+      "Source_File": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "4d",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion: Open to guests/public comments",
+      "Source_File": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Veterans' Commission on Monuments, Memorials & Dedications (VetCMMD)",
+      "Meeting_Date": "2026-09-03",
+      "Meeting_Time": "4:30 PM",
+      "Location": "Virtual (Remote Only)",
+      "Item_Number": "6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Next meeting",
+      "Source_File": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Council on Aging Board of Directors",
       "Meeting_Date": "2026-09-04",
       "Meeting_Time": "11:00 AM",
@@ -25758,36 +25992,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_09_01_traffic-commission-meeting",
-      "title": "Traffic Commission Meeting",
-      "start": "2026-09-01T17:30:00-04:00",
-      "date": "2026-09-01",
-      "time": "5:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/01/traffic-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/traffic-commission-20260901-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_YouHtsVBR_6mcY1ZPg_r_Q",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_01_historic-preservation-commission-meeting",
-      "title": "Historic Preservation Commission Meeting",
-      "start": "2026-09-01T18:45:00-04:00",
-      "date": "2026-09-01",
-      "time": "6:45 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/01/historic-preservation-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/historic-preservation-20260901-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_r5B0mGmVSJ-Ukrrwgtanvw",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_09_02_redevelopment-authority-meeting",
       "title": "Redevelopment Authority Meeting",
       "start": "2026-09-02T17:30:00-04:00",
@@ -25800,7 +26004,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN__9B2gmQ-SqKq9cLIi1Xy3A",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_02_zoning-board-appeals-meeting",
@@ -25818,17 +26022,17 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_09_03_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-09-03T18:00:00-04:00",
+      "occur_id": "2026_09_03_veterans-commission-meeting",
+      "title": "Veterans’ Commission Meeting",
+      "start": "2026-09-03T16:30:00-04:00",
       "date": "2026-09-03",
-      "time": "6:00 PM",
+      "time": "4:30 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/03/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1439444&GUID=7347A7DE-9851-4F77-A0B8-01D5D5CB757D",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/03/veterans-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/veterans-20260903-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7JohBo4WTGWqvr_MDwmqAw",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -25845,7 +26049,22 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_F1z60LZbRO65RDKlAlDuow",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_09_03_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-09-03T18:00:00-04:00",
+      "date": "2026-09-03",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/03/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1439444&GUID=7347A7DE-9851-4F77-A0B8-01D5D5CB757D",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_03_land-use-committee-meeting",
@@ -25863,6 +26082,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_03_bicycle-advisory-committee-meeting",
+      "title": "Bicycle Advisory Committee Meeting",
+      "start": "2026-09-03T18:30:00-04:00",
+      "date": "2026-09-03",
+      "time": "6:30 PM",
+      "location": "Tufts Administration Building, Room 211N 167 Holland St. Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/03/bicycle-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/bicycle-advisory-20260903-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/87897867185?pwd=2fbOYQtZVzEQ3J90ilVTMqBB26Zak8.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_09_04_council-aging-board-meeting",
       "title": "Council on Aging Board Meeting",
       "start": "2026-09-04T11:00:00-04:00",
@@ -25875,7 +26109,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
@@ -25893,36 +26127,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_09_08_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-09-08T18:00:00-04:00",
-      "date": "2026-09-08",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/urban-design-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_09_08_legislative-matters-committee-meeting",
-      "title": "Legislative Matters Committee Meeting",
-      "start": "2026-09-08T18:00:00-04:00",
-      "date": "2026-09-08",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/legislative-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1437301&GUID=99E2A6A5-CE45-45AD-82B7-84D61D86B7DC",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_09_09_licenses-and-permits-committee-meeting",
       "title": "Licenses and Permits Committee Meeting",
       "start": "2026-09-09T18:30:00-04:00",
@@ -25935,7 +26139,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_10_city-council-meeting",
@@ -25994,6 +26198,36 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_WzfdxgnoRGCutE2dnLOxgA",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_16_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-09-16T18:00:00-04:00",
+      "date": "2026-09-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/zoning-board-appeals-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
+      "title": "School Committee Finance and Facilities Subcommittee Meeting",
+      "start": "2026-09-16T18:00:00-04:00",
+      "date": "2026-09-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     }

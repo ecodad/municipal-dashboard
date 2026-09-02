@@ -16531,21 +16531,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "26586",
-      "title": "Oak Grove Cemetery Board of Trustees Monthly Meeting",
-      "start": "2026-09-01T19:00:00-04:00",
-      "date": "2026-09-01",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26586",
-      "agenda_url": "https://drive.google.com/file/d/19jVvJS81v7v1Vyean6w4ejznAHsyyh8S/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/82759527480?pwd=aq96haWV872Y67mtZwIDuHV56xMHPo.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "26585",
       "title": "Affordable Housing Trust Board Meeting",
       "start": "2026-09-02T18:00:00-04:00",
@@ -16573,7 +16558,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/95629298475",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "26596",
@@ -16588,7 +16573,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/82928229310",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "7622",
@@ -16688,6 +16673,36 @@
       "time": "7:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26587",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "16869",
+      "title": "Climate Equity Council Meeting",
+      "start": "2026-09-16T18:30:00-04:00",
+      "date": "2026-09-16",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/16869",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "20880",
+      "title": "Community Development Board Meeting",
+      "start": "2026-09-16T18:30:00-04:00",
+      "date": "2026-09-16",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/20880",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
