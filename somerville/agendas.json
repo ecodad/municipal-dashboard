@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-09-02",
+    "processed_date": "2026-09-03",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -1046,6 +1046,36 @@
         "filename": "2026-09-03__2026_09_03_veterans-commission-meeting__veterans-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 9
+      },
+      {
+        "filename": "2026-09-08__2026_09_08_armory-advisory-board-meeting__armory-advisory-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
+      },
+      {
+        "filename": "2026-09-08__2026_09_08_climate-action-commission-meeting__climate-action-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-09-08__2026_09_08_urban-design-commission-meeting__urban-design-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
+      },
+      {
+        "filename": "2026-09-15__2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-09-16__2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting__somerville-cambridge-public-health-collaborative-workgroup-m.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-09-17__2026_09_17_municipal-scholarship-committee-meeting__municipal-scholarship-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 4
       }
     ]
   },
@@ -3742,6 +3772,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/04/council-aging-board-meeting"
     },
     {
+      "source_file": "2026-09-08__2026_09_08_armory-advisory-board-meeting__armory-advisory-board-meeting.pdf",
+      "occur_id": "2026_09_08_armory-advisory-board-meeting",
+      "committee_name": "Armory Advisory Board",
+      "meeting_date": "2026-09-08",
+      "meeting_time": "5:00 PM",
+      "location": "Somerville Armory, second floor 191 Highland Ave Somerville , MA 02143 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/armory-20260908-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/armory-advisory-board-meeting"
+    },
+    {
       "source_file": "2026-09-08__2026_09_08_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf",
       "occur_id": "2026_09_08_legislative-matters-committee-meeting",
       "committee_name": "Legislative Matters Committee",
@@ -3755,6 +3798,32 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/08/legislative-matters-committee-meeting"
     },
     {
+      "source_file": "2026-09-08__2026_09_08_climate-action-commission-meeting__climate-action-commission-meeting.pdf",
+      "occur_id": "2026_09_08_climate-action-commission-meeting",
+      "committee_name": "Somerville Climate Action Commission (CAC)",
+      "meeting_date": "2026-09-08",
+      "meeting_time": "6:30 PM",
+      "location": "Somerville City Hall Annex 50 Evergreen Ave Somerville , MA 02145 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/climate-action-20260908-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/climate-action-commission-meeting"
+    },
+    {
+      "source_file": "2026-09-08__2026_09_08_urban-design-commission-meeting__urban-design-commission-meeting.pdf",
+      "occur_id": "2026_09_08_urban-design-commission-meeting",
+      "committee_name": "Urban Design Commission",
+      "meeting_date": "2026-09-08",
+      "meeting_time": "6:00 PM",
+      "location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/urban-design-20260908-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/urban-design-commission-meeting"
+    },
+    {
       "source_file": "2026-09-09__2026_09_09_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
       "occur_id": "2026_09_09_licenses-and-permits-committee-meeting",
       "committee_name": "Licenses and Permits Committee",
@@ -3766,6 +3835,45 @@
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440733&GUID=E0AA874C-F7F2-4C32-B1F0-7BA68BB55F97",
       "agenda_type": "LEGISTAR",
       "detail_url": "https://www.somervillema.gov/events/2026/09/09/licenses-and-permits-committee-meeting"
+    },
+    {
+      "source_file": "2026-09-15__2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf",
+      "occur_id": "2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting",
+      "committee_name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "meeting_date": "2026-09-15",
+      "meeting_time": "1:00 PM",
+      "location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/somerville-cambridge-public-health-20260915-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/15/somerville-cambridge-public-health-collaborative-advisory-board-meeting"
+    },
+    {
+      "source_file": "2026-09-16__2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting__somerville-cambridge-public-health-collaborative-workgroup-m.pdf",
+      "occur_id": "2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting",
+      "committee_name": "Somerville-Cambridge Public Health Collaborative",
+      "meeting_date": "2026-09-16",
+      "meeting_time": "2:00 PM",
+      "location": "Lg Conference room 119 Windsor Street Cambridge , MA 02139 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/somerville-cambridge-public-health-20260916-workgroup-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/somerville-cambridge-public-health-collaborative-workgroup-meeting"
+    },
+    {
+      "source_file": "2026-09-17__2026_09_17_municipal-scholarship-committee-meeting__municipal-scholarship-committee-meeting.pdf",
+      "occur_id": "2026_09_17_municipal-scholarship-committee-meeting",
+      "committee_name": "Somerville Municipal Scholarship Committee",
+      "meeting_date": "2026-09-17",
+      "meeting_time": "6:30 PM",
+      "location": "Online via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/municipal-scholarship-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/municipal-scholarship-committee-meeting"
     }
   ],
   "items": [
@@ -25930,6 +26038,116 @@
       "Source_File": "2026-09-04__2026_09_04_council-aging-board-meeting__council-on-aging-board-meeting.pdf"
     },
     {
+      "Committee_Name": "Armory Advisory Board",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Somerville Armory, 191 Highland Ave, Second Floor, Somerville, MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of minutes",
+      "Source_File": "2026-09-08__2026_09_08_armory-advisory-board-meeting__armory-advisory-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Armory Advisory Board",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Somerville Armory, 191 Highland Ave, Second Floor, Somerville, MA 02143",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Leasing updates",
+      "Source_File": "2026-09-08__2026_09_08_armory-advisory-board-meeting__armory-advisory-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Armory Advisory Board",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Somerville Armory, 191 Highland Ave, Second Floor, Somerville, MA 02143",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review financial history and current status",
+      "Source_File": "2026-09-08__2026_09_08_armory-advisory-board-meeting__armory-advisory-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Armory Advisory Board",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Somerville Armory, 191 Highland Ave, Second Floor, Somerville, MA 02143",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discuss process and planning for vacant spaces",
+      "Source_File": "2026-09-08__2026_09_08_armory-advisory-board-meeting__armory-advisory-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Climate Action Commission (CAC)",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Somerville City Hall Annex (50 Evergreen Ave)",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approve August 2026 meeting minutes",
+      "Source_File": "2026-09-08__2026_09_08_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Climate Action Commission (CAC)",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Somerville City Hall Annex (50 Evergreen Ave)",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Decide timing for CAC officer elections",
+      "Source_File": "2026-09-08__2026_09_08_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Climate Action Commission (CAC)",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Somerville City Hall Annex (50 Evergreen Ave)",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Upcoming opportunities for CAC Commissioners",
+      "Source_File": "2026-09-08__2026_09_08_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Climate Action Commission (CAC)",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Somerville City Hall Annex (50 Evergreen Ave)",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Background presentation: History of CAC and previous work, Sustainability & Environment Division staff and work",
+      "Source_File": "2026-09-08__2026_09_08_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Climate Action Commission (CAC)",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Somerville City Hall Annex (50 Evergreen Ave)",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Facilitated activity for priority setting",
+      "Source_File": "2026-09-08__2026_09_08_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Climate Action Commission (CAC)",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Somerville City Hall Annex (50 Evergreen Ave)",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "CAC meeting structure",
+      "Source_File": "2026-09-08__2026_09_08_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Climate Action Commission (CAC)",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Somerville City Hall Annex (50 Evergreen Ave)",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Preparation for October meeting",
+      "Source_File": "2026-09-08__2026_09_08_climate-action-commission-meeting__climate-action-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Legislative Matters Committee",
       "Meeting_Date": "2026-09-08",
       "Meeting_Time": "6:00 PM",
@@ -25970,6 +26188,46 @@
       "Source_File": "2026-09-08__2026_09_08_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Urban Design Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Planning Division Director Dan Bartman UDC updates",
+      "Source_File": "2026-09-08__2026_09_08_urban-design-commission-meeting__urban-design-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Design Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "84 Washington St",
+      "Source_File": "2026-09-08__2026_09_08_urban-design-commission-meeting__urban-design-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Design Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "13, 15, 15A Elm St & 2-6 Porter St",
+      "Source_File": "2026-09-08__2026_09_08_urban-design-commission-meeting__urban-design-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Urban Design Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Tufts Administration Building, 167 Holland Street, Suite 211, Somerville MA 02144",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "84 Broadway",
+      "Source_File": "2026-09-08__2026_09_08_urban-design-commission-meeting__urban-design-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Licenses and Permits Committee",
       "Meeting_Date": "2026-09-09",
       "Meeting_Time": "6:30 PM",
@@ -25988,39 +26246,149 @@
       "Item_Type": "Approval/Minutes",
       "Agenda_Topic": "Approval of the Minutes of the Licenses and Permits Committee Meeting of June 24, 2026.",
       "Source_File": "2026-09-09__2026_09_09_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "1:00 PM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Announce Quorum if present",
+      "Source_File": "2026-09-15__2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "1:00 PM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review of BME Deliverable",
+      "Source_File": "2026-09-15__2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "1:00 PM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Public Comment: NONE",
+      "Source_File": "2026-09-15__2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "1:00 PM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-15__2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "1:00 PM",
+      "Location": "50 Evergreen Avenue, Somerville, MA 02145 (Virtual)",
+      "Item_Number": "3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Previous Minutes",
+      "Source_File": "2026-09-15__2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "2:00 PM",
+      "Location": "Lg Conference room, 119 Windsor Street Cambridge MA 02139",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review FY27 Workplan",
+      "Source_File": "2026-09-16__2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting__somerville-cambridge-public-health-collaborative-workgroup-m.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "2:00 PM",
+      "Location": "Lg Conference room, 119 Windsor Street Cambridge MA 02139",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Next Steps",
+      "Source_File": "2026-09-16__2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting__somerville-cambridge-public-health-collaborative-workgroup-m.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "2:00 PM",
+      "Location": "Lg Conference room, 119 Windsor Street Cambridge MA 02139",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "BME Next Steps",
+      "Source_File": "2026-09-16__2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting__somerville-cambridge-public-health-collaborative-workgroup-m.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "2:00 PM",
+      "Location": "Lg Conference room, 119 Windsor Street Cambridge MA 02139",
+      "Item_Number": "4",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-16__2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting__somerville-cambridge-public-health-collaborative-workgroup-m.pdf"
+    },
+    {
+      "Committee_Name": "Somerville-Cambridge Public Health Collaborative",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "2:00 PM",
+      "Location": "Lg Conference room, 119 Windsor Street Cambridge MA 02139",
+      "Item_Number": "Approval of Previous Minutes",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Previous Minutes",
+      "Source_File": "2026-09-16__2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting__somerville-cambridge-public-health-collaborative-workgroup-m.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Municipal Scholarship Committee",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Online via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of past minutes from 5/14/26",
+      "Source_File": "2026-09-17__2026_09_17_municipal-scholarship-committee-meeting__municipal-scholarship-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Municipal Scholarship Committee",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Online via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review award template and get updates from Charles",
+      "Source_File": "2026-09-17__2026_09_17_municipal-scholarship-committee-meeting__municipal-scholarship-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Municipal Scholarship Committee",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Online via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of finances moving forward",
+      "Source_File": "2026-09-17__2026_09_17_municipal-scholarship-committee-meeting__municipal-scholarship-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Municipal Scholarship Committee",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Online via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Update policy documents based on what we've learned from 2026 cycle",
+      "Source_File": "2026-09-17__2026_09_17_municipal-scholarship-committee-meeting__municipal-scholarship-committee-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_09_02_redevelopment-authority-meeting",
-      "title": "Redevelopment Authority Meeting",
-      "start": "2026-09-02T17:30:00-04:00",
-      "date": "2026-09-02",
-      "time": "5:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/02/redevelopment-authority-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/redevelopment-20260902-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN__9B2gmQ-SqKq9cLIi1Xy3A",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_02_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-09-02T18:00:00-04:00",
-      "date": "2026-09-02",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/02/zoning-board-appeals-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/zoning-20260902-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_BKqmcmheRAaJ32VOrPXwfw",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
     {
       "occur_id": "2026_09_03_veterans-commission-meeting",
       "title": "Veterans’ Commission Meeting",
@@ -26034,7 +26402,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_7JohBo4WTGWqvr_MDwmqAw",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_03_planning-board-meeting",
@@ -26067,6 +26435,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_03_bicycle-advisory-committee-meeting",
+      "title": "Bicycle Advisory Committee Meeting",
+      "start": "2026-09-03T18:30:00-04:00",
+      "date": "2026-09-03",
+      "time": "6:30 PM",
+      "location": "Tufts Administration Building, Room 211N 167 Holland St. Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/03/bicycle-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/bicycle-advisory-20260903-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/87897867185?pwd=2fbOYQtZVzEQ3J90ilVTMqBB26Zak8.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
       "occur_id": "2026_09_03_land-use-committee-meeting",
       "title": "Land Use Committee Meeting",
       "start": "2026-09-03T18:30:00-04:00",
@@ -26080,21 +26463,6 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_03_bicycle-advisory-committee-meeting",
-      "title": "Bicycle Advisory Committee Meeting",
-      "start": "2026-09-03T18:30:00-04:00",
-      "date": "2026-09-03",
-      "time": "6:30 PM",
-      "location": "Tufts Administration Building, Room 211N 167 Holland St. Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/09/03/bicycle-advisory-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/bicycle-advisory-20260903-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/87897867185?pwd=2fbOYQtZVzEQ3J90ilVTMqBB26Zak8.1",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_04_council-aging-board-meeting",
@@ -26112,6 +26480,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_08_armory-advisory-board-meeting",
+      "title": "Armory Advisory Board Meeting",
+      "start": "2026-09-08T17:00:00-04:00",
+      "date": "2026-09-08",
+      "time": "5:00 PM",
+      "location": "Somerville Armory, second floor 191 Highland Ave Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/armory-advisory-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/armory-20260908-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
       "title": "School Building Facilities and Maintenance Committee Meeting",
       "start": "2026-09-08T18:00:00-04:00",
@@ -26125,6 +26508,51 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_08_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-09-08T18:00:00-04:00",
+      "date": "2026-09-08",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/urban-design-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/urban-design-20260908-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_u5blZbBEQQy2cQXF-J5uVw",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_09_08_legislative-matters-committee-meeting",
+      "title": "Legislative Matters Committee Meeting",
+      "start": "2026-09-08T18:00:00-04:00",
+      "date": "2026-09-08",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/legislative-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1437301&GUID=99E2A6A5-CE45-45AD-82B7-84D61D86B7DC",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_09_08_climate-action-commission-meeting",
+      "title": "Climate Action Commission Meeting",
+      "start": "2026-09-08T18:30:00-04:00",
+      "date": "2026-09-08",
+      "time": "6:30 PM",
+      "location": "Somerville City Hall Annex 50 Evergreen Ave Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/climate-action-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/climate-action-20260908-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_09_licenses-and-permits-committee-meeting",
@@ -26172,6 +26600,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting",
+      "title": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
+      "start": "2026-09-15T13:00:00-04:00",
+      "date": "2026-09-15",
+      "time": "1:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/15/somerville-cambridge-public-health-collaborative-advisory-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/somerville-cambridge-public-health-20260915-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/88667127058?pwd=v8LAsnRZ2uK9yEmEapyNxOb74na5V1.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_09_15_legislative-matters-committee-meeting",
       "title": "Legislative Matters Committee Meeting",
       "start": "2026-09-15T18:00:00-04:00",
@@ -26202,6 +26645,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting",
+      "title": "Somerville-Cambridge Public Health Collaborative: Workgroup Meeting",
+      "start": "2026-09-16T14:00:00-04:00",
+      "date": "2026-09-16",
+      "time": "2:00 PM",
+      "location": "Lg Conference room 119 Windsor Street Cambridge , MA 02139 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/somerville-cambridge-public-health-collaborative-workgroup-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/somerville-cambridge-public-health-20260916-workgroup-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_09_16_zoning-board-appeals-meeting",
       "title": "Zoning Board of Appeals Meeting",
       "start": "2026-09-16T18:00:00-04:00",
@@ -26226,6 +26684,81 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_17_urban-forestry-committee-meeting",
+      "title": "Urban Forestry Committee Meeting",
+      "start": "2026-09-17T16:30:00-04:00",
+      "date": "2026-09-17",
+      "time": "4:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/urban-forestry-committee-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_17_davis-square-neighborhood-plan-survey-virtual-meeting",
+      "title": "Davis Square Neighborhood Plan Survey - Virtual Meeting",
+      "start": "2026-09-17T17:30:00-04:00",
+      "date": "2026-09-17",
+      "time": "5:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/davis-square-neighborhood-plan-survey-virtual-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_17_planning-board-meeting",
+      "title": "Planning Board Meeting",
+      "start": "2026-09-17T18:00:00-04:00",
+      "date": "2026-09-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/planning-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_17_municipal-scholarship-committee-meeting",
+      "title": "Municipal Scholarship Committee Meeting",
+      "start": "2026-09-17T18:30:00-04:00",
+      "date": "2026-09-17",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/municipal-scholarship-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/municipal-scholarship-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/83998046630?pwd=TAFT7CumfbMbnVD4v36i5M94bRte6U.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_09_17_land-use-committee-meeting",
+      "title": "Land Use Committee Meeting",
+      "start": "2026-09-17T18:30:00-04:00",
+      "date": "2026-09-17",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/land-use-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440563&GUID=EF2F9428-11B0-418A-8256-2785D8697AA3",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
