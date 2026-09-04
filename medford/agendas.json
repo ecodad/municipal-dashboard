@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-09-01",
+    "processed_date": "2026-09-04",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -691,6 +691,16 @@
         "filename": "2026-09-02__26596__conservation-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 6
+      },
+      {
+        "filename": "2026-09-08__26670__traffic-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 65
+      },
+      {
+        "filename": "2026-09-08__26732__community-preservation-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
       }
     ]
   },
@@ -14744,6 +14754,726 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Discussion of Proposed Regulations",
       "Source_File": "2026-09-02__26596__conservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of June 9, 2026 Minutes",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2019-21",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Clarification of Permit Parking Rules & Regulations",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2019-59",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Marc Andrew Deley – Residential Commercial Night Parking",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2019-60",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Petition to change Curtis Street to one way South St. to Summer St.",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2019-63",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "North Medford Roadways Discussion",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2019-74",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit Parking 11PM-7AM on Park Street (301 to 315) from the Fellsway to Brogan Road",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2019-81",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Rules & Regulations (Updated & Amended)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2020-02",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Alan Ward to discuss parking restrictions on Arlington Street between Boston Ave and Monument Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2020-25",
+      "Item_Type": "Other",
+      "Agenda_Topic": "On petition Permit Parking Oak Ridge Road between Coolidge Rd and Sagamore Ave",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2020-38",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for Do Not Block Driveway sign for 4 Greenleaf Ave.",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2021-13",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for visitor passes - Kevin Wilcox, S. Border Road for Mass. Ave.",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2021-14",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit parking variance for Charnwood Road from Sandy Cho, 9 Greenleaf Ave.",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2021-15",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit parking variance for Bower Street from Nicolas Minasian, 12 Harvard Ave.",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2021-17",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mr. & Mrs. Cahill, 25 Palmer Street – Commercial parking variance",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2021-57",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Intersection of Auburn, North, West and Cotting Streets",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2022-26",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Jennifer Sullivan, 27 Grant Ave. for stop signs on Lawrence St. (both directions) at Grant Ave. making this a 4-way stop",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2022-29",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Sachit Vaidya, 7 Elm Street Visitor Passes for Aquavia Rd. (previously approved in 2016)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2022-30",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Chris Fahey, 35 Elm Street Visitor Passes for Aquavia Rd. (previously approved in 1993)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2022-43",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit Parking variance for Brackett St. from Jacqueline Judith, 60 Elm Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2022-50",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Thomas Barry, 228 Grove Street for a speed table between 238-260 Grove Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2022-51",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Joseph Camuso, Century St., Ext. to discuss speed of traffic on this street and possibility of a speed table",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2023-05",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Bridget O'Donoghue, 6 Allston Ct for permit parking variance and visitor passes for Allston Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2023-29",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Alex Genovese, 4 Tamar Drive for all-way stop Fulton & Winslow",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2023-33",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Sydney Goldberg to change permit parking from Strathmore Road to Bow Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2023-55",
+      "Item_Type": "Other",
+      "Agenda_Topic": "City Hall Mall Commuter Parking Lot – proposed changing from Pay-to-Park (meter/kiosk) to include Commuter Permit Parking spaces Mon – Fri. Applies to whole lot except area used by US Postal Services",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2024-17",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Paula Noukas, 11 Wolcott Park Commercial vehicle / parking issue",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2024-23",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Clarification of Traffic Commission Agenda item 2022-21 visitor passes (2) for Yale Street for Lincoln Kennedy Condo residents (Alicia Hunt)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2024-29",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Jowel Mijanur, Mystic Market, 199 Mystic Ave for loading zone on Bowen Ave",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2024-34",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request from Rick Caraviello, 74 Prescott Street for additional No Heavy Trucking signs in vicinity of Auburn and Prescott Streets",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2024-48",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Pilot Program Ride Share pick-up/drop-off 6PM-1AM Clippership Drive along Citizens Bank parking lot, eastbound",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-07",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit Parking Variance for Comm'l vehicle to park overnight from Abdullahi J. Magan, 18 Holton Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-27",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Variance – Daniel Valeriani, 48 Sixth Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-28",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Variance – Robert Loiselle, 145 Burget Avenue",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-31",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Variance – Jack Letellier, 8 Second Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-59",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Safety Improvements – Osborne Rd/Woburn Street/Playstead Rd (Todd Blake)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-64",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request to address permit parking issues on Porter Road from David Palermo, 12 Porter Road",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-80",
+      "Item_Type": "Other",
+      "Agenda_Topic": "HP Sign – Delores Ventresca, 35 Winter Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-85",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit Parking Variance – Patrick Clerkin, 14 Bennett Pl for Bennett or E. Albion Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-87",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Variance – Todd Lagrassa, 343 Main Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-88",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Commercial Vehicle Variance – Terrance Pridmore, 21 Strathmore Road",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-95",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit Parking Variance-Visitor Pass only – Travis Gardner, 477 Bdwy",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-97",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Traffic Safety Concern-Kenway & Hancock Street intersection from Ankur Thacker, 15 Eliot Street – Todd Blake",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2025-98",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Stearns Ave / Main Street parking (Todd Blake)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-10",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for a Loading Zone from Arlmont Glass, 427 High Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-11",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit parking variance – Hugo Rodrigues Brasil, 191A Riverside Ave",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-17",
+      "Item_Type": "Other",
+      "Agenda_Topic": "HP Sign - Renato Alarcon, 219 Salem St., Apt. 2",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-18",
+      "Item_Type": "Other",
+      "Agenda_Topic": "HP Sign – Van Huynh (for his father Hiep Huynh) 149 Middlesex Ave",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-19",
+      "Item_Type": "Other",
+      "Agenda_Topic": "HP Sign – Marie Carmelle Grandoit, 36 Evans Street (From Tabled Business)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-19",
+      "Item_Type": "Other",
+      "Agenda_Topic": "HP Sign – Marie Carmelle, Grandoit, 36 Evans Street (Tabled Business)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-34",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit parking variance – Eric Scharf, 64 Salem Street for Ashland, Oakland or Garden Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-35",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Goda Sravya Rao Avasarala, 239 Boston Ave for North Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-36",
+      "Item_Type": "Other",
+      "Agenda_Topic": "HP Sign - Patricia Gordon, 63 Linwood Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-37",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Stop Sign on Stearns Ave at College Ave – Todd Blake",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-38",
+      "Item_Type": "Other",
+      "Agenda_Topic": "No parking anytime in front of 50 Metcalf Street – Todd Blake",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-39",
+      "Item_Type": "Other",
+      "Agenda_Topic": "No parking anytime in front of 25, 29 and 31 Eliot Street – Todd Blake",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-40",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Cost increase for replacement visitor pass (s) – Sarah McDermod",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-41",
+      "Item_Type": "Other",
+      "Agenda_Topic": "On petition- Permit parking for Quincy Street between Osgood and Capen Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-42",
+      "Item_Type": "Other",
+      "Agenda_Topic": "No parking on Walnut Street approx. 37 feet south of Thomas Street to Thomas St (Todd Blake)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-43",
+      "Item_Type": "Other",
+      "Agenda_Topic": "No parking on Thomas Street approx. 25 feet east of Walnut St. to Walnut St. (Todd Blake)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-44",
+      "Item_Type": "Other",
+      "Agenda_Topic": "No Parking on Hancock St, south side 26 feet west of Eliot St to Eliot St (Todd Blake)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-45",
+      "Item_Type": "Other",
+      "Agenda_Topic": "No Parking on Hancock St, south side 35 feet west of Willis Ave to Willis Ave (T.Blake)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-46",
+      "Item_Type": "Other",
+      "Agenda_Topic": "No Parking on Hancock St, north side 35 feet west of Hancock Ave to Hancock Ave (T.Blake)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-47",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit parking variance for Wellesley Street from Jill Venditti, 310 Main Street (corner home)",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-48",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Permit parking variance for North Street from Connor Baston, 132 North Street",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Traffic Commission",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Zoom Meeting",
+      "Item_Number": "2026-49",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Request for visitor pass (s) from Michael Dunham, 5 Sherborn Court, Unit 9",
+      "Source_File": "2026-09-08__26670__traffic-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call meeting to order",
+      "Source_File": "2026-09-08__26732__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Small Grant Application: TreesMedford – Barry Park/College Avenue Tree Plantings",
+      "Source_File": "2026-09-08__26732__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Application Process Review Discussion",
+      "Source_File": "2026-09-08__26732__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Completed Projects Update",
+      "Source_File": "2026-09-08__26732__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Administrative Updates",
+      "Source_File": "2026-09-08__26732__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Meeting Minutes from July 14, 2026 meeting",
+      "Source_File": "2026-09-08__26732__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Medford Community Preservation Committee",
+      "Meeting_Date": "2026-09-08",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "Item_Number": "7",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-08__26732__community-preservation-committee-meeting.pdf"
     }
   ],
   "meetings": [
@@ -16527,38 +17257,64 @@
       "agenda_url": "https://drive.google.com/file/d/1AKyQpm8viS2lvrRs2itp9tGEHNBDc28v/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26585"
+    },
+    {
+      "source_file": "2026-09-08__26732__community-preservation-committee-meeting.pdf",
+      "occur_id": "26732",
+      "committee_name": "City of Medford Community Preservation Committee",
+      "meeting_date": "2026-09-08",
+      "meeting_time": "6:30 PM",
+      "location": "Medford City Hall, 85 George P. Hassett Drive, Room 201 and via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1giqzMA2bOhxmrQUsksDft1LJDkIfwrqM/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26732"
+    },
+    {
+      "source_file": "2026-09-08__26670__traffic-commission-meeting.pdf",
+      "occur_id": "26670",
+      "committee_name": "Medford Traffic Commission",
+      "meeting_date": "2026-09-08",
+      "meeting_time": "5:00 PM",
+      "location": "Zoom Meeting",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/1TIved6f179YGl0LkwkQYG6Jqs_d8NOlW/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26670"
     }
   ],
   "window_meetings": [
     {
-      "occur_id": "7622",
+      "occur_id": "26670",
       "title": "Traffic Commission Meeting",
       "start": "2026-09-08T17:00:00-04:00",
       "date": "2026-09-08",
       "time": "5:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/7622",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26670",
+      "agenda_url": "https://docs.google.com/document/d/1TIved6f179YGl0LkwkQYG6Jqs_d8NOlW/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/81430730750?pwd=M5xbINnj7FkvXbGxRwz3drifDBUnbG.1",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "12014",
+      "occur_id": "26732",
       "title": "Community Preservation Committee Meeting",
       "start": "2026-09-08T18:30:00-04:00",
       "date": "2026-09-08",
       "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/12014",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26732",
+      "agenda_url": "https://drive.google.com/file/d/1giqzMA2bOhxmrQUsksDft1LJDkIfwrqM/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/i/85954896952",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "19008",
