@@ -17299,7 +17299,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/81430730750?pwd=M5xbINnj7FkvXbGxRwz3drifDBUnbG.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "26732",
@@ -17314,7 +17314,7 @@
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/i/85954896952",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "19008",

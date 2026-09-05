@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-09-04",
+    "processed_date": "2026-09-05",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -1086,6 +1086,11 @@
         "filename": "2026-09-09__2026_09_09_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
         "status": "parsed",
         "item_count": 21
+      },
+      {
+        "filename": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 10
       }
     ]
   },
@@ -3858,6 +3863,19 @@
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440733&GUID=E0AA874C-F7F2-4C32-B1F0-7BA68BB55F97",
       "agenda_type": "LEGISTAR",
       "detail_url": "https://www.somervillema.gov/events/2026/09/09/licenses-and-permits-committee-meeting"
+    },
+    {
+      "source_file": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf",
+      "occur_id": "2026_09_09_canceled-review-multiple-member-bodies-committee-meeting",
+      "committee_name": "Review of Multiple-Member Bodies Committee",
+      "meeting_date": "2026-09-09",
+      "meeting_time": "6:00 PM",
+      "location": "Remote participation via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/MMB-Review-20260909-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/09/canceled-review-multiple-member-bodies-committee-meeting"
     },
     {
       "source_file": "2026-09-09__2026_09_09_commission-persons-disabilities-meeting__commission-for-persons-with-disabilities-meeting.pdf",
@@ -26334,6 +26352,106 @@
       "Source_File": "2026-09-08__2026_09_08_urban-design-commission-meeting__urban-design-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-09-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call of the Roll",
+      "Source_File": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-09-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Committee logistics and standards",
+      "Source_File": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-09-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "2.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of committee approach and process",
+      "Source_File": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-09-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.1",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Resident concerns",
+      "Source_File": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-09-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Public comment by Eleanor Howe",
+      "Source_File": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-09-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "3.3",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Public comment by Jenn Harrington",
+      "Source_File": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-09-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Bodies that meet intermittently: Traffic Board, PILOT Advisory Task Force",
+      "Source_File": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-09-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential dissolution of: Emergency Management Advisory Council",
+      "Source_File": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-09-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "5.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discussion of potential retention of: Biosafety Committee, Board of Election Commissioners, Fair Housing Commission, Municipal Compensation Advisory Board",
+      "Source_File": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Review of Multiple-Member Bodies Committee",
+      "Meeting_Date": "2026-09-09",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Remote participation via Zoom",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "ADJOURNMENT",
+      "Source_File": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville Commission for Persons with Disabilities",
       "Meeting_Date": "2026-09-09",
       "Meeting_Time": "6:00 PM",
@@ -26706,21 +26824,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_09_04_council-aging-board-meeting",
-      "title": "Council on Aging Board Meeting",
-      "start": "2026-09-04T11:00:00-04:00",
-      "date": "2026-09-04",
-      "time": "11:00 AM",
-      "location": "Holland Street Senior Center 167 Holland Street Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/09/04/council-aging-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-08/council-on-aging-20260904-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_09_08_armory-advisory-board-meeting",
       "title": "Armory Advisory Board Meeting",
       "start": "2026-09-08T17:00:00-04:00",
@@ -26730,6 +26833,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/08/armory-advisory-board-meeting",
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/armory-20260908-agenda.pdf",
       "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
+      "title": "School Building Facilities and Maintenance Committee Meeting",
+      "start": "2026-09-08T18:00:00-04:00",
+      "date": "2026-09-08",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/school-building-facilities-and-maintenance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436944&GUID=0FD8A6AC-54AB-49C3-95BC-9D54D228F4EF",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -26766,21 +26884,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
-      "title": "School Building Facilities and Maintenance Committee Meeting",
-      "start": "2026-09-08T18:00:00-04:00",
-      "date": "2026-09-08",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/school-building-facilities-and-maintenance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436944&GUID=0FD8A6AC-54AB-49C3-95BC-9D54D228F4EF",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_09_08_climate-action-commission-meeting",
       "title": "Climate Action Commission Meeting",
       "start": "2026-09-08T18:30:00-04:00",
@@ -26807,6 +26910,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_09_09_canceled-review-multiple-member-bodies-committee-meeting",
+      "title": "CANCELED: Review of Multiple-Member Bodies Committee Meeting",
+      "start": "2026-09-09T18:00:00-04:00",
+      "date": "2026-09-09",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/09/canceled-review-multiple-member-bodies-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/MMB-Review-20260909-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_CTxKsNwpTYyke5UtGWaCXw.",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -26916,13 +27034,13 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_09_16_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
+      "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
+      "title": "School Committee Finance and Facilities Subcommittee Meeting",
       "start": "2026-09-16T18:00:00-04:00",
       "date": "2026-09-16",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/16/zoning-board-appeals-meeting",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -26931,13 +27049,13 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
-      "title": "School Committee Finance and Facilities Subcommittee Meeting",
+      "occur_id": "2026_09_16_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
       "start": "2026-09-16T18:00:00-04:00",
       "date": "2026-09-16",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/zoning-board-appeals-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
