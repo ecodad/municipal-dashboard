@@ -26899,6 +26899,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_09_canceled-review-multiple-member-bodies-committee-meeting",
+      "title": "CANCELED: Review of Multiple-Member Bodies Committee Meeting",
+      "start": "2026-09-09T18:00:00-04:00",
+      "date": "2026-09-09",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/09/canceled-review-multiple-member-bodies-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/MMB-Review-20260909-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_CTxKsNwpTYyke5UtGWaCXw.",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
       "occur_id": "2026_09_09_commission-persons-disabilities-meeting",
       "title": "Commission for Persons with Disabilities Meeting",
       "start": "2026-09-09T18:00:00-04:00",
@@ -26912,21 +26927,6 @@
       "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_09_canceled-review-multiple-member-bodies-committee-meeting",
-      "title": "CANCELED: Review of Multiple-Member Bodies Committee Meeting",
-      "start": "2026-09-09T18:00:00-04:00",
-      "date": "2026-09-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/09/canceled-review-multiple-member-bodies-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/MMB-Review-20260909-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_CTxKsNwpTYyke5UtGWaCXw.",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_09_licenses-and-permits-committee-meeting",
@@ -27034,13 +27034,13 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
-      "title": "School Committee Finance and Facilities Subcommittee Meeting",
+      "occur_id": "2026_09_16_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
       "start": "2026-09-16T18:00:00-04:00",
       "date": "2026-09-16",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/zoning-board-appeals-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -27049,13 +27049,13 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_09_16_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
+      "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
+      "title": "School Committee Finance and Facilities Subcommittee Meeting",
       "start": "2026-09-16T18:00:00-04:00",
       "date": "2026-09-16",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/16/zoning-board-appeals-meeting",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
