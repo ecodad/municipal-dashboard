@@ -26839,21 +26839,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
-      "title": "School Building Facilities and Maintenance Committee Meeting",
-      "start": "2026-09-08T18:00:00-04:00",
-      "date": "2026-09-08",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/school-building-facilities-and-maintenance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436944&GUID=0FD8A6AC-54AB-49C3-95BC-9D54D228F4EF",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_09_08_urban-design-commission-meeting",
       "title": "Urban Design Commission Meeting",
       "start": "2026-09-08T18:00:00-04:00",
@@ -26884,6 +26869,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
+      "title": "School Building Facilities and Maintenance Committee Meeting",
+      "start": "2026-09-08T18:00:00-04:00",
+      "date": "2026-09-08",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/school-building-facilities-and-maintenance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436944&GUID=0FD8A6AC-54AB-49C3-95BC-9D54D228F4EF",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
       "occur_id": "2026_09_08_climate-action-commission-meeting",
       "title": "Climate Action Commission Meeting",
       "start": "2026-09-08T18:30:00-04:00",
@@ -26899,21 +26899,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_09_09_canceled-review-multiple-member-bodies-committee-meeting",
-      "title": "CANCELED: Review of Multiple-Member Bodies Committee Meeting",
-      "start": "2026-09-09T18:00:00-04:00",
-      "date": "2026-09-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/09/canceled-review-multiple-member-bodies-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/MMB-Review-20260909-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_CTxKsNwpTYyke5UtGWaCXw.",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_09_09_commission-persons-disabilities-meeting",
       "title": "Commission for Persons with Disabilities Meeting",
       "start": "2026-09-09T18:00:00-04:00",
@@ -26925,6 +26910,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/89697468509?pwd=C8JJRgmxMv9bTrXvjNZksksouLp3kh.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_09_09_canceled-review-multiple-member-bodies-committee-meeting",
+      "title": "CANCELED: Review of Multiple-Member Bodies Committee Meeting",
+      "start": "2026-09-09T18:00:00-04:00",
+      "date": "2026-09-09",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/09/canceled-review-multiple-member-bodies-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/MMB-Review-20260909-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_CTxKsNwpTYyke5UtGWaCXw.",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
