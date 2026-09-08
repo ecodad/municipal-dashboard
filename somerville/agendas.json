@@ -26839,6 +26839,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
+      "title": "School Building Facilities and Maintenance Committee Meeting",
+      "start": "2026-09-08T18:00:00-04:00",
+      "date": "2026-09-08",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/08/school-building-facilities-and-maintenance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436944&GUID=0FD8A6AC-54AB-49C3-95BC-9D54D228F4EF",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
       "occur_id": "2026_09_08_urban-design-commission-meeting",
       "title": "Urban Design Commission Meeting",
       "start": "2026-09-08T18:00:00-04:00",
@@ -26862,21 +26877,6 @@
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/09/08/legislative-matters-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1437301&GUID=99E2A6A5-CE45-45AD-82B7-84D61D86B7DC",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
-      "title": "School Building Facilities and Maintenance Committee Meeting",
-      "start": "2026-09-08T18:00:00-04:00",
-      "date": "2026-09-08",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/school-building-facilities-and-maintenance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436944&GUID=0FD8A6AC-54AB-49C3-95BC-9D54D228F4EF",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
