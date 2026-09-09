@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-09-05",
+    "processed_date": "2026-09-09",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -1091,6 +1091,21 @@
         "filename": "2026-09-09__2026_09_09_canceled-review-multiple-member-bodies-committee-meeting__canceled-review-of-multiple-member-bodies-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 10
+      },
+      {
+        "filename": "2026-09-10__2026_09_10_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
+      },
+      {
+        "filename": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf",
+        "status": "parsed",
+        "item_count": 49
+      },
+      {
+        "filename": "2026-09-17__2026_09_17_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
       }
     ]
   },
@@ -3891,6 +3906,32 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/09/commission-persons-disabilities-meeting"
     },
     {
+      "source_file": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf",
+      "occur_id": "2026_09_10_city-council-meeting",
+      "committee_name": "City of Somerville, Massachusetts City Council",
+      "meeting_date": "2026-09-10",
+      "meeting_time": "7:00 PM",
+      "location": "City Council Chamber and Remote Participation",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1428400&GUID=F7F38A04-553B-48D5-A4ED-DE843BE77F26",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/10/city-council-meeting"
+    },
+    {
+      "source_file": "2026-09-10__2026_09_10_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf",
+      "occur_id": "2026_09_10_affordable-housing-trust-meeting",
+      "committee_name": "Somerville Affordable Housing Trust Fund",
+      "meeting_date": "2026-09-10",
+      "meeting_time": "5:15 PM",
+      "location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/affordable-housing-20260910-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/10/affordable-housing-trust-meeting"
+    },
+    {
       "source_file": "2026-09-15__2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf",
       "occur_id": "2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting",
       "committee_name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
@@ -3928,6 +3969,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-06/municipal-scholarship-20260917-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/09/17/municipal-scholarship-committee-meeting"
+    },
+    {
+      "source_file": "2026-09-17__2026_09_17_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf",
+      "occur_id": "2026_09_17_pedestrian-and-transit-advisory-committee-meeting",
+      "committee_name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "meeting_date": "2026-09-17",
+      "meeting_time": "6:30 PM",
+      "location": "101 South Street Somerville , MA 02143 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/ptac-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/pedestrian-and-transit-advisory-committee-meeting"
     }
   ],
   "items": [
@@ -26682,6 +26736,576 @@
       "Source_File": "2026-09-09__2026_09_09_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
     },
     {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Meeting minutes review and approval - Draft July 9, 2026, meeting minutes",
+      "Source_File": "2026-09-10__2026_09_10_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Finance Reports review and approval - Review of August 2026 CPA and non-CPA accounts",
+      "Source_File": "2026-09-10__2026_09_10_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "3.1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "YMCA – 136 School Street Early Acquisition Loan Extension Request",
+      "Source_File": "2026-09-10__2026_09_10_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "3.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Amplify/ CEDAC Financing",
+      "Source_File": "2026-09-10__2026_09_10_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "3.3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Trust Meeting Schedule Discussion",
+      "Source_File": "2026-09-10__2026_09_10_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "4.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Open Positions Update",
+      "Source_File": "2026-09-10__2026_09_10_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "4.2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Trustee Overview Presentation",
+      "Source_File": "2026-09-10__2026_09_10_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Affordable Housing Trust Fund",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "5:15 PM",
+      "Location": "Virtual meeting link: https://us02web.zoom.us/j/83080024978",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-10__2026_09_10_affordable-housing-trust-meeting__affordable-housing-trust-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "1.1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "1.2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Remembrances",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "1.3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Regular City Council Meeting of July 9, 2026.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "4.1",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor McLaughlin: Recognizing the seriousness of myotonic dystrophy and expressing support for the designation of September 15, as \"International Myotonic Dystrophy Awareness Day\".",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "4.2",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Clingan: In support of striking Encore Boston Harbor workers.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "4.3",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Clingan: That the Director of Engineering and the Commissioner of Public Works discuss with the Committee on Public Utilities and Public Works the City's current requirements for restoration of streets following utility and other permitted excavations, including whether the City has the authority and ability to require full-lane, expanded, or curb-to-curb restoration on streets that have passed the five-year street opening moratorium but remain in good condition.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "4.4",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Clingan: That the Director of Engineering and Commissioner of Public Works discuss with the Committee on Public Utilities and Public Works the feasibility of establishing a Street Preservation Offset Fee or similar pavement-degradation fee, modeled on programs such as Cambridge's, to help offset the City's costs associated with utility and other excavations in public streets.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "4.5",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Clingan: That the Director of Engineering, the Commissioner of Public Works, and the Chief Procurement Officer discuss with the Committee on Public Utilities and Public Works the City's current practices for establishing, monitoring, and enforcing construction timelines for municipal projects, including the use of project milestones, completion deadlines, contractor staffing levels, liquidated damages, and other tools to ensure that projects are completed in a timely manner.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "4.6",
+      "Item_Type": "Resolution",
+      "Agenda_Topic": "By Councilor Clingan: That the Director of Engineering, the Commissioner of Public Works, and the Chief Procurement Officer explore best practices used by other municipalities and public agencies to encourage timely completion of public construction projects, including performance incentives, liquidated damages, milestone requirements, recovery schedules, and cost-plus-time or \"A+B\" bidding, and discuss which approaches could be appropriate for Somerville.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.1",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting that this Council convene in Executive Session to receive an update on collective bargaining negotiations.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.2",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Requesting ordainment of an amendment to Sections 3.2.17, 4.1.15, 4.2.15, 4.3.15, 4.4.15, 5.1.16, 6.1.13, 6.2.14, 6.3.13, 6.4.16, 6.5.13 of the Somerville Zoning Ordinance to correct parking maximums.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.3",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Requesting ordainment of an amendment to Sections 2.4.4, 3.1.7, 3.1.8, 3.1.9, 3.1.10, 3.1.11, 3.2.7, 3.2.8, 3.2.9, 3.2.10, 3.2.11, 4.1.7, 4.2.7, 4.3.7, 4.4.7 of the Somerville Zoning Ordinances to remove ground story elevation requirements.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.4",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Requesting ordainment of an amendment to Sections 3.1.5, 3.2.5, 6.3.5, 6.4.6, 7.3.5, 8.3.6, 10.10.3, 15.2.1, 15.3.2, 15.7.2 of the Somerville Zoning Ordinance to streamline the jurisdiction of review boards.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.5",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Requesting ordainment of an amendment to Sections 3.1.3, 3.1.6, 3.1.8, 3.1.9, 3.1.11, 3.1.12, 3.1.13, 3.1.16, 3.2.6 of the Somerville Zoning Ordinance to align with State Law regarding protected accessory dwelling units.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.6",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Requesting ordainment of an amendment to Sections 2.4.5, 3.1.17, 3.2.16, 4.1.8, 4.1.9, 4.1.14, 4.2.8, 4.2.9, 4.2.14, 4.3.8, 4.3.9, 4.3.14, 4.4.8, 4.4.9, 4.4.15, 5.1.7, 5.1.8, 5.1.9, 5.1.16, 6.1.12, 6.2.7, 6.2.8, 6.2.14, 6.3.12, 6.4.9, 6.4.15, 6.5.7, 7.2.8 of the Somerville Zoning Ordinance to clarify requirements for principal entrances.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.7",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Requesting ordainment of an amendment to numerous sections of the Somerville Zoning Ordinance to update terminology for affordable dwelling units and commercial spaces.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.8",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to appropriate $350,000 from the Immigrant Legal Services Stabilization Fund for legal services for immigrants and asylum seekers seeking permanent residency.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.9",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to appropriate $255,045 from the Transportation Network Receipts Reserved Account to the Transportation Network Revolving Account for Fiscal Year 2027 Vision Zero efforts.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.10",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to accept and expend a $295,463 grant with no new match required, from the State 911 Department to the Police Department for E911 dispatcher personnel costs.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.11",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to accept and expend a $215,919.15 grant with no new match required, from the Metropolitan Area Planning Council to the Health and Human Services Department for a Shared Services Coordinator and a Clinical Community Health Worker.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.12",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to accept and expend a $159,754.04 grant with no new match required, from the State 911 Department to the Police Department for training costs for E911 dispatcher certification and recertification.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.13",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to accept and expend a $24,500 grant with no new match required, from the State 911 Department to the Police Department for emergency medical dispatch.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.14",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to accept and expend a $9,809.81 grant that requires a match, from the United States Bureau of Justice Assistance to the Somerville Police Department for body armor vests.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.15",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to pay prior year invoices totaling $80,852.95 using available funds in various Department of Public Works accounts for various services.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.16",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to pay prior year invoices totaling $1,687.50 using available funds in the Fire Department Professional and Technical Services Account for medical screening services.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.17",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval to pay prior year invoice totaling $19.76 using available funds in the Immigrant Advancement Professional and Technical Services Account for on demand phone interpretation services.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.18",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval of a revised fee schedule for permit applications submitted to the Planning Board, Historic Preservation Commission, and Zoning Board of Appeals.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.19",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Proclaiming that the week of September 10 through September 19, 2026 is Welcoming Week.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.20",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Proclaiming that September 15, 2026 is International Myotonic Dystrophy Awareness Day.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.21",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Conveying an update on Civilian Oversight.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.22",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Conveying the appointment of Lena Warnke to the Somerville Arts Council Board.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.23",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Conveying the appointment of Josh Breeden to the Somerville Arts Council Board.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.24",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Conveying the appointment of Sharon Lacey to the Somerville Arts Council Board.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.25",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Conveying the appointment of Bess Paupeck to the Somerville Arts Council Board.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "7.26",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Conveying the appointment of Christopher Oates to the Ranked Choice Voting Committee.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "8.1",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Director of Emergency Management conveying the 2025-2026 Cummings School Winter Warming Center After Action Report and Improvement Plan.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "8.2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "City Clerk conveying Block Party Licenses issued.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Theatre@First applying for a Public Event License for Iphigenia by Euripides on various dates between September 26 and October 11 from 3pm to 7:30pm.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Saint Benedict Parish applying for a Public Event License for Journey to World Youth Day 2027 Fundraiser on September 12 from 11:30am to 2pm (raindate September 19).",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Matthew Taylor applying for a Public Event License for 21st Honk! Festival on October 9, 10 & 11 for various times.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Bow Market applying for a Public Event License for Bow Market Renaissance Faire on November 7 from 8am to 8:30pm (raindate November 14).",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Somerville Road Runners applying for a Public Event License for 30th Annual Gobble Gobble Gobble Road Race on November 26 from 6am to 1pm.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.6",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Mayor's Office applying for a Public Event License for City Hall Truck O' Treat 2026 Spectacular! on October 29 from 4pm to 8pm (raindate November 5).",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.7",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New Drainlayer's License, Valor Excavation, LLC.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.8",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New Livery License, Lubana Coach, 2 Snow Terrace, operating 1 vehicle.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.9",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New Second Hander Dealer License, Somerville Communications, 52 Broadway.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.10",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Renewing Taxi Medallion License, Country Club Transportation Inc, Med. #3,4,5,7,8,9,10,11,12,13,46.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.11",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Bruce Schulman submitting comments re: snow emergencies.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville, Massachusetts City Council",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chamber and Remote Participation",
+      "Item_Number": "9.12",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Marianne Walles submitting comments re: item #26-1268, comments related to Zoning Ordinance Sections 3.1.7c, 3.1.8c, 3.1.9c, 3.1.10c, 3.1.11c, 3.1.15a.i, 3.2.7c, 3.2.8c, 3.2.9c, 3.2.10c, 3.2.11c, 4.1.7c, 4.2.7c, 4.3.7c, 4.4.7c.",
+      "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville-Cambridge Public Health Collaborative: Advisory Board Meeting",
       "Meeting_Date": "2026-09-15",
       "Meeting_Time": "1:00 PM",
@@ -26820,81 +27444,71 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Update policy documents based on what we've learned from 2026 cycle",
       "Source_File": "2026-09-17__2026_09_17_municipal-scholarship-committee-meeting__municipal-scholarship-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Procedural Business (10 Minutes) - Member roll call, Vote on August draft minutes, Announcements",
+      "Source_File": "2026-09-17__2026_09_17_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "2",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Public Comment (5 Minutes)",
+      "Source_File": "2026-09-17__2026_09_17_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Subcommittee Updates (5 Minutes) - Community Events, Design Review, Special Projects",
+      "Source_File": "2026-09-17__2026_09_17_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Discuss Changes to PTAC Bylaws (35 Minutes) - focus on membership requirements and reappointment processes",
+      "Source_File": "2026-09-17__2026_09_17_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Somerville Pedestrian & Transit Advisory Committee (PTAC)",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "101 South Street, Somerville, MA 02143",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Continue Review of Squires Bridge Replacement Project (35 Minutes) - review of Design Review Subcommittee's draft comment letter",
+      "Source_File": "2026-09-17__2026_09_17_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
     }
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_09_08_armory-advisory-board-meeting",
-      "title": "Armory Advisory Board Meeting",
-      "start": "2026-09-08T17:00:00-04:00",
-      "date": "2026-09-08",
-      "time": "5:00 PM",
-      "location": "Somerville Armory, second floor 191 Highland Ave Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/armory-advisory-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/armory-20260908-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_08_school-building-facilities-and-maintenance-committee-meeting",
-      "title": "School Building Facilities and Maintenance Committee Meeting",
-      "start": "2026-09-08T18:00:00-04:00",
-      "date": "2026-09-08",
+      "occur_id": "2026_09_09_canceled-review-multiple-member-bodies-committee-meeting",
+      "title": "CANCELED: Review of Multiple-Member Bodies Committee Meeting",
+      "start": "2026-09-09T18:00:00-04:00",
+      "date": "2026-09-09",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/school-building-facilities-and-maintenance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1436944&GUID=0FD8A6AC-54AB-49C3-95BC-9D54D228F4EF",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_08_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-09-08T18:00:00-04:00",
-      "date": "2026-09-08",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/urban-design-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/urban-design-20260908-agenda.pdf",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/09/canceled-review-multiple-member-bodies-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/MMB-Review-20260909-agenda.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_u5blZbBEQQy2cQXF-J5uVw",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_08_legislative-matters-committee-meeting",
-      "title": "Legislative Matters Committee Meeting",
-      "start": "2026-09-08T18:00:00-04:00",
-      "date": "2026-09-08",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/legislative-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1437301&GUID=99E2A6A5-CE45-45AD-82B7-84D61D86B7DC",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_08_climate-action-commission-meeting",
-      "title": "Climate Action Commission Meeting",
-      "start": "2026-09-08T18:30:00-04:00",
-      "date": "2026-09-08",
-      "time": "6:30 PM",
-      "location": "Somerville City Hall Annex 50 Evergreen Ave Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/09/08/climate-action-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/climate-action-20260908-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_CTxKsNwpTYyke5UtGWaCXw.",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -26914,21 +27528,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_09_09_canceled-review-multiple-member-bodies-committee-meeting",
-      "title": "CANCELED: Review of Multiple-Member Bodies Committee Meeting",
-      "start": "2026-09-09T18:00:00-04:00",
-      "date": "2026-09-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/09/canceled-review-multiple-member-bodies-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/MMB-Review-20260909-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_CTxKsNwpTYyke5UtGWaCXw.",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_09_09_licenses-and-permits-committee-meeting",
       "title": "Licenses and Permits Committee Meeting",
       "start": "2026-09-09T18:30:00-04:00",
@@ -26944,6 +27543,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_10_affordable-housing-trust-meeting",
+      "title": "Affordable Housing Trust Meeting",
+      "start": "2026-09-10T17:15:00-04:00",
+      "date": "2026-09-10",
+      "time": "5:15 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/10/affordable-housing-trust-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/affordable-housing-20260910-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/83080024978",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_09_10_city-council-meeting",
       "title": "City Council Meeting",
       "start": "2026-09-10T19:00:00-04:00",
@@ -26956,7 +27570,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_14_school-committee-regular-meeting",
@@ -27122,6 +27736,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_17_pedestrian-and-transit-advisory-committee-meeting",
+      "title": "Pedestrian and Transit Advisory Committee Meeting",
+      "start": "2026-09-17T18:30:00-04:00",
+      "date": "2026-09-17",
+      "time": "6:30 PM",
+      "location": "101 South Street Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/pedestrian-and-transit-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/ptac-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_17_municipal-scholarship-committee-meeting",

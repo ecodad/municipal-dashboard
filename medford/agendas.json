@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-09-04",
+    "processed_date": "2026-09-09",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -701,6 +701,11 @@
         "filename": "2026-09-08__26732__community-preservation-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 7
+      },
+      {
+        "filename": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
+        "status": "parsed",
+        "item_count": 9
       }
     ]
   },
@@ -15474,6 +15479,96 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-09-08__26732__community-preservation-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll call",
+      "Source_File": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes from August 25, 2026",
+      "Source_File": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Approval of August Invoices - Total Invoices for Approval: $115,000 (LeftField $25,000, SMMA $90,000)",
+      "Source_File": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Design Updates",
+      "Source_File": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Project Efficiencies: Food Service and Dining, MEEP, Curtis-Tufts HS Therapeutic Day Program",
+      "Source_File": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "6.A",
+      "Item_Type": "Other",
+      "Agenda_Topic": "9/17/2026 - Community Forum #6: Sustainability Charette",
+      "Source_File": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "6.B",
+      "Item_Type": "Other",
+      "Agenda_Topic": "9/22/2026 MSCHSBC Meeting",
+      "Source_File": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "6.C",
+      "Item_Type": "Other",
+      "Agenda_Topic": "10/6/2026 MSCHSBC Meeting",
+      "Source_File": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "Meeting_Date": "2026-09-10",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "Item_Number": "7",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
     }
   ],
   "meetings": [
@@ -17283,68 +17378,36 @@
       "agenda_url": "https://docs.google.com/document/d/1TIved6f179YGl0LkwkQYG6Jqs_d8NOlW/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
       "agenda_type": "GOOGLE_DOC",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26670"
+    },
+    {
+      "source_file": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
+      "occur_id": "27124",
+      "committee_name": "Medford Comprehensive High School Building Committee (MCHSBC)",
+      "meeting_date": "2026-09-10",
+      "meeting_time": "7:00 PM",
+      "location": "Medford High School Library, 489 Winthrop Street and via remote participation",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1bBuHXEjnxXWwYx7xidfYBxbA4OYyrF68/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27124"
     }
   ],
   "window_meetings": [
     {
-      "occur_id": "26670",
-      "title": "Traffic Commission Meeting",
-      "start": "2026-09-08T17:00:00-04:00",
-      "date": "2026-09-08",
-      "time": "5:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26670",
-      "agenda_url": "https://docs.google.com/document/d/1TIved6f179YGl0LkwkQYG6Jqs_d8NOlW/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
-      "agenda_type": "GOOGLE_DOC",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/81430730750?pwd=M5xbINnj7FkvXbGxRwz3drifDBUnbG.1",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "26732",
-      "title": "Community Preservation Committee Meeting",
-      "start": "2026-09-08T18:30:00-04:00",
-      "date": "2026-09-08",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26732",
-      "agenda_url": "https://drive.google.com/file/d/1giqzMA2bOhxmrQUsksDft1LJDkIfwrqM/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/i/85954896952",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "19008",
-      "title": "Community Garden Commission Meeting",
-      "start": "2026-09-08T19:00:00-04:00",
-      "date": "2026-09-08",
+      "occur_id": "27124",
+      "title": "Medford Comprehensive High School Building Committee (MCHSBC) Meeting",
+      "start": "2026-09-10T19:00:00-04:00",
+      "date": "2026-09-10",
       "time": "7:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/19008",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27124",
+      "agenda_url": "https://drive.google.com/file/d/1bBuHXEjnxXWwYx7xidfYBxbA4OYyrF68/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
+      "zoom_url": "https://mps02155-org.zoom.us/j/97688954399?pwd=dXFTKeo6rrMqQSjv5Jrqlrj9TGg1j3.1#success",
       "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "17046",
-      "title": "Historic District Commission Meeting",
-      "start": "2026-09-10T18:00:00-04:00",
-      "date": "2026-09-10",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/17046",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "23799",
@@ -17414,6 +17477,36 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/20880",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "18144",
+      "title": "Bicycle Advisory Commission Meeting",
+      "start": "2026-09-23T19:00:00-04:00",
+      "date": "2026-09-23",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18144",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/87538063188",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "25737",
+      "title": "City Council Neighborhood Ward 1 Meeting: Hosted by Councilors Mullane and Tseng",
+      "start": "2026-09-23T19:00:00-04:00",
+      "date": "2026-09-23",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25737",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
