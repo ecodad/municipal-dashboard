@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-09-09",
+    "processed_date": "2026-09-10",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -706,6 +706,16 @@
         "filename": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf",
         "status": "parsed",
         "item_count": 9
+      },
+      {
+        "filename": "2026-09-14__27125__library-board-of-trustees-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-09-14__27187__historical-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 17
       }
     ]
   },
@@ -15569,6 +15579,236 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjournment",
       "Source_File": "2026-09-10__27124__medford-comprehensive-high-school-building-committee-mchsbc.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-09-14__27125__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review and Approval of August and July Minutes",
+      "Source_File": "2026-09-14__27125__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Director's Report",
+      "Source_File": "2026-09-14__27125__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "4",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New Business",
+      "Source_File": "2026-09-14__27125__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "5",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Old Business",
+      "Source_File": "2026-09-14__27125__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Library Board of Trustees Meeting",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "9:30 AM",
+      "Location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session",
+      "Source_File": "2026-09-14__27125__library-board-of-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "1",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "15 Maple Park Avenue/Hegner Center - Preferably Preserved Hearing - tabled until October due to failure of yard sign installation and failure to run legal ad.",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Zoning Update from CDB",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "67 Mystic Avenue - Determination of Significance",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Medford High School – Section 106 Review",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "71 Mystic Avenue - Determination of Significance",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Properties currently under Demo Delay",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "3.1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "16 Manning Street - exp. 1/2027",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "3.2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "41 Mystic Avenue – exp. 4/2027",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "73 Mystic Avenue - Determination of Significance",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Cross Street Cemetery – General Update",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "81 Mystic Avenue - Determination of Significance",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Survey Projects: Hastings Heights - General Update",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "6",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "78 Circuit Road - Determination of Significance",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "6",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "7",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "146 Spring Street - Determination of Significance",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "73 Surrey Street - Determination of Significance",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford Historical Commission",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "Item_Number": "9",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "321 Winthrop Street - Discussion of American Legion Building - potential future project",
+      "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
     }
   ],
   "meetings": [
@@ -17391,6 +17631,32 @@
       "agenda_url": "https://drive.google.com/file/d/1bBuHXEjnxXWwYx7xidfYBxbA4OYyrF68/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27124"
+    },
+    {
+      "source_file": "2026-09-14__27125__library-board-of-trustees-meeting.pdf",
+      "occur_id": "27125",
+      "committee_name": "Library Board of Trustees Meeting",
+      "meeting_date": "2026-09-14",
+      "meeting_time": "9:30 AM",
+      "location": "111 High Street, Medford, MA, Second Floor, Kigner & Qiu Family Study Room",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://docs.google.com/document/d/15trxba2ufO3dHV66mFkahtFACGE_87S3/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27125"
+    },
+    {
+      "source_file": "2026-09-14__27187__historical-commission-meeting.pdf",
+      "occur_id": "27187",
+      "committee_name": "Medford Historical Commission",
+      "meeting_date": "2026-09-14",
+      "meeting_time": "7:00 PM",
+      "location": "Remote via Zoom and live stream at http://medford.vod.castus.tv/vod/index.php/@live:ch3",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1i91unahN01JU_nLbRmr9LN_SKvxD3Pfl/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27187"
     }
   ],
   "window_meetings": [
@@ -17406,6 +17672,21 @@
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
       "zoom_url": "https://mps02155-org.zoom.us/j/97688954399?pwd=dXFTKeo6rrMqQSjv5Jrqlrj9TGg1j3.1#success",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "27125",
+      "title": "Library Board of Trustees Meeting",
+      "start": "2026-09-14T09:30:00-04:00",
+      "date": "2026-09-14",
+      "time": "9:30 AM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27125",
+      "agenda_url": "https://docs.google.com/document/d/15trxba2ufO3dHV66mFkahtFACGE_87S3/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81883898689?pwd=S8Mpt0fCjAsaoKKcFAKYDqxzJl95j7.1",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -17425,19 +17706,19 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "11288",
+      "occur_id": "27187",
       "title": "Historical Commission Meeting",
       "start": "2026-09-14T19:00:00-04:00",
       "date": "2026-09-14",
       "time": "7:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/11288",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27187",
+      "agenda_url": "https://drive.google.com/file/d/1i91unahN01JU_nLbRmr9LN_SKvxD3Pfl/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
       "zoom_url": "https://zoom.us/j/96236192680",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "26587",
@@ -17507,6 +17788,21 @@
       "time": "7:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25737",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "22853",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-09-24T18:30:00-04:00",
+      "date": "2026-09-24",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/22853",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
