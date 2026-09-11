@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-09-10",
+    "processed_date": "2026-09-11",
     "documents_processed": [
       {
         "filename": "04.27.2026 MCHSBC Full Monthly.pdf",
@@ -716,6 +716,11 @@
         "filename": "2026-09-14__27187__historical-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 17
+      },
+      {
+        "filename": "2026-09-14__27188__medford-school-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 19
       }
     ]
   },
@@ -15809,6 +15814,196 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "321 Winthrop Street - Discussion of American Legion Building - potential future project",
       "Source_File": "2026-09-14__27187__historical-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Roll Call for Attendance of Members and Student Representatives",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "2",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Salute the Flag",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "5:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "3",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Executive Session - discussion of collective bargaining grievance with MTA and strategy session regarding potential litigation (Zia Shaikh ppa v. City of Medford)",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "4.1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Bills and Payrolls",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "4.2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Donations - Watts Water Technologies Donation - $10,000.00",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "4.3",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Meeting Minutes - Regular Meeting, August 24, 2026",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of Subcommittees",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "6.1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Mustang Moment",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "6.2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Honors Pilot for Career Technical Education (CTE) at Medford High School - Presented by Dr. Kim Talbot and Chad Fallon",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "6.3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Opening of Schools - Dr. Suzanne B Galusi, Superintendent",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "6.4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Superintendent's Goals for SY26-27 - Dr. Suzanne B Galusi, Superintendent",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "7",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Presentations of the Student Advisory Council",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "8",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Presentations of the Public (not to begin before 7:00 pm)",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "9",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Continued Business",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "10",
+      "Item_Type": "Other",
+      "Agenda_Topic": "New Business",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "11",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Reports Requested",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "12",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Condolences to the families of Lorraine Miles and Gerald H. Wadness",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "13",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Next Regular Meeting - September 28, 2026, Alden Memorial Chambers, Medford City Hall in addition to zoom",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Medford School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "Item_Number": "14",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-14__27188__medford-school-committee-meeting.pdf"
     }
   ],
   "meetings": [
@@ -17657,24 +17852,22 @@
       "agenda_url": "https://drive.google.com/file/d/1i91unahN01JU_nLbRmr9LN_SKvxD3Pfl/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27187"
+    },
+    {
+      "source_file": "2026-09-14__27188__medford-school-committee-meeting.pdf",
+      "occur_id": "27188",
+      "committee_name": "Medford School Committee",
+      "meeting_date": "2026-09-14",
+      "meeting_time": "6:00 PM",
+      "location": "Howard Alden Memorial Chambers, Medford City Hall and via remote participation",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://drive.google.com/file/d/1r46TMRDisptw2Q00EtCJobipI7zyrnex/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27188"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "27124",
-      "title": "Medford Comprehensive High School Building Committee (MCHSBC) Meeting",
-      "start": "2026-09-10T19:00:00-04:00",
-      "date": "2026-09-10",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27124",
-      "agenda_url": "https://drive.google.com/file/d/1bBuHXEjnxXWwYx7xidfYBxbA4OYyrF68/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://mps02155-org.zoom.us/j/97688954399?pwd=dXFTKeo6rrMqQSjv5Jrqlrj9TGg1j3.1#success",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "27125",
       "title": "Library Board of Trustees Meeting",
@@ -17687,6 +17880,21 @@
       "agenda_type": "GOOGLE_DOC",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/81883898689?pwd=S8Mpt0fCjAsaoKKcFAKYDqxzJl95j7.1",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "27188",
+      "title": "Medford School Committee Meeting",
+      "start": "2026-09-14T18:00:00-04:00",
+      "date": "2026-09-14",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27188",
+      "agenda_url": "https://drive.google.com/file/d/1r46TMRDisptw2Q00EtCJobipI7zyrnex/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/99639685995?pwd=y3P9opn3Ih2KzTdf5qXywWZDkdneT0.1#success",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -17718,7 +17926,7 @@
       "has_zoom": true,
       "zoom_url": "https://zoom.us/j/96236192680",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "26587",

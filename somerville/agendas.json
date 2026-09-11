@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-09-10",
+    "processed_date": "2026-09-11",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -1111,6 +1111,41 @@
         "filename": "2026-09-15__2026_09_15_licensing-commission-meeting__licensing-commission-meeting.pdf",
         "status": "parsed",
         "item_count": 8
+      },
+      {
+        "filename": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf",
+        "status": "parsed",
+        "item_count": 16
+      },
+      {
+        "filename": "2026-09-15__2026_09_15_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf",
+        "status": "parsed",
+        "item_count": 7
+      },
+      {
+        "filename": "2026-09-16__2026_09_16_canceled-zoning-board-appeals-meeting__canceled-zoning-board-of-appeals-meeting.pdf",
+        "status": "parsed",
+        "item_count": 1
+      },
+      {
+        "filename": "2026-09-16__2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-09-17__2026_09_17_board-health-meeting__board-of-health-meeting.pdf",
+        "status": "parsed",
+        "item_count": 5
+      },
+      {
+        "filename": "2026-09-17__2026_09_17_planning-board-meeting__planning-board-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-09-23__2026_09_23_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 2
       }
     ]
   },
@@ -3937,6 +3972,45 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/10/affordable-housing-trust-meeting"
     },
     {
+      "source_file": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf",
+      "occur_id": "2026_09_14_school-committee-regular-meeting",
+      "committee_name": "School Committee",
+      "meeting_date": "2026-09-14",
+      "meeting_time": "7:00 PM",
+      "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/Regular%20SC%20Agenda%200914226_0.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/14/school-committee-regular-meeting"
+    },
+    {
+      "source_file": "2026-09-16__2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf",
+      "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
+      "committee_name": "School Committee",
+      "meeting_date": "2026-09-14",
+      "meeting_time": "7:00 PM",
+      "location": "City Council Chambers - Somerville City Hall - 93 Highland Ave",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/Call%20for%20the%20Week%20of%209-14-26_3.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting"
+    },
+    {
+      "source_file": "2026-09-15__2026_09_15_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf",
+      "occur_id": "2026_09_15_historic-preservation-commission-meeting",
+      "committee_name": "Historic Preservation Commission",
+      "meeting_date": "2026-09-15",
+      "meeting_time": "6:45 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/historic-preservation-20260915-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/15/historic-preservation-commission-meeting"
+    },
+    {
       "source_file": "2026-09-15__2026_09_15_licensing-commission-meeting__licensing-commission-meeting.pdf",
       "occur_id": "2026_09_15_licensing-commission-meeting",
       "committee_name": "Licensing Commission",
@@ -3976,6 +4050,45 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/16/somerville-cambridge-public-health-collaborative-workgroup-meeting"
     },
     {
+      "source_file": "2026-09-16__2026_09_16_canceled-zoning-board-appeals-meeting__canceled-zoning-board-of-appeals-meeting.pdf",
+      "occur_id": "2026_09_16_canceled-zoning-board-appeals-meeting",
+      "committee_name": "Zoning Board of Appeals",
+      "meeting_date": "2026-09-16",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/zoning-20260916-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/canceled-zoning-board-appeals-meeting"
+    },
+    {
+      "source_file": "2026-09-17__2026_09_17_board-health-meeting__board-of-health-meeting.pdf",
+      "occur_id": "2026_09_17_board-health-meeting",
+      "committee_name": "Board of Health",
+      "meeting_date": "2026-09-17",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual meeting via Zoom",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/board-of-health-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/board-health-meeting"
+    },
+    {
+      "source_file": "2026-09-17__2026_09_17_planning-board-meeting__planning-board-meeting.pdf",
+      "occur_id": "2026_09_17_planning-board-meeting",
+      "committee_name": "Planning Board",
+      "meeting_date": "2026-09-17",
+      "meeting_time": "6:00 PM",
+      "location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/planning-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/planning-board-meeting"
+    },
+    {
       "source_file": "2026-09-17__2026_09_17_municipal-scholarship-committee-meeting__municipal-scholarship-committee-meeting.pdf",
       "occur_id": "2026_09_17_municipal-scholarship-committee-meeting",
       "committee_name": "Somerville Municipal Scholarship Committee",
@@ -4000,6 +4113,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/ptac-20260917-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/09/17/pedestrian-and-transit-advisory-committee-meeting"
+    },
+    {
+      "source_file": "2026-09-23__2026_09_23_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
+      "occur_id": "2026_09_23_licenses-and-permits-committee-meeting",
+      "committee_name": "Licenses and Permits Committee",
+      "meeting_date": "2026-09-23",
+      "meeting_time": "6:30 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1441288&GUID=39923472-C86D-4986-AC61-21FE7E6C0CC8",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/23/licenses-and-permits-committee-meeting"
     }
   ],
   "items": [
@@ -27324,6 +27450,246 @@
       "Source_File": "2026-09-10__2026_09_10_city-council-meeting__city-council-meeting.pdf"
     },
     {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "I",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to order with a moment of silence and a salute to the flag of the United States of America.",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "IV.A",
+      "Item_Type": "Report",
+      "Agenda_Topic": "District Report - Enrollment Update, Special Education Dept Intro Part I",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "V.A",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of the joint School Building Facilities and Maintenance Subcommittee: March 23, 2026 (Rep Biton)",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "V.B",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of the joint School Building Facilities and Maintenance Subcommittee: April 30, 2026 (Rep Biton)",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "V.C",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of the Joint School Building Facilities and Maintenance Subcommittee: May 21, 2026 (Rep Biton)",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "V.D",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report of the Educational Programs and Instruction Subcommittee: May 29, 2026 (Member Pitone)",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VI.B",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "MOU-Cummings School Warming Center: Motion to authorize the superintendent to sign the MOU for the Cummings School Warming Center",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.A",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Somerville Public Schools Continuity of Operations Annex Plan",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.B",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Field Trips (Recommended action: approval) - October 2, 2026: 15 students from the Next Wave Full Circle will visit Mount Monadnock, Jaffrey, NH.",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.C",
+      "Item_Type": "Other",
+      "Agenda_Topic": "SY26 Somerville High School Diploma (Recommended action: approval) - Lucas Gomes",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.D",
+      "Item_Type": "Other",
+      "Agenda_Topic": "MOA-UAW Community Schools (Recommended action: approval): Motion to authorize the chair and the Superintendent to sign the MOA with the UAW Community Schools Union",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.E",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Transfer of Funds (Recommended action: approval): Motion to authorize the FY27 transfer of funds in the amount of $2,610 to cover staff working groups over the summer",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.F",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Outstanding FY26 Invoices (Recommended action: approval): Motion to authorize payment of outstanding FY26 invoices - Learn Well $4,544, American Red Cross $586",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.G",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Donation (Recommended action: approval): The Superintendent recommends acceptance, with gratitude, of the following",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "VII.H",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Acceptance of FY26 Grant Funds (Recommended action: approval): Motion to accept all federal entitlement and continuation grants and all state continuation grants awarded to Somerville Public Schools",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers – City Hall",
+      "Item_Number": "XI",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-14__2026_09_14_school-committee-regular-meeting__school-committee-regular-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-14",
+      "Meeting_Time": "7:00 PM",
+      "Location": "City Council Chambers - Somerville City Hall - 93 Highland Ave",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "For any and all business",
+      "Source_File": "2026-09-16__2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Highland Ave (Somerville Armory) - CPA Eligibility Application",
+      "Source_File": "2026-09-15__2026_09_15_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "CPC Update",
+      "Source_File": "2026-09-15__2026_09_15_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Other",
+      "Agenda_Topic": "165 Broadway - CPA Eligibility Application",
+      "Source_File": "2026-09-15__2026_09_15_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Minutes: 8/18",
+      "Source_File": "2026-09-15__2026_09_15_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "3",
+      "Item_Type": "Other",
+      "Agenda_Topic": "Somerville Museum (Artwork and Maps) - CPA Eligibility Application",
+      "Source_File": "2026-09-15__2026_09_15_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000047",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP26-000047 – 333 Highland Ave: Applicant seeks to demolish a building constructed a minimum of 75 years ago (Step 1 Determination of Historic Significance)",
+      "Source_File": "2026-09-15__2026_09_15_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Historic Preservation Commission",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:45 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "HP26-000053",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "HP26-000053 – 83 Wallace Street: Applicant seeks to demolish a building constructed a minimum of 75 years ago (Step 2 Determination of Historic Significance)",
+      "Source_File": "2026-09-15__2026_09_15_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
+    },
+    {
       "Committee_Name": "Licensing Commission",
       "Meeting_Date": "2026-09-15",
       "Meeting_Time": "6:00 PM",
@@ -27454,6 +27820,66 @@
       "Source_File": "2026-09-15__2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
     },
     {
+      "Committee_Name": "Zoning Board of Appeals",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "This meeting was cancelled due to lack of business.",
+      "Source_File": "2026-09-16__2026_09_16_canceled-zoning-board-appeals-meeting__canceled-zoning-board-of-appeals-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "1",
+      "Item_Type": "Report",
+      "Agenda_Topic": "FY26 Recap",
+      "Source_File": "2026-09-16__2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "2",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "FY27 Finance Goals",
+      "Source_File": "2026-09-16__2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "3",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "3YR Forecast Overview",
+      "Source_File": "2026-09-16__2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "FY27 Subcom Calendar Feedback",
+      "Source_File": "2026-09-16__2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "School Committee",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Zoom Webinar",
+      "Item_Number": "5",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "June- August Investment Roll Review/Approval",
+      "Source_File": "2026-09-16__2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting__school-committee-finance-and-facilities-subcommittee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Somerville-Cambridge Public Health Collaborative",
       "Meeting_Date": "2026-09-16",
       "Meeting_Time": "2:00 PM",
@@ -27502,6 +27928,56 @@
       "Item_Type": "Approval/Minutes",
       "Agenda_Topic": "Approval of Previous Minutes",
       "Source_File": "2026-09-16__2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting__somerville-cambridge-public-health-collaborative-workgroup-m.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Meeting Call to Order",
+      "Source_File": "2026-09-17__2026_09_17_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of Minutes – June 18, 2026",
+      "Source_File": "2026-09-17__2026_09_17_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Inspectional Services – Food Inspections, Community, Complaints/Concerns, Questions from Board of Health – Colin Zeigler",
+      "Source_File": "2026-09-17__2026_09_17_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Health and Human Services – Staffing, Department activity and events, budget and goals updates, questions from the Board of Health -Karin Carroll",
+      "Source_File": "2026-09-17__2026_09_17_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Health",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual meeting via Zoom",
+      "Item_Number": "5",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjourn",
+      "Source_File": "2026-09-17__2026_09_17_board-health-meeting__board-of-health-meeting.pdf"
     },
     {
       "Committee_Name": "Somerville Municipal Scholarship Committee",
@@ -27592,39 +28068,89 @@
       "Item_Type": "Discussion",
       "Agenda_Topic": "Continue Review of Squires Bridge Replacement Project (35 Minutes) - review of Design Review Subcommittee's draft comment letter",
       "Source_File": "2026-09-17__2026_09_17_pedestrian-and-transit-advisory-committee-meeting__pedestrian-and-transit-advisory-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "1",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Board Administration Open Discussion",
+      "Source_File": "2026-09-17__2026_09_17_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP24-000091",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "8 Medford Street - The Law Offices of Richard G. DiGirolamo on behalf of Medford Properties, LLC proposes to develop a General Building in the Mid-Rise 4 (MR4) zoning district, which requires Special Permit.",
+      "Source_File": "2026-09-17__2026_09_17_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP24-000092",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "8 Medford Street - The Law Offices of Richard G. DiGirolamo on behalf of Medford Properties, LLC proposes to develop a General Building in the Mid-Rise 4 (MR4) zoning district, which requires Site Plan Approval.",
+      "Source_File": "2026-09-17__2026_09_17_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP25-000116",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "6 Wheatland Street - Adam Dash, Esq. on behalf of Nelson Group Construction Corp. proposes to develop an Apartment Building in the Mid-Rise (MR3) zoning district, which requires Site Plan Approval.",
+      "Source_File": "2026-09-17__2026_09_17_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP25-000117",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "6 Wheatland Street - Adam Dash, Esq. on behalf of Nelson Group Construction Corp. proposes to establish residential housing in the Mid-Rise (MR3) zoning district, which requires Special Permit.",
+      "Source_File": "2026-09-17__2026_09_17_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Planning Board",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:00 PM",
+      "Location": "City Hall, 93 Highland Avenue, Somerville MA 02143 (via Zoom)",
+      "Item_Number": "ZP26-000008",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "222 Broadway - Mission Hill Donuts, LLC proposes to expand the hours of an existing nonconforming business in the Mid-Rise 5 (MR5) zoning district, which requires a Special Permit.",
+      "Source_File": "2026-09-17__2026_09_17_planning-board-meeting__planning-board-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Licenses and Permits Committee",
+      "Meeting_Date": "2026-09-23",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1068",
+      "Item_Type": "Public Hearing",
+      "Agenda_Topic": "New Extended Operating Hours License, Wings Over Somerville, 519 Somerville Avenue, for in-store, take-out, and delivery service until 2am.",
+      "Source_File": "2026-09-23__2026_09_23_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Licenses and Permits Committee",
+      "Meeting_Date": "2026-09-23",
+      "Meeting_Time": "6:30 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1150",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Licenses and Permits Committee Meeting of June 24, 2026.",
+      "Source_File": "2026-09-23__2026_09_23_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf"
     }
   ],
   "window_meetings": [
-    {
-      "occur_id": "2026_09_10_affordable-housing-trust-meeting",
-      "title": "Affordable Housing Trust Meeting",
-      "start": "2026-09-10T17:15:00-04:00",
-      "date": "2026-09-10",
-      "time": "5:15 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/10/affordable-housing-trust-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/affordable-housing-20260910-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/83080024978",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_10_city-council-meeting",
-      "title": "City Council Meeting",
-      "start": "2026-09-10T19:00:00-04:00",
-      "date": "2026-09-10",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/10/city-council-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1428400&GUID=F7F38A04-553B-48D5-A4ED-DE843BE77F26",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
     {
       "occur_id": "2026_09_14_school-committee-regular-meeting",
       "title": "School Committee Regular Meeting",
@@ -27633,12 +28159,12 @@
       "time": "7:00 PM",
       "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
       "detail_url": "https://www.somervillema.gov/events/2026/09/14/school-committee-regular-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/Regular%20SC%20Agenda%200914226_0.pdf",
+      "agenda_type": "S3",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting",
@@ -27668,7 +28194,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_z-jnZHXAQDKT1i2baH7wOA",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_15_legislative-matters-committee-meeting",
@@ -27693,12 +28219,12 @@
       "time": "6:45 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/09/15/historic-preservation-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/historic-preservation-20260915-agenda.pdf",
+      "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_WzfdxgnoRGCutE2dnLOxgA",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting",
@@ -27716,19 +28242,19 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_09_16_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
+      "occur_id": "2026_09_16_canceled-zoning-board-appeals-meeting",
+      "title": "CANCELED: Zoning Board of Appeals Meeting",
       "start": "2026-09-16T18:00:00-04:00",
       "date": "2026-09-16",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/16/zoning-board-appeals-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/canceled-zoning-board-appeals-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/zoning-20260916-agenda.pdf",
+      "agenda_type": "S3",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
@@ -27738,12 +28264,12 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/Call%20for%20the%20Week%20of%209-14-26_3.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_IrMewErpR8Oe91ej6JN60A",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_17_urban-forestry-committee-meeting",
@@ -27776,6 +28302,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_09_17_board-health-meeting",
+      "title": "Board of Health Meeting",
+      "start": "2026-09-17T18:00:00-04:00",
+      "date": "2026-09-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/board-health-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/board-of-health-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81626608150",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_09_17_planning-board-meeting",
       "title": "Planning Board Meeting",
       "start": "2026-09-17T18:00:00-04:00",
@@ -27783,8 +28324,23 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/09/17/planning-board-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/planning-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_x-Ng05nvSfGpRf2PQ9i2mQ",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_09_17_land-use-committee-meeting",
+      "title": "Land Use Committee Meeting",
+      "start": "2026-09-17T18:30:00-04:00",
+      "date": "2026-09-17",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/land-use-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440563&GUID=EF2F9428-11B0-418A-8256-2785D8697AA3",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -27821,15 +28377,15 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_09_17_land-use-committee-meeting",
-      "title": "Land Use Committee Meeting",
-      "start": "2026-09-17T18:30:00-04:00",
-      "date": "2026-09-17",
-      "time": "6:30 PM",
+      "occur_id": "2026_09_22_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-09-22T18:00:00-04:00",
+      "date": "2026-09-22",
+      "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/17/land-use-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440563&GUID=EF2F9428-11B0-418A-8256-2785D8697AA3",
-      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/22/urban-design-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -27851,19 +28407,34 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_09_22_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-09-22T18:00:00-04:00",
-      "date": "2026-09-22",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/22/urban-design-commission-meeting",
+      "occur_id": "2026_09_23_2026-neighborhood-connect-meeting-ward-4",
+      "title": "2026 Neighborhood Connect Meeting - Ward 4",
+      "start": "2026-09-23T18:30:00-04:00",
+      "date": "2026-09-23",
+      "time": "6:30 PM",
+      "location": "Healey School Cafeteria 5 Meacham St. Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/23/2026-neighborhood-connect-meeting-ward-4",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_23_licenses-and-permits-committee-meeting",
+      "title": "Licenses and Permits Committee Meeting",
+      "start": "2026-09-23T18:30:00-04:00",
+      "date": "2026-09-23",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/23/licenses-and-permits-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1441288&GUID=39923472-C86D-4986-AC61-21FE7E6C0CC8",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }
