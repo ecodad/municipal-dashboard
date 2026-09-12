@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "processed_date": "2026-09-11",
+    "processed_date": "2026-09-12",
     "documents_processed": [
       {
         "filename": "2026-05-01__2026_05_01_council-aging-board-meeting__council-on-aging-board-meeting.pdf",
@@ -1146,6 +1146,21 @@
         "filename": "2026-09-23__2026_09_23_licenses-and-permits-committee-meeting__licenses-and-permits-committee-meeting.pdf",
         "status": "parsed",
         "item_count": 2
+      },
+      {
+        "filename": "2026-09-15__2026_09_15_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf",
+        "status": "parsed",
+        "item_count": 8
+      },
+      {
+        "filename": "2026-09-16__2026_09_16_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf",
+        "status": "parsed",
+        "item_count": 6
+      },
+      {
+        "filename": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf",
+        "status": "parsed",
+        "item_count": 10
       }
     ]
   },
@@ -4011,6 +4026,19 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/15/historic-preservation-commission-meeting"
     },
     {
+      "source_file": "2026-09-15__2026_09_15_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf",
+      "occur_id": "2026_09_15_legislative-matters-committee-meeting",
+      "committee_name": "Legislative Matters Committee",
+      "meeting_date": "2026-09-15",
+      "meeting_time": "6:00 PM",
+      "location": "Virtual",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440562&GUID=3FF11762-89D3-412D-B11F-C25B576FAEF5",
+      "agenda_type": "LEGISTAR",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/15/legislative-matters-committee-meeting"
+    },
+    {
       "source_file": "2026-09-15__2026_09_15_licensing-commission-meeting__licensing-commission-meeting.pdf",
       "occur_id": "2026_09_15_licensing-commission-meeting",
       "committee_name": "Licensing Commission",
@@ -4035,6 +4063,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/somerville-cambridge-public-health-20260915-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/09/15/somerville-cambridge-public-health-collaborative-advisory-board-meeting"
+    },
+    {
+      "source_file": "2026-09-16__2026_09_16_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf",
+      "occur_id": "2026_09_16_board-library-trustees-meeting",
+      "committee_name": "Board of Library Trustees",
+      "meeting_date": "2026-09-16",
+      "meeting_time": "6:00 PM",
+      "location": "Central Library 79 Highland Avenue Somerville , MA 02143 United States",
+      "has_zoom": false,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/library-trustees-20260916-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/board-library-trustees-meeting"
     },
     {
       "source_file": "2026-09-16__2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting__somerville-cambridge-public-health-collaborative-workgroup-m.pdf",
@@ -4074,6 +4115,19 @@
       "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/board-of-health-20260917-agenda.pdf",
       "agenda_type": "S3",
       "detail_url": "https://www.somervillema.gov/events/2026/09/17/board-health-meeting"
+    },
+    {
+      "source_file": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf",
+      "occur_id": "2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting",
+      "committee_name": "City of Somerville Job Creation & Retention Trust",
+      "meeting_date": "2026-09-17",
+      "meeting_time": "6:30 PM",
+      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
+      "has_zoom": true,
+      "has_livestream": false,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/job-creation-and-retention-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/municipal-job-creation-and-retention-board-trustees-meeting"
     },
     {
       "source_file": "2026-09-17__2026_09_17_planning-board-meeting__planning-board-meeting.pdf",
@@ -27690,6 +27744,86 @@
       "Source_File": "2026-09-15__2026_09_15_historic-preservation-commission-meeting__historic-preservation-commission-meeting.pdf"
     },
     {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-0956",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "Requesting ordainment of an amendment to Section 2-323 of the Code of Ordinances to update categories and associated salaries for non-union positions.",
+      "Source_File": "2026-09-15__2026_09_15_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1111",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "That Chapter 3, Article VIII, Division 1 of the Code of Ordinances be amended as detailed within.",
+      "Source_File": "2026-09-15__2026_09_15_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1165",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Davis Square Neighborhood Council submitting comments re: formal recognition by this Council as a neighborhood council under Chapter 7, Article IX of the Code of Ordinances.",
+      "Source_File": "2026-09-15__2026_09_15_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1218",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Davis Square Neighborhood Council submitting information re: item #26-1165, a request for formal recognition as a neighborhood council.",
+      "Source_File": "2026-09-15__2026_09_15_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1257",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "Requesting approval of a Home Rule Petition to regulate anticoagulant rodenticides.",
+      "Source_File": "2026-09-15__2026_09_15_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1262",
+      "Item_Type": "Communication",
+      "Agenda_Topic": "6 residents submitting comments re: item #26-1165, Davis Square Neighborhood Council recognition.",
+      "Source_File": "2026-09-15__2026_09_15_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1310",
+      "Item_Type": "Ordinance",
+      "Agenda_Topic": "That Chapter 6 of the Code of Ordinances be amended as detailed within.",
+      "Source_File": "2026-09-15__2026_09_15_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Legislative Matters Committee",
+      "Meeting_Date": "2026-09-15",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Virtual",
+      "Item_Number": "26-1385",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the Minutes of the Legislative Matters Committee Meeting of September 8, 2026.",
+      "Source_File": "2026-09-15__2026_09_15_legislative-matters-committee-meeting__legislative-matters-committee-meeting.pdf"
+    },
+    {
       "Committee_Name": "Licensing Commission",
       "Meeting_Date": "2026-09-15",
       "Meeting_Time": "6:00 PM",
@@ -27818,6 +27952,66 @@
       "Item_Type": "Approval/Minutes",
       "Agenda_Topic": "Approval of Previous Minutes",
       "Source_File": "2026-09-15__2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting__somerville-cambridge-public-health-collaborative-advisory-bo.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library, 79 Highland Avenue",
+      "Item_Number": "1",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Call to Order",
+      "Source_File": "2026-09-16__2026_09_16_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library, 79 Highland Avenue",
+      "Item_Number": "2",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Approval of the July minutes",
+      "Source_File": "2026-09-16__2026_09_16_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library, 79 Highland Avenue",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Directors Report",
+      "Source_File": "2026-09-16__2026_09_16_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library, 79 Highland Avenue",
+      "Item_Number": "4",
+      "Item_Type": "Report",
+      "Agenda_Topic": "President's Report",
+      "Source_File": "2026-09-16__2026_09_16_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library, 79 Highland Avenue",
+      "Item_Number": "5",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Committees - Communications Committee Report",
+      "Source_File": "2026-09-16__2026_09_16_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
+    },
+    {
+      "Committee_Name": "Board of Library Trustees",
+      "Meeting_Date": "2026-09-16",
+      "Meeting_Time": "6:00 PM",
+      "Location": "Central Library, 79 Highland Avenue",
+      "Item_Number": "6",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-16__2026_09_16_board-library-trustees-meeting__board-of-library-trustees-meeting.pdf"
     },
     {
       "Committee_Name": "Zoning Board of Appeals",
@@ -27978,6 +28172,106 @@
       "Item_Type": "Procedural",
       "Agenda_Topic": "Adjourn",
       "Source_File": "2026-09-17__2026_09_17_board-health-meeting__board-of-health-meeting.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "1",
+      "Item_Type": "Approval/Minutes",
+      "Agenda_Topic": "Review and approval of past meeting minutes",
+      "Source_File": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "1.a",
+      "Item_Type": "Vote",
+      "Agenda_Topic": "Vote to approve August 20th meeting minutes",
+      "Source_File": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "2",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Review Received and Estimated Linkage Fees for 2026",
+      "Source_File": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "3",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Updates on Active Programs",
+      "Source_File": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "4",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Review schedule for upcoming meeting topics and next request for proposals (RFP)",
+      "Source_File": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "5",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Reflections on Employer Engagement Presentation with regards to upcoming RFP and ongoing grantmaking",
+      "Source_File": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "6",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Preview of Annual Report",
+      "Source_File": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "7",
+      "Item_Type": "Report",
+      "Agenda_Topic": "Report back from 2027 RFP Subcommittee",
+      "Source_File": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "8",
+      "Item_Type": "Discussion",
+      "Agenda_Topic": "Annual Meeting Preparations",
+      "Source_File": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
+    },
+    {
+      "Committee_Name": "City of Somerville Job Creation & Retention Trust",
+      "Meeting_Date": "2026-09-17",
+      "Meeting_Time": "6:30 PM",
+      "Location": "167-169 Holland St, Conference Room 2, Suite 211, Somerville, MA 02144 and Remote via Zoom Meeting",
+      "Item_Number": "9",
+      "Item_Type": "Procedural",
+      "Agenda_Topic": "Adjournment",
+      "Source_File": "2026-09-17__2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting__municipal-job-creation-and-retention-board-of-trustees-meeti.pdf"
     },
     {
       "Committee_Name": "Somerville Municipal Scholarship Committee",
@@ -28164,7 +28458,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_15_somerville-cambridge-public-health-collaborative-advisory-board-meeting",
@@ -28209,7 +28503,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_15_historic-preservation-commission-meeting",
@@ -28224,7 +28518,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_WzfdxgnoRGCutE2dnLOxgA",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_16_somerville-cambridge-public-health-collaborative-workgroup-meeting",
@@ -28242,6 +28536,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_16_board-library-trustees-meeting",
+      "title": "Board of Library Trustees Meeting",
+      "start": "2026-09-16T18:00:00-04:00",
+      "date": "2026-09-16",
+      "time": "6:00 PM",
+      "location": "Central Library 79 Highland Avenue Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/board-library-trustees-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/library-trustees-20260916-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_09_16_canceled-zoning-board-appeals-meeting",
       "title": "CANCELED: Zoning Board of Appeals Meeting",
       "start": "2026-09-16T18:00:00-04:00",
@@ -28254,22 +28563,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
-      "title": "School Committee Finance and Facilities Subcommittee Meeting",
-      "start": "2026-09-16T18:00:00-04:00",
-      "date": "2026-09-16",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/Call%20for%20the%20Week%20of%209-14-26_3.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_IrMewErpR8Oe91ej6JN60A",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_17_urban-forestry-committee-meeting",
@@ -28314,7 +28608,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/81626608150",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_17_planning-board-meeting",
@@ -28329,22 +28623,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_x-Ng05nvSfGpRf2PQ9i2mQ",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_09_17_land-use-committee-meeting",
-      "title": "Land Use Committee Meeting",
-      "start": "2026-09-17T18:30:00-04:00",
-      "date": "2026-09-17",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/17/land-use-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440563&GUID=EF2F9428-11B0-418A-8256-2785D8697AA3",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_17_pedestrian-and-transit-advisory-committee-meeting",
@@ -28377,6 +28656,36 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_17_municipal-job-creation-and-retention-board-trustees-meeting",
+      "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
+      "start": "2026-09-17T18:30:00-04:00",
+      "date": "2026-09-17",
+      "time": "6:30 PM",
+      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/municipal-job-creation-and-retention-board-trustees-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/job-creation-and-retention-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/85028818784?pwd=iUBpEEERGKoEFTOSbwcVXyiXlAi7xK.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_09_17_land-use-committee-meeting",
+      "title": "Land Use Committee Meeting",
+      "start": "2026-09-17T18:30:00-04:00",
+      "date": "2026-09-17",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/land-use-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440563&GUID=EF2F9428-11B0-418A-8256-2785D8697AA3",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_09_22_urban-design-commission-meeting",
       "title": "Urban Design Commission Meeting",
       "start": "2026-09-22T18:00:00-04:00",
@@ -28407,6 +28716,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_09_23_licenses-and-permits-committee-meeting",
+      "title": "Licenses and Permits Committee Meeting",
+      "start": "2026-09-23T18:30:00-04:00",
+      "date": "2026-09-23",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/23/licenses-and-permits-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1441288&GUID=39923472-C86D-4986-AC61-21FE7E6C0CC8",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
       "occur_id": "2026_09_23_2026-neighborhood-connect-meeting-ward-4",
       "title": "2026 Neighborhood Connect Meeting - Ward 4",
       "start": "2026-09-23T18:30:00-04:00",
@@ -28420,21 +28744,6 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_09_23_licenses-and-permits-committee-meeting",
-      "title": "Licenses and Permits Committee Meeting",
-      "start": "2026-09-23T18:30:00-04:00",
-      "date": "2026-09-23",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/23/licenses-and-permits-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1441288&GUID=39923472-C86D-4986-AC61-21FE7E6C0CC8",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
     }
   ]
 }
