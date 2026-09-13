@@ -28476,6 +28476,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_15_legislative-matters-committee-meeting",
+      "title": "Legislative Matters Committee Meeting",
+      "start": "2026-09-15T18:00:00-04:00",
+      "date": "2026-09-15",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/15/legislative-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440562&GUID=3FF11762-89D3-412D-B11F-C25B576FAEF5",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
       "occur_id": "2026_09_15_licensing-commission-meeting",
       "title": "Licensing Commission Meeting",
       "start": "2026-09-15T18:00:00-04:00",
@@ -28489,21 +28504,6 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_z-jnZHXAQDKT1i2baH7wOA",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
-    },
-    {
-      "occur_id": "2026_09_15_legislative-matters-committee-meeting",
-      "title": "Legislative Matters Committee Meeting",
-      "start": "2026-09-15T18:00:00-04:00",
-      "date": "2026-09-15",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/15/legislative-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440562&GUID=3FF11762-89D3-412D-B11F-C25B576FAEF5",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_09_15_historic-preservation-commission-meeting",
@@ -28536,6 +28536,21 @@
       "pipeline_status": "skipped_existing"
     },
     {
+      "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
+      "title": "School Committee Finance and Facilities Subcommittee Meeting",
+      "start": "2026-09-16T18:00:00-04:00",
+      "date": "2026-09-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/Call%20for%20the%20Week%20of%209-14-26_3.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_IrMewErpR8Oe91ej6JN60A",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
       "occur_id": "2026_09_16_board-library-trustees-meeting",
       "title": "Board of Library Trustees Meeting",
       "start": "2026-09-16T18:00:00-04:00",
@@ -28548,7 +28563,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_16_canceled-zoning-board-appeals-meeting",
@@ -28668,7 +28683,7 @@
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/85028818784?pwd=iUBpEEERGKoEFTOSbwcVXyiXlAi7xK.1",
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "skipped_existing"
     },
     {
       "occur_id": "2026_09_17_land-use-committee-meeting",
@@ -28740,6 +28755,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/23/2026-neighborhood-connect-meeting-ward-4",
       "agenda_url": null,
       "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_24_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-09-24T19:00:00-04:00",
+      "date": "2026-09-24",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/24/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1428401&GUID=95D2A4AE-AD6B-4CF4-8376-67950B8D5437",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
