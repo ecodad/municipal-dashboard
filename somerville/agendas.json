@@ -28536,21 +28536,6 @@
       "pipeline_status": "skipped_existing"
     },
     {
-      "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
-      "title": "School Committee Finance and Facilities Subcommittee Meeting",
-      "start": "2026-09-16T18:00:00-04:00",
-      "date": "2026-09-16",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/Call%20for%20the%20Week%20of%209-14-26_3.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_IrMewErpR8Oe91ej6JN60A",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_09_16_board-library-trustees-meeting",
       "title": "Board of Library Trustees Meeting",
       "start": "2026-09-16T18:00:00-04:00",
@@ -28577,6 +28562,21 @@
       "agenda_type": "S3",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_09_16_school-committee-finance-and-facilities-subcommittee-meeting",
+      "title": "School Committee Finance and Facilities Subcommittee Meeting",
+      "start": "2026-09-16T18:00:00-04:00",
+      "date": "2026-09-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/16/school-committee-finance-and-facilities-subcommittee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/Call%20for%20the%20Week%20of%209-14-26_3.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_IrMewErpR8Oe91ej6JN60A",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -28611,21 +28611,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_09_17_board-health-meeting",
-      "title": "Board of Health Meeting",
-      "start": "2026-09-17T18:00:00-04:00",
-      "date": "2026-09-17",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/17/board-health-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/board-of-health-20260917-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/81626608150",
-      "has_livestream": false,
-      "pipeline_status": "skipped_existing"
-    },
-    {
       "occur_id": "2026_09_17_planning-board-meeting",
       "title": "Planning Board Meeting",
       "start": "2026-09-17T18:00:00-04:00",
@@ -28637,6 +28622,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_x-Ng05nvSfGpRf2PQ9i2mQ",
+      "has_livestream": false,
+      "pipeline_status": "skipped_existing"
+    },
+    {
+      "occur_id": "2026_09_17_board-health-meeting",
+      "title": "Board of Health Meeting",
+      "start": "2026-09-17T18:00:00-04:00",
+      "date": "2026-09-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/17/board-health-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/board-of-health-20260917-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81626608150",
       "has_livestream": false,
       "pipeline_status": "skipped_existing"
     },
@@ -28701,21 +28701,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_09_22_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-09-22T18:00:00-04:00",
-      "date": "2026-09-22",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/22/urban-design-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_09_22_finance-committee-meeting",
       "title": "Finance Committee Meeting",
       "start": "2026-09-22T18:00:00-04:00",
@@ -28725,6 +28710,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/09/22/finance-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1442580&GUID=02914D28-98C6-4DFD-9F6C-295CABD7771A",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_09_22_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-09-22T18:00:00-04:00",
+      "date": "2026-09-22",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/22/urban-design-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
