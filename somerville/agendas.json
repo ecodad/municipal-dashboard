@@ -28611,21 +28611,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_10_01_land-use-committee-meeting",
-      "title": "Land Use Committee Meeting",
-      "start": "2026-10-01T18:30:00-04:00",
-      "date": "2026-10-01",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/01/land-use-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1443135&GUID=CD60EC12-C93A-40FE-929F-853334F5027B",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_10_05_traffic-and-parking-committee-meeting",
       "title": "Traffic and Parking Committee Meeting",
       "start": "2026-10-05T18:00:00-04:00",
@@ -28664,21 +28649,6 @@
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/10/06/finance-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1442581&GUID=B615F0C1-AE5D-4089-BA5F-A0BDD348BE2C",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_10_06_school-building-facilities-and-maintenance-committee-meeting",
-      "title": "School Building Facilities and Maintenance Committee Meeting",
-      "start": "2026-10-06T18:00:00-04:00",
-      "date": "2026-10-06",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/06/school-building-facilities-and-maintenance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440290&GUID=5224D740-CCEF-4DAF-8F10-C60173497A34",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,

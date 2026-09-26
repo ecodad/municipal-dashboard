@@ -18509,6 +18509,21 @@
   ],
   "window_meetings": [
     {
+      "occur_id": "27415",
+      "title": "Medford School Committee Meeting",
+      "start": "2026-09-28T18:00:00-04:00",
+      "date": "2026-09-28",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27415",
+      "agenda_url": "https://drive.google.com/file/d/1NUhvrnN7FxDLrmr-z3puLht5Q_FIiNQU/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/91802566887?pwd=KpcRfUfRFUAHEQ8tNbMKV1Zt1HI2LH.1#success",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "27413",
       "title": "Medford Arts Council Meeting",
       "start": "2026-09-28T18:30:00-04:00",
@@ -18546,12 +18561,27 @@
       "time": "7:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26588",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://drive.google.com/file/d/1x8axp3WUvhJ9twudgnuB3eXP_HPrKWSc/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89707088725?pwd=gVahqNBaAuTbTXUa0NatlI6O1QcdE3.1",
+      "has_livestream": true,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "27416",
+      "title": "Board of Assessors Meeting",
+      "start": "2026-09-30T16:00:00-04:00",
+      "date": "2026-09-30",
+      "time": "4:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27416",
+      "agenda_url": "https://drive.google.com/file/d/1xsv9Y6PT6zPGhNA8fs1lW2nQTF0mw3Pe/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/87839017503",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "26518",
