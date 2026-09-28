@@ -28536,21 +28536,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_09_30_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-09-30T18:00:00-04:00",
-      "date": "2026-09-30",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/30/zoning-board-appeals-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/zoning-20260930-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_OTIFna0uRqaF7_wM6o_f-w",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_09_30_housing-community-development-and-equity-committee-meeting",
       "title": "Housing, Community Development and Equity Committee Meeting",
       "start": "2026-09-30T18:00:00-04:00",
@@ -28577,6 +28562,21 @@
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_09_30_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-09-30T18:00:00-04:00",
+      "date": "2026-09-30",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/09/30/zoning-board-appeals-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/zoning-20260930-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_OTIFna0uRqaF7_wM6o_f-w",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
