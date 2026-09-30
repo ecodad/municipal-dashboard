@@ -28446,36 +28446,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_09_29_legislative-matters-committee-meeting",
-      "title": "Legislative Matters Committee Meeting",
-      "start": "2026-09-29T18:00:00-04:00",
-      "date": "2026-09-29",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/09/29/legislative-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440565&GUID=65042BE0-EBB6-4059-8A04-9928F0E03E52",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_09_29_2026-neighborhood-connect-meeting-ward-5",
-      "title": "2026 Neighborhood Connect Meeting - Ward 5",
-      "start": "2026-09-29T18:30:00-04:00",
-      "date": "2026-09-29",
-      "time": "6:30 PM",
-      "location": "Kennedy School Cafeteria 5 Cherry St. Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/09/29/2026-neighborhood-connect-meeting-ward-5",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_09_30_housing-community-development-and-equity-committee-meeting",
       "title": "Housing, Community Development and Equity Committee Meeting",
       "start": "2026-09-30T18:00:00-04:00",
@@ -28566,6 +28536,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_10_01_bicycle-advisory-committee-meeting",
+      "title": "Bicycle Advisory Committee Meeting",
+      "start": "2026-10-01T18:30:00-04:00",
+      "date": "2026-10-01",
+      "time": "6:30 PM",
+      "location": "Tufts Administration Building, Room 211N 167 Holland St. Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/01/bicycle-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/bicycle-advisory-20261001-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81109493091?pwd=egzEie0wNr19CajPJnIHYD0T13wl5h.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_10_01_land-use-committee-meeting",
       "title": "Land Use Committee Meeting",
       "start": "2026-10-01T18:30:00-04:00",
@@ -28611,19 +28596,19 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_10_06_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-10-06T18:00:00-04:00",
+      "occur_id": "2026_10_06_traffic-commission-meeting",
+      "title": "Traffic Commission Meeting",
+      "start": "2026-10-06T17:30:00-04:00",
       "date": "2026-10-06",
-      "time": "6:00 PM",
+      "time": "5:30 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/06/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1442581&GUID=B615F0C1-AE5D-4089-BA5F-A0BDD348BE2C",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/06/traffic-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/traffic-commission-20261006-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_Za3XS3_pR9-uQ852H2YKaQ",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_06_school-building-facilities-and-maintenance-committee-meeting",
@@ -28634,6 +28619,21 @@
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/10/06/school-building-facilities-and-maintenance-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440290&GUID=5224D740-CCEF-4DAF-8F10-C60173497A34",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_10_06_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-10-06T18:00:00-04:00",
+      "date": "2026-10-06",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/06/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1442581&GUID=B615F0C1-AE5D-4089-BA5F-A0BDD348BE2C",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
@@ -28669,21 +28669,6 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_3kan6KIDRZCFVFLks5Q3MQ",
       "has_livestream": false,
       "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_10_07_school-committee-finance-and-facilities-subcommittee-meeting",
-      "title": "School Committee Finance and Facilities Subcommittee Meeting",
-      "start": "2026-10-07T18:00:00-04:00",
-      "date": "2026-10-07",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/07/school-committee-finance-and-facilities-subcommittee-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_10_07_2026-neighborhood-connect-meeting-ward-3",
@@ -28743,7 +28728,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_13_2026-neighborhood-connect-meeting-ward-1",
@@ -28759,6 +28744,66 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_10_13_climate-action-commission-meeting",
+      "title": "Climate Action Commission Meeting",
+      "start": "2026-10-13T18:30:00-04:00",
+      "date": "2026-10-13",
+      "time": "6:30 PM",
+      "location": "Somerville City Hall Annex 50 Evergreen Ave Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/13/climate-action-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_10_14_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-10-14T18:00:00-04:00",
+      "date": "2026-10-14",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/14/zoning-board-appeals-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_10_14_traffic-and-parking-committee-meeting",
+      "title": "Traffic and Parking Committee Meeting",
+      "start": "2026-10-14T18:00:00-04:00",
+      "date": "2026-10-14",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/14/traffic-and-parking-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1443354&GUID=DCAC8234-DDC7-4616-A7D0-ADA481B8B5D9",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_10_14_arts-council-board-meeting",
+      "title": "Arts Council Board Meeting",
+      "start": "2026-10-14T18:30:00-04:00",
+      "date": "2026-10-14",
+      "time": "6:30 PM",
+      "location": "City Hall Annex conference room, 1st floor 50 Evergreen Ave Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/14/arts-council-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/arts-council-20261014-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }
