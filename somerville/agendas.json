@@ -28446,66 +28446,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_10_01_planning-board-meeting",
-      "title": "Planning Board Meeting",
-      "start": "2026-10-01T18:00:00-04:00",
-      "date": "2026-10-01",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/01/planning-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/planning-20261001-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_Sr_vIG7zQ7Kqog3BO_Rj6Q",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_10_01_2026-neighborhood-connect-meeting-ward-7",
-      "title": "2026 Neighborhood Connect Meeting - Ward 7",
-      "start": "2026-10-01T18:30:00-04:00",
-      "date": "2026-10-01",
-      "time": "6:30 PM",
-      "location": "West Somerville Neighborhood School Cafeteria 177 Powder House Blvd. Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/10/01/2026-neighborhood-connect-meeting-ward-7",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_10_01_bicycle-advisory-committee-meeting",
-      "title": "Bicycle Advisory Committee Meeting",
-      "start": "2026-10-01T18:30:00-04:00",
-      "date": "2026-10-01",
-      "time": "6:30 PM",
-      "location": "Tufts Administration Building, Room 211N 167 Holland St. Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/10/01/bicycle-advisory-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-09/bicycle-advisory-20261001-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/81109493091?pwd=egzEie0wNr19CajPJnIHYD0T13wl5h.1",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_10_01_land-use-committee-meeting",
-      "title": "Land Use Committee Meeting",
-      "start": "2026-10-01T18:30:00-04:00",
-      "date": "2026-10-01",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/01/land-use-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1443135&GUID=CD60EC12-C93A-40FE-929F-853334F5027B",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_10_05_traffic-and-parking-committee-meeting",
       "title": "Traffic and Parking Committee Meeting",
       "start": "2026-10-05T18:00:00-04:00",
@@ -28518,22 +28458,22 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_05_school-committee-regular-meeting",
       "title": "School Committee Regular Meeting",
-      "start": "2026-10-05T19:00:00-04:00",
+      "start": "2026-10-05T18:30:00-04:00",
       "date": "2026-10-05",
-      "time": "7:00 PM",
+      "time": "6:30 PM",
       "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
       "detail_url": "https://www.somervillema.gov/events/2026/10/05/school-committee-regular-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/Regular%20SC%20Agenda%20Oct%2005%2C%202026_0.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://k12somerville.zoom.us/webinar/register/WN_fEybhBXsQambWRiEvb_luQ",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_06_traffic-commission-meeting",
@@ -28551,21 +28491,6 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_10_06_school-building-facilities-and-maintenance-committee-meeting",
-      "title": "School Building Facilities and Maintenance Committee Meeting",
-      "start": "2026-10-06T18:00:00-04:00",
-      "date": "2026-10-06",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/06/school-building-facilities-and-maintenance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440290&GUID=5224D740-CCEF-4DAF-8F10-C60173497A34",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_10_06_finance-committee-meeting",
       "title": "Finance Committee Meeting",
       "start": "2026-10-06T18:00:00-04:00",
@@ -28578,7 +28503,22 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_10_06_school-building-facilities-and-maintenance-committee-meeting",
+      "title": "School Building Facilities and Maintenance Committee Meeting",
+      "start": "2026-10-06T18:00:00-04:00",
+      "date": "2026-10-06",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/06/school-building-facilities-and-maintenance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1440290&GUID=5224D740-CCEF-4DAF-8F10-C60173497A34",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_06_historic-preservation-commission-meeting",
@@ -28701,21 +28641,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_10_14_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-10-14T18:00:00-04:00",
-      "date": "2026-10-14",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/14/zoning-board-appeals-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_10_14_traffic-and-parking-committee-meeting",
       "title": "Traffic and Parking Committee Meeting",
       "start": "2026-10-14T18:00:00-04:00",
@@ -28729,6 +28654,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_10_14_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-10-14T18:00:00-04:00",
+      "date": "2026-10-14",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/14/zoning-board-appeals-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_10_14_arts-council-board-meeting",
@@ -28759,6 +28699,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_10_15_municipal-scholarship-committee-meeting",
+      "title": "Municipal Scholarship Committee Meeting",
+      "start": "2026-10-15T18:30:00-04:00",
+      "date": "2026-10-15",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/15/municipal-scholarship-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/municipal-scholarship-20261015-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/85359660102?pwd=Un2DzWvlNEShCLL8en4b8aRyeD63IW.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }
