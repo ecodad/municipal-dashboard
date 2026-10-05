@@ -28611,13 +28611,13 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_10_13_2026-neighborhood-connect-meeting-ward-1",
-      "title": "2026 Neighborhood Connect Meeting - Ward 1",
+      "occur_id": "2026_10_13_climate-action-commission-meeting",
+      "title": "Climate Action Commission Meeting",
       "start": "2026-10-13T18:30:00-04:00",
       "date": "2026-10-13",
       "time": "6:30 PM",
-      "location": "East Somerville Community School Cafeteria 50 Cross St. Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/10/13/2026-neighborhood-connect-meeting-ward-1",
+      "location": "Somerville City Hall Annex 50 Evergreen Ave Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/13/climate-action-commission-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -28626,13 +28626,13 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_10_13_climate-action-commission-meeting",
-      "title": "Climate Action Commission Meeting",
+      "occur_id": "2026_10_13_2026-neighborhood-connect-meeting-ward-1",
+      "title": "2026 Neighborhood Connect Meeting - Ward 1",
       "start": "2026-10-13T18:30:00-04:00",
       "date": "2026-10-13",
       "time": "6:30 PM",
-      "location": "Somerville City Hall Annex 50 Evergreen Ave Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/10/13/climate-action-commission-meeting",
+      "location": "East Somerville Community School Cafeteria 50 Cross St. Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/13/2026-neighborhood-connect-meeting-ward-1",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -28729,6 +28729,21 @@
       "zoom_url": "https://us02web.zoom.us/j/85359660102?pwd=Un2DzWvlNEShCLL8en4b8aRyeD63IW.1",
       "has_livestream": false,
       "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_10_19_school-committee-regular-meeting",
+      "title": "School Committee Regular Meeting",
+      "start": "2026-10-19T19:00:00-04:00",
+      "date": "2026-10-19",
+      "time": "7:00 PM",
+      "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/19/school-committee-regular-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
