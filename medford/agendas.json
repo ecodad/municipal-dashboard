@@ -18509,17 +18509,17 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "27652",
-      "title": "Historic District Commission Meeting",
-      "start": "2026-10-08T18:00:00-04:00",
-      "date": "2026-10-08",
-      "time": "6:00 PM",
+      "occur_id": "27653",
+      "title": "Board of Health Meeting",
+      "start": "2026-10-13T12:30:00-04:00",
+      "date": "2026-10-13",
+      "time": "12:30 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27652",
-      "agenda_url": "https://drive.google.com/file/d/1alKf90RPTAGdoFyElxTiJkgJlc_VqOD8/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27653",
+      "agenda_url": "https://docs.google.com/document/d/1_flk_7L1aXkUk5E2P7z5tfaEDofCAo3J/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
       "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/89507419732",
+      "zoom_url": "https://us06web.zoom.us/j/87877859301",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -18539,19 +18539,34 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "12015",
+      "occur_id": "27654",
+      "title": "City Council Committee of the Whole Meeting",
+      "start": "2026-10-13T18:30:00-04:00",
+      "date": "2026-10-13",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27654",
+      "agenda_url": "https://drive.google.com/file/d/1Io5_yrG_NL42LjAjrVj3FAMylcnIR6FQ/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/85778062365?pwd=vHecvOnN5bk76CEJmNZn8SCNpNeeRX.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "27717",
       "title": "Community Preservation Committee Meeting",
       "start": "2026-10-13T18:30:00-04:00",
       "date": "2026-10-13",
       "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/12015",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27717",
+      "agenda_url": "https://drive.google.com/file/d/137LYFABV_Nmc7Zbir6M87r_jp1UKm9rk/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/85954896952",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "26589",
@@ -18561,12 +18576,12 @@
       "time": "7:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26589",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://drive.google.com/file/d/1hHZ8PAHmn2gv8B8XUeWg2XCXOruW6kHH/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/85778062365?pwd=vHecvOnN5bk76CEJmNZn8SCNpNeeRX.1",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "19009",
@@ -18582,6 +18597,21 @@
       "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "27655",
+      "title": "Hormel Stadium and Athletic Commission Meeting",
+      "start": "2026-10-14T17:00:00-04:00",
+      "date": "2026-10-14",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27655",
+      "agenda_url": "https://drive.google.com/file/d/117hduweK-3mszBbE-VzSJUpujmV-wTFK/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/6752348629?pwd=c0QPIcRxCfKT8S9rXWMYejb9CGkiVu.1&omn=88075645491",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "27588",
