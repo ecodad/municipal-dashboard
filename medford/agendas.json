@@ -18614,6 +18614,21 @@
       "pipeline_status": "downloaded"
     },
     {
+      "occur_id": "27718",
+      "title": "Civic Auditoriums And Convention Center Commission Meeting",
+      "start": "2026-10-14T18:30:00-04:00",
+      "date": "2026-10-14",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27718",
+      "agenda_url": "https://docs.google.com/document/d/1jpk9I2wW6QwoaEuys0OWyhLiKwCDYtHl/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81442819565?pwd=Dg0P3anP9I9m9eWUOByTJSn69RaSoY.1 Meeting ID: 814 4281 9565 Passcode: 991087 13052241968,,81442819565#",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "27588",
       "title": "\"Optional\"  Virtual Pre-bid meeting: CONDON SHELL LIGHTING IMPROVEMENTS PROJECT",
       "start": "2026-10-15T11:00:00-04:00",
