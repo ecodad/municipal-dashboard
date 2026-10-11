@@ -28491,21 +28491,6 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_10_13_climate-action-commission-meeting",
-      "title": "Climate Action Commission Meeting",
-      "start": "2026-10-13T18:30:00-04:00",
-      "date": "2026-10-13",
-      "time": "6:30 PM",
-      "location": "Somerville City Hall Annex 50 Evergreen Ave Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/10/13/climate-action-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/climate-action-20261013-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_vz2cuVjPSsCuWfqUZxZiag",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_10_13_rank-choice-voting-commission-meeting",
       "title": "Rank Choice Voting Commission Meeting",
       "start": "2026-10-13T18:30:00-04:00",
@@ -28534,6 +28519,36 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_10_13_climate-action-commission-meeting",
+      "title": "Climate Action Commission Meeting",
+      "start": "2026-10-13T18:30:00-04:00",
+      "date": "2026-10-13",
+      "time": "6:30 PM",
+      "location": "Somerville City Hall Annex 50 Evergreen Ave Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/13/climate-action-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/climate-action-20261013-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_vz2cuVjPSsCuWfqUZxZiag",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_10_14_board-library-trustees-meeting",
+      "title": "Board of Library Trustees Meeting",
+      "start": "2026-10-14T18:00:00-04:00",
+      "date": "2026-10-14",
+      "time": "6:00 PM",
+      "location": "Central Library 79 Highland Avenue Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/14/board-library-trustees-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/library-trustees-20261014-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_14_zoning-board-appeals-meeting",
@@ -28581,21 +28596,6 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_10_14_board-library-trustees-meeting",
-      "title": "Board of Library Trustees Meeting",
-      "start": "2026-10-14T18:00:00-04:00",
-      "date": "2026-10-14",
-      "time": "6:00 PM",
-      "location": "Central Library 79 Highland Avenue Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/10/14/board-library-trustees-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/library-trustees-20261014-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_10_14_arts-council-board-meeting",
       "title": "Arts Council Board Meeting",
       "start": "2026-10-14T18:30:00-04:00",
@@ -28622,6 +28622,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_i2dUfqoHThy8NaScuAgBhg",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_10_15_pedestrian-and-transit-advisory-committee-meeting",
+      "title": "Pedestrian and Transit Advisory Committee Meeting",
+      "start": "2026-10-15T18:30:00-04:00",
+      "date": "2026-10-15",
+      "time": "6:30 PM",
+      "location": "101 South Street Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/15/pedestrian-and-transit-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/pedestrian-transit-advisory-20261015-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -28684,21 +28699,6 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_10_15_pedestrian-and-transit-advisory-committee-meeting",
-      "title": "Pedestrian and Transit Advisory Committee Meeting",
-      "start": "2026-10-15T18:30:00-04:00",
-      "date": "2026-10-15",
-      "time": "6:30 PM",
-      "location": "101 South Street Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/10/15/pedestrian-and-transit-advisory-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/pedestrian-transit-advisory-20261015-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_19_school-committee-regular-meeting",
