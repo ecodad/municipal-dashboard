@@ -18509,33 +18509,18 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "27588",
-      "title": "\"Optional\"  Virtual Pre-bid meeting: CONDON SHELL LIGHTING IMPROVEMENTS PROJECT",
-      "start": "2026-10-15T11:00:00-04:00",
-      "date": "2026-10-15",
-      "time": "11:00 AM",
+      "occur_id": "27418",
+      "title": "Medford School Committee Meeting",
+      "start": "2026-10-19T18:00:00-04:00",
+      "date": "2026-10-19",
+      "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27588",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "27522",
-      "title": "Medford School Committee Curriculum & Instruction Subcommittee Meeting",
-      "start": "2026-10-15T16:30:00-04:00",
-      "date": "2026-10-15",
-      "time": "4:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27522",
-      "agenda_url": "https://drive.google.com/file/d/1YYFu0zbcYncwvBfN7ldf1WMkyGY-S4tK/view?usp=sharing",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27418",
+      "agenda_url": "https://drive.google.com/file/d/1YyDBu72a-hftaetLiBZRw0EMojfVYkGJ/view?usp=sharing",
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
-      "zoom_url": "https://mps02155-org.zoom.us/j/99604308902?pwd=7KB1EZcoiAru9xZVfLE8BnbmODRGwT.1#success",
-      "has_livestream": false,
+      "zoom_url": "https://mps02155-org.zoom.us/j/98281274787?pwd=5yq0bgCk64bHEkg5PrLzZ21QdgCHLq.1#success",
+      "has_livestream": true,
       "pipeline_status": "downloaded"
     },
     {
@@ -18552,6 +18537,21 @@
       "zoom_url": "https://zoom.us/j/96236192680",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "27850",
+      "title": "Medford Parks Commission Meeting",
+      "start": "2026-10-20T18:00:00-04:00",
+      "date": "2026-10-20",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27850",
+      "agenda_url": "https://drive.google.com/file/d/1hnKQYFS2-SCz6BS3tSKX0i9CUJriQC0Z/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89166844548",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "16870",
@@ -18612,6 +18612,21 @@
       "zoom_url": "https://us06web.zoom.us/j/87538063188",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "27849",
+      "title": "Retirement Board Meeting",
+      "start": "2026-10-29T09:30:00-04:00",
+      "date": "2026-10-29",
+      "time": "9:30 AM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27849",
+      "agenda_url": "https://drive.google.com/file/d/1_BSvdTpVeKWQDu1NzNXHynErycnPVipt/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "22854",
