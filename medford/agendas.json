@@ -18554,6 +18554,21 @@
       "pipeline_status": "downloaded"
     },
     {
+      "occur_id": "27851",
+      "title": "City Council Public Works & Facilities Committee Meeting",
+      "start": "2026-10-21T18:00:00-04:00",
+      "date": "2026-10-21",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27851",
+      "agenda_url": "https://drive.google.com/file/d/1fjID3OwtxDfyttqL2DsWHOGaiBdox8I0/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/84422052363?pwd=653i8mcH5b4htTCTbXNQgCEabKGtbd.1",
+      "has_livestream": true,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "16870",
       "title": "Climate Equity Council Meeting",
       "start": "2026-10-21T18:30:00-04:00",
