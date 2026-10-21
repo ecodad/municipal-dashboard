@@ -18509,21 +18509,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "27850",
-      "title": "Medford Parks Commission Meeting",
-      "start": "2026-10-20T18:00:00-04:00",
-      "date": "2026-10-20",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27850",
-      "agenda_url": "https://drive.google.com/file/d/1hnKQYFS2-SCz6BS3tSKX0i9CUJriQC0Z/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/89166844548",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "27930",
       "title": "City Council Special Meeting",
       "start": "2026-10-21T17:45:00-04:00",
@@ -18554,6 +18539,21 @@
       "pipeline_status": "downloaded"
     },
     {
+      "occur_id": "27932",
+      "title": "Medford Election Commission Meeting",
+      "start": "2026-10-21T18:00:00-04:00",
+      "date": "2026-10-21",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27932",
+      "agenda_url": "https://drive.google.com/file/d/1_9cMPgwpQ7voMy8L724TssgNPcqiwpMW/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "27929",
       "title": "Climate Equity Council Meeting",
       "start": "2026-10-21T18:30:00-04:00",
@@ -18580,6 +18580,21 @@
       "agenda_type": "GOOGLE_DRIVE_FILE",
       "has_zoom": true,
       "zoom_url": "https://us06web.zoom.us/j/95629298475",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "27931",
+      "title": "License Commission Meeting",
+      "start": "2026-10-22T13:00:00-04:00",
+      "date": "2026-10-22",
+      "time": "1:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27931",
+      "agenda_url": "https://drive.google.com/file/d/1QKaUF-mnbf1qRZR8SLSTU-uRuFpsPLfG/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82691882161?pwd=DoFB8bdy0jMNI8zSuVpXwrt3tmWKgJ.1",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -18672,6 +18687,36 @@
       "zoom_url": "https://us06web.zoom.us/j/82759527480?pwd=aq96haWV872Y67mtZwIDuHV56xMHPo.1",
       "has_livestream": false,
       "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "18404",
+      "title": "Affordable Housing Trust Board Meeting",
+      "start": "2026-11-04T18:00:00-05:00",
+      "date": "2026-11-04",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18404",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "24617",
+      "title": "Community Development Board Meeting",
+      "start": "2026-11-04T18:30:00-05:00",
+      "date": "2026-11-04",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24617",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }

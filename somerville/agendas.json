@@ -28446,51 +28446,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_10_20_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-10-20T18:00:00-04:00",
-      "date": "2026-10-20",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/20/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455594&GUID=2440C1D0-AA49-4875-BB46-14A02DAC92C8",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_10_20_licensing-commission-meeting",
-      "title": "Licensing Commission Meeting",
-      "start": "2026-10-20T18:00:00-04:00",
-      "date": "2026-10-20",
-      "time": "6:00 PM",
-      "location": "City Council Chamber 93 Highland Avenue Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/10/20/licensing-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/licensing-202601020-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_nRS0uxYrSUegEXwdDYM3zA",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_10_20_historic-preservation-commission-meeting",
-      "title": "Historic Preservation Commission Meeting",
-      "start": "2026-10-20T18:45:00-04:00",
-      "date": "2026-10-20",
-      "time": "6:45 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/20/historic-preservation-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/historic-preservation-20261020-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_ai05_HwSQ5a_Mee8w-Oh7Q",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_10_21_commission-persons-disabilities-meeting",
       "title": "Commission for Persons with Disabilities Meeting",
       "start": "2026-10-21T18:00:00-04:00",
@@ -28596,6 +28551,21 @@
       "pipeline_status": "downloaded"
     },
     {
+      "occur_id": "2026_10_22_housing-authority-meeting",
+      "title": "Housing Authority Meeting",
+      "start": "2026-10-22T17:00:00-04:00",
+      "date": "2026-10-22",
+      "time": "5:00 PM",
+      "location": "Mystic Activity Center 530 Mystic Avenue Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/22/housing-authority-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/housing-authority-20261022-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_10_22_biosafety-committee-meeting",
       "title": "Biosafety Committee Meeting",
       "start": "2026-10-22T18:00:00-04:00",
@@ -28638,7 +28608,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_26_condominium-review-board-meeting",
@@ -28716,6 +28686,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_10_27_overnight-warming-center-informational-meeting",
+      "title": "Overnight Warming Center Informational Meeting",
+      "start": "2026-10-27T19:00:00-04:00",
+      "date": "2026-10-27",
+      "time": "7:00 PM",
+      "location": "Central Library Auditorium 79 Highland Ave. Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/10/27/overnight-warming-center-informational-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_10_27_conservation-commission-meeting",
       "title": "Conservation Commission Meeting",
       "start": "2026-10-27T19:00:00-04:00",
@@ -28731,15 +28716,15 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_10_27_overnight-warming-center-informational-meeting",
-      "title": "Overnight Warming Center Informational Meeting",
-      "start": "2026-10-27T19:00:00-04:00",
-      "date": "2026-10-27",
-      "time": "7:00 PM",
-      "location": "Central Library Auditorium 79 Highland Ave. Somerville , MA 02143 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/10/27/overnight-warming-center-informational-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "occur_id": "2026_10_28_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-10-28T18:00:00-04:00",
+      "date": "2026-10-28",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/28/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1456713&GUID=6A4BCF2C-E2C5-44CF-8174-28C05D8A99BF",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
@@ -28759,6 +28744,21 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_Gdgp2pKORfuy0deG41JaGg",
       "has_livestream": false,
       "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_10_29_land-use-committee-meeting",
+      "title": "Land Use Committee Meeting",
+      "start": "2026-10-29T18:30:00-04:00",
+      "date": "2026-10-29",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/29/land-use-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455128&GUID=C46C40D4-3A42-474F-9267-98A12ECA5FBB",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
