@@ -28446,21 +28446,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_10_26_condominium-review-board-meeting",
-      "title": "Condominium Review Board Meeting",
-      "start": "2026-10-26T18:00:00-04:00",
-      "date": "2026-10-26",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/26/condominium-review-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/condo-review-20261026-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_0SHfICkxSNaUbvDdzh2QwQ",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_10_26_sustainability-and-infrastructure-committee-meeting",
       "title": "Sustainability and Infrastructure Committee Meeting",
       "start": "2026-10-26T18:00:00-04:00",
@@ -28472,6 +28457,21 @@
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_10_26_condominium-review-board-meeting",
+      "title": "Condominium Review Board Meeting",
+      "start": "2026-10-26T18:00:00-04:00",
+      "date": "2026-10-26",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/26/condominium-review-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/condo-review-20261026-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_0SHfICkxSNaUbvDdzh2QwQ",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -28491,21 +28491,6 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_10_27_legislative-matters-committee-meeting",
-      "title": "Legislative Matters Committee Meeting",
-      "start": "2026-10-27T18:00:00-04:00",
-      "date": "2026-10-27",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/27/legislative-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455127&GUID=0D98CB18-0C8E-405C-BB3D-098845EC710B",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_10_27_urban-design-commission-meeting",
       "title": "Urban Design Commission Meeting",
       "start": "2026-10-27T18:00:00-04:00",
@@ -28519,6 +28504,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_10_27_legislative-matters-committee-meeting",
+      "title": "Legislative Matters Committee Meeting",
+      "start": "2026-10-27T18:00:00-04:00",
+      "date": "2026-10-27",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/27/legislative-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455127&GUID=0D98CB18-0C8E-405C-BB3D-098845EC710B",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_27_conservation-commission-meeting",
@@ -28581,6 +28581,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_10_28_human-rights-commission-meeting",
+      "title": "Human Rights Commission Meeting",
+      "start": "2026-10-28T18:30:00-04:00",
+      "date": "2026-10-28",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/28/human-rights-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/human-rights-20261028-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/83410533254",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_10_28_community-preservation-committee-meeting",
       "title": "Community Preservation Committee Meeting",
       "start": "2026-10-28T18:30:00-04:00",
@@ -28608,7 +28623,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_02_school-building-committee-meeting-virtual",
@@ -28684,6 +28699,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_05_land-use-committee-meeting",
+      "title": "Land Use Committee Meeting",
+      "start": "2026-11-05T18:30:00-05:00",
+      "date": "2026-11-05",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/05/land-use-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455129&GUID=E0549479-3FBB-4A1C-8DD6-BFC708747EA2",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }
