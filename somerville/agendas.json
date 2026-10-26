@@ -28521,21 +28521,6 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_10_27_conservation-commission-meeting",
-      "title": "Conservation Commission Meeting",
-      "start": "2026-10-27T19:00:00-04:00",
-      "date": "2026-10-27",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/27/conservation-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/conservation-20261027-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_VOyvktK0SSSjgfxwtJVicA",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_10_27_overnight-warming-center-informational-meeting",
       "title": "Overnight Warming Center Informational Meeting",
       "start": "2026-10-27T19:00:00-04:00",
@@ -28549,6 +28534,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_10_27_conservation-commission-meeting",
+      "title": "Conservation Commission Meeting",
+      "start": "2026-10-27T19:00:00-04:00",
+      "date": "2026-10-27",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/10/27/conservation-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/conservation-20261027-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_VOyvktK0SSSjgfxwtJVicA",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_28_metro-boston-homeland-security-regions-jpoc-meeting",
@@ -28578,7 +28578,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_10_28_community-preservation-committee-meeting",
@@ -28714,6 +28714,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_09_traffic-and-parking-committee-meeting",
+      "title": "Traffic and Parking Committee Meeting",
+      "start": "2026-11-09T18:00:00-05:00",
+      "date": "2026-11-09",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/09/traffic-and-parking-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455130&GUID=67892919-0ED8-4FA4-9958-7FFA2DA9217D",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
