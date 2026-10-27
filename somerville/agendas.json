@@ -28446,36 +28446,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_10_26_sustainability-and-infrastructure-committee-meeting",
-      "title": "Sustainability and Infrastructure Committee Meeting",
-      "start": "2026-10-26T18:00:00-04:00",
-      "date": "2026-10-26",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/26/sustainability-and-infrastructure-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1452107&GUID=CD192A31-2EA4-4A1B-9373-527E372B8C26",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_10_26_condominium-review-board-meeting",
-      "title": "Condominium Review Board Meeting",
-      "start": "2026-10-26T18:00:00-04:00",
-      "date": "2026-10-26",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/26/condominium-review-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/condo-review-20261026-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_0SHfICkxSNaUbvDdzh2QwQ",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_10_27_mystic-regional-emergency-planning-committee-meeting",
       "title": "Mystic Regional Emergency Planning Committee Meeting",
       "start": "2026-10-27T08:00:00-04:00",
@@ -28656,21 +28626,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_11_04_zoning-board-appeals-meeting",
-      "title": "Zoning Board of Appeals Meeting",
-      "start": "2026-11-04T18:00:00-05:00",
-      "date": "2026-11-04",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/04/zoning-board-appeals-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_4_RF8otESIiC3djdb3NR2Q",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_11_04_school-committee-finance-and-facilities-subcommittee-meeting",
       "title": "School Committee Finance and Facilities Subcommittee Meeting",
       "start": "2026-11-04T18:00:00-05:00",
@@ -28682,6 +28637,21 @@
       "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_04_zoning-board-appeals-meeting",
+      "title": "Zoning Board of Appeals Meeting",
+      "start": "2026-11-04T18:00:00-05:00",
+      "date": "2026-11-04",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/04/zoning-board-appeals-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_4_RF8otESIiC3djdb3NR2Q",
       "has_livestream": false,
       "pipeline_status": "missing"
     },
@@ -28729,6 +28699,51 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_10_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-11-10T18:00:00-05:00",
+      "date": "2026-11-10",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/urban-design-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_10_legislative-matters-committee-meeting",
+      "title": "Legislative Matters Committee Meeting",
+      "start": "2026-11-10T18:00:00-05:00",
+      "date": "2026-11-10",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/legislative-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455131&GUID=0D0721D4-AFF1-4947-B669-62A9043B68E1",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_10_public-health-and-public-safety-committee-meeting",
+      "title": "Public Health and Public Safety Committee Meeting",
+      "start": "2026-11-10T18:30:00-05:00",
+      "date": "2026-11-10",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/public-health-and-public-safety-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1457274&GUID=F2575CEC-E2E0-4031-BC4B-7D62DF785C2C",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }

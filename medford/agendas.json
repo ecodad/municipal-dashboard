@@ -18672,6 +18672,66 @@
       "zoom_url": "https://zoom.us/j/96236192680",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "7624",
+      "title": "Traffic Commission Meeting",
+      "start": "2026-11-10T17:00:00-05:00",
+      "date": "2026-11-10",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/7624",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "12016",
+      "title": "Community Preservation Committee Meeting",
+      "start": "2026-11-10T18:30:00-05:00",
+      "date": "2026-11-10",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/12016",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "26591",
+      "title": "City Council Meeting",
+      "start": "2026-11-10T19:00:00-05:00",
+      "date": "2026-11-10",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26591",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "19010",
+      "title": "Community Garden Commission Meeting",
+      "start": "2026-11-10T19:00:00-05:00",
+      "date": "2026-11-10",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/19010",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
