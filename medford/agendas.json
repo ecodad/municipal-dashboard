@@ -18509,36 +18509,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "28024",
-      "title": "Community Preservation Committee Meeting",
-      "start": "2026-10-27T18:30:00-04:00",
-      "date": "2026-10-27",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28024",
-      "agenda_url": "https://drive.google.com/file/d/1Pp7toNN_rdso_E7oO4hNMjb1m5OFpJBx/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/85954896952",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "28023",
-      "title": "City Council Meeting",
-      "start": "2026-10-27T19:00:00-04:00",
-      "date": "2026-10-27",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28023",
-      "agenda_url": "https://drive.google.com/file/d/1uOn0HhjLgAd7Jh5Ykz6K4l7lA_QHLuGR/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/89448594899?pwd=pf0lQdwBBj2MIRGRahyww3GwmPow7m.1",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "28022",
       "title": "Commission for Persons with Disabilities Meeting",
       "start": "2026-10-28T17:30:00-04:00",
