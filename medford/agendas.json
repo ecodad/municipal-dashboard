@@ -18509,36 +18509,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "28022",
-      "title": "Commission for Persons with Disabilities Meeting",
-      "start": "2026-10-28T17:30:00-04:00",
-      "date": "2026-10-28",
-      "time": "5:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28022",
-      "agenda_url": "https://drive.google.com/file/d/1-JanT6Ph5Bktux7UdC-0brs-u3pOKAku/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/i/84227088731?pwd20917X17EikWUCOaCFNvpvueARlb19n.1",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "18145",
-      "title": "Bicycle Advisory Commission Meeting",
-      "start": "2026-10-28T19:00:00-04:00",
-      "date": "2026-10-28",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18145",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/87538063188",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "27849",
       "title": "Retirement Board Meeting",
       "start": "2026-10-29T09:30:00-04:00",
@@ -18700,6 +18670,21 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/j/81781079697#success",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "17048",
+      "title": "Historic District Commission Meeting",
+      "start": "2026-11-12T18:00:00-05:00",
+      "date": "2026-11-12",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/17048",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     }

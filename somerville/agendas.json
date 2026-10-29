@@ -28446,66 +28446,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_10_28_metro-boston-homeland-security-regions-jpoc-meeting",
-      "title": "Metro Boston Homeland Security Region's JPOC Meeting",
-      "start": "2026-10-28T11:30:00-04:00",
-      "date": "2026-10-28",
-      "time": "11:30 AM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/28/metro-boston-homeland-security-regions-jpoc-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_10_28_finance-committee-meeting",
-      "title": "Finance Committee Meeting",
-      "start": "2026-10-28T18:00:00-04:00",
-      "date": "2026-10-28",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/28/finance-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1456713&GUID=6A4BCF2C-E2C5-44CF-8174-28C05D8A99BF",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_10_28_human-rights-commission-meeting",
-      "title": "Human Rights Commission Meeting",
-      "start": "2026-10-28T18:30:00-04:00",
-      "date": "2026-10-28",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/28/human-rights-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/human-rights-20261028-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/83410533254",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_10_28_community-preservation-committee-meeting",
-      "title": "Community Preservation Committee Meeting",
-      "start": "2026-10-28T18:30:00-04:00",
-      "date": "2026-10-28",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/10/28/community-preservation-committee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/community-preservation-20261028-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_Gdgp2pKORfuy0deG41JaGg",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_10_29_land-use-committee-meeting",
       "title": "Land Use Committee Meeting",
       "start": "2026-10-29T18:30:00-04:00",
@@ -28549,6 +28489,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_03_traffic-commission-meeting",
+      "title": "Traffic Commission Meeting",
+      "start": "2026-11-03T17:30:00-05:00",
+      "date": "2026-11-03",
+      "time": "5:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/03/traffic-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/traffic-commission-20261103-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_0c8AQK1vTUSDaA7nr-iZ7g",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_04_zoning-board-appeals-meeting",
@@ -28611,6 +28566,21 @@
       "pipeline_status": "downloaded"
     },
     {
+      "occur_id": "2026_11_09_retirement-board-meeting",
+      "title": "Retirement Board Meeting",
+      "start": "2026-11-09T09:00:00-05:00",
+      "date": "2026-11-09",
+      "time": "9:00 AM",
+      "location": "Conference Room 323 Broadway Somerville , MA 02145 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/11/09/retirement-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/retirement-20261109-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://zoom.us/j/91312174046",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_11_09_traffic-and-parking-committee-meeting",
       "title": "Traffic and Parking Committee Meeting",
       "start": "2026-11-09T18:00:00-05:00",
@@ -28669,6 +28639,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_12_city-council-meeting",
+      "title": "City Council Meeting",
+      "start": "2026-11-12T19:00:00-05:00",
+      "date": "2026-11-12",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/12/city-council-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1454176&GUID=892284FD-0662-49B7-B7BF-7EBE8DCF68A5",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
