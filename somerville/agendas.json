@@ -28611,21 +28611,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_11_10_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-11-10T18:00:00-05:00",
-      "date": "2026-11-10",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/10/urban-design-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_11_10_legislative-matters-committee-meeting",
       "title": "Legislative Matters Committee Meeting",
       "start": "2026-11-10T18:00:00-05:00",
@@ -28635,6 +28620,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/11/10/legislative-matters-committee-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455131&GUID=0D0721D4-AFF1-4947-B669-62A9043B68E1",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_10_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-11-10T18:00:00-05:00",
+      "date": "2026-11-10",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/urban-design-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
