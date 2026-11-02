@@ -28626,6 +28626,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_11_10_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-11-10T18:00:00-05:00",
+      "date": "2026-11-10",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/urban-design-commission-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_11_10_public-health-and-public-safety-committee-meeting",
       "title": "Public Health and Public Safety Committee Meeting",
       "start": "2026-11-10T18:30:00-05:00",
@@ -28665,6 +28680,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/11/12/city-council-meeting",
       "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1454176&GUID=892284FD-0662-49B7-B7BF-7EBE8DCF68A5",
       "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_16_school-committee-regular-meeting",
+      "title": "School Committee Regular Meeting",
+      "start": "2026-11-16T19:00:00-05:00",
+      "date": "2026-11-16",
+      "time": "7:00 PM",
+      "location": "Somerville City Hall, City Council Chambers 93 Highland Ave. Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/11/16/school-committee-regular-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
