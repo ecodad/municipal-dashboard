@@ -18509,36 +18509,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "28092",
-      "title": "Special Meeting of the Medford City Council",
-      "start": "2026-11-02T17:00:00-05:00",
-      "date": "2026-11-02",
-      "time": "5:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28092",
-      "agenda_url": "https://drive.google.com/file/d/13h3oYK6AgJ8YaWmsrGHtSMwbWG2aH43v/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/88096720349?pwd=DGpiH0SzBa8CR8ckh3s5nJvwopkjCM.1",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "23801",
-      "title": "Energy & Environment Committee Meeting",
-      "start": "2026-11-02T18:30:00-05:00",
-      "date": "2026-11-02",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/23801",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "27719",
       "title": "Oak Grove Cemetery Meeting",
       "start": "2026-11-03T19:00:00-05:00",
@@ -18569,19 +18539,19 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "18404",
+      "occur_id": "28154",
       "title": "Affordable Housing Trust Board Meeting",
       "start": "2026-11-04T18:00:00-05:00",
       "date": "2026-11-04",
       "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/18404",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28154",
+      "agenda_url": "https://drive.google.com/file/d/1Fvvh-Vz6Q52fB6xmWgTiRW0ed_v67zL6/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89975995529",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "24617",
@@ -18591,12 +18561,12 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24617",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://drive.google.com/file/d/1YQYNRybnsc6AZ0_09uOJz0Nxloth1PPg/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/95629298475",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "11290",
@@ -18681,6 +18651,21 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/17048",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "26592",
+      "title": "City Council Meeting",
+      "start": "2026-11-17T19:00:00-05:00",
+      "date": "2026-11-17",
+      "time": "7:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26592",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
