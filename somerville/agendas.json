@@ -28446,36 +28446,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_11_03_human-rights-commission-rights-violations-subcommittee-meeting",
-      "title": "Human Rights Commission Rights Violations Subcommittee Meeting",
-      "start": "2026-11-03T16:00:00-05:00",
-      "date": "2026-11-03",
-      "time": "4:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/03/human-rights-commission-rights-violations-subcommittee-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/human-rights-20261103-violations-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/81881874859?pwd=QtMp26GC2HHzNR6ZIfDpjb0pgGdghh.1",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_11_03_traffic-commission-meeting",
-      "title": "Traffic Commission Meeting",
-      "start": "2026-11-03T17:30:00-05:00",
-      "date": "2026-11-03",
-      "time": "5:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/03/traffic-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/traffic-commission-20261103-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_0c8AQK1vTUSDaA7nr-iZ7g",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_11_04_redevelopment-authority-meeting",
       "title": "Redevelopment Authority Meeting",
       "start": "2026-11-04T17:30:00-05:00",
@@ -28551,6 +28521,21 @@
       "pipeline_status": "downloaded"
     },
     {
+      "occur_id": "2026_11_05_bicycle-advisory-committee-meeting",
+      "title": "Bicycle Advisory Committee Meeting",
+      "start": "2026-11-05T18:30:00-05:00",
+      "date": "2026-11-05",
+      "time": "6:30 PM",
+      "location": "Tufts Administration Building, Room 211N 167 Holland St. Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/11/05/bicycle-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/bicycle-advisory-20261105-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/88663457054?pwd=ubKHWtba9GmGFAd9Ya1sSd11eDxown.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_11_05_land-use-committee-meeting",
       "title": "Land Use Committee Meeting",
       "start": "2026-11-05T18:30:00-05:00",
@@ -28593,7 +28578,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_10_urban-design-commission-meeting",
@@ -28671,6 +28656,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_11_16_confirmation-appointments-and-personnel-matters-committee-meeting",
+      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
+      "start": "2026-11-16T18:00:00-05:00",
+      "date": "2026-11-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/16/confirmation-appointments-and-personnel-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1461602&GUID=B33E8883-A6BD-4F81-8415-2157057BED4C",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_11_16_school-committee-regular-meeting",
       "title": "School Committee Regular Meeting",
       "start": "2026-11-16T19:00:00-05:00",
@@ -28680,6 +28680,21 @@
       "detail_url": "https://www.somervillema.gov/events/2026/11/16/school-committee-regular-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_17_school-building-facilities-and-maintenance-committee-meeting",
+      "title": "School Building Facilities and Maintenance Committee Meeting",
+      "start": "2026-11-17T18:00:00-05:00",
+      "date": "2026-11-17",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/17/school-building-facilities-and-maintenance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1452108&GUID=23232D73-DBD0-42A9-AFC6-1EA39588E31A",
+      "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
