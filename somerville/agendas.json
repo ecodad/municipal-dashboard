@@ -28446,21 +28446,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_11_06_council-aging-board-meeting",
-      "title": "Council on Aging Board Meeting",
-      "start": "2026-11-06T11:00:00-05:00",
-      "date": "2026-11-06",
-      "time": "11:00 AM",
-      "location": "Holland Street Senior Center 167 Holland Street Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/11/06/council-aging-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/council-on-aging-20261106-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_11_09_retirement-board-meeting",
       "title": "Retirement Board Meeting",
       "start": "2026-11-09T09:00:00-05:00",
@@ -28491,6 +28476,21 @@
       "pipeline_status": "downloaded"
     },
     {
+      "occur_id": "2026_11_10_armory-advisory-board-meeting",
+      "title": "Armory Advisory Board Meeting",
+      "start": "2026-11-10T17:00:00-05:00",
+      "date": "2026-11-10",
+      "time": "5:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/armory-advisory-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/armory-20261110-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_oeN1wUiZQAmxiSbDSn3JSg",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_11_10_review-multiple-member-bodies-committee-meeting",
       "title": "Review of Multiple-Member Bodies Committee Meeting",
       "start": "2026-11-10T17:15:00-05:00",
@@ -28513,12 +28513,12 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/11/10/urban-design-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/urban-design-20261110-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_-qBXz1AhSE6lfgoDDT_-wA",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_10_legislative-matters-committee-meeting",
@@ -28536,21 +28536,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_11_10_public-health-and-public-safety-committee-meeting",
-      "title": "Public Health and Public Safety Committee Meeting",
-      "start": "2026-11-10T18:30:00-05:00",
-      "date": "2026-11-10",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/10/public-health-and-public-safety-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1457274&GUID=F2575CEC-E2E0-4031-BC4B-7D62DF785C2C",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_11_10_climate-action-commission-meeting",
       "title": "Climate Action Commission Meeting",
       "start": "2026-11-10T18:30:00-05:00",
@@ -28562,6 +28547,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_eyihdcPcTjObNDT6gMifrw",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_10_public-health-and-public-safety-committee-meeting",
+      "title": "Public Health and Public Safety Committee Meeting",
+      "start": "2026-11-10T18:30:00-05:00",
+      "date": "2026-11-10",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/public-health-and-public-safety-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1457274&GUID=F2575CEC-E2E0-4031-BC4B-7D62DF785C2C",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -28592,6 +28592,21 @@
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_16_neighborhood-meeting-20-innerbelt",
+      "title": "Neighborhood Meeting: 20 Innerbelt",
+      "start": "2026-11-16T18:00:00-05:00",
+      "date": "2026-11-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/16/neighborhood-meeting-20-innerbelt",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/85607000848?pwd=O5ZBpwrZDeIFErzWnbcb7yKA6i4yqe.1",
       "has_livestream": false,
       "pipeline_status": "missing"
     },
@@ -28699,6 +28714,36 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_19_urban-forestry-committee-meeting",
+      "title": "Urban Forestry Committee Meeting",
+      "start": "2026-11-19T16:30:00-05:00",
+      "date": "2026-11-19",
+      "time": "4:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/19/urban-forestry-committee-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_19_planning-board-meeting",
+      "title": "Planning Board Meeting",
+      "start": "2026-11-19T18:00:00-05:00",
+      "date": "2026-11-19",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/19/planning-board-meeting",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
