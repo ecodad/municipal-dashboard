@@ -28506,21 +28506,6 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_11_10_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-11-10T18:00:00-05:00",
-      "date": "2026-11-10",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/10/urban-design-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/urban-design-20261110-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_-qBXz1AhSE6lfgoDDT_-wA",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_11_10_legislative-matters-committee-meeting",
       "title": "Legislative Matters Committee Meeting",
       "start": "2026-11-10T18:00:00-05:00",
@@ -28536,17 +28521,17 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_11_10_climate-action-commission-meeting",
-      "title": "Climate Action Commission Meeting",
-      "start": "2026-11-10T18:30:00-05:00",
+      "occur_id": "2026_11_10_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-11-10T18:00:00-05:00",
       "date": "2026-11-10",
-      "time": "6:30 PM",
-      "location": "Tufts Administration Building, Suite 211 167 Holland St Somerville , MA 02144 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/11/10/climate-action-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/climate-action-20261110-agenda.pdf",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/urban-design-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/urban-design-20261110-agenda.pdf",
       "agenda_type": "S3",
       "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_eyihdcPcTjObNDT6gMifrw",
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_-qBXz1AhSE6lfgoDDT_-wA",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -28562,6 +28547,21 @@
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_10_climate-action-commission-meeting",
+      "title": "Climate Action Commission Meeting",
+      "start": "2026-11-10T18:30:00-05:00",
+      "date": "2026-11-10",
+      "time": "6:30 PM",
+      "location": "Tufts Administration Building, Suite 211 167 Holland St Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/climate-action-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/climate-action-20261110-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_eyihdcPcTjObNDT6gMifrw",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -28596,21 +28596,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_11_16_neighborhood-meeting-20-innerbelt",
-      "title": "Neighborhood Meeting: 20 Innerbelt",
-      "start": "2026-11-16T18:00:00-05:00",
-      "date": "2026-11-16",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/16/neighborhood-meeting-20-innerbelt",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/j/85607000848?pwd=O5ZBpwrZDeIFErzWnbcb7yKA6i4yqe.1",
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_11_16_confirmation-appointments-and-personnel-matters-committee-meeting",
       "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
       "start": "2026-11-16T18:00:00-05:00",
@@ -28624,6 +28609,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_16_neighborhood-meeting-20-innerbelt",
+      "title": "Neighborhood Meeting: 20 Innerbelt",
+      "start": "2026-11-16T18:00:00-05:00",
+      "date": "2026-11-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/16/neighborhood-meeting-20-innerbelt",
+      "agenda_url": null,
+      "agenda_type": "MISSING",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/85607000848?pwd=O5ZBpwrZDeIFErzWnbcb7yKA6i4yqe.1",
+      "has_livestream": false,
+      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_11_16_school-committee-regular-meeting",
@@ -28731,6 +28731,21 @@
       "pipeline_status": "missing"
     },
     {
+      "occur_id": "2026_11_19_finance-committee-meeting",
+      "title": "Finance Committee Meeting",
+      "start": "2026-11-19T18:00:00-05:00",
+      "date": "2026-11-19",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/19/finance-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1461277&GUID=30BA1D0A-BD0C-4202-BAB4-1DE772D0F484",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
       "occur_id": "2026_11_19_planning-board-meeting",
       "title": "Planning Board Meeting",
       "start": "2026-11-19T18:00:00-05:00",
@@ -28744,6 +28759,36 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_19_land-use-committee-meeting",
+      "title": "Land Use Committee Meeting",
+      "start": "2026-11-19T18:30:00-05:00",
+      "date": "2026-11-19",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/19/land-use-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455132&GUID=B26C6F43-DF25-4234-BFB1-40336A603FB8",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_19_municipal-job-creation-and-retention-board-trustees-meeting",
+      "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
+      "start": "2026-11-19T18:30:00-05:00",
+      "date": "2026-11-19",
+      "time": "6:30 PM",
+      "location": "Atrium Conference Room, Conference Room 2, Suite 211 167 Holland St Somerville , MA 02144 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/11/19/municipal-job-creation-and-retention-board-trustees-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/job-creation-and-retention-20261119-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_zN03Ek3-TTa9AHD9qV5X4A",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }
