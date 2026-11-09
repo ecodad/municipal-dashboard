@@ -28506,21 +28506,6 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_11_10_legislative-matters-committee-meeting",
-      "title": "Legislative Matters Committee Meeting",
-      "start": "2026-11-10T18:00:00-05:00",
-      "date": "2026-11-10",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/10/legislative-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455131&GUID=0D0721D4-AFF1-4947-B669-62A9043B68E1",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_11_10_urban-design-commission-meeting",
       "title": "Urban Design Commission Meeting",
       "start": "2026-11-10T18:00:00-05:00",
@@ -28536,19 +28521,19 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_11_10_public-health-and-public-safety-committee-meeting",
-      "title": "Public Health and Public Safety Committee Meeting",
-      "start": "2026-11-10T18:30:00-05:00",
+      "occur_id": "2026_11_10_legislative-matters-committee-meeting",
+      "title": "Legislative Matters Committee Meeting",
+      "start": "2026-11-10T18:00:00-05:00",
       "date": "2026-11-10",
-      "time": "6:30 PM",
+      "time": "6:00 PM",
       "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/10/public-health-and-public-safety-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1457274&GUID=F2575CEC-E2E0-4031-BC4B-7D62DF785C2C",
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/legislative-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455131&GUID=0D0721D4-AFF1-4947-B669-62A9043B68E1",
       "agenda_type": "LEGISTAR",
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "downloaded"
+      "pipeline_status": "missing"
     },
     {
       "occur_id": "2026_11_10_climate-action-commission-meeting",
@@ -28562,6 +28547,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_eyihdcPcTjObNDT6gMifrw",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_10_public-health-and-public-safety-committee-meeting",
+      "title": "Public Health and Public Safety Committee Meeting",
+      "start": "2026-11-10T18:30:00-05:00",
+      "date": "2026-11-10",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/public-health-and-public-safety-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1457274&GUID=F2575CEC-E2E0-4031-BC4B-7D62DF785C2C",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
@@ -28701,21 +28701,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_11_18_licenses-and-permits-committee-meeting",
-      "title": "Licenses and Permits Committee Meeting",
-      "start": "2026-11-18T18:00:00-05:00",
-      "date": "2026-11-18",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/18/licenses-and-permits-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1459974&GUID=A03E4C31-6C32-4BC5-94CE-318CC496AE92",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_11_19_urban-forestry-committee-meeting",
       "title": "Urban Forestry Committee Meeting",
       "start": "2026-11-19T16:30:00-05:00",
@@ -28761,21 +28746,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_11_19_land-use-committee-meeting",
-      "title": "Land Use Committee Meeting",
-      "start": "2026-11-19T18:30:00-05:00",
-      "date": "2026-11-19",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/19/land-use-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455132&GUID=B26C6F43-DF25-4234-BFB1-40336A603FB8",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_11_19_municipal-job-creation-and-retention-board-trustees-meeting",
       "title": "Municipal Job Creation and Retention Board of Trustees Meeting",
       "start": "2026-11-19T18:30:00-05:00",
@@ -28789,6 +28759,21 @@
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_zN03Ek3-TTa9AHD9qV5X4A",
       "has_livestream": false,
       "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_19_land-use-committee-meeting",
+      "title": "Land Use Committee Meeting",
+      "start": "2026-11-19T18:30:00-05:00",
+      "date": "2026-11-19",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/19/land-use-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455132&GUID=B26C6F43-DF25-4234-BFB1-40336A603FB8",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "missing"
     }
   ]
 }
