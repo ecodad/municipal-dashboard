@@ -18509,51 +18509,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "27419",
-      "title": "Medford School Committee Meeting",
-      "start": "2026-11-09T18:00:00-05:00",
-      "date": "2026-11-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27419",
-      "agenda_url": "https://drive.google.com/file/d/1u0aiSqUF49eQl_0Fp6ifqH8AVQY_g5w3/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://mps02155-org.zoom.us/j/96608874674?pwd=cMHd1IutZXnQn7P2z3t4Lbd6QS8ULF.1#success",
-      "has_livestream": true,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "28162",
-      "title": "Medford Energy & Environment Committee Meeting",
-      "start": "2026-11-09T18:30:00-05:00",
-      "date": "2026-11-09",
-      "time": "6:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28162",
-      "agenda_url": "https://drive.google.com/file/d/1H8eDlBVoiEL_KPv65lCKpfLHSwAesfbf/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://us06web.zoom.us/j/84450454952",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "28226",
-      "title": "Historical Commission Meeting",
-      "start": "2026-11-09T19:00:00-05:00",
-      "date": "2026-11-09",
-      "time": "7:00 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28226",
-      "agenda_url": "https://drive.google.com/file/d/1a-BeXsh94iZrW39Y0mvrZCTPXop21Fba/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": true,
-      "zoom_url": "https://zoom.us/j/96236192680",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "28290",
       "title": "Traffic Commission Meeting",
       "start": "2026-11-10T17:00:00-05:00",
@@ -18614,13 +18569,13 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "17048",
-      "title": "Historic District Commission Meeting",
-      "start": "2026-11-12T18:00:00-05:00",
-      "date": "2026-11-12",
-      "time": "6:00 PM",
+      "occur_id": "28416",
+      "title": "Medford High School Building Committee Meeting",
+      "start": "2026-11-16T18:30:00-05:00",
+      "date": "2026-11-16",
+      "time": "6:30 PM",
       "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/17048",
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28416",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -18687,6 +18642,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "28482",
+      "title": "Historic District Commission Meeting",
+      "start": "2026-11-19T18:00:00-05:00",
+      "date": "2026-11-19",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28482",
+      "agenda_url": "https://drive.google.com/file/d/1VQ5OGqwkYfgK42fQBQlf9D-ah4A6088q/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89507419732",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }

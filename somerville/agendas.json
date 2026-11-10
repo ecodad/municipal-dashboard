@@ -28446,36 +28446,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_11_09_retirement-board-meeting",
-      "title": "Retirement Board Meeting",
-      "start": "2026-11-09T09:00:00-05:00",
-      "date": "2026-11-09",
-      "time": "9:00 AM",
-      "location": "Conference Room 323 Broadway Somerville , MA 02145 United States",
-      "detail_url": "https://www.somervillema.gov/events/2026/11/09/retirement-board-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-10/retirement-20261109-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://zoom.us/j/91312174046",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_11_09_traffic-and-parking-committee-meeting",
-      "title": "Traffic and Parking Committee Meeting",
-      "start": "2026-11-09T18:00:00-05:00",
-      "date": "2026-11-09",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/09/traffic-and-parking-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1455130&GUID=67892919-0ED8-4FA4-9958-7FFA2DA9217D",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_11_10_armory-advisory-board-meeting",
       "title": "Armory Advisory Board Meeting",
       "start": "2026-11-10T17:00:00-05:00",
@@ -28506,21 +28476,6 @@
       "pipeline_status": "downloaded"
     },
     {
-      "occur_id": "2026_11_10_urban-design-commission-meeting",
-      "title": "Urban Design Commission Meeting",
-      "start": "2026-11-10T18:00:00-05:00",
-      "date": "2026-11-10",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/10/urban-design-commission-meeting",
-      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/urban-design-20261110-agenda.pdf",
-      "agenda_type": "S3",
-      "has_zoom": true,
-      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_-qBXz1AhSE6lfgoDDT_-wA",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_11_10_legislative-matters-committee-meeting",
       "title": "Legislative Matters Committee Meeting",
       "start": "2026-11-10T18:00:00-05:00",
@@ -28534,6 +28489,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_10_urban-design-commission-meeting",
+      "title": "Urban Design Commission Meeting",
+      "start": "2026-11-10T18:00:00-05:00",
+      "date": "2026-11-10",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/10/urban-design-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/urban-design-20261110-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_-qBXz1AhSE6lfgoDDT_-wA",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_10_climate-action-commission-meeting",
@@ -28593,21 +28563,6 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_11_16_confirmation-appointments-and-personnel-matters-committee-meeting",
-      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
-      "start": "2026-11-16T18:00:00-05:00",
-      "date": "2026-11-16",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/16/confirmation-appointments-and-personnel-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1461602&GUID=B33E8883-A6BD-4F81-8415-2157057BED4C",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
       "pipeline_status": "downloaded"
     },
     {
@@ -28624,6 +28579,21 @@
       "zoom_url": "https://us02web.zoom.us/j/85607000848?pwd=O5ZBpwrZDeIFErzWnbcb7yKA6i4yqe.1",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_16_confirmation-appointments-and-personnel-matters-committee-meeting",
+      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
+      "start": "2026-11-16T18:00:00-05:00",
+      "date": "2026-11-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/16/confirmation-appointments-and-personnel-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1461602&GUID=B33E8883-A6BD-4F81-8415-2157057BED4C",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_16_school-committee-regular-meeting",
@@ -28671,21 +28641,6 @@
       "pipeline_status": "missing"
     },
     {
-      "occur_id": "2026_11_18_legislative-matters-committee-meeting",
-      "title": "Legislative Matters Committee Meeting",
-      "start": "2026-11-18T18:00:00-05:00",
-      "date": "2026-11-18",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/18/legislative-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1457476&GUID=3E50E2BD-146E-46E2-BCBA-F655C6F4F71E",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
       "occur_id": "2026_11_18_zoning-board-appeals-meeting",
       "title": "Zoning Board of Appeals Meeting",
       "start": "2026-11-18T18:00:00-05:00",
@@ -28697,6 +28652,36 @@
       "agenda_type": "MISSING",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_y-06vC5DQmaCWK-D1oESbw",
+      "has_livestream": false,
+      "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_18_licenses-and-permits-committee-meeting",
+      "title": "Licenses and Permits Committee Meeting",
+      "start": "2026-11-18T18:00:00-05:00",
+      "date": "2026-11-18",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/18/licenses-and-permits-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1459974&GUID=A03E4C31-6C32-4BC5-94CE-318CC496AE92",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_18_legislative-matters-committee-meeting",
+      "title": "Legislative Matters Committee Meeting",
+      "start": "2026-11-18T18:00:00-05:00",
+      "date": "2026-11-18",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/18/legislative-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1457476&GUID=3E50E2BD-146E-46E2-BCBA-F655C6F4F71E",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
     },
@@ -28757,6 +28742,21 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_zN03Ek3-TTa9AHD9qV5X4A",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_19_pedestrian-and-transit-advisory-committee-meeting",
+      "title": "Pedestrian and Transit Advisory Committee Meeting",
+      "start": "2026-11-19T18:30:00-05:00",
+      "date": "2026-11-19",
+      "time": "6:30 PM",
+      "location": "101 South Street Somerville , MA 02143 United States",
+      "detail_url": "https://www.somervillema.gov/events/2026/11/19/pedestrian-and-transit-advisory-committee-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/pedestrian-transit-advisory-20261119-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/89181225932?pwd=aWpoL2FtaUh3aGdVbHNRWUJmeDRNQT09",
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
