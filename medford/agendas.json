@@ -18509,21 +18509,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "28497",
-      "title": "Election Commission Meeting",
-      "start": "2026-11-13T12:30:00-05:00",
-      "date": "2026-11-13",
-      "time": "12:30 PM",
-      "location": null,
-      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28497",
-      "agenda_url": "https://drive.google.com/file/d/1cYvfnojgIDO3RKtBrgpa2v5OggKZ5RyB/view?usp=sharing",
-      "agenda_type": "GOOGLE_DRIVE_FILE",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "28416",
       "title": "Medford High School Building Committee Meeting",
       "start": "2026-11-16T18:30:00-05:00",
@@ -18531,12 +18516,27 @@
       "time": "6:30 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28416",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://drive.google.com/file/d/1Eur3a3bn6B12cYx_X7-TbSYMvTPGFSNL/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://mps02155-org.zoom.us/j/97992034610?pwd=SfYl2SYN68imj2sKNtpZxNSjDpmTdD.1#success",
+      "has_livestream": true,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "28501",
+      "title": "Board of Health Meeting",
+      "start": "2026-11-17T12:30:00-05:00",
+      "date": "2026-11-17",
+      "time": "12:30 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28501",
+      "agenda_url": "https://docs.google.com/document/d/1zXt2r43vW0bbZ_GvFdEUM38VsD6uzC8X/edit?usp=sharing&ouid=101072951732054968420&rtpof=true&sd=true",
+      "agenda_type": "GOOGLE_DOC",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/82560624094?pwd=7sEXpscELp4CBtjHbV9TA86jicUuBb.1",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "28163",
@@ -18561,12 +18561,27 @@
       "time": "7:00 PM",
       "location": null,
       "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26592",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
+      "agenda_url": "https://drive.google.com/file/d/1_4OW63UznUeVglYlysFiJx7lr7d75Jiu/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/88944053920?pwd=XvlpsbzsUKgCmlXqvSfq4n2FwuQ5do.1",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "28500",
+      "title": "Public Works and Facilities Committee Meeting",
+      "start": "2026-11-18T18:00:00-05:00",
+      "date": "2026-11-18",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28500",
+      "agenda_url": "https://drive.google.com/file/d/1-NmpaGuBDu3XCs9XOmlpYh7mrtsPNxhl/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": true,
+      "zoom_url": "https://us06web.zoom.us/j/89930051914?pwd=liYGDJHqeTThHyXMRIz13eu1H3ImqL.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "16871",

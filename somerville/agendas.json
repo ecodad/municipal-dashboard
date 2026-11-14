@@ -28558,12 +28558,12 @@
       "time": "6:45 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/11/17/historic-preservation-commission-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/historic-preservation-20261117-agenda.pdf",
+      "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_mRoijL2OQKaQ_4wsLkQsFA",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_18_metro-boston-homeland-security-region-planning-and-community-preparedness",
@@ -28593,7 +28593,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_18_zoning-board-appeals-meeting",
@@ -28603,12 +28603,12 @@
       "time": "6:00 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/11/18/zoning-board-appeals-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/zoning-20261118-agenda.pdf",
+      "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_y-06vC5DQmaCWK-D1oESbw",
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_18_licenses-and-permits-committee-meeting",
@@ -28626,6 +28626,36 @@
       "pipeline_status": "downloaded"
     },
     {
+      "occur_id": "2026_11_18_human-rights-commission-meeting",
+      "title": "Human Rights Commission Meeting",
+      "start": "2026-11-18T18:30:00-05:00",
+      "date": "2026-11-18",
+      "time": "6:30 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/18/human-rights-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/human-rights-commission-20261118-agenda_1.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/83844466784?pwd=GwPvXcKfm9xGEzWlOWsCNYUBRl7OYc.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
+      "occur_id": "2026_11_19_fair-housing-commission-meeting",
+      "title": "Fair Housing Commission Meeting",
+      "start": "2026-11-19T16:00:00-05:00",
+      "date": "2026-11-19",
+      "time": "4:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/19/fair-housing-commission-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/fair-housing-20261119-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/j/84366060730?pwd=0SMvhRoEaXsOG8buso38tpLxScuaRh.1",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
+    },
+    {
       "occur_id": "2026_11_19_urban-forestry-committee-meeting",
       "title": "Urban Forestry Committee Meeting",
       "start": "2026-11-19T16:30:00-05:00",
@@ -28633,21 +28663,6 @@
       "time": "4:30 PM",
       "location": null,
       "detail_url": "https://www.somervillema.gov/events/2026/11/19/urban-forestry-committee-meeting",
-      "agenda_url": null,
-      "agenda_type": "MISSING",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "missing"
-    },
-    {
-      "occur_id": "2026_11_19_planning-board-meeting",
-      "title": "Planning Board Meeting",
-      "start": "2026-11-19T18:00:00-05:00",
-      "date": "2026-11-19",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/19/planning-board-meeting",
       "agenda_url": null,
       "agenda_type": "MISSING",
       "has_zoom": false,
@@ -28669,6 +28684,21 @@
       "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_19_planning-board-meeting",
+      "title": "Planning Board Meeting",
+      "start": "2026-11-19T18:00:00-05:00",
+      "date": "2026-11-19",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/19/planning-board-meeting",
+      "agenda_url": "https://s3.amazonaws.com/somervillema-live/s3fs-public/2026-11/planning-20261119-agenda.pdf",
+      "agenda_type": "S3",
+      "has_zoom": true,
+      "zoom_url": "https://us02web.zoom.us/webinar/register/WN_X8U3gA0gTECou1ksRpYRoA",
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_19_pedestrian-and-transit-advisory-committee-meeting",
@@ -28698,7 +28728,7 @@
       "has_zoom": false,
       "zoom_url": null,
       "has_livestream": false,
-      "pipeline_status": "missing"
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_19_municipal-job-creation-and-retention-board-trustees-meeting",
