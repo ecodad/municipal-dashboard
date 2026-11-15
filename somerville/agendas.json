@@ -28446,21 +28446,6 @@
   ],
   "window_meetings": [
     {
-      "occur_id": "2026_11_16_confirmation-appointments-and-personnel-matters-committee-meeting",
-      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
-      "start": "2026-11-16T18:00:00-05:00",
-      "date": "2026-11-16",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/16/confirmation-appointments-and-personnel-matters-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1461602&GUID=B33E8883-A6BD-4F81-8415-2157057BED4C",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
       "occur_id": "2026_11_16_neighborhood-meeting-20-innerbelt",
       "title": "Neighborhood Meeting: 20 Innerbelt",
       "start": "2026-11-16T18:00:00-05:00",
@@ -28474,6 +28459,21 @@
       "zoom_url": "https://us02web.zoom.us/j/85607000848?pwd=O5ZBpwrZDeIFErzWnbcb7yKA6i4yqe.1",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "2026_11_16_confirmation-appointments-and-personnel-matters-committee-meeting",
+      "title": "Confirmation of Appointments and Personnel Matters Committee Meeting",
+      "start": "2026-11-16T18:00:00-05:00",
+      "date": "2026-11-16",
+      "time": "6:00 PM",
+      "location": null,
+      "detail_url": "https://www.somervillema.gov/events/2026/11/16/confirmation-appointments-and-personnel-matters-committee-meeting",
+      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1461602&GUID=B33E8883-A6BD-4F81-8415-2157057BED4C",
+      "agenda_type": "LEGISTAR",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     },
     {
       "occur_id": "2026_11_16_school-committee-regular-meeting",
@@ -28607,21 +28607,6 @@
       "agenda_type": "S3",
       "has_zoom": true,
       "zoom_url": "https://us02web.zoom.us/webinar/register/WN_y-06vC5DQmaCWK-D1oESbw",
-      "has_livestream": false,
-      "pipeline_status": "downloaded"
-    },
-    {
-      "occur_id": "2026_11_18_licenses-and-permits-committee-meeting",
-      "title": "Licenses and Permits Committee Meeting",
-      "start": "2026-11-18T18:00:00-05:00",
-      "date": "2026-11-18",
-      "time": "6:00 PM",
-      "location": null,
-      "detail_url": "https://www.somervillema.gov/events/2026/11/18/licenses-and-permits-committee-meeting",
-      "agenda_url": "https://somervillema.legistar.com/Gateway.aspx?M=MD&From=RSS&ID=1459974&GUID=A03E4C31-6C32-4BC5-94CE-318CC496AE92",
-      "agenda_type": "LEGISTAR",
-      "has_zoom": false,
-      "zoom_url": null,
       "has_livestream": false,
       "pipeline_status": "downloaded"
     },
