@@ -18642,6 +18642,21 @@
       "zoom_url": "https://us06web.zoom.us/j/87538063188",
       "has_livestream": false,
       "pipeline_status": "missing"
+    },
+    {
+      "occur_id": "28498",
+      "title": "Retirement Board Meeting",
+      "start": "2026-11-30T09:30:00-05:00",
+      "date": "2026-11-30",
+      "time": "9:30 AM",
+      "location": null,
+      "detail_url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28498",
+      "agenda_url": "https://drive.google.com/file/d/16sAIK2631isBXdq0Q9Y6YLClUdFQqxa0/view?usp=sharing",
+      "agenda_type": "GOOGLE_DRIVE_FILE",
+      "has_zoom": false,
+      "zoom_url": null,
+      "has_livestream": false,
+      "pipeline_status": "downloaded"
     }
   ]
 }
